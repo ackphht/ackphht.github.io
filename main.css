@@ -1,0 +1,14 @@
+section.main { margin:1em; }
+div.tab-pane { padding:1em; border:solid 1px #ddd; border-top-width:0; }
+h1 { font-size:24px; }
+table { border-collapse:collapse; border:solid 1px #ddd; }
+td { padding:5px; border:solid 1px #ddd; }
+img.icon { width:16px; height:16px; }
+
+div.wrapper { display: inline; }
+div.url { padding: 3px; display: inline; }
+div.icon { padding-left:22px; background-size: 16px 16px; background-position: left center; background-repeat: no-repeat; }
+div.wrapper div.icon { margin-left: 3px; }
+div.wrapper:first-child div.icon { margin-left: 0; }
+div.wrapper:before { content: " | "; }
+div.wrapper:first-child:before { content: ""; }
