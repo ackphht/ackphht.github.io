@@ -40,7 +40,7 @@ jre8,8.0.31.0,exe,TRUE,,http://javadl.sun.com/webapps/download/AutoDL?BundleId=1
 KDiff3,0.9.98,exe,,,http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-32bit-Setup_0.9.98-3.exe/download,http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-64bit-Setup_0.9.98-2.exe/download,,,9d7ec4fb0e2b83a321cb77ce47c86fd42fc8ec2b,4b7358aec8de6a3e719065fce37dd966c92ed3d4,,,,,
 KeePass2,2.28.0.0,exe,,,http://downloads.sourceforge.net/project/keepass/KeePass%202.x/2.28/KeePass-2.28-Setup.exe,,,,CDCDB6F86112D2A7A5B7094B7C49A30FDB2D280C,,,"about to install KeePass: if it's running already, you'll need to stop it",done installing KeePass: can restart it now,/SILENT,
 Lastpass,3.1.50,exe,,,https://lastpass.com/download/cdn/lastpass.exe,https://lastpass.com/download/cdn/lastpass_x64.exe,,,,,,,,,
-LinkShellExtension,3.8.6.0,exe,,,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe,,,,,,installing LinkShellExtension: will need to kill explorer and restart it,,/S /Language=English,
+LinkShellExtension,3.8.6.0,exe,,,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe,,,,,,installing LinkShellExtension: should kill explorer now,done installing LinkShellExtension: can restart explorer now,/S /Language=English,
 lmms,1.1.0.0,exe,,,https://github.com/LMMS/lmms/releases/download/v1.1.0/lmms-1.1.0-win32.exe,https://github.com/LMMS/lmms/releases/download/v1.1.0/lmms-1.1.0-win64.exe,,,,,,,,,
 MarkdownPad2,2.5.0.0,exe,,,http://markdownpad.com/download/markdownpad2-setup.exe,,,,,,,,,,
 MediaMonkey,4.1.5.1719,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,,,
