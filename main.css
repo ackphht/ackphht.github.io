@@ -1,3 +1,13 @@
+/*
+html, body {
+	position:relative;
+	height:100%;
+}
+*/
+body {
+	/*padding-top: 50px;*/
+	/*padding-bottom: 20px;*/
+}
 section.main { margin:1em; }
 div.tab-pane { padding:1em; border:solid 1px #ddd; border-top-width:0; }
 h1 { font-size:24px; }
@@ -12,3 +22,19 @@ div.wrapper div.icon { margin-left: 3px; }
 div.wrapper:first-child div.icon { margin-left: 0; }
 div.wrapper:before { content: " | "; }
 div.wrapper:first-child:before { content: ""; }
+/*
+#wrapper {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 5em;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color:white;
+	background-color:#333333;
+	padding:1em;
+}
+*/
