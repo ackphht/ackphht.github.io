@@ -19,7 +19,7 @@ DotNet40,4.0.0.20110221,exe,,,http://download.microsoft.com/download/1/B/E/1BE39
 DotNet45,4.5.2.20140506,exe,,,http://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,
 Fiddler4,4.4.9.8,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
 FileMenuTools,6.6.0.0,exe,,,http://www.lopesoft.com/en/filemenutools/download?download=1:filemenutools,,,,,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
-FileZilla,3.10.1.0,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.10.1/FileZilla_3.10.1_win32-setup.exe/download?nowrap,,,,ce7ed8a7053beb33f26309af0350fc285d891093d367ebda0855881ca6f9a17f8e4e4242fb19c18d4240081e43537222e873d5002f2f1bb0d14d42c8e93ea4e6,,,,,/S,
+FileZilla,3.10.1.1,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.10.1.1/FileZilla_3.10.1.1_win32-setup.exe/download?nowrap,,,,3b24e89b4d8e4a1be48754643bda9b9567ca11f49e8cae42917eea2a9d345a2f3f6f4e31b8b69084d20c0cc1789059a6d834332430e7cdbc4c25c4e42f0d056f,,,,,/S,
 FlashPlayerPlugin,16.0.0.296,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_plugin.msi,,,,,,,,,/quiet /norestart REMOVE_PREVIOUS=YES,
 FlashPlayerPluginAX,16.0.0.296,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_16_active_x.msi,,,,,,,,,/quiet /norestart REMOVE_PREVIOUS=YES,
 foobar2000,1.3.7,exe,,,,,"http://www.foobar2000.org/download
@@ -59,7 +59,7 @@ python3,3.4.2,msi,,,https://www.python.org/ftp/python/3.4.2/python-3.4.2.msi,htt
 QTTabBar,0.1024.0,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1024.zip,,,,,,,installing QTTabBar: should kill explorer.exe to help the install,done installing QTTabBar: you can restart explorer.exe now,,
 Resharper,9.0.1.0,exe,,,http://download.jetbrains.com/resharper/ReSharperAndToolsPacked01Update1.exe,,,,,,,,,,
 ruby2,2.1.5,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5.exe?direct,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5-x64.exe?direct,,,eacd2526ef61fb73c0e642828675e94d,3aad5fbfe6bfcf9cf3237ed9f048b81f,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",
-Sigil,0.8.2,exe,,,https://github.com/user-none/Sigil/releases/download/0.8.2/Sigil-0.8.2-Windows-Setup.exe,https://github.com/user-none/Sigil/releases/download/0.8.1/Sigil-0.8.1-Windows-x64-Setup.exe,,,15fa5dcd2c964abe7b623c3a37d12703f782d63c713fe33aab5ec9674ef2087a,c70d6addd6f6339bef16cec90bd0d1ee235fca43c943ce676032d520afb47e7b,,,,,
+Sigil,0.8.4,exe,,,https://github.com/user-none/Sigil/releases/download/0.8.4/Sigil-0.8.4-Windows-Setup.exe,https://github.com/user-none/Sigil/releases/download/0.8.4/Sigil-0.8.4-Windows-x64-Setup.exe,,,fb62be26ad364706a31c6a6d1faa3eb7f93d8cdb2fd22ef96435c2951a83f893,628c51619b5edd0823eeef81a2e097717e09e824c1a91a576fe146b56790623c,,,,,
 SilverLight,5.1.30514.0,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.30514.0,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,,,,,,,,,,
 Speccy,1.28.709,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
