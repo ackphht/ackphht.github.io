@@ -10,7 +10,7 @@ AutoHotkey,1.1.19.02,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"
 BingDesktop,1.3.470.0,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,
 calibre,2.18.0,msi,,,http://download.calibre-ebook.com/2.18.0/calibre-2.18.0.msi,http://download.calibre-ebook.com/2.18.0/calibre-64bit-2.18.0.msi,,,,,,,,,
 ConEmu,15.02.03.0,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v15.02.03/ConEmuSetup.150203.exe,,,,,,,,,,
-cygwin,2.859.0.0,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,
+cygwin,2.867.0.0,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,
 DebugDiag,2.1.0.7,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,
 Defraggler,2.18.945.0,exe,,,http://download.piriform.com/dfsetup218.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,
 DiffMerge,4.2.0,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/quiet,
