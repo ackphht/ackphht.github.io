@@ -1,6 +1,6 @@
 Name,Version,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd
 7zip,9.38.0.0,msi,,,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938.msi/download,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938-x64.msi/download,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/quiet,
-AdobeDigitalEditions,4.0.2,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.0_Installer.exe,,,,,,,,,,
+AdobeDigitalEditions,4.0.3,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.0_Installer.exe,,,,,,,,,,
 AndroidSDK,24.0.2,exe,,,http://dl.google.com/android/installer_r24.0.2-windows.exe,,,,edac14e1541e97d68821fa3a709b4ea8c659e676,,,,,,
 AndroidStudioFull,1.0.1.1641136,exe,,,https://dl.google.com/dl/android/studio/install/1.0.1/android-studio-bundle-135.1641136.exe,,,,1931dbaeadb52f5e0a8ba6e2ae60d9df20b2076b,,,,,,
 AndroidStudioIDE,1.0.1.1641136,exe,,,https://dl.google.com/dl/android/studio/install/1.0.1/android-studio-ide-135.1641136.exe,,,,464d1c5497ab3d1bdef441365791ab36c89cd5ae,,,,,,
@@ -51,6 +51,7 @@ msysgit,1.9.5.20141217,exe,,,https://github.com/msysgit/msysgit/releases/downloa
 MySqlCommunity,5.6.23.0,msi,,,http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.23.0.msi,,,,700c6f6b7ddcdb0da4e98dbd02d25500,,,,,,
 Notepad++,6.7.4.0,exe,,,http://download.tuxfamily.org/notepadplus/6.7.4/npp.6.7.4.Installer.exe,,,,,,,,,,
 notepad2,4.2.25.0,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
+OneNote,15.0.4689.1000,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
 P4Merge,2014.2.973065,exe,,,http://cdist2.perforce.com/perforce/r14.2/bin.ntx86/p4vinst.exe,http://cdist2.perforce.com/perforce/r14.2/bin.ntx64/p4vinst64.exe,,,,,,,,,
 Paint.net,4.0.5,zip,,paint.net.4.0.5.install.exe,http://www.dotpdn.com/files/paint.net.4.0.5.install.zip,,,,,,,,,,
 PowerGUI,3.8.0.129,msi,,,http://community-downloads.quest.com/powergui/Release/3.8/PowerGUI.3.8.0.129.msi,,,,,,,,,,
