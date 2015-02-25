@@ -49,6 +49,7 @@ Mercurial,3.3.0.0,exe,,,http://mercurial.selenic.com/release/windows/Mercurial-3
 MicrosoftMessageAnalyzer,1.2.0.0,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,,,,,,,
 msysgit,1.9.5.20141217,exe,,,https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20141217/Git-1.9.5-preview20141217.exe,,,,,,,,,/DIR=C:\tools\git,
 MySqlCommunity,5.6.23.0,msi,,,http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.23.0.msi,,,,700c6f6b7ddcdb0da4e98dbd02d25500,,,,,,
+nodejs,0.12.0.0,msi,,,http://nodejs.org/dist/v0.12.0/node-v0.12.0-x86.msi,http://nodejs.org/dist/v0.12.0/x64/node-v0.12.0-x64.msi,,,20d936afd83f819c92826afdc87815a3c96884d2,a34650db220cb1886bb497edb72474e83a4dbe77,,,,,
 Notepad++,6.7.4.0,exe,,,http://download.tuxfamily.org/notepadplus/6.7.4/npp.6.7.4.Installer.exe,,,,,,,,,,
 notepad2,4.2.25.0,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 OneNote,15.0.4689.1000,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
