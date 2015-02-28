@@ -87,7 +87,7 @@ VCRedist2013,12.0.30501.0,exe,TRUE,,http://download.microsoft.com/download/2/E/6
 VeraCrypt,1.0.6.2,exe,,,https://veracrypt.codeplex.com/downloads/get/1372345,,,,,,,,,,
 VirtualBox,4.3.22,exe,,,http://download.virtualbox.org/virtualbox/4.3.22/VirtualBox-4.3.22-98236-Win.exe,,,,e7ceaa590dc10b1b62f961b9d832ad899a4fc3c4c4aa33f832a53a36ad600bd3,,,,,,
 VirtualBoxExtensions,4.3.22,other,,,http://download.virtualbox.org/virtualbox/4.3.22/Oracle_VM_VirtualBox_Extension_Pack-4.3.22-98236.vbox-extpack,,,,6ba0d2f46143505f4bf8843538f773a030752c5f2f368bf862f14c9fca234c96,,,,,,
-vlc,2.1.5,exe,,,http://download.videolan.org/pub/videolan/vlc/last/win32/vlc-2.1.5-win32.exe,http://download.videolan.org/pub/videolan/vlc/last/win64/vlc-2.1.5-win64.exe,,,bc5e2b879c110c7702973fa3c380550ea2856689,1991536db1e3fc4bec54ca1daf0068bd80b2439c,,,,,
+vlc,2.2.0,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.0/win32/vlc-2.2.0-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.0/win64/vlc-2.2.0-win64.exe,,,560497a560eaf13ad46489b9239487401e575548,d84551a882cf601e3171c515d05338c2e1db36fd,,,,,
 VMWarePlayer,7.1.0.2496824,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-7.1.0-2496824.exe,,,,77834aa6db5eb129825abe57330b85bb3761e2f1,,,,,
 VS2013Community,12.0.4.0,exe,,,http://download.microsoft.com/download/7/1/B/71BA74D8-B9A0-4E6C-9159-A8335D54437E/vs_community.exe,,,,,,,,,,
 VS2013Premium,12.0.4.0,exe,,,http://download.microsoft.com/download/0/D/3/0D316453-32A1-4042-A5B6-30B14A4C24AA/vs_premium.exe,,,,,,,,,,
