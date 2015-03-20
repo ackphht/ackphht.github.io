@@ -49,7 +49,7 @@ MarkdownPad2,2.5.0.0,exe,,,http://markdownpad.com/download/markdownpad2-setup.ex
 MediaMonkey,4.1.6.1736,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,,,
 Mercurial,3.3.2.0,exe,,,http://mercurial.selenic.com/release/windows/Mercurial-3.3.2.exe,http://mercurial.selenic.com/release/windows/Mercurial-3.3.2-x64.exe,,,,,,,,/DIR=C:\tools\hg,
 MicrosoftMessageAnalyzer,1.2.0.0,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,,,,,,,
-msysgit,1.9.5.20141217,exe,,,https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20141217/Git-1.9.5-preview20141217.exe,,,,,,,,,/DIR=C:\tools\git,
+msysgit,1.9.5.20150319,exe,,,https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/Git-1.9.5-preview20150319.exe,,,,,,,,,/DIR=C:\tools\git,
 MySqlCommunity,5.6.23.0,msi,,,http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.23.0.msi,,,,700c6f6b7ddcdb0da4e98dbd02d25500,,,,,,
 nodejs,0.12.0.0,msi,,,http://nodejs.org/dist/v0.12.0/node-v0.12.0-x86.msi,http://nodejs.org/dist/v0.12.0/x64/node-v0.12.0-x64.msi,,,20d936afd83f819c92826afdc87815a3c96884d2,a34650db220cb1886bb497edb72474e83a4dbe77,,,,/passive INSTALLDIR=C:\tools\nodejs,
 Notepad++,6.7.5.0,exe,,,http://dl.notepad-plus-plus.org/downloads/6.x/6.7.5/npp.6.7.5.Installer.exe,,,,fa59a8ca4a7b016a102f7d2f4b28e4dd02f4d225,,,,,,
