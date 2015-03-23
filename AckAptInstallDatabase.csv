@@ -17,7 +17,7 @@ DiffMerge,4.2.0,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerg
 digestIt,3.1.2004,msi,,,http://www.colonywest.us/versions/download.php?release_id=2,http://www.colonywest.us/versions/download.php?release_id=3,,,,,,,,/passive,
 DotNet40,4.0.0.20110221,exe,,,http://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe,,,,,,,,,,
 DotNet45,4.5.2.20140506,exe,,,http://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,
-Fiddler4,4.4.9.9,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
+Fiddler4,4.5.0.0,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
 FileMenuTools,6.7.1.0,exe,,,http://www.lopesoft.com/en/filemenutools/download?download=1:filemenutools,,,,,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.10.2.0,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.10.2/FileZilla_3.10.2_win32-setup.exe/download?nowrap,,,,6d34a3ab4c9c571152f878070ef38ebd27dedf4176aaeddd3ac1ef3fe05499f97c30c2a4f85b7f315f4de4aa84e1e238ad9eefdeb69a9e1f7da456b2ca6dd95a,,,,,/S,
 FlashPlayerPlugin,17.0.0.134,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_17_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
