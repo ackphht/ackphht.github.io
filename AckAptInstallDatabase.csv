@@ -1,6 +1,7 @@
 Name,Version,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd
 7zip,9.38.0.0,msi,,,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938.msi/download,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938-x64.msi/download,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/quiet,
 AdobeDigitalEditions,4.0.3,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.0_Installer.exe,,,,,,,,,,
+AdobeReader,11.0.10.0,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AndroidSDK,24.1.2,exe,,,http://dl.google.com/android/installer_r24.1.2-windows.exe,,,,e0ec864efa0e7449db2d7ed069c03b1f4d36f0cd,,,,,,
 AndroidStudioFull,1.1.0.1740770,exe,,,https://dl.google.com/dl/android/studio/install/1.1.0/android-studio-bundle-135.1740770-windows.exe,,,,7484b9989d2914e1de30995fbaa97a271a514b3f,,,,,,
 AndroidStudioIDE,1.1.0.1740770,exe,,,https://dl.google.com/dl/android/studio/install/1.1.0/android-studio-ide-135.1740770-windows.exe,,,,5ea77661cd2300cea09e8e34f4a2219a0813911f,,,,,,
@@ -9,7 +10,7 @@ AudioShell,2.3.1.0,exe,,,http://softpointer.com/downloads/AudioShell231.exe,,,,,
 AutoHotkey,1.1.21.2,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,
 BingDesktop,1.3.470.0,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,
 calibre,2.23.0.0,msi,,,http://download.calibre-ebook.com/2.23.0/calibre-2.23.0.msi,http://download.calibre-ebook.com/2.23.0/calibre-64bit-2.23.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
-ConEmu,15.04.05.0,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v15.04.05/ConEmuSetup.150405.exe,,,,,,,,,,
+ConEmu,15.04.08.0,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v15.04.08/ConEmuSetup.150408.exe,,,,,,,,,,
 cygwin,2.870.0.0,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,
 DebugDiag,2.1.0.7,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,
 Defraggler,2.19.982.0,exe,,,http://download.piriform.com/dfsetup219.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,
@@ -25,7 +26,7 @@ FlashPlayerPluginAX,17.0.0.134,msi,,,http://download.macromedia.com/get/flashpla
 foobar2000,1.3.8.0,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
-FoxitReader,7.1.3.0320,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.1/en_us/FoxitReader713.0320_prom_enu_Setup.exe,,,,,,,,,,
+FoxitReader,7.1.3.320,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.1/en_us/FoxitReader713.0320_prom_enu_Setup.exe,,,,,,,,,,
 FreeDownloadManager,3.9.4.1485,exe,,,http://files2.freedownloadmanager.org/fdminst.exe,,,,,,,,,,
 Freemind,1.0.1,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,
 gimp,2.8.14.1,exe,,,http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe,,,,9a6f7af81b4ea15b89089a723fc25ec3,,,,,,
