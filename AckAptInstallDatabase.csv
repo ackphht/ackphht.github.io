@@ -54,7 +54,7 @@ MicrosoftMessageAnalyzer,1.2.0.0,msi,,,http://download.microsoft.com/download/2/
 msysgit,1.9.5.20150319,exe,,,https://github.com/msysgit/msysgit/releases/download/Git-1.9.5-preview20150319/Git-1.9.5-preview20150319.exe,,,,,,,,,/DIR=C:\tools\git,
 MySqlCommunity,5.6.24.0,msi,,,http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.24.0.msi,,,,b698c38e5ac95aa3b9276d45c8bf2e01,,,,,,
 nodejs,0.12.3.0,msi,,,http://nodejs.org/dist/v0.12.3/node-v0.12.3-x86.msi,http://nodejs.org/dist/v0.12.3/x64/node-v0.12.3-x64.msi,,,410d37d74775bf0401b06ecc01f71d181c9c99e6,3677034221eeb300d7cd0cf2aaf3d172ab05fd11,,,,/passive INSTALLDIR=C:\tools\nodejs,
-Notepad++,6.7.7.0,exe,,,http://notepad-plus-plus.org/repository/6.x/6.7.7/npp.6.7.7.Installer.exe,,,,b138965610e745881c573a971dc207fa77f0df6d,,,,,,
+Notepad++,6.7.8.0,exe,,,https://notepad-plus-plus.org/repository/6.x/6.7.8/npp.6.7.8.Installer.exe,,,,49b7199731bbf660a141d29f6f934c316b274f1b,,,,,,
 notepad2,4.2.25.0,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 OneNote,15.0.4689.1000,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
 Paint.net,4.0.5,zip,,paint.net.4.0.5.install.exe,http://www.dotpdn.com/files/paint.net.4.0.5.install.zip,,,,,,,,,,
