@@ -2,7 +2,7 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 7zip,9.38.0.0,,msi,,,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938.msi/download,http://sourceforge.net/projects/sevenzip/files/7-Zip/9.38/7z938-x64.msi/download,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/quiet,
 AdobeDigitalEditions,4.0.3.114137,,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.0_Installer.exe,,,,,,,,,,
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
-AndroidSDK,24.2.0.0,,exe,,,http://dl.google.com/android/installer_r24.2-windows.exe,,,,e764ea93aa72766737f9be3b9fb3e42d879ab599,,,,,,
+AndroidSDK,24.3.2.0,,exe,,,http://dl.google.com/android/installer_r24.3.2-windows.exe,,,,8f9d0ae9fdb37973ed62d6e93975ff375beb5542,,,,,,
 AndroidStudioFull,1.2.2.1980579,,exe,,,https://dl.google.com/dl/android/studio/install/1.2.2.0/android-studio-bundle-141.1980579-windows.exe,,,,964959e5165e90aaf693e868d5d1c2f7b38e8754,,,,,,
 AndroidStudioIDE,1.2.2.1980579,,exe,,,https://dl.google.com/dl/android/studio/install/1.2.2.0/android-studio-ide-141.1980579-windows.exe,,,,ae09797db2537afb572a00b7eacc292bb66d539e,,,,,,
 Audacity,2.1.0.0,,exe,,,http://sourceforge.net/projects/audacity/files/audacity/2.1.0/audacity-win-2.1.0.exe/download,,,,,,,,,,
