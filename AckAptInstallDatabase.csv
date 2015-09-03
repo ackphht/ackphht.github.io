@@ -74,7 +74,7 @@ ruby2,2.2.2.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-
 Sigil,0.8.7.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.8.7/Sigil-0.8.7-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.8.7/Sigil-0.8.7-Windows-x64-Setup.exe,,,786bd0aea41f95d66c48fcea35a73e0292895dfe36622e77add91484623f61dc,22b4b29ef8ab5f3c985c554b59a2e114837ce7ba3ced9b9874113015072de44c,,,,,
 SilverLight,5.1.40728.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.40728.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
-SourceTree,1.6.14.0,,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.6.14.exe,,,,,,,,,,
+SourceTree,1.6.20.0,,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.6.20.exe,,,,,,,,,,
 Speccy,1.28.709,,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
 SqlServer2012Express,11.0.2100.60,,exe,,,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe,,,,,,,,,
 SqlServer2014Express,12.0.4100.1,"with SP1
