@@ -26,8 +26,8 @@ DotNet46,4.6.0.20150710,,exe,,,http://download.microsoft.com/download/1/4/A/14A6
 Fiddler4,4.6.0.5,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
 FileMenuTools,6.8.0.0,,exe,,,http://www.lopesoft.com/en/filemenutools/download?download=1:filemenutools,,,,,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.14.0.0,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.14.0/FileZilla_3.14.0_win32-setup.exe/download?nowrap,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.14.0/FileZilla_3.14.0_win64-setup.exe/download?nowrap,,,d8b3c29332ebfc6ae0dbe296eb317fdd12c19819d46853ad92ef52ac5cbdb7c9edbd8384732af8fca5fb41a35afacec5ac11be9c275795378090224f5146230c,59fdec9ee55dfc20f1f2bdef8546fe906653e6dec77ef44662965798cd9fb5d1deaf4a1a26dbc236e34ce837b8ce5d976808462329821df8e4e5cd869d57c1ab,,,,/S,
-FlashPlayerPlugin,19.0.0.185,,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_19_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
-FlashPlayerPluginAX,19.0.0.185,,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_19_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPlugin,19.0.0.207,,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_19_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPluginAX,19.0.0.207,,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_19_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
 foobar2000,1.3.8.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
