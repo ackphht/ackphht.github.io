@@ -31,7 +31,7 @@ FlashPlayerPluginAX,19.0.0.226,,msi,,,http://download.macromedia.com/get/flashpl
 foobar2000,1.3.8.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
-FoxitReader,7.2.0.722,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.2/en_us/FoxitReader720.0722_prom_enu_Setup.exe,,,,,,,,,,
+FoxitReader,7.2.2.0929,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.2/en_us/FoxitReader722.0929_enu_Setup.exe,,,,,,,,,,
 FreeDownloadManager,3.9.5.1537,,exe,,,http://f0.freedownloadmanager.org/fdminst.exe,,,,,,,,,,
 Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,
 gimp,2.8.14.1,,exe,,,http://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.14-setup-1.exe,,,,9a6f7af81b4ea15b89089a723fc25ec3,,,,,/SP-,
@@ -59,7 +59,7 @@ Mercurial,3.5.2.0,,exe,,,http://mercurial.selenic.com/release/windows/Mercurial-
 MicrosoftMessageAnalyzer,1.2.0.0,,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,,,,,,,
 MySqlCommunity,5.6.27.0,,msi,,,http://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.6.27.0.msi,,,,,,,,,,
 nodejs,4.2.1.0,,msi,,,https://nodejs.org/dist/v4.2.1/node-v4.2.1-x86.msi,https://nodejs.org/dist/v4.2.1/node-v4.2.1-x64.msi,,,df70335dc34d48cf03c9074d84ff330f4d1fa0eb12b5225da91ad4f7c1835318,e460a71ea9aa4d743387a20319042de203de837cb613be0737b6ca368480302d,,,,/passive INSTALLDIR=C:\tools\nodejs,
-Notepad++,6.8.4.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.8.4/npp.6.8.4.Installer.exe,,,,e8bfca7a67c094f058e8aa289a88b87ffa678327,,,,,,
+Notepad++,6.8.5.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.8.5/npp.6.8.5.Installer.exe,,,,88024d292c6b15df8be0341cf338d6f2059d8771,,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 OneNote,15.0.4689.1000,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
 Paint.net,4.0.6.0,,zip,,paint.net.4.0.6.install.exe,http://www.dotpdn.com/files/paint.net.4.0.6.install.zip,,,,,,,,,,
