@@ -1,11 +1,11 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd
-7zip,15.11.0.0,,exe,,,http://7-zip.org/a/7z1511.exe,http://7-zip.org/a/7z1511-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
+7zip,15.12.0.0,,exe,,,http://www.7-zip.org/a/7z1512.exe,http://www.7-zip.org/a/7z1512-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
 AdobeDigitalEditions,4.5.0.0,,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AdobeReaderDC,2015.009.20069,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1500920069/AcroRdrDC1500920069_en_US.exe,,,,,,,,,,
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,
-AndroidStudioFull,1.4.1.2343393,,exe,,,https://dl.google.com/dl/android/studio/install/1.4.1.0/android-studio-bundle-141.2343393-windows.exe,,,,de9e6172533fa02051efabb9ed3a485995582e13,,,,,,
-AndroidStudioIDE,1.4.1.2343393,,exe,,,https://dl.google.com/dl/android/studio/install/1.4.1.0/android-studio-ide-141.2343393-windows.exe,,,,227160920052916e538512f8ccbf49296bb2b1f2,,,,,,
+AndroidStudioFull,1.5.0.2422023,,exe,,,https://dl.google.com/dl/android/studio/install/1.5.0.4/android-studio-bundle-141.2422023-windows.exe,,,,e44c0c7fe53ca8e8a6f3b9bdc7551c3b8ee41f30,,,,,,
+AndroidStudioIDE,1.5.0.2422023,,exe,,,https://dl.google.com/dl/android/studio/install/1.5.0.4/android-studio-ide-141.2422023-windows.exe,,,,41933764d0f6d232cf8c123974c80fd400f0e6ea,,,,,,
 Atom,1.0.0.0,github's fancy text editor,exe,,,https://atom.io/download/windows,,,,,,,,,,
 Audacity,2.1.1.0,,exe,,,,,"http://www.fosshub.com/Audacity.html/audacity-win-2.1.1.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
@@ -76,7 +76,7 @@ ruby2,2.2.3.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-
 Sigil,0.8.7.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.8.7/Sigil-0.8.7-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.8.7/Sigil-0.8.7-Windows-x64-Setup.exe,,,786bd0aea41f95d66c48fcea35a73e0292895dfe36622e77add91484623f61dc,22b4b29ef8ab5f3c985c554b59a2e114837ce7ba3ced9b9874113015072de44c,,,,,
 SilverLight,5.1.40728.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.40728.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
-SourceTree,1.6.22.0,https://www.sourcetreeapp.com/download/,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.6.22.exe,,,,,,,,,,
+SourceTree,1.6.23.0,https://www.sourcetreeapp.com/download/,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.6.23.exe,,,,,,,,,,
 Speccy,1.28.709,,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
 SqlServer2012Express,11.0.2100.60,,exe,,,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe,,,,,,,,,
 SqlServer2014Express,12.0.4100.1,"with SP1
