@@ -4,8 +4,8 @@ AdobeDigitalEditions,4.5.1.0,,exe,,,http://download.adobe.com/pub/adobe/digitale
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AdobeReaderDC,2015.010.20060,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1501020060/AcroRdrDC1501020060_en_US.exe,,,,,,,,,,
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,
-AndroidStudioFull,2.0.0.20,,exe,,,https://dl.google.com/dl/android/studio/install/2.0.0.20/android-studio-bundle-143.2739321-windows.exe,,,,c556debf40de6b5d6f6d65d169a64398e3380183,,,,,,
-AndroidStudioIDE,2.0.0.20,,exe,,,https://dl.google.com/dl/android/studio/install/2.0.0.20/android-studio-ide-143.2739321-windows.exe,,,,3e8c25bd7b7f3aa326f7b2a349c4d67c550d13ac,,,,,,
+AndroidStudioFull,2.1.0.9,,exe,,,https://dl.google.com/dl/android/studio/install/2.1.0.9/android-studio-bundle-143.2790544-windows.exe,,,,c6abe7980dbb7d1d9887f7341a2942c9e506f891,,,,,,
+AndroidStudioIDE,2.1.0.9,,exe,,,https://dl.google.com/dl/android/studio/install/2.1.0.9/android-studio-ide-143.2790544-windows.exe,,,,a2065ba737ddcfb96f4921fee6a038278f46d2a7,,,,,,
 Atom,1.0.0.0,github's fancy text editor,exe,,,https://atom.io/download/windows,,,,,,,,,,
 Audacity,2.1.2.0,,exe,,,,,"http://www.fosshub.com/Audacity.html/audacity-win-2.1.2.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
@@ -62,7 +62,7 @@ MediaMonkey,4.1.11.1783,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,
 Mercurial,3.7.3.0,,exe,,,http://mercurial.selenic.com/release/windows/Mercurial-3.7.3.exe,http://mercurial.selenic.com/release/windows/Mercurial-3.7.3-x64.exe,,,,,,,,/DIR=C:\tools\hg,
 MicrosoftMessageAnalyzer,1.4.1.0,https://technet.microsoft.com/en-us/library/jj649776.aspx,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,1ECFBA636839F19D458D555337571C306047D13D,46693308FD80139C65E6DA434CEC0ECAA21909E5,,,,,
 MySqlCommunity,5.7.12.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.12.0.msi,,,,41f91cb06fee869876806e52f21d6e29,,,,,,
-nodejs,5.11.0.0,,msi,,,https://nodejs.org/dist/v5.11.0/node-v5.11.0-x86.msi,https://nodejs.org/dist/v5.11.0/node-v5.11.0-x64.msi,,,51d7c57d2246d92fbeb325f3bb8b878452829e36edb57110b67e402913cdc194,5d4185ca686c32fad6d62fa2fcea13f437a04f1fbec2e4ec19998189941c472b,,,,INSTALLDIR=C:\tools\nodejs,
+nodejs,6.0.0.0,,msi,,,https://nodejs.org/dist/v6.0.0/node-v6.0.0-x86.msi,https://nodejs.org/dist/v6.0.0/node-v6.0.0-x64.msi,,,614380711039b7cc23db8d8cbf42ed9f4a6f0501eb8a143490f7ece952037bc9,933a15791a67a2740cbd082a8d9aebc43162ec6d4db335abf62121a9561c57d4,,,,INSTALLDIR=C:\tools\nodejs,
 Notepad++,6.9.1.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.9.1/npp.6.9.1.Installer.exe,,,,28d8a6ad14574f65c6e8e2005107a828f8c0e77b,,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 notepad2mod,4.2.25.972,https://github.com/XhmikosR/notepad2-mod,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.972/Notepad2-mod.4.2.25.972.exe,,,,,,,,,,
@@ -77,7 +77,7 @@ python35,3.5.1.0,,exe,,,https://www.python.org/ftp/python/3.5.1/python-3.5.1.exe
 QTTabBar,0.1038.0,,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip,,,,,,,installing QTTabBar: should kill explorer.exe to help the install,done installing QTTabBar: you can restart explorer.exe now,,
 Resharper,2016.1.0.0,"valid SpecificProductNames: dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;teamCityAddin;ReSharper
 valid VsVersions: 10;11;12;14;15",exe,,,https://download.jetbrains.com/resharper/JetBrains.ReSharperUltimate.2016.1.exe,,,,fb10c95e2f5379a59ef5bba1e48cb66e943bc2f840fa3aa7654c36c581d5c756,,,,,/VsVersion=11;12;14;15 /SpecificProductNames=ReSharper;dotPeek;dotCover;dotMemory;dotTrace;ReSharperCpp; /Silent=True,
-ruby2,2.2.4.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4.exe,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe,,,eb367eb63a15d9b594be97015da12cf3ef608a5abca125d0a24f537a8bf1f8ef,f600c3d1baff0dcf5fd86280e6e9c4703ceb9c641a7fef90fb551c8c6f5825fd,,,,"/dir=""C:\tools\ruby22"" /tasks=""assocfiles""",
+ruby2,2.3.0.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.0.exe,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.0-x64.exe,,,f7926dd87bc2f436ea1f407073a01ace38285818578a8764e2c1ec93aaead3c6,087a7e3404fc2892f7eae6e8d0a12de419d57a8a4d78bbcf95568cb75f086a99,,,,"/dir=""C:\tools\ruby22"" /tasks=""assocfiles""",
 Sigil,0.9.5.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.5/Sigil-0.9.5-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.5/Sigil-0.9.5-Windows-x64-Setup.exe,,,a0d45a73dcb24a8bf472170733727b670402dd579bbbab3e9f7a2e67b11aadd4,f852c71f7931fdd15ce5211fa3215ae4505d753a308fd52475358c6f4e51e32c,,,,,
 SilverLight,5.1.41212.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.41212.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
