@@ -28,8 +28,8 @@ https://www.microsoft.com/en-us/download/details.aspx?id=49978",exe,,,https://do
 Fiddler4,4.6.2.3,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
 FileMenuTools,7.0.5.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,fdf0011b2da1aee3b4046dbabff1e9d9,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.17.0.1,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.17.0.1/FileZilla_3.17.0.1_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.17.0.1/FileZilla_3.17.0.1_win64-setup.exe/download,,,288a1aef04e028d20443de7bbde1d7bb497e572496eecc3346dd406fa37146c0a6fdc85ba386b9d71f9a115ece1ec62445573bf48a3ae523298f142b99f66a8d,4d5e5d426af9dd689cb8c070d528c849719dc18544de194475bf3a0f5e35f8c9d449749fb2074a68292579b267ee2b23d1e2b31bae20d7185aa44061cca6981c,,,,/S,
-FlashPlayerPlugin,21.0.0.213,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_21_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
-FlashPlayerPluginAX,21.0.0.213,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_21_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPlugin,21.0.0.242,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_21_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPluginAX,21.0.0.242,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_21_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
 foobar2000,1.3.10.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
