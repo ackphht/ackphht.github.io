@@ -1,5 +1,5 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd
-7zip,16.0.0.0,,exe,,,http://7-zip.org/a/7z1600.exe,http://7-zip.org/a/7z1600-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
+7zip,16.0.1.0,,exe,,,http://7-zip.org/a/7z1601.exe,http://7-zip.org/a/7z1601-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
 AdobeDigitalEditions,4.5.1.0,,exe,,,http://download.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AdobeReaderDC,15.016.20039,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1501620039/AcroRdrDC1501620039_en_US.exe,,,,,,,,,,
