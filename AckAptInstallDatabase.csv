@@ -65,7 +65,7 @@ MySqlCommunity,5.7.13.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/my
 nodejs,6.2.1.0,,msi,,,https://nodejs.org/dist/v6.2.1/node-v6.2.1-x86.msi,https://nodejs.org/dist/v6.2.1/node-v6.2.1-x64.msi,,,8095a7c506ed1ada1599942ae2a8cb60909def15bc4d97c7dca51c3d02f046ec,528b7c2cb707e81df4d5e53ea3b8d8c32e71ab3ba7e2ee4993a4f44da6e353ba,,,,INSTALLDIR=C:\tools\nodejs,
 Notepad++,6.9.2.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.9.2/npp.6.9.2.Installer.exe,,,,6a54e0e8c8dbfca68abe3cbe66d99c66ced59cea,,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
-notepad2mod,4.2.25.972,https://github.com/XhmikosR/notepad2-mod,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.972/Notepad2-mod.4.2.25.972.exe,,,,,,,,,,
+notepad2mod,4.2.25.980,https://github.com/XhmikosR/notepad2-mod,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.980/Notepad2-mod.4.2.25.980.exe,,,,,,,,,,
 OneNote,15.0.4689.1000,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
 Paint.net,4.0.9.0,,zip,,paint.net.4.0.9.install.exe,http://www.dotpdn.com/files/paint.net.4.0.9.install.zip,,,,,,,,,,
 PostgreSQL,9.5.3.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows-x64.exe,,,,,,,,,
