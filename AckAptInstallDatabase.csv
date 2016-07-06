@@ -98,7 +98,7 @@ SyncBackSE,6.5.49.0,,exe,,,http://www.2brightsparks.com/assets/software/SyncBack
 TeamViewer,11.0.55321.0,,exe,,,http://download.teamviewer.com/download/TeamViewer_Setup_en.exe,,,,,,,,,,
 TrueCrypt,7.1.1.0,,exe,,,https://download.truecrypt.ch/current/TrueCrypt%20Setup%207.1a.exe,,,,,,,,,,
 UltraCompare,16.0.0.27,,exe,,,http://www.ultraedit.com/files/uc_english.exe,http://www.ultraedit.com/files/uc_english_64.exe,,,,,,,,,
-UltraEdit,23.10.0.1,,exe,,,http://www.ultraedit.com/files/ue_english.exe,http://www.ultraedit.com/files/ue_english_64.exe,,,,,"0,5",,,,
+UltraEdit,23.20.0.28,,exe,,,http://www.ultraedit.com/files/ue_english.exe,http://www.ultraedit.com/files/ue_english_64.exe,,,,,"0,5",,,,
 UltraSentry,15.0.10.0,,exe,,,http://www.ultraedit.com/files/us_english.exe,,,,,,,,,,
 URLRewrite2,7.2.1952.0,https://www.iis.net/downloads/microsoft/url-rewrite,msi,,,http://go.microsoft.com/fwlink/?LinkID=615138,http://go.microsoft.com/fwlink/?LinkID=615137,,,,,,,,,
 VCRedist2005,8.0.50727.763,,exe,TRUE,,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE,,,,,,,,/Q,
