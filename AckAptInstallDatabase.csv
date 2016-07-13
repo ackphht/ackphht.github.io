@@ -90,7 +90,7 @@ SqlServer2014LocalDb,12.0.4100.1,"with SP1
 http://go.microsoft.com/fwlink/?LinkID=524502",msi,,,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x86/SqlLocalDB.msi,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SqlLocalDB.msi,,,,,,,,,
 SqlServer2014MngmtStudio,12.0.4100.1,"with SP1
 http://go.microsoft.com/fwlink/?LinkID=524502",exe,,,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x86/SQLManagementStudio_x86_ENU.exe,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SQLManagementStudio_x64_ENU.exe,,,,,,,,,
-SqlServer2016MngmtStudio,13.0.15000.23,https://msdn.microsoft.com/library/mt238290.aspx,exe,,,http://go.microsoft.com/fwlink/?LinkID=799832,,,,,,,,,,
+SqlServer2016MngmtStudio,13.0.15500.91,https://msdn.microsoft.com/library/mt238290.aspx,exe,,,http://go.microsoft.com/fwlink/?LinkID=820751,,,,,,,,,,
 stellarium,0.14.3.0,,exe,,,http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.14.3/stellarium-0.14.3-win32.exe/download,http://sourceforge.net/projects/stellarium/files/Stellarium-win64/0.14.3/stellarium-0.14.3-win64.exe/download,,,,,,,,,
 stexbar,1.8.6,,msi,,,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar-1.8.6.msi/download,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar64-1.8.6.msi/download,,,,,,,,,
 SumatraPDF,3.1.0.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.1-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.1-64-install.exe,,,,,,,,,
