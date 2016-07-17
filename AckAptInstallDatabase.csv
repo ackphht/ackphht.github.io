@@ -34,9 +34,9 @@ foobar2000,1.3.10.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
 FoxitReader,7.2.8.1124,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/7.x/7.2/en_us/FoxitReader728.1124_prom_enu_Setup.exe,,,,,,,,,,
-FreeDownloadManager,3.9.7.1627,,exe,,,http://f0.freedownloadmanager.org/fdminst.exe,,,,,,,,,,
+FreeDownloadManager,5.1.15.0,,exe,,,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x86.exe,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x64.exe,,,,,,,,,
 Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,
-gimp,2.8.18.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.16-setup-6.exe,,,,e8d4c426fee9d7283dc9f7ede485a9807fc0e2c726d4faaea854411a15cb75d9,,,,,/SP-,
+gimp,2.8.18.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.18-setup.exe,,,,41e98ef75c2992acc9b481147bf3db35652a4c7e1da70bb06a2d2ec9a0853a2d,,,,,/SP-,
 gimp-help,2.8.2.0,,exe,,,https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe,,,,,,,,,,
 git,2.9.2.0,,exe,,,https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-32-bit.exe,https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-64-bit.exe,,,d8b5d67dc4859a05254f36e61dcc4bfcffd7e6201c940bb94fb2b502c5dd8e7c,006d971bcbe73cc8d841a100a4eb20d22e135142bf5b0f2120722fd420e166e5,,,,/DIR=C:\tools\git /SP-,
 GitKraken,1.4.1.0,https://www.gitkraken.com/download,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,,,,,,,,,,
