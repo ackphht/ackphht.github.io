@@ -70,7 +70,7 @@ OneNote,15.0.4689.1000,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.
 Paint.net,4.0.10.0,,zip,,paint.net.4.0.10.install.exe,http://www.dotpdn.com/files/paint.net.4.0.10.install.zip,,,,,,,,,,
 PostgreSQL,9.5.3.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows-x64.exe,,,,,,,,,
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,
-PyCharmCommunity,2016.1.4.1504,https://www.jetbrains.com/pycharm/download/index.html / current build: 145.1504,exe,,,https://download.jetbrains.com/python/pycharm-community-2016.1.4.exe,,,,e621bae1f009b62842f97f6e1560003d7f99c7621ed9c029ec4d65acce187b83,,,,,,
+PyCharmCommunity,2016.2.0.0,https://www.jetbrains.com/pycharm/download/index.html / current build: 162.1237.1,exe,,,https://download.jetbrains.com/python/pycharm-community-2016.2.exe,,,,45178580e7eeb83cfe7e11ca90ce1b41eddc7a3258c20a0f2fbfa900b6856ac3,,,,,,
 python27,2.7.12,,msi,,,https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi,https://www.python.org/ftp/python/2.7.12/python-2.7.12.amd64.msi,,,fe0ef5b8fd02722f32f7284324934f9d,8fa13925db87638aa472a3e794ca4ee3,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
 python34,3.4.3.0,,msi,,,https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi,https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi,,,cb450d1cc616bfc8f7a2d6bd88780bf6,f6ade29acaf8fcdc0463e69a6e7ccf87,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python34 ADDLOCAL=DefaultFeature,Tools,Extensions,TclTk,Documentation,pip_feature,Testsuite REMOVE=PrependPath",
 python35,3.5.2.0,,exe,,,https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe,https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe,,,2ddf428fd8b9c063ba05b5a0c8636c37,4da6dbc8e43e2249a0892d257e977291,,,,/passive InstallAllUsers=1 TargetDir=C:\tools\python35 PrependPath=0 CompileAll=1,
@@ -81,7 +81,7 @@ ruby2,2.3.1.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-
 Sigil,0.9.6.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-x64-Setup.exe,,,7909cebd0e135cac79737e73dfe9407a4a8c435c3ce5645ef951851ecd4517f6,d57fe97591b87cf2cd46d7cedc8aa8b88c1c1241a5e51697555ecf1a9709253c,,,,,
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
-SourceTree,1.8.3.0,https://www.sourcetreeapp.com/download/,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.8.3.exe,,,,,,,,,,
+SourceTree,1.9.5.0,https://www.sourcetreeapp.com/download/,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.5.0.exe,,,,,,,,,,
 Speccy,1.28.709,,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
 SqlServer2012Express,11.0.2100.60,,exe,,,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe,,,,,,,,,
 SqlServer2014Express,12.0.4100.1,"with SP1
