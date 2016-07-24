@@ -66,7 +66,7 @@ nodejs,6.3.1.0,,msi,,,https://nodejs.org/dist/v6.3.1/node-v6.3.1-x86.msi,https:/
 Notepad++,6.9.2.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.9.2/npp.6.9.2.Installer.exe,,,,6a54e0e8c8dbfca68abe3cbe66d99c66ced59cea,,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 notepad2mod,4.2.25.980,https://github.com/XhmikosR/notepad2-mod,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.980/Notepad2-mod.4.2.25.980.exe,,,,,,,,,,
-OneNote,15.0.4689.1000,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O15GA&Source=O15ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O15GA&Source=O15ONF,,,,,,,,,
+OneNote,16.0.6925.1018,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O16GA&Source=O16ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O16GA&Source=O16ONF,,,,,,,,,
 Paint.net,4.0.10.0,,zip,,paint.net.4.0.10.install.exe,http://www.dotpdn.com/files/paint.net.4.0.10.install.zip,,,,,,,,,,
 PostgreSQL,9.5.3.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.5.3-1-windows-x64.exe,,,,,,,,,
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,
@@ -77,11 +77,11 @@ python35,3.5.2.0,,exe,,,https://www.python.org/ftp/python/3.5.2/python-3.5.2.exe
 QTTabBar,0.1038.0,,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip,,,,,,,installing QTTabBar: should kill explorer.exe to help the install,done installing QTTabBar: you can restart explorer.exe now,,
 Resharper,2016.1.2.0,"valid SpecificProductNames: dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;teamCityAddin;ReSharper
 valid VsVersions: 10;11;12;14;15",exe,,,https://download.jetbrains.com/resharper/JetBrains.ReSharperUltimate.2016.1.2.exe,,,,eedb316be6af72b2bd01b433dfab099d1a64245cb764b227bad9a48041713258,,,,,/VsVersion=11;12;14;15 /SpecificProductNames=ReSharper;dotPeek;dotCover;dotMemory;dotTrace;ReSharperCpp; /Silent=True,
-ruby2,2.3.1.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1.exe,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1-x64.exe,,,5883233e5477c8097e68ec4bb47932011664d8d3a46595a9440bfd47c9dc78cb,a883e24b9a2b383170e17c372cec32bdeb2804ebc1ca5997d68d97cdddae883c,,,,"/dir=""C:\tools\ruby22"" /tasks=""assocfiles""",
+ruby2,2.3.1.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1.exe,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.1-x64.exe,,,5883233e5477c8097e68ec4bb47932011664d8d3a46595a9440bfd47c9dc78cb,a883e24b9a2b383170e17c372cec32bdeb2804ebc1ca5997d68d97cdddae883c,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",
 Sigil,0.9.6.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-x64-Setup.exe,,,7909cebd0e135cac79737e73dfe9407a4a8c435c3ce5645ef951851ecd4517f6,d57fe97591b87cf2cd46d7cedc8aa8b88c1c1241a5e51697555ecf1a9709253c,,,,,
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
-SourceTree,1.9.5.0,https://www.sourcetreeapp.com/download/,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.5.0.exe,,,,,,,,,,
+SourceTree,1.9.5.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.5.0.exe,,,,f982470e460721597e1717ef6b067840,,,,,,
 Speccy,1.28.709,,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
 SqlServer2012Express,11.0.2100.60,,exe,,,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe,,,,,,,,,
 SqlServer2014Express,12.0.4100.1,"with SP1
@@ -90,7 +90,7 @@ SqlServer2014LocalDb,12.0.4100.1,"with SP1
 http://go.microsoft.com/fwlink/?LinkID=524502",msi,,,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x86/SqlLocalDB.msi,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SqlLocalDB.msi,,,,,,,,,
 SqlServer2014MngmtStudio,12.0.4100.1,"with SP1
 http://go.microsoft.com/fwlink/?LinkID=524502",exe,,,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x86/SQLManagementStudio_x86_ENU.exe,http://download.microsoft.com/download/1/5/6/156992E6-F7C7-4E55-833D-249BD2348138/ENU/x64/SQLManagementStudio_x64_ENU.exe,,,,,,,,,
-SqlServer2016MngmtStudio,13.0.15500.91,https://msdn.microsoft.com/library/mt238290.aspx,exe,,,http://go.microsoft.com/fwlink/?LinkID=820751,,,,,,,,,,
+SqlServer2016MngmtStudio,13.0.15600.2,https://msdn.microsoft.com/library/mt238290.aspx,exe,,,http://go.microsoft.com/fwlink/?LinkID=822301,,,,,,,,,,
 stellarium,0.14.3.0,,exe,,,http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.14.3/stellarium-0.14.3-win32.exe/download,http://sourceforge.net/projects/stellarium/files/Stellarium-win64/0.14.3/stellarium-0.14.3-win64.exe/download,,,,,,,,,
 stexbar,1.8.6,,msi,,,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar-1.8.6.msi/download,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar64-1.8.6.msi/download,,,,,,,,,
 SumatraPDF,3.1.0.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.1-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.1-64-install.exe,,,,,,,,,
