@@ -39,7 +39,7 @@ Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.
 gimp,2.8.18.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.18-setup.exe,,,,41e98ef75c2992acc9b481147bf3db35652a4c7e1da70bb06a2d2ec9a0853a2d,,,,,/SP-,
 gimp-help,2.8.2.0,,exe,,,https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe,,,,,,,,,,
 git,2.9.2.0,,exe,,,https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-32-bit.exe,https://github.com/git-for-windows/git/releases/download/v2.9.2.windows.1/Git-2.9.2-64-bit.exe,,,d8b5d67dc4859a05254f36e61dcc4bfcffd7e6201c940bb94fb2b502c5dd8e7c,006d971bcbe73cc8d841a100a4eb20d22e135142bf5b0f2120722fd420e166e5,,,,/DIR=C:\tools\git /SP-,
-GitKraken,1.5.1.0,https://www.gitkraken.com/download,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,,,,,,,,,/S,
+GitKraken,1.5.2.0,https://www.gitkraken.com/download,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,,,,,,,,,/S,
 GoogleChrome,0.0.0.0,,exe,,,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe,,,,,,,,,
 Handbrake,0.10.5.0,,exe,,,https://handbrake.fr/mirror/HandBrake-0.10.5-i686-Win_GUI.exe,https://handbrake.fr/mirror/HandBrake-0.10.5-x86_64-Win_GUI.exe,,,38e992dbb78490e393edaa772bc7dbf37b7b5193,17549c3869eef8d2410f663b4aa3d4d943a0a3bc,,,,,
 iDrive,6.5.1.13,,exe,,,http://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,,
@@ -81,7 +81,7 @@ ruby2,2.3.1.0,,exe,,,http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-
 Sigil,0.9.6.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.6/Sigil-0.9.6-Windows-x64-Setup.exe,,,7909cebd0e135cac79737e73dfe9407a4a8c435c3ce5645ef951851ecd4517f6,d57fe97591b87cf2cd46d7cedc8aa8b88c1c1241a5e51697555ecf1a9709253c,,,,,
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,
-SourceTree,1.9.5.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.5.0.exe,,,,f982470e460721597e1717ef6b067840,,,,,,
+SourceTree,1.9.6.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,http://downloads.atlassian.com/software/sourcetree/windows/SourceTreeSetup_1.9.6.0.exe,,,,84fe764af7048b6e1aed6a667d7dc3b8,,,,,,
 Speccy,1.28.709,,exe,,,http://download.piriform.com/spsetup128.exe,,,,,,,,,,
 SqlServer2012Express,11.0.2100.60,,exe,,,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLEXPR_x86_ENU.exe,http://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLEXPR_x64_ENU.exe,,,,,,,,,
 SqlServer2014Express,12.0.4100.1,"with SP1
