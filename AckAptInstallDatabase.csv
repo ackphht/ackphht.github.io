@@ -27,7 +27,7 @@ https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx",exe,,,http://g
 DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
 http://go.microsoft.com/fwlink/?LinkId=780617
 https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,
-Fiddler4,4.6.2.3,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
+Fiddler4,4.6.2.32002,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
 FileMenuTools,7.0.5.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,fdf0011b2da1aee3b4046dbabff1e9d9,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.21.0.0,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.21.0/FileZilla_3.21.0_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.21.0/FileZilla_3.21.0_win64-setup.exe/download,,,fc9faec538a03728a5c2de0b21f236a7e1f254ae4525ec88bfd5b826fb6f668e10daa2e65b9e21116396f54428d07a324f4efeda24b2bc951de244c4c9229c76,b962c58121e948b4d8a0dd8fda7ea336846dce8192053984242d93b724f02a22d619d3fa7167d97f2d8af1091c0c3c60d0e17ddcad33ebc932b7de24a0414b0e,,,,/S,
 FlashPlayerPlugin,22.0.0.209,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_22_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
