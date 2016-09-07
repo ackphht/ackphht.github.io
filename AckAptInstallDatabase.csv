@@ -63,7 +63,7 @@ MarkdownPad2,2.5.0.0,,exe,,,http://markdownpad.com/download/markdownpad2-setup.e
 MediaMonkey,4.1.13.1801,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.,,
 Mercurial,3.9.1.0,,exe,,,https://mercurial-scm.org/release/windows/Mercurial-3.9.1.exe,https://mercurial-scm.org/release/windows/Mercurial-3.9.1-x64.exe,,,,,,,,/DIR=C:\tools\hg,
 MicrosoftMessageAnalyzer,1.4.1.0,https://technet.microsoft.com/en-us/library/jj649776.aspx,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,1ECFBA636839F19D458D555337571C306047D13D,46693308FD80139C65E6DA434CEC0ECAA21909E5,,,,,
-MySqlCommunity,5.7.14.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.14.0.msi,,,,fe63f2e8b864481c5035f77ed726c354,,,,,,
+MySqlCommunity,5.7.15.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.15.0.msi,,,,b576b8042f61fd8446a9bedc171b2958,,,,,,
 nodejs,6.5.0.0,,msi,,,https://nodejs.org/dist/v6.5.0/node-v6.5.0-x86.msi,https://nodejs.org/dist/v6.5.0/node-v6.5.0-x64.msi,,,93db364a5f519e8a29bb2279b470da7708f3869bcb4f8d597121f58f12f9b0fc,2a269b0b9fee2c502d4a81168f12315e9d55396641522249931f0f88e02638c4,,,,INSTALLDIR=C:\tools\nodejs,
 Notepad++,6.9.2.0,,exe,,,https://notepad-plus-plus.org/repository/6.x/6.9.2/npp.6.9.2.Installer.exe,,,,6a54e0e8c8dbfca68abe3cbe66d99c66ced59cea,,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
