@@ -11,8 +11,6 @@ body {
 section.main { margin:1em; }
 div.tab-pane { padding:1em; border:solid 1px #ddd; border-top-width:0; }
 h1 { font-size:24px; }
-table { border-collapse:collapse; border:solid 1px #ddd; }
-td { padding:5px; border:solid 1px #ddd; }
 img.icon { width:16px; height:16px; }
 
 div.link { display: inline; }
@@ -23,7 +21,7 @@ div.link:first-child a.icon { margin-left: 0; }
 div.link:before { content: " | "; }
 div.link:first-child:before { content: ""; }
 
-div.floaty { display: inline-block; min-width: 33.3%; margin: auto 20px; vertical-align: top; }
+div.floaty { display: inline-block; min-width: 30%; margin: auto 20px; vertical-align: top; }
 div.tab-pane ul { padding-left: 25px; }
 
 /*
