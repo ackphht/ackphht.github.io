@@ -2,7 +2,7 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 7zip,16.0.4.0,,exe,,,http://7-zip.org/a/7z1604.exe,http://7-zip.org/a/7z1604-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
 AdobeDigitalEditions,4.5.2.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
-AdobeReaderDC,15.017.20050,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1501720050/AcroRdrDC1501720050_en_US.exe,,,,,,,,,,
+AdobeReaderDC,15.020.20039,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1502020039/AcroRdrDC1502020039_en_US.exe,,,,,,,,,,
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,
 AndroidStudioFull,2.2.0.12,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-bundle-145.3276617-windows.exe,,,,04321c38b42d1aca901509d92174f8b42e37b1e9,,,,,,
 AndroidStudioIDE,2.2.0.12,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-windows.exe,,,,9d94f24be62e68c7fb004e4813155f5fc41b92f5,,,,,,
