@@ -4,8 +4,8 @@ AdobeDigitalEditions,4.5.2.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digi
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AdobeReaderDC,15.020.20039,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1502020039/AcroRdrDC1502020039_en_US.exe,,,,,,,,,,
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,
-AndroidStudioFull,2.2.0.12,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-bundle-145.3276617-windows.exe,,,,04321c38b42d1aca901509d92174f8b42e37b1e9,,,,,,
-AndroidStudioIDE,2.2.0.12,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.0.12/android-studio-ide-145.3276617-windows.exe,,,,9d94f24be62e68c7fb004e4813155f5fc41b92f5,,,,,,
+AndroidStudioFull,2.2.1.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.1.0/android-studio-bundle-145.3330264-windows.exe,,,,09c8efe515452758acc87d44b20810e6924c4593,,,,,,
+AndroidStudioIDE,2.2.1.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.2.1.0/android-studio-ide-145.3330264-windows.exe,,,,dc4649a1efb2fb8f8f79a254b9a62e2ee274a385,,,,,,
 Atom,1.0.0.0,github's fancy text editor,exe,,,https://atom.io/download/windows,,,,,,,,,,
 Audacity,2.1.2.0,,exe,,,,,"http://www.fosshub.com/Audacity.html/audacity-win-2.1.2.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
@@ -45,7 +45,7 @@ git,2.10.1.0,,exe,,,https://github.com/git-for-windows/git/releases/download/v2.
 GitKraken,1.7.1.0,https://www.gitkraken.com/download,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,,,,,,,,,/S,
 GoogleChrome,0.0.0.0,,exe,,,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe,,,,,,,,,
 Handbrake,0.10.5.0,,exe,,,https://handbrake.fr/mirror/HandBrake-0.10.5-i686-Win_GUI.exe,https://handbrake.fr/mirror/HandBrake-0.10.5-x86_64-Win_GUI.exe,,,38e992dbb78490e393edaa772bc7dbf37b7b5193,17549c3869eef8d2410f663b4aa3d4d943a0a3bc,,,,,
-iDrive,6.5.1.16,,exe,,,http://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,,
+iDrive,6.5.1.17,,exe,,,http://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,,
 imgburn,2.5.8.0,,exe,,,http://download.imgburn.com/SetupImgBurn_2.5.8.0.exe,,,,5CA96A0C243390C378DEE1A629684EA261E2CFC4,,,about to install ImgBurn; disable the network now. . .,done installing ImgBurn; you can re-enable to network now. . .,,
 IntelliJIdeaCommunity,2016.2.4.2032,https://www.jetbrains.com/idea/download/index.html / current build: 162.2032,exe,,,https://download.jetbrains.com/idea/ideaIC-2016.2.4.exe,,,,a77ab82880e10cbdb0862874b5d713695f35484218185ca8833b2dcad824891d,,,,,,
 IrfanView,4.42.0.0,,exe,,,http://irfanview.info/files/iview442_setup.exe,http://irfanview.info/files/iview442_x64_setup.exe,,,c56a5c248461f6e450aeca5b1240d572d751e58c44a8b8cb32d7c94714eeb182,15c4cc272a6d1397a3788192a5c640cbe772c3991180dde3a0af846dc9dd3a9d,,about to install IrfanView; disable the network now. . .,done installing IrfanView; you can re-enable to network now. . .,,Referer: http://irfanview.info/files/iview442_setup.exe
@@ -64,8 +64,8 @@ MarkdownPad2,2.5.0.0,,exe,,,http://markdownpad.com/download/markdownpad2-setup.e
 MediaMonkey,4.1.14.1811,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.,,
 Mercurial,3.9.2.0,,exe,,,https://mercurial-scm.org/release/windows/Mercurial-3.9.2.exe,https://mercurial-scm.org/release/windows/Mercurial-3.9.2-x64.exe,,,,,,,,/DIR=C:\tools\hg,
 MicrosoftMessageAnalyzer,1.4.1.1,https://technet.microsoft.com/en-us/library/jj649776.aspx,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,29EB4BB233CB7DC0EFE4DC5A8D64BC006CAB0DF6,D6E9A5CC6A43601601CF2D062CD4A782B983CE92,,,,,
-MySqlCommunity,5.7.15.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.15.0.msi,,,,b576b8042f61fd8446a9bedc171b2958,,,,,,
-nodejs,6.7.0.0,,msi,,,https://nodejs.org/dist/v6.7.0/node-v6.7.0-x86.msi,https://nodejs.org/dist/v6.7.0/node-v6.7.0-x64.msi,,,0801c283200ac263cc0ca014f5d8e0ee531e1ebec6e99645a0bdd04b996c1605,2185a16f8a32087b75708b08d7e482a14597765c41d6b3711a8e6ed3a3358213,,,,INSTALLDIR=C:\tools\nodejs,
+MySqlCommunity,5.7.16.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.16.0.msi,,,,7ed0169fbdcd9f4eca7547ac2e67607d,,,,,,
+nodejs,6.8.0.0,,msi,,,https://nodejs.org/dist/v6.8.0/node-v6.8.0-x86.msi,https://nodejs.org/dist/v6.8.0/node-v6.8.0-x64.msi,,,2bf4bb535f926138393766ea163af1032d469cfb704f892f5b73a98da67d131a,e4ebd121116fa2d22cae6a56962b3d8a9b002c775d7db6adcdff3ba6d30ee6b0,,,,INSTALLDIR=C:\tools\nodejs,
 Notepad++,7.0.0.0,https://notepad-plus-plus.org/download/,exe,,,https://notepad-plus-plus.org/repository/7.x/7.0/npp.7.Installer.exe,,,,8518c022298c575760c3e45d36d67516640c43f6,52af12274fd17ad3f6846e5c4f55299959a2b2a7,,,,,
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,
 notepad2mod,4.2.25.985,https://github.com/XhmikosR/notepad2-mod,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.985/Notepad2-mod.4.2.25.985.exe,,,,,,,,,,
