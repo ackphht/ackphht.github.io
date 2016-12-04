@@ -15,7 +15,7 @@ AutoHotkey,1.1.24.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,
 calibre,2.73.0.0,,msi,,,http://download.calibre-ebook.com/2.73.0/calibre-2.73.0.msi,http://download.calibre-ebook.com/2.73.0/calibre-64bit-2.73.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 Clover,3.2.3.0,http://ejie.me/,exe,,,http://ejie.me/uploads/setup_clover@3.2.3.exe,,,,,,,,,,
-ConEmu,16.10.22.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v16.10.22/ConEmuSetup.161022.exe,,,,,,,,,,
+ConEmu,16.12.03.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v16.12.03/ConEmuSetup.161203.exe,,,,,,,,,,
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,
 DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,
 Defraggler,2.21.993.0,,exe,,,http://download.piriform.com/dfsetup221.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,
@@ -29,7 +29,7 @@ DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.
 http://go.microsoft.com/fwlink/?LinkId=780617
 https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,
 Fiddler4,4.6.3.44034,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
-FileMenuTools,7.0.5.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,fdf0011b2da1aee3b4046dbabff1e9d9,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
+FileMenuTools,7.1.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,4ff07c01858bbaa0600125b6d4bd1758,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.22.2.2,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.22.2.2/FileZilla_3.22.2.2_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.22.2.2/FileZilla_3.22.2.2_win64-setup.exe/download,,,5ed716c0ec723aadedee66c2a8cfc71ededf1ccc11afa7ae66dad627f6c4d4480b38ce8ba61ebdcac34e28ee00edf69fb625227f3bb8f1bd03eea91260fcd7d4,e4f279cea2e9e95675dbfdc5ccb3bef9e67f0a6ddf74427564c9b84fc75780f3fe5dce6b9e9ca8b8b299d3e14a2476050362d5d46638ebf3a0bef180c4d8085c,,,,/S,
 FlashPlayerPlugin,23.0.0.207,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_23_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
 FlashPlayerPluginAX,23.0.0.207,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_23_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
