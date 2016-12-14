@@ -1,6 +1,6 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd
 7zip,16.0.4.0,,exe,,,http://7-zip.org/a/7z1604.exe,http://7-zip.org/a/7z1604-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,
-AdobeDigitalEditions,4.5.2.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,
+AdobeDigitalEditions,4.5.3.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,
 AdobeReaderDC,15.020.20039,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1502020039/AcroRdrDC1502020039_en_US.exe,,,,,,,,,,
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,
@@ -14,7 +14,7 @@ AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,
 AutoHotkey,1.1.24.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,
 calibre,2.74.0.0,,msi,,,http://download.calibre-ebook.com/2.74.0/calibre-2.74.0.msi,http://download.calibre-ebook.com/2.74.0/calibre-64bit-2.74.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
-Clover,3.2.4.0,http://ejie.me/,exe,,,http://ejie.me/uploads/setup_clover@3.2.4.exe,,,,,,,,,,
+Clover,3.2.5.0,http://ejie.me/,exe,,,http://ejie.me/uploads/setup_clover@3.2.5.exe,,,,,,,,,,
 ConEmu,16.12.06.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v16.12.06/ConEmuSetup.161206.exe,,,,,,,,,,
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,
 DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,
@@ -29,10 +29,10 @@ DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.
 http://go.microsoft.com/fwlink/?LinkId=780617
 https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,
 Fiddler4,4.6.3.44034,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,
-FileMenuTools,7.1.1.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,b06ae2d96fd35ecbb62d1f08fca297d8,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
+FileMenuTools,7.1.2.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,308844f24cde20c50ef18992190b2302,,,about to install FileMenuTools; disable the network now. . .,done installing FileMenuTools; you can re-enable to network now. . .,,
 FileZilla,3.23.0.2,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.23.0.2/FileZilla_3.23.0.2_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.23.0.2/FileZilla_3.23.0.2_win64-setup.exe/download,,,9b4396222220722ef9e71fbb15ba4bf2c14c9dbf9a47150c9e2b80a1a7cccb40b878392917e2030f44eaf1dba6014659a8436f7005e0241d06ca2f0169399329,e2f5f092c78ce42b3510005572868367cc6fa834aba11efdb538b38203b006fe00e90aec9f59a255bf3d50060b71efc4e76fb5131885f763a1a0ab179a7cf183,,,,/S,
-FlashPlayerPlugin,23.0.0.207,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_23_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
-FlashPlayerPluginAX,23.0.0.207,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_23_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPlugin,24.0.0.186,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_24_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
+FlashPlayerPluginAX,24.0.0.186,https://www.adobe.com/software/flash/about/,msi,,,http://download.macromedia.com/get/flashplayer/current/licensing/win/install_flash_player_24_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,
 foobar2000,1.3.13.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,
