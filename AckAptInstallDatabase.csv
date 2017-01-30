@@ -26,7 +26,7 @@ DotNet45,4.5.2.20140506,,exe,,,http://download.microsoft.com/download/B/4/1/B411
 DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,http://go.microsoft.com/fwlink/?LinkId=780596,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
 http://go.microsoft.com/fwlink/?LinkId=780617",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-Fiddler4,4.6.3.44034,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
+Fiddler4,4.6.20171.7553,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.1.4.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,f961fb5fbcdfb2780a2157cf7a6bbc6f,,,,,,,
 FileZilla,3.24.0.0,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win64-setup.exe/download,,,f73defa5889d9474b5eb8576e88ba13af1f66943f69776250c3a265df7904ae938e4512f0fdff7c3193c7d158c36594205c9ca7d984ae2711050a1159d8654d1,696a75235476cd589baebbb9311e71488b3a2015c4691f463d6f01e22b359f15a07ff42af6095a6ba99d46eda0c505d6ba535e909296238b4b8e8f7112e402af,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,24.0.0.194,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/install_flash_player_24_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
