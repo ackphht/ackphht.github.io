@@ -27,7 +27,7 @@ DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,http
 DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
 http://go.microsoft.com/fwlink/?LinkId=780617",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 Fiddler4,4.6.20171.9220,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
-FileMenuTools,7.1.4.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,f961fb5fbcdfb2780a2157cf7a6bbc6f,,,,,,,
+FileMenuTools,7.2.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,15263db08b9d3b23e6083011d6da4588,,,,,,,https://www.lopesoft.com/index.php/en/products/filemenutools
 FileZilla,3.24.0.0,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win64-setup.exe/download,,,f73defa5889d9474b5eb8576e88ba13af1f66943f69776250c3a265df7904ae938e4512f0fdff7c3193c7d158c36594205c9ca7d984ae2711050a1159d8654d1,696a75235476cd589baebbb9311e71488b3a2015c4691f463d6f01e22b359f15a07ff42af6095a6ba99d46eda0c505d6ba535e909296238b4b8e8f7112e402af,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,24.0.0.194,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/install_flash_player_24_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,24.0.0.194,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/install_flash_player_24_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
@@ -97,7 +97,7 @@ SyncBackSE,6.5.49.0,,exe,,,http://www.2brightsparks.com/assets/software/SyncBack
 TeamViewer,11.0.55321.0,,exe,,,http://download.teamviewer.com/download/TeamViewer_Setup_en.exe,,,,,,,,,,,
 TrueCrypt,7.1.1.0,,exe,,,https://download.truecrypt.ch/current/TrueCrypt%20Setup%207.1a.exe,,,,,,,,,,,
 UltraCompare,16.0.0.27,,exe,,,http://www.ultraedit.com/files/uc_english.exe,http://www.ultraedit.com/files/uc_english_64.exe,,,,,,,,,,
-UltraEdit,23.20.0.28,,exe,,,http://www.ultraedit.com/files/ue_english.exe,http://www.ultraedit.com/files/ue_english_64.exe,,,,,"0,5",,,,,
+UltraEdit,24.00.0.42,,exe,,,http://www.ultraedit.com/files/ue_english.exe,http://www.ultraedit.com/files/ue_english_64.exe,,,,,"0,5",,,,,http://www.ultraedit.com/downloads/ultraedit_download.html
 UltraSentry,15.0.10.0,,exe,,,http://www.ultraedit.com/files/us_english.exe,,,,,,,,,,,
 URLRewrite2,7.2.1952.0,,msi,,,http://go.microsoft.com/fwlink/?LinkID=615138,http://go.microsoft.com/fwlink/?LinkID=615137,,,,,,,,,,https://www.iis.net/downloads/microsoft/url-rewrite
 VCRedist2005,8.0.50727.763,,exe,TRUE,,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE,,,,,,,,/Q,,
