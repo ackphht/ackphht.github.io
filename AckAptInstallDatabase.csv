@@ -13,7 +13,7 @@ $1",,,,,,,,,
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,
 AutoHotkey,1.1.24.5,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,2.79.0.0,,msi,,,http://download.calibre-ebook.com/2.79.0/calibre-2.79.0.msi,http://download.calibre-ebook.com/2.79.0/calibre-64bit-2.79.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+calibre,2.79.1.0,,msi,,,http://download.calibre-ebook.com/2.79.1/calibre-2.79.1.msi,http://download.calibre-ebook.com/2.79.1/calibre-64bit-2.79.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.2.8.0,,exe,,,http://ejie.me/uploads/setup_clover@3.2.8.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,17.01.18.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.01.18/ConEmuSetup.170118.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,,
@@ -27,7 +27,7 @@ DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,http
 DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
 http://go.microsoft.com/fwlink/?LinkId=780617",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 Fiddler4,4.6.20171.9220,,exe,,,http://fiddler2.com/dl/fiddler4setup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
-FileMenuTools,7.2.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,15263db08b9d3b23e6083011d6da4588,,,,,,,https://www.lopesoft.com/index.php/en/products/filemenutools
+FileMenuTools,7.2.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,72829b6107f0243547f5846ead96bdc2,,,,,,,https://www.lopesoft.com/index.php/en/products/filemenutools
 FileZilla,3.24.0.0,,exe,,,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win32-setup.exe/download,http://sourceforge.net/projects/filezilla/files/FileZilla_Client/3.24.0/FileZilla_3.24.0_win64-setup.exe/download,,,f73defa5889d9474b5eb8576e88ba13af1f66943f69776250c3a265df7904ae938e4512f0fdff7c3193c7d158c36594205c9ca7d984ae2711050a1159d8654d1,696a75235476cd589baebbb9311e71488b3a2015c4691f463d6f01e22b359f15a07ff42af6095a6ba99d46eda0c505d6ba535e909296238b4b8e8f7112e402af,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,24.0.0.194,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/install_flash_player_24_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,24.0.0.194,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/24.0.0.194/install_flash_player_24_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
