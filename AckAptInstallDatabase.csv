@@ -96,7 +96,7 @@ SumatraPDF,3.1.2.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/Sumatra
 SyncBackSE,6.5.49.0,,exe,,,http://www.2brightsparks.com/assets/software/SyncBackSEV6_Setup.exe,,,,,,,,,,,
 TeamViewer,11.0.55321.0,,exe,,,http://download.teamviewer.com/download/TeamViewer_Setup_en.exe,,,,,,,,,,,
 TrueCrypt,7.1.1.0,,exe,,,https://download.truecrypt.ch/current/TrueCrypt%20Setup%207.1a.exe,,,,,,,,,,,
-UltraCompare,16.0.0.27,,exe,,,http://www.ultraedit.com/files/uc_english.exe,http://www.ultraedit.com/files/uc_english_64.exe,,,,,,,,,,
+UltraCompare,17.0.0.18,,exe,,,http://www.ultraedit.com/files/uc_english.exe,http://www.ultraedit.com/files/uc_english_64.exe,,,,,,,,,,
 UltraEdit,24.00.0.42,,exe,,,http://www.ultraedit.com/files/ue_english.exe,http://www.ultraedit.com/files/ue_english_64.exe,,,,,"0,5",,,,,http://www.ultraedit.com/downloads/ultraedit_download.html
 UltraSentry,15.0.10.0,,exe,,,http://www.ultraedit.com/files/us_english.exe,,,,,,,,,,,
 URLRewrite2,7.2.1952.0,,msi,,,http://go.microsoft.com/fwlink/?LinkID=615138,http://go.microsoft.com/fwlink/?LinkID=615137,,,,,,,,,,https://www.iis.net/downloads/microsoft/url-rewrite
@@ -112,7 +112,7 @@ VirtualBox,5.1.18.0,,exe,,,http://download.virtualbox.org/virtualbox/5.1.18/Virt
 VirtualBoxExtensions,5.1.18.0,,other,,,http://download.virtualbox.org/virtualbox/5.1.18/Oracle_VM_VirtualBox_Extension_Pack-5.1.18-114002.vbox-extpack,,,,996f783996a597d3936fc5f1ccf56edd31ae1f8fb4d527009647d9a2c8c853cd,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,
 vlc,2.2.4.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.4/win32/vlc-2.2.4-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.4/win64/vlc-2.2.4-win64.exe,,,f4a4b8897e86f52a319ee4568e62be9cda1bcb2341e798da12e359d81cb36e51,a283b1913c8905c4d58787f34b4a85f28f3f77c4157bee554e3e70441e6e75e4,,,,,,
-VMWarePlayer,12.5.4.5192485,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-12.5.4-5192485.exe,,,,13ff296369d43b00085cc905cb268f00ecc475a0,,,,,,https://www.vmware.com/go/downloadplayer
+VMWarePlayer,12.5.5.5234757,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-12.5.5-5234757.exe,,,,1b9e1c7c70bd32fc3491150957320aa9b4611f35,,,,,,https://www.vmware.com/go/downloadplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
 VS2013Professional,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532509,,,,,,,,,,,
