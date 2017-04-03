@@ -15,7 +15,7 @@ AutoHotkey,1.1.25.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,2.82.0.0,,msi,,,http://download.calibre-ebook.com/2.82.0/calibre-2.82.0.msi,http://download.calibre-ebook.com/2.82.0/calibre-64bit-2.82.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.3.2.0,,exe,,,http://ejie.me/uploads/setup_clover@3.3.2.exe,,,,,,,,,,,http://ejie.me/
-ConEmu,17.03.26.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.03.26/ConEmuSetup.170326.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
+ConEmu,17.04.02.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.04.02/ConEmuSetup.170402.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,,
 DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,,
 Defraggler,2.21.993.0,,exe,,,http://download.piriform.com/dfsetup221.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,
