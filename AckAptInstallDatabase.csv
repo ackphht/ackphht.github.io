@@ -68,7 +68,7 @@ Notepad++,7.3.3.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,,
 notepad2mod,4.2.25.991,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.991/Notepad2-mod.4.2.25.991.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 OneNote,16.0.6925.1018,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O16GA&Source=O16ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O16GA&Source=O16ONF,,,,,,,,,,
-Paint.net,4.0.14.0,,zip,,paint.net.4.0.14.install.exe,http://www.dotpdn.com/files/paint.net.4.0.14.install.zip,,,,,,,,,,,
+Paint.net,4.0.15.0,,zip,,paint.net.4.0.15.install.exe,http://www.dotpdn.com/files/paint.net.4.0.15.install.zip,,,,,,,,,,,
 PostgreSQL,9.6.2.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,,
 PyCharmCommunity,2017.1.0.0,current build: 171.3780.115,exe,,,https://download.jetbrains.com/python/pycharm-community-2017.1.exe,,,,92bdb017ea1b6f8cff0c454ba44bf7de04f61f443b4897919e0202f56f863814,,,,,,,https://www.jetbrains.com/pycharm/download/index.html
