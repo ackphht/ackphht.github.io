@@ -13,7 +13,7 @@ $1",,12d83cb444734e3aaba8114115a83f7ceaa314d14641cde65b4f35f9847c5e1f,,,,,,,
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,
 AutoHotkey,1.1.25.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,2.82.0.0,,msi,,,http://download.calibre-ebook.com/2.82.0/calibre-2.82.0.msi,http://download.calibre-ebook.com/2.82.0/calibre-64bit-2.82.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+calibre,2.83.0.0,,msi,,,http://download.calibre-ebook.com/2.83.0/calibre-2.83.0.msi,http://download.calibre-ebook.com/2.83.0/calibre-64bit-2.83.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.3.3.0,,exe,,,http://ejie.me/uploads/setup_clover@3.3.3.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,17.04.02.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.04.02/ConEmuSetup.170402.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,,
@@ -91,7 +91,7 @@ SqlServer2014MngmtStudio,12.0.4100.1,with SP1,exe,,,http://download.microsoft.co
 SqlServer2016MngmtStudio,13.0.16105.4,release 16.5.2,exe,,,https://go.microsoft.com/fwlink/?linkid=839337,,,,,,,,,,,https://msdn.microsoft.com/library/mt238290.aspx
 stellarium,0.15.2.0,,exe,,,http://sourceforge.net/projects/stellarium/files/Stellarium-win32/0.15.2/stellarium-0.15.2-win32.exe/download,http://sourceforge.net/projects/stellarium/files/Stellarium-win64/0.15.2/stellarium-0.15.2-win64.exe/download,,,,,,,,,,
 stexbar,1.8.6,,msi,,,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar-1.8.6.msi/download,http://sourceforge.net/projects/stefanstools/files/StExBar/StExBar64-1.8.6.msi/download,,,,,,,,,,
-SumatraPDF,3.1.2.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-64-install.exe,,,,,,,,,,
+SumatraPDF,3.1.2.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-64-install.exe,,,,,,,,,,http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 SyncBackSE,6.5.49.0,,exe,,,http://www.2brightsparks.com/assets/software/SyncBackSEV6_Setup.exe,,,,,,,,,,,
 TeamViewer,11.0.55321.0,,exe,,,http://download.teamviewer.com/download/TeamViewer_Setup_en.exe,,,,,,,,,,,
 TrueCrypt,7.1.1.0,,exe,,,https://download.truecrypt.ch/current/TrueCrypt%20Setup%207.1a.exe,,,,,,,,,,,
