@@ -68,7 +68,7 @@ Notepad++,7.3.3.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,,
 notepad2mod,4.2.25.991,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.991/Notepad2-mod.4.2.25.991.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 OneNote,16.0.6925.1018,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O16GA&Source=O16ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O16GA&Source=O16ONF,,,,,,,,,,
-Paint.net,4.0.15.0,,zip,,paint.net.4.0.15.install.exe,http://www.dotpdn.com/files/paint.net.4.0.15.install.zip,,,,,,,,,,,
+Paint.net,4.0.16.0,,zip,,paint.net.4.0.16.install.exe,http://www.dotpdn.com/files/paint.net.4.0.16.install.zip,,,,,,,,,,,
 PostgreSQL,9.6.2.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,,
 PyCharmCommunity,2017.1.1.0,current build: 171.4163.6,exe,,,https://download.jetbrains.com/python/pycharm-community-2017.1.1.exe,,,,dc7ea70fa2b34721f939c641294ec68f9ed05355ffbf32bb11d622ddad232861,,,,,,,https://www.jetbrains.com/pycharm/download/index.html
@@ -106,7 +106,7 @@ VCRedist2012,11.0.61030.0,,exe,TRUE,,http://download.microsoft.com/download/1/6/
 VCRedist2013,12.0.30501.0,,exe,TRUE,,http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe,http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe,,,,,"0,3010",,,/quiet /norestart,,
 VCRedist2015,14.0.24215.1,,exe,TRUE,,https://go.microsoft.com/fwlink/?LinkId=615459,https://go.microsoft.com/fwlink/?LinkId=615460,,,72211bd2e7dfc91ea7c8fac549c49c0543ba791b,10b1683ea3ff5f36f225769244bf7e7813d54ad0,"0,3010",,,/q /norestart,,https://www.visualstudio.com/downloads/#microsoft-visual-c-2015-redistributable-update-3
 VCRedist2017,14.10.25008.0,,exe,TRUE,,https://go.microsoft.com/fwlink/?LinkId=746571,https://go.microsoft.com/fwlink/?LinkId=746572,,,20F456AAB2938D638E9E08EBCAF576C5A0BC7C1AD447645F1F07A26B147DBBFA,341D4BAA491DAA5BEBD0E061577E3F840C8157417C636FD2285D9BDF71FC4660,"0,3010",,,/q /norestart,,https://www.visualstudio.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2017
-VeraCrypt,1.19.0.0,,exe,,,https://veracrypt.codeplex.com/downloads/get/1629302,,,,79a2112bfddd34fc8fb7117c28a90e4cbeceb182daf57347f574864da5c943b0,,,,,,,
+VeraCrypt,1.19.0.0,,exe,,,https://veracrypt.codeplex.com/downloads/get/1629302,,,,79a2112bfddd34fc8fb7117c28a90e4cbeceb182daf57347f574864da5c943b0,,,,,,,https://veracrypt.codeplex.com/releases
 VirtualBox,5.1.18.0,,exe,,,http://download.virtualbox.org/virtualbox/5.1.18/VirtualBox-5.1.18-114002-Win.exe,,,,9db1246f5c65cb803ed883038a10e753360dc9502a9d0f4d2775176b807f2599,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,5.1.18.0,,other,,,http://download.virtualbox.org/virtualbox/5.1.18/Oracle_VM_VirtualBox_Extension_Pack-5.1.18-114002.vbox-extpack,,,,996f783996a597d3936fc5f1ccf56edd31ae1f8fb4d527009647d9a2c8c853cd,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,
