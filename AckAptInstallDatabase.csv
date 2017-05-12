@@ -4,8 +4,8 @@ AdobeDigitalEditions,4.5.4.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digi
 AdobeReader,11.0.10.0,,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/11.x/11.0.10/en_US/AdbeRdr11010_en_US.exe,,,,,,,,,,,
 AdobeReaderDC,2017.009.20044.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1700920044/AcroRdrDC1700920044_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidSDK,24.4.1.0,,exe,,,http://dl.google.com/android/installer_r24.4.1-windows.exe,,,,f9b59d72413649d31e633207e31f456443e7ea0b,,,,,,,https://developer.android.com/studio/index.html#downloads
-AndroidStudioFull,2.3.1.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.3.1.0/android-studio-bundle-162.3871768-windows.exe,,,,8cfa10645b7fe1a89d4c454533763bfa34be830f4c4a5adc42afa363e0492150,,,,,,,https://developer.android.com/studio/index.html#downloads
-AndroidStudioIDE,2.3.1.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.3.1.0/android-studio-ide-162.3871768-windows.exe,,,,95ca44467d399e609e86bf874eba00f8f2e6e371ae294b7f1e88cfc8689e14dd,,,,,,,https://developer.android.com/studio/index.html#downloads
+AndroidStudioFull,2.3.2.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.3.2.0/android-studio-bundle-162.3934792-windows.exe,,,,9d787c0cf453e40ad1b0621f0e5a9653270dcc22a58fa7c9fab2223531c83a41,,,,,,,https://developer.android.com/studio/index.html#downloads
+AndroidStudioIDE,2.3.2.0,,exe,,,https://dl.google.com/dl/android/studio/install/2.3.2.0/android-studio-ide-162.3934792-windows.exe,,,,939cf6a1556c9078f4cbc05d1d2b8175f365ea5485661b04579788c423c38c95,,,,,,,https://developer.android.com/studio/index.html#downloads
 Atom,1.0.0.0,github's fancy text editor,exe,,,https://atom.io/download/windows,,,,,,,,,,,
 Audacity,2.1.3.0,,exe,,,,,"http://www.fosshub.com/Audacity.html/audacity-win-2.1.3.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
@@ -13,8 +13,8 @@ $1",,12d83cb444734e3aaba8114115a83f7ceaa314d14641cde65b4f35f9847c5e1f,,,,,,,
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,
 AutoHotkey,1.1.25.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,2.84.0.0,,msi,,,http://download.calibre-ebook.com/2.84.0/calibre-2.84.0.msi,http://download.calibre-ebook.com/2.84.0/calibre-64bit-2.84.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
-Clover,3.3.4.0,,exe,,,http://ejie.me/uploads/setup_clover@3.3.4.exe,,,,,,,,,,,http://ejie.me/
+calibre,2.85.0.0,,msi,,,http://download.calibre-ebook.com/2.85.0/calibre-2.85.0.msi,http://download.calibre-ebook.com/2.85.0/calibre-64bit-2.85.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+Clover,3.3.5.0,,exe,,,http://ejie.me/uploads/setup_clover@3.3.5.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,17.04.02.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.04.02/ConEmuSetup.170402.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,,
 DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,,
@@ -37,7 +37,7 @@ http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
 FoxitReader,8.3.0.14878,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/8.x/8.3/en_us/FoxitReader83_enu_Setup_Prom.exe,,,,f1a4c530740cfcb5afc4ee6f335b4b69137a21809c85128a19a609a8f09c0ca6,,,,,,,
 FreeDownloadManager,5.1.26.5889,,exe,,,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x86.exe,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x64.exe,,,,,,about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...,done installing FreeDownloadManager; re-enable to network now...,,,
 Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,,
-gimp,2.8.20.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.20-setup.exe,,,,4ad9ab85c969093810d4932b9574d9d82e0527263bcf37a042de1503c36111da,,,,,/SP-,,
+gimp,2.8.22.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.22-setup.exe,,,,8e54225029a44ab6ef1fde09686fec7b,,,,,/SP-,,
 gimp-help,2.8.2.0,,exe,,,https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe,,,,,,,,,,,
 git,2.13.0.0,,exe,,,https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-32-bit.exe,https://github.com/git-for-windows/git/releases/download/v2.13.0.windows.1/Git-2.13.0-64-bit.exe,,,a1b45272f2e30a3545b96086ccf5a56a4154a47898a7d1d6803d51440236b3b5,6b298c597ffe960bec84d52fc15438d0ff61a24ac9de1c17433878ef656d50c8,,,,/DIR=C:\tools\git /SP-,,https://github.com/git-for-windows/git/releases
 GitKraken,2.5.0.0,,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,https://release.gitkraken.com/win64/GitKrakenSetup.exe,,,,,,,,/S,,https://www.gitkraken.com/download
@@ -69,7 +69,7 @@ notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe
 notepad2mod,4.2.25.991,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.991/Notepad2-mod.4.2.25.991.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 OneNote,16.0.6925.1018,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O16GA&Source=O16ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O16GA&Source=O16ONF,,,,,,,,,,
 Paint.net,4.0.16.0,,zip,,paint.net.4.0.16.install.exe,http://www.dotpdn.com/files/paint.net.4.0.16.install.zip,,,,,,,,,,,
-PostgreSQL,9.6.2.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.6.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
+PostgreSQL,9.6.3.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.6.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.6.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,,
 PyCharmCommunity,2017.1.2.0,current build: 171.4249.47,exe,,,https://download.jetbrains.com/python/pycharm-community-2017.1.2.exe,,,,2f58d1dbdd0ff67c1749dabbcd194060ebee8f3005bcf4519876f994ff45a42b,,,,,,,https://www.jetbrains.com/pycharm/download/index.html
 python27,2.7.13,,msi,,,https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi,https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi,,,0f057ab4490e63e528eaa4a70df711d9,268fd335aad649df7474adb13b6cf394,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",,https://www.python.org/downloads/
