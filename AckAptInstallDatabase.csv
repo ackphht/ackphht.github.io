@@ -78,7 +78,7 @@ python35,3.5.3.0,,exe,,,https://www.python.org/ftp/python/3.5.3/python-3.5.3.exe
 python36,3.6.1.0,,exe,,,https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe,https://www.python.org/ftp/python/3.6.1/python-3.6.1-amd64.exe,,,3773db079c173bd6d8a631896c72a88f,ad69fdacde90f2ce8286c279b11ca188,,,,/passive InstallAllUsers=1 TargetDir=C:\tools\python36 PrependPath=0 CompileAll=1,,https://www.python.org/downloads/
 QTTabBar,0.1038.0,,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip,,,,,,,installing QTTabBar: should kill explorer.exe to help the install,done installing QTTabBar: you can restart explorer.exe now,,,http://qttabbar.wikidot.com/
 Resharper,2017.1.2.0,,exe,,,https://download.jetbrains.com/resharper/JetBrains.ReSharperUltimate.2017.1.2.exe,,,,d5df7084ea4430f7f0eec825ac21747951ac2650f775f9f3ff0d87e0d1c504aa,,,,,/VsVersion=11.0;12.0;14.0;15.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True,,https://www.jetbrains.com/resharper/download/index.html
-ruby2,2.3.3.0,,exe,,,https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3.exe,https://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.3.3-x64.exe,,,43110f9bcd8a067d69409507cad6a43f1fcf05e8bd64d096dd9df47475de50f3,3d0a4ad06c5503e1cb88827443593969e689ac96b5161140b08f0becb7b792cf,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",,
+ruby2,2.4.1.0,,exe,,,https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-1/rubyinstaller-2.4.1-1-x86.exe,https://github.com/oneclick/rubyinstaller2/releases/download/2.4.1-1/rubyinstaller-2.4.1-1-x64.exe,,,,,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",,
 Sigil,0.9.8.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.8/Sigil-0.9.8-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.8/Sigil-0.9.8-Windows-x64-Setup.exe,,,353dad4c3c81f791167400c69fa90d27c21a549874e76ac6dd8caf790a541e91,dfd743c49b7b15427a0f697aa6424e1a63ee1d7e6b341772997677cc580dd013,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,,
@@ -120,6 +120,9 @@ VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,
 VS2015Professional,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699336,,,,,,,,,,,
 VS2015Enterprise,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699337,,,,,,,,,,,
 VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,,,,,,
+VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
+VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
+VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
 VSCode,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,,,,,,,,,,,
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,
