@@ -13,9 +13,9 @@ $1",,12d83cb444734e3aaba8114115a83f7ceaa314d14641cde65b4f35f9847c5e1f,,,,,,,
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,
 AutoHotkey,1.1.26.0,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,3.0.0.0,,msi,,,https://download.calibre-ebook.com/3.0.0/calibre-3.0.0.msi,https://download.calibre-ebook.com/3.0.0/calibre-64bit-3.0.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+calibre,3.1.0.0,,msi,,,https://download.calibre-ebook.com/3.1.0/calibre-3.1.0.msi,https://download.calibre-ebook.com/3.1.0/calibre-64bit-3.1.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.3.5.0,,exe,,,http://ejie.me/uploads/setup_clover@3.3.5.exe,,,,,,,,,,,http://ejie.me/
-ConEmu,17.06.05.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.06.05/ConEmuSetup.170605.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
+ConEmu,17.06.22.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v17.06.22/ConEmuSetup.170622.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 cygwin,2.874.0.0,,exe,,,http://cygwin.com/setup-x86.exe,http://cygwin.com/setup-x86_64.exe,,,,,,,,-N -d -R C:\tools\cygwin -l C:\tools\cygwin\packages -s http://mirrors.kernel.org/sourceware/cygwin,,
 DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx86.msi,http://download.microsoft.com/download/B/4/6/B46E9984-5DF2-4B56-AE32-D60A88C2A6D8/DebugDiagx64.msi,,,,,,,,,,
 Defraggler,2.21.993.0,,exe,,,http://download.piriform.com/dfsetup221.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,
@@ -46,7 +46,7 @@ git,2.13.1.2,,exe,,,https://github.com/git-for-windows/git/releases/download/v2.
 GitKraken,2.6.0.0,,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,https://release.gitkraken.com/win64/GitKrakenSetup.exe,,,,,,,,/S,,https://www.gitkraken.com/download
 GoogleChrome,0.0.0.0,,exe,,,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe,,,,,,,,,,https://enterprise.google.com/intl/en_version/chrome/chrome-browser/
 Handbrake,1.0.7.0,,exe,,,https://handbrake.fr/rotation.php?file=HandBrake-1.0.7-i686-Win_GUI.exe,https://handbrake.fr/rotation.php?file=HandBrake-1.0.7-x86_64-Win_GUI.exe,,,b35000df800b522bb48d0e8991fda009015e9335835977513850e35eb777c9d5,3d63e96ba3e0e538d6d7fce86070fa5621b2bcd89123d53d25bbe625b7e7c4ba,,,,,,https://handbrake.fr/downloads.php
-iDrive,6.6.0.6,,exe,,,http://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,,,
+iDrive,6.7.0.2,,exe,,,http://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,,,
 imgburn,2.5.8.0,,exe,,,http://download.imgburn.com/SetupImgBurn_2.5.8.0.exe,,,,5CA96A0C243390C378DEE1A629684EA261E2CFC4,,,about to install ImgBurn; disable the network now. . .,done installing ImgBurn; you can re-enable to network now. . .,,,
 IntelliJIdeaCommunity,2017.1.4.0,current build: 171.4694.23,exe,,,https://download.jetbrains.com/idea/ideaIC-2017.1.4.exe,,,,a61da671441cd59227b19b723a90138cb23a0cf3b7adcc640548fbae4ccd52ad,,,,,,,https://www.jetbrains.com/idea/download/index.html
 IrfanView,4.44.0.0,,exe,,,http://irfanview.info/files/iview444_setup.exe,,,,71b44cd3d14376bbb619b2fe8a632d29200385738dd186680e988ce32662b3d6,38c9ac7b8c7c4342ecabd139e5ca4e9bd9460f0b541c00dfcd3e9d76cc125888,,about to install IrfanView; disable the network now. . .,done installing IrfanView; you can re-enable to network now. . .,,Referer: http://irfanview.info/files/iview444_setup.exe,
@@ -113,7 +113,7 @@ VirtualBox,5.1.22.0,,exe,,,http://download.virtualbox.org/virtualbox/5.1.22/Virt
 VirtualBoxExtensions,5.1.22.0,,other,,,http://download.virtualbox.org/virtualbox/5.1.22/Oracle_VM_VirtualBox_Extension_Pack-5.1.22-115126.vbox-extpack,,,,244e6f450cba64e0b025711050db3c43e6ce77e12cd80bcd08796315a90c8aaf,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,
 vlc,2.2.6.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.6/win32/vlc-2.2.6-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.6/win64/vlc-2.2.6-win64.exe,,,6000f3a1386c06eed2a61ede6437df2e537e1bcaac73a4a32b7648a99ffcb6ed,26da85894400229a00a1b9fbb7aa27d6ceed4e36,,,,,,
-VMWarePlayer,12.5.6.5528349,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-12.5.6-5528349.exe,,,,406e067cac762875c19aab61bc0fcee233f6036e,,,,,,https://www.vmware.com/go/downloadplayer
+VMWarePlayer,12.5.7.5813279,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-12.5.7-5813279.exe,,,,11da90e194efe903a06bd355e4361b965cdfc804,,,,,,https://www.vmware.com/go/downloadplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
 VS2013Professional,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532509,,,,,,,,,,,
