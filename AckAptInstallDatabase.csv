@@ -70,7 +70,7 @@ nodejs,6.11.2.0,,msi,,,https://nodejs.org/dist/v6.11.2/node-v6.11.2-x86.msi,http
 Notepad++,7.4.2.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.4.2/npp.7.4.2.Installer.exe,,,,54f638fa6bdecedaf62770abb015fde6c2e0d6bc,bd2a6ef69c97a1e6d236f8c2021520cb32899945,,,,,,https://notepad-plus-plus.org/download/
 notepad2,4.2.25.0,,exe,,,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x86.exe,http://www.flos-freeware.ch/zip/Notepad2_4.2.25_x64.exe,,,,,,,,,,
 notepad2mod,4.2.25.995,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.995/Notepad2-mod.4.2.25.995.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
-OneNote,16.0.6925.1018,,exe,,,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x86&language=en-US&version=O16GA&Source=O16ONF,https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=OneNoteFreeRetail&platform=x64&language=en-US&version=O16GA&Source=O16ONF,,,,,,,,,,
+OneNote,16.0.8326.2062,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
 Paint.net,4.0.17.0,,zip,,paint.net.4.0.17.install.exe,http://www.dotpdn.com/files/paint.net.4.0.17.install.zip,,,,,,,,,,,
 PostgreSQL,9.6.3.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-9.6.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-9.6.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 pscx,3.2.0.0,,msi,,,https://pscx.codeplex.com/downloads/get/923562,,,,,,,,,/passive,,
