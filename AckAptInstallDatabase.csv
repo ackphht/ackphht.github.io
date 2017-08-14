@@ -129,5 +129,5 @@ VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E
 VSCode,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,
-WinRAR,5.40.0.0,,exe,,,http://www.rarlab.com/rar/wrar540.exe,http://www.rarlab.com/rar/winrar-x64-540.exe,,,,,,,,,,
+WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,
 WireShark,2.4.0.0,,exe,,,https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.4.0.exe,https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.4.0.exe,,,971e6021d6ba214aa938ff43436b70525efc8f5286e556066dfa4863603e7c5e,341f97b1d8fc25b4e149fb20b718451aa8646856faa0576071037e60ed47f8b0,,,,,,https://www.wireshark.org/download.html
