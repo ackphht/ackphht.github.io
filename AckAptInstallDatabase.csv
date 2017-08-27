@@ -37,7 +37,7 @@ FlashPlayerPluginAX,26.0.0.151,,msi,,,https://fpdownload.adobe.com/pub/flashplay
 foobar2000,1.3.16.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
-FoxitReader,8.3.1.21155,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/8.x/8.3/en_us/FoxitReader831_enu_Setup_Prom.exe,,,,1207fac5f7dd69689be65b6289b08a3775507420044a359c755a1b52f4841ad2,,,,,,,
+FoxitReader,8.3.2.25013,,exe,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win/8.x/8.3/en_us/FoxitReader832_enu_Setup_Prom.exe,,,,,,,,,,,http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/win
 FreeDownloadManager,5.1.32.6573,,exe,,,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x86.exe,http://dn2.freedownloadmanager.org/5/5.1-latest/setup_x64.exe,,,,,,about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...,done installing FreeDownloadManager; re-enable to network now...,,,http://www.freedownloadmanager.org/download.htm
 Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,,
 gimp,2.8.22.0,,exe,,,https://download.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.22-setup.exe,,,,8e54225029a44ab6ef1fde09686fec7b,,,,,/SP-,,https://www.gimp.org/downloads/
