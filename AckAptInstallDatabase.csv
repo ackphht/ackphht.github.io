@@ -2,7 +2,7 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 7zip,17.0.1.0,,exe,,,http://7-zip.org/a/7z1701.exe,http://7-zip.org/a/7z1701-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
 AdobeDigitalEditions,4.5.6.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2018.009.20044.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1800920044/AcroRdrDC1800920044_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
-AndroidStudio,3.0.0.18,,exe,,,,https://dl.google.com/dl/android/studio/install/3.0.0.18/android-studio-ide-171.4408382-windows.exe,,,,627d7f346bf4825a405a9b99123e7e92d0988dc6f4912552511e3685764a0044,,,,,,https://developer.android.com/studio/index.html#downloads
+AndroidStudio,3.0.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.0.1.0/android-studio-ide-171.4443003-windows.exe,,,,1f71333fc8f31281b643a12d7f9d4c22e75ee7c14dc1faf00ce3d5291ef40bb0,,,,,,https://developer.android.com/studio/index.html#downloads
 Atom,1.0.0.0,github's fancy text editor,exe,,,https://atom.io/download/windows,,,,,,,,,,,
 Audacity,2.2.0.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.2.0.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
