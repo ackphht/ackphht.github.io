@@ -109,7 +109,7 @@ VeraCrypt,1.21.0.0,new site: https://www.veracrypt.fr/en/Downloads.html,exe,,,ht
 VirtualBox,5.2.2.0,,exe,,,http://download.virtualbox.org/virtualbox/5.2.2/VirtualBox-5.2.2-119230-Win.exe,,,,,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,5.2.2.0,,other,,,http://download.virtualbox.org/virtualbox/5.2.2/Oracle_VM_VirtualBox_Extension_Pack-5.2.2-119230.vbox-extpack,,,,,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,
-vlc,2.2.6.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.6/win32/vlc-2.2.6-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.6/win64/vlc-2.2.6-win64.exe,,,6000f3a1386c06eed2a61ede6437df2e537e1bcaac73a4a32b7648a99ffcb6ed,26da85894400229a00a1b9fbb7aa27d6ceed4e36,,,,,,https://www.videolan.org/vlc/download-windows.html
+vlc,2.2.8.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.8/win32/vlc-2.2.8-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.8/win64/vlc-2.2.8-win64.exe,,,3956020408c1666c168985a5afd01310dc5976cca67b458f9d70414d36f2608d,e3dcf2e7c2cb6ed741e78e1bbdd198875ec626a261711c7580aec5c95c8edac2,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,12.5.7.5813279,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-12.5.7-5813279.exe,,,,11da90e194efe903a06bd355e4361b965cdfc804,,,,,,https://www.vmware.com/go/downloadplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
@@ -127,4 +127,4 @@ VSCode,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,
-WireShark,2.4.2.0,,exe,,,https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.4.2.exe,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.4.2.exe,,,bcdf1cb77e7bf56b1f99b5d9abd9c555c89b4f32d2a865d5f13b3e43238bfdf8,ef372d8c4e8873a75d2de4028cb4fc7e23db2913de47086e4046f338bbfc6ddc,,,,,,https://www.wireshark.org/download.html
+WireShark,2.4.3.0,,exe,,,https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.4.3.exe,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.4.3.exe,,,7e5288224c0efc666fd15852e49ed7864e0a70971b5c09181ccfe5f71fd27d6e,fbe322534581feba53564d99a342f8a75aaa178af8efbaa9fe9e9298233af41d,,,,,,https://www.wireshark.org/download.html
