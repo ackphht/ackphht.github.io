@@ -1,5 +1,5 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd,AppPage
-7zip,17.0.1.0,,exe,,,http://7-zip.org/a/7z1701.exe,http://7-zip.org/a/7z1701-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
+7zip,18.0.0.0,,exe,,,http://7-zip.org/a/7z1800.exe,http://7-zip.org/a/7z1800-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
 AdobeDigitalEditions,4.5.7.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2018.009.20044.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1800920044/AcroRdrDC1800920044_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.0.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.0.1.0/android-studio-ide-171.4443003-windows.exe,,,,1f71333fc8f31281b643a12d7f9d4c22e75ee7c14dc1faf00ce3d5291ef40bb0,,,,,,https://developer.android.com/studio/index.html#downloads
@@ -19,6 +19,7 @@ DebugDiag,2.1.0.7,,msi,TRUE,,http://download.microsoft.com/download/B/4/6/B46E99
 Defraggler,2.21.993.0,,exe,,,http://download.piriform.com/dfsetup221.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,
 DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
 digestIt,3.1.2004,,msi,,,http://www.colonywest.us/versions/download.php?release_id=2,http://www.colonywest.us/versions/download.php?release_id=3,,,,,,,,/passive,,
+DockerCE,17.12.0.15048,,exe,,,,https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe,,,,6a840beb6651519bb51cebeef287562ccba46092fb334fbcd47f8f5b89b9a77f,,,,,,https://store.docker.com/editions/community/docker-ce-desktop-windows
 DotNet40,4.0.0.20110221,,exe,,,http://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe,,,,,,,,,,,
 DotNet45,4.5.2.20140506,,exe,,,http://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,,
 DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,http://go.microsoft.com/fwlink/?LinkId=780596,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
@@ -111,7 +112,7 @@ VirtualBox,5.2.4.0,,exe,,,http://download.virtualbox.org/virtualbox/5.2.4/Virtua
 VirtualBoxExtensions,5.2.4.0,,other,,,http://download.virtualbox.org/virtualbox/5.2.4/Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack,,,,,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,
 vlc,2.2.8.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/2.2.8/win32/vlc-2.2.8-win32.exe,http://download.videolan.org/pub/videolan/vlc/2.2.8/win64/vlc-2.2.8-win64.exe,,,3956020408c1666c168985a5afd01310dc5976cca67b458f9d70414d36f2608d,e3dcf2e7c2cb6ed741e78e1bbdd198875ec626a261711c7580aec5c95c8edac2,,,,,,https://www.videolan.org/vlc/download-windows.html
-VMWarePlayer,14.1.0.7370693,old download: https://www.vmware.com/go/downloadplayer,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-14.1.0-7370693.exe,,,,d3be0266bf27484bb60827d42514db113f9171d3,,,,,,https://www.vmware.com/go/tryplayer
+VMWarePlayer,14.1.1.7528167,old download: https://www.vmware.com/go/downloadplayer,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-14.1.1-7528167.exe,,,,ca63ec797b0900458170e51763349f0e28011ed2,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
 VS2013Professional,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532509,,,,,,,,,,,
@@ -124,7 +125,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.19.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
+VSCode,1.19.2.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,
