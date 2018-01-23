@@ -22,10 +22,14 @@ DotNet40,4.0.0.20110221,,exe,,,http://download.microsoft.com/download/1/B/E/1BE3
 DotNet45,4.5.2.20140506,,exe,,,http://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,,
 DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,http://go.microsoft.com/fwlink/?LinkId=780596,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet47,4.7.0.20170502,http://go.microsoft.com/fwlink/?LinkId=825299,exe,,,http://go.microsoft.com/fwlink/?LinkId=825298,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet46DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
+DotNet461DevPack,4.6.1.20151117,"installs the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK
+http://go.microsoft.com/fwlink/?LinkId=690706",exe,,,http://go.microsoft.com/fwlink/?LinkId=690705,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
+DotNet462DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
 http://go.microsoft.com/fwlink/?LinkId=780617",exe,,,http://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet47DevPack,4.7.0.20170502,"installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK
 http://go.microsoft.com/fwlink/?LinkId=825319",exe,,,http://go.microsoft.com/fwlink/?LinkId=825318,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
+DotNet471DevPack,4.7.1.20171013," installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK
+http://go.microsoft.com/fwlink/?LinkId=852105",exe,,,http://go.microsoft.com/fwlink/?LinkId=852104,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNetCoreSdk,2.1.4.0,https://github.com/dotnet/core/blob/master/release-notes/download-archive.md,exe,,,https://download.microsoft.com/download/1/1/5/115B762D-2B41-4AF3-9A63-92D9680B9409/dotnet-sdk-2.1.4-win-x86.exe,https://download.microsoft.com/download/1/1/5/115B762D-2B41-4AF3-9A63-92D9680B9409/dotnet-sdk-2.1.4-win-x64.exe,,,57703986a5c7eea8ceee265ce206a047e85dec5c698ad570df74b68cbfed36026bf70aa454924ec94be4d37ff492c76716beb23e12ed98816e5cb8e25eeeff0b,10309b343be6dc51b04d09ed97035ddaabe250685e1799fec8a0d3f7f34ea77dddc1d742544320c21bacfa4a2c27678d262540ecf2cd69dad354a8ad207f388d,,,,/passive,,https://www.microsoft.com/net/download/windows
 Fiddler4,4.6.20172.31233,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.4.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,7a8dcf4a1025343e16c1dd6f7af23646,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
