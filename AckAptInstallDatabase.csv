@@ -1,7 +1,7 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd,AppPage
 7zip,18.0.1.0,,exe,,,http://7-zip.org/a/7z1801.exe,http://7-zip.org/a/7z1801-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
 AdobeDigitalEditions,4.5.7.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
-AdobeReaderDC,2018.009.20044.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1800920044/AcroRdrDC1800920044_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
+AdobeReaderDC,2018.011.20035.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1801120035/AcroRdrDC1801120035_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.0.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.0.1.0/android-studio-ide-171.4443003-windows.exe,,,,1f71333fc8f31281b643a12d7f9d4c22e75ee7c14dc1faf00ce3d5291ef40bb0,,,,,,https://developer.android.com/studio/index.html#downloads
 Audacity,2.2.1.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.2.1.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
