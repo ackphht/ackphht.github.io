@@ -124,4 +124,4 @@ VSCode,1.20.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,https://www.rarlab.com
-WireShark,2.4.4.0,,exe,,,https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.4.4.exe,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.4.4.exe,,,1f93c1df271aeaa60161d67abd9e17f48f07f1a7cfc84c3c09076be23b2a845e,f532b664921a317c151ef0fb2b4e7badcdb9ecd5a969d38bd54568a6a0a18c68,,,,,,https://www.wireshark.org/download.html
+WireShark,2.4.5.0,,exe,,,https://2.na.dl.wireshark.org/win32/Wireshark-win32-2.4.5.exe,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.4.5.exe,,,31687c3c0f9e7c2c0ce610db5c659680083d7204c5fbda4a98fb439a86c90011,867338819182ba636e1b741e87d60f1b06661138c2614db1253f1c75c17ae68c,,,,,,https://www.wireshark.org/download.html
