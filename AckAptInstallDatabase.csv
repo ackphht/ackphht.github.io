@@ -71,7 +71,7 @@ notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/
 OneNote,16.0.8730.2122,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
 Paint.net,4.0.21.0,,zip,,paint.net.4.0.21.install.exe,http://www.dotpdn.com/files/paint.net.4.0.21.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PostgreSQL,10.3.0.0,,exe,,,http://get.enterprisedb.com/postgresql/postgresql-10.3-1-windows.exe,http://get.enterprisedb.com/postgresql/postgresql-10.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
-PrivateInternetAccess,78.0.0.0,,exe,,,https://installers.privateinternetaccess.com/download/pia-v78-installer-win.exe,,,,66e147355ec534c67875fd6cda457ee9214e15f91f28a567f48b237be3911555,,,,,,,https://www.privateinternetaccess.com/pages/downloads
+PrivateInternetAccess,79.0.0.0,,exe,,,https://installers.privateinternetaccess.com/download/pia-v79-installer-win.exe,,,,ea50acfab0d8be8cc118886c0ab5b07c5142eb906ea1b08cfe4afa8689670bda,,,,,,,https://www.privateinternetaccess.com/pages/downloads
 PyCharmCommunity,2018.1.1.0,current build: 181.4203.547,exe,,,https://download.jetbrains.com/python/pycharm-community-2018.1.1.exe,,,,c2791763838dd08d051476c0969fd64c979ee4d3df973e306a8eacc87ed086f5,,,,,,,https://www.jetbrains.com/pycharm/download/index.html
 python27,2.7.14.0,,msi,,,https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi,https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi,,,fff688dc4968ec80bbb0eedf45de82db,370014d73c3059f610c27365def62058,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",,https://www.python.org/downloads/
 python34,3.4.3.0,,msi,,,https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi,https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi,,,cb450d1cc616bfc8f7a2d6bd88780bf6,f6ade29acaf8fcdc0463e69a6e7ccf87,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python34 ADDLOCAL=DefaultFeature,Tools,Extensions,TclTk,Documentation,pip_feature,Testsuite REMOVE=PrependPath",,https://www.python.org/downloads/
@@ -121,7 +121,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.22.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
+VSCode,1.22.2.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,https://www.rarlab.com
