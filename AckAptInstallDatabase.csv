@@ -12,7 +12,7 @@ AzureStorageExplorer,0.9.6.0,http://storageexplorer.com/,exe,,,https://go.micros
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.21.0.0,,msi,,,https://download.calibre-ebook.com/3.21.0/calibre-3.21.0.msi,https://download.calibre-ebook.com/3.21.0/calibre-64bit-3.21.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
-ConEmu,18.04.11.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v18.04.11/ConEmuSetup.180411.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
+ConEmu,18.04.15.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v18.04.15/ConEmuSetup.180415.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
 Defraggler,2.21.993.0,,exe,,,http://download.piriform.com/dfsetup221.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
 DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
