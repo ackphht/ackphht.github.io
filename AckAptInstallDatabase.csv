@@ -34,8 +34,8 @@ DotNetCoreSdk,2.1.300.0,https://www.microsoft.com/net/download/windows,exe,,,htt
 Fiddler4,5.0.20181.13826,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,4038016252ac6bca8dac41e4569a7855,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
 FileZilla,3.33.0.0,,exe,,,https://dl2.cdn.filezilla-project.org/client/FileZilla_3.33.0_win32-setup.exe,https://dl2.cdn.filezilla-project.org/client/FileZilla_3.33.0_win64-setup.exe,,,863968450f993604ccf31db46ecf1ace929f5488cecf24b5dd4fcb5c3c6336c86bff63e8e4be819b98bed2be5834aa671f1189a143db0b5f67bc2008f2312e7c,1e852bed5b81e9e630c1ae6307242bbb16d5004320564583253a892def478f1f9211e0c5de2c5acb1ce311db8d7911691673caaffdc73481c682a079b1c4b016,,,,/S,,https://filezilla-project.org/download.php?show_all=1
-FlashPlayerPlugin,29.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/29.0.0.171/install_flash_player_29_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-FlashPlayerPluginAX,29.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/29.0.0.171/install_flash_player_29_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPlugin,30.0.0.113,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.113/install_flash_player_30_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPluginAX,30.0.0.113,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.113/install_flash_player_30_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.3.17.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
@@ -122,7 +122,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.23.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
+VSCode,1.24.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,,,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,https://www.rarlab.com
