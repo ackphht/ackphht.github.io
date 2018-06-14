@@ -65,7 +65,7 @@ MediaMonkey,4.1.20.1864,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,
 Mercurial,4.6.0.0,,exe,,,https://mercurial-scm.org/release/windows/Mercurial-4.6.exe,https://mercurial-scm.org/release/windows/Mercurial-4.6-x64.exe,,,,,,,,/DIR=C:\tools\hg,,https://www.mercurial-scm.org/wiki/Download
 MicrosoftMessageAnalyzer,1.4.1.20161028,https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,E923884FE1A076542BB5BBCAB13CC715A2D6D243,839B24D7CF8248B2BA9A0B14DC62146D94761966,,,,,,https://technet.microsoft.com/en-us/library/dn904558.aspx
 MySqlCommunity,8.0.11.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.11.0.msi,,,,e0b526121cff39d81308bc57783a66cc,,,,,,,https://dev.mysql.com/downloads/mysql/
-nodejs,8.11.2.0,,msi,,,,https://nodejs.org/dist/v8.11.2/node-v8.11.2-x64.msi,,,,108dd9ccd131931e42b57dc1243dc28aacfebe207de48c420a576fe453d33ed7,,,,INSTALLDIR=C:\tools\nodejs,,https://nodejs.org/en/download/
+nodejs,8.11.3.0,,msi,,,,https://nodejs.org/dist/v8.11.3/node-v8.11.3-x64.msi,,,,d7e3057e921803159266ff1340283420a3e5053bad0c3ff951d8946a8f9aa66b,,,,INSTALLDIR=C:\tools\nodejs,,https://nodejs.org/en/download/
 Notepad++,7.5.6.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.5.6/npp.7.5.6.Installer.exe,,,,ea8c13b964fd9380899e18d17e0b59aeb50e3ad0,36b3ae08f58642ff65e04b0c314465a5094fbe67,,,,/noUpdater /allowAppDataPluginsLoading,,https://notepad-plus-plus.org/download/
 notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 OneNote,16.0.8730.2122,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
@@ -122,7 +122,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.24.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.24.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.50.0.0,,exe,,,http://www.rarlab.com/rar/wrar550.exe,http://www.rarlab.com/rar/winrar-x64-550.exe,,,,,,,,,,https://www.rarlab.com
