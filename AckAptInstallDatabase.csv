@@ -10,7 +10,7 @@ AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,
 AutoHotkey,1.1.29.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 AzureStorageExplorer,1.2.0.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,3.25.0.0,,msi,,,https://download.calibre-ebook.com/3.25.0/calibre-3.25.0.msi,https://download.calibre-ebook.com/3.25.0/calibre-64bit-3.25.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+calibre,3.26.1.0,,msi,,,https://download.calibre-ebook.com/3.26.1/calibre-3.26.1.msi,https://download.calibre-ebook.com/3.26.1/calibre-64bit-3.26.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,18.05.28.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v18.05.28/ConEmuSetup.180528.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
@@ -36,7 +36,7 @@ FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup
 FileZilla,3.33.0.0,,exe,,,https://dl2.cdn.filezilla-project.org/client/FileZilla_3.33.0_win32-setup.exe,https://dl2.cdn.filezilla-project.org/client/FileZilla_3.33.0_win64-setup.exe,,,863968450f993604ccf31db46ecf1ace929f5488cecf24b5dd4fcb5c3c6336c86bff63e8e4be819b98bed2be5834aa671f1189a143db0b5f67bc2008f2312e7c,1e852bed5b81e9e630c1ae6307242bbb16d5004320564583253a892def478f1f9211e0c5de2c5acb1ce311db8d7911691673caaffdc73481c682a079b1c4b016,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,30.0.0.113,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.113/install_flash_player_30_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,30.0.0.113,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.113/install_flash_player_30_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-foobar2000,1.3.18.0,,exe,,,,,"http://www.foobar2000.org/download
+foobar2000,1.3.19.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
 FoxitReader,9.1.0.5096,,exe,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win/9.1/FoxitReader91_enu_Setup_Prom.exe,,,,,,,,,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win
@@ -107,7 +107,7 @@ VeraCrypt,1.22.0.0,new site: https://www.veracrypt.fr/en/Downloads.html,exe,,,ht
 VirtualBox,5.2.12.0,,exe,,,https://download.virtualbox.org/virtualbox/5.2.12/VirtualBox-5.2.12-122591-Win.exe,,,,d039d27bd27937db7489dfefc854975573828ee066e37fec908579db37b6c2a0,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,5.2.12.0,,other,,,https://download.virtualbox.org/virtualbox/5.2.12/Oracle_VM_VirtualBox_Extension_Pack-5.2.12.vbox-extpack,,,,4c36d129f17dcab2bb37292022f1b1adfefa5f32a3161b0d5d40784bc8acf4d0,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,1.15.1147.42,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.42.exe,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.42.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,1.15.1147.47,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.47.exe,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.47.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.3.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.3/win32/vlc-3.0.3-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.3/win64/vlc-3.0.3-win64.exe,,,65bf42b15a05b13197e4dd6cdf181e39f30d47feb2cb6cc929db21cd634cd36f,59940804b6a89f0c83b576247dd90f2c5a22b8c7f040ebf82813c59968828035,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,14.1.2.8497320,old download: https://www.vmware.com/go/downloadplayer,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-14.1.2-8497320.exe,,,,35b901f3cec3f7fd6a0680c655dc911308bbb7d9,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
