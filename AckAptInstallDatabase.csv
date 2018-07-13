@@ -8,7 +8,7 @@ Audacity,2.2.2.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.
 $1",,ca19471e10660765dec12c980ebd3eeb9b82826ea4f25bc490936f312b14caff,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.29.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
-AzureStorageExplorer,1.3.0.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
+AzureStorageExplorer,1.3.1.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.27.1.0,,msi,,,,https://download.calibre-ebook.com/3.27.1/calibre-64bit-3.27.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
@@ -45,7 +45,7 @@ Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.
 gimp,2.10.4.0,,exe,,,https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.4-setup-1.exe,,,,608c12c66bccadbd46dd519b38337ebcda0cc6fc845bc3c8a943de43dccabfa9,,,,,/SP-,,https://www.gimp.org/downloads/
 gimp-help,2.8.2.0,,exe,,,https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe,,,,,,,,,,,
 git,2.18.0.0,https://gitforwindows.org/,exe,,,https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-32-bit.exe,https://github.com/git-for-windows/git/releases/download/v2.18.0.windows.1/Git-2.18.0-64-bit.exe,,,f4e910eb5182aefada20226a5a0a64b5b528ad1439c28a47c25252ee27f71af0,aa81c9f2a81fd07ba0582095474365821880fd787b1cbe03abaf71d9aa69d359,,,,/DIR=C:\tools\git /SP-,,https://github.com/git-for-windows/git/releases
-GitKraken,3.6.4.0,,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,https://release.gitkraken.com/win64/GitKrakenSetup.exe,,,,,,,don't forget to 'fix' the auto update 'feature'...,/S,,https://www.gitkraken.com/download
+GitKraken,3.6.6.0,,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,https://release.gitkraken.com/win64/GitKrakenSetup.exe,,,,,,,don't forget to 'fix' the auto update 'feature'...,/S,,https://www.gitkraken.com/download
 GoogleChrome,0.0.0.0,,exe,,,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe,,,,,,,,,,https://enterprise.google.com/intl/en_version/chrome/chrome-browser/
 Handbrake,1.1.1.0,,exe,,,,https://download.handbrake.fr/releases/1.1.1/HandBrake-1.1.1-x86_64-Win_GUI.exe,,,,7295a2934a37d9fe4dcbf97539cbf6c743f896dd91c7114ba827df7103b044e4,,,,,,https://handbrake.fr/downloads.php
 iDrive,6.7.1.23,,exe,,,https://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,/SILENT,,https://www.idrive.com/downloads/version_win.js
@@ -123,7 +123,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.25.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,,,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.25.1.0,,exe,,,https://go.microsoft.com/fwlink/?LinkID=623230,https://go.microsoft.com/fwlink/?Linkid=852157,,,05201170d6c14cc21d550cc0a0f53eb6,baf5cfd38caac866070b1a5d67f9c7b2,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.60.0.0,,exe,,,http://www.rarlab.com/rar/wrar560.exe,http://www.rarlab.com/rar/winrar-x64-560.exe,,,,,,,,,,https://www.rarlab.com
