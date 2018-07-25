@@ -37,7 +37,7 @@ FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup
 FileZilla,3.35.1.0,,exe,,,https://dl3.cdn.filezilla-project.org/client/FileZilla_3.35.1_win32-setup.exe,https://dl3.cdn.filezilla-project.org/client/FileZilla_3.35.1_win64-setup.exe,,,9783b9b7af27f7af9ac0b92bb514a6b7a80b26588c0a51773c65c680e0e847d026a0519ebe13ec359f852af9ff06143d385db65ae4eab5b873c3d7a91cad00cc,e1be496efc1046d5c4a208638c11b79512eb714cbbfa36fa7e742fe236768aea4be0a188423339543dff8ed08f6a1c9a2c6d88e54610ce3b3c1c67e1d8ebbb0f,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,30.0.0.134,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.134/install_flash_player_30_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,30.0.0.134,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/30.0.0.134/install_flash_player_30_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-foobar2000,1.3.19.0,,exe,,,,,"http://www.foobar2000.org/download
+foobar2000,1.4.0.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
 FoxitReader,9.2.0.9267,,exe,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win/9.2/FoxitReader92_enu_Setup_Prom.exe,,,,,,,,,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win
