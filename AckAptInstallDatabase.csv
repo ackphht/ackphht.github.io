@@ -129,4 +129,4 @@ VSCode,1.26.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,51cc56
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.60.0.0,,exe,,,http://www.rarlab.com/rar/wrar560.exe,http://www.rarlab.com/rar/winrar-x64-560.exe,,,,,,,,,,https://www.rarlab.com
-WireShark,2.6.2.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.6.2.exe,,,,88aa2ca018090fc73ffb273aa1ba9f690ec06deb77d1ec7ff9b39fe646ca2877,,,,,,https://www.wireshark.org/download.html
+WireShark,2.6.3.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.6.3.exe,,,,40701d569f75ba08bd3fb9d79e6841095d6d3001e5d8f1e9f50c996bcf0657ff,,,,,,https://www.wireshark.org/download.html
