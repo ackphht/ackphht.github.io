@@ -2,12 +2,13 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 7zip,18.0.5.0,,exe,,,http://7-zip.org/a/7z1805.exe,http://7-zip.org/a/7z1805-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
 AdobeDigitalEditions,4.5.7.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2018.011.20063.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1801120063/AcroRdrDC1801120063_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
-AndroidStudio,3.1.4.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.1.4.0/android-studio-ide-173.4907809-windows.exe,,,,6d738a91824791abe7d9efa9ad1becaa3a1b7b4e86e84b149cf4ea9984e68441,,,,,,https://developer.android.com/studio/index.html#downloads
+AndroidStudio,3.2.0.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.2.0.26/android-studio-ide-181.5014246-windows.exe,,,,978673a7babf51a9dca67729213c178995c1039a496dc1dfccb4c095b842c753,,,,,,https://developer.android.com/studio/index.html#downloads
 Audacity,2.2.2.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.2.2.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
 $1",,ca19471e10660765dec12c980ebd3eeb9b82826ea4f25bc490936f312b14caff,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.0,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
+AzureDataStudio,1.0.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2024683,,,,,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
 AzureStorageExplorer,1.4.2.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.31.0.0,,msi,,,,https://download.calibre-ebook.com/3.31.0/calibre-64bit-3.31.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
@@ -95,7 +96,6 @@ SourceTree,2.6.10.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,
 SqlServer2017Express,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 SqlServer2017LocalDb,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 SqlServerMngmtStudio,14.0.17285.0,release 17.9,exe,,,https://go.microsoft.com/fwlink/?linkid=2014306,,,,,,,,,,,https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
-SqlOperationsStudio,0.32.8.0,https://github.com/Microsoft/sqlopsstudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2013365,,,,,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/sql-operations-studio/download
 stellarium,0.18.2.0,http://stellarium.org/,exe,,,https://github.com/Stellarium/stellarium/releases/download/v0.18.2/stellarium-0.18.2-win32.exe,https://github.com/Stellarium/stellarium/releases/download/v0.18.2/stellarium-0.18.2-win64.exe,,,3bbe8312d76bfcfc7ae555781f45e61f7c807c0d,8e67463f4ffc169fd82b918a362d85552c7fa155,,,,,,https://github.com/Stellarium/stellarium/releases
 SumatraPDF,3.1.2.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-64-install.exe,,,,,,,,,,http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 SyncBackSE,8.5.90.0,,exe,,,https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe,https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe,,,7269975636762c2f84d81e98878bc8826a9be211,77d47b2abfbb108358ceec366265dc6df9e0be25,,,,/Silent /SP- /Counter=1 /UpdCheckDays=0,,https://www.2brightsparks.com/download-syncbackse.html
@@ -116,7 +116,7 @@ VirtualBoxExtensions,5.2.18.0,,other,,,https://download.virtualbox.org/virtualbo
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
 Vivaldi,1.15.1147.64,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.64.exe,https://downloads.vivaldi.com/stable/Vivaldi.1.15.1147.64.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.4.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.4/win32/vlc-3.0.4-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.4/win64/vlc-3.0.4-win64.exe,,,ed117b1d823c76df0c3fbc96d570914a122442f420c1da070e660a20c403b94c,c73aa2a4cad7703e3f4fe756bf307351bd39f864c1b654f43bccc9415affbee9,,,,,,https://www.videolan.org/vlc/download-windows.html
-VMWarePlayer,14.1.3.9474260,old download: https://www.vmware.com/go/downloadplayer,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-14.1.3-9474260.exe,,,,404a36665f826ddd92a64c1fae416b05ae5539cd,,,,,,https://www.vmware.com/go/tryplayer
+VMWarePlayer,15.0.0.10134415,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.0-10134415.exe,,,,3a16eb8571ce5c4ad33c8b034b51bed1589ad992,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
 VS2013Professional,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532509,,,,,,,,,,,
