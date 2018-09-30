@@ -3,9 +3,9 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 AdobeDigitalEditions,4.5.7.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2018.011.20063.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1801120063/AcroRdrDC1801120063_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.2.0.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.2.0.26/android-studio-ide-181.5014246-windows.exe,,,,978673a7babf51a9dca67729213c178995c1039a496dc1dfccb4c095b842c753,,,,,,https://developer.android.com/studio/index.html#downloads
-Audacity,2.2.2.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.2.2.exe
+Audacity,2.3.0.0,,exe,,,,,"https://www.fosshub.com/Audacity.html/audacity-win-2.2.2.exe
 (?s).+<iframe width=""1"" height=""1"" frameborder=""0"" src=""([^""]+)""></iframe>.+
-$1",,ca19471e10660765dec12c980ebd3eeb9b82826ea4f25bc490936f312b14caff,,,,,,,http://www.audacityteam.org/download/windows/
+$1",,3909676287cc0c44fe867bcc0e74a23891aeeeda42ebf11b3037c9b28dca43a1,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.0,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 AzureDataStudio,1.0.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2024683,,,,,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
