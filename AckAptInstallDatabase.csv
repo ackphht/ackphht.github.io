@@ -7,7 +7,7 @@ Audacity,2.3.0.0,,exe,,,http://app.oldfoss.com:81/download/Audacity/audacity-win
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.0,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 AzureDataStudio,1.1.3.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2030731,,,,OaAbp5ihzBNHrAF89cf40w==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
-AzureStorageExplorer,1.4.4.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
+AzureStorageExplorer,1.5.0.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.33.1.0,,msi,,,,https://download.calibre-ebook.com/3.33.1/calibre-64bit-3.33.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
@@ -33,11 +33,11 @@ DotNet472DevPack,4.7.2.20180607,,exe,,,http://go.microsoft.com/fwlink/?LinkId=87
 DotNetCoreSdk,2.1.403.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/45f93081-cdb4-41c1-8d8d-e6c3bbf2872b/62d6a598956fdfe585acb1f15268d930/dotnet-sdk-2.1.403-win-x64.exe,,,,3630dc9c52ec6b08c0804da3fc9177d3d61f12f5629c65249f7bc75b34a24c4059812fc8e6cdef64dcc7c4030ad5952e998674ac1ef497f20e43b2ab4b53be90,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,4038016252ac6bca8dac41e4569a7855,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
-FileZilla,3.37.4.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
+FileZilla,3.38.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
 (?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*)"">FileZilla_[\d\.]+_win32-setup\.exe</a>.+
 $1","https://filezilla-project.org/download.php?show_all=1
 (?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*)"">FileZilla_[\d\.]+_win64-setup\.exe</a>.+
-$1",30dc9fb42b1ed826e7eafda4f65b954e09ddb38bc7167cb89f527b3d899766f06739113c45f877040a46e5639810d58acb14d58310ea01624eff4f8557a0844d,e16a5a1fe891c49050c4b54d7b2823c3c96e1fd40bd62793e475b499d6a9562a4b64e23d84b6c47e1a62cb32eddcfde71156b0d927c28077385c29b6065fb74a,,,,/S,,https://filezilla-project.org/download.php?show_all=1
+$1",398d1fcca3398d3a537dd845c10fdc0fe89362e330b42708b4bd31f5c0e57f0b3054d4026fedb701a16c92dd643e5c5450d943ff5a0b16315f70adf9b767d516,e2a0bcf9a1a7def810dabd4ec6be041bf1ffdf7a50b6e6909cae004dad464a204686ef9119428ad3e997013263f96858169ed2dfa039499b73f8d3f567c3911e,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,31.0.0.122,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.122/install_flash_player_31_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,31.0.0.122,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.122/install_flash_player_31_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.4.0.0,,exe,,,,,"http://www.foobar2000.org/download
