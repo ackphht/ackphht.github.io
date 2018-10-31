@@ -24,6 +24,10 @@ div.link:first-child:before { content: ""; }
 div.floaty { display: inline-block; min-width: 30%; margin: auto 20px; vertical-align: top; }
 div.tab-pane ul { padding-left: 25px; }
 
+table.table-autoWidth { width:auto; }
+#workTab table th { text-align:right; }
+#workTab table th.icon { padding-right:22px; background-size: 16px 16px; background-position: right center; background-repeat: no-repeat; }
+
 /*
 #wrapper {
 	position: relative;
