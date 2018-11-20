@@ -39,8 +39,8 @@ FileZilla,3.38.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all
 $1","https://filezilla-project.org/download.php?show_all=1
 (?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*)"">FileZilla_[\d\.]+_win64-setup\.exe</a>.+
 $1",398d1fcca3398d3a537dd845c10fdc0fe89362e330b42708b4bd31f5c0e57f0b3054d4026fedb701a16c92dd643e5c5450d943ff5a0b16315f70adf9b767d516,e2a0bcf9a1a7def810dabd4ec6be041bf1ffdf7a50b6e6909cae004dad464a204686ef9119428ad3e997013263f96858169ed2dfa039499b73f8d3f567c3911e,,,,/S,,https://filezilla-project.org/download.php?show_all=1
-FlashPlayerPlugin,31.0.0.148,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.148/install_flash_player_31_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-FlashPlayerPluginAX,31.0.0.148,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.148/install_flash_player_31_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPlugin,31.0.0.153,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.153/install_flash_player_31_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPluginAX,31.0.0.153,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/31.0.0.153/install_flash_player_31_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.4.1.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
@@ -92,7 +92,7 @@ QTTabBar,0.1038.0,,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qt
 Resharper,2018.2.3.0,https://www.jetbrains.com/resharper/whatsnew/,exe,,,https://download.jetbrains.com/resharper/ReSharperUltimate.2018.2.3/JetBrains.ReSharperUltimate.2018.2.3.exe,,,,bbf113dfff09df15c07609dfa1b1f2885d8e2065fce5107ae7a5e3d8b3214ae9,,,,,/VsVersion=11.0;12.0;14.0;15.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True,,https://www.jetbrains.com/resharper/download/index.html
 Rider,2018.2.3.0,,exe,,,https://download.jetbrains.com/rider/JetBrains.Rider-2018.2.3.exe,,,,b94c23f2a3e4937bbfd5971222be37b3dc29b1a8f807e9416c8db25d69381f70,,"0,1223",,,,,https://www.jetbrains.com/rider/download/
 ruby2,2.5.1.1,https://github.com/oneclick/rubyinstaller2/releases,exe,,,,https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-2.5.1-1-x64.exe,,,,b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",,https://rubyinstaller.org/downloads/
-RubyMine,2018.2.4.0,,exe,,,https://download.jetbrains.com/ruby/RubyMine-2018.2.4.exe,,,,11704aaad757fa8b412a80a40414ff8d9a8aee0851af70ffcca83c868689b418,,"0,1223",,,,,https://www.jetbrains.com/ruby/download/
+RubyMine,2018.2.5.0,,exe,,,https://download.jetbrains.com/ruby/RubyMine-2018.2.5.exe,,,,ca31bfc4ffba7084aff0bab4b716e892a873573f07e3de62e14babbd3e4d03fb,,"0,1223",,,,,https://www.jetbrains.com/ruby/download/
 Sigil,0.9.10.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.10/Sigil-0.9.10-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.10/Sigil-0.9.10-Windows-x64-Setup.exe,,,499893c8f90c220676219ca2e9f65c4ba86c9abebe5133a770d6729df71787e7,e2351a5da3cd0d648ae5852436ad1b531f314b2a934d8782b78e3d226f2c1b94,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,,
@@ -135,7 +135,7 @@ VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
 VSCode,1.29.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,MG+Dc4rEXSUoHW6hbMHWhw==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
-WebStorm,2018.2.6.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.2.6.exe,,,,78de5fb7dbc3877a42a1acdc83d43ddc041210ac802bceaae8063699244f2315,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
+WebStorm,2018.3.0.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.3.exe,,,,8178a1e55e27a1675396621976f7f55631b1f260ec63f38a6fc4b4928ff447cf,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.14.0,,exe,,,http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download,,,,4006203d4fc3542e765212e1a78f115fb3f946d2,,,,,,,http://winmerge.org/downloads/
 WinRAR,5.61.0.0,,exe,,,http://www.rarlab.com/rar/wrar561.exe,http://www.rarlab.com/rar/winrar-x64-561.exe,,,,,,,,,,https://www.rarlab.com
 WireShark,2.6.4.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe,,,,3ca543a311a9ec3f9b2045768ead78af3acd19f8fa447aae9885712c5f8aaddb,,,,,,https://www.wireshark.org/download.html
