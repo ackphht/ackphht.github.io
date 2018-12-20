@@ -12,7 +12,7 @@ BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99
 calibre,3.35.0.0,,msi,,,,https://download.calibre-ebook.com/3.35.0/calibre-64bit-3.35.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,18.06.26.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v18.06.26/ConEmuSetup.180626.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
-DataGrip,2018.3.0.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.exe,,,,e6beb91ac0d5c71a68a6ce79c13784c9f1514816b98e313cf6a759a30d3bef1d,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
+DataGrip,2018.3.1.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.1.exe,,,,8b27c34e6ea65dc2e19692ddf3538dd08d151586b0a7ec2a6a3e0fc503b4abc8,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
 DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
 Defraggler,2.22.995.0,,exe,,,https://download.ccleaner.com/dfsetup222.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
 DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
@@ -77,7 +77,7 @@ notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/
 notepad3,4.18.512.992,https://github.com/rizonesoft/Notepad3,zip,,Notepad3_4.18.512.992_Setup.exe,https://www.rizonesoft.com/genesis/Notepad3/Notepad3_4.18.512.992_Setup.zip,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
 OneNote,16.0.10827.20138,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
 Paint.net,4.1.5.0,,zip,,paint.net.4.1.5.install.exe,http://www.dotpdn.com/files/paint.net.4.1.5.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
-PhpStorm,2018.3.1.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.1.exe,,,,1ecacdcdaa07502127c592f403c8c5b936a6c3d90370ff252fdb256b8b08c1b5,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
+PhpStorm,2018.3.2.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.2.exe,,,,ce8e17f95a40de725abbae3534df5c53be4ffa37b1fd9a2bf100539828acea9f,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.1.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 Postman,6.6.1.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,122296859D04176443ED4656F78D16AA3AB4B355,,,,,,https://www.getpostman.com/apps#changelog
 PrivateInternetAccess,82.0.0.0,,exe,,,https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe,,,,ced936f4dd39bea9e5989550b83d53cc686909da4bf09c59e4061066dc84a779,,,,,,,https://www.privateinternetaccess.com/pages/downloads
@@ -118,7 +118,7 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.0.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe,,,,e943e84158057da06e3355b0e170b82507cbe7080f5bbf06c9f4a7674ffa783c,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.0.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack,,,,b99ef88b0ac1abebc7a6d7168dd5eec58c426f05acf69c4055defff175038f57,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.2.1388.34,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.34.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.34.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.2.1388.37,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.37.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.2.1388.37.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.4.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.4/win32/vlc-3.0.4-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.4/win64/vlc-3.0.4-win64.exe,,,ed117b1d823c76df0c3fbc96d570914a122442f420c1da070e660a20c403b94c,c73aa2a4cad7703e3f4fe756bf307351bd39f864c1b654f43bccc9415affbee9,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.0.2.10952284,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.2-10952284.exe,,,,67913b33144fc7475c34749098e9b8ca5e762448,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
