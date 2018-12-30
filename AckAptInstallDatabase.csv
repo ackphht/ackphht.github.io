@@ -1,5 +1,5 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd,AppPage
-7zip,18.0.5.0,,exe,,,http://7-zip.org/a/7z1805.exe,http://7-zip.org/a/7z1805-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
+7zip,18.0.6.0,,exe,,,http://7-zip.org/a/7z1806.exe,http://7-zip.org/a/7z1806-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
 AdobeDigitalEditions,4.5.9.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2019.010.20064.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020064/AcroRdrDC1901020064_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.2.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.2.1.0/android-studio-ide-181.5056338-windows.exe,,,,6ee509f3391757fe87cc5c1e4970a0228fc1ad6ca34a8b31c0a28926179353a9,"0,1223",,,,,https://developer.android.com/studio/index.html#downloads
@@ -44,7 +44,7 @@ FlashPlayerPluginAX,32.0.0.101,,msi,,,https://fpdownload.adobe.com/pub/flashplay
 foobar2000,1.4.1.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
-FoxitReader,9.3.0.10826,,exe,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win/9.3/FoxitReader93_enu_Setup_Prom.exe,,,,,,,,,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win
+FoxitReader,9.4.0.16811,,exe,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win/9.4/FoxitReader94_enu_Setup_Prom.exe,,,,,,,,,,,https://www.foxitsoftware.com/pdf-reader/
 FreeDownloadManager,5.1.37.7274,http://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17363,exe,,,http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe,http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe,,,,,,about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...,done installing FreeDownloadManager; re-enable to network now...,,,http://www.freedownloadmanager.org/download.htm
 Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,,http://freemind.sourceforge.net/wiki/index.php/Main_Page
 gimp,2.10.8.2,,exe,,,https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.8-setup-2.exe,,,,1924d0d50804bad898e9bed7cdfa9f4e093a3cff7efd75b60ec517b27b673958,,,,,/SP-,,https://www.gimp.org/downloads/
