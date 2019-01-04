@@ -9,7 +9,7 @@ AutoHotkey,1.1.30.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"
 AzureDataStudio,1.2.4.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2038320,,,,VaE3jlanj2NoheXe3WD28g==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
 AzureStorageExplorer,1.6.1.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,3.36.0.0,,msi,,,,https://download.calibre-ebook.com/3.36.0/calibre-64bit-3.36.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
+calibre,3.37.0.0,,msi,,,,https://download.calibre-ebook.com/3.37.0/calibre-64bit-3.37.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,18.06.26.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v18.06.26/ConEmuSetup.180626.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
 DataGrip,2018.3.1.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.1.exe,,,,8b27c34e6ea65dc2e19692ddf3538dd08d151586b0a7ec2a6a3e0fc503b4abc8,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
@@ -31,7 +31,7 @@ http://go.microsoft.com/fwlink/?LinkId=825319",exe,,,http://go.microsoft.com/fwl
 DotNet471DevPack,4.7.1.20171013," installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK
 http://go.microsoft.com/fwlink/?LinkId=852105",exe,,,https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet472DevPack,4.7.2.20180607,,exe,,,http://go.microsoft.com/fwlink/?LinkId=874338,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNetCoreSdk,2.1.403.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/45f93081-cdb4-41c1-8d8d-e6c3bbf2872b/62d6a598956fdfe585acb1f15268d930/dotnet-sdk-2.1.403-win-x64.exe,,,,3630dc9c52ec6b08c0804da3fc9177d3d61f12f5629c65249f7bc75b34a24c4059812fc8e6cdef64dcc7c4030ad5952e998674ac1ef497f20e43b2ab4b53be90,,,,/passive,,https://www.microsoft.com/net/download
+DotNetCoreSdk,2.2.101.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/d4592a50-b583-434a-bcda-529e506a7e0d/b1fee3bb02e4d5b831bd6057af67a91b/dotnet-sdk-2.2.101-win-x64.exe,,,,9009CF8666DF060546915A777783DC1E69CFD645BFE9F0BB6F517070D36355EA22B7B4DF5EAE9AB0748013BBB6E41587C2F029B0922804BC3DD569654F329C88,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,4038016252ac6bca8dac41e4569a7855,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
 FileZilla,3.39.0.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
