@@ -1,13 +1,13 @@
 Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd,AppPage
 7zip,18.0.6.0,,exe,,,http://7-zip.org/a/7z1806.exe,http://7-zip.org/a/7z1806-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
-AdobeDigitalEditions,4.5.9.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
+AdobeDigitalEditions,4.5.10.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2019.010.20069.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901020069/AcroRdrDC1901020069_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.2.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.2.1.0/android-studio-ide-181.5056338-windows.exe,,,,6ee509f3391757fe87cc5c1e4970a0228fc1ad6ca34a8b31c0a28926179353a9,"0,1223",,,,,https://developer.android.com/studio/index.html#downloads
 Audacity,2.3.0.0,,exe,,,http://app.oldfoss.com:81/download/Audacity/audacity-win-2.3.0.exe,,,,3909676287cc0c44fe867bcc0e74a23891aeeeda42ebf11b3037c9b28dca43a1,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.1,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 AzureDataStudio,1.2.4.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2038320,,,,VaE3jlanj2NoheXe3WD28g==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
-AzureStorageExplorer,1.6.1.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
+AzureStorageExplorer,1.6.2.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.37.0.0,,msi,,,,https://download.calibre-ebook.com/3.37.0/calibre-64bit-3.37.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
@@ -31,7 +31,7 @@ http://go.microsoft.com/fwlink/?LinkId=825319",exe,,,http://go.microsoft.com/fwl
 DotNet471DevPack,4.7.1.20171013," installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK
 http://go.microsoft.com/fwlink/?LinkId=852105",exe,,,https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet472DevPack,4.7.2.20180607,,exe,,,http://go.microsoft.com/fwlink/?LinkId=874338,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNetCoreSdk,2.2.101.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/d4592a50-b583-434a-bcda-529e506a7e0d/b1fee3bb02e4d5b831bd6057af67a91b/dotnet-sdk-2.2.101-win-x64.exe,,,,9009CF8666DF060546915A777783DC1E69CFD645BFE9F0BB6F517070D36355EA22B7B4DF5EAE9AB0748013BBB6E41587C2F029B0922804BC3DD569654F329C88,,,,/passive,,https://www.microsoft.com/net/download
+DotNetCoreSdk,2.2.102.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/a2686bb0-bc23-477d-bf8b-28fc39a4fd74/4247ade4aff73f96e390f2576d4d131c/dotnet-sdk-2.2.102-win-x64.exe,,,,338FE1D8552D871A4D0716C3E3C044826E723466CD8565E22863D1976E32B7334C8E299FE04597C7CD323066A1150041A7C97BD29EC88FF836B3339E16AF55BC,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.5.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,4038016252ac6bca8dac41e4569a7855,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
 FileZilla,3.39.0.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
@@ -74,8 +74,8 @@ MySqlCommunity,8.0.13.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/my
 nodejs,10.15.0.0,,msi,,,,https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi,,,,1cf90ea486607a1e4e3191e4880d4e6a256168d800fe33a6e46680149b88e3ed,,,,INSTALLDIR=C:\tools\nodejs,,https://nodejs.org/en/download/
 Notepad++,7.6.2.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.exe,,,,e2156fd0e52fae2a79f04a3eba054cf71132b5b5,40cf7ef9d850375ecdf328b92d6da2d6fefb70cc,,,,,,https://notepad-plus-plus.org/download/
 notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
-notepad3,4.18.512.992,https://github.com/rizonesoft/Notepad3,zip,,Notepad3_4.18.512.992_Setup.exe,https://www.rizonesoft.com/genesis/Notepad3/Notepad3_4.18.512.992_Setup.zip,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
-OneNote,16.0.10827.20138,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
+notepad3,5.19.108.1602,https://github.com/rizonesoft/Notepad3,exe,,,https://www.rizonesoft.com/genesis/Notepad3/Notepad3_5.19.108.1602_Setup.exe,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
+OneNote,16.0.11126.20192,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
 Paint.net,4.1.5.0,,zip,,paint.net.4.1.5.install.exe,http://www.dotpdn.com/files/paint.net.4.1.5.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2018.3.2.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.2.exe,,,,ce8e17f95a40de725abbae3534df5c53be4ffa37b1fd9a2bf100539828acea9f,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.1.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
@@ -96,7 +96,7 @@ RubyMine,2018.3.2.0,,exe,,,https://download.jetbrains.com/ruby/RubyMine-2018.3.2
 Sigil,0.9.10.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.10/Sigil-0.9.10-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.10/Sigil-0.9.10-Windows-x64-Setup.exe,,,499893c8f90c220676219ca2e9f65c4ba86c9abebe5133a770d6729df71787e7,e2351a5da3cd0d648ae5852436ad1b531f314b2a934d8782b78e3d226f2c1b94,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,,
-SourceTree,3.0.12.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.12.exe,,,,,,,,,,,https://www.sourcetreeapp.com/
+SourceTree,3.0.15.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,https://downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.0.15.exe,,,,,,,,,,,https://www.sourcetreeapp.com/
 SqlServer2017Express,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 SqlServer2017LocalDb,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
 SqlServerMngmtStudio,14.0.17289.0,release 17.9.1,exe,,,https://go.microsoft.com/fwlink/?linkid=2043154,,,,,,,,,,,https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
@@ -133,9 +133,9 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.30.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,jlw1JFnYAzKWGGw1BjPv1g==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.30.2.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,OTI7mzUX6Q07ji8+aW3mZw==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WebStorm,2018.3.2.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.3.2.exe,,,,efd0a704c760474539d5759c026c81b6744ee1994b289986f0232a98f6987ad4,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.16.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-x64-Setup.exe,,,A820E09EF8374295849EC7CB3906FB9DB10D1F223CDE1579BA166FA3B8851639,AD55CEC5B0A0E72D4EA066ACCA4AE7A2C083C3E85D8EED1A2D8BFB95307C2BEC,,,,,,http://winmerge.org/downloads/
 WinRAR,5.61.0.0,,exe,,,http://www.rarlab.com/rar/wrar561.exe,http://www.rarlab.com/rar/winrar-x64-561.exe,,,,,,,,,,https://www.rarlab.com
-WireShark,2.6.5.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.6.5.exe,,,,1ee5afdc18efda2781a88da6a360a28ae88feaaecdc7c3246fb98767abcc7654,,,,,,https://www.wireshark.org/download.html
+WireShark,2.6.6.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe,,,,e440a059fba3572000b5695ca89438d5765b9d73d830556344d7e8cdad071617,,,,,,https://www.wireshark.org/download.html
