@@ -41,7 +41,7 @@ $1","https://filezilla-project.org/download.php?show_all=1
 $1",0274545e3ec451cc93599a8e499e4cc9adde1fb2e5ebabe4308acada050c628038077fc21e880b71d4aff3c60870d9b704e9448e33cbc2e4669d9602ab21e91f,c788ed63d9efe2f9217704267d42f14f7982ea759d07083173d0f7f3c20b845ddb709c818b01f4c249ed06a37f3bd58dbf0b05018ece5908e2b361426861333e,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,32.0.0.114,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.114/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,32.0.0.114,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.114/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-foobar2000,1.4.1.0,,exe,,,,,"http://www.foobar2000.org/download
+foobar2000,1.4.2.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
 FoxitReader,9.4.0.16811,,exe,,,http://cdn01.foxitsoftware.com/product/reader/desktop/win/9.4/FoxitReader94_enu_Setup_Prom.exe,,,,,,,,,,,https://www.foxitsoftware.com/pdf-reader/
@@ -70,7 +70,7 @@ MariaDB,10.3.12.0,,msi,,,,http://ftp.utexas.edu/mariadb/mariadb-10.3.12/winx64-p
 MediaMonkey,4.1.23.1881,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.,,,http://www.mediamonkey.com/download/
 Mercurial,4.8.2.0,,exe,,,https://mercurial-scm.org/release/windows/Mercurial-4.8.2.exe,https://mercurial-scm.org/release/windows/Mercurial-4.8.2-x64.exe,,,,,,,,/DIR=C:\tools\hg,,https://www.mercurial-scm.org/wiki/Download
 MicrosoftMessageAnalyzer,1.4.1.20161028,https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,E923884FE1A076542BB5BBCAB13CC715A2D6D243,839B24D7CF8248B2BA9A0B14DC62146D94761966,,,,,,https://technet.microsoft.com/en-us/library/dn904558.aspx
-MySqlCommunity,8.0.13.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.13.0.msi,,,,370ab1f1ddf05b7c4c83c622f5e71b45,,,,,,,https://dev.mysql.com/downloads/mysql/
+MySqlCommunity,8.0.14.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.14.0.msi,,,,2f534afef89913b238d1b4cbfb170ca0,,,,,,,https://dev.mysql.com/downloads/mysql/
 nodejs,10.15.0.0,,msi,,,,https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi,,,,1cf90ea486607a1e4e3191e4880d4e6a256168d800fe33a6e46680149b88e3ed,,,,INSTALLDIR=C:\tools\nodejs,,https://nodejs.org/en/download/
 Notepad++,7.6.2.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.exe,,,,e2156fd0e52fae2a79f04a3eba054cf71132b5b5,40cf7ef9d850375ecdf328b92d6da2d6fefb70cc,,,,,,https://notepad-plus-plus.org/download/
 notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
