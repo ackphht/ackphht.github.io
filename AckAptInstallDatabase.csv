@@ -78,7 +78,7 @@ notepad3,5.19.108.1602,https://github.com/rizonesoft/Notepad3,exe,,,https://www.
 OneNote,16.0.11231.20164,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
 Paint.net,4.1.5.0,,zip,,paint.net.4.1.5.install.exe,http://www.dotpdn.com/files/paint.net.4.1.5.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2018.3.4.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.4.exe,,,,990802675a03f65ba792f2660398e06694d16919c7a1d3abcd839f5cf2b00397,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
-PostgreSQL,11.1.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
+PostgreSQL,11.2.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 Postman,6.7.3.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,B96D328D7968931E4751CE1DCD927E0DA7141497,,,,,,https://www.getpostman.com/downloads/release-notes
 PrivateInternetAccess,82.0.0.0,,exe,,,https://installers.privateinternetaccess.com/download/pia-v82-installer-win.exe,,,,ced936f4dd39bea9e5989550b83d53cc686909da4bf09c59e4061066dc84a779,,,,,,,https://www.privateinternetaccess.com/pages/downloads
 PyCharmCommunity,2018.3.4.0,,exe,,,https://download.jetbrains.com/python/pycharm-community-2018.3.4.exe,,,,d533bcea12287c36c7da3d9280ea8f8b73e6ff73d4c67fbdb0df6973e1d7571a,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
@@ -118,7 +118,7 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.4.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe,,,,a7b340eaa8ad9de72373162bcbba3fc0eeed9696fa404a0e5b99c0983151a3fc,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.4.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack,,,,8887d5dd9dd26bd376926b38857715e28f2d678b6d3a034144ddc3fde4a387d9,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.3.1440.41,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.41.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.41.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.3.1440.48,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.48.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.48.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.6.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.6/win32/vlc-3.0.6-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe,,,e75697cae485a9206a416aaa3b3eb18c9010056d1fcb53e3658be086c7080724,a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.0.2.10952284,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.2-10952284.exe,,,,67913b33144fc7475c34749098e9b8ca5e762448,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
