@@ -12,7 +12,7 @@ BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99
 calibre,3.40.1.0,,msi,,,,https://download.calibre-ebook.com/3.40.1/calibre-64bit-3.40.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
 ConEmu,19.03.10.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v19.03.10/ConEmuSetup.190310.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
-DataGrip,2018.3.3.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.3.exe,,,,792ac36cc28ed8f711252ecd2c2b6339ed7a8a154ee89ad0f4b689d43ea25bdd,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
+DataGrip,2018.3.4.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.4.exe,,,,705b40160f9118dec4e53d1964ab6d64c425b2826bfff539f1f572d8abfc1566,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
 DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
 Defraggler,2.22.995.0,,exe,,,https://download.ccleaner.com/dfsetup222.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
 DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
@@ -79,7 +79,7 @@ OneNote,16.0.11328.20144,,exe,,,https://www.onenote.com/download/win32/x86/en-US
 Paint.net,4.1.5.0,,zip,,paint.net.4.1.5.install.exe,http://www.dotpdn.com/files/paint.net.4.1.5.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2018.3.5.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.5.exe,,,,a12e76c00ce515dd0e3a11c3e646f202a12b77a18338ca1cf0fedfbe6e01b79e,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.2.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
-Postman,7.0.5.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,6958D16BA733F8783E50BF25C94E59A0669B7E69,,,,,,https://www.getpostman.com/downloads/release-notes
+Postman,7.0.6.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,9BF6FA52B5965CE451A160E97138D214BC01178B,,,,,,https://www.getpostman.com/downloads/release-notes
 PrivateInternetAccess,1.1.1.02545,,exe,,,,https://installers.privateinternetaccess.com/download/pia-windows-x64-1.1.1-02545.exe,,,,aeabea7f3a489920b28fdfe1e113702a412d7e76353968f068048e8a938a2121,,,,,,https://www.privateinternetaccess.com/pages/download
 PyCharmCommunity,2018.3.5.0,,exe,,,https://download.jetbrains.com/python/pycharm-community-2018.3.5.exe,,,,8873959b164223b0a1db3174255c821380c2e0cf70de681c5f163e9b3cee6463,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
 PyCharmPro,2018.3.5.0,,exe,,,https://download.jetbrains.com/python/pycharm-professional-2018.3.5.exe,,,,164a20e0f3e6d95432b2470eaaa1507497bb12d7a011be2158c2c5058ff9848f,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
@@ -133,7 +133,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.32.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,UjhoyR7vPaEdvrcoSZEs8Q==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.32.2.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,4pIRIOwcBzlAidsfZ8MFhg==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WebStorm,2018.3.5.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.3.5.exe,,,,62196e17f1965c97d2c32bf30fadaf7935168933de6ecf23483acfc8bd4a90c6,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.16.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-x64-Setup.exe,,,A820E09EF8374295849EC7CB3906FB9DB10D1F223CDE1579BA166FA3B8851639,AD55CEC5B0A0E72D4EA066ACCA4AE7A2C083C3E85D8EED1A2D8BFB95307C2BEC,,,,,,http://winmerge.org/downloads/
