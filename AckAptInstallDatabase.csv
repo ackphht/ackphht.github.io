@@ -31,7 +31,7 @@ http://go.microsoft.com/fwlink/?LinkId=825319",exe,,,http://go.microsoft.com/fwl
 DotNet471DevPack,4.7.1.20171013," installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK
 http://go.microsoft.com/fwlink/?LinkId=852105",exe,,,https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
 DotNet472DevPack,4.7.2.20180607,,exe,,,http://go.microsoft.com/fwlink/?LinkId=874338,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNetCoreSdk,2.2.104.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/4a195fc9-7696-4c24-add2-e791b399766c/3a67d698a74505b46db9d9779745e47b/dotnet-sdk-2.2.104-win-x64.exe,,,,262E8921D678150B08B6E6563170BE2826C7D012AC6CCFA23D8686DFE3FBCD42CA5B24124631DBDFA497A609BD5700F736C7F43FF467629C0B4B20FA90F67F48,,,,/passive,,https://www.microsoft.com/net/download
+DotNetCoreSdk,2.2.105.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/8148cce0-196d-4634-86df-f3d4550b1a75/89ed68d0ecf6b1c62cc7b0d129fdf600/dotnet-sdk-2.2.105-win-x64.exe,,,,D3HeBQoQbsn7SuYFe8dzh+O6YkhfR91Ybl+xGftUfGxUyOL1EdTh6o1bQgSUwX+F8b6MSkj9yFy8/pPunVGhqQ==,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.6.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,2e1265c771db2ae4fd3037f62adf1e18,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
 FileZilla,3.41.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
@@ -118,9 +118,9 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.4.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe,,,,a7b340eaa8ad9de72373162bcbba3fc0eeed9696fa404a0e5b99c0983151a3fc,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.4.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack,,,,8887d5dd9dd26bd376926b38857715e28f2d678b6d3a034144ddc3fde4a387d9,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.3.1440.60,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.60.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.60.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.3.1440.61,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.61.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.3.1440.61.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.6.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.6/win32/vlc-3.0.6-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe,,,e75697cae485a9206a416aaa3b3eb18c9010056d1fcb53e3658be086c7080724,a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332,,,,,,https://www.videolan.org/vlc/download-windows.html
-VMWarePlayer,15.0.2.10952284,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.2-10952284.exe,,,,67913b33144fc7475c34749098e9b8ca5e762448,,,,,,https://www.vmware.com/go/tryplayer
+VMWarePlayer,15.0.3.12422535,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.3-12422535.exe,,,,e0777cde9ca78c6315b82765e74a1e614b7bee31,,,,,,https://www.vmware.com/go/tryplayer
 VS2013Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532495,,,,,,,,,,,
 VS2013Premium,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532511,,,,,,,,,,,
 VS2013Professional,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=532509,,,,,,,,,,,
@@ -133,7 +133,7 @@ VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,
 VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
 VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.32.2.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,4pIRIOwcBzlAidsfZ8MFhg==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.32.3.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,CSXRueDTqS6qRMZpehiKLw==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WebStorm,2018.3.5.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.3.5.exe,,,,62196e17f1965c97d2c32bf30fadaf7935168933de6ecf23483acfc8bd4a90c6,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.16.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-x64-Setup.exe,,,A820E09EF8374295849EC7CB3906FB9DB10D1F223CDE1579BA166FA3B8851639,AD55CEC5B0A0E72D4EA066ACCA4AE7A2C083C3E85D8EED1A2D8BFB95307C2BEC,,,,,,http://winmerge.org/downloads/
