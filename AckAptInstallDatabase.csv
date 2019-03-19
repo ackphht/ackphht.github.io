@@ -34,11 +34,11 @@ DotNet472DevPack,4.7.2.20180607,,exe,,,http://go.microsoft.com/fwlink/?LinkId=87
 DotNetCoreSdk,2.2.105.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/8148cce0-196d-4634-86df-f3d4550b1a75/89ed68d0ecf6b1c62cc7b0d129fdf600/dotnet-sdk-2.2.105-win-x64.exe,,,,D3HeBQoQbsn7SuYFe8dzh+O6YkhfR91Ybl+xGftUfGxUyOL1EdTh6o1bQgSUwX+F8b6MSkj9yFy8/pPunVGhqQ==,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.6.0.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,2e1265c771db2ae4fd3037f62adf1e18,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
-FileZilla,3.41.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
+FileZilla,3.41.2.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
 (?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*)"">FileZilla_[\d\.]+_win32-setup\.exe</a>.+
 $1","https://filezilla-project.org/download.php?show_all=1
 (?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*)"">FileZilla_[\d\.]+_win64-setup\.exe</a>.+
-$1",9933d40303a56bc4d55c552ecd8ab508c91fe0854230a95fa0b216248078c29c4c21e77bd39396aba418f8e868002143d1a34284adbda3969a51c418f1992056,8789db3319c675255368719a095cb68b00e468711d1c39a92d71770012761e496e0a0a758c2f0cc300a9e798c008f4814987432836ed6e500000980171eab0ac,,,,/S,,https://filezilla-project.org/download.php?show_all=1
+$1",aff0303832ad549618cb5b3cc86113f12330e91a0de8dc252b1b3eb23af30ee08547e6845af5445439a7fc1c090d1d2d6e0c349a8082b8b6554aca463aaeeb30,6304c0d314c5bbe3af89c0abf579f54f9aa429cd00aca9edab0cebe2d61ff5322fe2ca11a2d24e41cabb4fabefdc2dd9861856a52f73360db90ca746cb28b659,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,32.0.0.156,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.156/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,32.0.0.156,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.156/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.4.3.0,,exe,,,,,"http://www.foobar2000.org/download
@@ -76,7 +76,7 @@ Notepad++,7.6.4.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.6.4/npp.
 notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 notepad3,5.19.108.1602,https://github.com/rizonesoft/Notepad3,exe,,,https://www.rizonesoft.com/genesis/Notepad3/Notepad3_5.19.108.1602_Setup.exe,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
 OneNote,16.0.11328.20144,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
-Paint.net,4.1.5.0,,zip,,paint.net.4.1.5.install.exe,http://www.dotpdn.com/files/paint.net.4.1.5.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
+Paint.net,4.1.6.0,,zip,,paint.net.4.1.6.install.exe,http://www.dotpdn.com/files/paint.net.4.1.6.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2018.3.5.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2018.3.5.exe,,,,a12e76c00ce515dd0e3a11c3e646f202a12b77a18338ca1cf0fedfbe6e01b79e,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.2.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.2-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 Postman,7.0.6.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,9BF6FA52B5965CE451A160E97138D214BC01178B,,,,,,https://www.getpostman.com/downloads/release-notes
