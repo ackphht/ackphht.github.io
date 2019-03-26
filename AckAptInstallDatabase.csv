@@ -135,7 +135,7 @@ VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/
 VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
 VSCode,1.32.3.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,CSXRueDTqS6qRMZpehiKLw==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
-WebStorm,2018.3.5.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2018.3.5.exe,,,,62196e17f1965c97d2c32bf30fadaf7935168933de6ecf23483acfc8bd4a90c6,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
+WebStorm,2019.1.0.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2019.1.exe,,,,263f4a4a1b56eb90b2e15db0a72ec498e5399b8f9a7429c3d49cde0fa6ac00bc,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.16.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-x64-Setup.exe,,,A820E09EF8374295849EC7CB3906FB9DB10D1F223CDE1579BA166FA3B8851639,AD55CEC5B0A0E72D4EA066ACCA4AE7A2C083C3E85D8EED1A2D8BFB95307C2BEC,,,,,,http://winmerge.org/downloads/
 WinRAR,5.70.0.0,,exe,,,http://www.rarlab.com/rar/wrar570.exe,http://www.rarlab.com/rar/winrar-x64-570.exe,,,,,,,,,,https://www.rarlab.com
 WireShark,3.0.0.0,,exe,,,,https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.0.0.exe,,,,b5d30a9c0b2835a41e8132b1d9246a01ad6f1461a4de14fa3ccbdf4919c70eac,,,,,,https://www.wireshark.org/download.html
