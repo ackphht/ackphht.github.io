@@ -11,7 +11,7 @@ AzureStorageExplorer,1.7.0.0,http://storageexplorer.com/,exe,,,https://go.micros
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.40.1.0,,msi,,,,https://download.calibre-ebook.com/3.40.1/calibre-64bit-3.40.1.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
 Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
-ConEmu,19.03.31.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v19.03.31/ConEmuSetup.190331.exe,,,,,,,,,,,https://github.com/Maximus5/ConEmu/releases
+ConEmu,19.03.31.0,,exe,,,,https://github.com/Maximus5/ConEmu/releases/download/v19.03.31/ConEmuSetup.190331.exe,,,,,,,,/p:x64 /qr,,https://github.com/Maximus5/ConEmu/releases
 DataGrip,2018.3.4.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2018.3.4.exe,,,,705b40160f9118dec4e53d1964ab6d64c425b2826bfff539f1f572d8abfc1566,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
 DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
 Defraggler,2.22.995.0,,exe,,,https://download.ccleaner.com/dfsetup222.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
