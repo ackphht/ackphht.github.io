@@ -119,7 +119,7 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.4.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe,,,,a7b340eaa8ad9de72373162bcbba3fc0eeed9696fa404a0e5b99c0983151a3fc,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.4.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.4/Oracle_VM_VirtualBox_Extension_Pack-6.0.4.vbox-extpack,,,,8887d5dd9dd26bd376926b38857715e28f2d678b6d3a034144ddc3fde4a387d9,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.4.1488.38,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.38.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.38.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.4.1488.40,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.4.1488.40.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.6.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.6/win32/vlc-3.0.6-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe,,,e75697cae485a9206a416aaa3b3eb18c9010056d1fcb53e3658be086c7080724,a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.0.4.12990004,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.0.4-12990004.exe,,,,a8ff0fe71540a9431e702f179916f6cf49a8ec96,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
