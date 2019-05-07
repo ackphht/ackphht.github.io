@@ -37,9 +37,9 @@ DotNetCoreSdk,2.2.106.0,"go to page above, then click on Release Notes to get to
 Fiddler4,5.0.20182.28034,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.6.2.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,161f5624d82dbf536dc344286433bf25,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
 FileZilla,3.42.0.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
-(?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*)"">FileZilla_[\d\.]+_win32-setup\.exe</a>.+
+(?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win32-setup\.exe</a>.+
 $1","https://filezilla-project.org/download.php?show_all=1
-(?s).+<a href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*)"">FileZilla_[\d\.]+_win64-setup\.exe</a>.+
+(?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win64-setup\.exe</a>.+
 $1",c1ae3ad22d3dfac1d7b48452d3abff82201807848ce1dbba25830fa5244eeaea236486cee56352e54231d953264c0b92d05d3b7ff20042089ef09983428970cb,766736118425bda522a62dfd48e5f355b28e93cea2733c04783a60f7c7e64edeeeeb4303e701adfe249468634b91fb398db860196cf23f0ab33ce4f079264faa,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,32.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.171/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,32.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.171/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
