@@ -17,7 +17,7 @@ DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98
 Defraggler,2.22.995.0,,exe,,,https://download.ccleaner.com/dfsetup222.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
 DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
 digestIt,3.1.2004,,msi,,,http://www.colonywest.us/versions/download.php?release_id=2,http://www.colonywest.us/versions/download.php?release_id=3,,,,,,,,/passive,,http://www.colonywest.us/digestit/
-DockerCE,18.06.1.19507,,exe,,,,https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe,,,,4f48ab087db0162bb5bc6df08222a1b61aefcfe06296cfee1cfc02d483ad11bd,,,,,,https://store.docker.com/editions/community/docker-ce-desktop-windows
+DockerCE,2.0.0.3,https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases,exe,,,,https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe,,,,,,,,,,https://docs.docker.com/docker-for-windows/release-notes/
 DotNet40,4.0.0.20110221,,exe,,,https://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe,,,,,,,,,,,
 DotNet45,4.5.2.20140506,,exe,,,https://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,,
 DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,https://go.microsoft.com/fwlink/?LinkId=780596,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
@@ -43,7 +43,7 @@ $1","https://filezilla-project.org/download.php?show_all=1
 $1",c1ae3ad22d3dfac1d7b48452d3abff82201807848ce1dbba25830fa5244eeaea236486cee56352e54231d953264c0b92d05d3b7ff20042089ef09983428970cb,766736118425bda522a62dfd48e5f355b28e93cea2733c04783a60f7c7e64edeeeeb4303e701adfe249468634b91fb398db860196cf23f0ab33ce4f079264faa,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,32.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.171/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,32.0.0.171,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.171/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-foobar2000,1.4.3.0,,exe,,,,,"http://www.foobar2000.org/download
+foobar2000,1.4.4.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
 FoxitReader,9.5.0.20721,,exe,,,https://cdn01.foxitsoftware.com/product/reader/desktop/win/9.5/FoxitReader95_enu_Setup_Clean.exe,,,,,,,,,,,https://www.foxitsoftware.com/pdf-reader/
