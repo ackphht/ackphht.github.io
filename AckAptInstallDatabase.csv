@@ -121,7 +121,7 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.8.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-Win.exe,,,,81e05e3258b92637d75747096aa76464bc12223e0081cc03ee1736a16ed05764,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.8.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack,,,,6d89127c7f043fa96592da96ca87ac5ee9a7afd347d788380f91b695b67d7954,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.5.1525.41,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.41.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.41.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.5.1525.43,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.43.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.43.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.6.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.6/win32/vlc-3.0.6-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe,,,e75697cae485a9206a416aaa3b3eb18c9010056d1fcb53e3658be086c7080724,a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
@@ -134,7 +134,7 @@ VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E
 VS2019Community,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/1b6e9bcd-b9f0-45ec-848d-b91d7ac62659/f63d5e9540570c877020913190317949/vs_community.exe,,,,,,,,,--nocache,,
 VS2019Professional,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/3a9c2ebf-b52a-4fd8-80db-eec4746d95fc/584fcd523c84a9174f6e40f208241d26/vs_professional.exe,,,,,,,,,--nocache,,
 VS2019Enterprise,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/89d9f9d5-12ff-4e95-a075-4ff8a0941672/c1b61a91aa8495730036e13582d17cb7/vs_enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.33.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,FNJzUcTkatKzll9Xv7CC3w==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
+VSCode,1.34.0.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,/T2KYSYw5Q5EWiDGGeuJBQ==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
 WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
 WebStorm,2019.1.2.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2019.1.2.exe,,,,c9d60348d879673d6a652488bfdf4c77b68a520a854aee52441dafc40928fbc7,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
 WinMerge,2.16.2.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.2-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.2-x64-Setup.exe,,,2226D35E8D21285CD828CDD2781736E29843FF571480A01CF2FDD961D2C61295,201251A256E9B67B932B696DDD859D22BE8CB41996600D616CE8B64DA104ED68,,,,,,http://winmerge.org/downloads/
