@@ -22,7 +22,7 @@ div.link:before { content: " | "; }
 div.link:first-child:before { content: ""; }
 
 div.floaty { display: inline-block; min-width: 30%; margin: auto 20px; vertical-align: top; }
-div.tab-pane ul { padding-left: 25px; }
+div.tab-pane ul, section.navSearches ul { list-style-type: none; padding-left: /*25px*/ 0; }
 
 table.table-autoWidth { width:auto; }
 #workTab table th { text-align:right; }
