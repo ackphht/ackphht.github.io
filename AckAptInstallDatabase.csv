@@ -6,6 +6,7 @@ AndroidStudio,3.4.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.
 Audacity,2.3.0.0,,exe,,,http://app.oldfoss.com:81/download/Audacity/audacity-win-2.3.0.exe,,,,3909676287cc0c44fe867bcc0e74a23891aeeeda42ebf11b3037c9b28dca43a1,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
+AzureCLI,2.0.65.0,,msi,,,https://aka.ms/installazurecliwindows,,,,,,,,,,,https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows
 AzureDataStudio,1.7.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2091882,,,,eXB9cxNE3hyLSk0aD4nh8Q==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
 AzureStorageExplorer,1.8.1.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
@@ -82,7 +83,7 @@ Paint.net,4.1.6.0,,zip,,paint.net.4.1.6.install.exe,http://www.dotpdn.com/files/
 PhpStorm,2019.1.2.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2019.1.2.exe,,,,7d8bd021b08d8cf6a2f4162fb5c278612d1481bb1290ed5c995b603e99f3ff55,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.3.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 Postman,7.1.1.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,F36D269F9EF034161340C1C2CA3F4A391F685B37,,,,,,https://www.getpostman.com/downloads/release-notes
-PowerShellCore,6.2.0.0,,msi,,,,https://github.com/PowerShell/PowerShell/releases/download/v6.2.0/PowerShell-6.2.0-win-x64.msi,,,,BF4CBCE14ED448BBAE2DC38293AA637B8C82932893E3804E7711649DFB28E53F,,,,,,https://github.com/PowerShell/PowerShell/releases
+PowerShellCore,6.2.1.0,,msi,,,,https://github.com/PowerShell/PowerShell/releases/download/v6.2.1/PowerShell-6.2.1-win-x64.msi,,,,C24406CA8F65440FA0381E417B05A16161227276EB3B77091FDB9D174B7F3144,,,,,,https://github.com/PowerShell/PowerShell/releases
 PrivateInternetAccess,1.1.1.02545,,exe,,,,https://installers.privateinternetaccess.com/download/pia-windows-x64-1.1.1-02545.exe,,,,aeabea7f3a489920b28fdfe1e113702a412d7e76353968f068048e8a938a2121,,,,,,https://www.privateinternetaccess.com/pages/download
 PyCharmCommunity,2019.1.2.0,,exe,,,https://download.jetbrains.com/python/pycharm-community-2019.1.2.exe,,,,9f5ca68b4a773cfc12cb0131d09476bbeea26ecb9107b6fde1f159cabf828a1a,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
 PyCharmPro,2019.1.2.0,,exe,,,https://download.jetbrains.com/python/pycharm-professional-2019.1.2.exe,,,,6217ce726fc8ccd48ec76e9f92d15feecd20422c30367c6dc8c222ab352a3ec6,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
