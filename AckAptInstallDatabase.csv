@@ -6,8 +6,8 @@ AndroidStudio,3.4.1.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.
 Audacity,2.3.0.0,,exe,,,http://app.oldfoss.com:81/download/Audacity/audacity-win-2.3.0.exe,,,,3909676287cc0c44fe867bcc0e74a23891aeeeda42ebf11b3037c9b28dca43a1,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
-AzureCLI,2.0.66.0,,msi,,,https://aka.ms/installazurecliwindows,,,,,,,,,,,https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows
-AzureDataStudio,1.7.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2091882,,,,eXB9cxNE3hyLSk0aD4nh8Q==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
+AzureCLI,2.0.66.0,,msi,,,https://aka.ms/installazurecliwindows,,,,qRbQ2ztgrPqPY6F/nUhr/A==,,,,,,,https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows
+AzureDataStudio,1.8.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2094100,,,,LOzYqozglZNiqYkzg7pMAw==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
 AzureStorageExplorer,1.8.1.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
 BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
 calibre,3.44.0.0,,msi,,,,https://download.calibre-ebook.com/3.44.0/calibre-64bit-3.44.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
@@ -123,7 +123,7 @@ VirtualBox,6.0.8.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.8/Virtu
 VirtualBoxExtensions,6.0.8.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack,,,,6d89127c7f043fa96592da96ca87ac5ee9a7afd347d788380f91b695b67d7954,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
 Vivaldi,2.5.1525.48,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.x64.exe,,,,,,,,,,https://vivaldi.com/download/
-vlc,3.0.6.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.6/win32/vlc-3.0.6-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.6/win64/vlc-3.0.6-win64.exe,,,e75697cae485a9206a416aaa3b3eb18c9010056d1fcb53e3658be086c7080724,a16cf11836f258a564a30670bcc7f1315a1860367a3fff43825e1806d23af332,,,,,,https://www.videolan.org/vlc/download-windows.html
+vlc,3.0.7.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.7/win32/vlc-3.0.7-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.7/win64/vlc-3.0.7-win64.exe,,,6bb5fa0c92f3f91836977d257e9ada5d28e8e8af5100a2bef80c21fc1f71f4b0,3358ff1074e598bb274bbb037e00f6535ea5b1b46df182f2674469d4950a415c,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
 VS2015Professional,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699336,,,,,,,,,,,
