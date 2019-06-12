@@ -42,8 +42,8 @@ FileZilla,3.42.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all
 $1","https://filezilla-project.org/download.php?show_all=1
 (?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win64-setup\.exe</a>.+
 $1",fd52c4b95d014b6b2b260532bce8e2db12aa880c1ffb829f3766e6968b1d229c4ccdda3301744102eeccdffe342427c047bed2dac60130a6f00b1769d4a54774,74eaca78fb100c2a752a5d40a85f6dfd4c717b9475acf2e10e8247a7302c8e7cb7980e4e22a15eaa6c7a6a257bca074172df085bc445538f4c23fd1e736f0d6e,,,,/S,,https://filezilla-project.org/download.php?show_all=1
-FlashPlayerPlugin,32.0.0.192,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.192/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-FlashPlayerPluginAX,32.0.0.192,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.192/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPlugin,32.0.0.207,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.207/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
+FlashPlayerPluginAX,32.0.0.207,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.207/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.4.4.0,,exe,,,,,"http://www.foobar2000.org/download
 (?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
 http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
@@ -97,7 +97,7 @@ Resharper,2019.1.2.0,https://www.jetbrains.com/resharper/whatsnew/,exe,,,https:/
 Rider,2019.1.2.0,,exe,,,https://download.jetbrains.com/rider/JetBrains.Rider-2019.1.2.exe,,,,88edebdeebb9d54eb3b53bd044256ad4f40f34daa5dc00d8fc904db1335467c6,,"0,1223",,,,,https://www.jetbrains.com/rider/download/
 ruby2,2.5.1.1,https://github.com/oneclick/rubyinstaller2/releases,exe,,,,https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-2.5.1-1-x64.exe,,,,b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",,https://rubyinstaller.org/downloads/
 RubyMine,2019.1.2.0,,exe,,,https://download.jetbrains.com/ruby/RubyMine-2019.1.2.exe,,,,d68a79910ff40b3278edf84a0337faee861a206381e07c89d25a999e71c0739a,,"0,1223",,,,,https://www.jetbrains.com/ruby/download/
-Sigil,0.9.13.0,,exe,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.13/Sigil-0.9.13-Windows-Setup.exe,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.13/Sigil-0.9.13-Windows-x64-Setup.exe,,,46c309764d4b450cbf34378c3b484a9db1e77a7b674a4b763f6b5011fccd02cd,930390ecc826246507cc688a429d7be264848bb46bdd634f79a54d33bcff06dd,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
+Sigil,0.9.14.0,,exe,,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.14/Sigil-0.9.14-Windows-x64-Setup.exe,,,,f95f937934932c59bc4d61aaff8b23922cc0c2b983a7f359008d35a50cf96c38,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
 SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,,
 SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,,
 SourceTree,3.1.3.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.1.3.exe,,,,,,,,,,,https://www.sourcetreeapp.com/
@@ -123,7 +123,7 @@ VirtualBox,6.0.8.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.8/Virtu
 VirtualBoxExtensions,6.0.8.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack,,,,6d89127c7f043fa96592da96ca87ac5ee9a7afd347d788380f91b695b67d7954,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
 Vivaldi,2.5.1525.48,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.5.1525.48.x64.exe,,,,,,,,,,https://vivaldi.com/download/
-vlc,3.0.7.0,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.7/win32/vlc-3.0.7-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.7/win64/vlc-3.0.7-win64.exe,,,6bb5fa0c92f3f91836977d257e9ada5d28e8e8af5100a2bef80c21fc1f71f4b0,3358ff1074e598bb274bbb037e00f6535ea5b1b46df182f2674469d4950a415c,,,,,,https://www.videolan.org/vlc/download-windows.html
+vlc,3.0.7.1,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win64/vlc-3.0.7.1-win64.exe,,,c1b6c6e123bfda45fa5e505659f9c4943bc9b6b276974205fec2fff86102a558,eb00ff6cc951b6bd64d3e8a6604f5a9361d8cad0180c85c498deea81a9622c99,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
 VS2015Professional,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699336,,,,,,,,,,,
