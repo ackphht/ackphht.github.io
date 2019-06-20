@@ -4,16 +4,15 @@
 	<meta charset="utf-8" />
 	<title>Bookmarks</title>
 	<meta name="robots" content="noindex, nofollow" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link rel="stylesheet" type="text/css" href="icons.css" />
-	<!--<script src="js/libs/modernizr-2.5.3.min.js"></script>-->
 </head>
 <body>
 	<div id="wrapper">
 		<header></header>
 		<section role="main" class="main">
-			<section class="pull-right navSearches">
+			<section class="float-right navSearches">
 				<ul>
 					<li>
 						<div class="link"><a class="url icon icon-bing" href="https://www.bing.com" rel="noreferrer" target="_blank">Bing</a></div>
@@ -25,19 +24,19 @@
 			<!-- Nav tabs -->
 			<!--ul class="nav nav-tabs nav-justified" role="tablist"-->
 			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#mainTab" aria-controls="main" role="tab" data-toggle="tab">Main</a></li>
-				<li role="presentation"><a href="#workTab" aria-controls="work" role="tab" data-toggle="tab">Work</a></li>
-				<li role="presentation"><a href="#entertainmentTab" aria-controls="entertainment" role="tab" data-toggle="tab">Entertainment</a></li>
-				<li role="presentation"><a href="#shoppingTab" aria-controls="shopping" role="tab" data-toggle="tab">Shopping</a></li>
-				<li role="presentation"><a href="#developmentTab" aria-controls="development" role="tab" data-toggle="tab">Development</a></li>
-				<li role="presentation"><a href="#homeTab" aria-controls="home" role="tab" data-toggle="tab">Home / Bills</a></li>
+				<li role="presentation" class="nav-item"><a href="#mainTab" class="nav-link active" aria-controls="main" role="tab" data-toggle="tab">Main</a></li>
+				<li role="presentation" class="nav-item"><a href="#workTab" class="nav-link" aria-controls="work" role="tab" data-toggle="tab">Work</a></li>
+				<li role="presentation" class="nav-item"><a href="#entertainmentTab" class="nav-link" aria-controls="entertainment" role="tab" data-toggle="tab">Entertainment</a></li>
+				<li role="presentation" class="nav-item"><a href="#shoppingTab" class="nav-link" aria-controls="shopping" role="tab" data-toggle="tab">Shopping</a></li>
+				<li role="presentation" class="nav-item"><a href="#developmentTab" class="nav-link" aria-controls="development" role="tab" data-toggle="tab">Development</a></li>
+				<li role="presentation" class="nav-item"><a href="#homeTab" class="nav-link" aria-controls="home" role="tab" data-toggle="tab">Home / Bills</a></li>
 			</ul>
 			<!-- Tab panes -->
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane active" id="mainTab">
 					<div class="floaty">
 						<h1>News</h1>
-						<table class="table table-bordered table-condensed">
+						<table class="table table-bordered table-sm">
 							<tr>
 								<!--
 								<td><a class="url icon icon-xxxxxxx" href="xxxxxxxxxxxx" rel="noreferrer" target="_blank">xxxxxxxxxxxx</a></td>
@@ -237,7 +236,7 @@
 						</li>
 					</ul>
 					<h1>Apps</h1>
-					<table class="table table-bordered table-condensed table-autoWidth">
+					<table class="table table-bordered table-sm table-autoWidth">
 						<tr>
 							<th class="icon icon-eso-new">Prod</th>
 							<td><a class="url" href="https://tools.esosuite.net/cloudmanagerv2/" rel="noreferrer" target="_blank">CloudManager</a></td>
@@ -509,7 +508,8 @@
 			<!--<div>© 2014 - AckWare</div>-->
 		</footer>
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
