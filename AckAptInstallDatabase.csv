@@ -122,7 +122,7 @@ VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,ex
 VirtualBox,6.0.8.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.8/VirtualBox-6.0.8-130520-Win.exe,,,,81e05e3258b92637d75747096aa76464bc12223e0081cc03ee1736a16ed05764,,,,,,,https://www.virtualbox.org/wiki/Downloads
 VirtualBoxExtensions,6.0.8.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.8/Oracle_VM_VirtualBox_Extension_Pack-6.0.8.vbox-extpack,,,,6d89127c7f043fa96592da96ca87ac5ee9a7afd347d788380f91b695b67d7954,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.6.1566.40,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.40.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.40.x64.exe,,,,,,,,,,https://vivaldi.com/download/
+Vivaldi,2.6.1566.44,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.44.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.44.x64.exe,,,,,,,,,,https://vivaldi.com/download/
 vlc,3.0.7.1,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win64/vlc-3.0.7.1-win64.exe,,,c1b6c6e123bfda45fa5e505659f9c4943bc9b6b276974205fec2fff86102a558,eb00ff6cc951b6bd64d3e8a6604f5a9361d8cad0180c85c498deea81a9622c99,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
