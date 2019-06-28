@@ -37,11 +37,11 @@ DotNet48DevPack,4.8.0.0,,exe,,,https://go.microsoft.com/fwlink/?linkid=2088517,,
 DotNetCoreSdk,2.2.107.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/fb931b49-7f40-44ba-a347-f0b9fe655864/c99d8ab0402d4b8e6831e1ee74aa945b/dotnet-sdk-2.2.107-win-x64.exe,,,,VqGy97M08S3xs7ul53HGWHJwKlliSd38fc4kSQKMxl+Wi29cp4XmfuIMNDChlGP/ciMFfJWRqEdEzNPvXVrCxg==,,,,/passive,,https://www.microsoft.com/net/download
 Fiddler4,5.0.20192.25091,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
 FileMenuTools,7.6.2.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,161f5624d82dbf536dc344286433bf25,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
-FileZilla,3.42.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
+FileZilla,3.43.0.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
 (?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win32-setup\.exe</a>.+
 $1","https://filezilla-project.org/download.php?show_all=1
 (?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win64-setup\.exe</a>.+
-$1",fd52c4b95d014b6b2b260532bce8e2db12aa880c1ffb829f3766e6968b1d229c4ccdda3301744102eeccdffe342427c047bed2dac60130a6f00b1769d4a54774,74eaca78fb100c2a752a5d40a85f6dfd4c717b9475acf2e10e8247a7302c8e7cb7980e4e22a15eaa6c7a6a257bca074172df085bc445538f4c23fd1e736f0d6e,,,,/S,,https://filezilla-project.org/download.php?show_all=1
+$1",bfb0c311a11fe0b368dc66439b36afb029079d337332c924f4718d58f5c95676f4bea322d4e3c1bdd098e862752bd41153f9fb4abf48353e9d516feafe8844ac,a6a75fc15bed5a5011b9fd40f619cdb451405b0ab7fd231d79f32595af91da6878bd68da48a29744b476200d59f229744e0074288e47a577d1b2cc7a20d2c7fe,,,,/S,,https://filezilla-project.org/download.php?show_all=1
 FlashPlayerPlugin,32.0.0.207,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.207/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 FlashPlayerPluginAX,32.0.0.207,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.207/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
 foobar2000,1.4.5.0,,exe,,,,,"http://www.foobar2000.org/download
