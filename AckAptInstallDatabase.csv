@@ -79,7 +79,7 @@ Notepad++,7.7.1.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.
 notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
 notepad3,5.19.630.2381,"https://github.com/rizonesoft/Notepad3 / also: they don't respect HEAD requests, so Test button below doesn't work, at least not with the redirector link below",zip,,tools\Notepad3_*_Setup.exe,https://chocolatey.org/api/v2/package/notepad3.install/5.19.630.2381,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
 OneNote,16.0.11328.20144,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
-Paint.net,4.1.6.0,,zip,,paint.net.*.install.exe,http://www.dotpdn.com/files/paint.net.4.1.6.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
+Paint.net,4.2.0.0,,zip,,paint.net.*.install.exe,http://www.dotpdn.com/files/paint.net.4.2.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2019.1.3.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2019.1.3.exe,,,,6add1365bb69681e9dc2445ff235a71fd13092f817ad8e731015d7e03623606d,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.3.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
 Postman,7.2.2.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,2746982588CCED7046882D6E76365043E35F5DA5,,,,-s,,https://www.getpostman.com/downloads/release-notes
