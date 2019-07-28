@@ -3,7 +3,7 @@ Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,Indi
 AdobeDigitalEditions,4.5.10.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
 AdobeReaderDC,2019.012.20034.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220034/AcroRdrDC1901220034_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
 AndroidStudio,3.4.2.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.4.2.0/android-studio-ide-183.5692245-windows.exe,,,,e708d35052540aa03fbdaaa5cac3454e22636ecf72db5355ece4a722f1e6317f,"0,1223",,,,,https://developer.android.com/studio/index.html#downloads
-Audacity,2.3.0.0,,exe,,,http://app.oldfoss.com:81/download/Audacity/audacity-win-2.3.0.exe,,,,3909676287cc0c44fe867bcc0e74a23891aeeeda42ebf11b3037c9b28dca43a1,,,,,,,http://www.audacityteam.org/download/windows/
+Audacity,2.3.2.0,,zip,,tools\audacity_x32.exe,https://chocolatey.org/api/v2/package/audacity/2.3.2,,,,,,,,,,,http://www.audacityteam.org/download/windows/
 AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
 AutoHotkey,1.1.30.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
 AzureCLI,2.0.69.0,,msi,,,https://aka.ms/installazurecliwindows,,,,NoTefJGMVlny6ebQxRw81Q==,,,,,,,https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows
