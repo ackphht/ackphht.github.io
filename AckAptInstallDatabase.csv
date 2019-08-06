@@ -82,7 +82,7 @@ OneNote,16.0.11328.20144,,exe,,,https://www.onenote.com/download/win32/x86/en-US
 Paint.net,4.2.0.0,,zip,,paint.net.*.install.exe,http://www.dotpdn.com/files/paint.net.4.2.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
 PhpStorm,2019.2.0.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2019.2.exe,,,,bd4697c07057e55c8cb065eb72e5f73aa9d677c16dc7b6cb7d1bf61670a1b61f,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
 PostgreSQL,11.3.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.3-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
-Postman,7.3.5.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,0217627C3C854E5197EE8C333846CD185B383E67,,,,-s,,https://www.getpostman.com/downloads/release-notes
+Postman,7.3.6.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,2C8002E54DA473694BA7FFAF06E58BDDC363A53D,,,,-s,,https://www.getpostman.com/downloads/release-notes
 PowerShellCore,6.2.2.0,,msi,,,,https://github.com/PowerShell/PowerShell/releases/download/v6.2.2/PowerShell-6.2.2-win-x64.msi,,,,FBFAF00A72018D9C49A6C5A05C6D05F9EA4BC6A4F6952D9F3B4FCCA96274E963,,,,,,https://github.com/PowerShell/PowerShell/releases
 PrivateInternetAccess,1.3.3.02880,,exe,,,,https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.3-02880.exe,,,,e70a38c0b489cb6475943f88ec7c895dd6235a43bd31828c115aab85e3c57b2b,,,,,,https://www.privateinternetaccess.com/pages/download
 PyCharmCommunity,2019.2.0.0,,exe,,,https://download.jetbrains.com/python/pycharm-community-2019.2.exe,,,,89c2143436e77e6a01512bdc7007911020d20663ab8166ac9ea4a4ea413edb7b,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
