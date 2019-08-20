@@ -123,7 +123,7 @@ VirtualBox,6.0.10.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.10/Vir
 VirtualBoxExtensions,6.0.10.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.10/Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack,,,,e5a9eb240379a57c9bf03954a594a03431698e67aef551e27f62170bed9b16ea,,,,,,,
 VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
 Vivaldi,2.6.1566.49,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.49.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.6.1566.49.x64.exe,,,,,,,,,,https://vivaldi.com/download/
-vlc,3.0.7.1,,exe,,,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win32/vlc-3.0.7.1-win32.exe,https://download.videolan.org/pub/videolan/vlc/3.0.7.1/win64/vlc-3.0.7.1-win64.exe,,,c1b6c6e123bfda45fa5e505659f9c4943bc9b6b276974205fec2fff86102a558,eb00ff6cc951b6bd64d3e8a6604f5a9361d8cad0180c85c498deea81a9622c99,,,,,,https://www.videolan.org/vlc/download-windows.html
+vlc,3.0.8.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/3.0.8/win32/vlc-3.0.8-win32.exe,http://download.videolan.org/pub/videolan/vlc/3.0.8/win64/vlc-3.0.8-win64.exe,,,f286e25d5c52bfe7f392fb3f4e28e711225d1773e3c43281cb901145ded34def,0cc54e69016e3d5a80e229c768ac37a02aea3a973a5447593c0132281e383942,,,,,,https://www.videolan.org/vlc/download-windows.html
 VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
 VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
 VS2015Professional,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699336,,,,,,,,,,,
