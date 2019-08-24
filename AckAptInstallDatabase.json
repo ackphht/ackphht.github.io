@@ -1,143 +1,1141 @@
-Name,Version,Notes,Type,InstallBoth,ZipContentToRun,UrlFor32Bit,UrlFor64Bit,IndirectUrlFor32Bit,IndirectUrlFor64Bit,HashFor32Bit,HashFor64Bit,ValidExitCodes,PreInstallMessage,PostInstallMessage,InstallerArguments,HeadersToAdd,AppPage
-7zip,19.0.0.0,,exe,,,https://7-zip.org/a/7z1900.exe,https://7-zip.org/a/7z1900-x64.exe,,,,,,installing 7Zip: should probably kill explorer.exe now,"done installing 7Zip: can restart explorer.exe now, if necessary",/s,,http://www.7-zip.org/
-AdobeDigitalEditions,4.5.10.0,,exe,,,https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe,,,,,,,,,,,http://www.adobe.com/solutions/ebook/digital-editions/download.html
-AdobeReaderDC,2019.012.20036.0,ugh,exe,,,http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220036/AcroRdrDC1901220036_en_US.exe,,,,,,,,,,,https://get.adobe.com/reader/otherversions/
-AndroidStudio,3.5.0.0,,exe,,,,https://dl.google.com/dl/android/studio/install/3.5.0.21/android-studio-ide-191.5791312-windows.exe,,,,75c538069f2171343032cfcfbf1bb2bbba28cc7bc75bf5a4b9f90cc1a4c1217c,"0,1223",,,,,https://developer.android.com/studio/index.html#downloads
-Audacity,2.3.2.0,,zip,,tools\audacity_x32.exe,https://chocolatey.org/api/v2/package/audacity/2.3.2,,,,,,,,,,,http://www.audacityteam.org/download/windows/
-AudioShell,2.3.6.0,,exe,,,http://softpointer.com/downloads/AudioShell236.exe,,,,,,,installing AudioShell: should kill explorer now,done installing AudioShell: can restart explorer now,,,http://softpointer.com/AudioShell.htm
-AutoHotkey,1.1.30.3,,exe,,,http://ahkscript.org/download/ahk-install.exe,,,,,,,"about to install AutoHotkey: if it's running already, you'll need to stop it",done installing AutoHotkey: can restart it now,,,https://autohotkey.com/download/
-AzureCLI,2.0.71.0,,msi,,,https://aka.ms/installazurecliwindows,,,,9reeyfVSdgDyIxDpgHTwiA==,,,,,/passive /norestart,,https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows
-AzureDataStudio,1.10.0.0,https://github.com/Microsoft/azuredatastudio/releases,exe,,,https://go.microsoft.com/fwlink/?linkid=2100710,,,,HyY1JBHWBSymk01LuoYdIA==,,,,,/SP- /SILENT,,https://docs.microsoft.com/en-us/sql/azure-data-studio/download
-AzureStorageExplorer,1.9.0.0,http://storageexplorer.com/,exe,,,https://go.microsoft.com/fwlink/?LinkId=708343,,,,,,,,,/SILENT,,https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes
-BingDesktop,1.3.470.0,,exe,,,http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe,,,,,,,,,,,
-calibre,3.46.0.0,,msi,,,,https://download.calibre-ebook.com/3.46.0/calibre-64bit-3.46.0.msi,,,,,,,,"ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",,http://calibre-ebook.com/download_windows64
-Clover,3.4.0.0,,exe,,,http://cn.ejie.me/uploads/setup_clover@3.4.0.exe,,,,,,,,,,,http://ejie.me/
-ConEmu,19.07.14.0,,exe,,,https://github.com/Maximus5/ConEmu/releases/download/v19.07.14/ConEmuSetup.190714.exe,,,,,,,,,/p:x64 /qr,,https://github.com/Maximus5/ConEmu/releases
-DataGrip,2019.2.2.0,,exe,,,https://download.jetbrains.com/datagrip/datagrip-2019.2.2.exe,,,,bef2e41ad36870da1788676f410c17e68180db3a516309a613aef7a7c17e855c,,"0,1223",,,,,https://www.jetbrains.com/datagrip/download/
-DebugDiag,2.2.0.14,,msi,TRUE,,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi,https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi,,,,,,,,,,http://www.debugdiag.com/
-Defraggler,2.22.995.0,,exe,,,https://download.ccleaner.com/dfsetup222.exe,,,,,,,about to install Defraggler; disable the network now. . .,done installing Defraggler; you can re-enable to network now. . .,,,http://www.piriform.com/defraggler/download
-DiffMerge,4.2.0,,msi,,,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi,http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi,,,,,,,,/passive,,http://www.sourcegear.com/diffmerge/downloads.php
-digestIt,3.1.2004,,msi,,,http://www.colonywest.us/versions/download.php?release_id=2,http://www.colonywest.us/versions/download.php?release_id=3,,,,,,,,/passive,,http://www.colonywest.us/digestit/
-DockerCE,2.1.0.1,https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases,exe,,,,https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe,,,,,,,,,,https://docs.docker.com/docker-for-windows/release-notes/
-DotNet40,4.0.0.20110221,,exe,,,https://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe,,,,,,,,,,,
-DotNet45,4.5.2.20140506,,exe,,,https://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe,,,,,,,,,,,
-DotNet46,4.6.2.20160720,http://go.microsoft.com/fwlink/?LinkId=780597,exe,,,https://go.microsoft.com/fwlink/?LinkId=780596,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet47,4.7.2.20180607,http://go.microsoft.com/fwlink/?LinkId=825299 / https://www.microsoft.com/net/download/windows,exe,,,https://go.microsoft.com/fwlink/?LinkId=863262,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNet48,4.8.0.0,https://dotnet.microsoft.com/download/dotnet-framework,exe,,,http://go.microsoft.com/fwlink/?LinkId=2085155,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNet461DevPack,4.6.1.20151117,"installs the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK
-http://go.microsoft.com/fwlink/?LinkId=690706",exe,,,https://go.microsoft.com/fwlink/?LinkId=690705,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet462DevPack,4.6.2.20160720,"installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK
-http://go.microsoft.com/fwlink/?LinkId=780617",exe,,,https://go.microsoft.com/fwlink/?LinkId=780616,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet47DevPack,4.7.0.20170502,"installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK
-http://go.microsoft.com/fwlink/?LinkId=825319",exe,,,https://go.microsoft.com/fwlink/?LinkId=825318,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet471DevPack,4.7.1.20171013," installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK
-http://go.microsoft.com/fwlink/?LinkId=852105",exe,,,https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe,,,,,,,,,,,https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx
-DotNet472DevPack,4.7.2.20180607,,exe,,,https://go.microsoft.com/fwlink/?LinkId=874338,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNet48DevPack,4.8.0.0,,exe,,,https://go.microsoft.com/fwlink/?linkid=2088517,,,,,,,,,,,https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers
-DotNetCoreSdk,2.2.107.0,"go to page above, then click on Release Notes to get to the actual links",exe,,,,https://download.visualstudio.microsoft.com/download/pr/fb931b49-7f40-44ba-a347-f0b9fe655864/c99d8ab0402d4b8e6831e1ee74aa945b/dotnet-sdk-2.2.107-win-x64.exe,,,,VqGy97M08S3xs7ul53HGWHJwKlliSd38fc4kSQKMxl+Wi29cp4XmfuIMNDChlGP/ciMFfJWRqEdEzNPvXVrCxg==,,,,/passive,,https://www.microsoft.com/net/download
-Fiddler4,5.0.20192.25091,,exe,,,https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe,,,,,,,,,/S,,https://www.telerik.com/download/fiddler
-FileMenuTools,7.6.2.0,,exe,,,http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe,,,,161f5624d82dbf536dc344286433bf25,,,,,,,https://www.lopesoft.com/index.php/en/download/filemenu-tools
-FileZilla,3.44.1.0,,exe,,,,,"https://filezilla-project.org/download.php?show_all=1
-(?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win32-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win32-setup\.exe</a>.+
-$1","https://filezilla-project.org/download.php?show_all=1
-(?s).+<a\s+.*?href=""(https://.+?\.cdn\.filezilla-project\.org/client/FileZilla_[\d\.]+_win64-setup\.exe\??.*?)""[^>]*>FileZilla_[\d\.]+_win64-setup\.exe</a>.+
-$1",5a1cb387bb512c85114bc0e1ed8a841c851a638c590ac88bae188b4469057566d745cc8e684360616a2fcca6e88803a0fcb2b7907cbc27457569d1e150b5f6e1,2169094d139be21386cf42735fdb2fc98edf4a1bab248f325d28435d8fe4d2c9784eba78d78832d64fc30ba1cb596040a354c6acb173d1cf8cd8b22defbfb269,,,,/S,,https://filezilla-project.org/download.php?show_all=1
-FlashPlayerPlugin,32.0.0.238,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.238/install_flash_player_32_plugin.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-FlashPlayerPluginAX,32.0.0.238,,msi,,,https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.238/install_flash_player_32_active_x.msi,,,,,,,,,/passive /norestart REMOVE_PREVIOUS=YES,,https://www.adobe.com/software/flash/about/
-foobar2000,1.4.6.0,,exe,,,,,"http://www.foobar2000.org/download
-(?s).+<h2>Latest stable version</h2>[\r\n\s]*Download <a href=""/getfile/([^""]+)"">foobar2000.+
-http://www.foobar2000.org/files/$1",,,,,,,,,http://www.foobar2000.org/download
-FoxitReader,9.5.0.20721,,exe,,,https://cdn01.foxitsoftware.com/product/reader/desktop/win/9.5/FoxitReader95_enu_Setup_Clean.exe,,,,,,,,,,,https://www.foxitsoftware.com/pdf-reader/
-FreeDownloadManager,5.1.38.7312,http://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17363,exe,,,http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe,http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe,,,,,,about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...,done installing FreeDownloadManager; re-enable to network now...,,,http://www.freedownloadmanager.org/download.htm
-Freemind,1.0.1,,exe,,,http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe,,,,,,,,,,,http://freemind.sourceforge.net/wiki/index.php/Main_Page
-gimp,2.10.12.3,,exe,,,https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe,,,,90038ea1895b2fe2a63fe6f69fc2115161b9af6a509e96ee08371138260de45e,,,,,/SP-,,https://www.gimp.org/downloads/
-gimp-help,2.8.2.0,,exe,,,https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe,,,,,,,,,,,
-git,2.23.0.0,https://gitforwindows.org/,exe,,,https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.exe,https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe,,,0cfcde18ebb3bf53304a78a92f3245b77377360dad85e9fbd33990843a88ee81,555cc19797fe6869fe60c156a59e9a29028f78476353775c3f6bca8e841940cd,,,,/DIR=C:\tools\git /SP-,,https://github.com/git-for-windows/git/releases
-GitKraken,6.1.4.0,,exe,,,https://release.gitkraken.com/win32/GitKrakenSetup.exe,https://release.gitkraken.com/win64/GitKrakenSetup.exe,,,,,,,don't forget to 'fix' the auto update 'feature'...,/S,,https://www.gitkraken.com/download
-GoogleChrome,0.0.0.0,,exe,,,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe,https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe,,,,,,,,,,https://enterprise.google.com/intl/en_version/chrome/chrome-browser/
-Handbrake,1.2.2.0,,exe,,,,https://download.handbrake.fr/releases/1.2.2/HandBrake-1.2.2-x86_64-Win_GUI.exe,,,,f65009afe762d86ea3322d9170277fbb1e3084622d4fd8575e3eca9418c921fc,,,,,,https://handbrake.fr/downloads.php
-iDrive,6.7.1.52,https://www.idrive.com/downloads/version_win.js,exe,,,https://www.idrive.com/downloads/IDriveWinSetup.exe,,,,,,,,,/SILENT,,https://www.idrive.com/online-backup-download
-IntelliJIdeaCommunity,2019.2.1.0,,exe,,,https://download.jetbrains.com/idea/ideaIC-2019.2.1.exe,,,,d2db342cf3530380146b910bcf0c03d0616e8c97d7f747e762e9676ceac3d1f4,,"0,1223",,,,,https://www.jetbrains.com/idea/download/
-IntelliJIdeaUltimate,2019.2.1.0,,exe,,,https://download.jetbrains.com/idea/ideaIU-2019.2.1.exe,,,,8187bb108e5afea78b3fea0fe4f61d61078deaddbff3d06a9a8784b7b050aa61,,"0,1223",,,,,https://www.jetbrains.com/idea/download/
-IrfanView,4.53.0.0,,exe,,,http://irfanview.info/files/iview453_setup.exe,,,,7ebcf9fe4f4e41293d8808d2ad4b369577209dc64db04d79b1bce370e2c79b69,57b12aed758d5beb84263cdca2d4fa38d0bcffa882d9994921453b170edf149a,,about to install IrfanView; disable the network now. . .,done installing IrfanView; you can re-enable to network now. . .,,Referer: http://irfanview.info/files/iview452_setup.exe,http://www.irfanview.com/
-IrfanViewPlugins,4.53.0.0,,exe,,,http://www.irfanview.info/files/iview453_plugins_setup.exe,,,,0dd3763a6b789273633a052b25d5674a26af0d7edc98c2a95abf2fe8b11bb391,ac8d27b1241ef91e80a73bfc672342be7317f7d8bf47a615a00d01f5090f3d43,,,,,Referer: http://www.irfanview.info/files/irfanview_plugins_452_setup.exe,
-iSpy,7.2.1.0,,zip,,iSpySetup.exe,http://ispyrtcdata.blob.core.windows.net/downloads/iSpy_7_2_1_0.zip,http://ispyrtcdata.blob.core.windows.net/downloads/iSpy64_7_2_1_0.zip,,,,,,,,,,http://www.ispyconnect.com/download.aspx
-jdk8,8.0.201.0,"make sure download url is from edelivery.oracle.com, for the headers stuff to work / looks like you have to have an account to download it now; a-holes",exe,TRUE,,https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-i586.exe,https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-x64.exe,,,c95830b3e78f5abae26d693d6fb0c16a229f14597f8216b919810b59ad7f752c,bf43f92ab22419a10878638c4fcd559085398233bce6427a89309cab850aab78,,about to install JDK; disable the network now. . .,done installing JDK; you can re-enable to network now. . .,,Cookie: oraclelicense=accept-securebackup-cookie,http://www.oracle.com/technetwork/java/javase/downloads/index.html
-jre8,8.0.221.0,,exe,TRUE,,https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239856_230deb18db3e4014bb8e3e8324f81b43,https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43,,,42d7ae998d701fd6ab9d8bdf8df4a13915a4fb8429578c5a6c5a216e3873b63b,61ccc93957a931d63535e6785fe814e3ab9efdc7c5b6757e7cc0e5b27a89704c,,about to install JRE; disable the network now. . .,done installing JRE; you can re-enable to network now. . .,,,https://www.java.com/en/download/manual.jsp
-KDiff3,0.9.98,,exe,,,http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-32bit-Setup_0.9.98-3.exe/download,http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-64bit-Setup_0.9.98-2.exe/download,,,9d7ec4fb0e2b83a321cb77ce47c86fd42fc8ec2b,4b7358aec8de6a3e719065fce37dd966c92ed3d4,,,,,,http://kdiff3.sourceforge.net/
-KeePass2,2.42.1.0,,exe,,,https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1-Setup.exe/download,,,,D3BBB61798DFD230616D9FF19EC227EE305157985D769B9B7C4AA7DA59F8800D,,,"about to install KeePass: if it's running already, you'll need to stop it",done installing KeePass: can restart it now,/SILENT,,http://keepass.info/download.html
-Kindle,1.24.3.51068,v1.24 is the last one that DeDRM can decrypt so make sure not to update it (https://www.mobileread.com/forums/showthread.php?t=283371),exe,,,http://kindleforpc.amazon.com/51068/KindleForPC-installer-1.24.51068.exe,,,,x6GpN2PRAryg/tnBZ5l4muGMMyKxs7376MAEIsMvg9c=,,,,"before running Kindle app, rename that render-test.exe, then disable network to prevent it auto-updating itself, then in app settings, disable auto-updates (and probably want to change content location, too)",/S,,https://www.amazon.com/kindle-dbs/fd/kcp
-Lastpass,4.0.0.0,,exe,,,https://lastpass.com/download/cdn/lastpass.exe,https://lastpass.com/download/cdn/lastpass_x64.exe,,,,,,,,,,
-LinkShellExtension,3.9.2.5,,exe,,,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe,http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe,,,,,,installing LinkShellExtension: should kill explorer now,done installing LinkShellExtension: can restart explorer now,/S /Language=English,,http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html
-MariaDB,10.3.15.0,,msi,,,,http://ftp.utexas.edu/mariadb/mariadb-10.3.15/winx64-packages/mariadb-10.3.15-winx64.msi,,,,167557a22d14a9fd8fa780a305599cadb3629759ea5e6d6734b45abded25eaed,,,,,,https://downloads.mariadb.org/
-MediaMonkey,4.1.24.1883,,exe,,,http://www.mediamonkey.com/MediaMonkey_Setup.exe,,,,,,,,MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.,,,http://www.mediamonkey.com/download/
-Mercurial,5.0.0.0,,exe,,,,https://mercurial-scm.org/release/windows/Mercurial-5.0-x64.exe,,,,,,,,/DIR=C:\tools\hg,,https://www.mercurial-scm.org/wiki/Download
-MicrosoftMessageAnalyzer,1.4.1.20161028,https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226,msi,,,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi,http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi,,,E923884FE1A076542BB5BBCAB13CC715A2D6D243,839B24D7CF8248B2BA9A0B14DC62146D94761966,,,,,,https://technet.microsoft.com/en-us/library/dn904558.aspx
-MySqlCommunity,8.0.16.0,,msi,,,https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.16.0.msi,,,,,,,,,,,https://dev.mysql.com/downloads/mysql/
-nodejs,10.16.3.0,,msi,,,,https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi,,,,f68b75eea46232adb8fd38126c977dc244166d29e7c6cd2df930b460c38590a9,,,,INSTALLDIR=C:\tools\nodejs,,https://nodejs.org/en/download/
-Notepad++,7.7.1.0,,exe,,,https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.exe,,,,6787c524b0ac30a698237ffb035f932d7132343671b8fe8f0388ed380d19a51c,0ef89d2a9c9b15cd4aab3f3772f62cbebb54c3856bc1bd9a4a5fb3180ea6140e,,,,,,https://notepad-plus-plus.org/download/
-notepad2mod,4.2.25.998,,exe,,,https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe,,,,,,,,,,,https://github.com/XhmikosR/notepad2-mod/releases
-notepad3,5.19.815.2595,https://github.com/rizonesoft/Notepad3,exe,,,https://www.rizonesoft.com/download/3939/,,,,,,,,,,,https://www.rizonesoft.com/downloads/notepad3/
-OneNote,16.0.11328.20144,,exe,,,https://www.onenote.com/download/win32/x86/en-US,https://www.onenote.com/download/win32/x64/en-US,,,,,,,,,,https://www.onenote.com/download
-Paint.net,4.2.1.0,,zip,,paint.net.*.install.exe,http://www.dotpdn.com/files/paint.net.4.2.1.install.zip,,,,,,,,,,,https://www.getpaint.net/download.html
-PhpStorm,2019.2.0.0,,exe,,,https://download.jetbrains.com/webide/PhpStorm-2019.2.exe,,,,bd4697c07057e55c8cb065eb72e5f73aa9d677c16dc7b6cb7d1bf61670a1b61f,,"0,1223",,,,,https://www.jetbrains.com/phpstorm/download/
-PostgreSQL,11.5.0.0,,exe,,,,http://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64.exe,,,,,,,,,,http://www.enterprisedb.com/products-services-training/pgdownload#windows
-Postman,7.5.0.0,,exe,,,,https://dl.pstmn.io/download/latest/win64,,,,50DE4899EC0B5AF1B9DB058F27A5ACC87CD83394,,,,-s,,https://www.getpostman.com/downloads/release-notes
-PowerShellCore,6.2.2.0,,msi,,,,https://github.com/PowerShell/PowerShell/releases/download/v6.2.2/PowerShell-6.2.2-win-x64.msi,,,,FBFAF00A72018D9C49A6C5A05C6D05F9EA4BC6A4F6952D9F3B4FCCA96274E963,,,,,,https://github.com/PowerShell/PowerShell/releases
-PrivateInternetAccess,1.3.3.02880,,exe,,,,https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.3-02880.exe,,,,e70a38c0b489cb6475943f88ec7c895dd6235a43bd31828c115aab85e3c57b2b,,,,,,https://www.privateinternetaccess.com/pages/download
-PyCharmCommunity,2019.2.1.0,,exe,,,https://download.jetbrains.com/python/pycharm-community-2019.2.1.exe,,,,6759d42e4d38ab689e6e0b30a2c066f88067fa8799ee87a0d29b0c6adfc45c3e,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
-PyCharmPro,2019.2.1.0,,exe,,,https://download.jetbrains.com/python/pycharm-professional-2019.2.1.exe,,,,03bbee530a483eb547bbd98936fc3eee557011b200452d5db01dfd937791c5b9,,"0,1223",,,,,https://www.jetbrains.com/pycharm/download/
-python27,2.7.16.0,,msi,,,https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi,https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi,,,912428345b7e0428544ec4edcdf70286,2fe86194bb4027be75b29852027f1a79,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",,https://www.python.org/downloads/
-python34,3.4.3.0,,msi,,,https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi,https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi,,,cb450d1cc616bfc8f7a2d6bd88780bf6,f6ade29acaf8fcdc0463e69a6e7ccf87,,,,"/passive ALLUSERS=1 TARGETDIR=C:\tools\python34 ADDLOCAL=DefaultFeature,Tools,Extensions,TclTk,Documentation,pip_feature,Testsuite REMOVE=PrependPath",,https://www.python.org/downloads/
-python35,3.5.4.0,,exe,,,https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe,https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe,,,9693575358f41f452d03fd33714f223f,4276742a4a75a8d07260f13fe956eec4,,,,/passive InstallAllUsers=1 TargetDir=C:\tools\python35 PrependPath=0 CompileAll=1,,https://www.python.org/downloads/
-python36,3.6.8.0,,exe,,,,https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe,,,,72f37686b7ab240ef70fdb931bdf3cb5,,,,/passive InstallAllUsers=1 TargetDir=C:\tools\python36 PrependPath=0 CompileAll=1,,https://www.python.org/downloads/
-python37,3.7.4.0,,exe,,,,https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe,,,,a702b4b0ad76debdb3043a583e563400,,,,/passive InstallAllUsers=1 TargetDir=C:\tools\python37 PrependPath=0 CompileAll=1,,https://www.python.org/downloads/
-QTTabBar,0.1038.0,,zip,,QTTabBar.exe,http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip,,,,,,,installing QTTabBar: should kill explorer.exe to help the install,done installing QTTabBar: you can restart explorer.exe now,,,http://qttabbar.wikidot.com/
-Resharper,2019.2.1.0,https://www.jetbrains.com/resharper/whatsnew/,exe,,,https://download.jetbrains.com/resharper/ReSharperUltimate.2019.2.1/JetBrains.ReSharperUltimate.2019.2.1.exe,,,,d56b8c8d30bdd01996a860ed5bf408127100ff35358043e2a9f252686d3b05bd,,,,,/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True,,https://www.jetbrains.com/resharper/download/index.html
-Rider,2019.2.0.0,,exe,,,https://download.jetbrains.com/rider/JetBrains.Rider-2019.2.exe,,,,114bcf88dd903fd269783a1c06e64031f5641f85eff4986b0490f774692c4cfc,,"0,1223",,,,,https://www.jetbrains.com/rider/download/
-ruby2,2.5.1.1,https://github.com/oneclick/rubyinstaller2/releases,exe,,,,https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-2.5.1-1-x64.exe,,,,b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf,,,,"/dir=""C:\tools\ruby2"" /tasks=""assocfiles""",,https://rubyinstaller.org/downloads/
-RubyMine,2019.2.0.0,,exe,,,https://download.jetbrains.com/ruby/RubyMine-2019.2.exe,,,,7001391c256233dc27efac0e7c1f4a1b4219684bd42e5efbe9a01013babad5ec,,"0,1223",,,,,https://www.jetbrains.com/ruby/download/
-Sigil,0.9.17.0,,exe,,,,https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.17/Sigil-0.9.17-Windows-x64-Setup.exe,,,,c6fc802ab3111ff4c17aeb09afc32ddf423f279ea568f66055345ee8df41db18,,,,,,https://github.com/Sigil-Ebook/Sigil/releases
-SilverLight,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=229320,http://go.microsoft.com/fwlink/?LinkID=229321,,,,,,,,,,
-SilverLightDev,5.1.50428.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=229323,http://go.microsoft.com/fwlink/?LinkId=229324,,,,,,,,,,
-SourceTree,3.1.3.0,https://www.sourcetreeapp.com/update/windowsupdates.txt,exe,,,https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.1.3.exe,,,,,,,,,,,https://www.sourcetreeapp.com/
-SqlServer2017Express,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
-SqlServer2017LocalDb,14.1801.3958.1,,exe,,,https://go.microsoft.com/fwlink/?linkid=853017,,,,,,,,,/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB,,https://www.microsoft.com/en-us/sql-server/sql-server-editions-express
-SqlServerMngmtStudio,18.1.0.0,Build number: 15.0.18131.0,exe,,,https://go.microsoft.com/fwlink/?linkid=2094583,,,,oJKUhAkmD7aPcoWDNwQ+XA==,,,,,,,https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms
-stellarium,0.19.1.1,http://stellarium.org/,exe,,,https://github.com/Stellarium/stellarium/releases/download/v0.19.1/stellarium-0.19.1.1-win32.exe,https://github.com/Stellarium/stellarium/releases/download/v0.19.1/stellarium-0.19.1.1-win64.exe,,,596f4376942eb89ef72d4c7463af4af111f976e1,e483e1469b838f3766e9a13deab254ac7b5109ae,,,,,,https://github.com/Stellarium/stellarium/releases
-SumatraPDF,3.1.2.0,,exe,,,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-install.exe,https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-64-install.exe,,,,,,,,,,http://www.sumatrapdfreader.org/download-free-pdf-viewer.html
-SyncBackSE,9.0.8.15,,exe,,,https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe,https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe,,,526604ee45e4f51412bdc7d3b0e943b31a5a1357aee8fd8394a6b080a01bfe74,3a7c3104fc896e029037634e496ea6ed1bb3e694317b43887b3840fdbab24a63,,,,/Silent /SP- /Counter=1 /UpdCheckDays=0,,https://www.2brightsparks.com/download-syncbackse.html
-TeamViewer,13.0.6447.0,,exe,,,http://download.teamviewer.com/download/TeamViewer_Setup_en.exe,,,,,,,,,,,https://www.teamviewer.com/en/download/windows/
-UltraCompare,18.0.0.62,,exe,,,https://downloads.ultraedit.com/main/uc/win/uc_english.exe,https://downloads.ultraedit.com/main/uc/win/uc_english_64.exe,,,,,,,,,,https://www.ultraedit.com/downloads/ultracompare-download/
-UltraEdit,25.0.0.68,,exe,,,https://downloads.ultraedit.com/main/ue/win/ue_english.exe,https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe,,,,,"0,5",,,,,https://www.ultraedit.com/downloads/ultraedit-download
-URLRewrite2,2.1.1980.0,,msi,,,http://download.microsoft.com/download/6/8/F/68F82751-0644-49CD-934C-B52DF91765D1/rewrite_x86_en-US.msi,http://download.microsoft.com/download/D/D/E/DDE57C26-C62C-4C59-A1BB-31D58B36ADA2/rewrite_amd64_en-US.msi,,,,,,,,,,https://www.iis.net/downloads/microsoft/url-rewrite
-VCRedist2005,8.0.50727.763,,exe,TRUE,,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE,http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE,,,,,,,,/Q,,
-VCRedist2008,9.0.30729.1,,exe,TRUE,,http://download.microsoft.com/download/d/d/9/dd9a82d0-52ef-40db-8dab-795376989c03/vcredist_x86.exe,http://download.microsoft.com/download/2/d/6/2d61c766-107b-409d-8fba-c39e61ca08e8/vcredist_x64.exe,,,,,,,,/Q,,
-VCRedist2010,10.0.40219.1,,exe,TRUE,,http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe,http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe,,,,,,,,/q /norestart,,
-VCRedist2012,11.0.61030.0,,exe,TRUE,,http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe,http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe,,,,,"0,3010",,,/quiet /norestart,,
-VCRedist2013,12.0.30501.0,,exe,TRUE,,http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe,http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe,,,,,"0,3010",,,/quiet /norestart,,
-VCRedist2015,14.0.24215.1,,exe,TRUE,,https://go.microsoft.com/fwlink/?LinkId=615459,https://go.microsoft.com/fwlink/?LinkId=615460,,,72211bd2e7dfc91ea7c8fac549c49c0543ba791b,10b1683ea3ff5f36f225769244bf7e7813d54ad0,"0,3010",,,/q /norestart,,https://www.visualstudio.com/downloads/#microsoft-visual-c-2015-redistributable-update-3
-VCRedist2017,14.10.25008.0,,exe,TRUE,,https://go.microsoft.com/fwlink/?LinkId=746571,https://go.microsoft.com/fwlink/?LinkId=746572,,,20F456AAB2938D638E9E08EBCAF576C5A0BC7C1AD447645F1F07A26B147DBBFA,341D4BAA491DAA5BEBD0E061577E3F840C8157417C636FD2285D9BDF71FC4660,"0,3010",,,/q /norestart,,https://www.visualstudio.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2017
-VeraCrypt,1.23.0.2,old codeplex site: https://veracrypt.codeplex.com/releases,exe,,,https://launchpad.net/veracrypt/trunk/1.23/+download/VeraCrypt%20Setup%201.23-Hotfix-2.exe,,,,d55c26807a591643dd4c21ac0ffaaa733aafa52307d36ed9a95ed0a5ef35e4fe,,,,,,,https://www.veracrypt.fr/en/Downloads.html
-VirtualBox,6.0.10.0,,exe,,,https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe,,,,e7c8d015c9831ffa6bde56d6b4aaa3ddf11ee410ae643bae7ded96bdb5c8f78d,,,,,,,https://www.virtualbox.org/wiki/Downloads
-VirtualBoxExtensions,6.0.10.0,,other,,,https://download.virtualbox.org/virtualbox/6.0.10/Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack,,,,e5a9eb240379a57c9bf03954a594a03431698e67aef551e27f62170bed9b16ea,,,,,,,
-VirtualCloneDrive,5.5.0.0,,exe,,,https://www.elby.ch/download/SetupVCD.exe,,,,,,,,,,,http://www.elby.ch/download.html
-Vivaldi,2.7.1628.30,,exe,,,https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.exe,https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.x64.exe,,,,,,,,,,https://vivaldi.com/download/
-vlc,3.0.8.0,,exe,,,http://download.videolan.org/pub/videolan/vlc/3.0.8/win32/vlc-3.0.8-win32.exe,http://download.videolan.org/pub/videolan/vlc/3.0.8/win64/vlc-3.0.8-win64.exe,,,f286e25d5c52bfe7f392fb3f4e28e711225d1773e3c43281cb901145ded34def,0cc54e69016e3d5a80e229c768ac37a02aea3a973a5447593c0132281e383942,,,,,,https://www.videolan.org/vlc/download-windows.html
-VMWarePlayer,15.1.0.13591040,,exe,,,,https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe,,,,7b5f012b52c2de4518da7390260b1a68fc328b2e,,,,,,https://www.vmware.com/go/tryplayer
-VS2015Community,0.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=626924,,,,,,,,,,,
-VS2015Professional,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699336,,,,,,,,,,,
-VS2015Enterprise,0.0.0.0,,exe,,,http://go.microsoft.com/fwlink/?LinkID=699337,,,,,,,,,,,
-VS2015Update,2.0.0.0,,exe,,,https://go.microsoft.com/fwlink/?LinkId=691129,,,,,,,,,,,
-VS2017Community,0.0.0.0,,exe,,,https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe,,,,,,,,,--nocache,,
-VS2017Professional,0.0.0.0,,exe,,,https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe,,,,,,,,,--nocache,,
-VS2017Enterprise,0.0.0.0,,exe,,,https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe,,,,,,,,,--nocache,,
-VS2019Community,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/1b6e9bcd-b9f0-45ec-848d-b91d7ac62659/f63d5e9540570c877020913190317949/vs_community.exe,,,,,,,,,--nocache,,
-VS2019Professional,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/3a9c2ebf-b52a-4fd8-80db-eec4746d95fc/584fcd523c84a9174f6e40f208241d26/vs_professional.exe,,,,,,,,,--nocache,,
-VS2019Enterprise,0.0.0.0,,exe,,,https://download.visualstudio.microsoft.com/download/pr/89d9f9d5-12ff-4e95-a075-4ff8a0941672/c1b61a91aa8495730036e13582d17cb7/vs_enterprise.exe,,,,,,,,,--nocache,,
-VSCode,1.37.1.0,,exe,,,,https://go.microsoft.com/fwlink/?Linkid=852157,,,,NlQQKnoCrxFgigwZzz4Ssw==,,,,"/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",,https://code.visualstudio.com/Download
-WebPI,5.0.50430.0,,exe,,,http://go.microsoft.com/fwlink/?LinkId=255386,,,,,,,,,,,
-WebStorm,2019.2.0.0,,exe,,,https://download.jetbrains.com/webstorm/WebStorm-2019.2.exe,,,,e6f5384e26ce79cf9358136b47a9dc4438fb9315d4bce0bc8547042836b89250,,"0,1223",,,,,https://www.jetbrains.com/webstorm/download/
-WinMerge,2.16.4.0,,exe,,,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-Setup.exe,https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-x64-Setup.exe,,,946676A4F59AD0EDBD1213E868078CB5BC9DB87B5C49085241EE843BB5664A19,018FCF478A6466AC48A81D8B5D40FB5F4C5C4AF3CAA84E25B5E8223368888745,,,,,User-Agent: WindowsPowerShell,http://winmerge.org/downloads/
-WinRAR,5.71.0.0,,exe,,,http://www.rarlab.com/rar/wrar571.exe,http://www.rarlab.com/rar/winrar-x64-571.exe,,,,,,,,,,https://www.rarlab.com
-WireShark,3.0.3.0,,exe,,,,https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.3.exe,,,,824cbeeb48ed720a24b70725cb8db2353ed331e05f3d0a832ff96acb02292d62,,,,,,https://www.wireshark.org/download.html
+[
+	{
+		"Name": "7zip",
+		"Version": "19.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z1900.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z1900-x64.exe",
+		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
+		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
+		"InstallerArguments": "/s",
+		"AppPage": "http://www.7-zip.org/"
+	},
+	{
+		"Name": "AdobeDigitalEditions",
+		"Version": "4.5.10.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe",
+		"AppPage": "http://www.adobe.com/solutions/ebook/digital-editions/download.html"
+	},
+	{
+		"Name": "AdobeReaderDC",
+		"Version": "2019.012.20036.0",
+		"Notes": "ugh",
+		"Type": "exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220036/AcroRdrDC1901220036_en_US.exe",
+		"AppPage": "https://get.adobe.com/reader/otherversions/"
+	},
+	{
+		"Name": "AndroidStudio",
+		"Version": "3.5.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.0.21/android-studio-ide-191.5791312-windows.exe",
+		"HashFor64Bit": "75c538069f2171343032cfcfbf1bb2bbba28cc7bc75bf5a4b9f90cc1a4c1217c",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://developer.android.com/studio/index.html#downloads"
+	},
+	{
+		"Name": "Audacity",
+		"Version": "2.3.2.0",
+		"Type": "zip",
+		"ZipContentToRun": "tools\\audacity_x32.exe",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.3.2",
+		"AppPage": "http://www.audacityteam.org/download/windows/"
+	},
+	{
+		"Name": "AudioShell",
+		"Version": "2.3.6.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://softpointer.com/downloads/AudioShell236.exe",
+		"PreInstallMessage": "installing AudioShell: should kill explorer now",
+		"PostInstallMessage": "done installing AudioShell: can restart explorer now",
+		"AppPage": "http://softpointer.com/AudioShell.htm"
+	},
+	{
+		"Name": "AutoHotkey",
+		"Version": "1.1.30.3",
+		"Type": "exe",
+		"UrlFor32Bit": "http://ahkscript.org/download/ahk-install.exe",
+		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
+		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
+		"AppPage": "https://autohotkey.com/download/"
+	},
+	{
+		"Name": "AzureCLI",
+		"Version": "2.0.71.0",
+		"Type": "msi",
+		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
+		"HashFor32Bit": "9reeyfVSdgDyIxDpgHTwiA==",
+		"InstallerArguments": "/passive /norestart",
+		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
+	},
+	{
+		"Name": "AzureDataStudio",
+		"Version": "1.10.0.0",
+		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2100710",
+		"HashFor32Bit": "HyY1JBHWBSymk01LuoYdIA==",
+		"InstallerArguments": "/SP- /SILENT",
+		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
+	},
+	{
+		"Name": "AzureStorageExplorer",
+		"Version": "1.9.0.0",
+		"Notes": "http://storageexplorer.com/",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
+		"InstallerArguments": "/SILENT",
+		"AppPage": "https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes"
+	},
+	{
+		"Name": "BingDesktop",
+		"Version": "1.3.470.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://download.microsoft.com/download/0/7/8/078E99E2-F1AE-4F46-B3EE-8208B7D01E5C/BDT5/BingDesktopSetup.exe"
+	},
+	{
+		"Name": "calibre",
+		"Version": "3.46.0.0",
+		"Type": "msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/3.46.0/calibre-64bit-3.46.0.msi",
+		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
+		"AppPage": "http://calibre-ebook.com/download_windows64"
+	},
+	{
+		"Name": "Clover",
+		"Version": "3.4.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://cn.ejie.me/uploads/setup_clover@3.4.0.exe",
+		"AppPage": "http://ejie.me/"
+	},
+	{
+		"Name": "ConEmu",
+		"Version": "19.07.14.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v19.07.14/ConEmuSetup.190714.exe",
+		"InstallerArguments": "/p:x64 /qr",
+		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
+	},
+	{
+		"Name": "DataGrip",
+		"Version": "2019.2.2.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/datagrip/datagrip-2019.2.2.exe",
+		"HashFor32Bit": "bef2e41ad36870da1788676f410c17e68180db3a516309a613aef7a7c17e855c",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/datagrip/download/"
+	},
+	{
+		"Name": "DebugDiag",
+		"Version": "2.2.0.14",
+		"Type": "msi",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi",
+		"UrlFor64Bit": "https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi",
+		"AppPage": "http://www.debugdiag.com/"
+	},
+	{
+		"Name": "Defraggler",
+		"Version": "2.22.995.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.ccleaner.com/dfsetup222.exe",
+		"PreInstallMessage": "about to install Defraggler; disable the network now. . .",
+		"PostInstallMessage": "done installing Defraggler; you can re-enable to network now. . .",
+		"AppPage": "http://www.piriform.com/defraggler/download"
+	},
+	{
+		"Name": "DiffMerge",
+		"Version": "4.2.0",
+		"Type": "msi",
+		"UrlFor32Bit": "http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi",
+		"UrlFor64Bit": "http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi",
+		"InstallerArguments": "/passive",
+		"AppPage": "http://www.sourcegear.com/diffmerge/downloads.php"
+	},
+	{
+		"Name": "digestIt",
+		"Version": "3.1.2004",
+		"Type": "msi",
+		"UrlFor32Bit": "http://www.colonywest.us/versions/download.php?release_id=2",
+		"UrlFor64Bit": "http://www.colonywest.us/versions/download.php?release_id=3",
+		"InstallerArguments": "/passive",
+		"AppPage": "http://www.colonywest.us/digestit/"
+	},
+	{
+		"Name": "DockerCE",
+		"Version": "2.1.0.1",
+		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
+		"Type": "exe",
+		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
+		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
+	},
+	{
+		"Name": "DotNet40",
+		"Version": "4.0.0.20110221",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe"
+	},
+	{
+		"Name": "DotNet45",
+		"Version": "4.5.2.20140506",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe"
+	},
+	{
+		"Name": "DotNet46",
+		"Version": "4.6.2.20160720",
+		"Notes": "http://go.microsoft.com/fwlink/?LinkId=780597",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=780596",
+		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
+	},
+	{
+		"Name": "DotNet47",
+		"Version": "4.7.2.20180607",
+		"Notes": "http://go.microsoft.com/fwlink/?LinkId=825299 / https://www.microsoft.com/net/download/windows",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=863262",
+		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
+	},
+	{
+		"Name": "DotNet48",
+		"Version": "4.8.0.0",
+		"Notes": "https://dotnet.microsoft.com/download/dotnet-framework",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=2085155",
+		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
+	},
+	{
+		"Name": "DotNet461DevPack",
+		"Version": "4.6.1.20151117",
+		"Notes": "installs the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=690706",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=690705",
+		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
+	},
+	{
+		"Name": "DotNet462DevPack",
+		"Version": "4.6.2.20160720",
+		"Notes": "installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=780617",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=780616",
+		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
+	},
+	{
+		"Name": "DotNet47DevPack",
+		"Version": "4.7.0.20170502",
+		"Notes": "installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=825319",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=825318",
+		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
+	},
+	{
+		"Name": "DotNet471DevPack",
+		"Version": "4.7.1.20171013",
+		"Notes": " installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=852105",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/9/0/1/901B684B-659E-4CBD-BEC8-B3F06967C2E7/NDP471-DevPack-ENU.exe",
+		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
+	},
+	{
+		"Name": "DotNet472DevPack",
+		"Version": "4.7.2.20180607",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=874338",
+		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
+	},
+	{
+		"Name": "DotNet48DevPack",
+		"Version": "4.8.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2088517",
+		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
+	},
+	{
+		"Name": "DotNetCoreSdk",
+		"Version": "2.2.107.0",
+		"Notes": "go to page above, then click on Release Notes to get to the actual links",
+		"Type": "exe",
+		"UrlFor64Bit": "https://download.visualstudio.microsoft.com/download/pr/fb931b49-7f40-44ba-a347-f0b9fe655864/c99d8ab0402d4b8e6831e1ee74aa945b/dotnet-sdk-2.2.107-win-x64.exe",
+		"HashFor64Bit": "VqGy97M08S3xs7ul53HGWHJwKlliSd38fc4kSQKMxl+Wi29cp4XmfuIMNDChlGP/ciMFfJWRqEdEzNPvXVrCxg==",
+		"InstallerArguments": "/passive",
+		"AppPage": "https://www.microsoft.com/net/download"
+	},
+	{
+		"Name": "Fiddler4",
+		"Version": "5.0.20192.25091",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
+		"InstallerArguments": "/S",
+		"AppPage": "https://www.telerik.com/download/fiddler"
+	},
+	{
+		"Name": "FileMenuTools",
+		"Version": "7.6.2.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
+		"HashFor32Bit": "161f5624d82dbf536dc344286433bf25",
+		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
+	},
+	{
+		"Name": "FileZilla",
+		"Version": "3.44.1.0",
+		"Type": "exe",
+		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
+		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
+		"HashFor32Bit": "5a1cb387bb512c85114bc0e1ed8a841c851a638c590ac88bae188b4469057566d745cc8e684360616a2fcca6e88803a0fcb2b7907cbc27457569d1e150b5f6e1",
+		"HashFor64Bit": "2169094d139be21386cf42735fdb2fc98edf4a1bab248f325d28435d8fe4d2c9784eba78d78832d64fc30ba1cb596040a354c6acb173d1cf8cd8b22defbfb269",
+		"InstallerArguments": "/S",
+		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
+	},
+	{
+		"Name": "FlashPlayerPlugin",
+		"Version": "32.0.0.238",
+		"Type": "msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.238/install_flash_player_32_plugin.msi",
+		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
+		"AppPage": "https://www.adobe.com/software/flash/about/"
+	},
+	{
+		"Name": "FlashPlayerPluginAX",
+		"Version": "32.0.0.238",
+		"Type": "msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.238/install_flash_player_32_active_x.msi",
+		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
+		"AppPage": "https://www.adobe.com/software/flash/about/"
+	},
+	{
+		"Name": "foobar2000",
+		"Version": "1.4.6.0",
+		"Type": "exe",
+		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
+		"AppPage": "http://www.foobar2000.org/download"
+	},
+	{
+		"Name": "FoxitReader",
+		"Version": "9.5.0.20721",
+		"Type": "exe",
+		"UrlFor32Bit": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/9.5/FoxitReader95_enu_Setup_Clean.exe",
+		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
+	},
+	{
+		"Name": "FreeDownloadManager",
+		"Version": "5.1.38.7312",
+		"Notes": "http://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17363",
+		"Type": "exe",
+		"UrlFor32Bit": "http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe",
+		"UrlFor64Bit": "http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe",
+		"PreInstallMessage": "about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...",
+		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
+		"AppPage": "http://www.freedownloadmanager.org/download.htm"
+	},
+	{
+		"Name": "Freemind",
+		"Version": "1.0.1",
+		"Type": "exe",
+		"UrlFor32Bit": "http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe",
+		"AppPage": "http://freemind.sourceforge.net/wiki/index.php/Main_Page"
+	},
+	{
+		"Name": "gimp",
+		"Version": "2.10.12.3",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.12-setup-3.exe",
+		"HashFor32Bit": "90038ea1895b2fe2a63fe6f69fc2115161b9af6a509e96ee08371138260de45e",
+		"InstallerArguments": "/SP-",
+		"AppPage": "https://www.gimp.org/downloads/"
+	},
+	{
+		"Name": "gimp-help",
+		"Version": "2.8.2.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe"
+	},
+	{
+		"Name": "git",
+		"Version": "2.23.0.0",
+		"Notes": "https://gitforwindows.org/",
+		"Type": "exe",
+		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.exe",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe",
+		"HashFor32Bit": "0cfcde18ebb3bf53304a78a92f3245b77377360dad85e9fbd33990843a88ee81",
+		"HashFor64Bit": "555cc19797fe6869fe60c156a59e9a29028f78476353775c3f6bca8e841940cd",
+		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
+		"AppPage": "https://github.com/git-for-windows/git/releases"
+	},
+	{
+		"Name": "GitKraken",
+		"Version": "6.1.4.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
+		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
+		"PostInstallMessage": "don't forget to 'fix' the auto update 'feature'...",
+		"InstallerArguments": "/S",
+		"AppPage": "https://www.gitkraken.com/download"
+	},
+	{
+		"Name": "GoogleChrome",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe",
+		"UrlFor64Bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe",
+		"AppPage": "https://enterprise.google.com/intl/en_version/chrome/chrome-browser/"
+	},
+	{
+		"Name": "Handbrake",
+		"Version": "1.2.2.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://download.handbrake.fr/releases/1.2.2/HandBrake-1.2.2-x86_64-Win_GUI.exe",
+		"HashFor64Bit": "f65009afe762d86ea3322d9170277fbb1e3084622d4fd8575e3eca9418c921fc",
+		"AppPage": "https://handbrake.fr/downloads.php"
+	},
+	{
+		"Name": "iDrive",
+		"Version": "6.7.1.52",
+		"Notes": "https://www.idrive.com/downloads/version_win.js",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
+		"InstallerArguments": "/SILENT",
+		"AppPage": "https://www.idrive.com/online-backup-download"
+	},
+	{
+		"Name": "IntelliJIdeaCommunity",
+		"Version": "2019.2.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.1.exe",
+		"HashFor32Bit": "d2db342cf3530380146b910bcf0c03d0616e8c97d7f747e762e9676ceac3d1f4",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/idea/download/"
+	},
+	{
+		"Name": "IntelliJIdeaUltimate",
+		"Version": "2019.2.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.1.exe",
+		"HashFor32Bit": "8187bb108e5afea78b3fea0fe4f61d61078deaddbff3d06a9a8784b7b050aa61",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/idea/download/"
+	},
+	{
+		"Name": "IrfanView",
+		"Version": "4.53.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://irfanview.info/files/iview453_setup.exe",
+		"HashFor32Bit": "7ebcf9fe4f4e41293d8808d2ad4b369577209dc64db04d79b1bce370e2c79b69",
+		"HashFor64Bit": "57b12aed758d5beb84263cdca2d4fa38d0bcffa882d9994921453b170edf149a",
+		"PreInstallMessage": "about to install IrfanView; disable the network now. . .",
+		"PostInstallMessage": "done installing IrfanView; you can re-enable to network now. . .",
+		"HeadersToAdd": "Referer: http://irfanview.info/files/iview452_setup.exe",
+		"AppPage": "http://www.irfanview.com/"
+	},
+	{
+		"Name": "IrfanViewPlugins",
+		"Version": "4.53.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://www.irfanview.info/files/iview453_plugins_setup.exe",
+		"HashFor32Bit": "0dd3763a6b789273633a052b25d5674a26af0d7edc98c2a95abf2fe8b11bb391",
+		"HashFor64Bit": "ac8d27b1241ef91e80a73bfc672342be7317f7d8bf47a615a00d01f5090f3d43",
+		"HeadersToAdd": "Referer: http://www.irfanview.info/files/irfanview_plugins_452_setup.exe"
+	},
+	{
+		"Name": "iSpy",
+		"Version": "7.2.1.0",
+		"Type": "zip",
+		"ZipContentToRun": "iSpySetup.exe",
+		"UrlFor32Bit": "http://ispyrtcdata.blob.core.windows.net/downloads/iSpy_7_2_1_0.zip",
+		"UrlFor64Bit": "http://ispyrtcdata.blob.core.windows.net/downloads/iSpy64_7_2_1_0.zip",
+		"AppPage": "http://www.ispyconnect.com/download.aspx"
+	},
+	{
+		"Name": "jdk8",
+		"Version": "8.0.201.0",
+		"Notes": "make sure download url is from edelivery.oracle.com, for the headers stuff to work / looks like you have to have an account to download it now; a-holes",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-i586.exe",
+		"UrlFor64Bit": "https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-x64.exe",
+		"HashFor32Bit": "c95830b3e78f5abae26d693d6fb0c16a229f14597f8216b919810b59ad7f752c",
+		"HashFor64Bit": "bf43f92ab22419a10878638c4fcd559085398233bce6427a89309cab850aab78",
+		"PreInstallMessage": "about to install JDK; disable the network now. . .",
+		"PostInstallMessage": "done installing JDK; you can re-enable to network now. . .",
+		"HeadersToAdd": "Cookie: oraclelicense=accept-securebackup-cookie",
+		"AppPage": "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
+	},
+	{
+		"Name": "jre8",
+		"Version": "8.0.221.0",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239856_230deb18db3e4014bb8e3e8324f81b43",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43",
+		"HashFor32Bit": "42d7ae998d701fd6ab9d8bdf8df4a13915a4fb8429578c5a6c5a216e3873b63b",
+		"HashFor64Bit": "61ccc93957a931d63535e6785fe814e3ab9efdc7c5b6757e7cc0e5b27a89704c",
+		"PreInstallMessage": "about to install JRE; disable the network now. . .",
+		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
+		"AppPage": "https://www.java.com/en/download/manual.jsp"
+	},
+	{
+		"Name": "KDiff3",
+		"Version": "0.9.98",
+		"Type": "exe",
+		"UrlFor32Bit": "http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-32bit-Setup_0.9.98-3.exe/download",
+		"UrlFor64Bit": "http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-64bit-Setup_0.9.98-2.exe/download",
+		"HashFor32Bit": "9d7ec4fb0e2b83a321cb77ce47c86fd42fc8ec2b",
+		"HashFor64Bit": "4b7358aec8de6a3e719065fce37dd966c92ed3d4",
+		"AppPage": "http://kdiff3.sourceforge.net/"
+	},
+	{
+		"Name": "KeePass2",
+		"Version": "2.42.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1-Setup.exe/download",
+		"HashFor32Bit": "D3BBB61798DFD230616D9FF19EC227EE305157985D769B9B7C4AA7DA59F8800D",
+		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
+		"PostInstallMessage": "done installing KeePass: can restart it now",
+		"InstallerArguments": "/SILENT",
+		"AppPage": "http://keepass.info/download.html"
+	},
+	{
+		"Name": "Kindle",
+		"Version": "1.24.3.51068",
+		"Notes": "v1.24 is the last one that DeDRM can decrypt so make sure not to update it (https://www.mobileread.com/forums/showthread.php?t=283371)",
+		"Type": "exe",
+		"UrlFor32Bit": "http://kindleforpc.amazon.com/51068/KindleForPC-installer-1.24.51068.exe",
+		"HashFor32Bit": "x6GpN2PRAryg/tnBZ5l4muGMMyKxs7376MAEIsMvg9c=",
+		"PostInstallMessage": "before running Kindle app, rename that render-test.exe, then disable network to prevent it auto-updating itself, then in app settings, disable auto-updates (and probably want to change content location, too)",
+		"InstallerArguments": "/S",
+		"AppPage": "https://www.amazon.com/kindle-dbs/fd/kcp"
+	},
+	{
+		"Name": "Lastpass",
+		"Version": "4.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://lastpass.com/download/cdn/lastpass.exe",
+		"UrlFor64Bit": "https://lastpass.com/download/cdn/lastpass_x64.exe"
+	},
+	{
+		"Name": "LinkShellExtension",
+		"Version": "3.9.2.5",
+		"Type": "exe",
+		"UrlFor32Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
+		"UrlFor64Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
+		"PreInstallMessage": "installing LinkShellExtension: should kill explorer now",
+		"PostInstallMessage": "done installing LinkShellExtension: can restart explorer now",
+		"InstallerArguments": "/S /Language=English",
+		"AppPage": "http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html"
+	},
+	{
+		"Name": "MariaDB",
+		"Version": "10.3.15.0",
+		"Type": "msi",
+		"UrlFor64Bit": "http://ftp.utexas.edu/mariadb/mariadb-10.3.15/winx64-packages/mariadb-10.3.15-winx64.msi",
+		"HashFor64Bit": "167557a22d14a9fd8fa780a305599cadb3629759ea5e6d6734b45abded25eaed",
+		"AppPage": "https://downloads.mariadb.org/"
+	},
+	{
+		"Name": "MediaMonkey",
+		"Version": "4.1.24.1883",
+		"Type": "exe",
+		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
+		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
+		"AppPage": "http://www.mediamonkey.com/download/"
+	},
+	{
+		"Name": "Mercurial",
+		"Version": "5.0.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://mercurial-scm.org/release/windows/Mercurial-5.0-x64.exe",
+		"InstallerArguments": "/DIR=C:\\tools\\hg",
+		"AppPage": "https://www.mercurial-scm.org/wiki/Download"
+	},
+	{
+		"Name": "MicrosoftMessageAnalyzer",
+		"Version": "1.4.1.20161028",
+		"Notes": "https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226",
+		"Type": "msi",
+		"UrlFor32Bit": "http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi",
+		"UrlFor64Bit": "http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi",
+		"HashFor32Bit": "E923884FE1A076542BB5BBCAB13CC715A2D6D243",
+		"HashFor64Bit": "839B24D7CF8248B2BA9A0B14DC62146D94761966",
+		"AppPage": "https://technet.microsoft.com/en-us/library/dn904558.aspx"
+	},
+	{
+		"Name": "MySqlCommunity",
+		"Version": "8.0.16.0",
+		"Type": "msi",
+		"UrlFor32Bit": "https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.16.0.msi",
+		"AppPage": "https://dev.mysql.com/downloads/mysql/"
+	},
+	{
+		"Name": "nodejs",
+		"Version": "10.16.3.0",
+		"Type": "msi",
+		"UrlFor64Bit": "https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi",
+		"HashFor64Bit": "f68b75eea46232adb8fd38126c977dc244166d29e7c6cd2df930b460c38590a9",
+		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
+		"AppPage": "https://nodejs.org/en/download/"
+	},
+	{
+		"Name": "Notepad++",
+		"Version": "7.7.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.exe",
+		"HashFor32Bit": "6787c524b0ac30a698237ffb035f932d7132343671b8fe8f0388ed380d19a51c",
+		"HashFor64Bit": "0ef89d2a9c9b15cd4aab3f3772f62cbebb54c3856bc1bd9a4a5fb3180ea6140e",
+		"AppPage": "https://notepad-plus-plus.org/download/"
+	},
+	{
+		"Name": "notepad2mod",
+		"Version": "4.2.25.998",
+		"Type": "exe",
+		"UrlFor32Bit": "https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe",
+		"AppPage": "https://github.com/XhmikosR/notepad2-mod/releases"
+	},
+	{
+		"Name": "notepad3",
+		"Version": "5.19.815.2595",
+		"Notes": "https://github.com/rizonesoft/Notepad3",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.rizonesoft.com/download/3939/",
+		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/"
+	},
+	{
+		"Name": "OneNote",
+		"Version": "16.0.11328.20144",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.onenote.com/download/win32/x86/en-US",
+		"UrlFor64Bit": "https://www.onenote.com/download/win32/x64/en-US",
+		"AppPage": "https://www.onenote.com/download"
+	},
+	{
+		"Name": "Paint.net",
+		"Version": "4.2.1.0",
+		"Type": "zip",
+		"ZipContentToRun": "paint.net.*.install.exe",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.1.install.zip",
+		"AppPage": "https://www.getpaint.net/download.html"
+	},
+	{
+		"Name": "PhpStorm",
+		"Version": "2019.2.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/webide/PhpStorm-2019.2.exe",
+		"HashFor32Bit": "bd4697c07057e55c8cb065eb72e5f73aa9d677c16dc7b6cb7d1bf61670a1b61f",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/phpstorm/download/"
+	},
+	{
+		"Name": "PostgreSQL",
+		"Version": "11.5.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "http://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64.exe",
+		"AppPage": "http://www.enterprisedb.com/products-services-training/pgdownload#windows"
+	},
+	{
+		"Name": "Postman",
+		"Version": "7.5.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
+		"HashFor64Bit": "50DE4899EC0B5AF1B9DB058F27A5ACC87CD83394",
+		"InstallerArguments": "-s",
+		"AppPage": "https://www.getpostman.com/downloads/release-notes"
+	},
+	{
+		"Name": "PowerShellCore",
+		"Version": "6.2.2.0",
+		"Type": "msi",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.2/PowerShell-6.2.2-win-x64.msi",
+		"HashFor64Bit": "FBFAF00A72018D9C49A6C5A05C6D05F9EA4BC6A4F6952D9F3B4FCCA96274E963",
+		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
+	},
+	{
+		"Name": "PrivateInternetAccess",
+		"Version": "1.3.3.02880",
+		"Type": "exe",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.3-02880.exe",
+		"HashFor64Bit": "e70a38c0b489cb6475943f88ec7c895dd6235a43bd31828c115aab85e3c57b2b",
+		"AppPage": "https://www.privateinternetaccess.com/pages/download"
+	},
+	{
+		"Name": "PyCharmCommunity",
+		"Version": "2019.2.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.1.exe",
+		"HashFor32Bit": "6759d42e4d38ab689e6e0b30a2c066f88067fa8799ee87a0d29b0c6adfc45c3e",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/pycharm/download/"
+	},
+	{
+		"Name": "PyCharmPro",
+		"Version": "2019.2.1.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-professional-2019.2.1.exe",
+		"HashFor32Bit": "03bbee530a483eb547bbd98936fc3eee557011b200452d5db01dfd937791c5b9",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/pycharm/download/"
+	},
+	{
+		"Name": "python27",
+		"Version": "2.7.16.0",
+		"Type": "msi",
+		"UrlFor32Bit": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi",
+		"HashFor32Bit": "912428345b7e0428544ec4edcdf70286",
+		"HashFor64Bit": "2fe86194bb4027be75b29852027f1a79",
+		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python34",
+		"Version": "3.4.3.0",
+		"Type": "msi",
+		"UrlFor32Bit": "https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi",
+		"HashFor32Bit": "cb450d1cc616bfc8f7a2d6bd88780bf6",
+		"HashFor64Bit": "f6ade29acaf8fcdc0463e69a6e7ccf87",
+		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python34 ADDLOCAL=DefaultFeature,Tools,Extensions,TclTk,Documentation,pip_feature,Testsuite REMOVE=PrependPath",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python35",
+		"Version": "3.5.4.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe",
+		"HashFor32Bit": "9693575358f41f452d03fd33714f223f",
+		"HashFor64Bit": "4276742a4a75a8d07260f13fe956eec4",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python35 PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python36",
+		"Version": "3.6.8.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe",
+		"HashFor64Bit": "72f37686b7ab240ef70fdb931bdf3cb5",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python36 PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python37",
+		"Version": "3.7.4.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
+		"HashFor64Bit": "a702b4b0ad76debdb3043a583e563400",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "QTTabBar",
+		"Version": "0.1038.0",
+		"Type": "zip",
+		"ZipContentToRun": "QTTabBar.exe",
+		"UrlFor32Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip",
+		"PreInstallMessage": "installing QTTabBar: should kill explorer.exe to help the install",
+		"PostInstallMessage": "done installing QTTabBar: you can restart explorer.exe now",
+		"AppPage": "http://qttabbar.wikidot.com/"
+	},
+	{
+		"Name": "Resharper",
+		"Version": "2019.2.1.0",
+		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.2.1/JetBrains.ReSharperUltimate.2019.2.1.exe",
+		"HashFor32Bit": "d56b8c8d30bdd01996a860ed5bf408127100ff35358043e2a9f252686d3b05bd",
+		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
+		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
+	},
+	{
+		"Name": "Rider",
+		"Version": "2019.2.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/rider/JetBrains.Rider-2019.2.exe",
+		"HashFor32Bit": "114bcf88dd903fd269783a1c06e64031f5641f85eff4986b0490f774692c4cfc",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/rider/download/"
+	},
+	{
+		"Name": "ruby2",
+		"Version": "2.5.1.1",
+		"Notes": "https://github.com/oneclick/rubyinstaller2/releases",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-2.5.1-1-x64.exe",
+		"HashFor64Bit": "b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf",
+		"InstallerArguments": "/dir=\"C:\\tools\\ruby2\" /tasks=\"assocfiles\"",
+		"AppPage": "https://rubyinstaller.org/downloads/"
+	},
+	{
+		"Name": "RubyMine",
+		"Version": "2019.2.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/ruby/RubyMine-2019.2.exe",
+		"HashFor32Bit": "7001391c256233dc27efac0e7c1f4a1b4219684bd42e5efbe9a01013babad5ec",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/ruby/download/"
+	},
+	{
+		"Name": "Sigil",
+		"Version": "0.9.17.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.17/Sigil-0.9.17-Windows-x64-Setup.exe",
+		"HashFor64Bit": "c6fc802ab3111ff4c17aeb09afc32ddf423f279ea568f66055345ee8df41db18",
+		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
+	},
+	{
+		"Name": "SilverLight",
+		"Version": "5.1.50428.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=229320",
+		"UrlFor64Bit": "http://go.microsoft.com/fwlink/?LinkID=229321"
+	},
+	{
+		"Name": "SilverLightDev",
+		"Version": "5.1.50428.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=229323",
+		"UrlFor64Bit": "http://go.microsoft.com/fwlink/?LinkId=229324"
+	},
+	{
+		"Name": "SourceTree",
+		"Version": "3.1.3.0",
+		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
+		"Type": "exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.1.3.exe",
+		"AppPage": "https://www.sourcetreeapp.com/"
+	},
+	{
+		"Name": "SqlServer2017Express",
+		"Version": "14.1801.3958.1",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=853017",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
+		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
+	},
+	{
+		"Name": "SqlServer2017LocalDb",
+		"Version": "14.1801.3958.1",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=853017",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB",
+		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
+	},
+	{
+		"Name": "SqlServerMngmtStudio",
+		"Version": "18.1.0.0",
+		"Notes": "Build number: 15.0.18131.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2094583",
+		"HashFor32Bit": "oJKUhAkmD7aPcoWDNwQ+XA==",
+		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
+	},
+	{
+		"Name": "stellarium",
+		"Version": "0.19.1.1",
+		"Notes": "http://stellarium.org/",
+		"Type": "exe",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.1/stellarium-0.19.1.1-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.1/stellarium-0.19.1.1-win64.exe",
+		"HashFor32Bit": "596f4376942eb89ef72d4c7463af4af111f976e1",
+		"HashFor64Bit": "e483e1469b838f3766e9a13deab254ac7b5109ae",
+		"AppPage": "https://github.com/Stellarium/stellarium/releases"
+	},
+	{
+		"Name": "SumatraPDF",
+		"Version": "3.1.2.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-install.exe",
+		"UrlFor64Bit": "https://kjkpub.s3.amazonaws.com/sumatrapdf/rel/SumatraPDF-3.1.2-64-install.exe",
+		"AppPage": "http://www.sumatrapdfreader.org/download-free-pdf-viewer.html"
+	},
+	{
+		"Name": "SyncBackSE",
+		"Version": "9.0.8.15",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
+		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
+		"HashFor32Bit": "526604ee45e4f51412bdc7d3b0e943b31a5a1357aee8fd8394a6b080a01bfe74",
+		"HashFor64Bit": "3a7c3104fc896e029037634e496ea6ed1bb3e694317b43887b3840fdbab24a63",
+		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
+		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
+	},
+	{
+		"Name": "TeamViewer",
+		"Version": "13.0.6447.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://download.teamviewer.com/download/TeamViewer_Setup_en.exe",
+		"AppPage": "https://www.teamviewer.com/en/download/windows/"
+	},
+	{
+		"Name": "UltraCompare",
+		"Version": "18.0.0.62",
+		"Type": "exe",
+		"UrlFor32Bit": "https://downloads.ultraedit.com/main/uc/win/uc_english.exe",
+		"UrlFor64Bit": "https://downloads.ultraedit.com/main/uc/win/uc_english_64.exe",
+		"AppPage": "https://www.ultraedit.com/downloads/ultracompare-download/"
+	},
+	{
+		"Name": "UltraEdit",
+		"Version": "25.0.0.68",
+		"Type": "exe",
+		"UrlFor32Bit": "https://downloads.ultraedit.com/main/ue/win/ue_english.exe",
+		"UrlFor64Bit": "https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe",
+		"ValidExitCodes": "0,5",
+		"AppPage": "https://www.ultraedit.com/downloads/ultraedit-download"
+	},
+	{
+		"Name": "URLRewrite2",
+		"Version": "2.1.1980.0",
+		"Type": "msi",
+		"UrlFor32Bit": "http://download.microsoft.com/download/6/8/F/68F82751-0644-49CD-934C-B52DF91765D1/rewrite_x86_en-US.msi",
+		"UrlFor64Bit": "http://download.microsoft.com/download/D/D/E/DDE57C26-C62C-4C59-A1BB-31D58B36ADA2/rewrite_amd64_en-US.msi",
+		"AppPage": "https://www.iis.net/downloads/microsoft/url-rewrite"
+	},
+	{
+		"Name": "VCRedist2005",
+		"Version": "8.0.50727.763",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE",
+		"UrlFor64Bit": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE",
+		"InstallerArguments": "/Q"
+	},
+	{
+		"Name": "VCRedist2008",
+		"Version": "9.0.30729.1",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "http://download.microsoft.com/download/d/d/9/dd9a82d0-52ef-40db-8dab-795376989c03/vcredist_x86.exe",
+		"UrlFor64Bit": "http://download.microsoft.com/download/2/d/6/2d61c766-107b-409d-8fba-c39e61ca08e8/vcredist_x64.exe",
+		"InstallerArguments": "/Q"
+	},
+	{
+		"Name": "VCRedist2010",
+		"Version": "10.0.40219.1",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe",
+		"UrlFor64Bit": "http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe",
+		"InstallerArguments": "/q /norestart"
+	},
+	{
+		"Name": "VCRedist2012",
+		"Version": "11.0.61030.0",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe",
+		"UrlFor64Bit": "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
+		"ValidExitCodes": "0,3010",
+		"InstallerArguments": "/quiet /norestart"
+	},
+	{
+		"Name": "VCRedist2013",
+		"Version": "12.0.30501.0",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe",
+		"UrlFor64Bit": "http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe",
+		"ValidExitCodes": "0,3010",
+		"InstallerArguments": "/quiet /norestart"
+	},
+	{
+		"Name": "VCRedist2015",
+		"Version": "14.0.24215.1",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=615459",
+		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?LinkId=615460",
+		"HashFor32Bit": "72211bd2e7dfc91ea7c8fac549c49c0543ba791b",
+		"HashFor64Bit": "10b1683ea3ff5f36f225769244bf7e7813d54ad0",
+		"ValidExitCodes": "0,3010",
+		"InstallerArguments": "/q /norestart",
+		"AppPage": "https://www.visualstudio.com/downloads/#microsoft-visual-c-2015-redistributable-update-3"
+	},
+	{
+		"Name": "VCRedist2017",
+		"Version": "14.10.25008.0",
+		"Type": "exe",
+		"InstallBoth": "TRUE",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=746571",
+		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?LinkId=746572",
+		"HashFor32Bit": "20F456AAB2938D638E9E08EBCAF576C5A0BC7C1AD447645F1F07A26B147DBBFA",
+		"HashFor64Bit": "341D4BAA491DAA5BEBD0E061577E3F840C8157417C636FD2285D9BDF71FC4660",
+		"ValidExitCodes": "0,3010",
+		"InstallerArguments": "/q /norestart",
+		"AppPage": "https://www.visualstudio.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2017"
+	},
+	{
+		"Name": "VeraCrypt",
+		"Version": "1.23.0.2",
+		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
+		"Type": "exe",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.23/+download/VeraCrypt%20Setup%201.23-Hotfix-2.exe",
+		"HashFor32Bit": "d55c26807a591643dd4c21ac0ffaaa733aafa52307d36ed9a95ed0a5ef35e4fe",
+		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
+	},
+	{
+		"Name": "VirtualBox",
+		"Version": "6.0.10.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe",
+		"HashFor32Bit": "e7c8d015c9831ffa6bde56d6b4aaa3ddf11ee410ae643bae7ded96bdb5c8f78d",
+		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
+	},
+	{
+		"Name": "VirtualBoxExtensions",
+		"Version": "6.0.10.0",
+		"Type": "other",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.10/Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack",
+		"HashFor32Bit": "e5a9eb240379a57c9bf03954a594a03431698e67aef551e27f62170bed9b16ea"
+	},
+	{
+		"Name": "VirtualCloneDrive",
+		"Version": "5.5.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.elby.ch/download/SetupVCD.exe",
+		"AppPage": "http://www.elby.ch/download.html"
+	},
+	{
+		"Name": "Vivaldi",
+		"Version": "2.7.1628.30",
+		"Type": "exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.7.1628.30.x64.exe",
+		"AppPage": "https://vivaldi.com/download/"
+	},
+	{
+		"Name": "vlc",
+		"Version": "3.0.8.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.8/win32/vlc-3.0.8-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.8/win64/vlc-3.0.8-win64.exe",
+		"HashFor32Bit": "f286e25d5c52bfe7f392fb3f4e28e711225d1773e3c43281cb901145ded34def",
+		"HashFor64Bit": "0cc54e69016e3d5a80e229c768ac37a02aea3a973a5447593c0132281e383942",
+		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
+	},
+	{
+		"Name": "VMWarePlayer",
+		"Version": "15.1.0.13591040",
+		"Type": "exe",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.1.0-13591040.exe",
+		"HashFor64Bit": "7b5f012b52c2de4518da7390260b1a68fc328b2e",
+		"AppPage": "https://www.vmware.com/go/tryplayer"
+	},
+	{
+		"Name": "VS2015Community",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=626924"
+	},
+	{
+		"Name": "VS2015Professional",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=699336"
+	},
+	{
+		"Name": "VS2015Enterprise",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=699337"
+	},
+	{
+		"Name": "VS2015Update",
+		"Version": "2.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=691129"
+	},
+	{
+		"Name": "VS2017Community",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2017Professional",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2017Enterprise",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2019Community",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/1b6e9bcd-b9f0-45ec-848d-b91d7ac62659/f63d5e9540570c877020913190317949/vs_community.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2019Professional",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/3a9c2ebf-b52a-4fd8-80db-eec4746d95fc/584fcd523c84a9174f6e40f208241d26/vs_professional.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2019Enterprise",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/89d9f9d5-12ff-4e95-a075-4ff8a0941672/c1b61a91aa8495730036e13582d17cb7/vs_enterprise.exe",
+		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VSCode",
+		"Version": "1.37.1.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
+		"HashFor64Bit": "NlQQKnoCrxFgigwZzz4Ssw==",
+		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",
+		"AppPage": "https://code.visualstudio.com/Download"
+	},
+	{
+		"Name": "WebPI",
+		"Version": "5.0.50430.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=255386"
+	},
+	{
+		"Name": "WebStorm",
+		"Version": "2019.2.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/webstorm/WebStorm-2019.2.exe",
+		"HashFor32Bit": "e6f5384e26ce79cf9358136b47a9dc4438fb9315d4bce0bc8547042836b89250",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.jetbrains.com/webstorm/download/"
+	},
+	{
+		"Name": "WinMerge",
+		"Version": "2.16.4.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-Setup.exe",
+		"UrlFor64Bit": "https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-x64-Setup.exe",
+		"HashFor32Bit": "946676A4F59AD0EDBD1213E868078CB5BC9DB87B5C49085241EE843BB5664A19",
+		"HashFor64Bit": "018FCF478A6466AC48A81D8B5D40FB5F4C5C4AF3CAA84E25B5E8223368888745",
+		"HeadersToAdd": "User-Agent: WindowsPowerShell",
+		"AppPage": "http://winmerge.org/downloads/"
+	},
+	{
+		"Name": "WinRAR",
+		"Version": "5.71.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "http://www.rarlab.com/rar/wrar571.exe",
+		"UrlFor64Bit": "http://www.rarlab.com/rar/winrar-x64-571.exe",
+		"AppPage": "https://www.rarlab.com"
+	},
+	{
+		"Name": "WireShark",
+		"Version": "3.0.3.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.3.exe",
+		"HashFor64Bit": "824cbeeb48ed720a24b70725cb8db2353ed331e05f3d0a832ff96acb02292d62",
+		"AppPage": "https://www.wireshark.org/download.html"
+	}
+]
