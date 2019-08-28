@@ -392,7 +392,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.52",
+		"Version": "6.7.1.53",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -651,10 +651,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.3.3.02880",
+		"Version": "1.4.0.03180",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.3.3-02880.exe",
-		"HashFor64Bit": "e70a38c0b489cb6475943f88ec7c895dd6235a43bd31828c115aab85e3c57b2b",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.4-03180.exe",
+		"HashFor64Bit": "2ec4152d5f400ec3d91afbcc742ee2b4be54e507f1af4f2c1934dfa8f6921534",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -850,12 +850,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.0.8.15",
+		"Version": "9.0.9.14",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
-		"HashFor32Bit": "526604ee45e4f51412bdc7d3b0e943b31a5a1357aee8fd8394a6b080a01bfe74",
-		"HashFor64Bit": "3a7c3104fc896e029037634e496ea6ed1bb3e694317b43887b3840fdbab24a63",
+		"HashFor32Bit": "ac97198bd70b1c05b9fd89ac01fef8fcf774f1d0776578a23faa9add6012ca2d",
+		"HashFor64Bit": "bfe5df3986a55b093f77dcb5b7e3db3c4125698fc10e4d7a933b1d776596eace",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
