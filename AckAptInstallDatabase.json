@@ -96,9 +96,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "3.46.0.0",
+		"Version": "3.47.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/3.46.0/calibre-64bit-3.46.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/3.47.0/calibre-64bit-3.47.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -634,10 +634,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.5.0.0",
+		"Version": "7.6.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "50DE4899EC0B5AF1B9DB058F27A5ACC87CD83394",
+		"HashFor64Bit": "E1067E4AA7A47AB1F1060D59D9637C796F8F53B2",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
