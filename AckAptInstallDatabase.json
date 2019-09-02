@@ -96,9 +96,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "3.47.0.0",
+		"Version": "3.47.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/3.47.0/calibre-64bit-3.47.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/3.47.1/calibre-64bit-3.47.1.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
