@@ -776,10 +776,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "0.9.17.0",
+		"Version": "0.9.18.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.17/Sigil-0.9.17-Windows-x64-Setup.exe",
-		"HashFor64Bit": "c6fc802ab3111ff4c17aeb09afc32ddf423f279ea568f66055345ee8df41db18",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.18/Sigil-0.9.18-Windows-x64-Setup.exe",
+		"HashFor64Bit": "1713d18631fe4cf8384a017b3cb1df0253da03fd7a9e9fdc42b90e76643aebab",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
