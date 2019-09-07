@@ -1093,7 +1093,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
 		"HashFor64Bit": "ZR+xR2DuW2qJ47Lzu9+9hA==",
-		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders",
+		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
 	{
