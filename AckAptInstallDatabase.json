@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.72.0",
+		"Version": "2.0.73.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "MYX6WOLmSQyHHP3PVNe7pQ==",
+		"HashFor32Bit": "mT+Zgr6WNgOsvrmI7xvUZQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -487,10 +487,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.42.1.0",
+		"Version": "2.43.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1-Setup.exe/download",
-		"HashFor32Bit": "D3BBB61798DFD230616D9FF19EC227EE305157985D769B9B7C4AA7DA59F8800D",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.43/KeePass-2.43-Setup.exe/download",
+		"HashFor32Bit": "3B7E7B73511AC3CAD03327578AE2C033ADDD68EC9EBB501805CEC418005BB34A",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
