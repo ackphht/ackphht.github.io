@@ -335,6 +335,7 @@
 		"Version": "1.0.1",
 		"Type": "exe",
 		"UrlFor32Bit": "http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe",
+		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://freemind.sourceforge.net/wiki/index.php/Main_Page"
 	},
 	{
@@ -483,6 +484,7 @@
 		"UrlFor64Bit": "http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-64bit-Setup_0.9.98-2.exe/download",
 		"HashFor32Bit": "9d7ec4fb0e2b83a321cb77ce47c86fd42fc8ec2b",
 		"HashFor64Bit": "4b7358aec8de6a3e719065fce37dd966c92ed3d4",
+		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://kdiff3.sourceforge.net/"
 	},
 	{
@@ -494,6 +496,7 @@
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
+		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://keepass.info/download.html"
 	},
 	{
