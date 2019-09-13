@@ -81,7 +81,7 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.9.0.0",
+		"Version": "1.10.0.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
@@ -96,9 +96,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "3.47.1.0",
+		"Version": "3.48.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/3.47.1/calibre-64bit-3.47.1.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/3.48.0/calibre-64bit-3.48.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -643,10 +643,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "6.2.2.0",
+		"Version": "6.2.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.2/PowerShell-6.2.2-win-x64.msi",
-		"HashFor64Bit": "FBFAF00A72018D9C49A6C5A05C6D05F9EA4BC6A4F6952D9F3B4FCCA96274E963",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x64.msi",
+		"HashFor64Bit": "874E01F9117A6983C05405A3274F16539FDE4F5A314C6ABB1E79CB6566054AE9",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
