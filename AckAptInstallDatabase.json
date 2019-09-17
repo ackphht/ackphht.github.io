@@ -164,7 +164,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.1.0.2",
+		"Version": "2.1.0.3",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -637,10 +637,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.6.0.0",
+		"Version": "7.7.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "E1067E4AA7A47AB1F1060D59D9637C796F8F53B2",
+		"HashFor64Bit": "D6B489915B0AD48B4EBD731791DBB6EA347C02A5",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
