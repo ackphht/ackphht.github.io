@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.73.0",
+		"Version": "2.0.74.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "mT+Zgr6WNgOsvrmI7xvUZQ==",
+		"HashFor32Bit": "+DeyXHBb0YrmDKQ+ODivCA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -1000,10 +1000,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.8.1664.35",
+		"Version": "2.8.1664.36",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.35.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.35.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.36.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.36.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
