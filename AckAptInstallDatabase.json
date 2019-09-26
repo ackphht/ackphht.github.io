@@ -402,19 +402,19 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.2.2.0",
+		"Version": "2019.2.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.2.exe",
-		"HashFor32Bit": "593e703c27d11cedd4b3e9d3b718569d0d2555a4b8d4e161570bad4c2ea39915",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.3.exe",
+		"HashFor32Bit": "d2a6c12a74bc765a47af0c9fd677c9dd82bc28dc821de1070a30a34869e47844",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
 	{
 		"Name": "IntelliJIdeaUltimate",
-		"Version": "2019.2.2.0",
+		"Version": "2019.2.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.2.exe",
-		"HashFor32Bit": "25784b1a33ec975ac2652f527fc6a5bf9fa352769c6d45b68c4f2417b3969e46",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.3.exe",
+		"HashFor32Bit": "4b74c66a3d36ea1179cd53a5a4ef5dc65d14c9c163de3782d8c21f9cc4bf16b4",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -662,19 +662,19 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.2.2.0",
+		"Version": "2019.2.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.2.exe",
-		"HashFor32Bit": "e2b2c91a8c40adc7187568e364edd258598ba7d5334642d44d6cab889be92314",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.3.exe",
+		"HashFor32Bit": "a460cd1c3b59efb8c7c8cc30e84a8033ec55600f290c18816c8634abb8e0384d",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
 	{
 		"Name": "PyCharmPro",
-		"Version": "2019.2.2.0",
+		"Version": "2019.2.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-professional-2019.2.2.exe",
-		"HashFor32Bit": "61f1f451e679a5f198efc529b7ade00b3dc9b3d2939cd6d2ed747b570e26febe",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-professional-2019.2.3.exe",
+		"HashFor32Bit": "34eb8e5520b82cd760a5b1bdd8b40625af466097e1a18b4b107a52fd5645b32c",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
