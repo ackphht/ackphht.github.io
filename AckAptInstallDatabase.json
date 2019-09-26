@@ -367,7 +367,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.2.0.0",
+		"Version": "6.2.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -1000,10 +1000,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.8.1664.36",
+		"Version": "2.8.1664.40",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.36.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.36.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.40.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.40.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
