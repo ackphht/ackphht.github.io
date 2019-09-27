@@ -637,10 +637,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.7.3.0",
+		"Version": "7.8.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "60631454113D21A510F69EA91DF3E6BCCBD56BBA",
+		"HashFor64Bit": "915E371B1A39B9DC8BC82F3547E1C42FEFB4A6ED",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
