@@ -53,7 +53,8 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.30.3",
+		"Version": "1.1.31.0",
+		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "http://ahkscript.org/download/ahk-install.exe",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
