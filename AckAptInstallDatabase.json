@@ -712,7 +712,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
 		"HashFor64Bit": "a702b4b0ad76debdb3043a583e563400",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
