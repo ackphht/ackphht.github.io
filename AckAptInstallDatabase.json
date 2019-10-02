@@ -630,10 +630,10 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.4.0",
+		"Version": "4.2.5.0",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.4.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.5.install.zip",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
 	{
