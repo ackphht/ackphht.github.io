@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "3.5.0.0",
+		"Version": "3.5.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.0.21/android-studio-ide-191.5791312-windows.exe",
-		"HashFor64Bit": "75c538069f2171343032cfcfbf1bb2bbba28cc7bc75bf5a4b9f90cc1a4c1217c",
+		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.1.0/android-studio-ide-191.5900203-windows.exe",
+		"HashFor64Bit": "8fecf0ba58699ba9de473653885505dd0dfaba0d5f73838cde13b8011d1c4718",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/index.html#downloads"
 	},
@@ -72,11 +72,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.11.0.0",
+		"Version": "1.12.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2102927",
-		"HashFor32Bit": "mMbw0uCfwvDHQHMT+BueYw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105135",
+		"HashFor32Bit": "sul2SBkxYktDGBQqAfcXyw==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -265,7 +265,7 @@
 	},
 	{
 		"Name": "Fiddler4",
-		"Version": "5.0.20192.25091",
+		"Version": "5.0.20194.41348",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
 		"InstallerArguments": "/S",
@@ -671,10 +671,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.4.0.03180",
+		"Version": "1.5.0.03584",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.4-03180.exe",
-		"HashFor64Bit": "2ec4152d5f400ec3d91afbcc742ee2b4be54e507f1af4f2c1934dfa8f6921534",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.5-03584.exe",
+		"HashFor64Bit": "c567f69b0a8413a2f3490f508ca391d1cd1d0a13aee2f6aa2d4af96b9fc54609",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -851,11 +851,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.1.0.0",
-		"Notes": "Build number: 15.0.18131.0",
+		"Version": "18.3.1.0",
+		"Notes": "Build number: 15.0.18183.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2094583",
-		"HashFor32Bit": "oJKUhAkmD7aPcoWDNwQ+XA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105412",
+		"HashFor32Bit": "aucSBrYCxiF8wEyN5raIfA==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
