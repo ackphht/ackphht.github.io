@@ -394,7 +394,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.53",
+		"Version": "6.7.1.54",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -671,10 +671,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.5.0.03584",
+		"Version": "1.5.1.03605",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.5-03584.exe",
-		"HashFor64Bit": "c567f69b0a8413a2f3490f508ca391d1cd1d0a13aee2f6aa2d4af96b9fc54609",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.5.1-03605.exe",
+		"HashFor64Bit": "d5a666067aacb52c4e3c0a3e480e77014d77c34838e9eaee5b160cc28e8d7c4e",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1118,10 +1118,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.38.1.0",
+		"Version": "1.39.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "TNXNEbb4x33MaWF919trNw==",
+		"HashFor64Bit": "nYIRB6DERPB0viywz1wrNA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
