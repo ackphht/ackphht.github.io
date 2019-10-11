@@ -598,11 +598,11 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.7.1.0",
+		"Version": "7.8.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://notepad-plus-plus.org/repository/7.x/7.7.1/npp.7.7.1.Installer.exe",
-		"HashFor32Bit": "6787c524b0ac30a698237ffb035f932d7132343671b8fe8f0388ed380d19a51c",
-		"HashFor64Bit": "0ef89d2a9c9b15cd4aab3f3772f62cbebb54c3856bc1bd9a4a5fb3180ea6140e",
+		"UrlFor32Bit": "http://download.notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.Installer.exe",
+		"HashFor32Bit": "f2bb733a6afcff34e8e72cbeb3a200dd223e732e2e1275322532635cdf066027",
+		"HashFor64Bit": "ddaf2a899b3cfc81b814ed24bab4c42386853444c2c50d7bb676127b04ffea9a",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -1118,10 +1118,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.39.0.0",
+		"Version": "1.39.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "nYIRB6DERPB0viywz1wrNA==",
+		"HashFor64Bit": "sk1CMda0w9FWgChtlqMPcQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
