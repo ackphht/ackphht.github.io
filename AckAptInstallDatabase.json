@@ -76,7 +76,7 @@
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105135",
-		"HashFor32Bit": "RVL17BGS5S/ua4pvHIUkrw==",
+		"HashFor32Bit": "jCn9Y3D0D508ZHFO22cmcQ==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
