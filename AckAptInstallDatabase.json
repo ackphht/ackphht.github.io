@@ -63,10 +63,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.74.0",
+		"Version": "2.0.75.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "+DeyXHBb0YrmDKQ+ODivCA==",
+		"HashFor32Bit": "6ve8N4nNxqhwDF0eVZfH1A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -377,7 +377,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.2.1.0",
+		"Version": "6.3.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -529,7 +529,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.2.5",
+		"Version": "3.9.2.6",
 		"Type": "exe",
 		"UrlFor32Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
