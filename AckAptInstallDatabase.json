@@ -291,6 +291,15 @@
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
 	{
+		"Name": "FiraCode font",
+		"Version": "2.0.0.0",
+		"Type": "script",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip",
+		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using as possible",
+		"AppPage": "https://github.com/tonsky/FiraCode/releases",
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return }\nforeach ($font in (Get-ChildItem *.otf -Recurse)) {\n    $context.WriteStatusMessage(\"installing font: '$($font.Name)'\")\n    if (-not ($context.InstallFont($font.FullName))) { return 1 }\n}\nreturn 0"
+	},
+	{
 		"Name": "FlashPlayerPlugin",
 		"Version": "32.0.0.255",
 		"Type": "msi",
@@ -708,10 +717,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.7.4.0",
+		"Version": "3.8.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
-		"HashFor64Bit": "a702b4b0ad76debdb3043a583e563400",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe",
+		"HashFor64Bit": "29ea87f24c32f5e924b7d63f8a08ee8d",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -753,6 +762,15 @@
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
 		"HashFor64Bit": "a702b4b0ad76debdb3043a583e563400",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python38",
+		"Version": "3.8.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe",
+		"HashFor64Bit": "29ea87f24c32f5e924b7d63f8a08ee8d",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python38 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
