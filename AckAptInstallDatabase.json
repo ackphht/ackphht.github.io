@@ -53,7 +53,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.31.0",
+		"Version": "1.1.31.1",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "http://ahkscript.org/download/ahk-install.exe",
@@ -112,9 +112,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "19.07.14.0",
+		"Version": "19.10.12.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v19.07.14/ConEmuSetup.190714.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v19.10.12/ConEmuSetup.191012.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -654,10 +654,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.8.0.0",
+		"Version": "7.9.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "915E371B1A39B9DC8BC82F3547E1C42FEFB4A6ED",
+		"HashFor64Bit": "AC81B7051028722DCF09207C8A2A7CC75A652097",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
