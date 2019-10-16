@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2019.012.20036.0",
+		"Version": "2019.021.20047.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1901220036/AcroRdrDC1901220036_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1902120047/AcroRdrDC1902120047_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -72,7 +72,7 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.12.1.0",
+		"Version": "1.12.2.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105135",
@@ -291,7 +291,7 @@
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
 	{
-		"Name": "FiraCode font",
+		"Name": "FiraCodeFont",
 		"Version": "2.0.0.0",
 		"Type": "script",
 		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip",
@@ -475,13 +475,13 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.221.0",
+		"Version": "8.0.231.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239856_230deb18db3e4014bb8e3e8324f81b43",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=239858_230deb18db3e4014bb8e3e8324f81b43",
-		"HashFor32Bit": "42d7ae998d701fd6ab9d8bdf8df4a13915a4fb8429578c5a6c5a216e3873b63b",
-		"HashFor64Bit": "61ccc93957a931d63535e6785fe814e3ab9efdc7c5b6757e7cc0e5b27a89704c",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240726_5b13a193868b4bf28bcb45c792fce896",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896",
+		"HashFor32Bit": "b0720771276a4c02923c81381dc44cdcea58ed24dbc921c0d1bf90a340b14109",
+		"HashFor64Bit": "ba6f45b809c153079983ef92d686057296ce60a5491099e58151f21f8cea5c3d",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"AppPage": "https://www.java.com/en/download/manual.jsp"
@@ -757,10 +757,10 @@
 	},
 	{
 		"Name": "python37",
-		"Version": "3.7.4.0",
+		"Version": "3.7.5.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe",
-		"HashFor64Bit": "a702b4b0ad76debdb3043a583e563400",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.5/python-3.7.5-amd64.exe",
+		"HashFor64Bit": "697f7a884e80ccaa9dff3a77e979b0f8",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -1022,18 +1022,19 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.0.12.0",
+		"Version": "6.0.14.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-Win.exe",
-		"HashFor32Bit": "2780be12c139858412e789ed01700ea9041522a7b5fad2a27923f30c850f0198",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.14/VirtualBox-6.0.14-133895-Win.exe",
+		"HashFor32Bit": "a24b3b3fd406766c409e5e2e8cf6d88cc7a50ad6694925e640c25e0d8d913063",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.0.12.0",
-		"Type": "other",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.12/Oracle_VM_VirtualBox_Extension_Pack-6.0.12.vbox-extpack",
-		"HashFor32Bit": "27a0956940654b0accf4d79692078bd496d9f062e4ed3da69e5421cba8d1e444"
+		"Version": "6.0.14.0",
+		"Type": "script",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.0.14/Oracle_VM_VirtualBox_Extension_Pack-6.0.14.vbox-extpack",
+		"HashFor32Bit": "c8a5cc980c9c94cdac3d94e23cf159c2433aae76b416dbfb5b1a918758f21e63",
+		"InstallScript": "$cmd = \"$env:ProgramFiles\\VirtualBox\\VBoxManage.exe\"\nif (Test-Path $cmd) {\n    'y' | $cmd extpack install --replace $context.DownloadedFile 2>&1\n    return 0\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
 		"Name": "VirtualCloneDrive",
@@ -1044,10 +1045,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.8.1664.40",
+		"Version": "2.8.1664.44",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.40.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.40.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.44.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.44.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1136,10 +1137,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.39.1.0",
+		"Version": "1.39.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "sk1CMda0w9FWgChtlqMPcQ==",
+		"HashFor64Bit": "2Ym5vhdYihTT1VjXVAixWw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
