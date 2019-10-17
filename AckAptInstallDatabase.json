@@ -297,7 +297,7 @@
 		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip",
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
-		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return }\nforeach ($font in (Get-ChildItem *.otf -Recurse)) {\n    $context.WriteStatusMessage(\"installing font: '$($font.Name)'\")\n    if (-not ($context.InstallFont($font.FullName))) { return 1 }\n}\nreturn 0"
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
 	{
 		"Name": "FlashPlayerPlugin",
