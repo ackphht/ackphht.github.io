@@ -564,7 +564,7 @@
 	},
 	{
 		"Name": "MediaMonkey",
-		"Version": "4.1.24.1883",
+		"Version": "4.1.25.1895",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
 		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
@@ -785,11 +785,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2019.2.2.0",
+		"Version": "2019.2.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.2.2/JetBrains.ReSharperUltimate.2019.2.2.exe",
-		"HashFor32Bit": "931b28635b9c16cbb2bdf3b8d32a7b4d1afc09da8ee9a97830d440c1b5092837",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.2.3/JetBrains.ReSharperUltimate.2019.2.3.exe",
+		"HashFor32Bit": "b1538d026ba3505c74f409ffe002dae1b7b3ffd526c91ca8d527f25bc8dacfdc",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
