@@ -706,12 +706,12 @@
 	},
 	{
 		"Name": "python27",
-		"Version": "2.7.16.0",
+		"Version": "2.7.17.0",
 		"Type": "msi",
-		"UrlFor32Bit": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.msi",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.16/python-2.7.16.amd64.msi",
-		"HashFor32Bit": "912428345b7e0428544ec4edcdf70286",
-		"HashFor64Bit": "2fe86194bb4027be75b29852027f1a79",
+		"UrlFor32Bit": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.msi",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.amd64.msi",
+		"HashFor32Bit": "4cc27e99ad41cd3e0f2a50d9b6a34f79",
+		"HashFor64Bit": "55040ce1c1ab34c32e71efe9533656b8",
 		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
 		"AppPage": "https://www.python.org/downloads/"
 	},
