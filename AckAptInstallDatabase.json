@@ -548,9 +548,10 @@
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.2.0.0",
+		"Version": "6.3.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
+		"HashFor32Bit": "DbjNcydrz8oJK/EUv/RNWg==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
