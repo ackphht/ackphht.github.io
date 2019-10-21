@@ -599,10 +599,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "10.16.3.0",
+		"Version": "12.13.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi",
-		"HashFor64Bit": "f68b75eea46232adb8fd38126c977dc244166d29e7c6cd2df930b460c38590a9",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi",
+		"HashFor64Bit": "b6a92b7b6097aefa0d30d092d33f443bed8dba0e2a65bef2b920564373738c84",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
