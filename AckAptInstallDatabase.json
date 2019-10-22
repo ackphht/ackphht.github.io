@@ -165,7 +165,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.1.0.3",
+		"Version": "2.1.0.4",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
