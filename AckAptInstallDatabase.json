@@ -1181,9 +1181,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.0.5.0",
+		"Version": "3.0.6.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.5.exe",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.6.exe",
+		"HashFor64Bit": "6cd2b1474d5a031b85fca00538d45487144b36d8e1db1d565fd35d251ac261d0",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
