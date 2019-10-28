@@ -1014,11 +1014,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.24.0.0",
+		"Version": "1.24.0.1",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24/+download/VeraCrypt%20Setup%201.24.exe",
-		"HashFor32Bit": "b85aaef5a6f6a8795f9954a3a45f6f190ac5ebd0c8da629c3f9ad7cb20514098",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-hotfix1/+download/VeraCrypt%20Setup%201.24-Hotfix1.exe",
+		"HashFor32Bit": "09f530345fd3fde3d69e54393fb63d54bd1b6ed5405183cbbe87300f3d7a692b",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
 	},
 	{
