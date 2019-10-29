@@ -529,14 +529,14 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.2.6",
+		"Version": "3.9.2.7",
 		"Type": "exe",
-		"UrlFor32Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
-		"UrlFor64Bit": "http://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
+		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
+		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
 		"PreInstallMessage": "installing LinkShellExtension: should kill explorer now",
 		"PostInstallMessage": "done installing LinkShellExtension: can restart explorer now",
 		"InstallerArguments": "/S /Language=English",
-		"AppPage": "http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html"
+		"AppPage": "https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html"
 	},
 	{
 		"Name": "LINQPad5",
@@ -608,11 +608,11 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.0.0",
+		"Version": "7.8.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.notepad-plus-plus.org/repository/7.x/7.8/npp.7.8.Installer.exe",
-		"HashFor32Bit": "f2bb733a6afcff34e8e72cbeb3a200dd223e732e2e1275322532635cdf066027",
-		"HashFor64Bit": "ddaf2a899b3cfc81b814ed24bab4c42386853444c2c50d7bb676127b04ffea9a",
+		"UrlFor32Bit": "http://download.notepad-plus-plus.org/repository/7.x/7.8.1/npp.7.8.1.Installer.exe",
+		"HashFor32Bit": "d99718a113e86bd874ad4aac3557a7190e8008352eb758716ed568ae3bf6b0e9",
+		"HashFor64Bit": "51ea006fac7c7cf88dda19133fd2e701d53a774d0f9a6f094178db40424e2bd1",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
