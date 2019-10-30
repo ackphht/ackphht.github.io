@@ -412,19 +412,21 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.2.3.0",
+		"Version": "2019.2.4.0",
+		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.3.exe",
-		"HashFor32Bit": "d2a6c12a74bc765a47af0c9fd677c9dd82bc28dc821de1070a30a34869e47844",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.4.exe",
+		"HashFor32Bit": "77db6cefa025bf4c2b0ec786baa152b1cea5972b6cdcec7bc3c985c3c87a8c4e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
 	{
 		"Name": "IntelliJIdeaUltimate",
-		"Version": "2019.2.3.0",
+		"Version": "2019.2.4.0",
+		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.3.exe",
-		"HashFor32Bit": "4b74c66a3d36ea1179cd53a5a4ef5dc65d14c9c163de3782d8c21f9cc4bf16b4",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.4.exe",
+		"HashFor32Bit": "8bc0a4287c7daed162b552439e9fd5526e0ac8f02fb4a1f74ff9a41151dbea60",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -664,10 +666,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.9.0.0",
+		"Version": "7.10.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "AC81B7051028722DCF09207C8A2A7CC75A652097",
+		"HashFor64Bit": "AB99E65AEDC7B72E938CF0962E821D2FFFE76982",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
