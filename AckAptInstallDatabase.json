@@ -611,10 +611,9 @@
 	{
 		"Name": "Notepad++",
 		"Version": "7.8.1.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://download.notepad-plus-plus.org/repository/7.x/7.8.1/npp.7.8.1.Installer.exe",
-		"HashFor32Bit": "d99718a113e86bd874ad4aac3557a7190e8008352eb758716ed568ae3bf6b0e9",
-		"HashFor64Bit": "51ea006fac7c7cf88dda19133fd2e701d53a774d0f9a6f094178db40424e2bd1",
+		"Type": "zip",
+		"ZipContentToRun": "tools\\npp.*.Installer.exe",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/notepadplusplus.install/7.8.1",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -1048,10 +1047,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.8.1664.44",
+		"Version": "2.9.1705.31",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.44.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.8.1664.44.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.31.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.31.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
