@@ -63,10 +63,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.75.0",
+		"Version": "2.0.76.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "6ve8N4nNxqhwDF0eVZfH1A==",
+		"HashFor32Bit": "ZD4+EAG255LGI093GqVnhQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -117,15 +117,6 @@
 		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v19.10.12/ConEmuSetup.191012.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
-	},
-	{
-		"Name": "DataGrip",
-		"Version": "2019.2.2.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/datagrip/datagrip-2019.2.2.exe",
-		"HashFor32Bit": "bef2e41ad36870da1788676f410c17e68180db3a516309a613aef7a7c17e855c",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/datagrip/download/"
 	},
 	{
 		"Name": "DebugDiag",
@@ -421,16 +412,6 @@
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
 	{
-		"Name": "IntelliJIdeaUltimate",
-		"Version": "2019.2.4.0",
-		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIU-2019.2.4.exe",
-		"HashFor32Bit": "8bc0a4287c7daed162b552439e9fd5526e0ac8f02fb4a1f74ff9a41151dbea60",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/idea/download/"
-	},
-	{
 		"Name": "IrfanView",
 		"Version": "4.53.0.0",
 		"Type": "exe",
@@ -648,15 +629,6 @@
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
 	{
-		"Name": "PhpStorm",
-		"Version": "2019.2.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/webide/PhpStorm-2019.2.exe",
-		"HashFor32Bit": "bd4697c07057e55c8cb065eb72e5f73aa9d677c16dc7b6cb7d1bf61670a1b61f",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/phpstorm/download/"
-	},
-	{
 		"Name": "PostgreSQL",
 		"Version": "11.5.0.0",
 		"Type": "exe",
@@ -698,15 +670,6 @@
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
 	{
-		"Name": "PyCharmPro",
-		"Version": "2019.2.4.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-professional-2019.2.4.exe",
-		"HashFor32Bit": "e581ab5a0eb4e88fd1773e67afc1b55381fc9987cee756083de55d38db9abf8e",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/pycharm/download/"
-	},
-	{
 		"Name": "python27",
 		"Version": "2.7.17.0",
 		"Type": "msi",
@@ -724,28 +687,6 @@
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe",
 		"HashFor64Bit": "29ea87f24c32f5e924b7d63f8a08ee8d",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
-		"AppPage": "https://www.python.org/downloads/"
-	},
-	{
-		"Name": "python34",
-		"Version": "3.4.3.0",
-		"Type": "msi",
-		"UrlFor32Bit": "https://www.python.org/ftp/python/3.4.3/python-3.4.3.msi",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi",
-		"HashFor32Bit": "cb450d1cc616bfc8f7a2d6bd88780bf6",
-		"HashFor64Bit": "f6ade29acaf8fcdc0463e69a6e7ccf87",
-		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python34 ADDLOCAL=DefaultFeature,Tools,Extensions,TclTk,Documentation,pip_feature,Testsuite REMOVE=PrependPath",
-		"AppPage": "https://www.python.org/downloads/"
-	},
-	{
-		"Name": "python35",
-		"Version": "3.5.4.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://www.python.org/ftp/python/3.5.4/python-3.5.4.exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe",
-		"HashFor32Bit": "9693575358f41f452d03fd33714f223f",
-		"HashFor64Bit": "4276742a4a75a8d07260f13fe956eec4",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python35 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -796,15 +737,6 @@
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
 	{
-		"Name": "Rider",
-		"Version": "2019.2.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/rider/JetBrains.Rider-2019.2.exe",
-		"HashFor32Bit": "114bcf88dd903fd269783a1c06e64031f5641f85eff4986b0490f774692c4cfc",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/rider/download/"
-	},
-	{
 		"Name": "ruby2",
 		"Version": "2.5.1.1",
 		"Notes": "https://github.com/oneclick/rubyinstaller2/releases",
@@ -813,15 +745,6 @@
 		"HashFor64Bit": "b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf",
 		"InstallerArguments": "/dir=\"C:\\tools\\ruby2\" /tasks=\"assocfiles\"",
 		"AppPage": "https://rubyinstaller.org/downloads/"
-	},
-	{
-		"Name": "RubyMine",
-		"Version": "2019.2.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/ruby/RubyMine-2019.2.exe",
-		"HashFor32Bit": "7001391c256233dc27efac0e7c1f4a1b4219684bd42e5efbe9a01013babad5ec",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/ruby/download/"
 	},
 	{
 		"Name": "Sigil",
@@ -914,23 +837,6 @@
 		"Type": "exe",
 		"UrlFor32Bit": "http://download.teamviewer.com/download/TeamViewer_Setup_en.exe",
 		"AppPage": "https://www.teamviewer.com/en/download/windows/"
-	},
-	{
-		"Name": "UltraCompare",
-		"Version": "18.0.0.62",
-		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.ultraedit.com/main/uc/win/uc_english.exe",
-		"UrlFor64Bit": "https://downloads.ultraedit.com/main/uc/win/uc_english_64.exe",
-		"AppPage": "https://www.ultraedit.com/downloads/ultracompare-download/"
-	},
-	{
-		"Name": "UltraEdit",
-		"Version": "25.0.0.68",
-		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.ultraedit.com/main/ue/win/ue_english.exe",
-		"UrlFor64Bit": "https://downloads.ultraedit.com/main/ue/win/ue_english_64.exe",
-		"ValidExitCodes": "0,5",
-		"AppPage": "https://www.ultraedit.com/downloads/ultraedit-download"
 	},
 	{
 		"Name": "URLRewrite2",
@@ -1047,10 +953,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.9.1705.34",
+		"Version": "2.9.1705.38",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.34.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.34.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.38.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.38.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1151,15 +1057,6 @@
 		"Version": "5.0.50430.0",
 		"Type": "exe",
 		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=255386"
-	},
-	{
-		"Name": "WebStorm",
-		"Version": "2019.2.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/webstorm/WebStorm-2019.2.exe",
-		"HashFor32Bit": "e6f5384e26ce79cf9358136b47a9dc4438fb9315d4bce0bc8547042836b89250",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/webstorm/download/"
 	},
 	{
 		"Name": "WinMerge",
