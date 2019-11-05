@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "3.5.1.0",
+		"Version": "3.5.2.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.1.0/android-studio-ide-191.5900203-windows.exe",
-		"HashFor64Bit": "8fecf0ba58699ba9de473653885505dd0dfaba0d5f73838cde13b8011d1c4718",
+		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.2.0/android-studio-ide-191.5977832-windows.exe",
+		"HashFor64Bit": "cd572da4b61a96d701c4a488c92dbf89d6bde2e52dd0d2a39ece98a91e9e14e2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/index.html#downloads"
 	},
@@ -72,20 +72,21 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.12.2.0",
+		"Version": "1.13.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105135",
-		"HashFor32Bit": "jCn9Y3D0D508ZHFO22cmcQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2109256",
+		"HashFor32Bit": "/F9RSb1N7Hxtg/NQkr6y9g==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.10.1.0",
+		"Version": "1.11.0.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
+		"HashFor32Bit": "4dX/aAvduhkXZUy9i2lNvQ==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes"
 	},
@@ -356,13 +357,13 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.23.0.0",
+		"Version": "2.24.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.exe",
-		"HashFor32Bit": "0cfcde18ebb3bf53304a78a92f3245b77377360dad85e9fbd33990843a88ee81",
-		"HashFor64Bit": "555cc19797fe6869fe60c156a59e9a29028f78476353775c3f6bca8e841940cd",
+		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-32-bit.exe",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-64-bit.exe",
+		"HashFor32Bit": "82818e6cda4a264b2ecb51a9553b655011e7e6e333d0727c57aa4373848045d8",
+		"HashFor64Bit": "cc3d151bcb5a30382d6e08b0e93f2370fd4b4debe81905e2008019c9d748f0fc",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -512,7 +513,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.2.8",
+		"Version": "3.9.2.9",
 		"Type": "exe",
 		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
@@ -790,6 +791,14 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=853017",
 		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB",
+		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
+	},
+	{
+		"Name": "SqlServer2019Express",
+		"Version": "15.1911.4567.1",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=866658",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
 		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
 	},
 	{
