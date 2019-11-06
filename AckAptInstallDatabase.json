@@ -1,4 +1,4 @@
-[ 
+[
 	{
 		"Name": "7zip",
 		"Version": "19.0.0.0",
@@ -369,7 +369,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.3.0.0",
+		"Version": "6.3.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -803,11 +803,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.3.1.0",
-		"Notes": "Build number: 15.0.18183.0",
+		"Version": "18.4.0.0",
+		"Notes": "Build number: 15.0.18206.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2105412",
-		"HashFor32Bit": "aucSBrYCxiF8wEyN5raIfA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2108895",
+		"HashFor32Bit": "ZdA0CWtjxuyQUZUbzxAIjA==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
