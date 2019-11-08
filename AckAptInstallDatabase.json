@@ -98,9 +98,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "3.48.0.0",
+		"Version": "4.3.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/3.48.0/calibre-64bit-3.48.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.3.0/calibre-64bit-4.3.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -638,10 +638,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.10.0.0",
+		"Version": "7.11.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "AB99E65AEDC7B72E938CF0962E821D2FFFE76982",
+		"HashFor64Bit": "680B4A8D35F13208F223D88AB4D67C96EE6FCE3C",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
@@ -1054,10 +1054,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.39.2.0",
+		"Version": "1.40.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "2Ym5vhdYihTT1VjXVAixWw==",
+		"HashFor64Bit": "G/wLoEk98kU9eIWAEPVzAw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
