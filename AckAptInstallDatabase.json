@@ -513,7 +513,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.2.9",
+		"Version": "3.9.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
@@ -962,10 +962,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.9.1705.38",
+		"Version": "2.9.1705.41",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.38.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.38.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.41.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.41.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
