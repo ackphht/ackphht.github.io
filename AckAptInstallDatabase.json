@@ -72,11 +72,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.13.0.0",
+		"Version": "1.13.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2109256",
-		"HashFor32Bit": "/F9RSb1N7Hxtg/NQkr6y9g==",
+		"HashFor32Bit": "IJqiQ2WC7Pb7vObxn3dPWQ==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -655,10 +655,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.5.1.03605",
+		"Version": "1.6.0.03756",
 		"Type": "exe",
 		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.5.1-03605.exe",
-		"HashFor64Bit": "d5a666067aacb52c4e3c0a3e480e77014d77c34838e9eaee5b160cc28e8d7c4e",
+		"HashFor64Bit": "1f438a734e64693bfa92d93fc7fdf01a2d25708bfb97c82b70865d2547906dfa",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1054,10 +1054,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.40.0.0",
+		"Version": "1.40.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "G/wLoEk98kU9eIWAEPVzAw==",
+		"HashFor64Bit": "KL4Spl8C+Ied6kTqgr+pJw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
