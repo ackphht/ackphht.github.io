@@ -26,6 +26,14 @@
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
+		"Name": "AIMP",
+		"Version": "4.60.0.2156",
+		"Type": "exe",
+		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
+		"HashFor32Bit": "4a2eb5cd18774a2bd3efff6209ffc51c82997bb52fcdecc5d5f63114a643a265",
+		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
+	},
+	{
 		"Name": "AndroidStudio",
 		"Version": "3.5.2.0",
 		"Type": "exe",
