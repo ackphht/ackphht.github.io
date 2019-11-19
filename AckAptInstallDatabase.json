@@ -165,7 +165,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.1.0.4",
+		"Version": "2.1.0.5",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.54",
+		"Version": "6.7.1.55",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -591,10 +591,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.13.0.0",
+		"Version": "12.13.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.13.0/node-v12.13.0-x64.msi",
-		"HashFor64Bit": "b6a92b7b6097aefa0d30d092d33f443bed8dba0e2a65bef2b920564373738c84",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.13.1/node-v12.13.1-x64.msi",
+		"HashFor64Bit": "b0b4fcae7531a0509fc1f29e814ea59487c38787df671e6bc04b17ee355b24f3",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
