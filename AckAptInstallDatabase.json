@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.11.0.0",
+		"Version": "1.11.1.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "4dX/aAvduhkXZUy9i2lNvQ==",
+		"HashFor32Bit": "7uc8kMmg5u3uSt+ZEYFPIQ==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes"
 	},
@@ -671,10 +671,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.2.4.0",
+		"Version": "2019.2.5.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.4.exe",
-		"HashFor32Bit": "31adbe1aae81ed00153e517dd558bb711ee0f0000aee236b047a05813dd4ab4b",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.5.exe",
+		"HashFor32Bit": "cfbafe557c949e64eef2b06792dbfc39d0e809630a5051b15e2d1c677690716f",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
