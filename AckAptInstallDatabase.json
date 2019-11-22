@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.3.0.0",
+		"Version": "4.4.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.3.0/calibre-64bit-4.3.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.4.0/calibre-64bit-4.4.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -631,10 +631,10 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.5.0",
+		"Version": "4.2.6.0",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.5.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.6.install.zip",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
 	{
