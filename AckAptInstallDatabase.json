@@ -44,10 +44,10 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "2.3.2.0",
+		"Version": "2.3.3.0",
 		"Type": "zip",
 		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.3.2",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.3.3",
 		"AppPage": "http://www.audacityteam.org/download/windows/"
 	},
 	{
@@ -521,7 +521,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.3.0",
+		"Version": "3.9.3.1",
 		"Type": "exe",
 		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
