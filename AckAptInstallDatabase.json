@@ -665,7 +665,7 @@
 		"Name": "PrivateInternetAccess",
 		"Version": "1.6.0.03756",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.5.1-03605.exe",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.6-03756.exe",
 		"HashFor64Bit": "1f438a734e64693bfa92d93fc7fdf01a2d25708bfb97c82b70865d2547906dfa",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
