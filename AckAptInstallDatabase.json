@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.76.0",
+		"Version": "2.0.77.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "ZD4+EAG255LGI093GqVnhQ==",
+		"HashFor32Bit": "NoH7NGGs7wSQsNHswUbgmA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -281,12 +281,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.45.1.0",
+		"Version": "3.46.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "c7d88f9be0da4be8d7c5ac0664ea3911183a3080993f49c75edb0b474f76cbcb84b9ecdf96cc8f0b4e383267dc2e30d1e3ac366748a47c2090e380c630644a89",
-		"HashFor64Bit": "f3c9fd790b81b62fdc6caba97d7a1c5b456bdd09749261c9aa0535971b05af54ece1589a1234dc55a23080a428f12fc01f7007f4f71d9c76339db5b36fcf090a",
+		"HashFor32Bit": "09bab808130a28ccfe78d7fc394b38458727d77102efc50197bf4a638520b4b4adab28e02526d52857d5774ef476ad75b54dc6bb195574d0e221cbcf65e47337",
+		"HashFor64Bit": "9e1daaeb4f8fc6bab13059beb83005ab3a20938959a6b83e7d2f4f6d411e434611f90ef5aaa1db872995d69b2ce22502d4b4d410644b73463a29b5d0b5927d0a",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.55",
+		"Version": "6.7.1.56",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -631,10 +631,10 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.6.0",
+		"Version": "4.2.7.0",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.6.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.7.install.zip",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
 	{
@@ -646,10 +646,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.11.0.0",
+		"Version": "7.12.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "680B4A8D35F13208F223D88AB4D67C96EE6FCE3C",
+		"HashFor64Bit": "C87DEE883F9CE2EE6F15362F59E9260A0B944F3A",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
@@ -1062,10 +1062,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.40.1.0",
+		"Version": "1.40.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "KL4Spl8C+Ied6kTqgr+pJw==",
+		"HashFor64Bit": "+8LQO42d18AGinY5v/YBMg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
