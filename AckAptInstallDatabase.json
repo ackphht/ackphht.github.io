@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.4.0.0",
+		"Version": "4.5.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.4.0/calibre-64bit-4.4.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.5.0/calibre-64bit-4.5.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -317,7 +317,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.4.8.0",
+		"Version": "1.5.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.56",
+		"Version": "6.7.1.57",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -412,11 +412,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.2.4.0",
+		"Version": "2019.3.0.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.2.4.exe",
-		"HashFor32Bit": "77db6cefa025bf4c2b0ec786baa152b1cea5972b6cdcec7bc3c985c3c87a8c4e",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.exe",
+		"HashFor32Bit": "7e81a179e49ba0521dbd9767735b95ab58c94dd2cc17169a7de787625ec4200a",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
