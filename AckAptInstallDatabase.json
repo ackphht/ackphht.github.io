@@ -631,11 +631,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.7.0",
+		"Version": "4.2.8.0",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.7.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.8.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
@@ -673,10 +673,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.2.5.0",
+		"Version": "2019.3.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.2.5.exe",
-		"HashFor32Bit": "cfbafe557c949e64eef2b06792dbfc39d0e809630a5051b15e2d1c677690716f",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.exe",
+		"HashFor32Bit": "a38fdcfc031fa309f8466be671acff78f3e3638035205da128aed82118223b49",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
