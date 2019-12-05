@@ -540,10 +540,10 @@
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.4.0.0",
+		"Version": "6.5.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashFor32Bit": "8H2OcZW2608OxImQ4ptUCg==",
+		"HashFor32Bit": "koazabubOZcSnkjE+J4wQw==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -665,10 +665,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.6.0.03756",
+		"Version": "1.6.1.03773",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.6-03756.exe",
-		"HashFor64Bit": "1f438a734e64693bfa92d93fc7fdf01a2d25708bfb97c82b70865d2547906dfa",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.6.1-03773.exe",
+		"HashFor64Bit": "890f555ea36e3f978c65c26712ed03ebd00fe874952414a0597eeb6212c253c5",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1098,10 +1098,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.0.6.0",
+		"Version": "3.0.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.6.exe",
-		"HashFor64Bit": "6cd2b1474d5a031b85fca00538d45487144b36d8e1db1d565fd35d251ac261d0",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.7.exe",
+		"HashFor64Bit": "b246db3ef635c5bf2ae25684f5f869c0d958c66021a5388a3fb1a38aa374b233",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
