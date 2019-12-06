@@ -35,10 +35,10 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "3.5.2.0",
+		"Version": "3.5.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.2.0/android-studio-ide-191.5977832-windows.exe",
-		"HashFor64Bit": "cd572da4b61a96d701c4a488c92dbf89d6bde2e52dd0d2a39ece98a91e9e14e2",
+		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.5.3.0/android-studio-ide-191.6010548-windows.exe",
+		"HashFor64Bit": "58b3728fc414602e17fd9827e5ad0c969e5942aff1ee82964eedf1686450265b",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/index.html#downloads"
 	},
@@ -600,10 +600,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.1.0",
-		"Type": "zip",
+		"Version": "7.8.2.0",
+		"Type": "exe",
 		"ZipContentToRun": "tools\\npp.*.Installer.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/notepadplusplus.install/7.8.1",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.exe",
+		"HashFor32Bit": "668e6c8a666c0cb91987985bf560bf587c4fb646523fe21d3fe85b7c7eeadd08",
+		"HashFor64Bit": "56ff0f152f5f84314cd995c65b567becb1ddf0f5a248d76b5e968e85d62e62a0",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -648,10 +650,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.12.0.0",
+		"Version": "7.13.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "C87DEE883F9CE2EE6F15362F59E9260A0B944F3A",
+		"HashFor64Bit": "7BB1C7FDD18412A27952EC1B840A7A7C2FBBEC9B",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
