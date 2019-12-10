@@ -350,18 +350,18 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.14.0",
+		"Version": "2.10.14.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup.exe",
-		"HashFor32Bit": "6de7f8722a0601e821c6cbfe3fc8b5055fb32d59d2b64fbdbd19f7dcf5a4b8e9",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup-1.exe",
+		"HashFor32Bit": "ddc8f6ae9a7fb2625b72149caa31113fc275f9b49105b3e96f89fb4164f1efe6",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
 	{
 		"Name": "gimp-help",
-		"Version": "2.8.2.0",
+		"Version": "2.10.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/help/windows/2.8/2.8.2/gimp-help-2-2.8.2-en-setup.exe"
+		"UrlFor32Bit": "https://download.gimp.org/mirror/pub/gimp/help/windows/2.10/gimp-help-2.10.0-en-setup.exe"
 	},
 	{
 		"Name": "git",
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.1.58",
+		"Version": "6.7.2.0",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
