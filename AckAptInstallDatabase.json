@@ -431,12 +431,14 @@
 	{
 		"Name": "IrfanView",
 		"Version": "4.54.0.0",
+		"Notes": "https://www.irfanview.com/faq.htm#PAGE12",
 		"Type": "exe",
 		"UrlFor32Bit": "http://irfanview.info/files/iview454_setup.exe",
 		"HashFor32Bit": "027531994c0d95836328fe7c39390fa9f85061f79660c093e1d6df7874d8b44b",
 		"HashFor64Bit": "ceef2253c343902c3ce7e7cac305f12e1123cf203660985159d9ae5b18ceab57",
 		"PreInstallMessage": "about to install IrfanView; disable the network now. . .",
 		"PostInstallMessage": "done installing IrfanView; you can re-enable to network now. . .",
+		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1",
 		"HeadersToAdd": "Referer: http://irfanview.info/files/iview454_setup.exe",
 		"AppPage": "http://www.irfanview.com/"
 	},
@@ -447,6 +449,7 @@
 		"UrlFor32Bit": "http://www.irfanview.info/files/iview454a_plugins_setup.exe",
 		"HashFor32Bit": "24e38400bc5ca151f6d48936894d7f8a9057d57940f807f3c2e6e5a1a84a3388",
 		"HashFor64Bit": "a71a52136a5e3321eaf6e68f9f76aaf340fee90eca00ccfc65c32dc3141e9fa5",
+		"InstallerArguments": "/silent",
 		"HeadersToAdd": "Referer: http://www.irfanview.info/files/irfanview_plugins_452_setup.exe"
 	},
 	{
