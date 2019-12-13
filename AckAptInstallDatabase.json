@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.5.0.0",
+		"Version": "4.6.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.5.0/calibre-64bit-4.5.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.6.0/calibre-64bit-4.6.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -300,6 +300,14 @@
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
 	{
+		"Name": "Firefox",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win&lang=en-US",
+		"UrlFor64Bit": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US",
+		"AppPage": "https://www.firefox.com"
+	},
+	{
 		"Name": "FlashPlayerPlugin",
 		"Version": "32.0.0.303",
 		"Type": "msi",
@@ -377,7 +385,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.3.1.0",
+		"Version": "6.4.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -422,23 +430,23 @@
 	},
 	{
 		"Name": "IrfanView",
-		"Version": "4.53.0.0",
+		"Version": "4.54.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://irfanview.info/files/iview453_setup.exe",
-		"HashFor32Bit": "7ebcf9fe4f4e41293d8808d2ad4b369577209dc64db04d79b1bce370e2c79b69",
-		"HashFor64Bit": "57b12aed758d5beb84263cdca2d4fa38d0bcffa882d9994921453b170edf149a",
+		"UrlFor32Bit": "http://irfanview.info/files/iview454_setup.exe",
+		"HashFor32Bit": "027531994c0d95836328fe7c39390fa9f85061f79660c093e1d6df7874d8b44b",
+		"HashFor64Bit": "ceef2253c343902c3ce7e7cac305f12e1123cf203660985159d9ae5b18ceab57",
 		"PreInstallMessage": "about to install IrfanView; disable the network now. . .",
 		"PostInstallMessage": "done installing IrfanView; you can re-enable to network now. . .",
-		"HeadersToAdd": "Referer: http://irfanview.info/files/iview452_setup.exe",
+		"HeadersToAdd": "Referer: http://irfanview.info/files/iview454_setup.exe",
 		"AppPage": "http://www.irfanview.com/"
 	},
 	{
 		"Name": "IrfanViewPlugins",
-		"Version": "4.53.0.0",
+		"Version": "4.54.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://www.irfanview.info/files/iview453_plugins_setup.exe",
-		"HashFor32Bit": "0dd3763a6b789273633a052b25d5674a26af0d7edc98c2a95abf2fe8b11bb391",
-		"HashFor64Bit": "ac8d27b1241ef91e80a73bfc672342be7317f7d8bf47a615a00d01f5090f3d43",
+		"UrlFor32Bit": "http://www.irfanview.info/files/iview454a_plugins_setup.exe",
+		"HashFor32Bit": "24e38400bc5ca151f6d48936894d7f8a9057d57940f807f3c2e6e5a1a84a3388",
+		"HashFor64Bit": "a71a52136a5e3321eaf6e68f9f76aaf340fee90eca00ccfc65c32dc3141e9fa5",
 		"HeadersToAdd": "Referer: http://www.irfanview.info/files/irfanview_plugins_452_setup.exe"
 	},
 	{
@@ -1066,10 +1074,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.40.2.0",
+		"Version": "1.41.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "+8LQO42d18AGinY5v/YBMg==",
+		"HashFor64Bit": "visUc2KZdQPdCo53lj+ZLg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
