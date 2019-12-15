@@ -438,7 +438,7 @@
 		"HashFor64Bit": "ceef2253c343902c3ce7e7cac305f12e1123cf203660985159d9ae5b18ceab57",
 		"PreInstallMessage": "about to install IrfanView; disable the network now. . .",
 		"PostInstallMessage": "done installing IrfanView; you can re-enable to network now. . .",
-		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1",
+		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1 /ini=\"%APPDATA%\\IrfanView\"",
 		"HeadersToAdd": "Referer: http://irfanview.info/files/iview454_setup.exe",
 		"AppPage": "http://www.irfanview.com/"
 	},
