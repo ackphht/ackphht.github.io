@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.0.77.0",
+		"Version": "2.0.78.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "NoH7NGGs7wSQsNHswUbgmA==",
+		"HashFor32Bit": "sFptnixbFtc0zaZhsrlvBw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.11.1.0",
+		"Version": "1.11.2.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "7uc8kMmg5u3uSt+ZEYFPIQ==",
+		"HashFor32Bit": "2xvFecFM4BIgFOB2tRndyQ==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes"
 	},
@@ -600,10 +600,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.13.1.0",
+		"Version": "12.14.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.13.1/node-v12.13.1-x64.msi",
-		"HashFor64Bit": "b0b4fcae7531a0509fc1f29e814ea59487c38787df671e6bc04b17ee355b24f3",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.14.0/node-v12.14.0-x64.msi",
+		"HashFor64Bit": "bd0636856980c1fa855f1d517dcbd288a5619536286e4b1e452e19230355f7d9",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
@@ -770,10 +770,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "0.9.18.0",
+		"Version": "1.0.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.18/Sigil-0.9.18-Windows-x64-Setup.exe",
-		"HashFor64Bit": "1713d18631fe4cf8384a017b3cb1df0253da03fd7a9e9fdc42b90e76643aebab",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.0.0/Sigil-1.0.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "2210d5207c6095debcb94690c58851561daafd627c368e6fdb52351aea274c16",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
@@ -951,11 +951,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.24.0.1",
+		"Version": "1.24.0.2",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-hotfix1/+download/VeraCrypt%20Setup%201.24-Hotfix1.exe",
-		"HashFor32Bit": "09f530345fd3fde3d69e54393fb63d54bd1b6ed5405183cbbe87300f3d7a692b",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update2/+download/VeraCrypt%20Setup%201.24-Update2.exe",
+		"HashFor32Bit": "8633E3EA7382F2CB2370B0BECCBB815D96D4C232CB61E08A1DB82544B21BF51C",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
 	},
 	{
