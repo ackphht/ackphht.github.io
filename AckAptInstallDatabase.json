@@ -74,7 +74,7 @@
 		"Version": "2.0.78.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "sFptnixbFtc0zaZhsrlvBw==",
+		"HashFor32Bit": "xwYj/PBo8O57d+D0JS5i0Q==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -358,10 +358,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.14.1",
+		"Version": "2.10.14.2",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup-1.exe",
-		"HashFor32Bit": "ddc8f6ae9a7fb2625b72149caa31113fc275f9b49105b3e96f89fb4164f1efe6",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup-2.exe",
+		"HashFor32Bit": "e8ce941a68360829bae15b7a406d21154a149618f73a7e4077ee12e0c42d5ae5",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
@@ -420,11 +420,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.3.0.0",
+		"Version": "2019.3.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.exe",
-		"HashFor32Bit": "7e81a179e49ba0521dbd9767735b95ab58c94dd2cc17169a7de787625ec4200a",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.1.exe",
+		"HashFor32Bit": "22f643bcc3a0addca3a82f1e6334d5ea26d06d97069bfed7401aa22210de6fd6",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -659,10 +659,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.13.0.0",
+		"Version": "7.14.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "7BB1C7FDD18412A27952EC1B840A7A7C2FBBEC9B",
+		"HashFor64Bit": "9B6DF75B4CDE8FA3AC76961A0429BAD96461FA95",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
@@ -983,10 +983,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.9.1705.41",
+		"Version": "2.10.1745.21",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.41.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.9.1705.41.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.21.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.21.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1109,10 +1109,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.0.7.0",
+		"Version": "3.2.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.0.7.exe",
-		"HashFor64Bit": "b246db3ef635c5bf2ae25684f5f869c0d958c66021a5388a3fb1a38aa374b233",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.0.exe",
+		"HashFor64Bit": "373af8674889b446412fb4c34f9b0299c66724086343238ea2b3a99e9e8d80d7",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
