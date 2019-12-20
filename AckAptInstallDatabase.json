@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.13.1.0",
+		"Version": "1.14.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2109256",
-		"HashFor32Bit": "IJqiQ2WC7Pb7vObxn3dPWQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2113530",
+		"HashFor32Bit": "zUWuus4nWi6w6/RSTHv4MA==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -281,12 +281,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.46.0.0",
+		"Version": "3.46.2.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "09bab808130a28ccfe78d7fc394b38458727d77102efc50197bf4a638520b4b4adab28e02526d52857d5774ef476ad75b54dc6bb195574d0e221cbcf65e47337",
-		"HashFor64Bit": "9e1daaeb4f8fc6bab13059beb83005ab3a20938959a6b83e7d2f4f6d411e434611f90ef5aaa1db872995d69b2ce22502d4b4d410644b73463a29b5d0b5927d0a",
+		"HashFor32Bit": "ae76aff7a66079a178dfe1c229e5d4aac55b3a85538e19dc19694acc38386f245f83dd44ef8596c5949f408ab3c3db10c2ca180d1c711073b48f271398e1620a",
+		"HashFor64Bit": "6409acb73e3c016520da34b12ce525155356ddc8c6202bb7fb21009d275aae0af55fb69c1cd9cc4adde55838509b15659d3c4fc99cde00989ba365934e34ae54",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -385,7 +385,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.4.0.0",
+		"Version": "6.4.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -684,10 +684,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.3.0.0",
+		"Version": "2019.3.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.exe",
-		"HashFor32Bit": "a38fdcfc031fa309f8466be671acff78f3e3638035205da128aed82118223b49",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.1.exe",
+		"HashFor32Bit": "ba7efc823ef5806f05cd92583cf86f0d7c430851017fc3b177bc30ac5bcc15c0",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -750,11 +750,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2019.3.0.0",
+		"Version": "2019.3.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3/JetBrains.ReSharperUltimate.2019.3.exe",
-		"HashFor32Bit": "62d4921b855f721f07ed40a54207727b648a00fecdf3fbe78d739f1b3242e058",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.1/JetBrains.ReSharperUltimate.2019.3.1.exe",
+		"HashFor32Bit": "4ca6fcf2d3f2e72e3ec6e2ae93d4182ebbe53c6f3a64d7115ada3bf6512fc162",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -1075,10 +1075,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.41.0.0",
+		"Version": "1.41.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "visUc2KZdQPdCo53lj+ZLg==",
+		"HashFor64Bit": "vowvGl4DHKpYyO0wjSuzKw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
