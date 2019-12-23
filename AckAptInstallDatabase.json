@@ -281,12 +281,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.46.2.0",
+		"Version": "3.46.3.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "ae76aff7a66079a178dfe1c229e5d4aac55b3a85538e19dc19694acc38386f245f83dd44ef8596c5949f408ab3c3db10c2ca180d1c711073b48f271398e1620a",
-		"HashFor64Bit": "6409acb73e3c016520da34b12ce525155356ddc8c6202bb7fb21009d275aae0af55fb69c1cd9cc4adde55838509b15659d3c4fc99cde00989ba365934e34ae54",
+		"HashFor32Bit": "01f5db8cf2b7d829680fb7d175657c7eebef11e24a6790227e7b89c16ac11df8388a4fad4a39573b7a2d22ee355d9c290515072a6479992efc3710a2658e9661",
+		"HashFor64Bit": "5dbda4a46457b7e06822fd0f52c59c77713b9fe81ba20d5a540a3a67397308a97401aeec50227689fa05b3994fae4aae3c4d1f7d09d4d1b00f59d39385ac8502",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -833,13 +833,13 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.19.2.0",
+		"Version": "0.19.3.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.2/stellarium-0.19.2-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.2/stellarium-0.19.2-win64.exe",
-		"HashFor32Bit": "596f4376942eb89ef72d4c7463af4af111f976e1",
-		"HashFor64Bit": "b5b4a070150eb1b02ebf85fffbf0c704f646064a",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3-win64.exe",
+		"HashFor32Bit": "d36c3b3e6956b10ca655052ccceed8fb3388b42a",
+		"HashFor64Bit": "afcdf1903fae4cb5ac511a9882b7922a6f253523",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
