@@ -411,7 +411,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.2.1",
+		"Version": "6.7.3.0",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -983,10 +983,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.10.1745.21",
+		"Version": "2.10.1745.23",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.21.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.21.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.23.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.23.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
