@@ -833,13 +833,13 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.19.3.0",
+		"Version": "0.19.3.1",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3-win64.exe",
-		"HashFor32Bit": "d36c3b3e6956b10ca655052ccceed8fb3388b42a",
-		"HashFor64Bit": "afcdf1903fae4cb5ac511a9882b7922a6f253523",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3.1-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3.1-win64.exe",
+		"HashFor32Bit": "5ec8b84d937635ebb8803bef5eda4fd940050745",
+		"HashFor64Bit": "874810f7ffbc4e1a3425cab0319cf62cd49d59bd",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
