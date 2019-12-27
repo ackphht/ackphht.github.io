@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.6.0.0",
+		"Version": "4.7.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.6.0/calibre-64bit-4.6.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.7.0/calibre-64bit-4.7.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -382,6 +382,13 @@
 		"HashFor64Bit": "34e484936105713e7d0c2f421bf62e4cfe652f6638a9ecb5df2186c1918753e2",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
+	},
+	{
+		"Name": "GitAhead",
+		"Version": "2.6.1.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/gitahead/gitahead/releases/download/v2.6.1/GitAhead-win64-2.6.1.exe",
+		"AppPage": "https://gitahead.github.io/gitahead.com/"
 	},
 	{
 		"Name": "GitKraken",
