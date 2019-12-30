@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.60.2161.0",
+		"Version": "4.60.2167.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "ea09f231804598d969a5f4d1a4e06f6191b584d7c1531c77abf763cb241e089e",
+		"HashFor32Bit": "2d343625f101d36627b9c80b3ac7379ded88dc57ce6b0f477d634d470149fef5",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
