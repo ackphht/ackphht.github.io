@@ -325,7 +325,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.5.0.0",
+		"Version": "1.5.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
