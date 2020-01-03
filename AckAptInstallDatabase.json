@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.7.0.0",
+		"Version": "4.8.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.7.0/calibre-64bit-4.7.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.8.0/calibre-64bit-4.8.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -358,10 +358,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.14.2",
+		"Version": "2.10.14.3",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup-2.exe",
-		"HashFor32Bit": "e8ce941a68360829bae15b7a406d21154a149618f73a7e4077ee12e0c42d5ae5",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.14-setup-3.exe",
+		"HashFor32Bit": "e892450123f00aaa672f31f532ebdccfbba8b444862281cade047f7fcb5aa503",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
