@@ -419,7 +419,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.0",
+		"Version": "6.7.3.1",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
