@@ -538,7 +538,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.3.1",
+		"Version": "3.9.3.2",
 		"Type": "exe",
 		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
@@ -923,39 +923,25 @@
 	},
 	{
 		"Name": "VCRedist2013",
-		"Version": "12.0.30501.0",
+		"Version": "12.0.40664.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe",
-		"UrlFor64Bit": "http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe",
+		"UrlFor32Bit": "https://aka.ms/highdpimfc2013x86enu",
+		"UrlFor64Bit": "https://aka.ms/highdpimfc2013x64enu",
 		"ValidExitCodes": "0,3010",
-		"InstallerArguments": "/quiet /norestart"
+		"InstallerArguments": "/quiet /norestart",
+		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
 	},
 	{
-		"Name": "VCRedist2015",
-		"Version": "14.0.24215.1",
+		"Name": "VCRedist2015_17_19",
+		"Version": "14.16.27033.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=615459",
-		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?LinkId=615460",
-		"HashFor32Bit": "72211bd2e7dfc91ea7c8fac549c49c0543ba791b",
-		"HashFor64Bit": "10b1683ea3ff5f36f225769244bf7e7813d54ad0",
+		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
+		"UrlFor64Bit": "https://aka.ms/vs/16/release/VC_redist.x64.exe",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/q /norestart",
-		"AppPage": "https://www.visualstudio.com/downloads/#microsoft-visual-c-2015-redistributable-update-3"
-	},
-	{
-		"Name": "VCRedist2017",
-		"Version": "14.10.25008.0",
-		"Type": "exe",
-		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=746571",
-		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?LinkId=746572",
-		"HashFor32Bit": "20F456AAB2938D638E9E08EBCAF576C5A0BC7C1AD447645F1F07A26B147DBBFA",
-		"HashFor64Bit": "341D4BAA491DAA5BEBD0E061577E3F840C8157417C636FD2285D9BDF71FC4660",
-		"ValidExitCodes": "0,3010",
-		"InstallerArguments": "/q /norestart",
-		"AppPage": "https://www.visualstudio.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2017"
+		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
 	},
 	{
 		"Name": "VeraCrypt",
