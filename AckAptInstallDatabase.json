@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.60.2169.0",
+		"Version": "4.60.2170.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "2bdc7ee374b71dbb57c39c3fae4b2522979779b03c30ce124118ea13ebe74fc9",
+		"HashFor32Bit": "7f09814a57d3f530efc07c76fb2b895f4bd8a50deed847639070fb9bb351e853",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -309,17 +309,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.303",
+		"Version": "32.0.0.314",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.303/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.314/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.303",
+		"Version": "32.0.0.314",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.303/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.314/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -373,13 +373,13 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.24.1.2",
+		"Version": "2.25.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-32-bit.exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.exe",
-		"HashFor32Bit": "611b29cc8f29241ee6a096f5b9951ef95650368c93dfe1e95f8408d97b86d50b",
-		"HashFor64Bit": "34e484936105713e7d0c2f421bf62e4cfe652f6638a9ecb5df2186c1918753e2",
+		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-32-bit.exe",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe",
+		"HashFor32Bit": "6c02f1a1f95e286df8b87c2812c9460f4c2d333bab7a654751e01e9801994045",
+		"HashFor64Bit": "6ffb0674a5f5fec2a328dd40456ede87ed3c7de653ecd6950f9cf132bca2f94c",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
