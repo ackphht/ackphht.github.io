@@ -90,13 +90,13 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.11.2.0",
+		"Version": "1.12.0.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "2xvFecFM4BIgFOB2tRndyQ==",
+		"HashFor32Bit": "eTwWi6qY2HMAxz0TScBVaw==",
 		"InstallerArguments": "/SILENT",
-		"AppPage": "https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-explorer-relnotes"
+		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
 	{
 		"Name": "BingDesktop",
@@ -484,13 +484,13 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.231.0",
+		"Version": "8.0.241.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240726_5b13a193868b4bf28bcb45c792fce896",
 		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896",
-		"HashFor32Bit": "b0720771276a4c02923c81381dc44cdcea58ed24dbc921c0d1bf90a340b14109",
-		"HashFor64Bit": "ba6f45b809c153079983ef92d686057296ce60a5491099e58151f21f8cea5c3d",
+		"HashFor32Bit": "f6803573fb3eb1bbe4aa17ebd587e1affdb33c8f6ca3ffdbba54bccbd407346c",
+		"HashFor64Bit": "9aa43fdf8f12cb4d49fa8cb2f469916a7a761429194968668fcdcf2a375d9797",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"AppPage": "https://www.java.com/en/download/manual.jsp"
