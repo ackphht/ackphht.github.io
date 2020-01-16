@@ -617,12 +617,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.2.0",
+		"Version": "7.8.3.0",
+		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"ZipContentToRun": "tools\\npp.*.Installer.exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.2/npp.7.8.2.Installer.exe",
-		"HashFor32Bit": "668e6c8a666c0cb91987985bf560bf587c4fb646523fe21d3fe85b7c7eeadd08",
-		"HashFor64Bit": "56ff0f152f5f84314cd995c65b567becb1ddf0f5a248d76b5e968e85d62e62a0",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.3/npp.7.8.3.Installer.exe",
+		"HashFor32Bit": "a0515583420e9e9827528ca2e6da6830db88b9b8985d7cf5054a890bec6c1744",
+		"HashFor64Bit": "fca6af8f9b3dc5bd93505785653375135e12f808d9b93f57d08542eab6d5ddc3",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -954,18 +954,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.0.0",
+		"Version": "6.1.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.0/VirtualBox-6.1.0-135406-Win.exe",
-		"HashFor32Bit": "66dddf8871ba10d9b3f88728dd2180af5e404c484fccddace6fc352aa29bab89",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe",
+		"HashFor32Bit": "703e7c9bcbdda0cd0040049dfcc754c0fb858b6d786a6033dc5d68f21b5fff99",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.0.0",
+		"Version": "6.1.2.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.0/Oracle_VM_VirtualBox_Extension_Pack-6.1.0.vbox-extpack",
-		"HashFor32Bit": "b907e69a5bad4dcd8e831416a2118b744bad1656918712a2d2131e595357cad4",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.2/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack",
+		"HashFor32Bit": "54047312d836c17ef0939410f755cb5a23e3037ec402198cc97f755181b25632",
 		"InstallScript": "$cmd = \"$env:ProgramFiles\\VirtualBox\\VBoxManage.exe\"\nif (Test-Path $cmd) {\n    'y' | $cmd extpack install --replace $context.DownloadedFile 2>&1\n    return 0\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
@@ -1103,10 +1103,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.0.0",
+		"Version": "3.2.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.0.exe",
-		"HashFor64Bit": "373af8674889b446412fb4c34f9b0299c66724086343238ea2b3a99e9e8d80d7",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.1.exe",
+		"HashFor64Bit": "7c69778b9f35fa5335dc5b8e6e1cbbe2e18a7fdfe77b47edb7402206c93ee5d4",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
