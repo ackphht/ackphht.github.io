@@ -94,7 +94,7 @@
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "eTwWi6qY2HMAxz0TScBVaw==",
+		"HashFor32Bit": "lva0ytkA1M+aMgIjd6O+Xw==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -589,6 +589,13 @@
 		"AppPage": "https://www.mercurial-scm.org/wiki/Download"
 	},
 	{
+		"Name": "MicrosoftEdge",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en",
+		"AppPage": "https://www.microsoftedge.com"
+	},
+	{
 		"Name": "MicrosoftMessageAnalyzer",
 		"Version": "1.4.1.20161028",
 		"Notes": "https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226",
@@ -977,10 +984,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.10.1745.26",
+		"Version": "2.10.1745.27",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.26.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
