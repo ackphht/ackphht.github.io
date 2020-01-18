@@ -487,12 +487,13 @@
 		"Version": "8.0.241.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240726_5b13a193868b4bf28bcb45c792fce896",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=240728_5b13a193868b4bf28bcb45c792fce896",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241534_1f5b5a70bf22433b84d0e960903adac8",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8",
 		"HashFor32Bit": "f6803573fb3eb1bbe4aa17ebd587e1affdb33c8f6ca3ffdbba54bccbd407346c",
 		"HashFor64Bit": "9aa43fdf8f12cb4d49fa8cb2f469916a7a761429194968668fcdcf2a375d9797",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
+		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
 		"AppPage": "https://www.java.com/en/download/manual.jsp"
 	},
 	{
