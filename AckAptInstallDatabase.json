@@ -419,7 +419,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.3",
+		"Version": "6.7.3.4",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -428,11 +428,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.3.1.0",
+		"Version": "2019.3.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.1.exe",
-		"HashFor32Bit": "22f643bcc3a0addca3a82f1e6334d5ea26d06d97069bfed7401aa22210de6fd6",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.2.exe",
+		"HashFor32Bit": "b2a323151bc68830c50087ff97b9662e836a8a3b8ff085e110447f8c93bf2077",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
