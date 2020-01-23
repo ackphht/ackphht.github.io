@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.8.0.0",
+		"Version": "4.9.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.8.0/calibre-64bit-4.8.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.9.0/calibre-64bit-4.9.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -700,10 +700,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.3.1.0",
+		"Version": "2019.3.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.1.exe",
-		"HashFor32Bit": "ba7efc823ef5806f05cd92583cf86f0d7c430851017fc3b177bc30ac5bcc15c0",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe",
+		"HashFor32Bit": "5f32a286ca8a613fe2b908bdf83eb6553fc661132ad0b7abee4e2268c51f4487",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
