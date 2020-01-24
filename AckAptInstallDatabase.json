@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.9.0.0",
+		"Version": "4.9.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.9.0/calibre-64bit-4.9.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.9.1/calibre-64bit-4.9.1.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -392,7 +392,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.4.1.0",
+		"Version": "6.5.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -675,10 +675,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.16.0.0",
+		"Version": "7.16.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "B17CB68096EA8A624D8AC94E85BB968557652D30",
+		"HashFor64Bit": "6DD06F970058155ADC77E42D29EE7EF11D33B6D1",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
@@ -953,11 +953,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.24.0.2",
+		"Version": "1.24.0.4",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update2/+download/VeraCrypt%20Setup%201.24-Update2.exe",
-		"HashFor32Bit": "8633E3EA7382F2CB2370B0BECCBB815D96D4C232CB61E08A1DB82544B21BF51C",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update4/+download/VeraCrypt%20Setup%201.24-Update4.exe",
+		"HashFor32Bit": "7ADCD1DD0C814D64A0BFCFFB4F092834D5715329C79EDDA238D7B08CA51BD9A3",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
 	},
 	{
