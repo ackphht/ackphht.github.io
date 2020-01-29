@@ -392,7 +392,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.5.0.0",
+		"Version": "6.5.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
