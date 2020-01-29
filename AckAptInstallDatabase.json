@@ -684,10 +684,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "6.2.3.0",
+		"Version": "6.2.4.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.3/PowerShell-6.2.3-win-x64.msi",
-		"HashFor64Bit": "874E01F9117A6983C05405A3274F16539FDE4F5A314C6ABB1E79CB6566054AE9",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v6.2.4/PowerShell-6.2.4-win-x64.msi",
+		"HashFor64Bit": "AE0601C854B8D1953CCEBCA6DF7EFECF37B4B81844FC345093A3160C3C6417CA",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
