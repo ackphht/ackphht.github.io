@@ -808,10 +808,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.3.6.0",
+		"Version": "3.3.8.0",
 		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.6.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.8.exe",
 		"AppPage": "https://www.sourcetreeapp.com/"
 	},
 	{
