@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "19.0.0.0",
+		"Version": "20.0.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z1900.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z1900-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2000.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2000-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/s",
@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.9.1.0",
+		"Version": "4.10.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.9.1/calibre-64bit-4.9.1.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.10.1/calibre-64bit-4.10.1.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -786,10 +786,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.0.0.0",
+		"Version": "1.1.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.0.0/Sigil-1.0.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "2210d5207c6095debcb94690c58851561daafd627c368e6fdb52351aea274c16",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.1.0/Sigil-1.1.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "c633325e6e772a3c173c80a30c56c79ac961b2e27aabbda884cd91e13106d9f3",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
@@ -1077,10 +1077,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.41.1.0",
+		"Version": "1.42.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "vowvGl4DHKpYyO0wjSuzKw==",
+		"HashFor64Bit": "E+zTV44IM+soWUXgG/eOCQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
