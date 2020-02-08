@@ -700,10 +700,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.3.2.0",
+		"Version": "2019.3.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.2.exe",
-		"HashFor32Bit": "5f32a286ca8a613fe2b908bdf83eb6553fc661132ad0b7abee4e2268c51f4487",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.3.exe",
+		"HashFor32Bit": "96158e07ad24633a97cbfbdf522b0897cf81680c7f49b98b8e2f816fdfcffc0a",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
