@@ -675,10 +675,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.17.0.0",
+		"Version": "7.18.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "5F5A05A85BFA1ED0354F19651BA3650BA0C1025E",
+		"HashFor64Bit": "B6BE35D488D3206419F4E427C8099F314B4B9B08",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.getpostman.com/downloads/release-notes"
 	},
@@ -868,12 +868,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.2.30.0",
+		"Version": "9.2.39.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
-		"HashFor32Bit": "47ef4d642648197b7eccdaf43691da336b5081af58119a3b31a6b76c3608d280",
-		"HashFor64Bit": "4cb2775b16dd4b3fe0e62e01daaf3ae8fedf86985b02c9b0c31b7de62ad87caa",
+		"HashFor32Bit": "7b4cd76c650dc84b01cc44566e980e5144bc19adfb3dc0d3804e646c734803a1",
+		"HashFor64Bit": "79141303e5209004c8dc6dabcf70c9cc566646ac732d3426e81ac928a0d666de",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
