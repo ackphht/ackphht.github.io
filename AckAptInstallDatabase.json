@@ -12,17 +12,17 @@
 	},
 	{
 		"Name": "AdobeDigitalEditions",
-		"Version": "4.5.10.0",
+		"Version": "4.5.11.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe",
 		"AppPage": "http://www.adobe.com/solutions/ebook/digital-editions/download.html"
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2019.021.20058.0",
+		"Version": "2020.006.20034.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/1902120058/AcroRdrDC1902120058_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000620034/AcroRdrDC2000620034_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -309,17 +309,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.321",
+		"Version": "32.0.0.330",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.321/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.330/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.321",
+		"Version": "32.0.0.330",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.321/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.330/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -616,10 +616,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.15.0.0",
+		"Version": "12.16.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.15.0/node-v12.15.0-x64.msi",
-		"HashFor64Bit": "615fe16ec99ebb7de92cb0e1c343979f7ac9d943373e61cff17cd6a9f76547e8",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi",
+		"HashFor64Bit": "8e897b9d9a4742154f4bcce5b9b8dc10403f581fbb091a4597d6d911e10259b2",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
