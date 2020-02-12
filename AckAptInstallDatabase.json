@@ -165,7 +165,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.1.0.5",
+		"Version": "2.2.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -428,11 +428,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.3.2.0",
+		"Version": "2019.3.3.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.2.exe",
-		"HashFor32Bit": "b2a323151bc68830c50087ff97b9662e836a8a3b8ff085e110447f8c93bf2077",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.3.exe",
+		"HashFor32Bit": "60d9bb9717d8028c15c327b090b751cf0b065569e0db10c3292d3009dfa03aec",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -766,11 +766,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2019.3.1.0",
+		"Version": "2019.3.2.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.1/JetBrains.ReSharperUltimate.2019.3.1.exe",
-		"HashFor32Bit": "4ca6fcf2d3f2e72e3ec6e2ae93d4182ebbe53c6f3a64d7115ada3bf6512fc162",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.2/JetBrains.ReSharperUltimate.2019.3.2.exe",
+		"HashFor32Bit": "7b90cad1f6c1eb5818aa896c172863d513f8abba56b0b7d77f089c00900cb79d",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -985,10 +985,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.10.1745.27",
+		"Version": "2.11.1811.33",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.10.1745.27.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.33.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.33.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
