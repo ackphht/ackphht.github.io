@@ -419,7 +419,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.4",
+		"Version": "6.7.3.5",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -692,10 +692,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "1.7.0.0",
+		"Version": "1.8.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.7-03949.exe",
-		"HashFor64Bit": "78b8058e427c0c6b26be6bd2461652a2b223d5f4deee796601fd66a7841a9e8b",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-1.8-04193.exe",
+		"HashFor64Bit": "d27a66e9585ee78e2f60d1c0b380643757f7ec7e8044cf23ebc522230ecf4d55",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
