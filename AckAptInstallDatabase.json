@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.14.1.0",
+		"Version": "1.15.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2113530",
-		"HashFor32Bit": "l4mEayllZhUAAqmUxr6g5w==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2116782",
+		"HashFor32Bit": "3WJd1Zk/ZEUizq17kSbSQg==",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -658,11 +658,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.9.0",
+		"Version": "4.2.10.0",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.9.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.10.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
@@ -1077,10 +1077,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.42.0.0",
+		"Version": "1.42.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "E+zTV44IM+soWUXgG/eOCQ==",
+		"HashFor64Bit": "vbIDa0owQknMxqyZZO4kWw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
