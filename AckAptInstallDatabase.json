@@ -85,7 +85,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2116782",
 		"HashFor32Bit": "3WJd1Zk/ZEUizq17kSbSQg==",
-		"InstallerArguments": "/SP- /SILENT",
+		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
 	{
