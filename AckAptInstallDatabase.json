@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.60.2170.0",
+		"Version": "4.60.2175.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "7f09814a57d3f530efc07c76fb2b895f4bd8a50deed847639070fb9bb351e853",
+		"HashFor32Bit": "1d202c3901c6a6e4bd8290964c7ee90eeb2aeb790ac3b6aa042d1f6e9e82845f",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.15.0.0",
+		"Version": "1.15.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2116782",
-		"HashFor32Bit": "3WJd1Zk/ZEUizq17kSbSQg==",
+		"HashFor32Bit": "oEQgfOJNAK7srNvvKNRsWw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.10.1.0",
+		"Version": "4.11.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.10.1/calibre-64bit-4.10.1.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.11.1/calibre-64bit-4.11.1.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -373,13 +373,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.25.0.0",
+		"Version": "2.25.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-32-bit.exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.25.0.windows.1/Git-2.25.0-64-bit.exe",
-		"HashFor32Bit": "6c02f1a1f95e286df8b87c2812c9460f4c2d333bab7a654751e01e9801994045",
-		"HashFor64Bit": "6ffb0674a5f5fec2a328dd40456ede87ed3c7de653ecd6950f9cf132bca2f94c",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.25.1.windows.1/Git-2.25.1-64-bit.exe",
+		"HashFor64Bit": "9e442131f7dc0de24db1369a4fe02659c2d642bf60ce6d88e31340eedaa18da1",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -392,11 +390,10 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.5.1.0",
+		"Version": "6.5.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
-		"PostInstallMessage": "don't forget to 'fix' the auto update 'feature'...",
 		"InstallerArguments": "/S",
 		"AppPage": "https://www.gitkraken.com/download"
 	},
@@ -766,11 +763,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2019.3.2.0",
+		"Version": "2019.3.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.2/JetBrains.ReSharperUltimate.2019.3.2.exe",
-		"HashFor32Bit": "7b90cad1f6c1eb5818aa896c172863d513f8abba56b0b7d77f089c00900cb79d",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.2/JetBrains.ReSharperUltimate.2019.3.3.exe",
+		"HashFor32Bit": "0261d337d40d83bf4414d15dec6649ed63582ae1804b89a2b5f8932d31c2aba8",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -962,18 +959,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.2.0",
+		"Version": "6.1.4.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.2/VirtualBox-6.1.2-135663-Win.exe",
-		"HashFor32Bit": "703e7c9bcbdda0cd0040049dfcc754c0fb858b6d786a6033dc5d68f21b5fff99",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe",
+		"HashFor32Bit": "66218bcdb4f118e7b5d50e1804e5ec7e0b26d20976415b56992ffb0143b8fa7c",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.2.0",
+		"Version": "6.1.4.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.2/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack",
-		"HashFor32Bit": "54047312d836c17ef0939410f755cb5a23e3037ec402198cc97f755181b25632",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack",
+		"HashFor32Bit": "3b73798d776ff223ea8025b1a45001762f8d4e5bcd1ea61449773c1249935800",
 		"InstallScript": "$cmd = \"$env:ProgramFiles\\VirtualBox\\VBoxManage.exe\"\nif (Test-Path $cmd) {\n    'y' | $cmd extpack install --replace $context.DownloadedFile 2>&1\n    return 0\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
