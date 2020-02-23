@@ -766,7 +766,7 @@
 		"Version": "2019.3.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.2/JetBrains.ReSharperUltimate.2019.3.3.exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2019.3.3/JetBrains.ReSharperUltimate.2019.3.3.exe",
 		"HashFor32Bit": "0261d337d40d83bf4414d15dec6649ed63582ae1804b89a2b5f8932d31c2aba8",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
