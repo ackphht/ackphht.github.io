@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.60.2176.0",
+		"Version": "4.60.2177.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "fcaebdb53482824467b72ee5dd5616321511fe4d74e45f9f09ac0f776518d92c",
+		"HashFor32Bit": "da288af8d35329b2cd90a83997e91da7bee3ce547347324f3827ec481cd058be",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -865,12 +865,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.2.39.0",
+		"Version": "9.3.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
-		"HashFor32Bit": "7b4cd76c650dc84b01cc44566e980e5144bc19adfb3dc0d3804e646c734803a1",
-		"HashFor64Bit": "79141303e5209004c8dc6dabcf70c9cc566646ac732d3426e81ac928a0d666de",
+		"HashFor32Bit": "02303c6473282f89fba7553f7ed8641840f5986e296a669ccbc4ab8d58697572",
+		"HashFor64Bit": "aebd253f07d1d4268b819b67695797b948d838f72eb59f9aef69620609530079",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
@@ -982,10 +982,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.11.1811.38",
+		"Version": "2.11.1811.41",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.38.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.38.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
