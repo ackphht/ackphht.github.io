@@ -281,12 +281,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.46.3.0",
+		"Version": "3.47.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "01f5db8cf2b7d829680fb7d175657c7eebef11e24a6790227e7b89c16ac11df8388a4fad4a39573b7a2d22ee355d9c290515072a6479992efc3710a2658e9661",
-		"HashFor64Bit": "5dbda4a46457b7e06822fd0f52c59c77713b9fe81ba20d5a540a3a67397308a97401aeec50227689fa05b3994fae4aae3c4d1f7d09d4d1b00f59d39385ac8502",
+		"HashFor32Bit": "69701de0daf061da70419a9b0e7c0efca703a818ce6a9df57217d0571e5389276525e303d5f433cfb551dd835ac1726e177bca5b589770ec19c6c93db0071e6e",
+		"HashFor64Bit": "ab6b8259d7d48d9a2c17344c6ac3b7841255b3112c4b493d2dd0c9c227786083a41eeefc0535b178be13b5e5903094e694e380b84a997a8d39beac155602fff4",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -717,10 +717,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.8.1.0",
+		"Version": "3.8.2.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe",
-		"HashFor64Bit": "3e4c42f5ff8fcdbe6a828c912b7afdb1",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe",
+		"HashFor64Bit": "b5df1cbb2bc152cd70c3da9151cb510b",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -744,10 +744,10 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.1.0",
+		"Version": "3.8.2.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.1/python-3.8.1-amd64.exe",
-		"HashFor64Bit": "3e4c42f5ff8fcdbe6a828c912b7afdb1",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe",
+		"HashFor64Bit": "b5df1cbb2bc152cd70c3da9151cb510b",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python38 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -982,10 +982,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.11.1811.41",
+		"Version": "2.11.1811.44",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.41.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.44.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1090,6 +1090,7 @@
 	{
 		"Name": "WinMerge",
 		"Version": "2.16.4.0",
+		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-Setup.exe",
 		"UrlFor64Bit": "https://downloads.sourceforge.net/winmerge/WinMerge-2.16.4-x64-Setup.exe",
