@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.1.0.0",
+		"Version": "2.2.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "IwV2PgyvGU8S6wJAuq4UHQ==",
+		"HashFor32Bit": "MXh0UtnO9STfg6/zafvsLQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -390,7 +390,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.5.3.0",
+		"Version": "6.5.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -416,7 +416,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.9",
+		"Version": "6.7.3.10",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -672,12 +672,12 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.19.1.0",
+		"Version": "7.20.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "B41D4B3C445FE3F41FF4B96373DAF323CAF2579E",
+		"HashFor64Bit": "5A597F791A6E1689FB68EEEFB5A643E30681E141",
 		"InstallerArguments": "-s",
-		"AppPage": "https://www.getpostman.com/downloads/release-notes"
+		"AppPage": "https://www.postman.com/downloads/release-notes#changelog-windows-app"
 	},
 	{
 		"Name": "PowerShellCore",
@@ -1075,10 +1075,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.42.1.0",
+		"Version": "1.43.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "vbIDa0owQknMxqyZZO4kWw==",
+		"HashFor64Bit": "zNGlt2aUdVbrP05iUDmp6w==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
