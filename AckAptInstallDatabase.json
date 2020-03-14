@@ -165,7 +165,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.2.0.0",
+		"Version": "2.2.0.3",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -672,10 +672,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.20.0.0",
+		"Version": "7.20.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "5A597F791A6E1689FB68EEEFB5A643E30681E141",
+		"HashFor64Bit": "A48B62E50512632385E5F05EC7F308367F4BC2C2",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/release-notes#changelog-windows-app"
 	},
@@ -1001,10 +1001,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "15.5.0.14665864",
+		"Version": "15.5.2.15785246",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.0-14665864.exe",
-		"HashFor64Bit": "36e7ba037da46b0e8ac73a4e4d961e7a8c2eb6f4",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.2-15785246.exe",
+		"HashFor64Bit": "58f3788a2315f9f7d1dda94841ee946b44ea8606",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
 	},
 	{
