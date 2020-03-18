@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.006.20034.0",
+		"Version": "2020.006.20042.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000620034/AcroRdrDC2000620034_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000620042/AcroRdrDC2000620042_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -358,10 +358,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.18.0",
+		"Version": "2.10.18.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.18-setup.exe",
-		"HashFor32Bit": "e34d5f5f4fb7a0ff0f01e31e813a5ffe08e8423201e97efdc56117a5950173f2",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.18-setup-1.exe",
+		"HashFor32Bit": "3afe61d57dab032a087ddd45853bc52e967f706505a1aab953e7527586407b5b",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
@@ -425,11 +425,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.3.3.0",
+		"Version": "2019.3.4.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.3.exe",
-		"HashFor32Bit": "60d9bb9717d8028c15c327b090b751cf0b065569e0db10c3292d3009dfa03aec",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.4.exe",
+		"HashFor32Bit": "b72c532072b75d3b0b73d7d1f1ca496532aca10bc1c2a1049cff1324041e1af3",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -866,12 +866,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.3.4.0",
+		"Version": "9.3.11.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
-		"HashFor32Bit": "deedd9a635e65839f8b677c678b2dec735a5974c4ccc989a60f9897e6258e3bc",
-		"HashFor64Bit": "be5484a3bcdf2f933594f9b76ac0ffee12b5b77d77fbe61e3f3d04d88debf87e",
+		"HashFor32Bit": "ad9d8c3dbbd900224e5792d23bf1ce08ce8686bdbaeb6a4a66b3bc104602135c",
+		"HashFor64Bit": "80902b6e1cfbba5fd7f89d23e6405ed4fc15c644df8733900826f780ee59cf58",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
