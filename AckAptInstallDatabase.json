@@ -698,10 +698,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.3.3.0",
+		"Version": "2019.3.4.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.3.exe",
-		"HashFor32Bit": "96158e07ad24633a97cbfbdf522b0897cf81680c7f49b98b8e2f816fdfcffc0a",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.4.exe",
+		"HashFor32Bit": "c03e895285df92fa9ad6bd88b549f8df0e6c8647394b8a4a6a2a962b4ea01a76",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -1075,10 +1075,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.43.0.0",
+		"Version": "1.43.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "zNGlt2aUdVbrP05iUDmp6w==",
+		"HashFor64Bit": "yhXtW8QC7KgR28rOFwOLQQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
