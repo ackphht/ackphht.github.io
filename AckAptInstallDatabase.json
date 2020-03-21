@@ -983,10 +983,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.11.1811.47",
+		"Version": "2.11.1811.49",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.47.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.47.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.49.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.49.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
