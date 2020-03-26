@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.60.2177.0",
+		"Version": "4.60.2180.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "da288af8d35329b2cd90a83997e91da7bee3ce547347324f3827ec481cd058be",
+		"HashFor32Bit": "c4839b82859219745ffd09853687ce12bac0b30cb8028d1e4401143e5d8ad9b4",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -358,10 +358,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.18.1",
+		"Version": "2.10.18.2",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.18-setup-1.exe",
-		"HashFor32Bit": "3afe61d57dab032a087ddd45853bc52e967f706505a1aab953e7527586407b5b",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.18-setup-2.exe",
+		"HashFor32Bit": "bf6ce59587e63e1e8bab923e7dfdaa0f2c8bd3ac4d0ced602f3c063f9e32465c",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
