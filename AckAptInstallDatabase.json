@@ -784,10 +784,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.1.0.0",
+		"Version": "1.2.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.1.0/Sigil-1.1.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "c633325e6e772a3c173c80a30c56c79ac961b2e27aabbda884cd91e13106d9f3",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.2.0/Sigil-1.2.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "02716b60d6f3af4e17a1e03780344a6d80e998e4c13a4e2d41a4f926c4542a4c",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
@@ -847,13 +847,13 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.19.3.1",
+		"Version": "0.20.0.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3.1-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.19.3/stellarium-0.19.3.1-win64.exe",
-		"HashFor32Bit": "5ec8b84d937635ebb8803bef5eda4fd940050745",
-		"HashFor64Bit": "874810f7ffbc4e1a3425cab0319cf62cd49d59bd",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0-win64.exe",
+		"HashFor32Bit": "4ee4f96a132bd5fe2853aa8e4d430e6e27f6b1999eaae0ffe257ebcb7c5331b9",
+		"HashFor64Bit": "3670bc90c0d2f62ef6bf722e407a26fcc8d5fec21542e89633d319942f394828",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
