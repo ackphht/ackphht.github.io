@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.2.0.0",
+		"Version": "2.3.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "MXh0UtnO9STfg6/zafvsLQ==",
+		"HashFor32Bit": "PsdumbsNnLBzSQs7PpSjaA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -325,7 +325,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.5.2.0",
+		"Version": "1.5.3.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -847,13 +847,13 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.20.0.0",
+		"Version": "0.20.0.1",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0-win64.exe",
-		"HashFor32Bit": "4ee4f96a132bd5fe2853aa8e4d430e6e27f6b1999eaae0ffe257ebcb7c5331b9",
-		"HashFor64Bit": "3670bc90c0d2f62ef6bf722e407a26fcc8d5fec21542e89633d319942f394828",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0.1-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0.1-win64.exe",
+		"HashFor32Bit": "fa43a5ccce5c75ab9aed0c519e3dfaaabc54ad97acee9e8e0018ef978e236cf7",
+		"HashFor64Bit": "5de72af02eba92e965819dfc4ec604ebaae2c230331b09bd80a88e37d71b19ee",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
