@@ -690,10 +690,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.0.0.0",
+		"Version": "2.0.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.0-04513.exe",
-		"HashFor64Bit": "7bb26755c18368035531115b329a292ca32fb86061bc8fefe913f96aef628424",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.0.1-04518.exe",
+		"HashFor64Bit": "c7f1f362ed5500043007d40619f4de17b92e77e3f318a2721ddfe16ea79c584b",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
