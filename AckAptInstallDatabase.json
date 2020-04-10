@@ -672,10 +672,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.21.2.0",
+		"Version": "7.22.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "EF57F0765873A31347E5CE16A28B0AB02BC28263",
+		"HashFor64Bit": "5F0D85FC0D7AF5128F9A6B2AD5D598A4962645AC",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/release-notes#changelog-windows-app"
 	},
@@ -698,10 +698,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2019.3.4.0",
+		"Version": "2020.1.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2019.3.4.exe",
-		"HashFor32Bit": "c03e895285df92fa9ad6bd88b549f8df0e6c8647394b8a4a6a2a962b4ea01a76",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.exe",
+		"HashFor32Bit": "8cba4c827f8ebf6959d6a7db839bccfb5ee3d746ec6e2474dd82a2359418acd1",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -1075,10 +1075,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.43.2.0",
+		"Version": "1.44.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "DYhp7ZjC5kYI729NJfh0Bw==",
+		"HashFor64Bit": "8xGjEQjDiE+JJQ3BErPpCA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
@@ -1109,10 +1109,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.2.0",
+		"Version": "3.2.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.2.exe",
-		"HashFor64Bit": "cc9b49c696219cc093debaae11febeb546b2a508f41150b983ae0af6954c0512",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.3.exe",
+		"HashFor64Bit": "e345963a475b79df937b41e297e8680f1f4f0cc8e8bee715fafc50834e6cc44d",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
