@@ -292,10 +292,10 @@
 	},
 	{
 		"Name": "FiraCodeFont",
-		"Version": "2.0.0.0",
+		"Version": "3.0.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip",
-		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using as possible",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/3/FiraCode_3.zip",
+		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
@@ -416,7 +416,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.10",
+		"Version": "6.7.3.11",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -425,11 +425,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2019.3.4.0",
+		"Version": "2020.1.0.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2019.3.4.exe",
-		"HashFor32Bit": "b72c532072b75d3b0b73d7d1f1ca496532aca10bc1c2a1049cff1324041e1af3",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.exe",
+		"HashFor32Bit": "b0b0b1132e2ad761fc3177200ac5549da24aafdfaa71d3081449762ea9c6e9b0",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -838,11 +838,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.4.0.0",
-		"Notes": "Build number: 15.0.18206.0",
+		"Version": "18.5.0.0",
+		"Notes": "Build number: 15.0.18330.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2108895",
-		"HashFor32Bit": "ZdA0CWtjxuyQUZUbzxAIjA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2125901",
+		"HashFor32Bit": "4wx75pxqOqTq5/89+Sxs+g==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
@@ -991,12 +991,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.8.0",
+		"Version": "3.0.9.2",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.8/win32/vlc-3.0.8-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.8/win64/vlc-3.0.8-win64.exe",
-		"HashFor32Bit": "f286e25d5c52bfe7f392fb3f4e28e711225d1773e3c43281cb901145ded34def",
-		"HashFor64Bit": "0cc54e69016e3d5a80e229c768ac37a02aea3a973a5447593c0132281e383942",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.9.2/win32/vlc-3.0.9.2-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.9.2/win64/vlc-3.0.9.2-win64.exe",
+		"HashFor32Bit": "db97fe259e4d38d612f409814b5bd5e6e29edf80ffd3a6c2c3a15b33b7e2b25b",
+		"HashFor64Bit": "f516c5cea7717883e498cf4d72d0647b4379bc56137f6b7daadb8c57c33f7b80",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
