@@ -940,7 +940,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.16.27033.0",
+		"Version": "14.25.28508.3",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
