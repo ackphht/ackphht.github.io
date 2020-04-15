@@ -373,11 +373,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.26.0.0",
+		"Version": "2.26.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.26.0.windows.1/Git-2.26.0-64-bit.exe",
-		"HashFor64Bit": "c8cd522b8a1eacd421a10591227cc6279f31485876462cd9fc335914584429f5",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.26.1.windows.1/Git-2.26.1-64-bit.exe",
+		"HashFor64Bit": "2f4595973f188d24a585e70e1cd77749dda05f6429f38ba37e5c4ca6b52fdb30",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -481,13 +481,13 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.241.0",
+		"Version": "8.0.251.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241534_1f5b5a70bf22433b84d0e960903adac8",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=241536_1f5b5a70bf22433b84d0e960903adac8",
-		"HashFor32Bit": "f6803573fb3eb1bbe4aa17ebd587e1affdb33c8f6ca3ffdbba54bccbd407346c",
-		"HashFor64Bit": "9aa43fdf8f12cb4d49fa8cb2f469916a7a761429194968668fcdcf2a375d9797",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242058_3d5a2bb8f8d4428bbe94aed7ec7ae784",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=242060_3d5a2bb8f8d4428bbe94aed7ec7ae784",
+		"HashFor32Bit": "e1b646c9483352f5fd74d78579b38d4136ecfcfe3e32b8426c70d84d6647463f",
+		"HashFor64Bit": "26cb9474a8f8f80398054b29515602e48bd3088d167452f525ebb616882b2dc2",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
@@ -961,18 +961,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.4.0",
+		"Version": "6.1.6.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-Win.exe",
-		"HashFor32Bit": "66218bcdb4f118e7b5d50e1804e5ec7e0b26d20976415b56992ffb0143b8fa7c",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.6/VirtualBox-6.1.6-137129-Win.exe",
+		"HashFor32Bit": "b3fcbf2b403f14d4e0d2f34703854032f76c125f3a8859d4778e6700293e2815",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.4.0",
+		"Version": "6.1.6.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack",
-		"HashFor32Bit": "3b73798d776ff223ea8025b1a45001762f8d4e5bcd1ea61449773c1249935800",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.6/Oracle_VM_VirtualBox_Extension_Pack-6.1.6.vbox-extpack",
+		"HashFor32Bit": "80b96b4b51a502141f6a8981f1493ade08a00762622c39e48319e5b122119bf3",
 		"InstallScript": "$cmd = \"$env:ProgramFiles\\VirtualBox\\VBoxManage.exe\"\nif (Test-Path $cmd) {\n    'y' | $cmd extpack install --replace $context.DownloadedFile 2>&1\n    return 0\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
@@ -1076,10 +1076,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.44.0.0",
+		"Version": "1.44.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "8xGjEQjDiE+JJQ3BErPpCA==",
+		"HashFor64Bit": "p8z93ww7H3c+C0O+eoYDBw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
