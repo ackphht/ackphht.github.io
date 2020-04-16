@@ -639,11 +639,11 @@
 	},
 	{
 		"Name": "notepad3",
-		"Version": "5.20.411.2",
+		"Version": "5.20.414.1",
 		"Notes": "https://github.com/rizonesoft/Notepad3",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.411.2_x86_Setup.exe",
-		"UrlFor64Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.411.2_Setup.exe",
+		"UrlFor32Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.414.1_x86_Setup.exe",
+		"UrlFor64Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.414.1_Setup.exe",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/"
 	},
 	{
