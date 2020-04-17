@@ -416,7 +416,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.11",
+		"Version": "6.7.3.12",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -1076,10 +1076,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.44.1.0",
+		"Version": "1.44.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "p8z93ww7H3c+C0O+eoYDBw==",
+		"HashFor64Bit": "TOCUOWIEnVmZYBnMD9r1OQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
