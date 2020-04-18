@@ -35,10 +35,10 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "3.6.2.0",
+		"Version": "3.6.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.google.com/dl/android/studio/install/3.6.2.0/android-studio-ide-192.6308749-windows.exe",
-		"HashFor64Bit": "977112d05392fdb0e74ebffe33d05e844d084b5015a31151796a30324f855a35",
+		"UrlFor64Bit": "https://redirector.gvt1.com/edgedl/android/studio/install/3.6.3.0/android-studio-ide-192.6392135-windows.exe",
+		"HashFor64Bit": "07b6df807fda59e69f05b85ff6f6bd0c70d09e57fb151197155ef5f115f96e59",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/index.html#downloads"
 	},
