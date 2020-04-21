@@ -708,12 +708,12 @@
 	},
 	{
 		"Name": "python27",
-		"Version": "2.7.17.0",
+		"Version": "2.7.18.0",
 		"Type": "msi",
-		"UrlFor32Bit": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.msi",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.17/python-2.7.17.amd64.msi",
-		"HashFor32Bit": "4cc27e99ad41cd3e0f2a50d9b6a34f79",
-		"HashFor64Bit": "55040ce1c1ab34c32e71efe9533656b8",
+		"UrlFor32Bit": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.msi",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi",
+		"HashFor32Bit": "db6ad9195b3086c6b4cefb9493d738d2",
+		"HashFor64Bit": "a425c758d38f8e28b56f4724b499239a",
 		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -848,13 +848,13 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.20.0.1",
+		"Version": "0.20.1.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0.1-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.0/stellarium-0.20.0.1-win64.exe",
-		"HashFor32Bit": "fa43a5ccce5c75ab9aed0c519e3dfaaabc54ad97acee9e8e0018ef978e236cf7",
-		"HashFor64Bit": "5de72af02eba92e965819dfc4ec604ebaae2c230331b09bd80a88e37d71b19ee",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.1/stellarium-0.20.1-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.1/stellarium-0.20.1-win64.exe",
+		"HashFor32Bit": "a13b4a73ace386fc8eb4fbab9cacdc0c5043aa944e244bd56cca9da438e04f83",
+		"HashFor64Bit": "a06cd2ce8c34d791cbe7472d40c5520dd164bd790e5de30118b74e8ef718b934",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
