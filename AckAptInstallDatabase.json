@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.3.1.0",
+		"Version": "2.4.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "Pqe17f5MF8bxQPn+Do5QPw==",
+		"HashFor32Bit": "tiU9nCOdW3gLenH+rVHUbQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -373,11 +373,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.26.1.0",
+		"Version": "2.26.2.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.26.1.windows.1/Git-2.26.1-64-bit.exe",
-		"HashFor64Bit": "2f4595973f188d24a585e70e1cd77749dda05f6429f38ba37e5c4ca6b52fdb30",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe",
+		"HashFor64Bit": "cdf76510979dace4d3f5368e2f55d4289c405e249399e7ed09049765489da6e8",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
