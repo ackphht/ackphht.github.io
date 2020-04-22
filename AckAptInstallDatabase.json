@@ -265,7 +265,7 @@
 	},
 	{
 		"Name": "Fiddler4",
-		"Version": "5.0.20194.41348",
+		"Version": "5.0.20202.18177",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
 		"InstallerArguments": "/S",
@@ -390,7 +390,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.5.4.0",
+		"Version": "6.6.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -622,12 +622,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.5.0",
+		"Version": "7.8.6.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.5/npp.7.8.5.Installer.exe",
-		"HashFor32Bit": "6db7d40d66d4c4f9eefb972e333f733111d4c8fc0712d6c6e8a9b476a14eee38",
-		"HashFor64Bit": "ab80b1b5405f09302e0e950eaeae2956b7f3c7bb2f463328cbb96e33746cc090",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.6/npp.7.8.6.Installer.exe",
+		"HashFor32Bit": "26ca36509ea21535a39f812a1eabdbdc8bacc617e517700229e3a662db00ff95",
+		"HashFor64Bit": "03b3a8e2d0395b2dcaf7cd30cb47106ebac678cbcd72e81bb5ee0e618927d3dd",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -984,10 +984,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "2.11.1811.52",
+		"Version": "3.0.1874.23",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.2.11.1811.52.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
