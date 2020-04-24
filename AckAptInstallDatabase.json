@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.13.0.0",
+		"Version": "4.14.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.13.0/calibre-64bit-4.13.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.14.0/calibre-64bit-4.14.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -673,10 +673,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.22.1.0",
+		"Version": "7.23.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
-		"HashFor64Bit": "5F0D85FC0D7AF5128F9A6B2AD5D598A4962645AC",
+		"HashFor64Bit": "2E8881734A721E9FCD10939E629EB6622536A5D6",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/release-notes#changelog-windows-app"
 	},
@@ -984,10 +984,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.0.1874.23",
+		"Version": "3.0.1874.32",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.23.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.32.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.32.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
