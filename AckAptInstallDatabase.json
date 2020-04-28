@@ -71,20 +71,20 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.4.0.0",
+		"Version": "2.5.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "tiU9nCOdW3gLenH+rVHUbQ==",
+		"HashFor32Bit": "dGqixcT5mFt9DmAepPSZig==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.16.0.0",
+		"Version": "1.17.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2121609",
-		"HashFor32Bit": "8Igi9eHQ5n+UcYY5PPDZPg==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2127556",
+		"HashFor32Bit": "rnYF9mozTYAPojqAY46kVw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -281,12 +281,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.47.2.1",
+		"Version": "3.48.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "a908a3ef7b021b67243d5fbb9ecb1f2252c943554a21fe5faadcd996dd3169d64e194a24ac8b6b988530911d7f870f750e96f8d1c31f1f30e098e0dd16354141",
-		"HashFor64Bit": "230f8158dd3f41609233b167edaa469290339f7f1d9403cc82a78c5618bd49c29d02499ba729814ad7817cdfeb85aa1d4f76472300b084913bb224545afead52",
+		"HashFor32Bit": "99fc7572a5f421faa5073f3b18cbe00449a2988c20228962a0caa4f853a4d514c092c2bfeff360541761062d7c975d3cd9a22fd97b3bbbd93cb71649c734e4e7",
+		"HashFor64Bit": "a4118a078915a1fa744bee5fdf31240acb9ea09651f814c79e06b6899fa5b32952e1aa9c52efca60de40891abc6cd70b14a6e0134e6fac433800ea29dfc5ee9c",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -416,7 +416,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.12",
+		"Version": "6.7.3.13",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -992,12 +992,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.9.2",
+		"Version": "3.0.10.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.9.2/win32/vlc-3.0.9.2-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.9.2/win64/vlc-3.0.9.2-win64.exe",
-		"HashFor32Bit": "db97fe259e4d38d612f409814b5bd5e6e29edf80ffd3a6c2c3a15b33b7e2b25b",
-		"HashFor64Bit": "f516c5cea7717883e498cf4d72d0647b4379bc56137f6b7daadb8c57c33f7b80",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.10/win32/vlc-3.0.10-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.10/win64/vlc-3.0.10-win64.exe",
+		"HashFor32Bit": "ccfb91146cba92a3ec5274fee90d2cee35cfda7fd38240b3f65da26d53d28a0b",
+		"HashFor64Bit": "e0a0883cd6c29aee23ecfc63573bc09e09f78de0da78a6f55ab13fab1c65850b",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
