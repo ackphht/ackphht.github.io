@@ -613,10 +613,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.16.2.0",
+		"Version": "12.16.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.16.2/node-v12.16.2-x64.msi",
-		"HashFor64Bit": "7d305c61032a2392900c9435b4d6e4656d6387fef1f8a6706d9fabde35022652",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.16.3/node-v12.16.3-x64.msi",
+		"HashFor64Bit": "03450c12d04fc34c2d857a6a2b11ab1cfee7e0631546ab3f25eeb6452e83803f",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
