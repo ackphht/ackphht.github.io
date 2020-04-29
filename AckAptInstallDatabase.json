@@ -416,7 +416,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.13",
+		"Version": "6.7.3.14",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -765,11 +765,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.1.0.0",
+		"Version": "2020.1.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1/JetBrains.ReSharperUltimate.2020.1.exe",
-		"HashFor32Bit": "b59af6c76856aeaec4e4cf1fd6a1aa2a40f13d8dd0b6cde247f34f89d182ce8c",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.1/JetBrains.ReSharperUltimate.2020.1.1.exe",
+		"HashFor32Bit": "1f9788cd5ee40f3c4a5ddd3bcbcee45117dd6da9ac14b55edc0bbb5fedb5cf39",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -984,10 +984,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.0.1874.32",
+		"Version": "3.0.1874.33",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.32.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.32.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.33.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.33.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
