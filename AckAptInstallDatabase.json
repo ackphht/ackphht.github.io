@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.5.0.0",
+		"Version": "2.5.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "dGqixcT5mFt9DmAepPSZig==",
+		"HashFor32Bit": "2nSagQh/EXQ4yxSThyX30g==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -691,10 +691,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.0.1.0",
+		"Version": "2.0.2.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.0.1-04518.exe",
-		"HashFor64Bit": "c7f1f362ed5500043007d40619f4de17b92e77e3f318a2721ddfe16ea79c584b",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.0.2-04704.exe",
+		"HashFor64Bit": "d66b686bd251fe6b2350d028be4fa954f53bf6156a66efbebb64229fbbb33d5f",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
