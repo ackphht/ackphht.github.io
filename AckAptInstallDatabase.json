@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.17.0.0",
+		"Version": "1.17.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2127556",
-		"HashFor32Bit": "rnYF9mozTYAPojqAY46kVw==",
+		"HashFor32Bit": "Wv6QqH6W07/VbsEobskSnw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -425,11 +425,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.1.0.0",
+		"Version": "2020.1.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.exe",
-		"HashFor32Bit": "b0b0b1132e2ad761fc3177200ac5549da24aafdfaa71d3081449762ea9c6e9b0",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.1.exe",
+		"HashFor32Bit": "d43158163742a7ba8134b8745debc264842d36ba6a40e510698741360977a3c5",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
