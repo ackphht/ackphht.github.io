@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.12.0.0",
+		"Version": "1.13.0.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "lva0ytkA1M+aMgIjd6O+Xw==",
+		"HashFor32Bit": "NMlnNH+GqkiBH+bop/vEow==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
