@@ -700,10 +700,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.1.0.0",
+		"Version": "2020.1.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.exe",
-		"HashFor32Bit": "8cba4c827f8ebf6959d6a7db839bccfb5ee3d746ec6e2474dd82a2359418acd1",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.1.exe",
+		"HashFor32Bit": "500ee36ed61b553bc23af8e44e51a52d127b37095998583d0f3779e3179b18e3",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -766,11 +766,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.1.1.0",
+		"Version": "2020.1.2.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.1/JetBrains.ReSharperUltimate.2020.1.1.exe",
-		"HashFor32Bit": "1f9788cd5ee40f3c4a5ddd3bcbcee45117dd6da9ac14b55edc0bbb5fedb5cf39",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.2/JetBrains.ReSharperUltimate.2020.1.2.exe",
+		"HashFor32Bit": "eaef637460c447d75b68fc629983932e7759a5dd4f321cfa2eb87eb430d2e5a5",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -985,10 +985,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.0.1874.33",
+		"Version": "3.0.1874.38",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.33.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.33.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.38.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.0.1874.38.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
