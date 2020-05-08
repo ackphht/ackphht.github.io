@@ -417,7 +417,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.14",
+		"Version": "6.7.3.15",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -507,10 +507,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.44.0.0",
+		"Version": "2.45.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.44/KeePass-2.44-Setup.exe/download",
-		"HashFor32Bit": "7A05107A61106C7FA8FBE9982111A32F9690E9E84D17A2DECE61938EF16FE1E7",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.45/KeePass-2.45-Setup.exe/download",
+		"HashFor32Bit": "9058CC9D44129E8C2C902E21F8678974B789ECD8F9D6ADD81C98FBEAF9794E23",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
@@ -1077,10 +1077,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.44.2.0",
+		"Version": "1.45.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "TOCUOWIEnVmZYBnMD9r1OQ==",
+		"HashFor64Bit": "SzRHexb0+qmARikYKcozig==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
