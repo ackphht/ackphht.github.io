@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.006.20042.0",
+		"Version": "2020.009.20063.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000620042/AcroRdrDC2000620042_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000920063/AcroRdrDC2000920063_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
