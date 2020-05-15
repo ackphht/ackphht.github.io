@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.15.0.0",
+		"Version": "4.16.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.15.0/calibre-64bit-4.15.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.16.0/calibre-64bit-4.16.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -683,11 +683,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.0.0.0",
+		"Version": "7.0.1.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x64.msi",
-		"HashFor64Bit": "876F4A64012A1FB024DCCEA696DB00C5CD1A37C8DC9DFA2431C58CDF9F82950B",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x64.msi",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -1077,10 +1076,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.45.0.0",
+		"Version": "1.45.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "SzRHexb0+qmARikYKcozig==",
+		"HashFor64Bit": "Gn7poMhb769TlnXOoJ79AA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
