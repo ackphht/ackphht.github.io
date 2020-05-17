@@ -332,9 +332,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "9.7.2.29539",
+		"Version": "10.0.0.35798",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=9.7.2.29539",
+		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.0.0.35798",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
 	},
 	{
