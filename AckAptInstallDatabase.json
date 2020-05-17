@@ -113,6 +113,15 @@
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
 	{
+		"Name": "CascadiaCodeFont",
+		"Version": "2005.15.0.0",
+		"Type": "script",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2005.15/CascadiaCode_2005.15.zip",
+		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
+		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
+	},
+	{
 		"Name": "Clover",
 		"Version": "3.4.0.0",
 		"Type": "exe",
