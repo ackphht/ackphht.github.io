@@ -44,10 +44,10 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "2.3.3.0",
+		"Version": "2.4.0.0",
 		"Type": "zip",
 		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.3.3",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.0",
 		"AppPage": "http://www.audacityteam.org/download/windows/"
 	},
 	{
@@ -301,9 +301,9 @@
 	},
 	{
 		"Name": "FiraCodeFont",
-		"Version": "3.1.0.0",
+		"Version": "4.0.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/3.1/FiraCode_3.1.zip",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/4/Fira_Code_v4.zip",
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
