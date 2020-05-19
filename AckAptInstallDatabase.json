@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.5.1.0",
+		"Version": "2.6.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "2nSagQh/EXQ4yxSThyX30g==",
+		"HashFor32Bit": "bMDmsyY/BzvIMk/m+YjU4w==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.13.0.0",
+		"Version": "1.13.1.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "NMlnNH+GqkiBH+bop/vEow==",
+		"HashFor32Bit": "rTl28IQzzVrLyPCroa8PQA==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -290,12 +290,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.48.0.0",
+		"Version": "3.48.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "99fc7572a5f421faa5073f3b18cbe00449a2988c20228962a0caa4f853a4d514c092c2bfeff360541761062d7c975d3cd9a22fd97b3bbbd93cb71649c734e4e7",
-		"HashFor64Bit": "a4118a078915a1fa744bee5fdf31240acb9ea09651f814c79e06b6899fa5b32952e1aa9c52efca60de40891abc6cd70b14a6e0134e6fac433800ea29dfc5ee9c",
+		"HashFor32Bit": "76a514b395d454241ffa414168c9090556433155dca038bbe853bb0b588d605c269613a81b0b91b042d03a80408ed3e0f066ab1b40e97162b415171c364a6926",
+		"HashFor64Bit": "00c82d237eefd28bf0df98dd53fa6239e30dc386f706f67fc42419fa2d13fa12e9f3aaf92c1ca9ba7c34e1ddc8b6292f16b78bcf91954515ad1782200a5eef78",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -565,10 +565,10 @@
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.7.0.0",
+		"Version": "6.8.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashFor32Bit": "A78XnqVOBkx4QwGVQiv0Vw==",
+		"HashFor32Bit": "2GfOLajPQRswmb0z5TJP8w==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -774,11 +774,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.1.2.0",
+		"Version": "2020.1.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.2/JetBrains.ReSharperUltimate.2020.1.2.exe",
-		"HashFor32Bit": "eaef637460c447d75b68fc629983932e7759a5dd4f321cfa2eb87eb430d2e5a5",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.3/JetBrains.ReSharperUltimate.2020.1.3.exe",
+		"HashFor32Bit": "7889bb566f0d218818628354b2977676d75b3599e8dbee791af3af8d6b90590f",
 		"InstallerArguments": "/VsVersion=14.0;15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper /Silent=True",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
