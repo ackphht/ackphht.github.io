@@ -426,7 +426,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.15",
+		"Version": "6.7.3.16",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -1119,10 +1119,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.3.0",
+		"Version": "3.2.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.3.exe",
-		"HashFor64Bit": "e345963a475b79df937b41e297e8680f1f4f0cc8e8bee715fafc50834e6cc44d",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.4.exe",
+		"HashFor64Bit": "db2565ee6410b7c57f54aaac86954e4f6a98e2ea31ffbea83e60b981fff57301",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
