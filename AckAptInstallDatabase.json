@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.17.1.0",
+		"Version": "1.18.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2127556",
-		"HashFor32Bit": "Wv6QqH6W07/VbsEobskSnw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2127522",
+		"HashFor32Bit": "vbfFBalo2JEeMXLN2RDC1g==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -400,7 +400,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "6.6.0.0",
+		"Version": "7.0.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -666,11 +666,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.10.0",
+		"Version": "4.2.11.0",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.10.install.zip",
+		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.11.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
