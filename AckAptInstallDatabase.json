@@ -44,10 +44,10 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "2.4.0.0",
+		"Version": "2.4.1.0",
 		"Type": "zip",
 		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.0",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.1",
 		"AppPage": "http://www.audacityteam.org/download/windows/"
 	},
 	{
@@ -950,7 +950,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.25.28508.3",
+		"Version": "14.26.28720.3",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
