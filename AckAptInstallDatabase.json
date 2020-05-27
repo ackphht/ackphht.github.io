@@ -54,7 +54,7 @@
 		"Name": "AudioShell",
 		"Version": "2.3.6.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://softpointer.com/downloads/AudioShell236.exe",
+		"UrlFor32Bit": "https://softpointer.com/downloads/AudioShell236.exe",
 		"PreInstallMessage": "installing AudioShell: should kill explorer now",
 		"PostInstallMessage": "done installing AudioShell: can restart explorer now",
 		"AppPage": "http://softpointer.com/AudioShell.htm"
@@ -64,7 +64,7 @@
 		"Version": "1.1.32.0",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ahkscript.org/download/ahk-install.exe",
+		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/"
@@ -213,7 +213,7 @@
 		"Version": "4.8.0.0",
 		"Notes": "https://dotnet.microsoft.com/download/dotnet-framework",
 		"Type": "exe",
-		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=2085155",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=2085155",
 		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
 	},
 	{
@@ -284,7 +284,7 @@
 		"Name": "FileMenuTools",
 		"Version": "7.7.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
+		"UrlFor32Bit": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
 		"HashFor32Bit": "e2ddb82e84c45c45e77728afc6f7cb1c",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
@@ -351,8 +351,8 @@
 		"Version": "5.1.38.7312",
 		"Notes": "http://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17363",
 		"Type": "exe",
-		"UrlFor32Bit": "http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe",
-		"UrlFor64Bit": "http://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe",
+		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x86_setup.exe",
+		"UrlFor64Bit": "https://dn3.freedownloadmanager.org/5/5.1-latest/fdm5_x64_setup.exe",
 		"PreInstallMessage": "about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...",
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
 		"AppPage": "http://www.freedownloadmanager.org/download.htm"
@@ -361,7 +361,7 @@
 		"Name": "Freemind",
 		"Version": "1.0.1",
 		"Type": "exe",
-		"UrlFor32Bit": "http://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe",
+		"UrlFor32Bit": "https://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe",
 		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://freemind.sourceforge.net/wiki/index.php/Main_Page"
 	},
@@ -470,8 +470,8 @@
 		"Version": "7.2.1.0",
 		"Type": "zip",
 		"ZipContentToRun": "iSpySetup.exe",
-		"UrlFor32Bit": "http://ispyrtcdata.blob.core.windows.net/downloads/iSpy_7_2_1_0.zip",
-		"UrlFor64Bit": "http://ispyrtcdata.blob.core.windows.net/downloads/iSpy64_7_2_1_0.zip",
+		"UrlFor32Bit": "https://ispyrtcdata.blob.core.windows.net/downloads/iSpy_7_2_1_0.zip",
+		"UrlFor64Bit": "https://ispyrtcdata.blob.core.windows.net/downloads/iSpy64_7_2_1_0.zip",
 		"AppPage": "http://www.ispyconnect.com/download.aspx"
 	},
 	{
@@ -623,10 +623,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.16.3.0",
+		"Version": "12.17.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.16.3/node-v12.16.3-x64.msi",
-		"HashFor64Bit": "03450c12d04fc34c2d857a6a2b11ab1cfee7e0631546ab3f25eeb6452e83803f",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.17.0/node-v12.17.0-x64.msi",
+		"HashFor64Bit": "fcf7abaafd5dede76104527d064f88ec1f2d2131dc9a0f5387fe2c0abbd1ba94",
 		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
@@ -670,7 +670,7 @@
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "http://www.dotpdn.com/files/paint.net.4.2.11.install.zip",
+		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.11.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
