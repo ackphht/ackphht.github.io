@@ -426,7 +426,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.16",
+		"Version": "6.7.3.17",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -1011,10 +1011,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "15.5.2.15785246",
+		"Version": "15.5.5.16285975",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.2-15785246.exe",
-		"HashFor64Bit": "58f3788a2315f9f7d1dda94841ee946b44ea8606",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.5-16285975.exe",
+		"HashFor64Bit": "689ca37d54e62a4fa3dfeb3c9bd1449fb38d1bb2",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
 	},
 	{
