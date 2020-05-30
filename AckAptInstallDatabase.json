@@ -982,7 +982,7 @@
 		"Type": "script",
 		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.8/Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack",
 		"HashFor32Bit": "e609c012305e4ff3c520f36b46d19dab50ecac65228a983fe85c918a1534e490",
-		"InstallScript": "$cmd = \"$env:ProgramFiles\\VirtualBox\\VBoxManage.exe\"\nif (Test-Path $cmd) {\n    'y' | $cmd extpack install --replace $context.DownloadedFile 2>&1\n    return 0\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
+		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
 		"Name": "VirtualCloneDrive",
