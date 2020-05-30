@@ -7,7 +7,7 @@
 		"UrlFor64Bit": "https://7-zip.org/a/7z2000-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
-		"InstallerArguments": "/s",
+		"InstallerArguments": "/S",
 		"AppPage": "http://www.7-zip.org/"
 	},
 	{
@@ -1015,6 +1015,8 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.5-16285975.exe",
 		"HashFor64Bit": "689ca37d54e62a4fa3dfeb3c9bd1449fb38d1bb2",
+		"ValidExitCodes": "0,3010",
+		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
 	},
 	{
