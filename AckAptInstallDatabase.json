@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.6.0.0",
+		"Version": "2.7.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "bMDmsyY/BzvIMk/m+YjU4w==",
+		"HashFor32Bit": "BCMe/ogro8zfvbJbUfi52w==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -382,11 +382,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.26.2.0",
+		"Version": "2.27.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.26.2.windows.1/Git-2.26.2-64-bit.exe",
-		"HashFor64Bit": "cdf76510979dace4d3f5368e2f55d4289c405e249399e7ed09049765489da6e8",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
+		"HashFor64Bit": "5974db8c52b32f5e575ee021e8b47948892ce0e760095eef98c31e3bbd5167b6",
 		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -613,6 +613,13 @@
 		"HashFor32Bit": "E923884FE1A076542BB5BBCAB13CC715A2D6D243",
 		"HashFor64Bit": "839B24D7CF8248B2BA9A0B14DC62146D94761966",
 		"AppPage": "https://technet.microsoft.com/en-us/library/dn904558.aspx"
+	},
+	{
+		"Name": "Mp3tag",
+		"Version": "3.01.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv301setup.exe",
+		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
 		"Name": "MySqlCommunity",
