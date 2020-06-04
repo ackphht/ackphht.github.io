@@ -435,11 +435,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.1.1.0",
+		"Version": "2020.1.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.1.exe",
-		"HashFor32Bit": "d43158163742a7ba8134b8745debc264842d36ba6a40e510698741360977a3c5",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.2.exe",
+		"HashFor32Bit": "27e5141752351c05ebf1ee1d3a0695bef9d736403c197db84ab5a6c8187c05dc",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -715,10 +715,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.1.1.0",
+		"Version": "2020.1.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.1.exe",
-		"HashFor32Bit": "500ee36ed61b553bc23af8e44e51a52d127b37095998583d0f3779e3179b18e3",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.2.exe",
+		"HashFor32Bit": "8a221402d83f7fc083da192f26c54d23530ff39d7f92f5846bb9c5e9893b4ccf",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
