@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.17.0.0",
+		"Version": "4.18.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.17.0/calibre-64bit-4.17.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.18.0/calibre-64bit-4.18.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "19.10.12.0",
+		"Version": "20.06.04.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v19.10.12/ConEmuSetup.191012.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.06.04/ConEmuSetup.200604.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
