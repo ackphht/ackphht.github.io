@@ -301,9 +301,9 @@
 	},
 	{
 		"Name": "FiraCodeFont",
-		"Version": "4.0.0.0",
+		"Version": "5.0.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/4/Fira_Code_v4.zip",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/5/Fira_Code_v5.zip",
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
@@ -318,17 +318,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.371",
+		"Version": "32.0.0.387",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.371/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.387/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.371",
+		"Version": "32.0.0.387",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.371/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.387/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -401,7 +401,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.0.0.0",
+		"Version": "7.0.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -640,12 +640,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.6.0",
+		"Version": "7.8.7.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.6/npp.7.8.6.Installer.exe",
-		"HashFor32Bit": "26ca36509ea21535a39f812a1eabdbdc8bacc617e517700229e3a662db00ff95",
-		"HashFor64Bit": "03b3a8e2d0395b2dcaf7cd30cb47106ebac678cbcd72e81bb5ee0e618927d3dd",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.7/npp.7.8.7.Installer.exe",
+		"HashFor32Bit": "e16daa6f961db32ab325c53b3b4a8f87b92622628aa080e879c8297bfb3e8855",
+		"HashFor64Bit": "848905577311dedaf6076c147c5f6a81f069ac096c77ca1aa251d0717424496d",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -691,7 +691,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.25.3.0",
+		"Version": "7.26.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
