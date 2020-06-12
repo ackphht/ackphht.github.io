@@ -369,10 +369,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.20.0",
+		"Version": "2.10.20.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.20-setup.exe",
-		"HashFor32Bit": "de68eafd3bf88bb868e015e3613b7415fcfe94cc20946c0b64ccd37f94e22017",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.20-setup-1.exe",
+		"HashFor32Bit": "430b1a709cd89b5cddb857032a7a5b93199d076ff8cd83ebdd0112330b65ba51",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
@@ -701,10 +701,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.0.1.0",
+		"Version": "7.0.2.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x64.msi",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x64.msi",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -1002,10 +1002,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.1.1929.29",
+		"Version": "3.1.1929.34",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.29.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.29.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.34.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.34.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
