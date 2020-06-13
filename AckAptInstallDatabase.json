@@ -301,10 +301,10 @@
 	},
 	{
 		"Name": "FiraCodeFont",
-		"Version": "5.1.0.0",
+		"Version": "5.2.0.0",
 		"Notes": "apparently we're supposed to use TTF now instead of OTF...",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/5.1/Fira_Code_v5.1.zip",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip",
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.ttf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
