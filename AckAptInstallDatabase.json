@@ -419,11 +419,11 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.3.2.0",
+		"Version": "1.3.3.0",
 		"Notes": "alt: https://github.com/HandBrake/HandBrake/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.3.2/HandBrake-1.3.2-x86_64-Win_GUI.exe",
-		"HashFor64Bit": "78f6727431f9065eb3dc3297ffd5cf2822d8866e51a8915a3853633bcea32e8f",
+		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.3.3/HandBrake-1.3.3-x86_64-Win_GUI.exe",
+		"HashFor64Bit": "cd71e213d3d334215aa7b56199b62189bf1b64a75c04ea17dc2a7d0469c0aab6",
 		"AppPage": "https://handbrake.fr/downloads.php"
 	},
 	{
