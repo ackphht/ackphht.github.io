@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.18.1.0",
+		"Version": "1.19.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2127522",
-		"HashFor32Bit": "yiaKCu0tQ/1lERM3QWmSTQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2132348",
+		"HashFor32Bit": "Co5XnltcQcN9YxLz/YvcWQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
