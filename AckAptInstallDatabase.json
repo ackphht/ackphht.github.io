@@ -857,11 +857,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.5.0.0",
-		"Notes": "Build number: 15.0.18330.0",
+		"Version": "18.5.1.0",
+		"Notes": "Build number: 15.0.18333.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2125901",
-		"HashFor32Bit": "4wx75pxqOqTq5/89+Sxs+g==",
+		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
+		"HashFor32Bit": "rTnE+RJ7YfOf2p3oiN/cTQ==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
@@ -1010,12 +1010,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.10.0",
+		"Version": "3.0.11.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.10/win32/vlc-3.0.10-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.10/win64/vlc-3.0.10-win64.exe",
-		"HashFor32Bit": "ccfb91146cba92a3ec5274fee90d2cee35cfda7fd38240b3f65da26d53d28a0b",
-		"HashFor64Bit": "e0a0883cd6c29aee23ecfc63573bc09e09f78de0da78a6f55ab13fab1c65850b",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.11/win32/vlc-3.0.11-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.11/win64/vlc-3.0.11-win64.exe",
+		"HashFor32Bit": "86a95690916f9f5b86593ef3f146c101d11f5d5e55670613bf88211ca3036aca",
+		"HashFor64Bit": "2e41f1959ad77c34746715da5027c5ed554c35361397c9984a9ef78bc0b5e937",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
