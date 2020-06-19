@@ -106,9 +106,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.18.0.0",
+		"Version": "4.19.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.18.0/calibre-64bit-4.18.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.19.0/calibre-64bit-4.19.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -692,7 +692,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.26.0.0",
+		"Version": "7.26.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -1002,10 +1002,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.1.1929.34",
+		"Version": "3.1.1929.40",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.34.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.34.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.40.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.40.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1096,10 +1096,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.46.0.0",
+		"Version": "1.46.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "ZnnxgYsmkoEtwpgXWv47og==",
+		"HashFor64Bit": "gkmV8b7bPUVjQFaa7RaRFw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
