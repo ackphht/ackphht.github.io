@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.7.0.0",
+		"Version": "2.8.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "BCMe/ogro8zfvbJbUfi52w==",
+		"HashFor32Bit": "8FP77+aamVhKekWwS3IaIA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -692,7 +692,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.26.1.0",
+		"Version": "7.27.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -866,13 +866,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.20.1.0",
+		"Version": "0.20.2.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.1/stellarium-0.20.1-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.1/stellarium-0.20.1-win64.exe",
-		"HashFor32Bit": "a13b4a73ace386fc8eb4fbab9cacdc0c5043aa944e244bd56cca9da438e04f83",
-		"HashFor64Bit": "a06cd2ce8c34d791cbe7472d40c5520dd164bd790e5de30118b74e8ef718b934",
+		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.2/stellarium-0.20.2-win32.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.2/stellarium-0.20.2-win64.exe",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
