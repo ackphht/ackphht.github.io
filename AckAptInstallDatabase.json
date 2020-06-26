@@ -349,7 +349,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.10.0.3016",
+		"Version": "6.10.1.3051",
 		"Notes": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.18",
+		"Version": "6.7.3.19",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -559,18 +559,18 @@
 	},
 	{
 		"Name": "LINQPad5",
-		"Version": "5.41.0.0",
+		"Version": "5.43.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad5Setup-AnyCPU.exe",
+		"HashFor32Bit": "0WeC4SDzKTq2LP5p659O5A==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.8.0.0",
+		"Version": "6.8.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashFor32Bit": "2GfOLajPQRswmb0z5TJP8w==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
