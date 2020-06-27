@@ -44,10 +44,10 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "2.4.1.0",
+		"Version": "2.4.2.0",
 		"Type": "zip",
 		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.1",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.2",
 		"AppPage": "http://www.audacityteam.org/download/windows/"
 	},
 	{
@@ -692,7 +692,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.27.0.0",
+		"Version": "7.27.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
