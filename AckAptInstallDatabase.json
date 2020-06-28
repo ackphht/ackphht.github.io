@@ -571,6 +571,7 @@
 		"Version": "6.8.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
+		"HashFor32Bit": "2GfOLajPQRswmb0z5TJP8w==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -641,12 +642,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.7.0",
+		"Version": "7.8.8.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.7/npp.7.8.7.Installer.exe",
-		"HashFor32Bit": "e16daa6f961db32ab325c53b3b4a8f87b92622628aa080e879c8297bfb3e8855",
-		"HashFor64Bit": "848905577311dedaf6076c147c5f6a81f069ac096c77ca1aa251d0717424496d",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.8/npp.7.8.8.Installer.exe",
+		"HashFor32Bit": "811e586a3e3d85f7533b33a77e04d357dffd87c0a15b0937e4b5218b8b9a42a6",
+		"HashFor64Bit": "196f6f338e7e153f46204f6ec209f6aa8dc79ed05e75ab8ab5d74b6fd5db08cd",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
