@@ -755,10 +755,10 @@
 	},
 	{
 		"Name": "python37",
-		"Version": "3.7.7.0",
+		"Version": "3.7.8.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe",
-		"HashFor64Bit": "e0c910087459df78d827eb1554489663",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe",
+		"HashFor64Bit": "70b08ab8e75941da7f5bf2b9be58b945",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
