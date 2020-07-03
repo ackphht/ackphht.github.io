@@ -106,17 +106,17 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.19.0.0",
+		"Version": "4.20.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.19.0/calibre-64bit-4.19.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.20.0/calibre-64bit-4.20.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
 	{
 		"Name": "CascadiaCodeFont",
-		"Version": "2005.15.0.0",
+		"Version": "2007.01.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2005.15/CascadiaCode_2005.15.zip",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2007.01/CascadiaCode-2007.01.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
