@@ -585,7 +585,7 @@
 	},
 	{
 		"Name": "MediaMonkey",
-		"Version": "4.1.25.1895",
+		"Version": "4.1.29.1910",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
 		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
@@ -619,9 +619,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.01.0.0",
+		"Version": "3.02.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv301setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv302setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
