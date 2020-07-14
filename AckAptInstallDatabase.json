@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "20.06.15.0",
+		"Version": "20.07.13.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.06.15/ConEmuSetup.200615.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.07.13/ConEmuSetup.200713.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -738,10 +738,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.8.3.0",
+		"Version": "3.8.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe",
-		"HashFor64Bit": "fd2458fa0e9ead1dd9fbc2370a42853b",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe",
+		"HashFor64Bit": "12297fb08088d1002f7e93a93fd779c6",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -765,10 +765,10 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.3.0",
+		"Version": "3.8.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.3/python-3.8.3-amd64.exe",
-		"HashFor64Bit": "fd2458fa0e9ead1dd9fbc2370a42853b",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.4/python-3.8.4-amd64.exe",
+		"HashFor64Bit": "12297fb08088d1002f7e93a93fd779c6",
 		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python38 PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
