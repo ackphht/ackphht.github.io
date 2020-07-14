@@ -27,10 +27,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2221.0",
+		"Version": "4.70.2222.0",
+		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "f2f5e132d11c33b4d12e26822bd2d730a1c24e7d1c6f9e1acf98c23b331df758",
+		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
+		"HashFor32Bit": "6e318e443161314976b323783eca32efde4d534018ece11f43f95761caabc172",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -61,7 +62,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.0",
+		"Version": "1.1.33.1",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
@@ -90,11 +91,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.14.0.0",
+		"Version": "1.14.1.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "h1krjyd9IsYIFqubMOYiUA==",
+		"HashFor32Bit": "6xd676Lvp3Iiih+zkZxT2Q==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -319,17 +320,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.387",
+		"Version": "32.0.0.403",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.387/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.403/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.387",
+		"Version": "32.0.0.403",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.387/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.403/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -402,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.0.1.0",
+		"Version": "7.1.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -693,7 +694,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.27.1.0",
+		"Version": "7.28.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
