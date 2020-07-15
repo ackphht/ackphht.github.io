@@ -291,12 +291,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.49.0.0",
+		"Version": "3.49.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "36bc401807f9d69db9ba4c386db6ad253d6801f5bc28db8379e91f98f669080130e6fb15ffe5d3a96049467ae96e8c2f05c9d2a549c61955fd57187256550f07",
-		"HashFor64Bit": "bba6640428e143fb7fedbe3c950f2bfad72cf140d20181b3192bade01c51368858b84cd295a092be87c67c797c7ca969344f2893a57cee20fa8a962ad014e5e4",
+		"HashFor32Bit": "0a8b8a05a1c3bceb64027c4b68c6298e30db95b382e87de575d8ca3dddd03a76d42bdb8f050e6ff66f89e83246af3d95cb4d7079682db350d2566499788769ea",
+		"HashFor64Bit": "7aeefd944e0e7b37f8472eeafd351833f633c1d55cf3c67ff2db430f6e25c9088fd0709a4823e671bea9e33298f522e58f3301fa63168ab0d1f2aebb57648751",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -429,7 +429,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.19",
+		"Version": "6.7.3.20",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -1096,10 +1096,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.47.0.0",
+		"Version": "1.47.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "7hIYlj6R0p7uyplwfYTOMw==",
+		"HashFor64Bit": "po1B9mlKzndVLm3fHWD04Q==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
