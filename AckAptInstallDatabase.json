@@ -81,21 +81,21 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.19.0.0",
+		"Version": "1.20.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2132348",
-		"HashFor32Bit": "Co5XnltcQcN9YxLz/YvcWQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2135512",
+		"HashFor32Bit": "xi/QhQ+kSbk4ozzy5xT56A==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.14.1.0",
+		"Version": "1.14.2.0",
 		"Notes": "http://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "6xd676Lvp3Iiih+zkZxT2Q==",
+		"HashFor32Bit": "ZY13QWmiLcGoekcPqVKXtQ==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -643,12 +643,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.8.8.0",
+		"Version": "7.8.9.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.8/npp.7.8.8.Installer.exe",
-		"HashFor32Bit": "811e586a3e3d85f7533b33a77e04d357dffd87c0a15b0937e4b5218b8b9a42a6",
-		"HashFor64Bit": "196f6f338e7e153f46204f6ec209f6aa8dc79ed05e75ab8ab5d74b6fd5db08cd",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.9/npp.7.8.9.Installer.exe",
+		"HashFor32Bit": "e7585df965054954d8d786f62f316c06739a44e7dd6bfe0eff79596e3979a790",
+		"HashFor64Bit": "e8e866aca5672e91446ce9d965250317e95d2a3d238ea32fa2c378cd315cb85f",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
@@ -711,10 +711,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.2.1.0",
+		"Version": "2.2.2.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.2.1-05193.exe",
-		"HashFor64Bit": "d701cdde205d6e0c1f667cc54761c57b4cb80244d3805dad88634fb98350e6f1",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.2.2-05198.exe",
+		"HashFor64Bit": "ceb66df2ad02d887f93045b7f1b5e02ac04b23d826915de395c07a867b91ba61",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
