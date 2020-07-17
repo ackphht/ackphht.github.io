@@ -27,11 +27,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2222.0",
+		"Version": "4.70.2223.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "6e318e443161314976b323783eca32efde4d534018ece11f43f95761caabc172",
+		"HashFor32Bit": "35c4d54d931a6e68ba39c5b8d4738347224a9270cf219dae8eca3fff4e28b77d",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -72,10 +72,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.9.0.0",
+		"Version": "2.9.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "HSdr5MOZkozVTDwPsnPlSA==",
+		"HashFor32Bit": "Iv8YLap5AIJj98S4HH7+6A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -107,9 +107,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.20.0.0",
+		"Version": "4.21.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.20.0/calibre-64bit-4.20.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.21.0/calibre-64bit-4.21.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -703,10 +703,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.0.2.0",
+		"Version": "7.0.3.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x64.msi",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -1096,10 +1096,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.47.1.0",
+		"Version": "1.47.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "po1B9mlKzndVLm3fHWD04Q==",
+		"HashFor64Bit": "qDCBjvOQPc+D0U0ExZWufQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
