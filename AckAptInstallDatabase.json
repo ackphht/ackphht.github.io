@@ -62,7 +62,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.1",
+		"Version": "1.1.33.2",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
@@ -81,11 +81,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.20.0.0",
+		"Version": "1.20.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2135512",
-		"HashFor32Bit": "xi/QhQ+kSbk4ozzy5xT56A==",
+		"HashFor32Bit": "RppknHiFOq0BxUIRN+noLQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
