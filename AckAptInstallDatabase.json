@@ -27,11 +27,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2223.0",
+		"Version": "4.70.2224.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "35c4d54d931a6e68ba39c5b8d4738347224a9270cf219dae8eca3fff4e28b77d",
+		"HashFor32Bit": "95c7e540a9bce06e5ce19d664c83f1f63db8729b08244e3e46ce31fb63c9c6f0",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -438,11 +438,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.1.3.0",
+		"Version": "2020.1.4.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.3.exe",
-		"HashFor32Bit": "20ace78a98ea84c7a36ae6a3f2dd9c70839ea075596d007eccd245aa5d5970a0",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.4.exe",
+		"HashFor32Bit": "260b9337757b567590072fd821f347f69c03082c1acc3c8a702bbb8b77efec24",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -634,10 +634,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.18.2.0",
+		"Version": "12.18.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.18.2/node-v12.18.2-x64.msi",
-		"HashFor64Bit": "a9ab96c315c144ff876fb5e6552a7891795a83f26c43f8395d5dec1b004fee29",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi",
+		"HashFor64Bit": "8cc457d650137b468d40837cc939e8be64313974375410fdc33cf58670ada94b",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -659,11 +659,11 @@
 	},
 	{
 		"Name": "notepad3",
-		"Version": "5.20.414.1",
+		"Version": "5.20.722.1",
 		"Notes": "https://github.com/rizonesoft/Notepad3",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.414.1_x86_Setup.exe",
-		"UrlFor64Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.414.1_Setup.exe",
+		"UrlFor32Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.722.1_x86_Setup.exe",
+		"UrlFor64Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.722.1_Setup.exe",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/"
 	},
 	{
@@ -693,7 +693,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.28.0.0",
+		"Version": "7.29.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -718,10 +718,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.1.3.0",
+		"Version": "2020.1.4.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.3.exe",
-		"HashFor32Bit": "46d42d441390a449d3f8f877a7aee5e87c999dbf80e014334dc5d544603d3381",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.4.exe",
+		"HashFor32Bit": "d6dbc74fb2d5cf4c9ab70be7e09a9306b54499424554003d259d0601eb79fd00",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
