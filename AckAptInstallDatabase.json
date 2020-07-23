@@ -390,7 +390,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
 		"HashFor64Bit": "5974db8c52b32f5e575ee021e8b47948892ce0e760095eef98c31e3bbd5167b6",
-		"InstallerArguments": "/DIR=C:\\tools\\git /SP-",
+		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
 	{
@@ -638,7 +638,6 @@
 		"Type": "msi",
 		"UrlFor64Bit": "https://nodejs.org/dist/v12.18.2/node-v12.18.2-x64.msi",
 		"HashFor64Bit": "a9ab96c315c144ff876fb5e6552a7891795a83f26c43f8395d5dec1b004fee29",
-		"InstallerArguments": "INSTALLDIR=C:\\tools\\nodejs",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -734,7 +733,7 @@
 		"UrlFor64Bit": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi",
 		"HashFor32Bit": "db6ad9195b3086c6b4cefb9493d738d2",
 		"HashFor64Bit": "a425c758d38f8e28b56f4724b499239a",
-		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=C:\\tools\\python27 ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
+		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=\"%ProgramFiles%\\python27\" ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -743,7 +742,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
 		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python3 PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -752,7 +751,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe",
 		"HashFor64Bit": "72f37686b7ab240ef70fdb931bdf3cb5",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python36 PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python36\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -761,7 +760,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe",
 		"HashFor64Bit": "70b08ab8e75941da7f5bf2b9be58b945",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python37 PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python37\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -770,7 +769,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
 		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=C:\\tools\\python38 PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
