@@ -858,11 +858,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.5.1.0",
-		"Notes": "Build number: 15.0.18333.0",
+		"Version": "18.6.0.0",
+		"Notes": "Build number: 15.0.18338.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
-		"HashFor32Bit": "rTnE+RJ7YfOf2p3oiN/cTQ==",
+		"HashFor32Bit": "bl9mSpUPSlGQFq7AMIJJ9g==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
