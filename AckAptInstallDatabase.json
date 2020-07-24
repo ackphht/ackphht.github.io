@@ -742,7 +742,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
 		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python3\" PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -760,7 +760,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.8/python-3.7.8-amd64.exe",
 		"HashFor64Bit": "70b08ab8e75941da7f5bf2b9be58b945",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python37\" PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python37\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
@@ -769,7 +769,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
 		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
-		"InstallerArguments": "/passive InstallAllUsers=1 TargetDir=\"%ProgramFiles%\\python38\" PrependPath=0 CompileAll=1",
+		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
