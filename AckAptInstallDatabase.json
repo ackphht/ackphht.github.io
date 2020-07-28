@@ -175,7 +175,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.3.0.2",
+		"Version": "2.3.0.3",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -1097,10 +1097,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.47.2.0",
+		"Version": "1.47.3.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "qDCBjvOQPc+D0U0ExZWufQ==",
+		"HashFor64Bit": "5dXANchlKdafgXGvkC/8vQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
