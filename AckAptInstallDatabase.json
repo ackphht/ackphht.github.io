@@ -385,11 +385,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.27.0.0",
+		"Version": "2.28.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.27.0.windows.1/Git-2.27.0-64-bit.exe",
-		"HashFor64Bit": "5974db8c52b32f5e575ee021e8b47948892ce0e760095eef98c31e3bbd5167b6",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
+		"HashFor64Bit": "a8ef3311ac0c8747ba2f5aef3e475ad42fbc084ada7e6fb5060481a78c1a9cf2",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -438,11 +438,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.1.4.0",
+		"Version": "2020.2.0.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.1.4.exe",
-		"HashFor32Bit": "260b9337757b567590072fd821f347f69c03082c1acc3c8a702bbb8b77efec24",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.2.exe",
+		"HashFor32Bit": "aa33058f8949457aa973deb974daf5906071fe39de7f15127ae4b163378c241d",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -1003,10 +1003,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.1.1929.45",
+		"Version": "3.1.1929.48",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.45.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.45.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
