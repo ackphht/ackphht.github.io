@@ -718,10 +718,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.1.4.0",
+		"Version": "2020.2.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.1.4.exe",
-		"HashFor32Bit": "d6dbc74fb2d5cf4c9ab70be7e09a9306b54499424554003d259d0601eb79fd00",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.exe",
+		"HashFor32Bit": "65afa1b90f3ecc45946793c4c43a47a46dff2e1da0737ce602f5ee12bd946f1e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
