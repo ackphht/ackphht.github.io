@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.1.0.0",
+		"Version": "7.2.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -676,11 +676,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.12.0",
+		"Version": "4.2.13.0",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.12.install.zip",
+		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.13.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
@@ -1003,10 +1003,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.1.1929.48",
+		"Version": "3.2.1967.41",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.1.1929.48.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.41.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.41.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
