@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "20.0.0.0",
+		"Version": "20.1.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2000.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2000-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2001.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2001-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -72,10 +72,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.10.0.0",
+		"Version": "2.10.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "r1zQFuqtDwEw+9O9Cer1BQ==",
+		"HashFor32Bit": "ul9G0LrBm22wqsUsZn7wlw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
