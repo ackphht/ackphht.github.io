@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "20.1.0.0",
+		"Version": "20.2.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2001.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2001-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2002.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2002-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -774,10 +774,11 @@
 	},
 	{
 		"Name": "QTTabBar",
-		"Version": "0.1038.0",
+		"Version": "0.1041.0",
 		"Type": "zip",
-		"ZipContentToRun": "QTTabBar.exe",
-		"UrlFor32Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip",
+		"ZipContentToRun": "QTTabBar*.exe",
+		"UrlFor32Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1041_32bit.zip",
+		"UrlFor64Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1041.zip",
 		"PreInstallMessage": "installing QTTabBar: should kill explorer.exe to help the install",
 		"PostInstallMessage": "done installing QTTabBar: you can restart explorer.exe now",
 		"AppPage": "http://qttabbar.wikidot.com/"
@@ -971,11 +972,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.24.0.6",
+		"Version": "1.24.0.7",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update6/+download/VeraCrypt%20Setup%201.24-Update6.exe",
-		"HashFor32Bit": "AF097F8DD7F4F070FE124F2A7EE3A1342E1AD48F7CE664D0FD9630E1EBF60C82",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt%20Setup%201.24-Update7.exe",
+		"HashFor32Bit": "699C48F2030BD3AF1CDAE0A4D51372127C82057F8A0F9E5C1B578698DA4C6A1D",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
 	},
 	{
