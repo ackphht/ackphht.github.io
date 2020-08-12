@@ -320,17 +320,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.403",
+		"Version": "32.0.0.414",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.403/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.414/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.403",
+		"Version": "32.0.0.414",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.403/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.414/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
