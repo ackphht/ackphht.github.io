@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.009.20063.0",
+		"Version": "2020.012.20041.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2000920063/AcroRdrDC2000920063_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220041/AcroRdrDC2001220041_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -81,11 +81,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.20.1.0",
+		"Version": "1.21.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2135512",
-		"HashFor32Bit": "RppknHiFOq0BxUIRN+noLQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2138608",
+		"HashFor32Bit": "fwweH+KILE5/kyhn1c4NGg==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -885,12 +885,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.4.0.7",
+		"Version": "9.4.1.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE_Setup.exe",
-		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSE64_Setup.exe",
-		"HashFor32Bit": "7632d7d11ff2ed93e99cec5740047b5f2567d0fd1aca20e88195842651f8d812",
-		"HashFor64Bit": "7efa7a74d4326cdbcef2acffb76677c14cf2947c5c760b188d8c10d6210a4440",
+		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
+		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
+		"HashFor32Bit": "9de95c08c0c0f13cedbb9e90b07ba538ca81ebd1ec5dcdd4ec803fbf23c99dec",
+		"HashFor64Bit": "17faf897c83a3a43fb44f0130cd4c6f668e0d09bb0f5912943f86425a4a6c96d",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
@@ -1132,10 +1132,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.5.0",
+		"Version": "3.2.6.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.5.exe",
-		"HashFor64Bit": "b9626086253e00fbaf35c7d91c768aa4895d0d2e59b4e48b01331dce7cfeb510",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.6.exe",
+		"HashFor64Bit": "9c211a6eda5f69b2c10dd1a794f8a438c1dafbe5da4879b807be496d8f29a6c4",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
