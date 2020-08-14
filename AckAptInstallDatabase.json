@@ -1098,10 +1098,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.47.3.0",
+		"Version": "1.48.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "5dXANchlKdafgXGvkC/8vQ==",
+		"HashFor64Bit": "C8TQSoBczBkq+6GFgtwfVw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
