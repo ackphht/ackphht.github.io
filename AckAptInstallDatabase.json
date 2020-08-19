@@ -1004,10 +1004,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.2.1967.41",
+		"Version": "3.2.1967.45",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.41.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.41.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.45.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.45.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
