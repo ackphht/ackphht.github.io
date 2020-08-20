@@ -710,10 +710,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.2.2.0",
+		"Version": "2.3.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.2.2-05198.exe",
-		"HashFor64Bit": "ceb66df2ad02d887f93045b7f1b5e02ac04b23d826915de395c07a867b91ba61",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.3-05344.exe",
+		"HashFor64Bit": "5589e1e5cd2a8f6c066f6aebb7de1f02eb5cccc3516453e36111c9f6ec3e3e46",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1004,10 +1004,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.2.1967.45",
+		"Version": "3.2.1967.47",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.45.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.45.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.47.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.2.1967.47.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
