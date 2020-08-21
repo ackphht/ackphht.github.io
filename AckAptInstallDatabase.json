@@ -107,9 +107,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "4.22.0.0",
+		"Version": "4.23.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/4.22.0/calibre-64bit-4.22.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/4.23.0/calibre-64bit-4.23.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -785,11 +785,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.2.0.0",
+		"Version": "2020.2.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2/JetBrains.dotUltimate.2020.2.exe",
-		"HashFor32Bit": "3518cf578ea49f7911fa7fe7bc976747934103fb70436c884ae9cfe0cd747385",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.1/JetBrains.dotUltimate.2020.2.1.exe",
+		"HashFor32Bit": "401bbdcbab7390af3de49207612a56b06e789dc29d914c8ac9bd44f95fe2ca14",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -1098,10 +1098,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.48.0.0",
+		"Version": "1.48.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "C8TQSoBczBkq+6GFgtwfVw==",
+		"HashFor64Bit": "20wqn5myDb0A/Ye6rD/plw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
