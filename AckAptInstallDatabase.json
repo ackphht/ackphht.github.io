@@ -790,7 +790,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.1/JetBrains.dotUltimate.2020.2.1.exe",
 		"HashFor32Bit": "401bbdcbab7390af3de49207612a56b06e789dc29d914c8ac9bd44f95fe2ca14",
-		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
+		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
 	{
