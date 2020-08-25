@@ -72,10 +72,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.10.1.0",
+		"Version": "2.11.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "ul9G0LrBm22wqsUsZn7wlw==",
+		"HashFor32Bit": "t+dqrNM9IVxHuJmJLf9CMw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -693,7 +693,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.30.1.0",
+		"Version": "7.31.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
