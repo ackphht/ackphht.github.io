@@ -91,11 +91,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.14.2.0",
-		"Notes": "http://storageexplorer.com/",
+		"Version": "1.15.0.0",
+		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "ZY13QWmiLcGoekcPqVKXtQ==",
+		"HashFor32Bit": "EY2wiZHQ7b9aUAc/ytDZbQ==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.2.0.0",
+		"Version": "7.3.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
