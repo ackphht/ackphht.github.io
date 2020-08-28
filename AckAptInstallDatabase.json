@@ -72,10 +72,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.11.0.0",
+		"Version": "2.11.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "t+dqrNM9IVxHuJmJLf9CMw==",
+		"HashFor32Bit": "fuXKqQm/4CvGns3n35bQYw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -718,10 +718,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.2.0.0",
+		"Version": "2020.2.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.exe",
-		"HashFor32Bit": "65afa1b90f3ecc45946793c4c43a47a46dff2e1da0737ce602f5ee12bd946f1e",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.1.exe",
+		"HashFor32Bit": "58333459e02b895bdac3c162bac939629ecfa996c410593c1959b3211cdabe56",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
