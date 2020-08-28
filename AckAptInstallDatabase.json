@@ -291,12 +291,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.49.1.0",
+		"Version": "3.50.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "0a8b8a05a1c3bceb64027c4b68c6298e30db95b382e87de575d8ca3dddd03a76d42bdb8f050e6ff66f89e83246af3d95cb4d7079682db350d2566499788769ea",
-		"HashFor64Bit": "7aeefd944e0e7b37f8472eeafd351833f633c1d55cf3c67ff2db430f6e25c9088fd0709a4823e671bea9e33298f522e58f3301fa63168ab0d1f2aebb57648751",
+		"HashFor32Bit": "b01011fc76745ed94a2b4eb87554bbdddfa110df88f643cd5aedf5ea5bb3430a48f931ee25198106ccb0acd9e641db22a57add78e800ebc377a0f98041727ee4",
+		"HashFor64Bit": "8989de93d9fc9273762fadfc3144150154ebfaee5ed87107280525995c74109e5082678f82fff3c40d6b8d3ed0aa2402988915d56767b9987116451807f1a861",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
