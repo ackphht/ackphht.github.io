@@ -1113,13 +1113,11 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.6.0",
+		"Version": "2.16.8.0",
 		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.6/WinMerge-2.16.6-Setup.exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.6/WinMerge-2.16.6-x64-Setup_no_support_for_per-user_installation.exe",
-		"HashFor32Bit": "b55de4fc99487e99ecb271a62e13ed6808b9ba3a96bf7d6b65cbee707b16fff1",
-		"HeadersToAdd": "User-Agent: WindowsPowerShell",
+		"UrlFor32Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-Setup.exe",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-x64-Setup.exe",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
