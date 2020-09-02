@@ -27,11 +27,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2224.0",
+		"Version": "4.70.2227.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
-		"Type": "exe",
+		"Type": "zip",
+		"ZipContentToRun": "aimp_*.exe",
 		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "95c7e540a9bce06e5ce19d664c83f1f63db8729b08244e3e46ce31fb63c9c6f0",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -429,7 +429,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.20",
+		"Version": "6.7.3.21",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
