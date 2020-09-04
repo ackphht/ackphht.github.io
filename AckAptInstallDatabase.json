@@ -429,7 +429,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.21",
+		"Version": "6.7.3.22",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -858,6 +858,14 @@
 		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
 	},
 	{
+		"Name": "SqlServer2019CU",
+		"Version": "15.0.4063.15",
+		"Notes": "Cumulative Update 7",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB4570012-x64.exe",
+		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
+	},
+	{
 		"Name": "SqlServerMngmtStudio",
 		"Version": "18.6.0.0",
 		"Notes": "Build number: 15.0.18338.0",
@@ -1118,6 +1126,8 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-Setup.exe",
 		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-x64-Setup.exe",
+		"HashFor32Bit": "0a2eebcd8a7ca35f7787a376e83b44f3650a07229b7ed96f1e986b9567dca89b",
+		"HashFor64Bit": "eeb07fc8252fa6e54a6998b216b028db38df92ce268e23f9c5183ff57b5e95b7",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
