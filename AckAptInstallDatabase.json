@@ -350,7 +350,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.10.2.3107",
+		"Version": "6.11.0.3218",
 		"Notes": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -989,18 +989,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.12.0",
+		"Version": "6.1.14.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.12/VirtualBox-6.1.12-139181-Win.exe",
-		"HashFor32Bit": "8dd5d00ef67ae96c9b91e9ed4065320bb0ea5927aec3ddadb938bfd0686c2e43",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.14/VirtualBox-6.1.14-140239-Win.exe",
+		"HashFor32Bit": "50e5c9617143f98699962097da9fe94319feceb22f8c9c1ce6108796b971b92d",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.12.0",
+		"Version": "6.1.14.0",
 		"Type": "script",
 		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.12/Oracle_VM_VirtualBox_Extension_Pack-6.1.12.vbox-extpack",
-		"HashFor32Bit": "8c43fc6ab19fc83ed3c73c6e62f7f02886503cc800d27198e8bee89586b18eda",
+		"HashFor32Bit": "b224e796e886b19bce69f0aaedf6ca82bad0ca29c61fb0ed86166efb84356942",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
