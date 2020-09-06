@@ -774,11 +774,11 @@
 	},
 	{
 		"Name": "QTTabBar",
-		"Version": "0.1041.0",
+		"Version": "0.1042.0",
 		"Type": "zip",
 		"ZipContentToRun": "QTTabBar*.exe",
-		"UrlFor32Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1041_32bit.zip",
-		"UrlFor64Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1041.zip",
+		"UrlFor32Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1042_32bit.zip",
+		"UrlFor64Bit": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1042.zip",
 		"PreInstallMessage": "installing QTTabBar: should kill explorer.exe to help the install",
 		"PostInstallMessage": "done installing QTTabBar: you can restart explorer.exe now",
 		"AppPage": "http://qttabbar.wikidot.com/"
