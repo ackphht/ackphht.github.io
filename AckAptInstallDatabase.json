@@ -320,17 +320,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.414",
+		"Version": "32.0.0.433",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.414/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.433/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.414",
+		"Version": "32.0.0.433",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.414/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.433/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -710,10 +710,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.3.1.0",
+		"Version": "2.4.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.3.1-05354.exe",
-		"HashFor64Bit": "e31a3c5903787908e14805ae731ea5fb9ec84ae7272160a9f1053e516c25ecde",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.4-05574.exe",
+		"HashFor64Bit": "035a3b7019deb97da7abefa50d7d40324c5d63056a79a50926628066de45d00e",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1012,10 +1012,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.3.2022.36",
+		"Version": "3.3.2022.39",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.36.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.36.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
