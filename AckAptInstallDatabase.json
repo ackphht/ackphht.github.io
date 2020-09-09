@@ -693,7 +693,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.31.1.0",
+		"Version": "7.32.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
