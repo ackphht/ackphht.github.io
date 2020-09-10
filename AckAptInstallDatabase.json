@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.3.0.0",
+		"Version": "7.3.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -785,10 +785,10 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.2.1.0",
+		"Version": "2020.2.2.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.1/JetBrains.dotUltimate.2020.2.1.exe",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.2/JetBrains.dotUltimate.2020.2.2.exe",
 		"HashFor32Bit": "401bbdcbab7390af3de49207612a56b06e789dc29d914c8ac9bd44f95fe2ca14",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
@@ -1012,10 +1012,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.3.2022.39",
+		"Version": "3.3.2022.45",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.39.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.45.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.45.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
