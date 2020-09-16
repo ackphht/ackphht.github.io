@@ -115,9 +115,9 @@
 	},
 	{
 		"Name": "CascadiaCodeFont",
-		"Version": "2008.25.0.0",
+		"Version": "2009.14.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2008.25/CascadiaCode-2008.25.zip",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2009.14/CascadiaCode-2009.14.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
@@ -175,7 +175,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.3.0.3",
+		"Version": "2.3.0.4",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -438,11 +438,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.2.1.0",
+		"Version": "2020.2.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.2.1.exe",
-		"HashFor32Bit": "cd98cdaca4f8b32080b56bd0e9fe756c3bdc3b7d2ceb3796be617fd022abdc45",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.2.2.exe",
+		"HashFor32Bit": "ea403c8926210f08e484752c9ed30056c8bd672ba8a0c07b7ad0bbd54a17c70f",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -659,11 +659,12 @@
 	},
 	{
 		"Name": "notepad3",
-		"Version": "5.20.722.1",
+		"Version": "5.20.915.1",
 		"Notes": "https://github.com/rizonesoft/Notepad3",
-		"Type": "exe",
-		"UrlFor32Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.722.1_x86_Setup.exe",
-		"UrlFor64Bit": "https://www.rizonesoft.com/software/notepad3/Notepad3_5.20.722.1_Setup.exe",
+		"Type": "zip",
+		"ZipContentToRun": "Notepad3_*_Setup.exe",
+		"UrlFor32Bit": "https://www.rizonesoft.com/download/8108/",
+		"UrlFor64Bit": "https://www.rizonesoft.com/download/3939/",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/"
 	},
 	{
