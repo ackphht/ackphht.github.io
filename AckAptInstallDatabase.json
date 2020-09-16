@@ -634,10 +634,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "12.18.3.0",
+		"Version": "12.18.4.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi",
-		"HashFor64Bit": "8cc457d650137b468d40837cc939e8be64313974375410fdc33cf58670ada94b",
+		"UrlFor64Bit": "https://nodejs.org/dist/v12.18.4/node-v12.18.4-x64.msi",
+		"HashFor64Bit": "4bb3aebcc2d22191c2daaf4e419e923d891331f86a64cca468f689e7a12a7e3c",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -1030,10 +1030,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "15.5.6.16341506",
+		"Version": "16.0.0.16894299",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-15.5.6-16341506.exe",
-		"HashFor64Bit": "4e5824083393c0b8e7a2d88775dfcc7bc071b21f",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.0.0-16894299.exe",
+		"HashFor64Bit": "818588b3f96cf28819a8f8ffcbdc0699cf05a5dbae4c724e1c21a66911483a76",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
