@@ -719,10 +719,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.2.1.0",
+		"Version": "2020.2.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.1.exe",
-		"HashFor32Bit": "58333459e02b895bdac3c162bac939629ecfa996c410593c1959b3211cdabe56",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.2.exe",
+		"HashFor32Bit": "0ab66c9695e5a2e08cc99f8260098c36a19c8c480999833f268dd911319c2de2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -786,11 +786,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.2.2.0",
+		"Version": "2020.2.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.2/JetBrains.dotUltimate.2020.2.2.exe",
-		"HashFor32Bit": "59a3b95d070f5599e86c6608e5479dc0708d8eb706d99aeefa6936605229018f",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.3/JetBrains.dotUltimate.2020.2.3.exe",
+		"HashFor32Bit": "cbbb1e483dc631da06965360ad401c0d35d759cd9ffb4675eef47094adf2e6ad",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -1107,10 +1107,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.49.0.0",
+		"Version": "1.49.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "9tI17qhrWK7bYi3LiQGgvQ==",
+		"HashFor64Bit": "pRW2gTL5v8z1Dpb/DyHygw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
