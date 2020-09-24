@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.012.20041.0",
+		"Version": "2020.012.20048.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220041/AcroRdrDC2001220041_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220048/AcroRdrDC2001220048_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -694,7 +694,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.33.0.0",
+		"Version": "7.33.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -739,10 +739,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.8.5.0",
+		"Version": "3.8.6.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
-		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe",
+		"HashFor64Bit": "2acba3117582c5177cdd28b91bbe9ac9",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -766,10 +766,10 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.5.0",
+		"Version": "3.8.6.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe",
-		"HashFor64Bit": "0ba2e9ca29b719da6e0b81f7f33f08f6",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe",
+		"HashFor64Bit": "2acba3117582c5177cdd28b91bbe9ac9",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -1141,10 +1141,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.6.0",
+		"Version": "3.2.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.6.exe",
-		"HashFor64Bit": "9c211a6eda5f69b2c10dd1a794f8a438c1dafbe5da4879b807be496d8f29a6c4",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.7.exe",
+		"HashFor64Bit": "d418b047d8f77d6ae804a5121d18d941bc45ca47c30f553d0034d6136c3069a4",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
