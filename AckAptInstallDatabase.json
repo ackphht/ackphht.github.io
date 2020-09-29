@@ -27,7 +27,7 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2227.0",
+		"Version": "4.70.2229.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "zip",
 		"ZipContentToRun": "aimp_*.exe",
@@ -72,10 +72,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.12.0.0",
+		"Version": "2.12.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "meC+JaqGvqBConRNunnW6Q==",
+		"HashFor32Bit": "IfTGWTx3FiH6CTzBXxXyag==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -131,9 +131,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "20.07.13.0",
+		"Version": "20.09.28.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.07.13/ConEmuSetup.200713.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.09.28/ConEmuSetup.200928.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
