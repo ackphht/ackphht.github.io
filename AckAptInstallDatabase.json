@@ -27,7 +27,7 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2229.0",
+		"Version": "4.70.2231.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "zip",
 		"ZipContentToRun": "aimp_*.exe",
