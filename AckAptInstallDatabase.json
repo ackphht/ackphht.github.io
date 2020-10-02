@@ -30,7 +30,7 @@
 		"Version": "4.70.2231.0",
 		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
 		"Type": "zip",
-		"ZipContentToRun": "aimp_*.exe",
+		"ZipContentToRun": "aimp.setup.exe",
 		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
@@ -81,11 +81,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.22.0.0",
+		"Version": "1.22.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2142210",
-		"HashFor32Bit": "ywbf8NF65+i+hrnGmfqo7A==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2144429",
+		"HashFor32Bit": "QC5gkbk0S9x9JKFQwbBf/Q==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -175,7 +175,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.3.0.4",
+		"Version": "2.3.0.5",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
@@ -786,11 +786,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.2.3.0",
+		"Version": "2020.2.4.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.3/JetBrains.dotUltimate.2020.2.3.exe",
-		"HashFor32Bit": "cbbb1e483dc631da06965360ad401c0d35d759cd9ffb4675eef47094adf2e6ad",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.2.4/JetBrains.dotUltimate.2020.2.4.exe",
+		"HashFor32Bit": "bb94e1d0a20ef128753d5f46d82c275a0b4427a1c76479edf275a13e97d01e68",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -860,10 +860,10 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4063.15",
-		"Notes": "Cumulative Update 7",
+		"Version": "15.0.4073.23",
+		"Notes": "Cumulative Update 8",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB4570012-x64.exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB4577194-x64.exe",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
