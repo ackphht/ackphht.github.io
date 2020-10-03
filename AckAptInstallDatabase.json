@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.22",
+		"Version": "6.7.3.23",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -619,9 +619,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.02.0.0",
+		"Version": "3.0.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv302setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv303setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
@@ -1106,10 +1106,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.49.2.0",
+		"Version": "1.49.3.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "FgS2t0yulkDHI4xzHNUpJA==",
+		"HashFor64Bit": "UFokpKX9pkZ35tehOpugxA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
