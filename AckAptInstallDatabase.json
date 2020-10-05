@@ -893,12 +893,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.4.2.10",
+		"Version": "9.4.2.15",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "549d474da2d330a99da0b8d99a643bb65ce6753f9556a6d0d8f73fa29c474d0d",
-		"HashFor64Bit": "52c9f8aa5c85fe1aa903327033ce668208a21c5a9309d79491a84f7f86e233cd",
+		"HashFor32Bit": "a5895a41da81aa03edb8433893a3902040fbd58149020288f0fbc6be4e8a21af",
+		"HashFor64Bit": "adc6fdd6e6feeeaf1d83bc592e915d514f5a331b10d563f41a4d9197feb3bc15",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
