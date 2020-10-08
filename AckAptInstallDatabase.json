@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2231.0",
-		"Notes": "their redirect below always goes to http, so be careful setting url here to\nhttps, .net core will not auto-redirect from https to http",
+		"Version": "4.70.2233.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://www.aimp.ru/?do=download.file&id=4",
+		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
+		"HashFor32Bit": "9f53c6620f372adc7f75f7a1f390c8458e2cc08187abc160bb4121718a552db1",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -710,18 +710,18 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.4.0.0",
+		"Version": "2.5.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.4-05574.exe",
-		"HashFor64Bit": "035a3b7019deb97da7abefa50d7d40324c5d63056a79a50926628066de45d00e",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.5-05652.exe",
+		"HashFor64Bit": "2d1ad0cf8d156c62bc5006547b0cf8650ca73694f0c2c5d7be5eae2c41841bcb",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.2.2.0",
+		"Version": "2020.2.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.2.exe",
-		"HashFor32Bit": "0ab66c9695e5a2e08cc99f8260098c36a19c8c480999833f268dd911319c2de2",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.3.exe",
+		"HashFor32Bit": "3aefd60ba18617bd347b18b89ce05f8350688de538b13aa63065eb963f6df415",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
