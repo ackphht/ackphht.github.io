@@ -693,7 +693,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.33.1.0",
+		"Version": "7.34.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -1106,10 +1106,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.49.3.0",
+		"Version": "1.50.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "UFokpKX9pkZ35tehOpugxA==",
+		"HashFor64Bit": "EHwE50a9dH+lmN83uRwD6A==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
