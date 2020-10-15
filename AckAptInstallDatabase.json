@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.22.1.0",
+		"Version": "1.23.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2144429",
-		"HashFor32Bit": "QC5gkbk0S9x9JKFQwbBf/Q==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2145989",
+		"HashFor32Bit": "tzcksAbTpJfOUuio5b3t+g==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -1012,10 +1012,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.3.2022.47",
+		"Version": "3.4.2066.76",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.47.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.3.2022.47.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1106,10 +1106,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.50.0.0",
+		"Version": "1.50.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "EHwE50a9dH+lmN83uRwD6A==",
+		"HashFor64Bit": "HDNkxTIEuGzbgur7PnZzCQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
