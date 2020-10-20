@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.28.0.0",
+		"Version": "2.29.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe",
-		"HashFor64Bit": "a8ef3311ac0c8747ba2f5aef3e475ad42fbc084ada7e6fb5060481a78c1a9cf2",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe",
+		"HashFor64Bit": "a87a5b2abf44021cc61709218c6ffbb994a79126c5d3953368a45fecbc23cce0",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -585,7 +585,7 @@
 	},
 	{
 		"Name": "MediaMonkey",
-		"Version": "4.1.29.1910",
+		"Version": "4.1.30.1914",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
 		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
