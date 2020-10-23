@@ -335,7 +335,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.6.1.0",
+		"Version": "1.6.2.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -1010,10 +1010,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.76",
+		"Version": "3.4.2066.86",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.76.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.86.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.86.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
