@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.29.0.0",
+		"Version": "2.29.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.0.windows.1/Git-2.29.0-64-bit.exe",
-		"HashFor64Bit": "a87a5b2abf44021cc61709218c6ffbb994a79126c5d3953368a45fecbc23cce0",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/Git-2.29.1-64-bit.exe",
+		"HashFor64Bit": "a24d4069ae1267bc302556c49cad50a4f1672d70794e5d4d25b20d1cccf5c4c8",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -621,6 +621,14 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv303setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
+	},
+	{
+		"Name": "MPC-HC",
+		"Version": "1.9.8.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.8/MPC-HC.1.9.8.x64.exe",
+		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
+		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
 	{
 		"Name": "MySqlCommunity",
