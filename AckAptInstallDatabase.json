@@ -402,7 +402,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.3.1.0",
+		"Version": "7.4.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
