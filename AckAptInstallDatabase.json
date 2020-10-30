@@ -873,11 +873,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.7.0.0",
-		"Notes": "Build number: 15.0.18357.0",
+		"Version": "18.7.1.0",
+		"Notes": "Build number: 15.0.18358.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
-		"HashFor32Bit": "BUq0/O9K97lQ+H9HebnV7A==",
+		"HashFor32Bit": "K8hJwXiavqsBW7lDRCRXZQ==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
@@ -1018,10 +1018,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.86",
+		"Version": "3.4.2066.88",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.86.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.86.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.88.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.88.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1146,10 +1146,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.2.7.0",
+		"Version": "3.4.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.2.7.exe",
-		"HashFor64Bit": "d418b047d8f77d6ae804a5121d18d941bc45ca47c30f553d0034d6136c3069a4",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.0.exe",
+		"HashFor64Bit": "32113e083409de888468e0bfe74ba98e6d618f9685a56a06f15b0506fdf4e462",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
