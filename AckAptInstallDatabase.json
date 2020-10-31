@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.29.1.0",
+		"Version": "2.29.2.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.1.windows.1/Git-2.29.1-64-bit.exe",
-		"HashFor64Bit": "a24d4069ae1267bc302556c49cad50a4f1672d70794e5d4d25b20d1cccf5c4c8",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2-64-bit.exe",
+		"HashFor64Bit": "0cec87c0d106579241b77073d6a6b639c6e40a466bac68b859c4dd037e6ea8d6",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -1018,10 +1018,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.88",
+		"Version": "3.4.2066.90",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.88.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.88.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.90.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.90.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
