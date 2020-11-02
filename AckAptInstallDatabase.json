@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "20.10.11.0",
+		"Version": "20.11.01.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.10.11/ConEmuSetup.201011.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.01/ConEmuSetup.201101.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -647,12 +647,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.9.0.0",
+		"Version": "7.9.1.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9/npp.7.9.Installer.exe",
-		"HashFor32Bit": "4747b67f7e2ca69b3ee829fa22b01fc61f500fba530ff928e31a3d5c62be7ffa",
-		"HashFor64Bit": "d5f578c41ca34862fc7f1628cf166f2d5843eb15fdc83da6cfc0909cb437e6fe",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.1/npp.7.9.1.Installer.exe",
+		"HashFor32Bit": "f7ea8518e21e42f500684c3be35bfa10d1dff17d7343a67d310ff0afcc465621",
+		"HashFor64Bit": "751d3634a76ea518f6e0a63575aac8d6a384eacf789f40eac6becf8dc859840b",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
