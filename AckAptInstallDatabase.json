@@ -174,10 +174,10 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.3.0.5",
+		"Version": "2.5.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.23",
+		"Version": "6.7.3.24",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -699,7 +699,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.34.0.0",
+		"Version": "7.35.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -716,9 +716,9 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.5.0.0",
+		"Version": "2.5.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.5-05652.exe",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.5.1-05676.exe",
 		"HashFor64Bit": "2d1ad0cf8d156c62bc5006547b0cf8650ca73694f0c2c5d7be5eae2c41841bcb",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
@@ -1018,10 +1018,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.90",
+		"Version": "3.4.2066.94",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.90.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.90.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.94.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.94.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
