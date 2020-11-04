@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.012.20048.0",
+		"Version": "2020.013.20064.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001220048/AcroRdrDC2001220048_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001320064/AcroRdrDC2001320064_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -274,7 +274,7 @@
 	},
 	{
 		"Name": "Fiddler4",
-		"Version": "5.0.20202.18177",
+		"Version": "5.0.20204.45441",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
 		"InstallerArguments": "/S",
