@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.29.2.0",
+		"Version": "2.29.2.2",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.1/Git-2.29.2-64-bit.exe",
-		"HashFor64Bit": "0cec87c0d106579241b77073d6a6b639c6e40a466bac68b859c4dd037e6ea8d6",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe",
+		"HashFor64Bit": "9ab49d93166d430514b0aaf6dda3fdc6b37e2fe1d0df8ecc04403cd2be40e78b",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -1112,10 +1112,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.50.1.0",
+		"Version": "1.51.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "HDNkxTIEuGzbgur7PnZzCQ==",
+		"HashFor64Bit": "ew9r3NVlGmeWRU+uGX2u+g==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
