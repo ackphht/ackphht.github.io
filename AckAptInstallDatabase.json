@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.14.1.0",
+		"Version": "2.14.2.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "3hKupZ6r8eviolN3ZUdDTA==",
+		"HashFor32Bit": "cWIw/OT4mOTdWveS5EtVlg==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.15.1.0",
+		"Version": "1.16.0.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "+KtI/6Wo43g0PjGwtAYfqQ==",
+		"HashFor32Bit": "NnOZv8EKYF2vZZCdoX6gRw==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -319,17 +319,17 @@
 	},
 	{
 		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.445",
+		"Version": "32.0.0.453",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.445/install_flash_player_32_plugin.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.453/install_flash_player_32_plugin.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
 	{
 		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.445",
+		"Version": "32.0.0.453",
 		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.445/install_flash_player_32_active_x.msi",
+		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.453/install_flash_player_32_active_x.msi",
 		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
 		"AppPage": "https://www.adobe.com/software/flash/about/"
 	},
@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.24",
+		"Version": "6.7.3.25",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
