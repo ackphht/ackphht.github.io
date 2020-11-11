@@ -174,7 +174,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.5.0.0",
+		"Version": "2.5.0.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe",
@@ -1018,10 +1018,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.94",
+		"Version": "3.4.2066.99",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.94.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.94.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.99.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.99.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
