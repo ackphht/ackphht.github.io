@@ -708,10 +708,11 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.0.3.0",
+		"Version": "7.1.0.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.3/PowerShell-7.0.3-win-x64.msi",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-x64.msi",
+		"HashFor64Bit": "E9C362E4378EC001F46973F560FF25E07B2314F29CBE3E248559A4693F6B7ED4",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -1018,10 +1019,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.4.2066.99",
+		"Version": "3.4.2066.106",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.99.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.99.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.106.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.4.2066.106.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1112,10 +1113,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.51.0.0",
+		"Version": "1.51.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "ew9r3NVlGmeWRU+uGX2u+g==",
+		"HashFor64Bit": "hSAaGt1aCck9TzxApIOL/w==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
