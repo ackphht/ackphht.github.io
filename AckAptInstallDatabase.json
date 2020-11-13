@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.23.0.0",
+		"Version": "1.24.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2145989",
-		"HashFor32Bit": "tzcksAbTpJfOUuio5b3t+g==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2148607",
+		"HashFor32Bit": "fBN3Gl+0TSluHU2TJOt8jw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -976,7 +976,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.26.28720.3",
+		"Version": "14.28.29325.2",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
