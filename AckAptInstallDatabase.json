@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.14.2.0",
+		"Version": "2.15.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "cWIw/OT4mOTdWveS5EtVlg==",
+		"HashFor32Bit": "sK656BMXfvQaTE5PQq5zJA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -566,10 +566,10 @@
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.10.13.0",
+		"Version": "6.11.11.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashFor32Bit": "VkdWH7d55HrVXpMLL0ksWg==",
+		"HashFor32Bit": "CkDAhDm9VPWs55ZO7PAjVQ==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -812,10 +812,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.4.0.0",
+		"Version": "1.4.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.4.0/Sigil-1.4.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "d70c167b6ec608e218c5ca5314e298253429dbaff80a08c9fa72449407434ddb",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.4.1/Sigil-1.4.1-Windows-x64-Setup.exe",
+		"HashFor64Bit": "0ab44aa67b996e577fbc781bebfdbef165816d8b3f6200ead260655f23f1f388",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
