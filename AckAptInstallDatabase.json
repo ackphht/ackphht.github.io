@@ -639,10 +639,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.15.0.0",
+		"Version": "14.15.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi",
-		"HashFor64Bit": "cafbd7ed129fb4a56a1751b674ba083d7681b72ae044c4976b3009cb796557af",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.1/node-v14.15.1-x64.msi",
+		"HashFor64Bit": "ce9c87aab446b461027fb4b0f132f17f275e85be975b4030179523601fa39433",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
