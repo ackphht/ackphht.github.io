@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2233.0",
+		"Version": "4.70.2236.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "9f53c6620f372adc7f75f7a1f390c8458e2cc08187abc160bb4121718a552db1",
+		"HashFor32Bit": "5db475ad8ef05976add3bdf1eac31a499c85fd90611f7cd4588de12fbc10ac0e",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "20.11.01.0",
+		"Version": "20.11.22.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.01/ConEmuSetup.201101.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v20.11.22/ConEmuSetup.201122.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
