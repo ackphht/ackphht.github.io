@@ -617,9 +617,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.4.0",
+		"Version": "3.0.4.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv304setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv304asetup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
