@@ -437,11 +437,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.2.4.0",
+		"Version": "2020.3.0.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.2.4.exe",
-		"HashFor32Bit": "580559cc95b313bcb157837acf95c6eebcb0ced61d978e299b356e0f74e6525f",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.exe",
+		"HashFor32Bit": "230747bfcd2f431a35e250ca787c9d94f91ce1c7f073bc6e61015c6544188006",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -725,10 +725,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.2.4.0",
+		"Version": "2020.2.5.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.4.exe",
-		"HashFor32Bit": "6eef44e8fa628fb1ca1cef32a30cbb5f48648840344cb6ce57ed00ad5c579562",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.2.5.exe",
+		"HashFor32Bit": "128993b33ec8b8a024550c335ac671f9f643327d8c46a08b5affd513bc92292c",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -900,12 +900,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.4.2.15",
+		"Version": "9.4.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "a5895a41da81aa03edb8433893a3902040fbd58149020288f0fbc6be4e8a21af",
-		"HashFor64Bit": "adc6fdd6e6feeeaf1d83bc592e915d514f5a331b10d563f41a4d9197feb3bc15",
+		"HashFor32Bit": "4bad876fc54cb78d5b0dfba095055a32bdf66c50283ead48f17575c686cc5156",
+		"HashFor64Bit": "e8fcf97d2f3e1ee2cfd9edc61c707389e098490422473013bebce7f972c35653",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
