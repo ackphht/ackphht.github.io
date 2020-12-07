@@ -1139,10 +1139,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "5.91.0.0",
+		"Version": "6.0.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar591.exe",
-		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-591.exe",
+		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar600.exe",
+		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-600.exe",
 		"AppPage": "https://www.rarlab.com"
 	},
 	{
