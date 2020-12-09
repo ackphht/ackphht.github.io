@@ -342,9 +342,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "10.0.0.35798",
+		"Version": "10.1.1.37576",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.0.0.35798",
+		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.1.1.37576",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
 	},
 	{
@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.29.2.2",
+		"Version": "2.29.2.3",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.2/Git-2.29.2.2-64-bit.exe",
-		"HashFor64Bit": "9ab49d93166d430514b0aaf6dda3fdc6b37e2fe1d0df8ecc04403cd2be40e78b",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-64-bit.exe",
+		"HashFor64Bit": "7ea2cd77818faae28ba401d1e7d9467da00e97bbd5e7fbb6788ce0cefdd24d2d",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
