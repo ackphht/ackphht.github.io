@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.013.20064.0",
+		"Version": "2020.013.20074.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001320064/AcroRdrDC2001320064_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001320074/AcroRdrDC2001320074_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.24.0.0",
+		"Version": "1.25.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2148607",
-		"HashFor32Bit": "fBN3Gl+0TSluHU2TJOt8jw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2150927",
+		"HashFor32Bit": "/weIBAAsNpQ2GbskJw6utQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -282,10 +282,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "7.8.2.0",
+		"Version": "7.8.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashFor32Bit": "88c07cc7c1f8fb053cd9d441d5f8d2ed",
+		"HashFor32Bit": "320d7c3d8bed33f690f980e47647625c",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -717,10 +717,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.6.0.0",
+		"Version": "2.6.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.6-05820.exe",
-		"HashFor64Bit": "62d0d7f69e45d82c5a7ac3b202b41977d71cc522a03301768435dc46be9cd02c",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.6.1-05824.exe",
+		"HashFor64Bit": "5678c41d1341a6001bab58d1eb3ddded7801e7b59ffbe7a249641b45e3a5c599",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1147,10 +1147,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.0.0",
+		"Version": "3.4.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.0.exe",
-		"HashFor64Bit": "32113e083409de888468e0bfe74ba98e6d618f9685a56a06f15b0506fdf4e462",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.1.exe",
+		"HashFor64Bit": "a078a0d97ed271a97fad294654b581b16db9926e80fd66c916b079d8fece1d45",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
