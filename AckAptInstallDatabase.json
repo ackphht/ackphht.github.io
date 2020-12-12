@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.25.0.0",
+		"Version": "1.25.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2150927",
-		"HashFor32Bit": "/weIBAAsNpQ2GbskJw6utQ==",
+		"HashFor32Bit": "2WeIAnaiI7w8UNmy8YMdCA==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -174,7 +174,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "2.5.0.1",
+		"Version": "3.0.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe",
@@ -1019,10 +1019,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.5.2115.73",
+		"Version": "3.5.2115.81",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.73.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.73.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.81.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.81.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1113,10 +1113,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.51.1.0",
+		"Version": "1.52.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "hSAaGt1aCck9TzxApIOL/w==",
+		"HashFor64Bit": "5RW/BOKT5Dcih3sQKZGikg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
