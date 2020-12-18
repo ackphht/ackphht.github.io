@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.26",
+		"Version": "6.7.3.27",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -639,10 +639,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.15.2.0",
+		"Version": "14.15.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.2/node-v14.15.2-x64.msi",
-		"HashFor64Bit": "1ce38ebb35cca0b926776b98f1c74c88d096a34978c2cab33ee15996923c7832",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi",
+		"HashFor64Bit": "36394f96a7e0266930ac7f6ec6602437f6ff9748500d80386e75fc0649d49c06",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -699,7 +699,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "7.36.0.0",
+		"Version": "7.36.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
