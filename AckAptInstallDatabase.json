@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2236.0",
+		"Version": "4.70.2239.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "5db475ad8ef05976add3bdf1eac31a499c85fd90611f7cd4588de12fbc10ac0e",
+		"HashFor32Bit": "550b9d891dbe10b803e7ed9045ca51d8124e13380f70a09cd6d62cb58261cd56",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -725,10 +725,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.3.0.0",
+		"Version": "2020.3.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.exe",
-		"HashFor32Bit": "d5d18c36ef709a28cb92bcf13def99254a3e4cb10b0c90bcc024dfc920be8285",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.1.exe",
+		"HashFor32Bit": "5dba1d3b497b9ca00fc15b1fa94ec37cb9e099735260365b80cc39876486830e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -763,10 +763,10 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.6.0",
+		"Version": "3.8.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.6/python-3.8.6-amd64.exe",
-		"HashFor64Bit": "2acba3117582c5177cdd28b91bbe9ac9",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.7/python-3.8.7-amd64.exe",
+		"HashFor64Bit": "325ec7acd0e319963b505aea877a23a4",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -874,11 +874,12 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.7.1.0",
-		"Notes": "Build number: 15.0.18358.0",
+		"Version": "18.8.0.0",
+		"Notes": "Build number: 15.0.18369.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
 		"HashFor32Bit": "K8hJwXiavqsBW7lDRCRXZQ==",
+		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
 	{
