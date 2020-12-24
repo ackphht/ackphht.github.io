@@ -792,11 +792,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.3.0.0",
+		"Version": "2020.3.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3/JetBrains.dotUltimate.2020.3.web.exe",
-		"HashFor32Bit": "5859880b2d7d9156edefbe6b2779a8894a52e31aa1bd79bacae5df0e87e7a557",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.1/JetBrains.dotUltimate.2020.3.1.web.exe",
+		"HashFor32Bit": "e2666a50cf3198c5b277adc2328c0a7f561c8709e927f030c20e9ee02cf1d0a5",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
