@@ -349,7 +349,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.12.1.3374",
+		"Version": "6.13.0.3463",
 		"Notes": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -878,7 +878,7 @@
 		"Notes": "Build number: 15.0.18369.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
-		"HashFor32Bit": "K8hJwXiavqsBW7lDRCRXZQ==",
+		"HashFor32Bit": "i6AUKF0+EnodGNqN9FJoUw==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
