@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.16.0.0",
+		"Version": "2.17.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "6h9aoadgLNRUeyrMCO4HrQ==",
+		"HashFor32Bit": "cSsYtn6OV/K/7iB/KbosRw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -384,11 +384,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.29.2.3",
+		"Version": "2.30.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-64-bit.exe",
-		"HashFor64Bit": "7ea2cd77818faae28ba401d1e7d9467da00e97bbd5e7fbb6788ce0cefdd24d2d",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.1/Git-2.30.0-64-bit.exe",
+		"HashFor64Bit": "1f38fd19d5f36f1e3dffdf5b233c883cea4fb418a44cc1d980c9f14d284385c9",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -437,11 +437,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.3.0.0",
+		"Version": "2020.3.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.exe",
-		"HashFor32Bit": "230747bfcd2f431a35e250ca787c9d94f91ce1c7f073bc6e61015c6544188006",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.1.exe",
+		"HashFor32Bit": "64ee32336beee84b0260bf9cd9085a8552ae3d3acc526721fc736b17e6f13440",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -725,10 +725,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.3.1.0",
+		"Version": "2020.3.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.1.exe",
-		"HashFor32Bit": "5dba1d3b497b9ca00fc15b1fa94ec37cb9e099735260365b80cc39876486830e",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.2.exe",
+		"HashFor32Bit": "82196cc453e0868f24a35c580a09c6369b2c5f484a7ef5af5d8a5d1bbcbbc98e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -792,11 +792,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.3.1.0",
+		"Version": "2020.3.2.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.1/JetBrains.dotUltimate.2020.3.1.web.exe",
-		"HashFor32Bit": "e2666a50cf3198c5b277adc2328c0a7f561c8709e927f030c20e9ee02cf1d0a5",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.2/JetBrains.dotUltimate.2020.3.2.web.exe",
+		"HashFor32Bit": "4aab4cbf5111b490655904abecd1f34c2c529de704af194d71203a00b0d60612",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -884,11 +884,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.20.3.0",
+		"Version": "0.20.4.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.3/stellarium-0.20.3-win32.exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.3/stellarium-0.20.3-win64.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.4/stellarium-0.20.4-win64.exe",
+		"HashFor64Bit": "47d0ea1e1b72123cd07dac1f34f131847d30de649b1dc5ba27a4feca1b212870",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
