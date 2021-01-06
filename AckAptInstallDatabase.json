@@ -290,12 +290,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.52.0.1",
+		"Version": "3.52.0.3",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "670afa543d349b802552ecab98e6fe20b251e7ff206be0392487fd298f576c8c5742cf65166a435d3f9da44ff681556f7931e859fc5bbed97be4ebd8304f324b",
-		"HashFor64Bit": "87e8dd17cf9853efd3811906f9401dbcf743c1f1e7f40ddf6423a1b2258322453067c5509701bee34958262a4479122d0b1679c84e6b68fba43fc16043e5928e",
+		"HashFor32Bit": "80c8c60a8d945e9573d75fac8163e84c85fc8d8768668a7c97e07e9bb885b0bb174394c6c022ab403d9aa78b1a5184c35ee0c1333b9f9a267ec60668b6eac4a9",
+		"HashFor64Bit": "e2ec4156db2de5bb9c3ddbc2c0b004e8ec4fd70c3c3427f4fa81ef0822f5883e470f7e68916bf031379876b7f42be5d20deff57f4fa22c69fbe3928938b8034b",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -834,10 +834,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.3.9.0",
+		"Version": "3.4.1.0",
 		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.3.9.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.1.exe",
 		"AppPage": "https://www.sourcetreeapp.com/"
 	},
 	{
