@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.27",
+		"Version": "6.7.3.28",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -447,21 +447,21 @@
 	},
 	{
 		"Name": "IrfanView",
-		"Version": "4.56.0.0",
-		"Notes": "https://www.irfanview.com/faq.htm#PAGE12",
+		"Version": "4.57.0.0",
+		"Notes": "installer options: https://www.irfanview.com/faq.htm#PAGE12",
 		"Type": "exe",
-		"UrlFor32Bit": "http://irfanview.info/files/iview456_setup.exe",
-		"HashFor32Bit": "2e7d41979e9f0768d3388828c66de8a3a3fd85dd644e08f7671d9815c18aeee7",
+		"UrlFor32Bit": "http://irfanview.info/files/iview457_setup.exe",
+		"HashFor32Bit": "b6be47ae716ff9e69e80f4956d7721a22734054cdbc18704a68f2f88028c2842",
 		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1 /ini=\"%APPDATA%\\IrfanView\"",
-		"HeadersToAdd": "Referer: http://irfanview.info/files/iview456_setup.exe",
+		"HeadersToAdd": "Referer: http://irfanview.info/files/iview457_setup.exe",
 		"AppPage": "http://www.irfanview.com/"
 	},
 	{
 		"Name": "IrfanViewPlugins",
-		"Version": "4.56.0.0",
+		"Version": "4.57.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://www.irfanview.info/files/iview456_plugins_setup.exe",
-		"HashFor32Bit": "94c0c212e56e30100a3f3146130f61f2a7428420907d2828ca472ec503abcca5",
+		"UrlFor32Bit": "http://www.irfanview.info/files/iview457_plugins_setup.exe",
+		"HashFor32Bit": "43401ca412624e9afa60430885262134346d7927670162e1346c597bc8d87bfe",
 		"InstallerArguments": "/silent",
 		"HeadersToAdd": "Referer: http://www.irfanview.info/files/irfanview_plugins_456_setup.exe"
 	},
