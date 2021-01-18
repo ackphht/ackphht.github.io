@@ -349,15 +349,15 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.13.1.3480",
-		"Notes": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
+		"Version": "6.13.2.3510",
+		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
 		"UrlFor64Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
 		"PreInstallMessage": "about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...",
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
 		"InstallerArguments": "/SP- /SILENT /ALLUSERS /DIR=\"C:\\Program Files\\Free Download Manager\"",
-		"AppPage": "https://www.freedownloadmanager.org/download.htm"
+		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900"
 	},
 	{
 		"Name": "Freemind",
