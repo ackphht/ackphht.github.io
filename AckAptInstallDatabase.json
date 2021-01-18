@@ -546,7 +546,7 @@
 	},
 	{
 		"Name": "LinkShellExtension",
-		"Version": "3.9.3.4",
+		"Version": "3.9.3.5",
 		"Type": "exe",
 		"UrlFor32Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_win32.exe",
 		"UrlFor64Bit": "https://schinagl.priv.at/nt/hardlinkshellext/HardLinkShellExt_X64.exe",
