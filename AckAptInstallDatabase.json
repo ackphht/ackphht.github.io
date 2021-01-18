@@ -1033,7 +1033,7 @@
 		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win32/vlc-3.0.12-win32.exe",
 		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
 		"HashFor32Bit": "85511f1ba0d4b61a6bf1a5a6aa2811d56b2b0b6919bf06dc2bce0d37027e45d1",
-		"HashFor64Bit": "b99ec375cd6909e1ad7c8c6f3452e2cae1b7726ffe73e14f053c76d1bd60d87d",
+		"HashFor64Bit": "d6e211c71c3f2ddebd950770779bb3fd71c2d977c04ff40ea9e3e5ee9d9d0ec9",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
