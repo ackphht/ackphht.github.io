@@ -290,12 +290,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.52.0.5",
+		"Version": "3.52.2.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "6398c7c0b1ae0f32d83bb601bf1455b434b34eda37d985b0abc04a1210f2b5090d11ed0271f2118a07dbca22ea7cbc1e1481b9fcbf97d582d17005d0faf6acf2",
-		"HashFor64Bit": "a985b4539dd1f0117e668582679b859ecdbb954f07bd096c79f26faf3b8af9c468aa13ffce934a3ae7d6eacbc361daca6b291e89a17fa75e762a92877f9f8d8b",
+		"HashFor32Bit": "2fa6fed09080ab97a73f41649bc35b0fa09fada7a075dceb5ca38f5f0071a4871ec9f5c362c5696e8a38017eb11867b987d7e5db1bcd1e8e62e7e3c87a24f4a2",
+		"HashFor64Bit": "1798869b0ccd9eadc93bbbb43c4f14b462148c0606d5640186f82b6746fbbf5118dd3db631a8efd96d0ad4380b474b824993887121c8a249453ed724c0970b36",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -335,7 +335,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.6.2.0",
+		"Version": "1.6.3.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -901,12 +901,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.4.3.0",
+		"Version": "9.4.14.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "4bad876fc54cb78d5b0dfba095055a32bdf66c50283ead48f17575c686cc5156",
-		"HashFor64Bit": "e8fcf97d2f3e1ee2cfd9edc61c707389e098490422473013bebce7f972c35653",
+		"HashFor32Bit": "93d7095b28bf61c127e8d87c2f918596c820f46523a388515375edcf43dc4108",
+		"HashFor64Bit": "7c797a347ad0434d0be095595ae1d0a5c442a2c1d44acc7005aae500420bd9fc",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
@@ -1028,12 +1028,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.11.0",
+		"Version": "3.0.12.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.11/win32/vlc-3.0.11-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.11/win64/vlc-3.0.11-win64.exe",
-		"HashFor32Bit": "86a95690916f9f5b86593ef3f146c101d11f5d5e55670613bf88211ca3036aca",
-		"HashFor64Bit": "2e41f1959ad77c34746715da5027c5ed554c35361397c9984a9ef78bc0b5e937",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win32/vlc-3.0.12-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
+		"HashFor32Bit": "85511f1ba0d4b61a6bf1a5a6aa2811d56b2b0b6919bf06dc2bce0d37027e45d1",
+		"HashFor64Bit": "b99ec375cd6909e1ad7c8c6f3452e2cae1b7726ffe73e14f053c76d1bd60d87d",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
