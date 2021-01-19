@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.17.1.0",
+		"Version": "2.18.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "YJ0SyjVjDSMqOQgtYb5+Gg==",
+		"HashFor32Bit": "1kM2FytJZpNnqcZH2gjuiw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
