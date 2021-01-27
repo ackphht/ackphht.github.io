@@ -437,11 +437,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.3.1.0",
+		"Version": "2020.3.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.1.exe",
-		"HashFor32Bit": "64ee32336beee84b0260bf9cd9085a8552ae3d3acc526721fc736b17e6f13440",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.2.exe",
+		"HashFor32Bit": "980488073d79f74bc6167bf0e0345114008914bca91e68714967d328ba019fc4",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
