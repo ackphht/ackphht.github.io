@@ -725,10 +725,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.3.2.0",
+		"Version": "2020.3.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.2.exe",
-		"HashFor32Bit": "82196cc453e0868f24a35c580a09c6369b2c5f484a7ef5af5d8a5d1bbcbbc98e",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.3.exe",
+		"HashFor32Bit": "3c541a8df125ee2536101b47e6d91c01f3b4350ad933321a7f5155d4f990771c",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -1020,10 +1020,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.5.2115.87",
+		"Version": "3.6.2165.34",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.87.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.5.2115.87.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.34.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.34.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
