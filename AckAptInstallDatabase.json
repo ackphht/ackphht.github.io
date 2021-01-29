@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.01.12.0",
+		"Version": "21.01.28.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.01.12/ConEmuSetup.210112.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.01.28/ConEmuSetup.210128.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -428,7 +428,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.29",
+		"Version": "6.7.3.30",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -617,9 +617,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.4.1",
+		"Version": "3.0.5.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv304asetup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv305setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
@@ -699,7 +699,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.0.2.0",
+		"Version": "8.0.3.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
