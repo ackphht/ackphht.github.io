@@ -1129,13 +1129,11 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.8.0",
+		"Version": "2.16.10.0",
 		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-Setup.exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/2.16.8/WinMerge-2.16.8-x64-Setup.exe",
-		"HashFor32Bit": "0a2eebcd8a7ca35f7787a376e83b44f3650a07229b7ed96f1e986b9567dca89b",
-		"HashFor64Bit": "eeb07fc8252fa6e54a6998b216b028db38df92ce268e23f9c5183ff57b5e95b7",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
+		"HashFor64Bit": "6e9cd0d92eb721bd40974de4cc1cfb0b69e497dcfffbbc50638cf931603247cb",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
@@ -1148,10 +1146,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.2.0",
+		"Version": "3.4.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.2.exe",
-		"HashFor64Bit": "faa98f833e10b450c24e42a42292ff894c36b97aec526bf259796488888fd57c",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.3.exe",
+		"HashFor64Bit": "3bb02427d9c29d7fc04bf011f2e4ebd4f23ebe68f275f51d4ae36ee167b6cb03",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
