@@ -1020,10 +1020,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.6.2165.34",
+		"Version": "3.6.2165.36",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.34.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.34.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.36.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.36.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1114,10 +1114,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.52.1.0",
+		"Version": "1.53.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "FgzhHy+C47oOXYb5iK73Cw==",
+		"HashFor64Bit": "Hv+Lb8nI14rcriRxnj9rYg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
