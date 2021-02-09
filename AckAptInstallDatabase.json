@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.18.0.0",
+		"Version": "2.19.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "1kM2FytJZpNnqcZH2gjuiw==",
+		"HashFor32Bit": "FcFgXnkef76Pmbb3YJwfxQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -402,7 +402,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.5.0.0",
+		"Version": "7.5.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
