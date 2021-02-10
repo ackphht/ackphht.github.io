@@ -19,10 +19,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2020.013.20074.0",
+		"Version": "2021.001.20135.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2001320074/AcroRdrDC2001320074_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120135/AcroRdrDC2100120135_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -349,7 +349,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.13.3.3555",
+		"Version": "6.13.4.3616",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -639,10 +639,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.15.4.0",
+		"Version": "14.15.5.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi",
-		"HashFor64Bit": "346a053dcd7508f1e5fbb2da0e34cbb3da206ab2439c4bab5a219c3b75e62475",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.5/node-v14.15.5-x64.msi",
+		"HashFor64Bit": "b53cbf58663d31fefaee7f6439287ef07d55a9ab4dac6f2ac7182cd85d090170",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
