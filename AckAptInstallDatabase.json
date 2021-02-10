@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.19.0.0",
+		"Version": "2.19.1.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "FcFgXnkef76Pmbb3YJwfxQ==",
+		"HashFor32Bit": "sa2NBekL7GmnaZQzvPtJJQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -386,11 +386,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.30.0.2",
+		"Version": "2.30.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe",
-		"HashFor64Bit": "895b93ab5230cf15d9f7a268285767c52a452d5b4332a889d9b18eb62c2c0dfe",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/Git-2.30.1-64-bit.exe",
+		"HashFor64Bit": "f1358ec93e8975fb4eaacbb71e010fadcb097fb00b8af9ab6d003ba69c08367d",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -626,9 +626,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.8.0",
+		"Version": "1.9.9.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.8/MPC-HC.1.9.8.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.9/MPC-HC.1.9.9.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
@@ -701,7 +701,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.0.4.0",
+		"Version": "8.0.5.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -1116,10 +1116,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.53.0.0",
+		"Version": "1.53.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "Hv+Lb8nI14rcriRxnj9rYg==",
+		"HashFor64Bit": "EH+X+Fb8KasQDLdsaWhc7A==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
