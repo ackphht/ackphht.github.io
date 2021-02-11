@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.25.2.0",
+		"Version": "1.25.3.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2150927",
-		"HashFor32Bit": "+67spURzh9w/OiRnedNQ8Q==",
+		"HashFor32Bit": "ogzSX0goD8XQLAQWyJGvWg==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -626,9 +626,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.9.0",
+		"Version": "1.9.9.1",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.9/MPC-HC.1.9.9.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.9.1/MPC-HC.1.9.9.1.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
