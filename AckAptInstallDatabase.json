@@ -116,9 +116,9 @@
 	},
 	{
 		"Name": "CascadiaCodeFont",
-		"Version": "2009.14.0.0",
+		"Version": "2102.03.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2009.14/CascadiaCode-2009.14.zip",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2102.03/CascadiaCode-2102.03.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
@@ -710,11 +710,11 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.1.1.0",
+		"Version": "7.1.2.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.1/PowerShell-7.1.1-win-x64.msi",
-		"HashFor64Bit": "D234CFD6E9DD4A2CA68BFBC64C416DE42F31760E954812E8ADE02B6D57FE243F",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x64.msi",
+		"HashFor64Bit": "8381D72E31415B533FCFD349E3AF1A62EFA8C793202A260C1C724D10C25BB49D",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -1116,10 +1116,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.53.1.0",
+		"Version": "1.53.2.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "EH+X+Fb8KasQDLdsaWhc7A==",
+		"HashFor64Bit": "TzQGGEIoss3MpJp3H5tT1A==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
