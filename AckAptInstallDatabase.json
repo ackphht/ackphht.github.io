@@ -701,7 +701,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.0.5.0",
+		"Version": "8.0.6.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
