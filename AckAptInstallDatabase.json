@@ -836,10 +836,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.2.0",
+		"Version": "3.4.3.0",
 		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.2.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.3.exe",
 		"AppPage": "https://www.sourcetreeapp.com/"
 	},
 	{
@@ -1022,10 +1022,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.6.2165.36",
+		"Version": "3.6.2165.40",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.36.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.36.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.40.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.40.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
