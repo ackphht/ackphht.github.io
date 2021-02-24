@@ -641,10 +641,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.15.5.0",
+		"Version": "14.16.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.15.5/node-v14.15.5-x64.msi",
-		"HashFor64Bit": "b53cbf58663d31fefaee7f6439287ef07d55a9ab4dac6f2ac7182cd85d090170",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.16.0/node-v14.16.0-x64.msi",
+		"HashFor64Bit": "d9243c9d02f5e4801b8b3ab848f45ce0da2882b5fff448191548ca49af434066",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -794,11 +794,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.3.2.0",
+		"Version": "2020.3.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.2/JetBrains.dotUltimate.2020.3.2.web.exe",
-		"HashFor32Bit": "4aab4cbf5111b490655904abecd1f34c2c529de704af194d71203a00b0d60612",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.3/JetBrains.dotUltimate.2020.3.3.web.exe",
+		"HashFor32Bit": "4c058044f1a16c567b0fd6085e7449143d37c35af6c110ee4688ef47d84e2ea3",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
