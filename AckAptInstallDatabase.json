@@ -61,7 +61,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.3",
+		"Version": "1.1.33.4",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.19.1.0",
+		"Version": "2.20.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "sa2NBekL7GmnaZQzvPtJJQ==",
+		"HashFor32Bit": "MmAPKrUOIBAhSoIPeYklTA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -176,10 +176,10 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "3.1.0.0",
+		"Version": "3.2.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/stable/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
