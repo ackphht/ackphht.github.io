@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.18.0.0",
+		"Version": "1.18.1.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "01493RAEDBeP2Oo+nrp1pA==",
+		"HashFor32Bit": "D8BaLnYnUPOoNwF+XIWgmA==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -132,9 +132,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.02.06.0",
+		"Version": "21.03.04.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.02.06/ConEmuSetup.210206.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.03.04/ConEmuSetup.210304.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -864,7 +864,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=866658",
 		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
-		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
+		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
 	},
 	{
 		"Name": "SqlServer2019CU",
@@ -1116,10 +1116,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.53.2.0",
+		"Version": "1.54.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "TzQGGEIoss3MpJp3H5tT1A==",
+		"HashFor64Bit": "cg09W/tuOgyeTuY50N5Avw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
