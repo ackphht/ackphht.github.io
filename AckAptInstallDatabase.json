@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.0.0",
+		"Version": "21.0.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2100.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2100-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2101.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2101-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -61,7 +61,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.4",
+		"Version": "1.1.33.5",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
@@ -386,11 +386,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.30.1.0",
+		"Version": "2.30.2.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.1.windows.1/Git-2.30.1-64-bit.exe",
-		"HashFor64Bit": "f1358ec93e8975fb4eaacbb71e010fadcb097fb00b8af9ab6d003ba69c08367d",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/Git-2.30.2-64-bit.exe",
+		"HashFor64Bit": "ae84c1965034527158fb0faca3e32430f51a34140a929135180e4dc0eddf3c30",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -903,12 +903,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.4.14.0",
+		"Version": "9.5.5.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "93d7095b28bf61c127e8d87c2f918596c820f46523a388515375edcf43dc4108",
-		"HashFor64Bit": "7c797a347ad0434d0be095595ae1d0a5c442a2c1d44acc7005aae500420bd9fc",
+		"HashFor32Bit": "27b41ce15d44b2e14f12780649a81772e8a6b8153940f428697c2c2a4bd93007",
+		"HashFor64Bit": "e2e74cffb7a5cff795e52440a2dcc2c9a6dcd20b573b19a710c9515f15165061",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
