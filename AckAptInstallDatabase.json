@@ -719,10 +719,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.7.0.0",
+		"Version": "2.7.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.7-06158.exe",
-		"HashFor64Bit": "8f46a3c4452b91205073427175688c1f53346e8fe5777b758879f15ccc862ab1",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.7.1-06182.exe",
+		"HashFor64Bit": "f029e76558fd514c28eb31b6488a898b7f272bc89e9fcfa7dceb61698262e0b7",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1148,10 +1148,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.3.0",
+		"Version": "3.4.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.3.exe",
-		"HashFor64Bit": "3bb02427d9c29d7fc04bf011f2e4ebd4f23ebe68f275f51d4ae36ee167b6cb03",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.4.exe",
+		"HashFor64Bit": "568d5b3f7dcca301d4f4069b72fd458cd6fb9562c4f06227ccb2a1804b260b26",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
