@@ -132,9 +132,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.03.12.0",
+		"Version": "21.03.14.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.03.12/ConEmuSetup.210312.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.03.14/ConEmuSetup.210314.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -284,10 +284,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "7.8.3.0",
+		"Version": "7.8.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashFor32Bit": "320d7c3d8bed33f690f980e47647625c",
+		"HashFor32Bit": "b2c48cbbea720317915d14b37c6f5e72",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -649,12 +649,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.9.3.0",
+		"Version": "7.9.4.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.3/npp.7.9.3.Installer.exe",
-		"HashFor32Bit": "9daaf00b40e848eaebeb6df515f681bc9c70bea01c52df3ecd69910c2d3be66d",
-		"HashFor64Bit": "942a5fa284df6018aec19110b0d9e68742194bfd44dd984b515adf103d99775a",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.4/npp.7.9.4.Installer.exe",
+		"HashFor32Bit": "2561bb7ece69440d3f61fa149147332daad9ab3ba5da8d0e5f66272a4ac51c11",
+		"HashFor64Bit": "e96394aba4e37d5f1a087da672e28010585c9af1f2a1e2ec43189a063ca20c45",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
