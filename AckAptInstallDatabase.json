@@ -292,12 +292,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.52.2.0",
+		"Version": "3.53.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "2fa6fed09080ab97a73f41649bc35b0fa09fada7a075dceb5ca38f5f0071a4871ec9f5c362c5696e8a38017eb11867b987d7e5db1bcd1e8e62e7e3c87a24f4a2",
-		"HashFor64Bit": "1798869b0ccd9eadc93bbbb43c4f14b462148c0606d5640186f82b6746fbbf5118dd3db631a8efd96d0ad4380b474b824993887121c8a249453ed724c0970b36",
+		"HashFor32Bit": "fc934b13fcc203a26235da94b7a598e19822c991c5880bef7f0bc6d85e4474bdde28fe1030863bf7ac0afd29cf820252971636561e56da2f0e4342ccd6d9bcb8",
+		"HashFor64Bit": "0a7afaa9f4343420af5540b868b84b59973526fcbe1f3abf90ea1c14a855bed6bb7ee03b4c6bbc53756ebd28bbfcae529bd59a52bfa9a002b8243ad4dd37ce5c",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -979,7 +979,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.28.29325.2",
+		"Version": "14.28.29913.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
