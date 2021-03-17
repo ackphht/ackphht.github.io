@@ -100,10 +100,9 @@
 	},
 	{
 		"Name": "BingWallpaper",
-		"Version": "1.0.8.2",
+		"Version": "0.0.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2126594",
-		"HashFor32Bit": "GMoH/miMOT1/QfWtq1Omyg==",
 		"AppPage": "https://www.microsoft.com/bing/bing-wallpaper"
 	},
 	{
@@ -439,11 +438,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2020.3.2.0",
+		"Version": "2020.3.3.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.2.exe",
-		"HashFor32Bit": "980488073d79f74bc6167bf0e0345114008914bca91e68714967d328ba019fc4",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2020.3.3.exe",
+		"HashFor32Bit": "4b721ca4efb7a0f7b2317e112009e4c32902ed8a8815df462d60a7088cd4da00",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -1022,10 +1021,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.6.2165.40",
+		"Version": "3.7.2218.45",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.40.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.6.2165.40.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.45.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.45.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
