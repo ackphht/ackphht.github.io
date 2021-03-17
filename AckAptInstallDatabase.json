@@ -176,7 +176,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "3.2.1.0",
+		"Version": "3.2.2.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
@@ -386,11 +386,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.30.2.0",
+		"Version": "2.31.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.30.2.windows.1/Git-2.30.2-64-bit.exe",
-		"HashFor64Bit": "ae84c1965034527158fb0faca3e32430f51a34140a929135180e4dc0eddf3c30",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.31.0.windows.1/Git-2.31.0-64-bit.exe",
+		"HashFor64Bit": "baedde203f1d3f2aea68981a9d8da26f0f9ef77684e46e7d6708badc91f6dea0",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -1116,10 +1116,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.54.2.0",
+		"Version": "1.54.3.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "AFwh+T3t7rOcg2Cpkebxfw==",
+		"HashFor64Bit": "qFEfHdxA7G9+7c42kyAxbQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
