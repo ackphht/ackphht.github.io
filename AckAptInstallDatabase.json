@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.26.1.0",
+		"Version": "1.27.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2154985",
-		"HashFor32Bit": "3fQZFWbBcUyxaLrwi+wjYw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2157460",
+		"HashFor32Bit": "U6DppgR7Uy+6iXYrR0jYfQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -429,7 +429,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.31",
+		"Version": "6.7.3.32",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -726,10 +726,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2020.3.3.0",
+		"Version": "2020.3.4.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.3.exe",
-		"HashFor32Bit": "3c541a8df125ee2536101b47e6d91c01f3b4350ad933321a7f5155d4f990771c",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2020.3.4.exe",
+		"HashFor32Bit": "cfb16ea2101f44d54c93dab053db3e86a8efd7dfd61f77b38c3b13897cebd997",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -793,11 +793,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2020.3.3.0",
+		"Version": "2020.3.4.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.3/JetBrains.dotUltimate.2020.3.3.web.exe",
-		"HashFor32Bit": "4c058044f1a16c567b0fd6085e7449143d37c35af6c110ee4688ef47d84e2ea3",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2020.3.4/JetBrains.dotUltimate.2020.3.4.web.exe",
+		"HashFor32Bit": "a7afd879f75ef31799620224c831cd369934b5d7f6a30ddc15c8854659f14060",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
