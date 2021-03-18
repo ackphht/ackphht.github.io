@@ -44,10 +44,10 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "2.4.2.0",
+		"Version": "3.0.0.0",
 		"Type": "zip",
 		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/2.4.2",
+		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/3.0.0",
 		"AppPage": "http://www.audacityteam.org/download/windows/"
 	},
 	{
