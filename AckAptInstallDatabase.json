@@ -350,7 +350,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.13.4.3616",
+		"Version": "6.14.0.3798",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -648,12 +648,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "7.9.4.0",
+		"Version": "7.9.5.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.4/npp.7.9.4.Installer.exe",
-		"HashFor32Bit": "2561bb7ece69440d3f61fa149147332daad9ab3ba5da8d0e5f66272a4ac51c11",
-		"HashFor64Bit": "e96394aba4e37d5f1a087da672e28010585c9af1f2a1e2ec43189a063ca20c45",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.9.5/npp.7.9.5.Installer.exe",
+		"HashFor32Bit": "e44caeefeed617d7b791fae64a7724b73eeda1c9f96254bdf0e2cc48bd69a792",
+		"HashFor64Bit": "4881548cd86491b453520e83c19292c93b9c6ce485a1f9eb9301e3913a9baced",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
