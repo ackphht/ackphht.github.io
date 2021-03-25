@@ -74,7 +74,7 @@
 		"Version": "2.21.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "H65HJhYXb8xkmRR+kFt5iA==",
+		"HashFor32Bit": "uMy76w3WAh1gusExw4cWpA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -700,7 +700,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.0.7.0",
+		"Version": "8.0.8.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -1021,10 +1021,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.7.2218.45",
+		"Version": "3.7.2218.49",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.45.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.45.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.49.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.49.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
