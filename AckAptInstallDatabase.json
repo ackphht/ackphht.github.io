@@ -107,9 +107,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.13.0.0",
+		"Version": "5.14.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.13.0/calibre-64bit-5.13.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.14.0/calibre-64bit-5.14.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.5.2.0",
+		"Version": "7.5.3.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -618,9 +618,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.5.0",
+		"Version": "3.0.6.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv305setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv306asetup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
@@ -700,7 +700,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.0.8.0",
+		"Version": "8.0.9.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
