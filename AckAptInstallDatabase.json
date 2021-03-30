@@ -291,12 +291,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.53.0.0",
+		"Version": "3.53.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "fc934b13fcc203a26235da94b7a598e19822c991c5880bef7f0bc6d85e4474bdde28fe1030863bf7ac0afd29cf820252971636561e56da2f0e4342ccd6d9bcb8",
-		"HashFor64Bit": "0a7afaa9f4343420af5540b868b84b59973526fcbe1f3abf90ea1c14a855bed6bb7ee03b4c6bbc53756ebd28bbfcae529bd59a52bfa9a002b8243ad4dd37ce5c",
+		"HashFor32Bit": "15f1a3bcc15aef0878f76e594831d69c361423fd5928e3b11dde71b917df7a56b1f4e4289255b65c535b4698395d2385673cebeb927ff20d6629129fe2969876",
+		"HashFor64Bit": "be2f6846d15e4eb2648a5fd76cd6eb5e8ee457a701c33413edff4817b20e2b3d5947d0b0c5377ab2782c19842feedee843c853a5f4fe0371d5eec9af6e8ca01d",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -885,11 +885,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.20.4.0",
+		"Version": "0.21.0.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.20.4/stellarium-0.20.4-win64.exe",
-		"HashFor64Bit": "47d0ea1e1b72123cd07dac1f34f131847d30de649b1dc5ba27a4feca1b212870",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.0/stellarium-0.21.0-win64.exe",
+		"HashFor64Bit": "f492e4967b525cd3e4652cf86b68eb0d3b954cd5aa8d4cbac3a452d4936e9d66",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
