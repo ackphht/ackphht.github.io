@@ -370,10 +370,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.24.1",
+		"Version": "2.10.24.2",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-1.exe",
-		"HashFor32Bit": "84a542d717217f5fb996a18093c4424136978ebbf3815db2ee3c5daa8dcafc0b",
+		"UrlFor32Bit": "https://download.gimp.org/pub/gimp/v2.10/windows/gimp-2.10.24-setup-2.exe",
+		"HashFor32Bit": "f83bd00e51712c65ee2f20f95687946f78e1b9ce1f5ccf1f7223f2ebe9dcd544",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/"
 	},
@@ -718,10 +718,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.7.1.0",
+		"Version": "2.8.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.7.1-06182.exe",
-		"HashFor64Bit": "f029e76558fd514c28eb31b6488a898b7f272bc89e9fcfa7dceb61698262e0b7",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.8-06331.exe",
+		"HashFor64Bit": "6ad37b60e52400db0652d29b1e572a95105f34fb7df5f5f3bc4c678383aa4a49",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -1021,10 +1021,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.7.2218.49",
+		"Version": "3.7.2218.52",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.49.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.49.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1115,10 +1115,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.54.3.0",
+		"Version": "1.55.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "qFEfHdxA7G9+7c42kyAxbQ==",
+		"HashFor64Bit": "5Bsp6kLYCLO02Uw+xbW/0Q==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
