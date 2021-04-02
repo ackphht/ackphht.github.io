@@ -1039,10 +1039,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "16.0.0.16894299",
+		"Version": "16.1.1.17801498",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.0.0-16894299.exe",
-		"HashFor64Bit": "818588b3f96cf28819a8f8ffcbdc0699cf05a5dbae4c724e1c21a66911483a76",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.1.1-17801498.exe",
+		"HashFor64Bit": "d43b11a651d36e4113105de24630413c3eea904b835282e4978b95a2c6a205b3",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
