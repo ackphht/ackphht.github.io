@@ -746,10 +746,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.9.2.0",
+		"Version": "3.9.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe",
-		"HashFor64Bit": "efb20aa1b648a2baddd949c142d6eb06",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.3/python-3.9.3-amd64.exe",
+		"HashFor64Bit": "fa623851a620c7121fa83d62e55534a9",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -764,19 +764,19 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.8.0",
+		"Version": "3.8.9.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.8/python-3.8.8-amd64.exe",
-		"HashFor64Bit": "77a54a14239b6d7d0dcbe2e3a507d2f0",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.9/python-3.8.9-amd64.exe",
+		"HashFor64Bit": "4f973848788a5d09a1225f27b18bd305",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.2.0",
+		"Version": "3.9.3.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.2/python-3.9.2-amd64.exe",
-		"HashFor64Bit": "efb20aa1b648a2baddd949c142d6eb06",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.3/python-3.9.3-amd64.exe",
+		"HashFor64Bit": "fa623851a620c7121fa83d62e55534a9",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
