@@ -27,10 +27,10 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2242.0",
+		"Version": "4.70.2248.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.aimp.ru/?do=download.file&id=4",
-		"HashFor32Bit": "fcca5d362710415541caaccdcfac4c88d90b0db734f9721b9ec219892d84debb",
+		"HashFor32Bit": "41070175804131607f907e359f1268ee0863a6493d8c94ce14a4be11ba7c978c",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -746,10 +746,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.9.3.0",
+		"Version": "3.9.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.3/python-3.9.3-amd64.exe",
-		"HashFor64Bit": "fa623851a620c7121fa83d62e55534a9",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe",
+		"HashFor64Bit": "1a1412dd7c18aa0c7c7e55b00a244844",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -773,10 +773,10 @@
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.3.0",
+		"Version": "3.9.4.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.3/python-3.9.3-amd64.exe",
-		"HashFor64Bit": "fa623851a620c7121fa83d62e55534a9",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe",
+		"HashFor64Bit": "1a1412dd7c18aa0c7c7e55b00a244844",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
