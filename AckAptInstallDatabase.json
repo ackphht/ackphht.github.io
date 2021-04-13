@@ -71,10 +71,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.21.0.0",
+		"Version": "2.22.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "uMy76w3WAh1gusExw4cWpA==",
+		"HashFor32Bit": "XhCk10vm3SX4CUXvQUAqEA==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -403,7 +403,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.5.4.0",
+		"Version": "7.5.5.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
@@ -1139,10 +1139,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.0.0.0",
+		"Version": "6.0.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar600.exe",
-		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-600.exe",
+		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar601.exe",
+		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-601.exe",
 		"AppPage": "https://www.rarlab.com"
 	},
 	{
