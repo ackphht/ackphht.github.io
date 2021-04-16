@@ -90,11 +90,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.18.1.0",
+		"Version": "1.19.0.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "D8BaLnYnUPOoNwF+XIWgmA==",
+		"HashFor32Bit": "c9659aXsJPmZecBbOHlAQg==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -107,9 +107,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.14.0.0",
+		"Version": "5.15.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.14.0/calibre-64bit-5.14.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.15.0/calibre-64bit-5.15.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -175,7 +175,7 @@
 	},
 	{
 		"Name": "DockerCE",
-		"Version": "3.3.0.0",
+		"Version": "3.3.1.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
@@ -700,7 +700,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.2.1.0",
+		"Version": "8.2.3.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -1021,10 +1021,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.7.2218.52",
+		"Version": "3.7.2218.55",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.52.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
