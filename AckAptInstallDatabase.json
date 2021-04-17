@@ -80,11 +80,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.27.0.0",
+		"Version": "1.28.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2157460",
-		"HashFor32Bit": "U6DppgR7Uy+6iXYrR0jYfQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2160781",
+		"HashFor32Bit": "B4ya1dK4g477kDHPq6ntUQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -107,9 +107,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.15.0.0",
+		"Version": "5.16.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.15.0/calibre-64bit-5.15.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.16.0/calibre-64bit-5.16.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -350,7 +350,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.14.0.3798",
+		"Version": "6.14.1.3935",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
