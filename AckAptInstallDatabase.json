@@ -867,10 +867,10 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4102.2",
-		"Notes": "Cumulative Update 9",
+		"Version": "15.0.4123.1",
+		"Notes": "Cumulative Update 10",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5000642-x64.exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5001090-x64.exe",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
