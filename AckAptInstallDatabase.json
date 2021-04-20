@@ -44,11 +44,12 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.0.0.0",
-		"Type": "zip",
-		"ZipContentToRun": "tools\\audacity_x32.exe",
-		"UrlFor32Bit": "https://chocolatey.org/api/v2/package/audacity/3.0.0",
-		"AppPage": "http://www.audacityteam.org/download/windows/"
+		"Version": "3.0.2.0",
+		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
+		"Type": "exe",
+		"UrlFor32Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
+		"HashFor32Bit": "2fa8e586a339d9da8dcf49c21f4cd1cbaa24691b1dcc0d02f6c9f451ac8bea47",
+		"AppPage": "http://www.audacityteam.org/download/"
 	},
 	{
 		"Name": "AudioShell",
