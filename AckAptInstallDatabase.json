@@ -62,7 +62,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.6",
+		"Version": "1.1.33.7",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
@@ -999,18 +999,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.18.0",
+		"Version": "6.1.20.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.18/VirtualBox-6.1.18-142142-Win.exe",
-		"HashFor32Bit": "c04e452b2f3f79d25d3084eb10c9aa9dd71c2efb33fad0282c7e8b206b3324df",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.20/VirtualBox-6.1.20-143896-Win.exe",
+		"HashFor32Bit": "9e969c60ab0a92f54c45b910d18c0cfb0937009dabc0c3382a51329d699e29f9",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.18.0",
+		"Version": "6.1.20.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.18/Oracle_VM_VirtualBox_Extension_Pack-6.1.18.vbox-extpack",
-		"HashFor32Bit": "d609e35accff5c0819ca9be47de302abf094dc1b6d4c54da8fdda639671f267e",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.20/Oracle_VM_VirtualBox_Extension_Pack-6.1.20.vbox-extpack",
+		"HashFor32Bit": "15bdee9c0385ddd4cdbbe0e446c0180ad4ae21554ddd52f8b44783aebd4aeef4",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
