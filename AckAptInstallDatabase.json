@@ -1022,10 +1022,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.7.2218.55",
+		"Version": "3.7.2218.58",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.55.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.58.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.58.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1148,10 +1148,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.4.0",
+		"Version": "3.4.5.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.4.exe",
-		"HashFor64Bit": "568d5b3f7dcca301d4f4069b72fd458cd6fb9562c4f06227ccb2a1804b260b26",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.5.exe",
+		"HashFor64Bit": "e6a7f8b48221b642b8b0911dd1519d3436a5a90e99525e80f1764bf4938b35e5",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
