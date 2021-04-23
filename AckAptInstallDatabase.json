@@ -684,11 +684,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.15.0",
+		"Version": "4.2.16.0",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.15.install.zip",
+		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
