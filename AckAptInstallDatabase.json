@@ -921,11 +921,11 @@
 	},
 	{
 		"Name": "TeraCopy",
-		"Version": "3.8.4.0",
+		"Version": "3.8.5.0",
 		"Notes": "https://codesector.com/teracopy",
 		"Type": "exe",
-		"UrlFor32Bit": "https://codesector.com/files/teracopy3.8.4.exe",
-		"HashFor32Bit": "F48FC54C36002245E772C87A2E45E3F495995135CE312F5868E72A995C4D50EE",
+		"UrlFor32Bit": "https://codesector.com/files/teracopy3.8.5.exe",
+		"HashFor32Bit": "401870777B39B6FFBFD5EC96AE79470E9CAF2D2B5526927100DD91E87B3228EE",
 		"AppPage": "https://blog.codesector.com/category/teracopy/"
 	},
 	{
@@ -1031,10 +1031,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.7.2218.58",
+		"Version": "3.8.2259.37",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.58.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.7.2218.58.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.37.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.37.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -1140,11 +1140,11 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.10.0",
+		"Version": "2.16.12.0",
 		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.10/WinMerge-2.16.10-x64-Setup.exe",
-		"HashFor64Bit": "6e9cd0d92eb721bd40974de4cc1cfb0b69e497dcfffbbc50638cf931603247cb",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.12/WinMerge-2.16.12-x64-Setup.exe",
+		"HashFor64Bit": "e4b790136347dabf959dfd342f11558569de07aee7680a439645621cf388940e",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
