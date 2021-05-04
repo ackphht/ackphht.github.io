@@ -91,11 +91,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.19.0.0",
+		"Version": "1.19.1.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "c9659aXsJPmZecBbOHlAQg==",
+		"HashFor32Bit": "q8KNpPD9iwFhiqENNEmdkw==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -430,7 +430,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.32",
+		"Version": "6.7.3.33",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -439,11 +439,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2021.1.0.0",
+		"Version": "2021.1.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.1.exe",
-		"HashFor32Bit": "a8d69ae65d642db347ae22d3f6dfe6a65c913808ae778ce97b0199fc448f5ad2",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.1.1.exe",
+		"HashFor32Bit": "91bb98f1d8fc49e03be708b73657a8e4fa9cca0bcef6e8d430efe31b1d52bb5a",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -747,10 +747,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.9.4.0",
+		"Version": "3.9.5.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe",
-		"HashFor64Bit": "ebc65aaa142b1d6de450ce241c50e61c",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+		"HashFor64Bit": "53a354a15baed952ea9519a7f4d87c3f",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -765,19 +765,19 @@
 	},
 	{
 		"Name": "python38",
-		"Version": "3.8.9.0",
+		"Version": "3.8.10.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.9/python-3.8.9-amd64.exe",
-		"HashFor64Bit": "4f973848788a5d09a1225f27b18bd305",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe",
+		"HashFor64Bit": "62cf1a12a5276b0259e8761d4cf4fe42",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python38\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.4.0",
+		"Version": "3.9.5.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.4/python-3.9.4-amd64.exe",
-		"HashFor64Bit": "ebc65aaa142b1d6de450ce241c50e61c",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+		"HashFor64Bit": "53a354a15baed952ea9519a7f4d87c3f",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
