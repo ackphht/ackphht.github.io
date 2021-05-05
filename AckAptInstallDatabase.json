@@ -11,13 +11,6 @@
 		"AppPage": "http://www.7-zip.org/"
 	},
 	{
-		"Name": "AdobeDigitalEditions",
-		"Version": "4.5.11.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe",
-		"AppPage": "http://www.adobe.com/solutions/ebook/digital-editions/download.html"
-	},
-	{
 		"Name": "AdobeReaderDC",
 		"Version": "2021.001.20145.0",
 		"Notes": "ugh",
@@ -124,28 +117,12 @@
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
 	{
-		"Name": "Clover",
-		"Version": "3.4.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://cn.ejie.me/uploads/setup_clover@3.4.0.exe",
-		"AppPage": "http://ejie.me/"
-	},
-	{
 		"Name": "ConEmu",
 		"Version": "21.04.22.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.04.22/ConEmuSetup.210422.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
-	},
-	{
-		"Name": "DebugDiag",
-		"Version": "2.2.0.14",
-		"Type": "msi",
-		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx86.msi",
-		"UrlFor64Bit": "https://download.microsoft.com/download/D/C/9/DC98BD0E-5A9A-4D8A-B313-22BC3604FB05/DebugDiagx64.msi",
-		"AppPage": "http://www.debugdiag.com/"
 	},
 	{
 		"Name": "Defraggler",
@@ -155,15 +132,6 @@
 		"PreInstallMessage": "about to install Defraggler; disable the network now. . .",
 		"PostInstallMessage": "done installing Defraggler; you can re-enable to network now. . .",
 		"AppPage": "http://www.piriform.com/defraggler/download"
-	},
-	{
-		"Name": "DiffMerge",
-		"Version": "4.2.0",
-		"Type": "msi",
-		"UrlFor32Bit": "http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x86.msi",
-		"UrlFor64Bit": "http://download-us.sourcegear.com/DiffMerge/4.2.0/DiffMerge_4.2.0.697.stable_x64.msi",
-		"InstallerArguments": "/passive",
-		"AppPage": "http://www.sourcegear.com/diffmerge/downloads.php"
 	},
 	{
 		"Name": "digestIt",
@@ -181,34 +149,6 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
-	},
-	{
-		"Name": "DotNet40",
-		"Version": "4.0.0.20110221",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/1/B/E/1BE39E79-7E39-46A3-96FF-047F95396215/dotNetFx40_Full_setup.exe"
-	},
-	{
-		"Name": "DotNet45",
-		"Version": "4.5.2.20140506",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/B/4/1/B4119C11-0423-477B-80EE-7A474314B347/NDP452-KB2901954-Web.exe"
-	},
-	{
-		"Name": "DotNet46",
-		"Version": "4.6.2.20160720",
-		"Notes": "http://go.microsoft.com/fwlink/?LinkId=780597",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=780596",
-		"AppPage": "https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx"
-	},
-	{
-		"Name": "DotNet47",
-		"Version": "4.7.2.20180607",
-		"Notes": "http://go.microsoft.com/fwlink/?LinkId=825299 / https://www.microsoft.com/net/download/windows",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=863262",
-		"AppPage": "https://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers"
 	},
 	{
 		"Name": "DotNet48",
@@ -320,22 +260,6 @@
 		"AppPage": "https://www.firefox.com"
 	},
 	{
-		"Name": "FlashPlayerPlugin",
-		"Version": "32.0.0.465",
-		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.465/install_flash_player_32_plugin.msi",
-		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
-		"AppPage": "https://www.adobe.com/software/flash/about/"
-	},
-	{
-		"Name": "FlashPlayerPluginAX",
-		"Version": "32.0.0.465",
-		"Type": "msi",
-		"UrlFor32Bit": "https://fpdownload.adobe.com/pub/flashplayer/pdc/32.0.0.465/install_flash_player_32_active_x.msi",
-		"InstallerArguments": "/passive /norestart REMOVE_PREVIOUS=YES",
-		"AppPage": "https://www.adobe.com/software/flash/about/"
-	},
-	{
 		"Name": "foobar2000",
 		"Version": "1.6.5.0",
 		"Type": "exe",
@@ -360,14 +284,6 @@
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
 		"InstallerArguments": "/SP- /SILENT /ALLUSERS /DIR=\"C:\\Program Files\\Free Download Manager\"",
 		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900"
-	},
-	{
-		"Name": "Freemind",
-		"Version": "1.0.1",
-		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/freemind/files/freemind/1.0.1/FreeMind-Windows-Installer-1.0.1-max.exe",
-		"HeadersToAdd": "User-Agent: WindowsPowerShell",
-		"AppPage": "http://freemind.sourceforge.net/wiki/index.php/Main_Page"
 	},
 	{
 		"Name": "gimp",
@@ -506,17 +422,6 @@
 		"AppPage": "https://www.java.com/en/download/manual.jsp"
 	},
 	{
-		"Name": "KDiff3",
-		"Version": "0.9.98",
-		"Type": "exe",
-		"UrlFor32Bit": "http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-32bit-Setup_0.9.98-3.exe/download",
-		"UrlFor64Bit": "http://sourceforge.net/projects/kdiff3/files/kdiff3/0.9.98/KDiff3-64bit-Setup_0.9.98-2.exe/download",
-		"HashFor32Bit": "9d7ec4fb0e2b83a321cb77ce47c86fd42fc8ec2b",
-		"HashFor64Bit": "4b7358aec8de6a3e719065fce37dd966c92ed3d4",
-		"HeadersToAdd": "User-Agent: WindowsPowerShell",
-		"AppPage": "http://kdiff3.sourceforge.net/"
-	},
-	{
 		"Name": "KeePass2",
 		"Version": "2.47.0.0",
 		"Type": "exe",
@@ -538,13 +443,6 @@
 		"PostInstallMessage": "before running Kindle app, rename that render-test.exe, then disable network to prevent it auto-updating itself, then in app settings, disable auto-updates (and probably want to change content location, too)",
 		"InstallerArguments": "/S",
 		"AppPage": "https://www.amazon.com/kindle-dbs/fd/kcp"
-	},
-	{
-		"Name": "Lastpass",
-		"Version": "4.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://lastpass.com/download/cdn/lastpass.exe",
-		"UrlFor64Bit": "https://lastpass.com/download/cdn/lastpass_x64.exe"
 	},
 	{
 		"Name": "LinkShellExtension",
@@ -607,17 +505,6 @@
 		"AppPage": "https://www.microsoftedge.com"
 	},
 	{
-		"Name": "MicrosoftMessageAnalyzer",
-		"Version": "1.4.1.20161028",
-		"Notes": "https://technet.microsoft.com/en-us/library/jj649776.aspx | https://www.microsoft.com/en-us/download/details.aspx?id=44226",
-		"Type": "msi",
-		"UrlFor32Bit": "http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer.msi",
-		"UrlFor64Bit": "http://download.microsoft.com/download/2/8/3/283DE38A-5164-49DB-9883-9D1CC432174D/MessageAnalyzer64.msi",
-		"HashFor32Bit": "E923884FE1A076542BB5BBCAB13CC715A2D6D243",
-		"HashFor64Bit": "839B24D7CF8248B2BA9A0B14DC62146D94761966",
-		"AppPage": "https://technet.microsoft.com/en-us/library/dn904558.aspx"
-	},
-	{
 		"Name": "Mp3tag",
 		"Version": "3.0.6.1",
 		"Type": "exe",
@@ -656,13 +543,6 @@
 		"HashFor32Bit": "e44caeefeed617d7b791fae64a7724b73eeda1c9f96254bdf0e2cc48bd69a792",
 		"HashFor64Bit": "4881548cd86491b453520e83c19292c93b9c6ce485a1f9eb9301e3913a9baced",
 		"AppPage": "https://notepad-plus-plus.org/download/"
-	},
-	{
-		"Name": "notepad2mod",
-		"Version": "4.2.25.998",
-		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/XhmikosR/notepad2-mod/releases/download/4.2.25.998/Notepad2-mod.4.2.25.998.exe",
-		"AppPage": "https://github.com/XhmikosR/notepad2-mod/releases"
 	},
 	{
 		"Name": "notepad3",
@@ -755,15 +635,6 @@
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
-		"Name": "python37",
-		"Version": "3.7.9.0",
-		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe",
-		"HashFor64Bit": "7083fed513c3c9a4ea655211df9ade27",
-		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python37\" PrependPath=0 CompileAll=1",
-		"AppPage": "https://www.python.org/downloads/"
-	},
-	{
 		"Name": "python38",
 		"Version": "3.8.10.0",
 		"Type": "exe",
@@ -819,20 +690,6 @@
 		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.5.1/Sigil-1.5.1-Windows-x64-Setup.exe",
 		"HashFor64Bit": "b3cfd5100774fa9b1ec8703ee0dfdc43008c9ce96ea79333e995f6abd69c2e50",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
-	},
-	{
-		"Name": "SilverLight",
-		"Version": "5.1.50428.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=229320",
-		"UrlFor64Bit": "http://go.microsoft.com/fwlink/?LinkID=229321"
-	},
-	{
-		"Name": "SilverLightDev",
-		"Version": "5.1.50428.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkId=229323",
-		"UrlFor64Bit": "http://go.microsoft.com/fwlink/?LinkId=229324"
 	},
 	{
 		"Name": "SourceTree",
@@ -894,14 +751,6 @@
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
-		"Name": "SumatraPDF",
-		"Version": "3.2.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-install.exe",
-		"UrlFor64Bit": "https://www.sumatrapdfreader.org/dl2/SumatraPDF-3.2-64-install.exe",
-		"AppPage": "http://www.sumatrapdfreader.org/download-free-pdf-viewer.html"
-	},
-	{
 		"Name": "SyncBackSE",
 		"Version": "9.5.12.0",
 		"Type": "exe",
@@ -911,13 +760,6 @@
 		"HashFor64Bit": "130e4ce597ae8d155456da4fd218b0c261669419dfd74044125d7b63feaa299b",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
-	},
-	{
-		"Name": "TeamViewer",
-		"Version": "13.0.6447.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://download.teamviewer.com/download/TeamViewer_Setup_en.exe",
-		"AppPage": "https://www.teamviewer.com/en/download/windows/"
 	},
 	{
 		"Name": "TeraCopy",
@@ -1023,13 +865,6 @@
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
-		"Name": "VirtualCloneDrive",
-		"Version": "5.5.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://www.elby.ch/download/SetupVCD.exe",
-		"AppPage": "http://www.elby.ch/download.html"
-	},
-	{
 		"Name": "Vivaldi",
 		"Version": "3.8.2259.37",
 		"Type": "exe",
@@ -1056,30 +891,6 @@
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/go/tryplayer"
-	},
-	{
-		"Name": "VS2015Community",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=626924"
-	},
-	{
-		"Name": "VS2015Professional",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=699336"
-	},
-	{
-		"Name": "VS2015Enterprise",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "http://go.microsoft.com/fwlink/?LinkID=699337"
-	},
-	{
-		"Name": "VS2015Update",
-		"Version": "2.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=691129"
 	},
 	{
 		"Name": "VS2017Community",
