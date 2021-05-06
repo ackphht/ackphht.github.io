@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.1.0",
+		"Version": "21.0.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2101.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2101-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2102.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2102-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.22.1.0",
+		"Version": "2.23.0.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "r/SzpEiwIvi52KqvElI/Tw==",
+		"HashFor32Bit": "H5UORo8rUA07TZbfHn87pw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -268,9 +268,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "10.1.1.37576",
+		"Version": "10.1.4.37651",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.1.1.37576",
+		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.1.4.37651",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
 	},
 	{
@@ -581,7 +581,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.3.0.0",
+		"Version": "8.3.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
@@ -599,10 +599,10 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.8.1.0",
+		"Version": "2.9.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.8.1-06335.exe",
-		"HashFor64Bit": "4e84b07c6346db1a7e9310290e949559691a066959c18497c61df740dc3b23bd",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.9-06393.exe",
+		"HashFor64Bit": "307f2bae66ddbe66b321f5e2c9beaa60ef82e83862db481963311f83c0e18e8a",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -866,10 +866,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.8.2259.37",
+		"Version": "3.8.2259.40",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.37.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.37.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.40.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.40.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -936,10 +936,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.55.2.0",
+		"Version": "1.56.0.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "tsxQk3Z+2kQsHpTIXNiWtg==",
+		"HashFor64Bit": "PUdTINBL/vjtpSoAaoecxA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
