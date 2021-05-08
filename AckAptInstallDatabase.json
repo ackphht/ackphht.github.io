@@ -55,7 +55,7 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.8",
+		"Version": "1.1.33.9",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
 		"UrlFor32Bit": "https://autohotkey.com/download/ahk-install.exe",
