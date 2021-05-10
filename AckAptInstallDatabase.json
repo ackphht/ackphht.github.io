@@ -874,12 +874,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.12.0",
+		"Version": "3.0.13.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win32/vlc-3.0.12-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.12/win64/vlc-3.0.12-win64.exe",
-		"HashFor32Bit": "85511f1ba0d4b61a6bf1a5a6aa2811d56b2b0b6919bf06dc2bce0d37027e45d1",
-		"HashFor64Bit": "d6e211c71c3f2ddebd950770779bb3fd71c2d977c04ff40ea9e3e5ee9d9d0ec9",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.13/win32/vlc-3.0.13-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.13/win64/vlc-3.0.13-win64.exe",
+		"HashFor32Bit": "38d0cafd6e254c36bdc376e6ca7dfff955b42fe2d796cb1bc5e0aeee83ac3fb1",
+		"HashFor64Bit": "c407afc154f8255d79fde522ece36865542cbcfea5c444a4d3b03029fe0053fa",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
