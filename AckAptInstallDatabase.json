@@ -866,10 +866,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.8.2259.40",
+		"Version": "3.8.2259.42",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.40.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.40.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.42.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.42.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
