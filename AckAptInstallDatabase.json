@@ -423,10 +423,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.48.0.0",
+		"Version": "2.48.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.48/KeePass-2.48-Setup.exe/download",
-		"HashFor32Bit": "298A17579EAAFFF12E219EC52C83AB1802421EFF341E81E1E1C55CFBAEFF5027",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.48.1/KeePass-2.48.1-Setup.exe/download",
+		"HashFor32Bit": "454CD241DF29F4E4E9219573E1C43076BB759D04E825D1AD5A80D871F6798550",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
@@ -874,12 +874,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.13.0",
+		"Version": "3.0.14.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.13/win32/vlc-3.0.13-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.13/win64/vlc-3.0.13-win64.exe",
-		"HashFor32Bit": "38d0cafd6e254c36bdc376e6ca7dfff955b42fe2d796cb1bc5e0aeee83ac3fb1",
-		"HashFor64Bit": "c407afc154f8255d79fde522ece36865542cbcfea5c444a4d3b03029fe0053fa",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.14/win32/vlc-3.0.14-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.14/win64/vlc-3.0.14-win64.exe",
+		"HashFor32Bit": "65ff4c92a821dc52609bf2a276045c1b7ab79ae38217bc8a950e27915c881b43",
+		"HashFor64Bit": "cf43144bcbbbc5932a1647f4632b533ba52b8a3663b1f18885f000875770536a",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
