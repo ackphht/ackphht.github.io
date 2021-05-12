@@ -445,6 +445,14 @@
 		"AppPage": "https://www.amazon.com/kindle-dbs/fd/kcp"
 	},
 	{
+		"Name": "Lens",
+		"Version": "4.2.4.0",
+		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/lensapp/lens/releases/download/v4.2.4/Lens-Setup-4.2.4.exe",
+		"AppPage": "https://k8slens.dev"
+	},
+	{
 		"Name": "LinkShellExtension",
 		"Version": "3.9.3.5",
 		"Type": "exe",
