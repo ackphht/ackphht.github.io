@@ -12,10 +12,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.001.20145.0",
+		"Version": "2021.001.20155.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120145/AcroRdrDC2100120145_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120155/AcroRdrDC2100120155_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -528,10 +528,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.16.1.0",
+		"Version": "14.17.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.16.1/node-v14.16.1-x64.msi",
-		"HashFor64Bit": "c90d32952154eb1ef3ebef5a5d6ec4b752e5d0f1520f9d2ebdef6685a2d3a4ec",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi",
+		"HashFor64Bit": "6d4c7457a210b867ca5b1c4a4465b4065ae6708dfd917383fe61f6860dba2128",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
