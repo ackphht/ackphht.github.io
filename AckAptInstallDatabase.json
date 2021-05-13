@@ -232,12 +232,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.53.1.0",
+		"Version": "3.54.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "15f1a3bcc15aef0878f76e594831d69c361423fd5928e3b11dde71b917df7a56b1f4e4289255b65c535b4698395d2385673cebeb927ff20d6629129fe2969876",
-		"HashFor64Bit": "be2f6846d15e4eb2648a5fd76cd6eb5e8ee457a701c33413edff4817b20e2b3d5947d0b0c5377ab2782c19842feedee843c853a5f4fe0371d5eec9af6e8ca01d",
+		"HashFor32Bit": "bf3769eed27bbea4c422024ddc51f39e39078345799e79f7398e338e465e8dd9106e222617250aa1c9701fa07d81c72c3773054ac4b2ffe0e4508501b4856297",
+		"HashFor64Bit": "d3a77cad5892c751091e6536143f85888610fa141d57af80c5ce3e4d4a2add4c099f85af23e42b1ad2e1bad4470cbf5e9484d03eec296c0e83e4051f700e90e1",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -944,10 +944,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.56.0.0",
+		"Version": "1.56.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "PUdTINBL/vjtpSoAaoecxA==",
+		"HashFor64Bit": "pcLmTkGBT9AkmBilTn7hJQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
