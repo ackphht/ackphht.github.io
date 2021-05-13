@@ -232,12 +232,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.54.0.0",
+		"Version": "3.54.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "bf3769eed27bbea4c422024ddc51f39e39078345799e79f7398e338e465e8dd9106e222617250aa1c9701fa07d81c72c3773054ac4b2ffe0e4508501b4856297",
-		"HashFor64Bit": "d3a77cad5892c751091e6536143f85888610fa141d57af80c5ce3e4d4a2add4c099f85af23e42b1ad2e1bad4470cbf5e9484d03eec296c0e83e4051f700e90e1",
+		"HashFor32Bit": "dab209e076c63f5b8f6aa3b2f86f7fb1dc09a16419eb81d9d40bc70e860a07aeb338ea8121f103e5b103ad1bd022e9cbdf685ec0e2a4b8a94bf29062de41a9aa",
+		"HashFor64Bit": "0a9110fa6552ce75025c96a5816295a0d18355deecbd5506b4e59c88f68c039486145c50e4c0273f5a4f6226d59932175a0e844c31f6b5d1cff83364357c1fc2",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -320,7 +320,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.5.5.0",
+		"Version": "7.6.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
