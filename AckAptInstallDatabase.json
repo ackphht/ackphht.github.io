@@ -270,7 +270,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.6.5.0",
+		"Version": "1.6.6.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -901,13 +901,13 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "16.1.1.17801498",
+		"Version": "16.1.2.17966106",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.1.1-17801498.exe",
-		"HashFor64Bit": "d43b11a651d36e4113105de24630413c3eea904b835282e4978b95a2c6a205b3",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.1.2-17966106.exe",
+		"HashFor64Bit": "ce5949c2ca89c6fc8349d63e6d1dd053325b5803b93870aa3b73a106d76c942f",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
-		"AppPage": "https://www.vmware.com/go/tryplayer"
+		"AppPage": "https://www.vmware.com/products/player/"
 	},
 	{
 		"Name": "VS2017Community",
