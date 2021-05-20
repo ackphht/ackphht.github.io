@@ -83,11 +83,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.28.0.0",
+		"Version": "1.29.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2160781",
-		"HashFor32Bit": "B4ya1dK4g477kDHPq6ntUQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2163435",
+		"HashFor32Bit": "ljzSd0Q9NBmV+MuE66mH+g==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -329,7 +329,7 @@
 	},
 	{
 		"Name": "GitKraken",
-		"Version": "7.6.0.0",
+		"Version": "7.6.1.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
