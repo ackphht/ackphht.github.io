@@ -523,9 +523,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.6.1",
+		"Version": "3.0.7.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv306asetup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv307setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
@@ -598,7 +598,7 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.4.0.0",
+		"Version": "8.5.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
 		"UrlFor64Bit": "https://dl.pstmn.io/download/latest/win64",
