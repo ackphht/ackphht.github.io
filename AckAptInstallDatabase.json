@@ -118,9 +118,9 @@
 	},
 	{
 		"Name": "CascadiaCodeFont",
-		"Version": "2102.25.0.0",
+		"Version": "2105.24.0.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2102.25/CascadiaCode-2102.25.zip",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2105.24/CascadiaCode-2105.24.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
