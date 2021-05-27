@@ -374,21 +374,21 @@
 	},
 	{
 		"Name": "IrfanView",
-		"Version": "4.57.0.0",
+		"Version": "4.58.0.0",
 		"Notes": "installer options: https://www.irfanview.com/faq.htm#PAGE12",
 		"Type": "exe",
-		"UrlFor32Bit": "http://irfanview.info/files/iview457_setup.exe",
-		"HashFor32Bit": "b6be47ae716ff9e69e80f4956d7721a22734054cdbc18704a68f2f88028c2842",
+		"UrlFor32Bit": "http://irfanview.info/files/iview458_setup.exe",
+		"HashFor32Bit": "b1019557a44b2d0513517d7b147d0c7b22c354dd2816c58940854ca7083e5a61",
 		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1 /ini=\"%APPDATA%\\IrfanView\"",
 		"HeadersToAdd": "Referer: http://irfanview.info/files/iview457_setup.exe",
 		"AppPage": "http://www.irfanview.com/"
 	},
 	{
 		"Name": "IrfanViewPlugins",
-		"Version": "4.57.0.0",
+		"Version": "4.58.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://www.irfanview.info/files/iview457_plugins_setup.exe",
-		"HashFor32Bit": "43401ca412624e9afa60430885262134346d7927670162e1346c597bc8d87bfe",
+		"UrlFor32Bit": "http://www.irfanview.info/files/iview458_plugins_setup.exe",
+		"HashFor32Bit": "5a3f821ab790dca5a944bbb439cd334994256f8241c916472fcbf3c2ff592ede",
 		"InstallerArguments": "/silent",
 		"HeadersToAdd": "Referer: http://www.irfanview.info/files/irfanview_plugins_456_setup.exe"
 	},
@@ -682,11 +682,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.1.2.0",
+		"Version": "2021.1.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.2/JetBrains.dotUltimate.2021.1.2.web.exe",
-		"HashFor32Bit": "b2ca3112f1cd8be58d37ff106e53fa11d51b8b15853a461d706b9083cb470aa0",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.3/JetBrains.dotUltimate.2021.1.3.web.exe",
+		"HashFor32Bit": "623d3c7d447d69f3c60f86a11dbafb6d85268c59b9f2c7997020cf788551da9f",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
