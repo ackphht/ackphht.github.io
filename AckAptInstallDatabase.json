@@ -74,10 +74,10 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.24.1.0",
+		"Version": "2.24.2.0",
 		"Type": "msi",
 		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "0flYe2rYpjmac/LRYPojhg==",
+		"HashFor32Bit": "7Gt7soG+E+MbUa991bBPTw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -364,11 +364,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2021.1.1.0",
+		"Version": "2021.1.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.1.1.exe",
-		"HashFor32Bit": "91bb98f1d8fc49e03be708b73657a8e4fa9cca0bcef6e8d430efe31b1d52bb5a",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.1.2.exe",
+		"HashFor32Bit": "73e44160a7d380e2f7106ac60fc28e90cc453ba0d3d7d4ce40817041d1684944",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -769,12 +769,12 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.5.12.0",
+		"Version": "9.5.22.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "dfdbc95a2aa42fb7dfb20a63f80a9bd37a6dd149ee73dc3e177b5c23e23c966c",
-		"HashFor64Bit": "130e4ce597ae8d155456da4fd218b0c261669419dfd74044125d7b63feaa299b",
+		"HashFor32Bit": "66ec409d9f06b5cdea222b735fa1172ad8dc818aee75eae18d62f6c646d9e217",
+		"HashFor64Bit": "44a8126a87c57228733ab92b2bb53bd9ade18d73a0c9ea2f4282149168a69754",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
