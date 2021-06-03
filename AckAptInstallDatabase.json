@@ -624,10 +624,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.1.1.0",
+		"Version": "2021.1.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.1.1.exe",
-		"HashFor32Bit": "3039cc024aa68778b1dbd238827585b8c4fda2548d6d1c0936ba579021f91cdf",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.1.2.exe",
+		"HashFor32Bit": "687ab7d95e00fca49012edbf21052d29f169298b8838a2fcb34de4c5c8e1eb94",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -985,10 +985,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.5.0",
+		"Version": "3.4.6.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.5.exe",
-		"HashFor64Bit": "e6a7f8b48221b642b8b0911dd1519d3436a5a90e99525e80f1764bf4938b35e5",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.6.exe",
+		"HashFor64Bit": "9021124cd54bbd3301dcd98dbfa32f989ce9631e37cb652c2722bb8a3e561a33",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
