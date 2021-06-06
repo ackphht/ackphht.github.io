@@ -332,7 +332,7 @@
 		"Version": "2.8.3.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.githubusercontent.com/releases/2.8.3-dee35666/GitHubDesktopSetup-x64.exe",
-		"InstallerArguments": "/S /nolaunch",
+		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/"
 	},
 	{
