@@ -311,11 +311,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.31.1.0",
+		"Version": "2.32.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.31.1.windows.1/Git-2.31.1-64-bit.exe",
-		"HashFor64Bit": "c43611eb73ad1f17f5c8cc82ae51c3041a2e7279e0197ccf5f739e9129ce426e",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.1/Git-2.32.0-64-bit.exe",
+		"HashFor64Bit": "eed601ef835c3dac08d2e27f6f38b5db7998747c753c87a45b326fbd6c710309",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -606,10 +606,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.5.1.0",
+		"Version": "8.6.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.5.1/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.6.1/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
