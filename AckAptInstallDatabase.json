@@ -12,10 +12,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.001.20155.0",
+		"Version": "2021.005.20048.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100120155/AcroRdrDC2100120155_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520048/AcroRdrDC2100520048_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.9.0",
+		"Version": "2.2.10.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.9.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.10.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -891,10 +891,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "3.8.2259.42",
+		"Version": "4.0.2312.24",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.42.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.3.8.2259.42.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.24.42.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.24.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
