@@ -891,10 +891,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.0.2312.25",
+		"Version": "4.0.2312.27",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.25.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.25.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.27.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.27.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
