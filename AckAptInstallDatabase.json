@@ -606,10 +606,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.6.1.0",
+		"Version": "8.6.2.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.6.1/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.6.2/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
@@ -985,10 +985,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.0.1.0",
+		"Version": "6.0.2.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar601.exe",
-		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-601.exe",
+		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar602.exe",
+		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-602.exe",
 		"AppPage": "https://www.rarlab.com"
 	},
 	{
