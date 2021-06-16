@@ -330,9 +330,10 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "2.8.3.0",
+		"Version": "2.9.0.0",
+		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/releases/2.8.3-dee35666/GitHubDesktopSetup-x64.exe",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/releases/2.9.0-4806a6dc/GitHubDesktopSetup-x64.exe",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/"
 	},
@@ -364,7 +365,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.35",
+		"Version": "6.7.3.36",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -719,10 +720,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.4.0",
+		"Version": "3.4.5.0",
 		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.4.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.5.exe",
 		"AppPage": "https://www.sourcetreeapp.com/"
 	},
 	{
