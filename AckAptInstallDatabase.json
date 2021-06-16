@@ -74,10 +74,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.24.2.0",
+		"Version": "2.25.0.0",
+		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://aka.ms/installazurecliwindows",
-		"HashFor32Bit": "7Gt7soG+E+MbUa991bBPTw==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.25.0.msi",
+		"HashFor32Bit": "kjVCmdxDh86ignYhNrbX6Q==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -363,7 +364,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.34",
+		"Version": "6.7.3.35",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -553,10 +554,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.0.0",
+		"Version": "14.17.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.0/node-v14.17.0-x64.msi",
-		"HashFor64Bit": "6d4c7457a210b867ca5b1c4a4465b4065ae6708dfd917383fe61f6860dba2128",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi",
+		"HashFor64Bit": "f4cea916af6d80784f5d9daab59292ceba04bf636e4e2e6727153f89b1e6990f",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
