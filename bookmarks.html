@@ -13,7 +13,7 @@
 	<div id="wrapper">
 		<header></header>
 		<section role="main" class="main">
-			<section class="float-right navSearches d-none d-lg-block">
+			<section class="float-end navSearches d-none d-lg-block">
 				<ul>
 					<li>
 						<div class="link"><a class="url icon icon-bing" href="https://www.bing.com" rel="noreferrer" target="_blank">Bing</a></div>
@@ -24,18 +24,19 @@
 				</ul>
 			</section>
 			<!-- Nav tabs -->
-			<!--ul class="nav nav-tabs nav-justified" role="tablist"-->
-			<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="nav-item"><a href="#mainTab" class="nav-link active" aria-controls="main" role="tab" data-toggle="tab">Main</a></li>
-				<li role="presentation" class="nav-item"><a href="#workTab" class="nav-link" aria-controls="work" role="tab" data-toggle="tab">Work</a></li>
-				<li role="presentation" class="nav-item"><a href="#entertainmentTab" class="nav-link" aria-controls="entertainment" role="tab" data-toggle="tab">Entertainment</a></li>
-				<li role="presentation" class="nav-item"><a href="#shoppingTab" class="nav-link" aria-controls="shopping" role="tab" data-toggle="tab">Shopping</a></li>
-				<li role="presentation" class="nav-item"><a href="#developmentTab" class="nav-link" aria-controls="development" role="tab" data-toggle="tab">Development</a></li>
-				<li role="presentation" class="nav-item"><a href="#homeTab" class="nav-link" aria-controls="home" role="tab" data-toggle="tab">Home / Bills</a></li>
-			</ul>
+			<nav>
+				<div class="nav nav-tabs" id="nav-tab" role="tablist">
+					<button class="nav-link active" id="nav-mainTab" data-bs-toggle="tab" data-bs-target="#mainTab" type="button" role="tab" aria-controls="mainTab" aria-selected="true">Main</button>
+					<button class="nav-link" id="nav-workTab" data-bs-toggle="tab" data-bs-target="#workTab" type="button" role="tab" aria-controls="workTab" aria-selected="false">Work</button>
+					<button class="nav-link" id="nav-entertainmentTab" data-bs-toggle="tab" data-bs-target="#entertainmentTab" type="button" role="tab" aria-controls="entertainmentTab" aria-selected="false">Entertainment</button>
+					<button class="nav-link" id="nav-shoppingTab" data-bs-toggle="tab" data-bs-target="#shoppingTab" type="button" role="tab" aria-controls="shoppingTab" aria-selected="false">Shopping</button>
+					<button class="nav-link" id="nav-developmentTab" data-bs-toggle="tab" data-bs-target="#developmentTab" type="button" role="tab" aria-controls="developmentTab" aria-selected="false">Development</button>
+					<button class="nav-link" id="nav-homeTab" data-bs-toggle="tab" data-bs-target="#homeTab" type="button" role="tab" aria-controls="homeTab" aria-selected="false">Home / Bills</button>
+				</div>
+			</nav>
 			<!-- Tab panes -->
 			<div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="mainTab">
+				<div class="tab-pane show active" id="mainTab" role="tabpanel" aria-labelledby="nav-mainTab">
 					<div class="container-fluid">
 						<div class="row row-cols-xl-2 row-cols-1 justify-content-start">
 							<div class="col">
@@ -228,7 +229,7 @@
 						</div>
 					</div>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="workTab">
+				<div class="tab-pane" id="workTab" role="tabpanel" aria-labelledby="nav-workTab">
 					<ul>
 						<li>
 							<div class="link"><a class="url icon icon-outsystems" href="https://outsystems.com" rel="noreferrer" target="_blank">OutSystems</a></div>
@@ -259,7 +260,7 @@
 						</li>
 					</ul>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="entertainmentTab">
+				<div class="tab-pane" id="entertainmentTab" role="tabpanel" aria-labelledby="nav-entertainmentTab">
 					<ul>
 						<li>
 							<div class="link"><a class="url icon icon-netflix" href="https://www.netflix.com" rel="noreferrer" target="_blank">Netflix</a></div>
@@ -297,7 +298,7 @@
 						</li>
 					</ul>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="shoppingTab">
+				<div class="tab-pane" id="shoppingTab" role="tabpanel" aria-labelledby="nav-shoppingTab">
 					<ul>
 						<li>
 							<div class="link"><a class="url icon icon-amazon" href="https://www.amazon.com" rel="noreferrer" target="_blank">Amazon</a></div>
@@ -345,7 +346,7 @@
 						-->
 					</ul>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="developmentTab">
+				<div class="tab-pane" id="developmentTab" role="tabpanel" aria-labelledby="nav-developmentTab">
 					<ul>
 						<li>
 							<div class="link"><a class="url icon icon-github" href="https://github.com/ackphht" rel="noreferrer" target="_blank">GitHub</a></div>
@@ -445,7 +446,7 @@
 						</li>
 					</ul>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="homeTab">
+				<div class="tab-pane" id="homeTab" role="tabpanel" aria-labelledby="nav-homeTab">
 					<ul>
 						<li>
 							<div class="link"><a class="url icon icon-wellsfargo" href="https://www.wellsfargo.com" rel="noreferrer" target="_blank">Wells Fargo</a></div>
