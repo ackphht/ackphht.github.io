@@ -7,11 +7,15 @@ html, body {
 body {
 	/*padding-top: 50px;*/
 	/*padding-bottom: 20px;*/
-	font-size: 87.5%;
+	font-size: 93%;
+	height:100vh;
 }
 section.main { margin:1em; }
-div.tab-pane { padding:1em; border:solid 1px #ddd; border-top-width:0; }
-h1 { font-size:24px; }
+nav div.nav-tabs button.nav-link { color:#225780; }
+div.tab-pane { padding:1em; border:solid 1px #aaaaaa; border-top-width:0; }
+h1 { font-size:1.5rem; }
+h2 { font-size:1.2rem; }
+h3 { font-size:1.05rem; }
 img.icon { width:16px; height:16px; }
 
 a { color:#225780; text-decoration: none; }
