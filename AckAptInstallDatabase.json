@@ -84,11 +84,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.29.0.0",
+		"Version": "1.30.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2163435",
-		"HashFor32Bit": "ljzSd0Q9NBmV+MuE66mH+g==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2165736",
+		"HashFor32Bit": "xgtHRA7da38vq/AWrZRQIg==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -963,10 +963,10 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.57.0.0",
+		"Version": "1.57.1.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://go.microsoft.com/fwlink/?Linkid=852157",
-		"HashFor64Bit": "YBhR+qbe6K2/LPCoCOCBXw==",
+		"HashFor64Bit": "oIqGPR1ou8yEeyKGIRrUhA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
