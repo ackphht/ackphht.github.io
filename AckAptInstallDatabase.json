@@ -128,9 +128,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.04.22.0",
+		"Version": "21.06.20.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.04.22/ConEmuSetup.210422.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.20/ConEmuSetup.210620.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
