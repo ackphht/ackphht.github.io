@@ -154,8 +154,8 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "3.4.0.0",
-		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://github.com/docker/docker-ce/releases",
+		"Version": "3.5.0.0",
+		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://desktop.docker.com/win/stable/amd64/appcast.xml",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
@@ -469,10 +469,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "4.2.4.0",
+		"Version": "4.2.5.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/lensapp/lens/releases/download/v4.2.4/Lens-Setup-4.2.4.exe",
+		"UrlFor64Bit": "https://github.com/lensapp/lens/releases/download/v4.2.5/Lens-Setup-4.2.5.exe",
 		"AppPage": "https://k8slens.dev"
 	},
 	{
@@ -905,12 +905,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.15.0",
+		"Version": "3.0.16.0",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.15/win32/vlc-3.0.15-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.15/win64/vlc-3.0.15-win64.exe",
-		"HashFor32Bit": "4b834eec9d62bd042f0d3b9e95de5cbf9f2cd0edbbc5f04679cb4e5e425501ea",
-		"HashFor64Bit": "c73a881b4025fb26ed8cb070f06af994ac0ccda8a34781e0fbd2a7275d7652ac",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.16/win32/vlc-3.0.16-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.16/win64/vlc-3.0.16-win64.exe",
+		"HashFor32Bit": "4599f5d504c127f7e2ee391f06725461b9b761492c72ac2eb98f2429f04ef5c1",
+		"HashFor64Bit": "0cff2d41a69d72de30607b8fc09da90e352393e154a342efcddb91e06b3a2147",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html"
 	},
 	{
