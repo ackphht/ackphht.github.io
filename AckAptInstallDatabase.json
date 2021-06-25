@@ -111,9 +111,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.21.0.0",
+		"Version": "5.22.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.21.0/calibre-64bit-5.21.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.22.0/calibre-64bit-5.22.0.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -128,9 +128,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.06.20.0",
+		"Version": "21.06.24.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.20/ConEmuSetup.210620.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.06.24/ConEmuSetup.210624.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -612,10 +612,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.6.2.0",
+		"Version": "8.7.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.6.2/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.7.0/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
@@ -774,10 +774,10 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.21.0.0",
+		"Version": "0.21.1.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.0/stellarium-0.21.0-win64.exe",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.1/stellarium-0.21.1-win64.exe",
 		"HashFor64Bit": "f492e4967b525cd3e4652cf86b68eb0d3b954cd5aa8d4cbac3a452d4936e9d66",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
