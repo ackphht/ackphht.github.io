@@ -778,7 +778,7 @@
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.1/stellarium-0.21.1-win64.exe",
-		"HashFor64Bit": "f492e4967b525cd3e4652cf86b68eb0d3b954cd5aa8d4cbac3a452d4936e9d66",
+		"HashFor64Bit": "d260524e666d2219c8c50f302ba2a0227c6d0a52d552ebeb590d241981d8696d",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
