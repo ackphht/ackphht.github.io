@@ -94,11 +94,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.19.1.0",
+		"Version": "1.20.0.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "q8KNpPD9iwFhiqENNEmdkw==",
+		"HashFor32Bit": "w3bdx4vNKs5gGYwX4LL9Yg==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -111,9 +111,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.22.0.0",
+		"Version": "5.22.1.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.22.0/calibre-64bit-5.22.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.22.1/calibre-64bit-5.22.1.msi",
 		"InstallerArguments": "ADDLOCAL=MainApplication REMOVE=FSMS,DS,FAddToPath",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -154,10 +154,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "3.5.0.0",
+		"Version": "3.5.1.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/ | https://desktop.docker.com/win/stable/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/66090/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
