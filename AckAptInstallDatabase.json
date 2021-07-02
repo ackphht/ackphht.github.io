@@ -378,7 +378,7 @@
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.1.3.exe",
-		"HashFor32Bit": "6e633a8bb63f8192dd9a496bf47e43ea21a4bfaefb6975a4904ce8a85afd803d",
+		"HashFor32Bit": "01280767964a921bf15111652339c337deb9ddcbca6b4518eb7ae8f035d16820",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -559,10 +559,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.1.0",
+		"Version": "14.17.2.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi",
-		"HashFor64Bit": "f4cea916af6d80784f5d9daab59292ceba04bf636e4e2e6727153f89b1e6990f",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x64.msi",
+		"HashFor64Bit": "452a94f6db29ea6ef298cb731765c615624eed2c8bd8746c827d5abbed89a5de",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -898,10 +898,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.0.2312.33",
+		"Version": "4.0.2312.36",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.33.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
