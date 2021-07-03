@@ -365,7 +365,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.36",
+		"Version": "6.7.3.37",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -544,9 +544,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.13.0",
+		"Version": "1.9.14.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.13/MPC-HC.1.9.13.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.14/MPC-HC.1.9.14.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
