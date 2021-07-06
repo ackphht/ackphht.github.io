@@ -469,10 +469,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.0.0.0",
+		"Version": "5.0.2.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.0.0-latest.20210629.3.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.0.2-latest.20210705.2.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -559,10 +559,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.2.0",
+		"Version": "14.17.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.2/node-v14.17.2-x64.msi",
-		"HashFor64Bit": "452a94f6db29ea6ef298cb731765c615624eed2c8bd8746c827d5abbed89a5de",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi",
+		"HashFor64Bit": "964e36aa518b17ab04c3a49a0f5641a6bd8a9dc2b57c18272b6f90edf026f5dc",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
 	{
@@ -898,10 +898,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.0.2312.36",
+		"Version": "4.0.2312.38",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.36.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
