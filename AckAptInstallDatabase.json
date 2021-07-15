@@ -74,11 +74,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.26.0.0",
+		"Version": "2.26.1.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.26.0.msi",
-		"HashFor32Bit": "tx27PyeHvSL2K6AdNdQKJg==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.26.1.msi",
+		"HashFor32Bit": "KOv9xwr+W8lt9fpGL4cC/g==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -1001,10 +1001,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.6.0",
+		"Version": "3.4.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.6.exe",
-		"HashFor64Bit": "9021124cd54bbd3301dcd98dbfa32f989ce9631e37cb652c2722bb8a3e561a33",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.7.exe",
+		"HashFor64Bit": "b61fcdb21a5a1f40d267748300d29b04562277175d827312202c6ea918065238",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
