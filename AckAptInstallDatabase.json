@@ -12,10 +12,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.005.20048.0",
+		"Version": "2021.005.20058.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520048/AcroRdrDC2100520048_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520058/AcroRdrDC2100520058_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -469,10 +469,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.0.2.0",
+		"Version": "5.1.0.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.0.2-latest.20210705.2.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.1.0-latest.20210715.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -898,10 +898,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.0.2312.38",
+		"Version": "4.0.2312.41",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.38.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.41.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.0.2312.41.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -968,11 +968,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.58.1.0",
+		"Version": "1.58.2.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/2aeda6b18e13c4f4f9edf6667158a6b8d408874b/VSCodeSetup-x64-1.58.1.exe",
-		"HashFor64Bit": "RR9MrjGBnKoGqWsTlu+XuQ==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/c3f126316369cd610563c75b1b1725e0679adfb3/VSCodeSetup-x64-1.58.2.exe",
+		"HashFor64Bit": "oMdY1KL+Qxv4bxVs7zdGjQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
