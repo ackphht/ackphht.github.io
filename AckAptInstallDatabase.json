@@ -469,10 +469,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.1.0.0",
+		"Version": "5.1.1.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.1.0-latest.20210715.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.1.1-latest.20210716.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
