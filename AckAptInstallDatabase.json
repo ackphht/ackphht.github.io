@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.2.0",
+		"Version": "21.0.3.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2102.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2102-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2103.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2103-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.18.0",
+		"Version": "2.2.21.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.18.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.21.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -488,10 +488,10 @@
 	},
 	{
 		"Name": "LINQPad5",
-		"Version": "5.43.0.0",
+		"Version": "5.44.2.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad5Setup-AnyCPU.exe",
-		"HashFor32Bit": "0WeC4SDzKTq2LP5p659O5A==",
+		"HashFor32Bit": "lf+SkyrRWdxRPVPauLhwMA==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -765,11 +765,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.9.1.0",
-		"Notes": "Build number: 15.0.18384.0",
+		"Version": "18.9.2.0",
+		"Notes": "Build number: 15.0.18386.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
-		"HashFor32Bit": "gyuD9aPwHluJT/ing/cAkQ==",
+		"HashFor32Bit": "lhg90SrqrgSej3wXJ/kaKw==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
@@ -882,18 +882,18 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.22.0",
+		"Version": "6.1.24.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.22/VirtualBox-6.1.22-144080-Win.exe",
-		"HashFor32Bit": "ed5796aeb5d143bb4bb59a70bd976411dee79d583deb7a95f621992dd3c6864f",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.24/VirtualBox-6.1.24-145767-Win.exe",
+		"HashFor32Bit": "ae1ef5266e58905b9176cec41664eebbbe685328e793245cb36a2777eb9fc71d",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.22.0",
+		"Version": "6.1.24.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.22/Oracle_VM_VirtualBox_Extension_Pack-6.1.22.vbox-extpack",
-		"HashFor32Bit": "6d33d9cc1c5a8f8a2a70e5aaaa778a341322d2ba7eb34f7de420fb5f312b9e87",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.24/Oracle_VM_VirtualBox_Extension_Pack-6.1.24.vbox-extpack",
+		"HashFor32Bit": "51466ee8c077b560db8dc987a90e53d00f4629da3838ccd8df159d89d8fce0ea",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
