@@ -94,11 +94,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.20.0.0",
+		"Version": "1.20.1.0",
 		"Notes": "https://storageexplorer.com/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=708343",
-		"HashFor32Bit": "w3bdx4vNKs5gGYwX4LL9Yg==",
+		"HashFor32Bit": "snZmPWQhTwQCD5lXp3ROxw==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -469,10 +469,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.1.2.0",
+		"Version": "5.1.3.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.1.2-latest.20210719.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.1.3-latest.20210722.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -537,9 +537,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.7.0",
+		"Version": "3.0.8.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv307setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv308setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
@@ -697,11 +697,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.1.4.0",
+		"Version": "2021.1.5.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.4/JetBrains.dotUltimate.2021.1.4.web.exe",
-		"HashFor32Bit": "3b5e26e3d8fc6a20b85d48a16888d5befee605eb4831d829653c66422ed72cf4",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.5/JetBrains.dotUltimate.2021.1.5.web.exe",
+		"HashFor32Bit": "24dc0bd2ea2f54694520bffa3db81cbb78748472d7e50f9fdfa43a28af243f89",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -717,10 +717,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.6.0.0",
+		"Version": "1.7.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.6.0/Sigil-1.6.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "4685b1d8c741d26394a9c8e8f55d6c7753080da94386e488d03d347c551faf55",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.7.0/Sigil-1.7.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "4ad3164927b4c581d9857c4383652046b2363281a7a3b8af1e3addcb92ed760d",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
@@ -862,7 +862,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.29.30037.0",
+		"Version": "14.29.30040.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
