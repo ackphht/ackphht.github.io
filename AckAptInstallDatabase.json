@@ -614,10 +614,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.8.0.0",
+		"Version": "8.9.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.8.0/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.9.1/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
