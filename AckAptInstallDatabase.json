@@ -37,11 +37,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.0.2.0",
+		"Version": "3.0.3.0",
 		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.2/audacity-win-3.0.2.exe",
-		"HashFor32Bit": "2fa8e586a339d9da8dcf49c21f4cd1cbaa24691b1dcc0d02f6c9f451ac8bea47",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.exe",
+		"HashFor64Bit": "585C23D3CE19BE2E60584004D03AD23AF981F2681C0AE9EA22117376BFF58D3C",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
 	{
@@ -984,11 +984,11 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.12.0",
+		"Version": "2.16.14.0",
 		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.12/WinMerge-2.16.12-x64-Setup.exe",
-		"HashFor64Bit": "e4b790136347dabf959dfd342f11558569de07aee7680a439645621cf388940e",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.14/WinMerge-2.16.14-x64-Setup.exe",
+		"HashFor64Bit": "b41a57df994e27c30ceccfb1565cbbb0a165e1f2620246a913100452e4060258",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
