@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.23.0",
+		"Version": "2.2.24.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.23.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.24.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -84,11 +84,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.31.0.0",
+		"Version": "1.31.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2168181",
-		"HashFor32Bit": "7FXdOgHPorVsFHIEDt3Vog==",
+		"HashFor32Bit": "bShbUOjY5dQGpdnfU5++pw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -111,9 +111,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.23.0.0",
+		"Version": "5.24.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.23.0/calibre-64bit-5.23.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.24.0/calibre-64bit-5.24.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -432,13 +432,14 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.291.0",
+		"Version": "8.0.301.0",
+		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244582_d7fc238d0cbf4b0dac67be84580cfb4b",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244584_d7fc238d0cbf4b0dac67be84580cfb4b",
-		"HashFor32Bit": "f3a7f2eac531fd9e783ac8f956f677a9efc8d540c29bc2a2fa323cc2ed13b4f8",
-		"HashFor64Bit": "c883e1b36fc6ff815de3124377cc9409c97462060e080a7198e7f28cfce91cca",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245058_d3c52aa6bfa54d3ca74e617f18309292",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245060_d3c52aa6bfa54d3ca74e617f18309292",
+		"HashFor32Bit": "dbebb7fa56d23398e2a99c73cbeaee60811c7ef54eb9fc38a5b91b38c4160998",
+		"HashFor64Bit": "1cf9440a5671d861aa3883832b2febd4a13e3bd34a06d703a53b6234eac1309f",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
@@ -559,10 +560,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.3.0",
+		"Version": "14.17.4.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.3/node-v14.17.3-x64.msi",
-		"HashFor64Bit": "964e36aa518b17ab04c3a49a0f5641a6bd8a9dc2b57c18272b6f90edf026f5dc",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.4/node-v14.17.4-x64.msi",
+		"HashFor64Bit": "e889da1ee06e576de4f31c3e6e0f12c73cfec495a53db4dd166fd58b0fea9f22",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
