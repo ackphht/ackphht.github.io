@@ -42,6 +42,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.3/audacity-win-3.0.3-64bit.exe",
 		"HashFor64Bit": "585C23D3CE19BE2E60584004D03AD23AF981F2681C0AE9EA22117376BFF58D3C",
+		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
 	{
