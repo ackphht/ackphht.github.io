@@ -435,7 +435,7 @@
 		"Version": "8.0.301.0",
 		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
 		"Type": "exe",
-		"InstallBoth": "TRUE",
+		"InstallBoth": "",
 		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245058_d3c52aa6bfa54d3ca74e617f18309292",
 		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245060_d3c52aa6bfa54d3ca74e617f18309292",
 		"HashFor32Bit": "dbebb7fa56d23398e2a99c73cbeaee60811c7ef54eb9fc38a5b91b38c4160998",
@@ -990,6 +990,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.14/WinMerge-2.16.14-x64-Setup.exe",
 		"HashFor64Bit": "b41a57df994e27c30ceccfb1565cbbb0a165e1f2620246a913100452e4060258",
+		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
 		"AppPage": "http://winmerge.org/downloads/"
 	},
 	{
