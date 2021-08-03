@@ -75,11 +75,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.26.1.0",
+		"Version": "2.27.0.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.26.1.msi",
-		"HashFor32Bit": "KOv9xwr+W8lt9fpGL4cC/g==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.0.msi",
+		"HashFor32Bit": "PzHkyRNsGITIyKZvzc561A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -366,7 +366,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.37",
+		"Version": "6.7.3.38",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -699,11 +699,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.1.5.0",
+		"Version": "2021.2.0.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.1.5/JetBrains.dotUltimate.2021.1.5.web.exe",
-		"HashFor32Bit": "24dc0bd2ea2f54694520bffa3db81cbb78748472d7e50f9fdfa43a28af243f89",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2/JetBrains.dotUltimate.2021.2.web.exe",
+		"HashFor32Bit": "7c35a4d2df924100371bc064b4dfbd80c3138a6777f29e11a82c6006a59e581d",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
