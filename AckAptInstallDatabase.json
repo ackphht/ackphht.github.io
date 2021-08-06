@@ -616,10 +616,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.9.1.0",
+		"Version": "8.10.0.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.9.1/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.10.0/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
@@ -759,10 +759,11 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4138.2",
-		"Notes": "Cumulative Update 11",
+		"Version": "15.0.4153.1",
+		"Notes": "Cumulative Update 12",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5003249-x64.exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5004524-x64.exe",
+		"HashFor32Bit": "fZjv1JflMGEiOl4Djv2Mmg==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
@@ -900,10 +901,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.1.2369.15",
+		"Version": "4.1.2369.16",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.15.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.15.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.16.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.1.2369.16.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
@@ -970,11 +971,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.58.2.0",
+		"Version": "1.59.0.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/c3f126316369cd610563c75b1b1725e0679adfb3/VSCodeSetup-x64-1.58.2.exe",
-		"HashFor64Bit": "oMdY1KL+Qxv4bxVs7zdGjQ==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCodeSetup-x64-1.59.0.exe",
+		"HashFor64Bit": "V8zDFqMM0+kRIFDS4PMmvA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
