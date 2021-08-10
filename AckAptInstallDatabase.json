@@ -243,12 +243,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.55.0.0",
+		"Version": "3.55.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "298832ff0a9182c3005aaadd10def4aafb269b502a746dfe590ef2abd7a8f3b7c221a961e0c12be96fb7ac1933bf594b5736839d57ae35e3ca8017b4cbfe26a2",
-		"HashFor64Bit": "dcc8c62683749d5e4acd2665c4e0abcbbbfb0cc49871d5c8bd2c2d985173fcfa742ad5040f6595d4b8359c7eb7a594616c54d1f6e4fd5571e7aaf738cff3682f",
+		"HashFor32Bit": "b57d973d895fd02d99b36a0307d582d5efae7f78b9a36874349178554cfa0db4e8f24d2fdd313b637790fa55e24b16ba23982dd850c1b652200468c325c45ed9",
+		"HashFor64Bit": "4dc6fde72c57432268387cf0fb128cbce52173bedf3c68b8150f85f87ad88a73af52c083e6077a4e3961b43028f00a0e80cfba87bb29b352c0f423a4d6f7517b",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -272,7 +272,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.6.6.0",
+		"Version": "1.6.7.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "http://www.foobar2000.org/download\r\n(?s).+<h2>Latest stable version</h2>[\\r\\n\\s]*Download <a href=\"/getfile/([^\"]+)\">foobar2000.+\r\nhttp://www.foobar2000.org/files/$1",
 		"AppPage": "http://www.foobar2000.org/download"
@@ -546,9 +546,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.14.0",
+		"Version": "1.9.15.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.14/MPC-HC.1.9.14.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.15/MPC-HC.1.9.15.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
@@ -614,6 +614,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.33.0.2444-a220eae4/windows/Plex-1.33.0.2444-a220eae4-x86_64.exe",
 		"HashFor64Bit": "d89a98f15bfcfdf7b8d49312595fbdb8ac6063b2",
+		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app"
 	},
 	{
