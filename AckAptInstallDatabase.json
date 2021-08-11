@@ -66,20 +66,20 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.24.0",
+		"Version": "2.2.28.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.24.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.28.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.27.0.0",
+		"Version": "2.27.1.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.0.msi",
-		"HashFor32Bit": "PzHkyRNsGITIyKZvzc561A==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.1.msi",
+		"HashFor32Bit": "i1j9QSAYmYu5viCcGGpyHw==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -875,7 +875,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.29.30040.0",
+		"Version": "14.29.30133.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
