@@ -571,13 +571,13 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.1.2.0",
+		"Version": "8.1.3.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.2/npp.8.1.2.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.2/npp.8.1.2.Installer.x64.exe",
-		"HashFor32Bit": "7c60414a5dd34be936508cf3d4229394717bc1fc003fdb93cf9b7bf9e880a349",
-		"HashFor64Bit": "fe13268fb07d85e215e034da48529dc5d8fa2e68c290e9a4ccc3315fb2a629eb",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.3/npp.8.1.3.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.3/npp.8.1.3.Installer.x64.exe",
+		"HashFor32Bit": "9c45ac021043b1a5e6e755117fe9c602804657e0567b46175316d32dd307e4a9",
+		"HashFor64Bit": "66f6a81216875e06f5043320235f86815a3975b34d947af6a5e7b3d3849c2a02",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
