@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.07.18.0",
+		"Version": "21.08.16.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.07.18/ConEmuSetup.210718.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.08.16/ConEmuSetup.210816.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
@@ -358,11 +358,11 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.4.0.0",
+		"Version": "1.4.1.0",
 		"Notes": "alt: https://github.com/HandBrake/HandBrake/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.4.0/HandBrake-1.4.0-x86_64-Win_GUI.exe",
-		"HashFor64Bit": "6a11ff32517b79a39c28bd969b0f93ac28336d338311c983fee7aac0bfbb84ca",
+		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.4.1/HandBrake-1.4.1-x86_64-Win_GUI.exe",
+		"HashFor64Bit": "fb0d2788f2bd9789e3ed5a533691d3e6fbea394e9435c3881f57613fe1ea8af1",
 		"AppPage": "https://handbrake.fr/downloads.php"
 	},
 	{
