@@ -67,10 +67,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.28.0",
+		"Version": "2.2.30.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.28.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.30.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -314,11 +314,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.32.0.2",
+		"Version": "2.33.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.32.0.windows.2/Git-2.32.0.2-64-bit.exe",
-		"HashFor64Bit": "266fb20b60d53acd1bceb5d02877614c510a9dfd39bed3434342b2187c7a0fc6",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.1/Git-2.33.0-64-bit.exe",
+		"HashFor64Bit": "4e6e0efbb7d35653907175f2735386f55b72d37d442b3a1be9656c26f69c693d",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -983,7 +983,7 @@
 	{
 		"Name": "VSCode",
 		"Version": "1.59.0.0",
-		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157",
+		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
 		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/379476f0e13988d90fab105c5c19e7abc8b1dea8/VSCodeSetup-x64-1.59.0.exe",
 		"HashFor64Bit": "V8zDFqMM0+kRIFDS4PMmvA==",
