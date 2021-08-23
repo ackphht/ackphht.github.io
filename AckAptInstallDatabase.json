@@ -76,11 +76,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.27.1.0",
+		"Version": "2.27.2.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.1.msi",
-		"HashFor32Bit": "i1j9QSAYmYu5viCcGGpyHw==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.2.msi",
+		"HashFor32Bit": "pz44A26aC09jPoIIA2OC6w==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -130,9 +130,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.08.16.0",
+		"Version": "21.08.22.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.08.16/ConEmuSetup.210816.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.08.22/ConEmuSetup.210822.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
 	},
