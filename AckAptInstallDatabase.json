@@ -332,10 +332,10 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "2.9.0.0",
+		"Version": "2.9.1.0",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/releases/2.9.0-4806a6dc/GitHubDesktopSetup-x64.exe",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.1-11983d00/GitHubDesktopSetup-x64.exe",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/"
 	},
@@ -646,8 +646,10 @@
 	{
 		"Name": "PrivateInternetAccess",
 		"Version": "2.10.0.0",
+		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
 		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.10-06571.exe",
+		"HashFor64Bit": "6ddb8e210e4f2d7a7ad494045bff6c8d935f89256b3d5e520898a0a44c2855bf",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
