@@ -645,11 +645,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "2.10.0.0",
+		"Version": "3.0.0.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-2.10-06571.exe",
-		"HashFor64Bit": "6ddb8e210e4f2d7a7ad494045bff6c8d935f89256b3d5e520898a0a44c2855bf",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.0-06692.exe",
+		"HashFor64Bit": "6dd79ec5e9a75fa737c1e865307d4f7bcc16247644a37983ea01ab825de2914b",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -740,10 +740,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.5.0",
-		"Notes": "https://www.sourcetreeapp.com/update/windowsupdates.txt",
+		"Version": "3.4.6.0",
+		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.5.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.6.exe",
 		"AppPage": "https://www.sourcetreeapp.com/"
 	},
 	{
@@ -1018,10 +1018,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.4.7.0",
+		"Version": "3.4.8.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.7.exe",
-		"HashFor64Bit": "b61fcdb21a5a1f40d267748300d29b04562277175d827312202c6ea918065238",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.4.8.exe",
+		"HashFor64Bit": "7f65c2edb7ea53e6abce513e2dc5b4c3dc323738d49b54718255c2944c776c5a",
 		"AppPage": "https://www.wireshark.org/download.html"
 	}
 ]
