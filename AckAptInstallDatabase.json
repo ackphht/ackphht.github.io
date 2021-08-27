@@ -113,9 +113,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.25.0.0",
+		"Version": "5.26.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.25.0/calibre-64bit-5.25.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.26.0/calibre-64bit-5.26.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -654,10 +654,10 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.2.0.0",
+		"Version": "2021.2.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.2.exe",
-		"HashFor32Bit": "4b204d9b8f3b356faf8ce839525ef81019da7ca2a0e69cc7d042a1b8a43e57d5",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.2.1.exe",
+		"HashFor32Bit": "9b13b2a0b1cd6aecf6ede35f9f88743b76c210e93da39828fc3b163598d8e4a1",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/"
 	},
@@ -712,11 +712,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.2.0.0",
+		"Version": "2021.2.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2/JetBrains.dotUltimate.2021.2.web.exe",
-		"HashFor32Bit": "7c35a4d2df924100371bc064b4dfbd80c3138a6777f29e11a82c6006a59e581d",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.1/JetBrains.dotUltimate.2021.2.1.web.exe",
+		"HashFor32Bit": "e492a72bb4e66d3f94fd25877f84f8c79825a079a9ddbb29a5e87bc3c91eec9a",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
