@@ -645,11 +645,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.0.0.0",
+		"Version": "3.0.1.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.0-06692.exe",
-		"HashFor64Bit": "6dd79ec5e9a75fa737c1e865307d4f7bcc16247644a37983ea01ab825de2914b",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.0.1-06696.exe",
+		"HashFor64Bit": "bf69fe2e83a9d8963ac3a43ab3439e3961e083bc0345b870374ce1e786302a14",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
