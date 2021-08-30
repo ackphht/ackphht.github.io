@@ -287,7 +287,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.15.0.4140",
+		"Version": "6.15.1.4143",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
