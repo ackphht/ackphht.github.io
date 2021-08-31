@@ -367,7 +367,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.39",
+		"Version": "6.7.3.40",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.idrive.com/downloads/IDriveWinSetup.exe",
@@ -562,10 +562,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.5.0",
+		"Version": "14.17.6.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.5/node-v14.17.5-x64.msi",
-		"HashFor64Bit": "f40926f33c4517a64978050fb8e88110d279a3a15adc962de4002f65ed34e821",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi",
+		"HashFor64Bit": "e72ceb05c7596a6e381172369dce1c374a2b09ee739dca330be58f3977b5c03d",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
@@ -674,10 +674,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.9.6.0",
+		"Version": "3.9.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe",
-		"HashFor64Bit": "ac25cf79f710bf31601ed067ccd07deb",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe",
+		"HashFor64Bit": "cc3eabc1f9d6c703d1d2a4e7c041bc1d",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -692,10 +692,10 @@
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.6.0",
+		"Version": "3.9.7.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe",
-		"HashFor64Bit": "ac25cf79f710bf31601ed067ccd07deb",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe",
+		"HashFor64Bit": "cc3eabc1f9d6c703d1d2a4e7c041bc1d",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
