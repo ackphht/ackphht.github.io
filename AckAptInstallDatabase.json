@@ -578,6 +578,7 @@
 		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.4/npp.8.1.4.Installer.x64.exe",
 		"HashFor32Bit": "eadefd67e95bef200b2506caf8b3c82e0ea6c3cf895936614ba442989a08db4e",
 		"HashFor64Bit": "27e6e296dbe7c5d5f069604c1f0f97a4d5e09f9c4bbb4e98f328ca0d77179e9b",
+		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
 	{
