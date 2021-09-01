@@ -157,9 +157,10 @@
 	{
 		"Name": "DockerDesktop",
 		"Version": "3.6.0.0",
-		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml",
+		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml or\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/stable/amd64/67351/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/67817/Docker%20Desktop%20Installer.exe",
+		"IndirectUrlFor64Bit": "c3d19fa55950c4311477e8977c6cbaf7fe866942e9a2df7ac9d296b8c8305df5",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -332,10 +333,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "2.9.2.0",
+		"Version": "2.9.3.0",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.2-bba02989/GitHubDesktopSetup-x64.exe",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.3-2c86f4d1/GitHubDesktopSetup-x64.exe",
+		"HashFor64Bit": "c321df1dd5f2134e15d8d7370f09df36a9b4e1e32c4e032f8914166cc1f3f1c6",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/"
 	},
