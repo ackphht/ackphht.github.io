@@ -1013,7 +1013,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/e7d7e9a9348e6a8cc8c03f877d39cb72e5dfb1ff/VSCodeUserSetup-x64-1.60.0.exe",
 		"HashFor64Bit": "eSK11mz2R8eRupF2qVHqDw==",
-		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath",
+		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
 	{
