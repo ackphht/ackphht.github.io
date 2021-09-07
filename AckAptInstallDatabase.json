@@ -76,11 +76,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.27.2.0",
+		"Version": "2.28.0.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.27.2.msi",
-		"HashFor32Bit": "pz44A26aC09jPoIIA2OC6w==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.28.0.msi",
+		"HashFor32Bit": "ffKIxCbsadT+Qe8Utl+fNg==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
@@ -651,10 +651,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.12.0.0",
+		"Version": "8.12.1.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.0/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.1/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
@@ -824,13 +824,14 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.5.36.0",
+		"Version": "9.5.45.0",
+		"Notes": "https://www.2brightsparks.com/syncback/syncbackse9-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "be960b4e5e09e632212697db38f416e4f6f12f27ac81d1c9c6836c92c68d95ea",
-		"HashFor64Bit": "7a2b721da161321c0f799ed437a183e6ebbf4b4f4b7b86ec6681e41cd0a655ee",
-		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0",
+		"HashFor32Bit": "7cf5fa711cf65e06be4011ee0e0b70561420582d0135aba7679fcaa5028e6407",
+		"HashFor64Bit": "23c184c04f775287ae36426ae559a599c49618223e643096d80d11b4194a5952",
+		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
 	{
