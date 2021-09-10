@@ -113,9 +113,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.26.0.0",
+		"Version": "5.27.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.26.0/calibre-64bit-5.26.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.27.0/calibre-64bit-5.27.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -472,10 +472,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.48.1.0",
+		"Version": "2.49.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.48.1/KeePass-2.48.1-Setup.exe/download",
-		"HashFor32Bit": "454CD241DF29F4E4E9219573E1C43076BB759D04E825D1AD5A80D871F6798550",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.49/KeePass-2.49-Setup.exe/download",
+		"HashFor32Bit": "48FD2EB1D33D7678D6AD5C5781EB8E2F161B5782BC4320EF975BC5A5C7EC5EDE",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
@@ -651,10 +651,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.12.1.0",
+		"Version": "8.12.2.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.1/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.2/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
