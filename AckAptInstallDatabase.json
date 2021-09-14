@@ -12,10 +12,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.005.20060.0",
+		"Version": "2021.007.20091.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100520060/AcroRdrDC2100520060_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100720091/AcroRdrDC2100720091_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -156,11 +156,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "3.6.0.0",
+		"Version": "4.0.1.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml or\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/67817/Docker%20Desktop%20Installer.exe",
-		"IndirectUrlFor64Bit": "c3d19fa55950c4311477e8977c6cbaf7fe866942e9a2df7ac9d296b8c8305df5",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/68347/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -390,7 +389,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.41",
+		"Version": "6.7.3.42",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/090321/IDriveWinSetup.exe",
