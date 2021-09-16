@@ -121,12 +121,13 @@
 	},
 	{
 		"Name": "CascadiaCodeFont",
-		"Version": "2106.17.0.0",
+		"Version": "2108.26.0.0",
+		"Notes": "they recommend using the Variable fonts, i.e. the ones directly under the ttf folder, and not the 'static' or the .otf ones",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2106.17/CascadiaCode-2106.17.zip",
+		"UrlFor32Bit": "https://github.com/microsoft/cascadia-code/releases/download/v2108.26/CascadiaCode-2108.26.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/microsoft/cascadia-code/releases",
-		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.otf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem 'ttf\\*.ttf' -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
 	{
 		"Name": "ConEmu",
@@ -938,10 +939,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.2.2406.42",
+		"Version": "4.2.2406.44",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.42.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.42.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.44.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.44.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
