@@ -67,10 +67,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.35.0",
+		"Version": "2.2.39.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.35.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.39.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.0.0",
+		"Version": "5.2.2.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.0-latest.20210908.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.2-latest.20210917.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -563,9 +563,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.8.0",
+		"Version": "3.0.9.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv308setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv309setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
