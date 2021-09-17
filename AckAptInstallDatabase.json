@@ -261,7 +261,7 @@
 		"Version": "7.8.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashFor32Bit": "e9eb3e1ebf839e1b4c0562ed6f9b2b01",
+		"HashFor32Bit": "ecc7d155b70293bd7f96c29bdc62cfc3",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -862,13 +862,11 @@
 	},
 	{
 		"Name": "VCRedist2008",
-		"Version": "9.0.30729.1",
+		"Version": "9.0.30729.5677",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe",
 		"UrlFor64Bit": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe",
-		"HashFor32Bit": "Ndor8r79mYmApJW29PVeYA==",
-		"HashFor64Bit": "4q2lcJEe2qrn0bPJeTRfzg==",
 		"InstallerArguments": "/Q"
 	},
 	{
