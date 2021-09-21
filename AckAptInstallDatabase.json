@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.2.0",
+		"Version": "5.2.3.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.2-latest.20210917.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.3-latest.20210921.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -937,10 +937,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.2.2406.44",
+		"Version": "4.2.2406.48",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.44.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.44.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.48.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.48.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
