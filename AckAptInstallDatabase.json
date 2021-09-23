@@ -96,11 +96,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.21.0.0",
+		"Version": "1.21.1.0",
 		"Notes": "https://storageexplorer.com/\nfor getting the hash: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.0/Windows_StorageExplorer.exe",
-		"HashFor32Bit": "+eM4ADs2WSMtKNMMPOBTdQ==",
+		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.1/Windows_torageExplorer.exe",
+		"HashFor32Bit": "szG/I1vKkb1BeoFl5WRv/w==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -634,11 +634,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.34.1.2590",
+		"Version": "1.35.1.2632",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.34.1.2590-74ea7099/windows/Plex-1.34.1.2590-74ea7099-x86_64.exe",
-		"HashFor64Bit": "b76fffc19a795c1c10446e1244da9ee6996531e0",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.35.1.2632-c6783c78/windows/Plex-1.35.1.2632-c6783c78-x86_64.exe",
+		"HashFor64Bit": "7c39b7109a593200c2e8c3d3e5277971c32fc3ea",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app"
 	},
@@ -1007,11 +1007,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.60.1.0",
+		"Version": "1.60.2.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/83bd43bc519d15e50c4272c6cf5c1479df196a4d/VSCodeUserSetup-x64-1.60.1.exe",
-		"HashFor64Bit": "6+XbDqsd/MZjLVA16s3sFw==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/7f6ab5485bbc008386c4386d08766667e155244e/VSCodeUserSetup-x64-1.60.2.exe",
+		"HashFor64Bit": "3U3S6XV32ItObks79KqGqQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
