@@ -570,9 +570,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.15.0",
+		"Version": "1.9.16.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.15/MPC-HC.1.9.15.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.16/MPC-HC.1.9.16.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
@@ -624,12 +624,12 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.2.16.0",
-		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
+		"Version": "4.3.0.0",
+		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
-		"ZipContentToRun": "paint.net.*.install.exe",
-		"UrlFor32Bit": "https://www.dotpdn.com/files/paint.net.4.2.16.install.zip",
-		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 JPGPNGBMPEDITOR=1 TGAEDITOR=1 DESKTOPSHORTCUT=0",
+		"ZipContentToRun": "paint.net.*.install.*.exe",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3/paint.net.4.3.install.x64.zip",
+		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
 	{
