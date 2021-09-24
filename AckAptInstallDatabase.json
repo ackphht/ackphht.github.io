@@ -113,9 +113,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.27.0.0",
+		"Version": "5.28.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.27.0/calibre-64bit-5.27.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.28.0/calibre-64bit-5.28.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.3.0",
+		"Version": "5.2.4.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.3-latest.20210921.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.4-latest.20210923.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
