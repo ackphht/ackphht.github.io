@@ -563,9 +563,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.0.9.0",
+		"Version": "3.10.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv309setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv310setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/"
 	},
 	{
