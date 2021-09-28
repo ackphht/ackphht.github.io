@@ -585,10 +585,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.17.6.0",
+		"Version": "14.18.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.17.6/node-v14.17.6-x64.msi",
-		"HashFor64Bit": "e72ceb05c7596a6e381172369dce1c374a2b09ee739dca330be58f3977b5c03d",
+		"UrlFor64Bit": "https://nodejs.org/dist/v14.18.0/node-v14.18.0-x64.msi",
+		"HashFor64Bit": "35aafc1b10f7041b1f361fb042f32a6484482ff8633cb9c5ffca36c10ef97536",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
@@ -815,11 +815,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.21.1.0",
+		"Version": "0.21.2.0",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.1/stellarium-0.21.1-win64.exe",
-		"HashFor64Bit": "d260524e666d2219c8c50f302ba2a0227c6d0a52d552ebeb590d241981d8696d",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.2/stellarium-0.21.2-win64.exe",
+		"HashFor64Bit": "eff51315b0d3200ef0ecbb8deb8ffc3fe649162b32d577bf5701953709588af0",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
@@ -937,10 +937,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.2.2406.48",
+		"Version": "4.2.2406.52",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.48.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.48.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.52.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.52.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
