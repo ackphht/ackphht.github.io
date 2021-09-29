@@ -38,11 +38,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.0.4.0",
+		"Version": "3.0.5.0",
 		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.4/audacity-win-3.0.4-x64.exe",
-		"HashFor64Bit": "A22C925D16D9A811712E5BBE1B4206FD91CFE23CA8A8732083F02DF9838C7C4B",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.exe",
+		"HashFor64Bit": "DE2FED286A819090EC416C02A0593F586A4527AB145C81C0CE108E0D7FC79BEE",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
@@ -67,10 +67,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.39.0",
+		"Version": "2.2.42.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.39.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.42.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -96,11 +96,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.21.1.0",
+		"Version": "1.21.2.0",
 		"Notes": "https://storageexplorer.com/\nfor getting the hash: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.1/Windows_torageExplorer.exe",
-		"HashFor32Bit": "szG/I1vKkb1BeoFl5WRv/w==",
+		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.2/Windows_StorageExplorer.exe",
+		"HashFor32Bit": "eAIa5z9U/kj43QRNxH8Fhw==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
