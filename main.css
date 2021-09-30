@@ -22,8 +22,8 @@ html, body { position:relative; height:100%; }
 		/* some colors from inoreader */
 		--ack-link-color: rgb(78,113,173);
 		--ack-text-color:RGB(204,204,204);
-		--ack-background-color:rgb(31,31,31);
-		--ack-tab-background-color:rgb(38,38,38);
+		--ack-background-color:rgb(36,36,36);
+		--ack-tab-background-color:rgb(31,31,31);
 
 		--ack-tab-border-color:rgb(72,72,72);
 		--ack-inactive-tab-background-color:rgb(34,34,34);
