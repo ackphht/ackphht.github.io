@@ -157,10 +157,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.0.1.0",
+		"Version": "4.1.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml or\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/68347/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/69386/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -937,10 +937,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.2.2406.52",
+		"Version": "4.2.2406.54",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.52.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.52.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.54.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.2.2406.54.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
