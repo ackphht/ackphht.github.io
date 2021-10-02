@@ -390,7 +390,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.3.42",
+		"Version": "6.7.3.43",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/090321/IDriveWinSetup.exe",
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.4.0",
+		"Version": "5.2.5.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.4-latest.20210923.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.5-latest.20211001.2.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -651,10 +651,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.12.2.0",
+		"Version": "8.12.4.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.2/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.4/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
