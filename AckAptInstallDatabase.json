@@ -562,6 +562,15 @@
 		"AppPage": "https://www.microsoftedge.com"
 	},
 	{
+		"Name": "MicrosoftOpenJDK",
+		"Version": "17.0.0.0",
+		"Type": "msi",
+		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-x64.msi",
+		"HashFor64Bit": "2a13985ca01537e91258aa5a5ff06ef0998aa248a1e5526a5abce51cc3168c49",
+		"InstallerArguments": "-passive -norestart ADDLOCAL=FeatureJavaHome REMOVE=FeatureEnvironment,FeatureJarFileRunWith",
+		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download"
+	},
+	{
 		"Name": "Mp3tag",
 		"Version": "3.10.0.0",
 		"Type": "exe",
@@ -624,11 +633,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.1.0",
+		"Version": "4.3.2.0",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.1/paint.net.4.3.1.install.x64.zip",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.2/paint.net.4.3.2.install.x64.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
@@ -721,6 +730,15 @@
 		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.7/python-3.9.7-amd64.exe",
 		"HashFor64Bit": "cc3eabc1f9d6c703d1d2a4e7c041bc1d",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/"
+	},
+	{
+		"Name": "python310",
+		"Version": "3.10.0.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.0/python-3.10.0-amd64.exe",
+		"HashFor64Bit": "c3917c08a7fe85db7203da6dcaa99a70",
+		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python310\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
 	{
