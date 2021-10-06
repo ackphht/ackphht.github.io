@@ -814,11 +814,11 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4153.1",
-		"Notes": "Cumulative Update 12",
+		"Version": "15.0.4178.1",
+		"Notes": "Cumulative Update 13",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5004524-x64.exe",
-		"HashFor32Bit": "fZjv1JflMGEiOl4Djv2Mmg==",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5005679-x64.exe",
+		"HashFor32Bit": "y6E5LXd3OBKmQ/+3JGwGJw==",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
@@ -919,7 +919,7 @@
 	},
 	{
 		"Name": "VCRedist2015_17_19",
-		"Version": "14.29.30133.0",
+		"Version": "14.29.30135.0",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
 		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
