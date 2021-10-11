@@ -12,10 +12,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.007.20091.0",
+		"Version": "2021.007.20099.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100720091/AcroRdrDC2100720091_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100720099/AcroRdrDC2100720099_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -266,12 +266,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.55.1.0",
+		"Version": "3.56.0.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "b57d973d895fd02d99b36a0307d582d5efae7f78b9a36874349178554cfa0db4e8f24d2fdd313b637790fa55e24b16ba23982dd850c1b652200468c325c45ed9",
-		"HashFor64Bit": "4dc6fde72c57432268387cf0fb128cbce52173bedf3c68b8150f85f87ad88a73af52c083e6077a4e3961b43028f00a0e80cfba87bb29b352c0f423a4d6f7517b",
+		"HashFor32Bit": "278285fa2ce48dcc6b2b43a19b668e087a8d94cb16f864189c42cdf7df5252ad067b298993600b4ffda5f1a39475fc4e2e5bb2e86938b3c4e9bd7040e52391a4",
+		"HashFor64Bit": "76e874c9108d212299e9019a51ff426396d03d46d36b066553c44f60e837f7e64510a03831caf9487f2b6c89b7e68acc8a5208a4cf3369b04276b8fd0aabd5ab",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -819,6 +819,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5005679-x64.exe",
 		"HashFor32Bit": "y6E5LXd3OBKmQ/+3JGwGJw==",
+		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
@@ -842,13 +843,13 @@
 	},
 	{
 		"Name": "SyncBackSE",
-		"Version": "9.5.45.0",
+		"Version": "9.5.55.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackse9-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "7cf5fa711cf65e06be4011ee0e0b70561420582d0135aba7679fcaa5028e6407",
-		"HashFor64Bit": "23c184c04f775287ae36426ae559a599c49618223e643096d80d11b4194a5952",
+		"HashFor32Bit": "1b758ce1e707eabb9c3d141b3e3df6d07a526db5ad95d2511e98f3dffd0fb02d",
+		"HashFor64Bit": "bff74fb93ddcc490791570b2dc6aca46492179abb50fc6636da716e8f9ca70c8",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
 	},
