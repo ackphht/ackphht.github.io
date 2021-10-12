@@ -76,11 +76,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.28.0.0",
+		"Version": "2.29.0.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.28.0.msi",
-		"HashFor32Bit": "ffKIxCbsadT+Qe8Utl+fNg==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.29.0.msi",
+		"HashFor32Bit": "FOYvti8NIX9w43VBYyRn9w==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows"
 	},
