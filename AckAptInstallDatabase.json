@@ -20,11 +20,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "4.70.2254.0",
+		"Version": "5.0.2334",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_4.70.2254.exe",
-		"HashFor32Bit": "1096778d6bd1a937e796822316d23de7b85f95fa06e78ad9d5fb93f622b34a90",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2334.exe",
+		"HashFor32Bit": "5bb9045f49956361c57a06d3dbebaf12427edff4ddd9a046e382d8d121aeda39",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -157,10 +157,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.1.0.0",
+		"Version": "4.1.1.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml or\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/69386/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/69879/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -302,9 +302,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "10.1.4.37651",
+		"Version": "11.1.0.52543",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&version=10.1.4.37651",
+		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=11.1.0.52543",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
 	},
 	{
@@ -603,13 +603,13 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.1.5.0",
+		"Version": "8.1.6.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.5/npp.8.1.5.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.5/npp.8.1.5.Installer.x64.exe",
-		"HashFor32Bit": "902fa542ec5a1757d7b538032c4497b6e091bcf7bc83744348d8bdc00c87bd71",
-		"HashFor64Bit": "e00e60f720902daea363ad78a8bc03aa709c9dc8c9ed1759c75333896b9c68d5",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.6/npp.8.1.6.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.6/npp.8.1.6.Installer.x64.exe",
+		"HashFor32Bit": "add307df8324191bd8ac02eda29ce0bccc1eef192417c7056670d5a4416c8af1",
+		"HashFor64Bit": "3a6f1b49dcdce229f1afd4686fec63f46fa5c4d1f77b2913fd4ffd428c9e119c",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
@@ -754,11 +754,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.2.1.0",
+		"Version": "2021.2.2.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.1/JetBrains.dotUltimate.2021.2.1.web.exe",
-		"HashFor32Bit": "e492a72bb4e66d3f94fd25877f84f8c79825a079a9ddbb29a5e87bc3c91eec9a",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.2/JetBrains.dotUltimate.2021.2.2.web.exe",
+		"HashFor32Bit": "16a7fe977d69be25109b331fcee081d98c58867c0071ee334e98b75c32b0cbb3",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
@@ -824,11 +824,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.9.2.0",
-		"Notes": "Build number: 15.0.18386.0",
+		"Version": "18.10.0.0",
+		"Notes": "Build number: 15.0.18390.0\nhttps://aka.ms/ssmsfullsetup",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aka.ms/ssmsfullsetup",
-		"HashFor32Bit": "lhg90SrqrgSej3wXJ/kaKw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2174135",
+		"HashFor32Bit": "wxiBjLzDM7co7xDTugu/vw==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
 	},
