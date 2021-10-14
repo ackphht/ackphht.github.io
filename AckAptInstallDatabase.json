@@ -336,11 +336,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.33.0.2",
+		"Version": "2.33.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe",
-		"HashFor64Bit": "a5704733c219e9a0c96bfeb0febef62bc2518bdd4e358bc9519dbc5e63a3b5fe",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
+		"HashFor64Bit": "b1b69fcf56d50199536f7e6fc79b75ab16734d4d9a4b85c8e931596f02dd0688",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -678,11 +678,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.0.1.0",
+		"Version": "3.1.0.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.0.1-06696.exe",
-		"HashFor64Bit": "bf69fe2e83a9d8963ac3a43ab3439e3961e083bc0345b870374ce1e786302a14",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.1-06756.exe",
+		"HashFor64Bit": "4217a60a3fe0cf58c21f7786002231fcd23fa3629b03efdf5a64d41bf22484fb",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
