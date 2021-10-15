@@ -20,11 +20,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.0.2334",
+		"Version": "5.0.2335",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2334.exe",
-		"HashFor32Bit": "5bb9045f49956361c57a06d3dbebaf12427edff4ddd9a046e382d8d121aeda39",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2335.exe",
+		"HashFor32Bit": "0b4a52c6678b4c1e4c514e0a3a7f84438078960dec94dbb6bbbc4c5fd23d75fa",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -309,7 +309,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.15.1.4143",
+		"Version": "6.15.3.4234",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "exe",
 		"UrlFor32Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -399,11 +399,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2021.2.2.0",
+		"Version": "2021.2.3.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.2.2.exe",
-		"HashFor32Bit": "25e2c7ed29989ad676f02ac0e39f9b1b802a64dd1badfbf5f6a145c1702cd937",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.2.3.exe",
+		"HashFor32Bit": "67d49cb6458d10e509970909dd10fab16f823010f17c1189c635656769d7d591",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/"
 	},
@@ -603,13 +603,13 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.1.6.0",
+		"Version": "8.1.7.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.6/npp.8.1.6.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.6/npp.8.1.6.Installer.x64.exe",
-		"HashFor32Bit": "add307df8324191bd8ac02eda29ce0bccc1eef192417c7056670d5a4416c8af1",
-		"HashFor64Bit": "3a6f1b49dcdce229f1afd4686fec63f46fa5c4d1f77b2913fd4ffd428c9e119c",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.7/npp.8.1.7.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.7/npp.8.1.7.Installer.x64.exe",
+		"HashFor32Bit": "0abf9b40854082a82eee9e3013c374312b3471aa24e27fc5b5b5dac95ce3bce3",
+		"HashFor64Bit": "18107fa059cf457b0b351b683e08e01a3b029ba277f5ca4583a4e3322df21622",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
@@ -669,11 +669,11 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.1.4.0",
+		"Version": "7.1.5.0",
 		"Notes": "https://microsoft.com/PowerShell",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.4/PowerShell-7.1.4-win-x64.msi",
-		"HashFor64Bit": "9190F005ADCC59F1D2CFF21B8D4FBBA70D72B8B4B567D845B33508A9C388A7A2",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.5/PowerShell-7.1.5-win-x64.msi",
+		"HashFor64Bit": "17924469091452658680BFBC582BBE5CADE52242F035880CC29D2A763D16D011",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases"
 	},
 	{
@@ -974,10 +974,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "16.1.2.17966106",
+		"Version": "16.2.0.18760230",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-16.1.2-17966106.exe",
-		"HashFor64Bit": "ce5949c2ca89c6fc8349d63e6d1dd053325b5803b93870aa3b73a106d76c942f",
+		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-full-16.2.0-18760230.exe",
+		"HashFor64Bit": "b87ab818e2cff09a87ebf765659b989e5046d44499b83eee67697d96dfd73623",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/products/player/"
@@ -1026,11 +1026,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.61.0.0",
+		"Version": "1.61.1.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/ee8c7def80afc00dd6e593ef12f37756d8f504ea/VSCodeUserSetup-x64-1.61.0.exe",
-		"HashFor64Bit": "9177E3gfoA7tGGz5UC9RoA==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/c13f1abb110fc756f9b3a6f16670df9cd9d4cf63/VSCodeUserSetup-x64-1.61.1.exe",
+		"HashFor64Bit": "4FssJXCWrIUhwN1Dve+rqg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
