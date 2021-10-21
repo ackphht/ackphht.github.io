@@ -20,11 +20,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.0.2335",
+		"Version": "5.0.2338",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2335.exe",
-		"HashFor32Bit": "0b4a52c6678b4c1e4c514e0a3a7f84438078960dec94dbb6bbbc4c5fd23d75fa",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2338.exe",
+		"HashFor32Bit": "9d3bcaf144165434eb344afd1ae72ce9b8bec728fdac9f0054d3a968ca44fa16",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -957,10 +957,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.3.2439.44",
+		"Version": "4.3.2439.56",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.44.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.44.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.56.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.56.x64.exe",
 		"AppPage": "https://vivaldi.com/download/"
 	},
 	{
