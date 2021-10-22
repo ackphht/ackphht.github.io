@@ -113,9 +113,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.29.0.0",
+		"Version": "5.30.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.29.0/calibre-64bit-5.29.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.30.0/calibre-64bit-5.30.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64"
 	},
@@ -603,13 +603,13 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.1.8.0",
+		"Version": "8.1.9.0",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.8/npp.8.1.8.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.8/npp.8.1.8.Installer.x64.exe",
-		"HashFor32Bit": "73d58e8b36b4d721b14e485fb43891ba916b21f031819387fde36b10777d6a6b",
-		"HashFor64Bit": "714e92dd80afd0aecaaf22e1b60049b180bb7032788295bc11c8d40e0f91c5d8",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9/npp.8.1.9.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9/npp.8.1.9.Installer.x64.exe",
+		"HashFor32Bit": "38ab72d6a356f5f057030fca1e0614303d1fc2e4b587402ff9174b622decc2a0",
+		"HashFor64Bit": "23bde004114ee4d17b11608da2c78fda365874fd64194a6ea167dd3050576b42",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
