@@ -96,11 +96,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.21.2.0",
+		"Version": "1.21.3.0",
 		"Notes": "https://storageexplorer.com/\nfor getting the hash: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.2/Windows_StorageExplorer.exe",
-		"HashFor32Bit": "eAIa5z9U/kj43QRNxH8Fhw==",
+		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.21.3/Windows_StorageExplorer.exe",
+		"HashFor32Bit": "tz1i/cX7MVpNjCf57NAU8g==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases"
 	},
@@ -266,12 +266,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.56.0.0",
+		"Version": "3.56.1.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "278285fa2ce48dcc6b2b43a19b668e087a8d94cb16f864189c42cdf7df5252ad067b298993600b4ffda5f1a39475fc4e2e5bb2e86938b3c4e9bd7040e52391a4",
-		"HashFor64Bit": "76e874c9108d212299e9019a51ff426396d03d46d36b066553c44f60e837f7e64510a03831caf9487f2b6c89b7e68acc8a5208a4cf3369b04276b8fd0aabd5ab",
+		"HashFor32Bit": "1be163ba67c90e70db893ed7d86e552831824e59d561067cacacab6257f9f8cef4689b36d626175523f87f9079f9b6b7c8fafdd9abdcc5a633d54a5f77694408",
+		"HashFor64Bit": "1654546629c7862b7a77fea2f52e383f19c577519b5e37c57a91812b31e0ed519ff747058c47b259fd3354292f0b0ba1b82bc9142884a916f26a7466a75fa97b",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -774,10 +774,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.7.0.0",
+		"Version": "1.8.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.7.0/Sigil-1.7.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "4ad3164927b4c581d9857c4383652046b2363281a7a3b8af1e3addcb92ed760d",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/Sigil-1.8.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "e1b7b2f2bb4aa81a3282b70ec3883574790881a13358e08f74d259c4c264426e",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases"
 	},
 	{
