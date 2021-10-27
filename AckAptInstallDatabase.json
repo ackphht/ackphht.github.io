@@ -594,10 +594,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "14.18.1.0",
+		"Version": "16.13.0.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v14.18.1/node-v14.18.1-x64.msi",
-		"HashFor64Bit": "10d8e278201c3b1509d989425bcc6d81e772d2d7703613e0cba764579601397c",
+		"UrlFor64Bit": "https://nodejs.org/dist/v16.13.0/node-v16.13.0-x64.msi",
+		"HashFor64Bit": "bf55b68293b163423ea4856c1d330be23158e78aea18a8756cfdff6fb6ffcd88",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/"
 	},
