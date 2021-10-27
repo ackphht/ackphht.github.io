@@ -266,12 +266,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.56.1.0",
+		"Version": "3.56.2.0",
 		"Type": "exe",
 		"IndirectUrlFor32Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\r\n$1",
 		"IndirectUrlFor64Bit": "https://filezilla-project.org/download.php?show_all=1\r\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\r\n$1",
-		"HashFor32Bit": "1be163ba67c90e70db893ed7d86e552831824e59d561067cacacab6257f9f8cef4689b36d626175523f87f9079f9b6b7c8fafdd9abdcc5a633d54a5f77694408",
-		"HashFor64Bit": "1654546629c7862b7a77fea2f52e383f19c577519b5e37c57a91812b31e0ed519ff747058c47b259fd3354292f0b0ba1b82bc9142884a916f26a7466a75fa97b",
+		"HashFor32Bit": "069aeece8202f3d45af4bba7b461bff72031d9a06bc54b1b040596aa397233c5e854627cdbf4544b6c56cdccd79c98425b3d93fe1b92ea7d80c7a4ee30365569",
+		"HashFor64Bit": "50e514c8f92d6afd7578f806b9711a7df6b3b95726313486a8fd45b48a6dd706c5f9a926897f820cb6f0bf5ef36f869b8855000d25fbb6eae0e4ea9712218bc0",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1"
 	},
@@ -390,10 +390,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.2",
+		"Version": "6.7.4.3",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/102321/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/102621/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
