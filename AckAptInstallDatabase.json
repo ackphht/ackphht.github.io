@@ -38,11 +38,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.0.5.0",
+		"Version": "3.1.0.0",
 		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.exe",
-		"HashFor64Bit": "DE2FED286A819090EC416C02A0593F586A4527AB145C81C0CE108E0D7FC79BEE",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.0/audacity-win-3.1.0-64bit.exe",
+		"HashFor64Bit": "20e6f18397d32c0ecdcb39eedb31a19fde01da55c1facbfbff1b79dec86b205c",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
@@ -86,11 +86,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.32.0.0",
+		"Version": "1.33.0.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2170400",
-		"HashFor32Bit": "p/CrwHyoU5NU0/nyKn4MKQ==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2176805",
+		"HashFor32Bit": "fXVgPgofV/WQFj1RtcCrwQ==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
@@ -390,10 +390,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.3",
+		"Version": "6.7.4.4",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/102621/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/102721/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -660,10 +660,10 @@
 	},
 	{
 		"Name": "Postman",
-		"Version": "8.12.4.0",
+		"Version": "8.12.5.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
 		"Type": "exe",
-		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.4/win64",
+		"UrlFor64Bit": "https://dl.pstmn.io/download/version/8.12.5/win64",
 		"InstallerArguments": "-s",
 		"AppPage": "https://www.postman.com/downloads/"
 	},
