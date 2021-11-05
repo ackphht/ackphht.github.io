@@ -67,10 +67,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.2.42.0",
+		"Version": "2.3.4.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.2.42.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.3.4.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -390,10 +390,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.7",
+		"Version": "6.7.4.8",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/110321/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/110421/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.5.0",
+		"Version": "5.2.6.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.5-latest.20211001.2.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.6-latest.20211104.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -1037,11 +1037,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.61.2.0",
+		"Version": "1.62.0.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/6cba118ac49a1b88332f312a8f67186f7f3c1643/VSCodeUserSetup-x64-1.61.2.exe",
-		"HashFor64Bit": "CnCGd75I7xG6gwtcokiDCQ==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/b3318bc0524af3d74034b8bb8a64df0ccf35549a/VSCodeUserSetup-x64-1.62.0.exe",
+		"HashFor64Bit": "e5wSdT5naWUjnXD4sX96Jg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
