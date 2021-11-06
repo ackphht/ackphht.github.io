@@ -3,6 +3,7 @@ html, body { position:relative; height:100%; }
 */
 :root {
 	--ack-link-color: #225780;
+	--ack-link-color-hover: #225780;
 	--ack-tab-border-color:#aaaaaa;
 	--ack-text-color:rgb(33, 37, 41);
 	--ack-background-color:white;
@@ -13,20 +14,13 @@ html, body { position:relative; height:100%; }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		/* some windows dark colors: */
-		/* --ack-link-color: #2874e8;
-		--ack-text-color:#c0c0c0;
-		--ack-background-color:#181818;
-		--ack-tab-background-color:#202020; */
-
-		/* some colors from inoreader */
-		--ack-link-color: rgb(78,113,173);
-		--ack-text-color:RGB(204,204,204);
-		--ack-background-color:rgb(36,36,36);
-		--ack-tab-background-color:rgb(31,31,31);
-
+		--ack-link-color: #5395e8;
+		--ack-link-color-hover: #78b9f5;
+		--ack-text-color:rgb(204,204,204);
+		--ack-background-color:rgb(59,59,59);
+		--ack-tab-background-color:rgb(51,51,51);
 		--ack-tab-border-color:rgb(72,72,72);
-		--ack-inactive-tab-background-color:rgb(34,34,34);
+		--ack-inactive-tab-background-color:rgb(54,54,54);
 		--ack-active-tab-text-color:rgb(160,160,192);
 	}
 }
@@ -51,7 +45,7 @@ img.icon { width:16px; height:16px; }
 table.table { border-color:var(--ack-tab-border-color); }
 
 a { color:var(--ack-link-color); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: underline; color: var(--ack-link-color-hover); }
 div.link { display: inline; }
 a.url { margin: 3px; }
 a.icon { padding-left:22px; background-size: 16px 16px; background-position: left center; background-repeat: no-repeat; }
