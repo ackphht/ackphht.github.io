@@ -20,11 +20,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.0.2338",
+		"Version": "5.0.2342",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2338.exe",
-		"HashFor32Bit": "9d3bcaf144165434eb344afd1ae72ce9b8bec728fdac9f0054d3a968ca44fa16",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2342.exe",
+		"HashFor32Bit": "837087a28e59480180697ad3730f135d597d7a57c911f561a23421bb45b9963c",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
