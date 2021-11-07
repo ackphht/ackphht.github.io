@@ -1,6 +1,6 @@
 [
 	{
-		"Name": "7zip",
+		"Name": "7zip", 
 		"Version": "21.0.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://7-zip.org/a/7z2104.exe",
