@@ -1,6 +1,6 @@
 [
 	{
-		"Name": "7zip", 
+		"Name": "7zip",
 		"Version": "21.0.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://7-zip.org/a/7z2104.exe",
@@ -929,12 +929,13 @@
 		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
 	},
 	{
-		"Name": "VCRedist2015_17_19",
-		"Version": "14.29.30135.0",
+		"Name": "VCRedist2015+",
+		"Version": "14.30.30704.0",
+		"Notes": "supports VC 2015 thru 2022",
 		"Type": "exe",
 		"InstallBoth": "TRUE",
-		"UrlFor32Bit": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
-		"UrlFor64Bit": "https://aka.ms/vs/16/release/VC_redist.x64.exe",
+		"UrlFor32Bit": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+		"UrlFor64Bit": "https://aka.ms/vs/17/release/VC_redist.x64.exe",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/q /norestart",
 		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
@@ -994,27 +995,6 @@
 		"AppPage": "https://www.vmware.com/products/player/"
 	},
 	{
-		"Name": "VS2017Community",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/4/3/3/433CE112-6BA4-49A1-A59F-E15F01E7B851/vs_Community.exe",
-		"InstallerArguments": "--nocache"
-	},
-	{
-		"Name": "VS2017Professional",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/D/B/A/DBAB8920-72B8-4EBA-B92C-0EF2D83B0139/vs_Professional.exe",
-		"InstallerArguments": "--nocache"
-	},
-	{
-		"Name": "VS2017Enterprise",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/3/E/2/3E230498-6A3F-4E8D-ADDD-FA43D96F52F5/vs_Enterprise.exe",
-		"InstallerArguments": "--nocache"
-	},
-	{
 		"Name": "VS2019Community",
 		"Version": "0.0.0.0",
 		"Type": "exe",
@@ -1034,6 +1014,14 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/89d9f9d5-12ff-4e95-a075-4ff8a0941672/c1b61a91aa8495730036e13582d17cb7/vs_enterprise.exe",
 		"InstallerArguments": "--nocache"
+	},
+	{
+		"Name": "VS2022Community",
+		"Version": "0.0.0.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/14fe35fa35c305b03032a885ff3ebefaf88fce5051ee84183d4c5de75783339e/vs_Community.exe",
+		"InstallerArguments": "--nocache --wait",
+		"AppPage": "https://visualstudio.microsoft.com/"
 	},
 	{
 		"Name": "VSCode",
