@@ -20,11 +20,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.0.2342",
+		"Version": "5.0.2344",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2342.exe",
-		"HashFor32Bit": "837087a28e59480180697ad3730f135d597d7a57c911f561a23421bb45b9963c",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2344.exe",
+		"HashFor32Bit": "0f14586e35fa20e53a29abad4bddb665526b89d3b93814aa1bc8c6c70c531b71",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows"
 	},
 	{
@@ -157,10 +157,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.1.1.0",
-		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/stable/amd64/appcast.xml or\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
+		"Version": "4.2.0.0",
+		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/69879/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/70708/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -598,9 +598,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.16.0",
+		"Version": "1.9.17.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.16/MPC-HC.1.9.16.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.17/MPC-HC.1.9.17.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases"
 	},
@@ -1035,11 +1035,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.62.0.0",
+		"Version": "1.62.1.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/b3318bc0524af3d74034b8bb8a64df0ccf35549a/VSCodeUserSetup-x64-1.62.0.exe",
-		"HashFor64Bit": "e5wSdT5naWUjnXD4sX96Jg==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/f4af3cbf5a99787542e2a30fe1fd37cd644cc31f/VSCodeUserSetup-x64-1.62.1.exe",
+		"HashFor64Bit": "x8L5youyjB70S0ZfAfarXw==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
