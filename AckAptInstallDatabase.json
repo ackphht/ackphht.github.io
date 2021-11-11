@@ -38,11 +38,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.1.0.0",
+		"Version": "3.1.1.0",
 		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.0/audacity-win-3.1.0-64bit.exe",
-		"HashFor64Bit": "20e6f18397d32c0ecdcb39eedb31a19fde01da55c1facbfbff1b79dec86b205c",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.1/audacity-win-3.1.1-64bit.exe",
+		"HashFor64Bit": "ed4a830cabe53d04875c2a8c45c8468eb9394bba7c972cfd25bc7c43c45b20c1",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
@@ -390,10 +390,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.9",
+		"Version": "6.7.4.10",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/110821/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/111121/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.6.0",
+		"Version": "5.2.7.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.6-latest.20211104.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.7-latest.20211110.1.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -523,10 +523,10 @@
 	},
 	{
 		"Name": "LINQPad6",
-		"Version": "6.14.10.0",
+		"Version": "6.15.12.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashFor32Bit": "NoxZSZvjt3V2pZvoGWcDMw==",
+		"HashFor32Bit": "pOI+UksiTuq5exXFR2Py3g==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
@@ -662,11 +662,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.35.1.2632",
+		"Version": "1.37.0.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.35.1.2632-c6783c78/windows/Plex-1.35.1.2632-c6783c78-x86_64.exe",
-		"HashFor64Bit": "7c39b7109a593200c2e8c3d3e5277971c32fc3ea",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.37.0.2706-5b2cfe50/windows/Plex-1.37.0.2706-5b2cfe50-x86_64.exe",
+		"HashFor64Bit": "13cdb53413580c920086c64874689437ac5b5d2e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app"
 	},
