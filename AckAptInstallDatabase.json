@@ -727,10 +727,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.9.8.0",
+		"Version": "3.9.9.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.8/python-3.9.8-amd64.exe",
-		"HashFor64Bit": "8147fa17b727d6ed8b3fbed8fa9b3724",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe",
+		"HashFor64Bit": "a09ef64c9ea2e7d9a04a2cafb833aa7b",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -745,10 +745,10 @@
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.8.0",
+		"Version": "3.9.9.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.8/python-3.9.8-amd64.exe",
-		"HashFor64Bit": "8147fa17b727d6ed8b3fbed8fa9b3724",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.9/python-3.9.9-amd64.exe",
+		"HashFor64Bit": "a09ef64c9ea2e7d9a04a2cafb833aa7b",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -778,7 +778,7 @@
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.2/JetBrains.dotUltimate.2021.2.2.web.exe",
-		"HashFor32Bit": "16a7fe977d69be25109b331fcee081d98c58867c0071ee334e98b75c32b0cbb3",
+		"HashFor32Bit": "2241e5b9c88d5a5fb28c35b209af72b1cf8169179c587511fc63b89dfa069328",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
 	},
