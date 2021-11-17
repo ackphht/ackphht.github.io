@@ -38,11 +38,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.1.1.0",
-		"Notes": "https://github.com/audacity/audacity/releases\nthe page http://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
+		"Version": "3.1.2.0",
+		"Notes": "https://github.com/audacity/audacity/releases\nthe page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.1/audacity-win-3.1.1-64bit.exe",
-		"HashFor64Bit": "ed4a830cabe53d04875c2a8c45c8468eb9394bba7c972cfd25bc7c43c45b20c1",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.2/audacity-win-3.1.2-64bit.exe",
+		"HashFor64Bit": "6a3f5f7c1801d30de40e02477be87b429336e3ed42d65cf6f12cdb9a101d1906",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/"
 	},
@@ -86,11 +86,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.33.0.0",
+		"Version": "1.33.1.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2176805",
-		"HashFor32Bit": "fXVgPgofV/WQFj1RtcCrwQ==",
+		"HashFor32Bit": "aR7tZkR4hKMZ4JVMM1El6Q==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=\"!runCode,!addtopath,!desktopicon,!associatewithfiles\"",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download"
 	},
