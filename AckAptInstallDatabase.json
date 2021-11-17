@@ -336,11 +336,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.33.1.0",
+		"Version": "2.34.0.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.33.1.windows.1/Git-2.33.1-64-bit.exe",
-		"HashFor64Bit": "b1b69fcf56d50199536f7e6fc79b75ab16734d4d9a4b85c8e931596f02dd0688",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.34.0.windows.1/Git-2.34.0-64-bit.exe",
+		"HashFor64Bit": "2a833d15f97539e845b3883e375a8a152e8199b63ac345282d80f834f7d6a9b6",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
