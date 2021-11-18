@@ -532,10 +532,10 @@
 	},
 	{
 		"Name": "LINQPad7",
-		"Version": "7.0.6.0",
+		"Version": "7.1.4.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
-		"HashFor32Bit": "KHyA2hUAcUQ8SdnT9VI5pw==",
+		"HashFor32Bit": "L3QewGMdCZvx3v9Q+bdNpg==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx"
 	},
