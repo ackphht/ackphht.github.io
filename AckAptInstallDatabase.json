@@ -868,8 +868,8 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashFor32Bit": "97a7d534d4e6f2f25cfbb4c2264b8cac8e5808ae489155049d297846a53fb746",
-		"HashFor64Bit": "8e929a0f2683480f7855ec4b7676d966cf121fe204c796988181383dad2ceba9",
+		"HashFor32Bit": "50c07d7975def50b2bccccb65ee5260d26ee58cba082d59fcbaa74549cdd5e3e",
+		"HashFor64Bit": "97a7d534d4e6f2f25cfbb4c2264b8cac8e5808ae489155049d297846a53fb746",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
