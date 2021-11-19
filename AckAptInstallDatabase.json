@@ -862,16 +862,16 @@
 		"AppPage": "https://github.com/Stellarium/stellarium/releases"
 	},
 	{
-		"Name": "SyncBackSE",
-		"Version": "9.5.63.0",
-		"Notes": "https://www.2brightsparks.com/syncback/syncbackse9-v-check.txt",
+		"Name": "SyncBackPro",
+		"Version": "10.1.8.0",
+		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV9_Setup.exe",
-		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackSEV964_Setup.exe",
-		"HashFor32Bit": "64c17a71b6ca8bb2d8d32d75aea3611c3f303a720cd9ab627b33956f3d8404b1",
-		"HashFor64Bit": "51a7eb4900e8651daa1a2fa7b04bd034c844c15bc24da4b9909c9069620813c0",
+		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
+		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
+		"HashFor32Bit": "97a7d534d4e6f2f25cfbb4c2264b8cac8e5808ae489155049d297846a53fb746",
+		"HashFor64Bit": "8e929a0f2683480f7855ec4b7676d966cf121fe204c796988181383dad2ceba9",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
-		"AppPage": "https://www.2brightsparks.com/download-syncbackse.html"
+		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
 	{
 		"Name": "TeraCopy",
@@ -1035,11 +1035,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.62.2.0",
+		"Version": "1.62.3.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/3a6960b964327f0e3882ce18fcebd07ed191b316/VSCodeUserSetup-x64-1.62.2.exe",
-		"HashFor64Bit": "W/SR0ucCRzKWeYNhUl7ORw==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/VSCodeUserSetup-x64-1.62.3.exe",
+		"HashFor64Bit": "UtC6TIvL2SlgTc1asC6BQQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download"
 	},
