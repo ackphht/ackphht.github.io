@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.4.0",
+		"Version": "21.0.5.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2104.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2104-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2105.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2105-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -622,13 +622,13 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.1.9.1",
+		"Version": "8.1.9.2",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9.1/npp.8.1.9.1.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9.1/npp.8.1.9.1.Installer.x64.exe",
-		"HashFor32Bit": "45b22f2148c5f0fc5ae36182df435854eaa6d7af53804220eb37f134c139ce34",
-		"HashFor64Bit": "5c65894c0de1326df5ca68c84280d3c39a0ec9f79489f8611f76e4e0e60b922e",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9.2/npp.8.1.9.2.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.9.2/npp.8.1.9.2.Installer.x64.exe",
+		"HashFor32Bit": "a762e97b4f3387da0d273d692da16d34fbb8fbfdc8c07b04c3c837ff33220f00",
+		"HashFor64Bit": "2bb2c7bca2b2ad54701c15cabcbc336643f3829d33d3411c0fb8f75ab1bfa1a0",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/"
 	},
