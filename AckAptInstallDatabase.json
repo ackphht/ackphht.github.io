@@ -67,10 +67,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.3.6.0",
+		"Version": "2.4.1.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.3.6.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.4.1.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/"
 	},
@@ -336,11 +336,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.34.0.0",
+		"Version": "2.34.1.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.34.0.windows.1/Git-2.34.0-64-bit.exe",
-		"HashFor64Bit": "2a833d15f97539e845b3883e375a8a152e8199b63ac345282d80f834f7d6a9b6",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.34.1.windows.1/Git-2.34.1-64-bit.exe",
+		"HashFor64Bit": "d8769a1d90b2f1f7d85ae91e724c8dad16f340c5b130d49368a308dd086a5f52",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases"
 	},
@@ -527,7 +527,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
 		"HashFor32Bit": "pOI+UksiTuq5exXFR2Py3g==",
-		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
+		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx"
 	},
 	{
@@ -536,7 +536,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
 		"HashFor32Bit": "GrcINRZ5gEFE0NsmZMu59w==",
-		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon /SILENT",
+		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx"
 	},
 	{
@@ -698,11 +698,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.1.1.0",
+		"Version": "3.1.2.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.1.1-06763.exe",
-		"HashFor64Bit": "fbb6471cc721f2f2d957ed99e393230f337b8a383bbb36b69d96c2745e8b4887",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.1.2-06767.exe",
+		"HashFor64Bit": "a19c534721b6603ebafafd8f6fdd9d6de428a023232c3bb60de5b95779faf6c4",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download"
 	},
 	{
@@ -780,7 +780,7 @@
 		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.2/JetBrains.dotUltimate.2021.2.2.web.exe",
 		"HashFor32Bit": "2241e5b9c88d5a5fb28c35b209af72b1cf8169179c587511fc63b89dfa069328",
 		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
-		"AppPage": "https://www.jetbrains.com/resharper/download/index.html"
+		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
 	{
 		"Name": "ruby2",
