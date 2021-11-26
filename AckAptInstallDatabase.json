@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.5.0",
+		"Version": "21.0.6.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2105.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2105-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2106.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2106-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -495,10 +495,10 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.2.7.0",
+		"Version": "5.3.0.0",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.2.7-latest.20211110.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.0-latest.20211125.2.exe",
 		"AppPage": "https://k8slens.dev#download"
 	},
 	{
@@ -662,11 +662,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.37.0.0",
+		"Version": "1.38.0.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.37.0.2706-5b2cfe50/windows/Plex-1.37.0.2706-5b2cfe50-x86_64.exe",
-		"HashFor64Bit": "13cdb53413580c920086c64874689437ac5b5d2e",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.38.0.2734-ec4489fe/windows/Plex-1.38.0.2734-ec4489fe-x86_64.exe",
+		"HashFor64Bit": "239d1cbaf73646918df9a711664206b4a7244e59",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app"
 	},
