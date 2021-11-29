@@ -642,6 +642,14 @@
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/"
 	},
 	{
+		"Name": "OhMyPosh",
+		"Version": "0.0",
+		"Notes": "https://github.com/JanDeDobbeleer/oh-my-posh/releases",
+		"AppPage": "https://ohmyposh.dev/",
+		"UseWinget": true,
+		"WingetId": "JanDeDobbeleer.OhMyPosh"
+	},
+	{
 		"Name": "OneNote",
 		"Version": "16.0.11328.20144",
 		"Type": "exe",
