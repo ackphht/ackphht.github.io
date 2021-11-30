@@ -102,7 +102,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2176805",
 		"HashFor32Bit": "aR7tZkR4hKMZ4JVMM1El6Q==",
-		"InstallerArguments": "/SP- /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
+		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"UseWinget": true,
 		"WingetId": "Microsoft.AzureDataStudio"
