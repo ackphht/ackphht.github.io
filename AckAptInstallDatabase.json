@@ -530,11 +530,14 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.3.1.0",
+		"Version": "5.3.2",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.1-latest.20211130.1.exe",
-		"AppPage": "https://k8slens.dev#download"
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.2-latest.20211201.1.exe",
+		"AppPage": "https://k8slens.dev#download",
+		"UseWinget": true,
+		"WingetId": "Mirantis.Lens",
+		"WingetVersion": "5.3.2-latest.20211201.1"
 	},
 	{
 		"Name": "LinkShellExtension",
@@ -770,15 +773,16 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.2.3.0",
+		"Version": "2021.3.0.0",
+		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.2.3.exe",
-		"HashFor32Bit": "70bb0a198a4a0dc3e55a4c76564560a652e9fb45c22fbf0760860a2647ace0bf",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.exe",
+		"HashFor32Bit": "eac1290363058da3ccfcc6d4f6085e9c4293d8d95f83c9c003822ec46c783f3a",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"UseWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "212.5457.59"
+		"WingetVersion": "213.5744.248"
 	},
 	{
 		"Name": "python27",
@@ -1052,10 +1056,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "4.3.2439.65",
+		"Version": "5.0.2497.24",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.65.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.4.3.2439.65.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.x64.exe",
 		"AppPage": "https://vivaldi.com/download/",
 		"UseWinget": true,
 		"WingetId": "VivaldiTechnologies.Vivaldi"
