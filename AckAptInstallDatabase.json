@@ -629,7 +629,6 @@
 		"HashFor32Bit": "D815FA165A39ADE56848E2ADC5A21AD8B2F639D6FD075B60120E10BCC9DF1BAC",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases",
-		"UseWinget": true,
 		"WingetId": "Microsoft.PowerToys"
 	},
 	{
