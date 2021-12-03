@@ -128,9 +128,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.32.0",
+		"Version": "5.33.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.32.0/calibre-64bit-5.32.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.33.0/calibre-64bit-5.33.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
@@ -174,10 +174,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.2.0.0",
+		"Version": "4.3.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/70708/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/71786/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
 	},
 	{
@@ -383,10 +383,10 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "2.9.4",
+		"Version": "2.9.5",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.4-24101633/GitHubDesktopSetup-x64.exe",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.5-acc55692/GitHubDesktopSetup-x64.exe",
 		"HashFor64Bit": "C2TCrHyMDLJX3tUqNVBcOA==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
