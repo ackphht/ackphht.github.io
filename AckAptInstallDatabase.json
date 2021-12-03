@@ -581,7 +581,7 @@
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
 		"UseWinget": true,
-		"WingetId": "LINQPad.LINQPad"
+		"WingetId": "LINQPad.LINQPad.7"
 	},
 	{
 		"Name": "MariaDB",
