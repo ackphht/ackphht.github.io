@@ -26,7 +26,7 @@
 		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2344.exe",
 		"HashFor32Bit": "0f14586e35fa20e53a29abad4bddb665526b89d3b93814aa1bc8c6c70c531b71",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
 		"WingetVersion": "v5.00.2344, 09.11.2021"
 	},
@@ -48,7 +48,7 @@
 		"HashFor64Bit": "6a3f5f7c1801d30de40e02477be87b429336e3ed42d65cf6f12cdb9a101d1906",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Audacity.Audacity"
 	},
 	{
@@ -69,7 +69,7 @@
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Lexikos.AutoHotkey"
 	},
 	{
@@ -80,7 +80,7 @@
 		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.4.1.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Amazon.AWSCLI"
 	},
 	{
@@ -92,7 +92,7 @@
 		"HashFor32Bit": "6Ws3A2k1eGh/Mcb3GQUZ1Q==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureCLI"
 	},
 	{
@@ -104,7 +104,7 @@
 		"HashFor32Bit": "aR7tZkR4hKMZ4JVMM1El6Q==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureDataStudio"
 	},
 	{
@@ -116,7 +116,7 @@
 		"HashFor32Bit": "tz1i/cX7MVpNjCf57NAU8g==",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureStorageExplorer"
 	},
 	{
@@ -133,7 +133,7 @@
 		"UrlFor64Bit": "https://download.calibre-ebook.com/5.32.0/calibre-64bit-5.32.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "calibre.calibre"
 	},
 	{
@@ -291,7 +291,7 @@
 		"HashFor64Bit": "50e514c8f92d6afd7578f806b9711a7df6b3b95726313486a8fd45b48a6dd706c5f9a926897f820cb6f0bf5ef36f869b8855000d25fbb6eae0e4ea9712218bc0",
 		"InstallerArguments": "/S",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "TimKosse.FileZilla.Client"
 	},
 	{
@@ -318,7 +318,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.foobar2000.org/files/foobar2000_v1.6.8.exe",
 		"AppPage": "http://www.foobar2000.org/download",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "PeterPawlowski.foobar2000"
 	},
 	{
@@ -339,7 +339,7 @@
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
 		"InstallerArguments": "/SP- /SILENT /ALLUSERS /DIR=\"C:\\Program Files\\Free Download Manager\"",
 		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "SoftDeluxe.FreeDownloadManager"
 	},
 	{
@@ -350,7 +350,7 @@
 		"HashFor32Bit": "2c2e081ce541682be1abdd8bc6df13768ad9482d68000b4a7a60c764d6cec74e",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://www.gimp.org/downloads/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "GIMP.GIMP"
 	},
 	{
@@ -368,7 +368,7 @@
 		"HashFor64Bit": "d8769a1d90b2f1f7d85ae91e724c8dad16f340c5b130d49368a308dd086a5f52",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Git.Git"
 	},
 	{
@@ -378,7 +378,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/gitahead/gitahead/releases/download/v2.6.3/GitAhead-win64-2.6.3.exe",
 		"AppPage": "https://gitahead.github.io/gitahead.com/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "GitAhead.GitAhead"
 	},
 	{
@@ -390,7 +390,7 @@
 		"HashFor64Bit": "C2TCrHyMDLJX3tUqNVBcOA==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "GitHub.GitHubDesktop"
 	},
 	{
@@ -418,7 +418,7 @@
 		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.4.2/HandBrake-1.4.2-x86_64-Win_GUI.exe",
 		"HashFor64Bit": "8c5a719a2a6677b37641e39853f17ef6134345fa21fd89bac50566b132f48306",
 		"AppPage": "https://handbrake.fr/downloads.php",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "HandBrake.HandBrake"
 	},
 	{
@@ -439,7 +439,7 @@
 		"HashFor32Bit": "115fe45367cd514360efce4857d47f1541d793e0aea1c67a739f5dac9ad280a4",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
 		"WingetVersion": "213.5744.223"
 	},
@@ -535,7 +535,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.2-latest.20211201.1.exe",
 		"AppPage": "https://k8slens.dev#download",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
 		"WingetVersion": "5.3.2-latest.20211201.1"
 	},
@@ -558,7 +558,7 @@
 		"HashFor32Bit": "lf+SkyrRWdxRPVPauLhwMA==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.5"
 	},
 	{
@@ -569,7 +569,7 @@
 		"HashFor32Bit": "pOI+UksiTuq5exXFR2Py3g==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.6"
 	},
 	{
@@ -580,7 +580,7 @@
 		"HashFor32Bit": "GrcINRZ5gEFE0NsmZMu59w==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.7"
 	},
 	{
@@ -640,7 +640,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv311setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
 	},
 	{
@@ -650,7 +650,7 @@
 		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.17/MPC-HC.1.9.17.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "clsid2.mpc-hc"
 	},
 	{
@@ -668,7 +668,7 @@
 		"HashFor64Bit": "8c0434b1735110ef8fbd012c46dfa867fea360b29fbbf76f0995361d17243103",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "OpenJS.NodeJS.LTS"
 	},
 	{
@@ -682,7 +682,7 @@
 		"HashFor64Bit": "2bb2c7bca2b2ad54701c15cabcbc336643f3829d33d3411c0fb8f75ab1bfa1a0",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Notepad++.Notepad++"
 	},
 	{
@@ -701,7 +701,7 @@
 		"Notes": "https://github.com/JanDeDobbeleer/oh-my-posh/releases",
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://ohmyposh.dev/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "JanDeDobbeleer.OhMyPosh"
 	},
 	{
@@ -731,7 +731,7 @@
 		"HashFor64Bit": "239d1cbaf73646918df9a711664206b4a7244e59",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Plex.Plex"
 	},
 	{
@@ -759,7 +759,7 @@
 		"HashFor64Bit": "BD5BDDF2FAC4626479C4F381BDB30A0DC6A9516BE2DE9FC726F33C65F56FE9D4",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Microsoft.PowerShell"
 	},
 	{
@@ -780,7 +780,7 @@
 		"HashFor32Bit": "eac1290363058da3ccfcc6d4f6085e9c4293d8d95f83c9c003822ec46c783f3a",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
 		"WingetVersion": "213.5744.248"
 	},
@@ -869,7 +869,7 @@
 		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/Sigil-1.8.0-Windows-x64-Setup.exe",
 		"HashFor64Bit": "e1b7b2f2bb4aa81a3282b70ec3883574790881a13358e08f74d259c4c264426e",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Sigil-Ebook.Sigil"
 	},
 	{
@@ -879,7 +879,7 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.7.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Atlassian.Sourcetree"
 	},
 	{
@@ -934,7 +934,7 @@
 		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.21.2/stellarium-0.21.2-win64.exe",
 		"HashFor64Bit": "eff51315b0d3200ef0ecbb8deb8ffc3fe649162b32d577bf5701953709588af0",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Stellarium.Stellarium"
 	},
 	{
@@ -957,7 +957,7 @@
 		"UrlFor32Bit": "https://codesector.com/files/teracopy3.8.5.exe",
 		"HashFor32Bit": "401870777B39B6FFBFD5EC96AE79470E9CAF2D2B5526927100DD91E87B3228EE",
 		"AppPage": "https://blog.codesector.com/category/teracopy/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "CodeSector.TeraCopy"
 	},
 	{
@@ -1061,7 +1061,7 @@
 		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.exe",
 		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.x64.exe",
 		"AppPage": "https://vivaldi.com/download/",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "VivaldiTechnologies.Vivaldi"
 	},
 	{
@@ -1073,7 +1073,7 @@
 		"HashFor32Bit": "4599f5d504c127f7e2ee391f06725461b9b761492c72ac2eb98f2429f04ef5c1",
 		"HashFor64Bit": "0cff2d41a69d72de30607b8fc09da90e352393e154a342efcddb91e06b3a2147",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "VideoLAN.VLC"
 	},
 	{
@@ -1124,7 +1124,7 @@
 		"HashFor64Bit": "UtC6TIvL2SlgTc1asC6BQQ==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudioCode"
 	},
 	{
@@ -1158,7 +1158,7 @@
 		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.6.0.exe",
 		"HashFor64Bit": "8ffa9f2c7943d1e8ed8020d7d08c8015ec649c3e3af901808a9ec858564cd255",
 		"AppPage": "https://www.wireshark.org/download.html",
-		"UseWinget": true,
+		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark"
 	}
 ]
