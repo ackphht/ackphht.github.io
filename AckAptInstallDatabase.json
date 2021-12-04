@@ -128,9 +128,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.33.0",
+		"Version": "5.33.2",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.33.0/calibre-64bit-5.33.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.33.2/calibre-64bit-5.33.2.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
@@ -625,11 +625,11 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.51.0",
+		"Version": "0.51.1",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.51.0/PowerToysSetup-0.51.0-x64.exe",
-		"HashFor32Bit": "D815FA165A39ADE56848E2ADC5A21AD8B2F639D6FD075B60120E10BCC9DF1BAC",
+		"UrlFor32Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.51.1/PowerToysSetup-0.51.1-x64.exe",
+		"HashFor32Bit": "CDD2C65A30017DA05A0BF5A8B144DB8E523E17225FD180FFC3BD4C8B81F72994",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases",
 		"WingetId": "Microsoft.PowerToys"
@@ -714,11 +714,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.3.0",
+		"Version": "4.3.4.0",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.3/paint.net.4.3.3.install.x64.zip",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.4/paint.net.4.3.4.install.x64.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
