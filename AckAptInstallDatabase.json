@@ -85,11 +85,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.30.0",
+		"Version": "2.31.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.30.0.msi",
-		"HashFor32Bit": "6Ws3A2k1eGh/Mcb3GQUZ1Q==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.31.0.msi",
+		"HashFor32Bit": "fXiwjlP94weLMF4Te+cfNg==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"PreferWinget": true,
@@ -296,10 +296,10 @@
 	},
 	{
 		"Name": "FiraCodeFont",
-		"Version": "6.0.0.0",
+		"Version": "6.2.0.0",
 		"Notes": "apparently we're supposed to use TTF now instead of OTF...",
 		"Type": "script",
-		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/6/Fira_Code_v6.zip",
+		"UrlFor32Bit": "https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip",
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"AppPage": "https://github.com/tonsky/FiraCode/releases",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.ttf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }"
@@ -423,10 +423,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.10",
+		"Version": "6.7.4.11",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/111121/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/120621/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
