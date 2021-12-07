@@ -178,7 +178,8 @@
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/71786/Docker%20Desktop%20Installer.exe",
-		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/"
+		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
+		"WingetId": "Docker.DockerDesktop"
 	},
 	{
 		"Name": "DotNet48",
@@ -271,7 +272,8 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
 		"InstallerArguments": "/S",
-		"AppPage": "https://www.telerik.com/download/fiddler"
+		"AppPage": "https://www.telerik.com/download/fiddler",
+		"WingetId": "Telerik.Fiddler"
 	},
 	{
 		"Name": "FileMenuTools",
@@ -310,7 +312,8 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win&lang=en-US",
 		"UrlFor64Bit": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US",
-		"AppPage": "https://www.firefox.com"
+		"AppPage": "https://www.firefox.com",
+		"WingetId": "Mozilla.Firefox"
 	},
 	{
 		"Name": "foobar2000",
@@ -400,7 +403,8 @@
 		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
 		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
 		"InstallerArguments": "/S",
-		"AppPage": "https://www.gitkraken.com/download"
+		"AppPage": "https://www.gitkraken.com/download",
+		"WingetId": "Axosoft.GitKraken"
 	},
 	{
 		"Name": "GoogleChrome",
@@ -408,7 +412,9 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers/update2/installers/ChromeSetup.exe",
 		"UrlFor64Bit": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe",
-		"AppPage": "https://enterprise.google.com/intl/en_version/chrome/chrome-browser/"
+		"AppPage": "https://enterprise.google.com/intl/en_version/chrome/chrome-browser/",
+		"PreferWinget": true,
+		"WingetId": "Google.Chrome"
 	},
 	{
 		"Name": "Handbrake",
@@ -1113,7 +1119,9 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/14fe35fa35c305b03032a885ff3ebefaf88fce5051ee84183d4c5de75783339e/vs_Community.exe",
 		"InstallerArguments": "--nocache --wait",
-		"AppPage": "https://visualstudio.microsoft.com/"
+		"AppPage": "https://visualstudio.microsoft.com/",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.VisualStudio.2022.Community"
 	},
 	{
 		"Name": "VSCode",
