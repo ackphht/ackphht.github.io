@@ -730,11 +730,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.38.0.0",
+		"Version": "1.39.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.38.0.2734-ec4489fe/windows/Plex-1.38.0.2734-ec4489fe-x86_64.exe",
-		"HashFor64Bit": "239d1cbaf73646918df9a711664206b4a7244e59",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.39.0.2753-d48b8c8b/windows/Plex-1.39.0.2753-d48b8c8b-x86_64.exe",
+		"HashFor64Bit": "36cb7d7d804994e9980bf7dbb074aa77e503313f",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"PreferWinget": true,
@@ -850,12 +850,12 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.2.2.0",
-		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
+		"Version": "2021.3.0.0",
+		"Notes": "https://www.jetbrains.com/resharper/whatsnew/\nhttps://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.2.2/JetBrains.dotUltimate.2021.2.2.web.exe",
-		"HashFor32Bit": "2241e5b9c88d5a5fb28c35b209af72b1cf8169179c587511fc63b89dfa069328",
-		"InstallerArguments": "/VsVersion=15.0;16.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.3/JetBrains.dotUltimate.2021.3.web.exe",
+		"HashFor32Bit": "6f5b746f746045730aae9fb94375529c09eef2a15f5a850d6374ccbb1809a72c",
+		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
 	{
