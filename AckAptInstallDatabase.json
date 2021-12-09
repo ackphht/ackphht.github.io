@@ -1062,12 +1062,12 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "5.0.2497.24",
+		"Version": "5.0.2497.28",
+		"Notes": "https://update.vivaldi.com/update/1.0/public/appcast.x64.xml",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.24.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.28.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.28.x64.exe",
 		"AppPage": "https://vivaldi.com/download/",
-		"PreferWinget": true,
 		"WingetId": "VivaldiTechnologies.Vivaldi"
 	},
 	{
@@ -1125,11 +1125,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.62.3",
+		"Version": "1.63.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/ccbaa2d27e38e5afa3e5c21c1c7bef4657064247/VSCodeUserSetup-x64-1.62.3.exe",
-		"HashFor64Bit": "UtC6TIvL2SlgTc1asC6BQQ==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e/VSCodeUserSetup-x64-1.63.0.exe",
+		"HashFor64Bit": "C5lbrWQzL4xSL3YPU6k9Ww==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
