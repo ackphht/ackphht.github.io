@@ -763,7 +763,7 @@
 		"Type": "msi",
 		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.1/PowerShell-7.2.1-win-x64.msi",
 		"HashFor64Bit": "D08AAE1CBF53CA3ECA6EFCCB03B00178960BED6DAC5D151E83BB67A187C7E097",
-		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1",
+		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://github.com/PowerShell/PowerShell/releases",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.PowerShell"
