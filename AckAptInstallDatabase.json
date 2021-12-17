@@ -773,7 +773,7 @@
 		"Version": "3.2.0.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.1.2-06767.exe",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.2-06857.exe",
 		"HashFor64Bit": "243aa77a41d984dce4058f8eb6a96ef7f609b892f32652ac4c2566398065fe7d",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
