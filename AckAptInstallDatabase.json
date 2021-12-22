@@ -20,15 +20,15 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.0.2344",
+		"Version": "5.1.2356",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.00.2344.exe",
-		"HashFor32Bit": "0f14586e35fa20e53a29abad4bddb665526b89d3b93814aa1bc8c6c70c531b71",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.01.2356.exe",
+		"HashFor32Bit": "d75f4ba768bf8f738aa3e268de784f891bb539bc7058d70a10abba2fb8793412",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "v5.00.2344, 09.11.2021"
+		"WingetVersion": "v5.01.2356, 22.12.2021"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -174,10 +174,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.3.1.0",
+		"Version": "4.3.2.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/72247/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/72729/Docker%20Desktop%20Installer.exe",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
 		"WingetId": "Docker.DockerDesktop"
 	},
@@ -347,11 +347,11 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.28",
+		"Version": "2.10.30",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.28-setup.exe",
-		"HashFor32Bit": "2c2e081ce541682be1abdd8bc6df13768ad9482d68000b4a7a60c764d6cec74e",
-		"InstallerArguments": "/SP-",
+		"UrlFor32Bit": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.30-setup.exe",
+		"HashFor32Bit": "5b8db574966d2427fa02202b591173905f64806559e37fbdca4654e55b568c8e",
+		"InstallerArguments": "/SP- /ALLUSERS",
 		"AppPage": "https://www.gimp.org/downloads/",
 		"PreferWinget": true,
 		"WingetId": "GIMP.GIMP"
@@ -429,7 +429,7 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.12",
+		"Version": "6.7.4.13",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
 		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/120621/IDriveWinSetup.exe",
