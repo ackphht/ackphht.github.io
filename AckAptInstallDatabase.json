@@ -20,15 +20,15 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.1.2356",
+		"Version": "5.1.2357",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.01.2356.exe",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.01.2357.exe",
 		"HashFor32Bit": "d75f4ba768bf8f738aa3e268de784f891bb539bc7058d70a10abba2fb8793412",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "v5.01.2356, 22.12.2021"
+		"WingetVersion": "v5.01.2357, 23.12.2021"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -429,10 +429,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.13",
+		"Version": "6.7.4.14",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/120621/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/122221/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -599,7 +599,7 @@
 	},
 	{
 		"Name": "MediaMonkey",
-		"Version": "4.1.30.1914",
+		"Version": "5.0.2.2531",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
 		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
