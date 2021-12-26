@@ -24,7 +24,7 @@
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
 		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.01.2357.exe",
-		"HashFor32Bit": "d75f4ba768bf8f738aa3e268de784f891bb539bc7058d70a10abba2fb8793412",
+		"HashFor32Bit": "ec5f5ff92ce4ced1f0f03d115ad342a574bd670ddc2bf8ea1f53f7a3d4915177",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
