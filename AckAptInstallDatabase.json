@@ -355,7 +355,7 @@
 		"AppPage": "https://www.gimp.org/downloads/",
 		"PreferWinget": true,
 		"WingetId": "GIMP.GIMP",
-		"WingetScope": "User"
+		"WingetScope": "user"
 	},
 	{
 		"Name": "gimp-help",
