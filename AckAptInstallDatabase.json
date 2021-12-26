@@ -105,7 +105,8 @@
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.AzureDataStudio"
+		"WingetId": "Microsoft.AzureDataStudio",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "AzureStorageExplorer",
@@ -114,10 +115,11 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.22.0/Windows_StorageExplorer.exe",
 		"HashFor32Bit": "XEYYGPWgNAm4dHUnozlAqg==",
-		"InstallerArguments": "/SILENT",
+		"InstallerArguments": "/SILENT /NORESTART /CURRENTUSER",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.AzureStorageExplorer"
+		"WingetId": "Microsoft.AzureStorageExplorer",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "BingWallpaper",
@@ -322,7 +324,8 @@
 		"UrlFor32Bit": "https://www.foobar2000.org/files/foobar2000_v1.6.8.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"PreferWinget": true,
-		"WingetId": "PeterPawlowski.foobar2000"
+		"WingetId": "PeterPawlowski.foobar2000",
+		"WingetScope": "machine"
 	},
 	{
 		"Name": "FoxitReader",
@@ -340,10 +343,11 @@
 		"UrlFor64Bit": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
 		"PreInstallMessage": "about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...",
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
-		"InstallerArguments": "/SP- /SILENT /ALLUSERS /DIR=\"C:\\Program Files\\Free Download Manager\"",
+		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\Free Download Manager\"",
 		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
 		"PreferWinget": true,
-		"WingetId": "SoftDeluxe.FreeDownloadManager"
+		"WingetId": "SoftDeluxe.FreeDownloadManager",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "gimp",
@@ -395,7 +399,8 @@
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"PreferWinget": true,
-		"WingetId": "GitHub.GitHubDesktop"
+		"WingetId": "GitHub.GitHubDesktop",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "GitKraken",
@@ -544,7 +549,8 @@
 		"AppPage": "https://k8slens.dev#download",
 		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
-		"WingetVersion": "5.3.3-latest.20211214.2"
+		"WingetVersion": "5.3.3-latest.20211214.2",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "LinkShellExtension",
@@ -876,9 +882,11 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/Sigil-1.8.0-Windows-x64-Setup.exe",
 		"HashFor64Bit": "e1b7b2f2bb4aa81a3282b70ec3883574790881a13358e08f74d259c4c264426e",
+		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases",
 		"PreferWinget": true,
-		"WingetId": "Sigil-Ebook.Sigil"
+		"WingetId": "Sigil-Ebook.Sigil",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "SourceTree",
@@ -888,7 +896,8 @@
 		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.7.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"PreferWinget": true,
-		"WingetId": "Atlassian.Sourcetree"
+		"WingetId": "Atlassian.Sourcetree",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "SqlServer2017Express",
@@ -1069,8 +1078,10 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.32.exe",
 		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.0.2497.32.x64.exe",
+		"InstallerArguments": "--do-not-launch-chrome --vivaldi-silent",
 		"AppPage": "https://vivaldi.com/download/",
-		"WingetId": "VivaldiTechnologies.Vivaldi"
+		"WingetId": "VivaldiTechnologies.Vivaldi",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "vlc",
@@ -1135,7 +1146,8 @@
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VisualStudioCode"
+		"WingetId": "Microsoft.VisualStudioCode",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "WebPI",
