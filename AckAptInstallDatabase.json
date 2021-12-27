@@ -1,14 +1,15 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.6.0",
+		"Version": "21.0.7.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2106.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2106-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2107.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2107-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
-		"AppPage": "http://www.7-zip.org/"
+		"AppPage": "http://www.7-zip.org/",
+		"WingetId": "7zip.7zip"
 	},
 	{
 		"Name": "AdobeReaderDC",
