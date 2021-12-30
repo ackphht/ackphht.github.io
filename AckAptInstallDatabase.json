@@ -445,16 +445,16 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2021.3.0.0",
+		"Version": "2021.3.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.3.exe",
-		"HashFor32Bit": "115fe45367cd514360efce4857d47f1541d793e0aea1c67a739f5dac9ad280a4",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.3.1.exe",
+		"HashFor32Bit": "b0f254249a01e24e25505a0ca7a6b07165949505958c8c5095eca196d9dc49a7",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
-		"WingetVersion": "213.5744.223"
+		"WingetVersion": "213.6461.79"
 	},
 	{
 		"Name": "IrfanView",
@@ -716,7 +716,8 @@
 		"InstallerArguments": "/SP- /SILENT",
 		"AppPage": "https://ohmyposh.dev/",
 		"PreferWinget": true,
-		"WingetId": "JanDeDobbeleer.OhMyPosh"
+		"WingetId": "JanDeDobbeleer.OhMyPosh",
+		"WingetScope": "user"
 	},
 	{
 		"Name": "OneNote",
@@ -788,16 +789,16 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.3.0.0",
+		"Version": "2021.3.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.exe",
-		"HashFor32Bit": "eac1290363058da3ccfcc6d4f6085e9c4293d8d95f83c9c003822ec46c783f3a",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.1.exe",
+		"HashFor32Bit": "af74570c3989f3075b8851e4c97791b1a5ccb919b33a7b843eca0af076d5ea67",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "213.5744.248"
+		"WingetVersion": "213.6461.77"
 	},
 	{
 		"Name": "python27",
@@ -1176,10 +1177,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.6.0.0",
+		"Version": "3.6.1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.6.0.exe",
-		"HashFor64Bit": "8ffa9f2c7943d1e8ed8020d7d08c8015ec649c3e3af901808a9ec858564cd255",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.6.1.exe",
+		"HashFor64Bit": "1bec695388724ce8d40d0403b150706daa9991e088d240779b9b16e60241ec31",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark"
