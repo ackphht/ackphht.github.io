@@ -436,10 +436,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.14",
+		"Version": "6.7.4.15",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/122221/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/123121/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -713,7 +713,9 @@
 		"Name": "OhMyPosh",
 		"Version": "0.0",
 		"Notes": "https://github.com/JanDeDobbeleer/oh-my-posh/releases",
-		"InstallerArguments": "/SP- /SILENT",
+		"Type": "exe",
+		"UrlFor64Bit": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/install-amd64.exe",
+		"InstallerArguments": "/SP- /SILENT /CURRENTUSER",
 		"AppPage": "https://ohmyposh.dev/",
 		"PreferWinget": true,
 		"WingetId": "JanDeDobbeleer.OhMyPosh",
