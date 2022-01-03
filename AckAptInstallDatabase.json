@@ -973,11 +973,11 @@
 	},
 	{
 		"Name": "TeraCopy",
-		"Version": "3.8.5",
+		"Version": "3.9.0",
 		"Notes": "https://codesector.com/teracopy",
 		"Type": "exe",
-		"UrlFor32Bit": "https://codesector.com/files/teracopy3.8.5.exe",
-		"HashFor32Bit": "401870777B39B6FFBFD5EC96AE79470E9CAF2D2B5526927100DD91E87B3228EE",
+		"UrlFor32Bit": "https://codesector.com/files/teracopy3.9.exe",
+		"HashFor32Bit": "9DFA57C6DD935F72E7E8254146CD143528FE962D2C2F518C2D6511D4D1150A3A",
 		"AppPage": "https://blog.codesector.com/category/teracopy/",
 		"PreferWinget": true,
 		"WingetId": "CodeSector.TeraCopy"
