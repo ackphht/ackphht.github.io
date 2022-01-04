@@ -960,6 +960,16 @@
 		"WingetId": "Stellarium.Stellarium"
 	},
 	{
+		"Name": "SumatraPDF",
+		"Version": "3.3.3",
+		"UrlFor64Bit": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.3-64-install.exe",
+		"InstallerArguments": "-d \"%LocalAppData%\\Programs\\SumatraPDF\" -s",
+		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
+		"PreferWinget": true,
+		"WingetId": "SumatraPDF.SumatraPDF",
+		"WingetScope": "user"
+	},
+	{
 		"Name": "SyncBackPro",
 		"Version": "10.1.24.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
