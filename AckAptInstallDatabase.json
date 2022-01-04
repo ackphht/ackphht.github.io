@@ -963,7 +963,7 @@
 		"Name": "SumatraPDF",
 		"Version": "3.3.3",
 		"UrlFor64Bit": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.3-64-install.exe",
-		"InstallerArguments": "-d \"%LocalAppData%\\Programs\\SumatraPDF\" -s",
+		"InstallerArguments": "-s -install -d \"%LocalAppData%\\Programs\\SumatraPDF\"",
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
 		"PreferWinget": true,
 		"WingetId": "SumatraPDF.SumatraPDF",
