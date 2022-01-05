@@ -732,11 +732,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.6.0",
+		"Version": "4.3.7.0",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.6/paint.net.4.3.6.install.x64.zip",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.7/paint.net.4.3.7.install.x64.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
