@@ -424,12 +424,23 @@
 		"WingetId": "Google.Chrome"
 	},
 	{
+		"Name": "Gpg4win",
+		"Version": "4.0.0",
+		"Notes": "https://www.gpg4win.org/change-history.html (has direct download link)",
+		"Type": "exe",
+		"UrlFor32Bit": "https://files.gpg4win.org/gpg4win-4.0.0.exe",
+		"HashFor32Bit": "f83be101c5e9c23740d6fde55fd8fefebf4fafb7badcb3756d1f574b5ad37507",
+		"AppPage": "https://www.gpg4win.org/download.html",
+		"PreferWinget": true,
+		"WingetId": "GnuPG.Gpg4win"
+	},
+	{
 		"Name": "Handbrake",
-		"Version": "1.4.2",
+		"Version": "1.5.0",
 		"Notes": "alt: https://github.com/HandBrake/HandBrake/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.4.2/HandBrake-1.4.2-x86_64-Win_GUI.exe",
-		"HashFor64Bit": "8c5a719a2a6677b37641e39853f17ef6134345fa21fd89bac50566b132f48306",
+		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.5.0/HandBrake-1.5.0-x86_64-Win_GUI.exe",
+		"HashFor64Bit": "42a8520911a70d46fcd9b4358a79d69cf36f71044a64df483daf01ec66ad2c58",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"PreferWinget": true,
 		"WingetId": "HandBrake.HandBrake"
