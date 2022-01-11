@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.007.20099.0",
+		"Version": "2021.011.20039.0",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2100720099/AcroRdrDC2100720099_en_US.exe",
+		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2101120039/AcroRdrDC2101120039_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/"
 	},
 	{
@@ -436,11 +436,11 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.5.0",
+		"Version": "1.5.1",
 		"Notes": "alt: https://github.com/HandBrake/HandBrake/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.5.0/HandBrake-1.5.0-x86_64-Win_GUI.exe",
-		"HashFor64Bit": "42a8520911a70d46fcd9b4358a79d69cf36f71044a64df483daf01ec66ad2c58",
+		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.5.1/HandBrake-1.5.1-x86_64-Win_GUI.exe",
+		"HashFor64Bit": "01167a96a338cb394ee2e339545379cd156dfe4b1837af64764a08279f8af33e",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"PreferWinget": true,
 		"WingetId": "HandBrake.HandBrake"
@@ -688,10 +688,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "16.13.1",
+		"Version": "16.13.2",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v16.13.1/node-v16.13.1-x64.msi",
-		"HashFor64Bit": "8c0434b1735110ef8fbd012c46dfa867fea360b29fbbf76f0995361d17243103",
+		"UrlFor64Bit": "https://nodejs.org/dist/v16.13.2/node-v16.13.2-x64.msi",
+		"HashFor64Bit": "1690d6c4947e9b998b183b8eca3056729763e63d2306bc38fc1170b4f0de0689",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
@@ -1079,7 +1079,8 @@
 		"Type": "exe",
 		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.24-update7/+download/VeraCrypt%20Setup%201.24-Update7.exe",
 		"HashFor32Bit": "699C48F2030BD3AF1CDAE0A4D51372127C82057F8A0F9E5C1B578698DA4C6A1D",
-		"AppPage": "https://www.veracrypt.fr/en/Downloads.html"
+		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
+		"WingetId": "IDRIX.VeraCrypt"
 	},
 	{
 		"Name": "VirtualBox",
