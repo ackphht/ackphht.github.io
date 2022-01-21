@@ -131,9 +131,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.34.0",
+		"Version": "5.35.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.34.0/calibre-64bit-5.34.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.35.0/calibre-64bit-5.35.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
@@ -447,10 +447,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.15",
+		"Version": "6.7.4.16",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/123121/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/012022/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -555,14 +555,14 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.3.3",
+		"Version": "5.3.4",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.3-latest.20211214.2.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.3.4-latest.20220120.1.exe",
 		"AppPage": "https://k8slens.dev#download",
 		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
-		"WingetVersion": "5.3.3-latest.20211214.2",
+		"WingetVersion": "5.3.4-latest.20220120.1",
 		"WingetScope": "user"
 	},
 	{
@@ -662,9 +662,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.11",
+		"Version": "3.12",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv311setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv312setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
