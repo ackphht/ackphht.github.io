@@ -699,18 +699,17 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.2.0.0",
+		"Version": "8.2.1",
 		"Notes": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2/npp.8.2.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2/npp.8.2.Installer.x64.exe",
-		"HashFor32Bit": "9e2eca17a0ce0ccd222ae32db1fe9b8473dbf97236880fbbd17949a98564e522",
-		"HashFor64Bit": "0ba94c551d07de2194f87c086952f5d78a213e4423265a4a394cf98acd4edb59",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2.1/npp.8.2.1.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2.1/npp.8.2.1.Installer.x64.exe",
+		"HashFor32Bit": "55429881870c2da4707a4a1715252f038f19da6e5eeb70a291811413f0f967c8",
+		"HashFor64Bit": "0144a77a7a406cac8c9d1f09edb72498a17ccfa1772ed62c1e357c7b87f54537",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/",
 		"PreferWinget": true,
-		"WingetId": "Notepad++.Notepad++",
-		"WingetVersion": "8.2"
+		"WingetId": "Notepad++.Notepad++"
 	},
 	{
 		"Name": "notepad3",
@@ -1197,10 +1196,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.0.2.0",
+		"Version": "6.1.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar602.exe",
-		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-602.exe",
+		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar610.exe",
+		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-610.exe",
 		"AppPage": "https://www.rarlab.com"
 	},
 	{
