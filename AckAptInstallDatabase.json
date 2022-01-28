@@ -75,10 +75,10 @@
 	},
 	{
 		"Name": "AWSCLI",
-		"Version": "2.4.3.0",
+		"Version": "2.4.15.0",
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nhttps://github.com/aws/aws-cli/releases\nhttps://github.com/aws/aws-cli/blob/v2/CHANGELOG.rst",
 		"Type": "msi",
-		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.4.1.msi",
+		"UrlFor64Bit": "https://awscli.amazonaws.com/AWSCLIV2-2.4.15.msi",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://aws.amazon.com/cli/",
 		"PreferWinget": true,
@@ -181,6 +181,8 @@
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
 		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/73704/Docker%20Desktop%20Installer.exe",
+		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
+		"InstallerArguments": "install --unattended",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
 		"WingetId": "Docker.DockerDesktop"
 	},
@@ -753,11 +755,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.39.1",
+		"Version": "1.40.1",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.39.1.2763-300bb607/windows/Plex-1.39.1.2763-300bb607-x86_64.exe",
-		"HashFor64Bit": "6db1160ac85e92f7cd5d61a17ace7898077cc0b0",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.40.1.2823-6f60f3a7/windows/Plex-1.40.1.2823-6f60f3a7-x86_64.exe",
+		"HashFor64Bit": "6cdb1a9635b6707fa7db34395b9177f6859dfa33",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"PreferWinget": true,
@@ -1186,13 +1188,16 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.16.0",
+		"Version": "2.16.18",
 		"Notes": "also at https://github.com/WinMerge/winmerge/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.16/WinMerge-2.16.16-x64-Setup.exe",
-		"HashFor64Bit": "cc9ebbc111833a4c5d73b03443533f833e8967f0774d33a093f0da5409799106",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.18/WinMerge-2.16.18-x64-Setup.exe",
+		"HashFor64Bit": "67bfc32e2d9027f4e42606c790fc134cc20a400c6cb2d98188a508880b14d998",
 		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
-		"AppPage": "http://winmerge.org/downloads/"
+		"AppPage": "http://winmerge.org/downloads/",
+		"PreferWinget": true,
+		"WingetId": "WinMerge.WinMerge",
+		"WingetScope": "machine"
 	},
 	{
 		"Name": "WinRAR",
