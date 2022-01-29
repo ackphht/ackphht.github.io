@@ -372,11 +372,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.35.0",
+		"Version": "2.35.1",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.35.0.windows.1/Git-2.35.0-64-bit.exe",
-		"HashFor64Bit": "1f59a96ca29c98260c36ccac594cf5c362160d442e0c7197d36cc99ecc6c3447",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.1/Git-2.35.1-64-bit.exe",
+		"HashFor64Bit": "5d66948e7ada0ab184b2745fdf6e11843443a97655891c3c6268b5985b88bf4f",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases",
 		"PreferWinget": true,
@@ -458,16 +458,16 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2021.3.1.0",
+		"Version": "2021.3.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.3.1.exe",
-		"HashFor32Bit": "b0f254249a01e24e25505a0ca7a6b07165949505958c8c5095eca196d9dc49a7",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2021.3.2.exe",
+		"HashFor32Bit": "56118c117c26bf35fa1b429615e6b376599ecdaef3f492db80f14191ecfd5224",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
-		"WingetVersion": "213.6461.79"
+		"WingetVersion": "213.6777.52"
 	},
 	{
 		"Name": "IrfanView",
