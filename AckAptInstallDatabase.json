@@ -673,9 +673,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.18",
+		"Version": "1.9.19",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.18/MPC-HC.1.9.18.x64.exe",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.19/MPC-HC.1.9.19.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases",
 		"PreferWinget": true,
@@ -876,11 +876,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.3.2",
+		"Version": "2021.3.3",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/\nhttps://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.3.2/JetBrains.dotUltimate.2021.3.2.web.exe",
-		"HashFor32Bit": "5104b3519cd8eff6173ad7d7391386cec12a0f8b7a37b8d7cf86c454cf083246",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.3.3/JetBrains.dotUltimate.2021.3.3.web.exe",
+		"HashFor32Bit": "5942e3dbdd6372c8267669c42f7b2e25ecab4574e1de6c792ab6d77012978cf2",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
