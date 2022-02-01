@@ -653,11 +653,11 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.53.3",
+		"Version": "0.55.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.53.3/PowerToysSetup-0.53.3-x64.exe",
-		"HashFor32Bit": "4CA9B08C66AF900C062956EDE0887DE804CD8DCF0F561BC2FC1CB73038883132",
+		"UrlFor32Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.55.0/PowerToysSetup-0.55.0-x64.exe",
+		"HashFor32Bit": "2241C78386D6347AAE2EDA9AD16A980DB00F596038FDE1A176838F24302A2D07",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases",
 		"WingetId": "Microsoft.PowerToys"
@@ -805,16 +805,16 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.3.1.0",
+		"Version": "2021.3.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.1.exe",
-		"HashFor32Bit": "af74570c3989f3075b8851e4c97791b1a5ccb919b33a7b843eca0af076d5ea67",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.2.exe",
+		"HashFor32Bit": "50fd098e7ee6e34e8bd32b665c0fdf5947538a68097c20f76f6c7788bb9c6be7",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "213.6461.77"
+		"WingetVersion": "213.6777.50"
 	},
 	{
 		"Name": "python27",
