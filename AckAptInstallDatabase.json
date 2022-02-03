@@ -653,13 +653,13 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.55.0",
+		"Version": "0.55.1",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.55.0/PowerToysSetup-0.55.0-x64.exe",
-		"HashFor32Bit": "2241C78386D6347AAE2EDA9AD16A980DB00F596038FDE1A176838F24302A2D07",
+		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.55.1/PowerToysSetup-0.55.1-x64.exe",
+		"HashFor64Bit": "C470EECA26AEBBDB28BF7D35694065C1897A123A64FB5103033FC23207D6C4A5",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
-		"AppPage": "https://github.com/microsoft/PowerToys/releases",
+		"AppPage": "https://github.com/microsoft/PowerToys/releases/latest",
 		"WingetId": "Microsoft.PowerToys"
 	},
 	{
@@ -984,13 +984,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.1.24.0",
+		"Version": "10.2.4.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashFor32Bit": "0360773161d88b4edc699d6e47803b125da6cc48ea8f9a1231195542af4587a9",
-		"HashFor64Bit": "ffb12e4187265ebfb776e24b0148999fb3d645d5704c8a0d100e275dda543745",
+		"HashFor32Bit": "4fa93c54afbd424bec7c44660f336bf995b6bd6f7e2bdc1a0c981fd6503e9501",
+		"HashFor64Bit": "d2db42d243140180388cb2514e97631471b624d763cce0e296a7495e785703c7",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
