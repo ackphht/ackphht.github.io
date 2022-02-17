@@ -394,11 +394,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "2.9.7",
+		"Version": "2.9.8",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.7-fffa5e83/GitHubDesktopSetup-x64.exe",
-		"HashFor64Bit": "DQQAQHiics7KkSBDGkpHjw==",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/2.9.8-989c3224/GitHubDesktopSetup-x64.exe",
+		"HashFor64Bit": "c/evHINSiQ1Z3FiJmlMonQ==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"PreferWinget": true,
@@ -602,7 +602,7 @@
 	},
 	{
 		"Name": "LINQPad7",
-		"Version": "7.1.5",
+		"Version": "7.2.7",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
 		"HashFor32Bit": "GrcINRZ5gEFE0NsmZMu59w==",
@@ -745,11 +745,12 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.7.0",
+		"Version": "4.3.8",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.7/paint.net.4.3.7.install.x64.zip",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.8/paint.net.4.3.8.install.x64.zip",
+		"HashFor64Bit": "1NrMtGCACUkb0PTGmI2DnA==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
