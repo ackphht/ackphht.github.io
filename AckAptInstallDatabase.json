@@ -1076,11 +1076,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.25.7.0",
+		"Version": "1.25.9.0",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.25.7/+download/VeraCrypt%20Setup%201.25.7.exe",
-		"HashFor32Bit": "f722443b7a3abe99e58e110469faac526980f9599f5b2b3201b20597f4e8a509",
+		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.25.9/+download/VeraCrypt%20Setup%201.25.9.exe",
+		"HashFor32Bit": "9328f69fe8cca3377b66783fbae4405d764e77eae75cc2b62ac082c551d93a0e",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"WingetId": "IDRIX.VeraCrypt"
 	},
