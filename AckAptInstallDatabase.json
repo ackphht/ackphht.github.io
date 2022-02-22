@@ -21,15 +21,15 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.1.2358",
+		"Version": "5.2.2365",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.01.2358.exe",
-		"HashFor32Bit": "b85aed33f9657f8493e515b84bc519b08d249418330aba086422691aec02aca1",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.02.2365.exe",
+		"HashFor32Bit": "754fa1b5229abb5845418c5fe98cb8fe5378a63ef1137bc36c5ae2bea0cf134d",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "v5.01.2358, 28.12.2021"
+		"WingetVersion": "v5.02.2365, 22.02.2022"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -389,7 +389,6 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/gitahead/gitahead/releases/download/v2.6.3/GitAhead-win64-2.6.3.exe",
 		"AppPage": "https://gitahead.github.io/gitahead.com/",
-		"PreferWinget": true,
 		"WingetId": "GitAhead.GitAhead"
 	},
 	{
@@ -480,7 +479,9 @@
 		"HashFor64Bit": "56326517adb6b6b65b690fa20da2ffb9c5ae87501e80101f5cfd2078f9225cdb",
 		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1 /ini=\"%APPDATA%\\IrfanView\"",
 		"HeadersToAdd": "Referer: http://irfanview.info/files/",
-		"AppPage": "http://www.irfanview.com/"
+		"AppPage": "http://www.irfanview.com/",
+		"WingetId": "IrfanSkiljan.IrfanView",
+		"WingetVersion": "4.59"
 	},
 	{
 		"Name": "IrfanViewPlugins",
@@ -519,17 +520,19 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.301.0",
+		"Version": "8.0.321.0",
 		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
 		"Type": "exe",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245058_d3c52aa6bfa54d3ca74e617f18309292",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245060_d3c52aa6bfa54d3ca74e617f18309292",
-		"HashFor32Bit": "dbebb7fa56d23398e2a99c73cbeaee60811c7ef54eb9fc38a5b91b38c4160998",
-		"HashFor64Bit": "1cf9440a5671d861aa3883832b2febd4a13e3bd34a06d703a53b6234eac1309f",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245805_df5ad55fdd604472a86a45a217032c7d",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245807_df5ad55fdd604472a86a45a217032c7d",
+		"HashFor32Bit": "9c74a06a676e1b372f1b081841ecf14735b2e890335a2d0673eeda1c04b80aa3",
+		"HashFor64Bit": "273fe2b92f8c123f28340660bf9a7dee6f3bf2c88f4299c31c302f9c674d921d",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
-		"AppPage": "https://www.java.com/en/download/manual.jsp"
+		"AppPage": "https://www.java.com/en/download/manual.jsp",
+		"WingetId": "Oracle.JavaRuntimeEnvironment",
+		"WingetVersion": "8.0.3210.7"
 	},
 	{
 		"Name": "KeePass2",
@@ -640,16 +643,27 @@
 		"Version": "0.0.0.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en",
-		"AppPage": "https://www.microsoftedge.com"
+		"AppPage": "https://www.microsoftedge.com",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.Edge"
 	},
 	{
-		"Name": "MicrosoftOpenJDK",
-		"Version": "17.0.0.0",
+		"Name": "MicrosoftEdgeWebView2",
+		"Version": "0.0.0.0",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/p/?LinkId=2124703",
+		"AppPage": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.EdgeWebView2Runtime"
+	},
+	{
+		"Name": "MicrosoftOpenJDK17",
+		"Version": "17.0.2.8",
 		"Type": "msi",
-		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.35.1-windows-x64.msi",
-		"HashFor64Bit": "2a13985ca01537e91258aa5a5ff06ef0998aa248a1e5526a5abce51cc3168c49",
+		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-windows-x64.msi",
+		"HashFor64Bit": "413c0354cb2f231405c8d2be48847a4499050c15a7f01c3c1f42c6d84f059ee8",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=FeatureJavaHome REMOVE=FeatureEnvironment,FeatureJarFileRunWith",
-		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download"
+		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
+		"WingetId": "Microsoft.OpenJDK.17"
 	},
 	{
 		"Name": "MicrosoftPowerToys",
@@ -661,6 +675,14 @@
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases/latest",
 		"WingetId": "Microsoft.PowerToys"
+	},
+	{
+		"Name": "MicrosoftTerminal",
+		"Version": "1.12.10393.0",
+		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/\nhttps://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
+		"AppPage": "https://github.com/microsoft/terminal",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.WindowsTerminal"
 	},
 	{
 		"Name": "Mp3tag",
@@ -960,7 +982,8 @@
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2174135",
 		"HashFor32Bit": "wxiBjLzDM7co7xDTugu/vw==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
-		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms"
+		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+		"WingetId": "Microsoft.SQLServerManagementStudio"
 	},
 	{
 		"Name": "stellarium",
@@ -1076,7 +1099,7 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.25.9.0",
+		"Version": "1.25.9",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://launchpad.net/veracrypt/trunk/1.25.9/+download/VeraCrypt%20Setup%201.25.9.exe",
