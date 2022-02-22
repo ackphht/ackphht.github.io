@@ -653,7 +653,8 @@
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/p/?LinkId=2124703",
 		"AppPage": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.EdgeWebView2Runtime"
+		"WingetId": "Microsoft.EdgeWebView2Runtime",
+		"WingetSilent": true
 	},
 	{
 		"Name": "MicrosoftOpenJDK17",
