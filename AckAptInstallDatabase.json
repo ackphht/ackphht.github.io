@@ -448,10 +448,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.17",
+		"Version": "6.7.4.18",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/021522/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/022422/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -819,11 +819,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.2.0.0",
+		"Version": "3.3.0.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
 		"Type": "exe",
-		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.2-06857.exe",
-		"HashFor64Bit": "243aa77a41d984dce4058f8eb6a96ef7f609b892f32652ac4c2566398065fe7d",
+		"UrlFor64Bit": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3-06906.exe",
+		"HashFor64Bit": "1fdc61f2283d117bc707b55ce3cca172826e7e924020f85b6ffc512d3d525872",
 		"AppPage": "https://www.privateinternetaccess.com/pages/download",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
 	},
@@ -920,10 +920,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.8.0",
+		"Version": "1.9.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/Sigil-1.8.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "e1b7b2f2bb4aa81a3282b70ec3883574790881a13358e08f74d259c4c264426e",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.0/Sigil-1.9.0-Windows-x64-Setup.exe",
+		"HashFor64Bit": "c8608c1c92ea9fbd0becee2f3e064f18df82f9a05950b0a2f8d01f645b1104cf",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases",
 		"PreferWinget": true,
