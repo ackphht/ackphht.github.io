@@ -1194,11 +1194,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.64.2",
+		"Version": "1.65.0",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/f80445acd5a3dadef24aa209168452a3d97cc326/VSCodeUserSetup-x64-1.64.2.exe",
-		"HashFor64Bit": "6ynGDWA691Nwk+gsgHX2HA==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/b5205cc8eb4fbaa726835538cd82372cc0222d43/VSCodeUserSetup-x64-1.65.0.exe",
+		"HashFor64Bit": "2YYWEvdZ3AkLOgTKAcnoZA==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
@@ -1226,11 +1226,12 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.1.0.0",
+		"Version": "6.1.1.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar610.exe",
-		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-610.exe",
-		"AppPage": "https://www.rarlab.com"
+		"UrlFor32Bit": "https://www.rarlab.com/rar/wrar611.exe",
+		"UrlFor64Bit": "https://www.rarlab.com/rar/winrar-x64-611.exe",
+		"AppPage": "https://www.rarlab.com",
+		"WingetId": "RARLab.WinRAR"
 	},
 	{
 		"Name": "WireShark",
