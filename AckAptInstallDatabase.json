@@ -560,14 +560,14 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.4.0",
+		"Version": "5.4.1",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.4.0-latest.20220301.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.4.1-latest.20220304.1.exe",
 		"AppPage": "https://k8slens.dev#download",
 		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
-		"WingetVersion": "5.4.0-latest.202203011",
+		"WingetVersion": "5.4.0-latest.202203041",
 		"WingetScope": "user"
 	},
 	{
@@ -920,10 +920,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.9.0",
+		"Version": "1.9.1",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.0/Sigil-1.9.0-Windows-x64-Setup.exe",
-		"HashFor64Bit": "c8608c1c92ea9fbd0becee2f3e064f18df82f9a05950b0a2f8d01f645b1104cf",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.1/Sigil-1.9.1-Windows-x64-Setup.exe",
+		"HashFor64Bit": "a55c7d541e6c48a1f49b65eb6d6bbcd6e3b6107fa326c29b23e291d5e8c9ece4",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases",
 		"PreferWinget": true,
