@@ -13,11 +13,12 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2021.011.20039.0",
+		"Version": "2022.001.20085",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor32Bit": "http://ardownload.adobe.com/pub/adobe/reader/win/AcrobatDC/2101120039/AcroRdrDC2101120039_en_US.exe",
-		"AppPage": "https://get.adobe.com/reader/otherversions/"
+		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200120085/AcroRdrDCx642200120085_en_US.exe",
+		"AppPage": "https://get.adobe.com/reader/otherversions/",
+		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
 	{
 		"Name": "AIMP",
