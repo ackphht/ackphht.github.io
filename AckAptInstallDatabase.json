@@ -669,11 +669,11 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.56.1",
+		"Version": "0.56.2",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.56.1/PowerToysSetup-0.56.1-x64.exe",
-		"HashFor64Bit": "C54DDD1D325D3C6F537CAEF2A57F763131F51CAA2BDB23B3E3360185E6032AAC",
+		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.56.2/PowerToysSetup-0.56.2-x64.exe",
+		"HashFor64Bit": "E042E0FC38D2682DA9FFF0E9700C3C42D204C0A0EEC0CBA8CB273DE46D2C9166",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases/latest",
 		"WingetId": "Microsoft.PowerToys"
@@ -933,10 +933,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.7",
+		"Version": "3.4.8",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.7.exe",
+		"UrlFor32Bit": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.8.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"PreferWinget": true,
 		"WingetId": "Atlassian.Sourcetree",
