@@ -769,11 +769,11 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.8",
+		"Version": "4.3.9",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.8/paint.net.4.3.8.install.x64.zip",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.9/paint.net.4.3.9.install.x64.zip",
 		"HashFor64Bit": "1NrMtGCACUkb0PTGmI2DnA==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
@@ -1141,12 +1141,12 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.16",
+		"Version": "3.0.17",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.16/win32/vlc-3.0.16-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.16/win64/vlc-3.0.16-win64.exe",
-		"HashFor32Bit": "4599f5d504c127f7e2ee391f06725461b9b761492c72ac2eb98f2429f04ef5c1",
-		"HashFor64Bit": "0cff2d41a69d72de30607b8fc09da90e352393e154a342efcddb91e06b3a2147",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17/win32/vlc-3.0.17-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17/win64/vlc-3.0.17-win64.exe",
+		"HashFor32Bit": "8485d10c64d85686882b60ebb094bfb07c3d2c54f43cd8d5a7eb3d24ec6d03d4",
+		"HashFor64Bit": "b1179e9833bdc01d3d7c31451532b992edf358c2d9705fc1976e1e8e57208188",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
 		"PreferWinget": true,
 		"WingetId": "VideoLAN.VLC"
