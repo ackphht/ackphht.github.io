@@ -152,11 +152,12 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "21.09.12.0",
+		"Version": "22.03.08",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v21.09.12/ConEmuSetup.210912.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v22.03.08/ConEmuSetup.220308.exe",
 		"InstallerArguments": "/p:x64 /qr",
-		"AppPage": "https://github.com/Maximus5/ConEmu/releases"
+		"AppPage": "https://github.com/Maximus5/ConEmu/releases",
+		"WingetId": "Maximus5.ConEmu"
 	},
 	{
 		"Name": "Defraggler",
@@ -1010,13 +1011,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.4.0",
+		"Version": "10.2.14.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashFor32Bit": "4fa93c54afbd424bec7c44660f336bf995b6bd6f7e2bdc1a0c981fd6503e9501",
-		"HashFor64Bit": "d2db42d243140180388cb2514e97631471b624d763cce0e296a7495e785703c7",
+		"HashFor32Bit": "f96931bdf35b3d1130f46c264a785e3bc8ec32841ca12edfd31a3e158150f0cd",
+		"HashFor64Bit": "a0778f6286da5b1980ad827f8af4a447e6b28cadc204a22b8ab4987a888b13e3",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
@@ -1195,11 +1196,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.65.0",
+		"Version": "1.65.1",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/b5205cc8eb4fbaa726835538cd82372cc0222d43/VSCodeUserSetup-x64-1.65.0.exe",
-		"HashFor64Bit": "2YYWEvdZ3AkLOgTKAcnoZA==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/8908a9ca0f221f36507231afb39d2d8d1e182702/VSCodeUserSetup-x64-1.65.1.exe",
+		"HashFor64Bit": "goZIidlyLVvptJNkKmmdAg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
