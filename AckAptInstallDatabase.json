@@ -151,6 +151,13 @@
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem 'ttf\\*.ttf' -ErrorAction Ignore))) { return 0 } else { return 1 }"
 	},
 	{
+		"Name": "clink",
+		"Version": "0.0.0.0",
+		"AppPage": "https://github.com/chrisant996/clink",
+		"PreferWinget": true,
+		"WingetId": "chrisant996.Clink"
+	},
+	{
 		"Name": "ConEmu",
 		"Version": "22.03.08",
 		"Type": "exe",
@@ -1154,10 +1161,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "16.2.2.19200509",
+		"Version": "16.2.3",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/player/file/VMware-player-full-16.2.2-19200509.exe",
-		"HashFor64Bit": "e309c9909f9b8b366153f282b1ea2c39d6ebafa0fea84079c1fac1b81cb5cbff",
+		"UrlFor64Bit": "https://download3.vmware.com/software/WKST-PLAYER-1623-New/VMware-player-full-16.2.3-19376536.exe",
+		"HashFor64Bit": "c05b61e8c70fd75a4e22984c3432c1f63480239d219937d13cad73cc41da1e09",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/products/player/",
@@ -1196,11 +1203,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.65.1",
+		"Version": "1.65.2",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/8908a9ca0f221f36507231afb39d2d8d1e182702/VSCodeUserSetup-x64-1.65.1.exe",
-		"HashFor64Bit": "goZIidlyLVvptJNkKmmdAg==",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1/VSCodeUserSetup-x64-1.65.2.exe",
+		"HashFor64Bit": "4M7vCIPCvtxs9O7hRYxKQg==",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
