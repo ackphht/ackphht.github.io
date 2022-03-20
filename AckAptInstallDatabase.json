@@ -132,9 +132,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.39.0",
+		"Version": "5.39.1",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.39.0/calibre-64bit-5.39.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.39.1/calibre-64bit-5.39.1.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
