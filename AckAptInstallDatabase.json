@@ -22,11 +22,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.2.2366",
+		"Version": "5.2.2368",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.02.2366.exe",
-		"HashFor32Bit": "3cccafdb38788aed21053ddcd0bf7acf7b0b3d3131852a6d8293b5dd30a650a3",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.02.2368.exe",
+		"HashFor32Bit": "d4b95d8d78247089e7c5b4870ecce57faea595d28b911607b4a4c6a1aa067731",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
@@ -569,14 +569,14 @@
 	},
 	{
 		"Name": "Lens",
-		"Version": "5.4.3",
+		"Version": "5.4.4",
 		"Notes": "The Kubernetes IDE\nhttps://github.com/lensapp/lens/releases",
 		"Type": "exe",
-		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.4.3-latest.20220317.1.exe",
+		"UrlFor64Bit": "https://api.k8slens.dev/binaries/Lens%20Setup%205.4.4-latest.20220325.1.exe",
 		"AppPage": "https://k8slens.dev#download",
 		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
-		"WingetVersion": "5.4.3-latest.20220317",
+		"WingetVersion": "5.4.4-latest.20220325",
 		"WingetScope": "user"
 	},
 	{
