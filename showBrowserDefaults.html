@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<title>Show Default Styles</title>
+	<style type="text/css">
+		table.dataTbl { font-size:11px; font-family:Tahoma,sans-serif; border-collapse: collapse; /* max-width:100%; margin:1rem auto; */ margin:1rem 0; }
+		table.dataTbl td, table.dataTbl th { border: 1px solid darkgray; padding:2px; white-space: nowrap; }
+		table.dataTbl thead th { background-color: lightsteelblue; text-align: center; }
+		table.dataTbl tbody th { background-color: ghostwhite; text-align: right; }
+		table#text thead tr:first-child th { background-color:steelblue; color: white; }
+		/* make main table header always visible: */
+		div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; }
+		table#data { position:relative; /* not sure this is really necessary... */ }
+		table#data thead th { position: sticky; top: 0; z-index: 99; }
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<table class="dataTbl" id="data">
+		<thead></thead>
+		<tbody></tbody>
+	</table>
+	<table class="dataTbl" id="text">
+		<thead>
+			<tr><th colspan="3">Relative Font Sizes</th></tr>
+			<tr><th></th><th>font-size</th><th>percent</th></tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', onDocumentReady);
+
+	const stylesList = [
+			'font-family', 'font-size', 'font-style', 'font-weight', 'line-height', 'text-align', 'text-decoration',
+			'text-indent', /*'text-transform',*/ 'vertical-align', 'white-space', 'color', 'background-color', 'margin', 'padding',
+			'border', /*'clear',*/ 'display', 'visibility', 'width', 'height', 'list-style-type', /*'position',*/ /*'z-index',*/ /*'overflow',*/
+			/* '', '', '', '', '', '', '', '', '', */
+		];
+		const elementsList = [
+			'html', 'body', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'b', 'strong', 'i', 'em', 'u', 'code', 'kbd', 'samp', 'var',
+			'a', 'sup', 'sub', 'pre', 'blockquote', 'table', 'table>tr', 'table>tr>th', 'table>tr>td', 'table>caption',
+			'ul', 'ul>li', 'ol', 'ol>li', 'dl', 'dl>dt', 'dl>dd', 'main', 'section', 'article', 'header', //'', '', '', '', '',
+			/* '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', */
+		];
+	const listsList = [ 'ul', 'ol', 'li', 'dl', 'dt', 'dd', ];
+	const relFontSizes = [ 'xx-small', 'x-small', 'small', 'medium', 'large' , 'x-large', 'xx-large', 'smaller', 'larger', ];
+
+	function onDocumentReady() {
+		const bodyFontSizeRaw = window.getComputedStyle(document.body).getPropertyValue('font-size');
+		const containerDiv = make('div', document.body);
+		containerDiv.style.display = 'none';
+		containerDiv.style.backgroundColor = 'green';
+
+		populateElementStylesTable(elementsList, stylesList, containerDiv, bodyFontSizeRaw);
+		populateFontSizesTable(relFontSizes, containerDiv, bodyFontSizeRaw);
+	}
+
+	function populateElementStylesTable(elementsList, stylesList, containerDiv, bodyFontSizeTxt) {
+		const bodyFontSize = parseFloat(bodyFontSizeTxt);
+		const dataTable = document.getElementById('data');
+		const thead = dataTable.querySelector('thead');
+		const tbody = dataTable.querySelector('tbody');
+
+		// build header row:
+		let row = make('tr');
+		makeText(make('th', row), '');
+		for (let i = 0; i < stylesList.length; ++i) {
+			makeText(make('th', row), stylesList[i]);
+		}
+		thead.append(row);
+
+		// now go thru list of elements and get our data:
+		for (let i = 0; i < elementsList.length; ++i) {
+			let elementName = elementsList[i];
+			let row = make('tr');
+			makeText(make('th', row), elementName);
+			let element = getElementForStyles(elementName, containerDiv);
+			let elementStyles = window.getComputedStyle(element);
+			for (let j = 0; j < stylesList.length; ++j) {
+				let styleName = stylesList[j];
+				let td = make('td', row);
+				if (shouldShowStyleValue(element, styleName)) {
+					let rawStyleVal = elementStyles.getPropertyValue(styleName);
+					let dispStyleVal = calcStyleDisplayValue(styleName, rawStyleVal, elementStyles, bodyFontSize);
+					makeText(td, dispStyleVal);
+				}
+			}
+			tbody.append(row);
+		}
+	}
+
+	function populateFontSizesTable(arrFontSizes, containerDiv, bodyFontSizeTxt) {
+		const bodyFontSize = parseFloat(bodyFontSizeTxt);
+		const textTable = document.getElementById('text');
+		const tbody = textTable.querySelector('tbody');
+
+		let row = make('tr');
+		makeText(make('th', row), 'base');
+		makeText(make('td', row), bodyFontSizeTxt);
+		makeText(make('td', row), '—');
+		tbody.append(row);
+
+		let aDiv = make('div', containerDiv);
+		for (let i = 0; i < arrFontSizes.length; i++) {
+			let sz = arrFontSizes[i];
+			aDiv.style.fontSize = sz;
+			let comp = window.getComputedStyle(aDiv);
+			let compVal = comp.getPropertyValue('font-size');
+			row = make('tr');
+			makeText(make('th', row), sz);
+			makeText(make('td', row), compVal);
+			makeText(make('td', row), getFontPercent(parseFloat(compVal), bodyFontSize) + '%');
+			tbody.append(row);
+		}
+	}
+
+	function getElementForStyles(elemName, parentDiv) {
+		let e = null;
+		if (elemName == 'html' || elemName == 'body') {
+			e = document.querySelector(elemName);
+		} else if (elemName.indexOf('>') < 0) {
+			e = make(elemName, parentDiv);
+		} else {
+			let parent = parentDiv;
+			elemName.split('>').forEach(name => {
+				e = make(name.trim(), parent);
+				parent = e;
+			});
+		}
+		return e;
+	}
+
+	function shouldShowStyleValue(element, styleName) {
+		return styleName != 'list-style-type' || listsList.indexOf(element.localName) >= 0;
+	}
+
+	function calcStyleDisplayValue(styleName, originalStyleValue, allElementStyles, baseFontSize) {
+		return shouldShowFontPercent(styleName, allElementStyles) ? getFontSizeValue(originalStyleValue, baseFontSize) : originalStyleValue;
+	}
+
+	function shouldShowFontPercent(styleName, allElementStyles) {
+		return styleName == 'font-size' && allElementStyles.getPropertyValue('font-family') != 'monospace';
+	}
+
+	function getFontSizeValue(originalValue, baseFontSize) {
+		let percent = getFontPercent(originalValue, baseFontSize);
+		return percent == 100 ? originalValue : (originalValue + ' [' + percent + '%]');
+	}
+
+	function getFontPercent(thisVal, baseFontSize) {
+		return Math.round((parseFloat(thisVal) / baseFontSize) * 100 * 1000) / 1000;
+	}
+
+	function make(name, parent) {
+		let e = document.createElement(name);
+		if (parent) { parent.append(e); }
+		return e;
+	}
+
+	function makeText(parent, value) {
+		let t = document.createTextNode(value);
+		parent.append(t);
+	}
+</script>
+</body>
+</html>
