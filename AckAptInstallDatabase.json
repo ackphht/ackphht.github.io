@@ -592,10 +592,10 @@
 	},
 	{
 		"Name": "LINQPad5",
-		"Version": "5.44.2",
+		"Version": "5.46.0",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad5Setup-AnyCPU.exe",
-		"HashFor32Bit": "lf+SkyrRWdxRPVPauLhwMA==",
+		"HashFor32Bit": "wZfrgFaThyFU9S1iOSLiUg==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx",
 		"PreferWinget": true,
@@ -677,11 +677,11 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.57.0",
+		"Version": "0.57.2",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.57.0/PowerToysSetup-0.57.0-x64.exe",
-		"HashFor64Bit": "0F20DCDC0A1BF5C86D60A41DED8F459A2CF1457C37BB33DA31979D639DD8BD9E",
+		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.57.2/PowerToysSetup-0.57.2-x64.exe",
+		"HashFor64Bit": "92D657A001578AEE5B5A3F0748AC7C89C54C870BB86221A5ECFFF1506BD57C41",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases/latest",
 		"WingetId": "Microsoft.PowerToys"
