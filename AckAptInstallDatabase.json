@@ -839,16 +839,16 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2021.3.3",
+		"Version": "2022.1.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2021.3.3.exe",
-		"HashFor32Bit": "64c779b80902e7a4c7551f6146e8c4814f86dbf22393d2e14f83c64b25a0e197",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2022.1.exe",
+		"HashFor32Bit": "b2fe76eedc2aefb85a4f241cb02db517c3f9af879cbf2790d42dcf04a2b3d9bb",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "213.7172.26"
+		"WingetVersion": "221.5080.212"
 	},
 	{
 		"Name": "python27",
@@ -1138,10 +1138,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "5.2.2623.33",
+		"Version": "5.2.2623.34",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.33.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.33.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.34.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.34.x64.exe",
 		"InstallerArguments": "--do-not-launch-chrome --vivaldi-silent",
 		"AppPage": "https://vivaldi.com/download/",
 		"WingetId": "VivaldiTechnologies.Vivaldi",
