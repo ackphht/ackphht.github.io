@@ -614,7 +614,7 @@
 	},
 	{
 		"Name": "LINQPad7",
-		"Version": "7.2.7",
+		"Version": "7.3.9",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
 		"HashFor32Bit": "hSnSMP995oIHUndthccn7A==",
@@ -705,10 +705,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.20",
+		"Version": "1.9.21.2",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.20/MPC-HC.1.9.20.x64.exe",
-		"HashFor64Bit": "SEKVjKT8jkEcNerzyfsc4A==",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.21/MPC-HC.1.9.21.2.x64.exe",
+		"HashFor64Bit": "8MmSZngQ2h+f12Vrm2O2vg==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases",
 		"PreferWinget": true,
@@ -998,11 +998,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.22.0",
+		"Version": "0.22.1",
 		"Notes": "http://stellarium.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.22.0/stellarium-0.22.0-win64.exe",
-		"HashFor64Bit": "4f29c947940dfb9953f2386c3bfb4b0e91114223c969eba9447187896fe40e9f",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.22.1/stellarium-0.22.1-win64.exe",
+		"HashFor64Bit": "769e647a6b977ae6b03bc6b9290552bc5ad6a9071b53a7fee7f5291b9229e396",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases",
 		"PreferWinget": true,
 		"WingetId": "Stellarium.Stellarium"
