@@ -617,7 +617,7 @@
 		"Version": "7.3.9",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
-		"HashFor32Bit": "hSnSMP995oIHUndthccn7A==",
+		"HashFor32Bit": "emzYce4qP9dmqvOS4vXtzw==",
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
 		"PreferWinget": true,
