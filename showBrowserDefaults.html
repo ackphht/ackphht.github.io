@@ -14,6 +14,9 @@
 		div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; }
 		table#data { position:relative; /* not sure this is really necessary... */ }
 		table#data thead th { position: sticky; top: 0; z-index: 99; }
+		table#sizes td { padding: 0.4em 0; }
+		table#sizes td div.cont { border: 1px solid blue; text-align: center; padding:3px 0; }
+		table#sizes thead th { background-color:steelblue; color: white; }
 	</style>
 </head>
 <body>
@@ -28,6 +31,17 @@
 			<tr><th></th><th>font-size</th><th>percent</th></tr>
 		</thead>
 		<tbody></tbody>
+	</table>
+	<table class="dataTbl" id="sizes">
+		<thead>
+			<tr><th>Absolute Lengths</th></tr>
+		</thead>
+		<tbody>
+			<tr><td><div class="cont" style="width:96px;">96 px</div></td></tr>
+			<tr><td><div class="cont" style="width:72pt;">72 pt</div></td></tr>
+			<tr><td><div class="cont" style="width:1in;">1 in</div></td></tr>
+			<tr><td><div class="cont" style="width:3cm;">3 cm</div></td></tr>
+		</tbody>
 	</table>
 </div>
 
