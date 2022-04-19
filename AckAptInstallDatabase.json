@@ -159,9 +159,9 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "22.03.08",
+		"Version": "22.04.18",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v22.03.08/ConEmuSetup.220308.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v22.04.18/ConEmuSetup.220418.exe",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases",
 		"WingetId": "Maximus5.ConEmu"
@@ -910,11 +910,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2021.3.4",
+		"Version": "2022.1.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/\nhttps://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2021.3.4/JetBrains.dotUltimate.2021.3.4.web.exe",
-		"HashFor32Bit": "0a84d2bbd534502f7410f3bf67cddc06f2f6cd04f14e29135616cde60d7078d9",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.1/JetBrains.dotUltimate.2022.1.web.exe",
+		"HashFor32Bit": "e75ea439e8d5203783069cd92de0e4e147a286b1709a4f384d23e5236ed26ee7",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
@@ -1149,12 +1149,13 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.17",
+		"Version": "3.0.17.4",
+		"Notes": "update check calls: http://update.videolan.org/vlc/status-win-x64",
 		"Type": "exe",
-		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17/win32/vlc-3.0.17-win32.exe",
-		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17/win64/vlc-3.0.17-win64.exe",
-		"HashFor32Bit": "8485d10c64d85686882b60ebb094bfb07c3d2c54f43cd8d5a7eb3d24ec6d03d4",
-		"HashFor64Bit": "b1179e9833bdc01d3d7c31451532b992edf358c2d9705fc1976e1e8e57208188",
+		"UrlFor32Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17.4/win32/vlc-3.0.17.4-win32.exe",
+		"UrlFor64Bit": "http://download.videolan.org/pub/videolan/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe",
+		"HashFor32Bit": "514b0bf5ac82e7132ecac31da64c38fc85cd0ff76e2dcbcf904b6e2028c6749f",
+		"HashFor64Bit": "fda8cbf2ee876be4eb14d7affca3a0746ef4ae78341dbb589cbdddcf912db85c",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
 		"PreferWinget": true,
 		"WingetId": "VideoLAN.VLC"
