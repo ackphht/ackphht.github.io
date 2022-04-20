@@ -64,10 +64,11 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.33.10",
+		"Version": "1.1.33.11",
 		"Notes": "https://github.com/Lexikos/AutoHotkey_L",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.33.10/AutoHotkey_1.1.33.10_setup.exe",
+		"UrlFor32Bit": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.33.11/AutoHotkey_1.1.33.11_setup.exe",
+		"HashFor32Bit": "K9L5rm7sBfexVkdmcrRpGQ==",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
@@ -186,10 +187,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.7.0",
-		"Notes": "https://docs.docker.com/docker-for-windows/install/",
+		"Version": "4.7.1",
+		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/77141/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/77678/Docker%20Desktop%20Installer.exe",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
@@ -457,12 +458,22 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.19",
+		"Version": "6.7.4.20",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/032822/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/041922/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
+	},
+	{
+		"Name": "ILSpy",
+		"Version": "7.2.1.6856",
+		"Notes": "https://github.com/icsharpcode/ILSpy/releases",
+		"Type": "msi",
+		"UrlFor32Bit": "https://github.com/icsharpcode/ILSpy/releases/download/v7.2.1/ILSpy_Installer_7.2.1.6856.msi",
+		"AppPage": "https://github.com/icsharpcode/ILSpy/",
+		"PreferWinget": true,
+		"WingetId": "icsharpcode.ILSpy"
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
@@ -688,7 +699,7 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.12.10732.0",
+		"Version": "1.12.10982.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/\nhttps://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"AppPage": "https://github.com/microsoft/terminal",
 		"PreferWinget": true,
@@ -977,11 +988,11 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4198.2",
-		"Notes": "Cumulative Update 15",
+		"Version": "15.0.4223.1",
+		"Notes": "Cumulative Update 16 [KB 5011644]",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5008996-x64.exe",
-		"HashFor32Bit": "Pc7H2ye6af4KayXXbKpMJA==",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5011644-x64.exe",
+		"HashFor32Bit": "5Nb9wOur6pjrmPxI+FfIvQ==",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
@@ -1120,20 +1131,20 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "6.1.32.0",
+		"Version": "6.1.34.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.32/VirtualBox-6.1.32-149290-Win.exe",
-		"HashFor32Bit": "f5f695da9e34f77b55b61f0eabb3644d5daad99117d896c837ef996a41e57c33",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.34/VirtualBox-6.1.34-150636-Win.exe",
+		"HashFor32Bit": "e84b0895fb0eede215a7d3b5ad2c92a2a3ed5cbc4eede2e2ee5c981eccb5f80e",
 		"InstallerArguments": "VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "6.1.32.0",
+		"Version": "6.1.34.0",
 		"Type": "script",
-		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack",
-		"HashFor32Bit": "a5ee3e693a0470a77735556a77a09aa83bfc48181998b9b21b1af82ef1d11c2a",
+		"UrlFor32Bit": "https://download.virtualbox.org/virtualbox/6.1.34/Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack",
+		"HashFor32Bit": "d7856f0688b6d2ed1e8bff0b367efa952068b03fa5a3a29b46db08cfd5d9a810",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
