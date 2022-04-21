@@ -72,7 +72,6 @@
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
-		"PreferWinget": true,
 		"WingetId": "Lexikos.AutoHotkey"
 	},
 	{
@@ -100,11 +99,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.35.1",
+		"Version": "1.36.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2187459",
-		"HashFor32Bit": "tGgP0hDIG6AU2itlRn1rHA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2193235",
+		"HashFor32Bit": "o2mZCGuBi1nNaVF5Ur2lkg==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
@@ -382,11 +381,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.35.3",
+		"Version": "2.36.0",
 		"Notes": "https://gitforwindows.org/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.35.3.windows.1/Git-2.35.3-64-bit.exe",
-		"HashFor64Bit": "5862bd6f4f4619d3bfeb4f9c2cdfdf62fd45658650debd535c6af10a8695e181",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.36.0.windows.1/Git-2.36.0-64-bit.exe",
+		"HashFor64Bit": "5196563ba07031257d972c0b3c2ebd3227d98a40587278e11930dbc2f78d4e69",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://github.com/git-for-windows/git/releases",
 		"PreferWinget": true,
