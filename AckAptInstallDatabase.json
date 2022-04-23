@@ -99,11 +99,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.36.0",
+		"Version": "1.36.1",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2193235",
-		"HashFor32Bit": "o2mZCGuBi1nNaVF5Ur2lkg==",
+		"HashFor32Bit": "egskBakb6TplUsfxSW8log==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
