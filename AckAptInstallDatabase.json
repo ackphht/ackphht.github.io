@@ -920,11 +920,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2022.1.0",
+		"Version": "2022.1.1",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/\nhttps://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.1/JetBrains.dotUltimate.2022.1.web.exe",
-		"HashFor32Bit": "e75ea439e8d5203783069cd92de0e4e147a286b1709a4f384d23e5236ed26ee7",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.1.1/JetBrains.dotUltimate.2022.1.1.web.exe",
+		"HashFor32Bit": "9b11a0d1a02df8ac024f78a87d96aaf3dd349db4a8884e209db486ad7b084edd",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
@@ -1148,10 +1148,10 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "5.2.2623.39",
+		"Version": "5.2.2623.41",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.39.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.39.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.41.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.2.2623.41.x64.exe",
 		"InstallerArguments": "--do-not-launch-chrome --vivaldi-silent",
 		"AppPage": "https://vivaldi.com/download/",
 		"WingetId": "VivaldiTechnologies.Vivaldi",
