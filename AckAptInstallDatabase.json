@@ -539,19 +539,19 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.321.0",
+		"Version": "8.0.331",
 		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
 		"Type": "exe",
-		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245805_df5ad55fdd604472a86a45a217032c7d",
-		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245807_df5ad55fdd604472a86a45a217032c7d",
-		"HashFor32Bit": "9c74a06a676e1b372f1b081841ecf14735b2e890335a2d0673eeda1c04b80aa3",
-		"HashFor64Bit": "273fe2b92f8c123f28340660bf9a7dee6f3bf2c88f4299c31c302f9c674d921d",
+		"UrlFor32Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246263_165374ff4ea84ef0bbd821706e29b123",
+		"UrlFor64Bit": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=246265_165374ff4ea84ef0bbd821706e29b123",
+		"HashFor32Bit": "f048e5fa75d0bd264190432c8a53a768f11aae02b1f52e076f2e365c4e952d40",
+		"HashFor64Bit": "20a3990bf57c65dfada53558ea94b54db8c7ae5aefa86c612ffbe475c6215b98",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
 		"AppPage": "https://www.java.com/en/download/manual.jsp",
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
-		"WingetVersion": "8.0.3210.7"
+		"WingetVersion": "8.0.3310.9"
 	},
 	{
 		"Name": "KeePass2",
@@ -706,9 +706,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.13",
+		"Version": "3.14",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv313setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv314setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
@@ -1078,11 +1078,11 @@
 	},
 	{
 		"Name": "VCRedist2010",
-		"Version": "10.0.40219.1",
+		"Version": "10.0.40219.325",
 		"Type": "exe",
 		"InstallBoth": true,
-		"UrlFor32Bit": "http://download.microsoft.com/download/C/6/D/C6D0FD4E-9E53-4897-9B91-836EBA2AACD3/vcredist_x86.exe",
-		"UrlFor64Bit": "http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe",
+		"UrlFor32Bit": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe",
+		"UrlFor64Bit": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
 		"InstallerArguments": "/q /norestart"
 	},
 	{
