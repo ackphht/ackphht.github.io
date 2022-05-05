@@ -677,12 +677,13 @@
 	},
 	{
 		"Name": "MicrosoftOpenJDK17",
-		"Version": "17.0.2.8",
+		"Version": "17.0.3.7",
 		"Type": "msi",
-		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.0.2.8.1-windows-x64.msi",
-		"HashFor64Bit": "413c0354cb2f231405c8d2be48847a4499050c15a7f01c3c1f42c6d84f059ee8",
-		"InstallerArguments": "-passive -norestart ADDLOCAL=FeatureJavaHome REMOVE=FeatureEnvironment,FeatureJarFileRunWith",
+		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.0.3-windows-x64.msi",
+		"HashFor64Bit": "76ae342df1ac9acca0127da84e4b374df2342bef4f03359dba97fb03dbff1e1f",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"C:\\Program Files\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
+		"PreferWinget": true,
 		"WingetId": "Microsoft.OpenJDK.17"
 	},
 	{
