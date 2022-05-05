@@ -706,6 +706,17 @@
 		"WingetId": "Microsoft.WindowsTerminal"
 	},
 	{
+		"Name": "mkvtoolnix",
+		"Version": "67.0.0",
+		"Notes": "https://mkvtoolnix.download/downloads.html#windows",
+		"Type": "exe",
+		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/67.0.0/mkvtoolnix-64-bit-67.0.0-setup.exe",
+		"HashFor64Bit": "ba37b9368ca9772a2ed1fc6d762cf3a7eb44a8cf39157caf13a1081edfed908cbb06421e26c02ccde3be8db0b534374e72810f9534c1d4eade9dec8efd411fb3",
+		"AppPage": "https://mkvtoolnix.download/windows/releases/",
+		"PreferWinget": true,
+		"WingetId": "MKVToolNix.MKVToolNix"
+	},
+	{
 		"Name": "Mp3tag",
 		"Version": "3.14",
 		"Type": "exe",
