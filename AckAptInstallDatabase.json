@@ -457,10 +457,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.20",
+		"Version": "6.7.4.21",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/041922/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/110522/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -476,16 +476,16 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2022.1.0",
+		"Version": "2022.1.1",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2022.1.exe",
-		"HashFor32Bit": "207651bcea8b9192f05de1729f75d9f18bbc31f2fae727b3faba94c64615f017",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2022.1.1.exe",
+		"HashFor32Bit": "df89c30f0f37ed51a23492838daf8c0b402bfa7d7a3d3f1d4ae542422ae6ce00",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
-		"WingetVersion": "221.5080.210"
+		"WingetVersion": "221.5591.52"
 	},
 	{
 		"Name": "IrfanView",
