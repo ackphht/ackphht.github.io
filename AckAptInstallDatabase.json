@@ -903,10 +903,10 @@
 	},
 	{
 		"Name": "python39",
-		"Version": "3.9.12",
+		"Version": "3.9.13",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.12/python-3.9.12-amd64.exe",
-		"HashFor64Bit": "cc816f1323d591087b70df5fc977feae",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe",
+		"HashFor64Bit": "e7062b85c3624af82079794729618eca",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python39\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
