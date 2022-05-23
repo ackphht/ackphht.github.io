@@ -707,11 +707,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "67.0.0",
+		"Version": "68.0.0",
 		"Notes": "https://mkvtoolnix.download/downloads.html#windows",
 		"Type": "exe",
-		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/67.0.0/mkvtoolnix-64-bit-67.0.0-setup.exe",
-		"HashFor64Bit": "ba37b9368ca9772a2ed1fc6d762cf3a7eb44a8cf39157caf13a1081edfed908cbb06421e26c02ccde3be8db0b534374e72810f9534c1d4eade9dec8efd411fb3",
+		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/68.0.0/mkvtoolnix-64-bit-68.0.0-setup.exe",
+		"HashFor64Bit": "971ca534baeae2cb1fc5e298cab62bfcb306e7518326390ab13237d052ffd2f161716ca8ee2734fba027bd0f6477dba8e67f536273e193bbdd8bfcb0af2cfcea",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"PreferWinget": true,
 		"WingetId": "MKVToolNix.MKVToolNix"
@@ -952,10 +952,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.9.2",
+		"Version": "1.9.10",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.2/Sigil-1.9.2-Windows-x64-Setup.exe",
-		"HashFor64Bit": "50ee720dcfbed536502939aef7918d4f8192bc2e2458efda992de49d6129f543",
+		"UrlFor64Bit": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.10/Sigil-1.9.10-Windows-x64-Setup.exe",
+		"HashFor64Bit": "e9fb15c894e5174d86b9da1aa1b835b81e46cd2c738816d00d59d084bcf1256f",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "https://github.com/Sigil-Ebook/Sigil/releases",
 		"PreferWinget": true,
