@@ -87,11 +87,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.36.0",
+		"Version": "2.37.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.36.0.msi",
-		"HashFor32Bit": "zFoY1Ch42Xgpk1xXoZgDzA==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.37.0.msi",
+		"HashFor32Bit": "duGeymb9/f0llYyUVGgZeQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"PreferWinget": true,
@@ -718,9 +718,10 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.14",
+		"Version": "3.15",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv314setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv315setup.exe",
+		"UrlFor64Bit": "https://download.mp3tag.de/mp3tagv315-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
