@@ -699,8 +699,10 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.12.10982.0",
+		"Version": "1.13.11432.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/\nhttps://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
+		"Type": "msix",
+		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.13.11431.0/Microsoft.WindowsTerminal_Win11_1.13.11432.0_8wekyb3d8bbwe.msixbundle",
 		"AppPage": "https://github.com/microsoft/terminal",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.WindowsTerminal"
