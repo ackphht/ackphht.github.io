@@ -803,12 +803,12 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "4.3.10",
+		"Version": "4.3.11",
 		"Notes": "https://github.com/paintdotnet/release/releases\nhttps://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.10/paint.net.4.3.10.install.x64.zip",
-		"HashFor64Bit": "l8Zxwg3wYxVXdsjdfckzEA==",
+		"UrlFor64Bit": "https://github.com/paintdotnet/release/releases/download/v4.3.11/paint.net.4.3.11.install.x64.zip",
+		"HashFor64Bit": "/ibVDpNO0ZdBqX/heN9FsQ==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html"
 	},
@@ -1034,8 +1034,8 @@
 	},
 	{
 		"Name": "SumatraPDF",
-		"Version": "3.3.3",
-		"UrlFor64Bit": "https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/SumatraPDF-3.3.3-64-install.exe",
+		"Version": "3.4.1",
+		"UrlFor64Bit": "https://www.sumatrapdfreader.org/dl/rel/3.4.1/SumatraPDF-3.4.1-64-install.exe",
 		"InstallerArguments": "-s -install -d \"%LocalAppData%\\Programs\\SumatraPDF\"",
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
 		"PreferWinget": true,
