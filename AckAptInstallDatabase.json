@@ -643,7 +643,7 @@
 	},
 	{
 		"Name": "MediaMonkey",
-		"Version": "5.0.2.2531",
+		"Version": "5.0.3.2627",
 		"Type": "exe",
 		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
 		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
@@ -814,11 +814,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.44.0",
+		"Version": "1.45.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.44.0.2981-e2d72ac2/windows/Plex-1.44.0.2981-e2d72ac2-x86_64.exe",
-		"HashFor64Bit": "a3b91ed84939794dba1724a563aa3237088f2a3a",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.45.0.3013-1676042f/windows/Plex-1.45.0.3013-1676042f-x86_64.exe",
+		"HashFor64Bit": "c9806dfb8d1e3099c2be7a3b110a911bd457aae2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"PreferWinget": true,
