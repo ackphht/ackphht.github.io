@@ -720,10 +720,10 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.15",
+		"Version": "3.16",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv315setup.exe",
-		"UrlFor64Bit": "https://download.mp3tag.de/mp3tagv315-x64-setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv316setup.exe",
+		"UrlFor64Bit": "https://download.mp3tag.de/mp3tagv316-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
