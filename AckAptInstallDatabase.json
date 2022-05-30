@@ -1034,8 +1034,8 @@
 	},
 	{
 		"Name": "SumatraPDF",
-		"Version": "3.4.2",
-		"UrlFor64Bit": "https://www.sumatrapdfreader.org/dl/rel/3.4.2/SumatraPDF-3.4.2-64-install.exe",
+		"Version": "3.4.3",
+		"UrlFor64Bit": "https://www.sumatrapdfreader.org/dl/rel/3.4.3/SumatraPDF-3.4.3-64-install.exe",
 		"InstallerArguments": "-s -install -d \"%LocalAppData%\\Programs\\SumatraPDF\"",
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
 		"PreferWinget": true,
