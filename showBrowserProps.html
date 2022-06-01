@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<title>Show Default Styles</title>
+	<style type="text/css">
+		table.dataTbl { font-size:15px; font-family:Tahoma,sans-serif; border-collapse: collapse; /* max-width:100%; margin:1rem auto; */ margin:1rem 0; }
+		table.dataTbl td, table.dataTbl th { border: 1px solid darkgray; padding:6px; white-space: nowrap; }
+		/* table.dataTbl thead th { background-color: lightsteelblue; text-align: center; } */
+		table.dataTbl tbody th { background-color: lavender; text-align: right; }
+		table.dataTbl tbody th.section { background-color: darkslateblue; color:white; text-align: center; }
+		/* make main table header always visible: */
+		/* div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; } */
+		table#data { /* position:relative; */ /* not sure this is really necessary... */ }
+		/* table#data thead th { position: sticky; top: 0; z-index: 99; } */
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<table class="dataTbl" id="data">
+		<thead></thead>
+		<tbody></tbody>
+	</table>
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', onDocumentReady);
+
+	function onDocumentReady() {
+		const dataTable = document.getElementById('data');
+		const thead = dataTable.querySelector('thead');
+		const tbody = dataTable.querySelector('tbody');
+		const totalColumns = 4;
+
+		addNavigatorInfo(tbody, totalColumns);
+		addVisualViewportInfo(tbody, totalColumns);
+	}
+
+	function addNavigatorInfo(tbody, desiredColumnCnt) {
+		makeSectionHeader(tbody, 'Browser', desiredColumnCnt);
+		let row = make('tr', tbody);
+		makeNameValueCells(row, 'UserAgent', navigator.userAgent, desiredColumnCnt - 1);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'Location', window.location.href, desiredColumnCnt - 1);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'Languages', navigator.languages, desiredColumnCnt - 1);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'ProcCores', navigator.hardwareConcurrency, desiredColumnCnt - 1);
+		// not sure what this one is showing:
+		//row = make('tr', tbody);
+		//makeNameValueCells(row, 'Memory', navigator.deviceMemory, desiredColumnCnt - 1);
+		// this one's not really supported:
+		//row = make('tr', tbody);
+		//makeNameValueCells(row, 'NetworkType', navigator.connection.type);
+		//makeNameValueCells(row, 'Speed', navigator.connection.downlinkMax);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'Online', navigator.onLine, desiredColumnCnt - 1);
+	}
+
+	function addVisualViewportInfo(tbody, desiredColumnCnt) {
+		let viewport = window.visualViewport;
+
+		makeSectionHeader(tbody, 'Display', desiredColumnCnt);
+
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'ScreenWidth', window.screen.width);
+		makeNameValueCells(row, 'ScreenHeight', window.screen.height);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'AvailWidth', window.screen.availWidth);
+		makeNameValueCells(row, 'AvailHeight', window.screen.availHeight);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'PixelRatio', window.devicePixelRatio);
+		makeNameValueCells(row, 'Orientation', window.screen.orientation.type);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'ColorDepth', window.screen.colorDepth);
+		makeNameValueCells(row, 'PixelDepth', window.screen.pixelDepth);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'OuterWidth', window.outerWidth);
+		makeNameValueCells(row, 'OuterHeight', window.outerHeight);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'InnerWidth', window.innerWidth);
+		makeNameValueCells(row, 'InnerHeight', window.innerHeight);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'ViewportWidth', viewport.width);
+		makeNameValueCells(row, 'ViewportHeight', viewport.height);
+	}
+
+	function make(name, parent) {
+		let e = document.createElement(name);
+		if (parent) { parent.append(e); }
+		return e;
+	}
+
+	function makeText(parent, value) {
+		let t = document.createTextNode(value);
+		parent.append(t);
+	}
+
+	function makeSectionHeader(tbody, name, desiredColumnCnt) {
+		let row = make('tr', tbody);
+		let th = make('th', row);
+		th.colSpan = desiredColumnCnt;
+		th.classList.add('section');
+		makeText(th, name);
+	}
+
+	function makeNameValueCells(trow, name, value, valueColSpan) {
+		th = make('th', trow);
+		makeText(th, name);
+		let td = make('td', trow);
+		if (valueColSpan && valueColSpan > 1)
+			td.colSpan = valueColSpan;
+		makeText(td, value);
+	}
+</script>
+</body>
+</html>
