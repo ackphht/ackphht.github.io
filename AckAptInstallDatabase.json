@@ -476,16 +476,16 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2022.1.1",
+		"Version": "2022.1.2",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2022.1.1.exe",
-		"HashFor32Bit": "df89c30f0f37ed51a23492838daf8c0b402bfa7d7a3d3f1d4ae542422ae6ce00",
+		"UrlFor32Bit": "https://download.jetbrains.com/idea/ideaIC-2022.1.2.exe",
+		"HashFor32Bit": "c1ba217cfb754eafc8f51f15291e840c962dedb7104e1e047260eb06c288e22e",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
-		"WingetVersion": "221.5591.52"
+		"WingetVersion": "221.5787.30"
 	},
 	{
 		"Name": "IrfanView",
@@ -748,10 +748,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "16.15.0",
+		"Version": "16.15.1",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v16.15.0/node-v16.15.0-x64.msi",
-		"HashFor64Bit": "d21fbd61cdd1dda49159b86967df01fed182de19c227b00f1841c4c374f5567f",
+		"UrlFor64Bit": "https://nodejs.org/dist/v16.15.1/node-v16.15.1-x64.msi",
+		"HashFor64Bit": "ad2733ed364afbd9758690f1ca8f142b3cfa186c754af8b9f6fb6befae9941ff",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
@@ -864,16 +864,16 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2022.1.1",
+		"Version": "2022.1.2",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2022.1.1.exe",
-		"HashFor32Bit": "c8d0cc2b3be9f7b5e0f4ae83668e371c9e56cf4adc39531651c59208b33686f8",
+		"UrlFor32Bit": "https://download.jetbrains.com/python/pycharm-community-2022.1.2.exe",
+		"HashFor32Bit": "7ec6b3de3e0bbb26c5d9055e7d02f9193f0dc3e8889c5df6d4bb99e07c5223af",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "221.5591.52"
+		"WingetVersion": "221.5787.24"
 	},
 	{
 		"Name": "python27",
