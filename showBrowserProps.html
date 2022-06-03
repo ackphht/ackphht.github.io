@@ -22,12 +22,27 @@
 		<thead></thead>
 		<tbody></tbody>
 	</table>
+
+	<!--
+	<div>
+		<fieldset style="width:32em;">
+			<legend>resize viewport to:</legend>
+			<label>width:</label>
+			<input type="number" id="resizeViewportWidth" min="100" max="10000"/>
+			<label>height:</label>
+			<input type="number" id="resizeViewportHeight" min="100" max="10000"/>
+			<button onclick="resizeViewport();">Resize</button>
+		</fieldset>
+	</div>
+	-->
 </div>
 
 <script>
 	document.addEventListener('DOMContentLoaded', onDocumentReady);
 
 	function onDocumentReady() {
+		//initResizeViewport();
+
 		const dataTable = document.getElementById('data');
 		const thead = dataTable.querySelector('thead');
 		const tbody = dataTable.querySelector('tbody');
@@ -36,6 +51,26 @@
 		addNavigatorInfo(tbody, totalColumns);
 		addVisualViewportInfo(tbody, totalColumns);
 	}
+
+	/*
+	function initResizeViewport() {
+		document.getElementById('resizeViewportWidth').value = window.innerWidth;
+		document.getElementById('resizeViewportHeight').value = window.innerHeight;
+	}
+
+	function resizeViewport() {
+		let reqViewportWidth = document.getElementById('resizeViewportWidth').value;
+		let reqViewportHeight = document.getElementById('resizeViewportHeight').value;
+		if (reqViewportWidth && reqViewportHeight) {
+			let chromeWidth = window.outerWidth - window.innerWidth;
+			let chromeHeight = window.outerHeight - window.innerHeight;
+			console.info('resizing window to: viewportWidth = ' + reqViewportWidth + ', viewportHeight = ' + reqViewportHeight + ' (chromwWidth = ' + chromeWidth + ', chromeHeight = ' + chromeHeight + ')');
+			window.resizeTo(reqViewportWidth + chromeWidth, reqViewportHeight + chromeHeight);
+		} else {
+			alert('invalid values: width = ' + reqViewportWidth + ', height = ' + reqViewportHeight);
+		}
+	}
+	*/
 
 	function addNavigatorInfo(tbody, desiredColumnCnt) {
 		makeSectionHeader(tbody, 'Browser', desiredColumnCnt);
