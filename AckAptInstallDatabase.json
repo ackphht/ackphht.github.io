@@ -888,10 +888,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.10.4",
+		"Version": "3.10.5",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe",
-		"HashFor64Bit": "53fea6cfcce86fb87253364990f22109",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe",
+		"HashFor64Bit": "9a99ae597902b70b1273e88cc8d41abd",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
@@ -915,10 +915,10 @@
 	},
 	{
 		"Name": "python310",
-		"Version": "3.10.4",
+		"Version": "3.10.5",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.4/python-3.10.4-amd64.exe",
-		"HashFor64Bit": "53fea6cfcce86fb87253364990f22109",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe",
+		"HashFor64Bit": "9a99ae597902b70b1273e88cc8d41abd",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python310\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
