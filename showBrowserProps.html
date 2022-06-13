@@ -35,18 +35,22 @@
 		</fieldset>
 	</div>
 	-->
+	<div><button onclick="setBrowserInfo();">Refresh</button></div>
 </div>
 
 <script>
-	document.addEventListener('DOMContentLoaded', onDocumentReady);
+	document.addEventListener('DOMContentLoaded', setBrowserInfo);
 
-	function onDocumentReady() {
+	function setBrowserInfo() {
 		//initResizeViewport();
 
 		const dataTable = document.getElementById('data');
 		const thead = dataTable.querySelector('thead');
 		const tbody = dataTable.querySelector('tbody');
 		const totalColumns = 4;
+
+		// remove any existing data:
+		while (tbody.rows.length) { tbody.deleteRow(-1); }
 
 		addNavigatorInfo(tbody, totalColumns);
 		addVisualViewportInfo(tbody, totalColumns);
