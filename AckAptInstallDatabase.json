@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2022.001.20117",
+		"Version": "2022.001.20142",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200120117/AcroRdrDCx642200120117_en_US.exe",
+		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200120142/AcroRdrDCx642200120142_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -402,11 +402,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.0.1",
+		"Version": "3.0.2",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/3.0.1-26b687b1/GitHubDesktopSetup-x64.exe",
-		"HashFor64Bit": "jvyoxNNauxf0XLRNbdqXFw==",
+		"UrlFor64Bit": "https://desktop.githubusercontent.com/github-desktop/releases/3.0.2-11fd584c/GitHubDesktopSetup-x64.exe",
+		"HashFor64Bit": "pU9s5wXl0RfYPNRAmk+gfg==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"PreferWinget": true,
