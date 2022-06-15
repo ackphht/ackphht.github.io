@@ -363,10 +363,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.30",
+		"Version": "2.10.32",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.30-setup.exe",
-		"HashFor32Bit": "5b8db574966d2427fa02202b591173905f64806559e37fbdca4654e55b568c8e",
+		"UrlFor32Bit": "https://download.gimp.org/mirror/pub/gimp/v2.10/windows/gimp-2.10.32-setup.exe",
+		"HashFor32Bit": "5503c3057a023f781e32e6b8fec83dfc45263b9005e76626b4c43cb257295a67",
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
 		"PreferWinget": true,
