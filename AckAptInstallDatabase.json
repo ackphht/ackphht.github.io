@@ -132,9 +132,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.43.0",
+		"Version": "5.44.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.43.0/calibre-64bit-5.43.0.msi",
+		"UrlFor64Bit": "https://download.calibre-ebook.com/5.44.0/calibre-64bit-5.44.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
@@ -186,10 +186,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.9.0",
+		"Version": "4.9.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/80466/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/81317/Docker%20Desktop%20Installer.exe",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
@@ -457,10 +457,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.22",
+		"Version": "6.7.4.23",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/060422/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/061622/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
