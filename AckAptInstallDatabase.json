@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "21.0.7.0",
+		"Version": "22.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2107.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2107-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2200.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2200-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -22,15 +22,17 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.2.2370",
+		"Version": "5.3.2391",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.02.2370.exe",
-		"HashFor32Bit": "a1360cf1a251233ae116e82590dfb87d8217cf7364c6a8c32f9ba231017e5737",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2391_w32.exe",
+		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2391_w64.exe",
+		"HashFor32Bit": "01d9787d875f11711b0d2ad4494b4691c3d11e6135af9e392570766f379d3116",
+		"HashFor64Bit": "6bb0dbc3962d9513d6c99b946df8a88f3880631e3b9576f1fde1d9801b673ff7",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "v5.02.2370, 12.04.2022"
+		"WingetVersion": "5.03.2391"
 	},
 	{
 		"Name": "AndroidStudio",
