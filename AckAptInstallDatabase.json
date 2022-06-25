@@ -1014,11 +1014,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio",
-		"Version": "18.11.1",
-		"Notes": "Build number: 15.0.18410.0\nhttps://aka.ms/ssmsfullsetup",
+		"Version": "18.12.1",
+		"Notes": "Build number: 15.0.18424.0\nhttps://aka.ms/ssmsfullsetup",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2189054",
-		"HashFor32Bit": "n7TIufYNggq+ga1e7FEnqA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2199013",
+		"HashFor32Bit": "QGWM0hp2wrsiWBXMrIb/FA==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio"
