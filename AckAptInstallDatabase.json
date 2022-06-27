@@ -732,10 +732,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "1.9.21.2",
+		"Version": "1.9.22",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.21/MPC-HC.1.9.21.2.x64.exe",
-		"HashFor64Bit": "8MmSZngQ2h+f12Vrm2O2vg==",
+		"UrlFor64Bit": "https://github.com/clsid2/mpc-hc/releases/download/1.9.22/MPC-HC.1.9.22.x64.exe",
+		"HashFor64Bit": "stygL5q7J8Zb9c0lX8ETsQ==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"AppPage": "https://github.com/clsid2/mpc-hc/releases",
 		"PreferWinget": true,
