@@ -477,6 +477,15 @@
 		"WingetId": "icsharpcode.ILSpy"
 	},
 	{
+		"Name": "ImageMagick",
+		"Version": "7.1.0.39",
+		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-39-Q16-HDRI-x64-dll.exe",
+		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
+		"AppPage": "https://imagemagick.org/script/download.php#windows",
+		"PreferWinget": true,
+		"WingetId": "ImageMagick.ImageMagick"
+	},
+	{
 		"Name": "IntelliJIdeaCommunity",
 		"Version": "2022.1.3",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
