@@ -343,10 +343,11 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "11.2.2.53575",
+		"Version": "12.0.0.12394",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=11.2.2.53575",
-		"AppPage": "https://www.foxitsoftware.com/pdf-reader/"
+		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.0",
+		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
+		"WingetId": "Foxit.FoxitReader"
 	},
 	{
 		"Name": "FreeDownloadManager",
@@ -1055,13 +1056,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.28.0",
+		"Version": "10.2.39",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashFor32Bit": "8e93d45868b9d0a1a704237f03bf9be997d823c31c415cf9eab8f87047b55adf",
-		"HashFor64Bit": "60e7ddf8f89fe6c75d0c15241a45c9ba8bf96b8a364a2bc1340a1b11ffc34c06",
+		"HashFor32Bit": "f196d5b57aeb2145abb2af43a5fe53a708e432db060497d4331b855e40492611",
+		"HashFor64Bit": "6a7b744b1dd39c17ce471d7191bf4b8fa2cc14e9b72cb6bcbac1caf77d4d53ae",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
