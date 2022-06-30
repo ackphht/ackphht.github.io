@@ -22,17 +22,16 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.3.2392",
+		"Version": "5.3.2394",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2392_w32.exe",
-		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2392_w64.exe",
-		"HashFor32Bit": "f443879d347caf447de3343726573e50699b2a997c15b73ce30cf1c85c07d4f0",
-		"HashFor64Bit": "7f21229744dd9b603b9a4e755ec1b13cfa3ddc2600c074cb5738903874430fe0",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2394_w32.exe",
+		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2394_w64.exe",
+		"HashFor32Bit": "aebf1906557a74e8fdcde36ff1bd296c12f8b83f1416e7aa9ac87a1d63afc2e0",
+		"HashFor64Bit": "2d18cab438e4bf54fb72dbd1476d8ef4bbdb2ce748bf5cbe27af77ba17273486",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
-		"PreferWinget": true,
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "5.03.2392"
+		"WingetVersion": "5.03.2394"
 	},
 	{
 		"Name": "AndroidStudio",
