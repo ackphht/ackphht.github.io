@@ -478,8 +478,8 @@
 	},
 	{
 		"Name": "ImageMagick",
-		"Version": "7.1.0.39",
-		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-39-Q16-HDRI-x64-dll.exe",
+		"Version": "7.1.0.41",
+		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-41-Q16-HDRI-x64-dll.exe",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
 		"PreferWinget": true,
@@ -710,12 +710,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.13.11432.0",
+		"Version": "1.14.1862.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/\nhttps://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.13.11431.0/Microsoft.WindowsTerminal_Win11_1.13.11432.0_8wekyb3d8bbwe.msixbundle",
+		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.14.1861.0/Microsoft.WindowsTerminal_Win11_1.14.1862.0_8wekyb3d8bbwe.msixbundle",
 		"AppPage": "https://github.com/microsoft/terminal",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.WindowsTerminal"
 	},
 	{
@@ -759,10 +758,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "16.15.1",
+		"Version": "16.16.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://nodejs.org/dist/v16.15.1/node-v16.15.1-x64.msi",
-		"HashFor64Bit": "ad2733ed364afbd9758690f1ca8f142b3cfa186c754af8b9f6fb6befae9941ff",
+		"UrlFor64Bit": "https://nodejs.org/dist/v16.16.0/win-x64/node.exe",
+		"HashFor64Bit": "c94f794d56ab6b5ba817a7a2efcc3ea9e81893126f6a925963542aa8ad34f798",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
