@@ -1039,6 +1039,7 @@
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.22.2/stellarium-0.22.2-win64.exe",
 		"HashFor64Bit": "1e14810e7d4eb90e60b842cadb32cb26a9e67ced75aa987bddb2c3bb280b3084",
+		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "https://github.com/Stellarium/stellarium/releases",
 		"PreferWinget": true,
 		"WingetId": "Stellarium.Stellarium"
