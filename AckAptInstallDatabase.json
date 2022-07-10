@@ -720,11 +720,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "68.0.0",
+		"Version": "69.0.0",
 		"Notes": "https://mkvtoolnix.download/downloads.html#windows",
 		"Type": "exe",
-		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/68.0.0/mkvtoolnix-64-bit-68.0.0-setup.exe",
-		"HashFor64Bit": "971ca534baeae2cb1fc5e298cab62bfcb306e7518326390ab13237d052ffd2f161716ca8ee2734fba027bd0f6477dba8e67f536273e193bbdd8bfcb0af2cfcea",
+		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/69.0.0/mkvtoolnix-64-bit-69.0.0-setup.exe",
+		"HashFor64Bit": "4212f3de5a185d639997732ce09bf7f5f8408582e4733b0ff0a735e52f7b30016996c5c4d13f189a4fad3763fbffc09f350d128c188181ccd71ed7dfa7623704",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"PreferWinget": true,
 		"WingetId": "MKVToolNix.MKVToolNix"
