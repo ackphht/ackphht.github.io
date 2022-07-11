@@ -133,11 +133,12 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "5.44.0",
+		"Version": "6.0.0",
+		"Notes": "http://calibre-ebook.com/download_windows64\nhttps://github.com/kovidgoyal/calibre",
 		"Type": "msi",
-		"UrlFor64Bit": "https://download.calibre-ebook.com/5.44.0/calibre-64bit-5.44.0.msi",
+		"UrlFor64Bit": "https://github.com/kovidgoyal/calibre/releases/download/v6.0.0/calibre-64bit-6.0.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
-		"AppPage": "http://calibre-ebook.com/download_windows64",
+		"AppPage": "https://github.com/kovidgoyal/calibre/releases/latest",
 		"PreferWinget": true,
 		"WingetId": "calibre.calibre"
 	},
@@ -721,7 +722,7 @@
 	{
 		"Name": "mkvtoolnix",
 		"Version": "69.0.0",
-		"Notes": "https://mkvtoolnix.download/downloads.html#windows",
+		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows",
 		"Type": "exe",
 		"UrlFor64Bit": "https://mkvtoolnix.download/windows/releases/69.0.0/mkvtoolnix-64-bit-69.0.0-setup.exe",
 		"HashFor64Bit": "4212f3de5a185d639997732ce09bf7f5f8408582e4733b0ff0a735e52f7b30016996c5c4d13f189a4fad3763fbffc09f350d128c188181ccd71ed7dfa7623704",
