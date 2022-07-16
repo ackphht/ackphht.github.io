@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "22.0.0",
+		"Version": "22.0.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://7-zip.org/a/7z2200.exe",
-		"UrlFor64Bit": "https://7-zip.org/a/7z2200-x64.exe",
+		"UrlFor32Bit": "https://7-zip.org/a/7z2201.exe",
+		"UrlFor64Bit": "https://7-zip.org/a/7z2201-x64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -133,10 +133,11 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "6.0.0",
+		"Version": "6.1.0",
 		"Notes": "http://calibre-ebook.com/download_windows64\nhttps://github.com/kovidgoyal/calibre",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/kovidgoyal/calibre/releases/download/v6.0.0/calibre-64bit-6.0.0.msi",
+		"UrlFor64Bit": "https://github.com/kovidgoyal/calibre/releases/download/v6.1.0/calibre-64bit-6.1.0.msi",
+		"HashFor64Bit": "GMG1yFgVoe9cxmilsxj1dA==",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "https://github.com/kovidgoyal/calibre/releases/latest",
 		"PreferWinget": true,
