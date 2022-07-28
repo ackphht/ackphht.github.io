@@ -100,11 +100,11 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.37.0",
+		"Version": "1.38.0",
 		"Notes": "https://github.com/Microsoft/azuredatastudio/releases",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2198663",
-		"HashFor32Bit": "fy7wAdi1NmqkC9oywtk4qw==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2202337",
+		"HashFor32Bit": "yl+iauBLTIURCzawXil5GA==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
@@ -1286,10 +1286,10 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "3.6.6",
+		"Version": "3.6.7",
 		"Type": "exe",
-		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.6.6.exe",
-		"HashFor64Bit": "abce9b1004ddd992cb6ffe80e755919bcd12646b008163bde6a7d684aa6b9374",
+		"UrlFor64Bit": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-3.6.7.exe",
+		"HashFor64Bit": "941ca74d6afe8f163ee1d71ae645ecb5f57e0d10228616e5201feefde33e7517",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark"
