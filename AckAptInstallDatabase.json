@@ -22,16 +22,16 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.3.2394",
+		"Version": "5.3.2397",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2394_w32.exe",
-		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2394_w64.exe",
-		"HashFor32Bit": "aebf1906557a74e8fdcde36ff1bd296c12f8b83f1416e7aa9ac87a1d63afc2e0",
-		"HashFor64Bit": "2d18cab438e4bf54fb72dbd1476d8ef4bbdb2ce748bf5cbe27af77ba17273486",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2397_w32.exe",
+		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2397_w64.exe",
+		"HashFor32Bit": "66e4bae23adb70f2cfd5b7c28f83b41fff2728a889e2fa631b40e6c958408ad5",
+		"HashFor64Bit": "99be213b6571b3c3782aa1d466f0d905e2414b6c3c8c209849135f514d1a29de",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "5.03.2394"
+		"WingetVersion": "5.03.2397"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -88,11 +88,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.38.0",
+		"Version": "2.39.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.38.0.msi",
-		"HashFor32Bit": "xVT5iDODYQPBeei7bmz7EQ==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.39.0.msi",
+		"HashFor32Bit": "67yHCEFMPX1UDRbzqf+ESg==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"PreferWinget": true,
@@ -344,9 +344,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "12.0.0.12394",
+		"Version": "12.0.1.12430",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.0",
+		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.1",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
 		"WingetId": "Foxit.FoxitReader"
 	},
@@ -464,7 +464,7 @@
 		"Version": "6.7.4.25",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/071822/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/080122/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -480,8 +480,8 @@
 	},
 	{
 		"Name": "ImageMagick",
-		"Version": "7.1.0.41",
-		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-41-Q16-HDRI-x64-dll.exe",
+		"Version": "7.1.0.45",
+		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-45-Q16-HDRI-x64-dll.exe",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
 		"PreferWinget": true,
@@ -702,11 +702,11 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.60.1",
+		"Version": "0.61.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.60.1/PowerToysSetup-0.60.1-x64.exe",
-		"HashFor64Bit": "F72AE40FF6DAA9263F4A7C33F7210027E527EAC9E95BB91A89F245ABC81B19AA",
+		"UrlFor64Bit": "https://github.com/microsoft/PowerToys/releases/download/v0.61.0/PowerToysSetup-0.61.0-x64.exe",
+		"HashFor64Bit": "F76D3106FE743DF54963DB297397CF557D3854C47CC53E0B59CC56C316AC65E0",
 		"InstallerArguments": "--skip_dotnet_install --no_full_ui",
 		"AppPage": "https://github.com/microsoft/PowerToys/releases/latest",
 		"PreferWinget": true,
@@ -902,12 +902,13 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.10.5",
+		"Version": "3.10.6",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe",
-		"HashFor64Bit": "9a99ae597902b70b1273e88cc8d41abd",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe",
+		"HashFor64Bit": "8f46453e68ef38e5544a76d84df3994c",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
-		"AppPage": "https://www.python.org/downloads/"
+		"AppPage": "https://www.python.org/downloads/",
+		"WingetId": "Python.Python.3"
 	},
 	{
 		"Name": "python38",
@@ -929,10 +930,10 @@
 	},
 	{
 		"Name": "python310",
-		"Version": "3.10.5",
+		"Version": "3.10.6",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe",
-		"HashFor64Bit": "9a99ae597902b70b1273e88cc8d41abd",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.6/python-3.10.6-amd64.exe",
+		"HashFor64Bit": "8f46453e68ef38e5544a76d84df3994c",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python310\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/"
 	},
