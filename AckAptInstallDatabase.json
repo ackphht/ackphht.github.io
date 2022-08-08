@@ -162,9 +162,10 @@
 	},
 	{
 		"Name": "ConEmu",
-		"Version": "22.04.18",
+		"Version": "22.08.07",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v22.04.18/ConEmuSetup.220418.exe",
+		"UrlFor32Bit": "https://github.com/Maximus5/ConEmu/releases/download/v22.08.07/ConEmuSetup.220807.exe",
+		"HashFor32Bit": "1gILXlzkO5TSToopkEG9aA==",
 		"InstallerArguments": "/p:x64 /qr",
 		"AppPage": "https://github.com/Maximus5/ConEmu/releases",
 		"WingetId": "Maximus5.ConEmu"
