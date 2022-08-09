@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2022.001.20142",
+		"Version": "2022.002.20191",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200120142/AcroRdrDCx642200120142_en_US.exe",
+		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200220191/AcroRdrDCx642200220191_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -462,10 +462,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.25",
+		"Version": "6.7.4.26",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/080322/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/080822/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
