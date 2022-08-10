@@ -269,6 +269,13 @@
 	},
 	{
 		"Name": "DotNet48DevPack",
+		"Version": "4.8.0",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2088517",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48"
+	},
+	{
+		"Name": "DotNet481DevPack",
 		"Version": "4.8.1",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2203306",
