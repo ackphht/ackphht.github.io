@@ -201,11 +201,11 @@
 	},
 	{
 		"Name": "DotNet48",
-		"Version": "4.8.0.0",
+		"Version": "4.8.1",
 		"Notes": "https://dotnet.microsoft.com/download/dotnet-framework\r\nhttps://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=2085155",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48"
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?LinkId=2203304",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481"
 	},
 	{
 		"Name": "DotNet451DevPack",
@@ -269,10 +269,10 @@
 	},
 	{
 		"Name": "DotNet48DevPack",
-		"Version": "4.8.0.20210709",
+		"Version": "4.8.1",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2088517",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48"
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2203306",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481"
 	},
 	{
 		"Name": "DotNetCoreSdk",
@@ -829,11 +829,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.50.1",
+		"Version": "1.51.1",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.50.1.3176-06a9352d/windows/Plex-1.50.1.3176-06a9352d-x86_64.exe",
-		"HashFor64Bit": "8d645df99c2ec7b201318b2280268ac512139ba2",
+		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.51.1.3185-700af1eb/windows/Plex-1.51.1.3185-700af1eb-x86_64.exe",
+		"HashFor64Bit": "5b2513f06bd76407a5a294f5df785ae7cee97b53",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"PreferWinget": true,
@@ -1180,11 +1180,11 @@
 	},
 	{
 		"Name": "Vivaldi",
-		"Version": "5.3.2679.70",
+		"Version": "5.4.2753.28",
 		"Notes": "https://update.vivaldi.com/update/1.0/public/appcast.x64.xml",
 		"Type": "exe",
-		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.3.2679.70.exe",
-		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.3.2679.70.x64.exe",
+		"UrlFor32Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.4.2753.28.exe",
+		"UrlFor64Bit": "https://downloads.vivaldi.com/stable/Vivaldi.5.4.2753.28.x64.exe",
 		"InstallerArguments": "--do-not-launch-chrome --vivaldi-silent",
 		"AppPage": "https://vivaldi.com/download/",
 		"WingetId": "VivaldiTechnologies.Vivaldi",
