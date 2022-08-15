@@ -39,7 +39,8 @@
 </div>
 
 <script>
-	document.addEventListener('DOMContentLoaded', setBrowserInfo);
+	document.addEventListener('DOMContentLoaded', setBrowserInfo);	// or window.addEventListener('load', ...), not sure which is better or if it matters
+	window.addEventListener('resize', setBrowserInfo);
 
 	function setBrowserInfo() {
 		//initResizeViewport();
@@ -121,8 +122,11 @@
 		makeNameValueCells(row, 'InnerWidth', window.innerWidth);
 		makeNameValueCells(row, 'InnerHeight', window.innerHeight);
 		row = make('tr', tbody);
-		makeNameValueCells(row, 'ViewportWidth', viewport.width);
-		makeNameValueCells(row, 'ViewportHeight', viewport.height);
+		makeNameValueCells(row, 'ViewportWidth', Math.round(viewport.width * 100.0) / 100.0);
+		makeNameValueCells(row, 'ViewportHeight', Math.round(viewport.height * 100.0) / 100.0);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'ViewportScale', Math.round(viewport.scale * 100.0) / 100.0);
+		makeNameValueCells(row, '', '');
 	}
 
 	function make(name, parent) {
