@@ -73,7 +73,8 @@
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
-		"WingetId": "Lexikos.AutoHotkey_zzz"
+		"WingetId": "Lexikos.AutoHotkey_zzz",
+		"WingetNoUpgrade": true
 	},
 	{
 		"Name": "AWSCLI",
@@ -122,7 +123,8 @@
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureStorageExplorer",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"GitHubId": "microsoft/AzureStorageExplorer"
 	},
 	{
 		"Name": "BingWallpaper",
@@ -1068,13 +1070,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.39",
+		"Version": "10.2.49",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
 		"UrlFor64Bit": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashFor32Bit": "f196d5b57aeb2145abb2af43a5fe53a708e432db060497d4331b855e40492611",
-		"HashFor64Bit": "6a7b744b1dd39c17ce471d7191bf4b8fa2cc14e9b72cb6bcbac1caf77d4d53ae",
+		"HashFor32Bit": "9b2307fb9485f49b22f542bfd251931202d9df2019d3fd2f51bc2cfded9c0e01",
+		"HashFor64Bit": "7f4f0e310cc3ae50b3f5052132b1a0d0b7d2acfbac1cf4a01f915c0380d82a9e",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
 	},
