@@ -715,7 +715,8 @@
 		"InstallerArguments": "-passive -norestart INSTALLDIR=\"C:\\Program Files\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.OpenJDK.17"
+		"WingetId": "Microsoft.OpenJDK.17",
+		"WingetNoUpgrade": true
 	},
 	{
 		"Name": "MicrosoftPowerToys",
