@@ -975,11 +975,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2022.2.1",
+		"Version": "2022.2.2",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/\nhttps://data.services.jetbrains.com/products/releases?code=RSU&latest=true&type=release",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.2.1/JetBrains.dotUltimate.2022.2.1.web.exe",
-		"HashFor32Bit": "00471e09660402aded1f158dbb75532dadddc39a9ba6d6511db3e6253e3651df",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.2.2/JetBrains.dotUltimate.2022.2.2.web.exe",
+		"HashFor32Bit": "86d094d648064be6ca5d0b99f539d3b12bb9c4879e78bed739caae1831549e90",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
