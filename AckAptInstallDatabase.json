@@ -22,16 +22,16 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.3.2397",
+		"Version": "5.3.2398",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2397_w32.exe",
-		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2397_w64.exe",
-		"HashFor32Bit": "66e4bae23adb70f2cfd5b7c28f83b41fff2728a889e2fa631b40e6c958408ad5",
-		"HashFor64Bit": "99be213b6571b3c3782aa1d466f0d905e2414b6c3c8c209849135f514d1a29de",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2398_w32.exe",
+		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.03.2398_w64.exe",
+		"HashFor32Bit": "4692fa5f2e928fc875bafbce4626c33b8e3ed0a1fc7170c01e20603ed221edca",
+		"HashFor64Bit": "64401d34a3394c9a51705eea9ad7c8bdaaf84034146d34efa2a4ea1131a80072",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
-		"WingetVersion": "5.03.2397"
+		"WingetVersion": "5.03.2398"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -104,10 +104,10 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.38.0",
+		"Version": "1.39.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2202337",
-		"HashFor32Bit": "yl+iauBLTIURCzawXil5GA==",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2204567",
+		"HashFor32Bit": "VWeGGRJNFp6WdeNr7s8/iA==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
@@ -483,7 +483,7 @@
 		"Version": "6.7.4.27",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/081122/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/082422/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
