@@ -44,15 +44,16 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.1.3",
-		"Notes": "https://github.com/audacity/audacity/releases\nthe page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
+		"Version": "3.2.0",
+		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash",
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.3/audacity-win-3.1.3-64bit.exe",
-		"HashFor64Bit": "1a3e536efffc26dfb236d3961f4841116e3320485dcfaba2e86123a93998f505",
+		"HashFor64Bit": "48b55d046704e38a137bfdd607125cd965b70f0fe801a1ee749ef6433956980c",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"PreferWinget": true,
-		"WingetId": "Audacity.Audacity"
+		"WingetId": "Audacity.Audacity",
+		"GitHubId": "audacity/audacity"
 	},
 	{
 		"Name": "AudioShell",
@@ -327,7 +328,7 @@
 		"HashFor32Bit": "6b0d36cb329210ab57f614ac4fe9638c4b26c605ef1ddb43091359934d3b617176a38cc9a7019c3a0be207f238e02f566aa1a5c91bdaf2becf51a99d9c240684",
 		"HashFor64Bit": "aab872624bc9b874c79f24f43d47e57d7cf3054ece15022be6bfbbfc725aa242e64d344aa6ff80aa1e240de483594274cc2f75ea3a7f757eebc1135020e6ea79",
 		"InstallerArguments": "/S",
-		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:103.0) Gecko/20100101 Firefox/103.0",
+		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
 		"WingetId": "TimKosse.FileZilla.Client ???"
 	},
