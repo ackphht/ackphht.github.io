@@ -182,24 +182,6 @@
 		"GitHubId": "Maximus5/ConEmu"
 	},
 	{
-		"Name": "Defraggler",
-		"Version": "2.22.995.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.ccleaner.com/dfsetup222.exe",
-		"PreInstallMessage": "about to install Defraggler; disable the network now. . .",
-		"PostInstallMessage": "done installing Defraggler; you can re-enable to network now. . .",
-		"AppPage": "http://www.piriform.com/defraggler/download"
-	},
-	{
-		"Name": "digestIt",
-		"Version": "3.1.2004",
-		"Type": "msi",
-		"UrlFor32Bit": "http://www.colonywest.us/versions/download.php?release_id=2",
-		"UrlFor64Bit": "http://www.colonywest.us/versions/download.php?release_id=3",
-		"InstallerArguments": "/passive",
-		"AppPage": "http://www.colonywest.us/digestit/"
-	},
-	{
 		"Name": "DockerDesktop",
 		"Version": "4.12.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
@@ -438,16 +420,6 @@
 		"WingetScope": "user"
 	},
 	{
-		"Name": "GitKraken",
-		"Version": "7.6.1.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
-		"UrlFor64Bit": "https://release.gitkraken.com/win64/GitKrakenSetup.exe",
-		"InstallerArguments": "/S",
-		"AppPage": "https://www.gitkraken.com/download",
-		"WingetId": "Axosoft.GitKraken"
-	},
-	{
 		"Name": "GoogleChrome",
 		"Version": "0.0.0.0",
 		"Type": "exe",
@@ -676,14 +648,6 @@
 		"AppPage": "https://downloads.mariadb.org/"
 	},
 	{
-		"Name": "MediaMonkey",
-		"Version": "5.0.3.2627",
-		"Type": "exe",
-		"UrlFor32Bit": "http://www.mediamonkey.com/MediaMonkey_Setup.exe",
-		"PostInstallMessage": "MediaMonkey installed; might want to turn off the network before running it the first time to prevent a phone-home.",
-		"AppPage": "http://www.mediamonkey.com/download/"
-	},
-	{
 		"Name": "Mercurial",
 		"Version": "6.2.0",
 		"Type": "exe",
@@ -851,25 +815,6 @@
 		"GitHubId": "paintdotnet/release"
 	},
 	{
-		"Name": "PlexMediaPlayer",
-		"Version": "1.54.2",
-		"Notes": "https://plex.tv/api/downloads/6.json",
-		"Type": "exe",
-		"UrlFor64Bit": "https://downloads.plex.tv/plex-desktop/1.54.2.3267-d35cd36f/windows/Plex-1.54.2.3267-d35cd36f-x86_64.exe",
-		"HashFor64Bit": "cd2c7af73013b00f696644b66df9932bd6d5f65b",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
-		"PreferWinget": true,
-		"WingetId": "Plex.Plex"
-	},
-	{
-		"Name": "PostgreSQL",
-		"Version": "11.5.0.0",
-		"Type": "exe",
-		"UrlFor64Bit": "http://get.enterprisedb.com/postgresql/postgresql-11.5-1-windows-x64.exe",
-		"AppPage": "http://www.enterprisedb.com/products-services-training/pgdownload#windows"
-	},
-	{
 		"Name": "Postman",
 		"Version": "8.12.5.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
@@ -987,16 +932,6 @@
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
 	{
-		"Name": "ruby2",
-		"Version": "2.5.1.1",
-		"Notes": "https://github.com/oneclick/rubyinstaller2/releases",
-		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.5.1-1/rubyinstaller-2.5.1-1-x64.exe",
-		"HashFor64Bit": "b6fc06f165870473e78373f5981c536c1189b16a594d951f7d94a08a3f0270bf",
-		"InstallerArguments": "/dir=\"C:\\tools\\ruby2\" /tasks=\"assocfiles\"",
-		"AppPage": "https://rubyinstaller.org/downloads/"
-	},
-	{
 		"Name": "Sigil",
 		"Version": "1.9.20",
 		"Type": "exe",
@@ -1019,22 +954,6 @@
 		"PreferWinget": true,
 		"WingetId": "Atlassian.Sourcetree",
 		"WingetScope": "user"
-	},
-	{
-		"Name": "SqlServer2017Express",
-		"Version": "14.1801.3958.1",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=853017",
-		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
-		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
-	},
-	{
-		"Name": "SqlServer2017LocalDb",
-		"Version": "14.1801.3958.1",
-		"Type": "exe",
-		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=853017",
-		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=LocalDB",
-		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-editions-express"
 	},
 	{
 		"Name": "SqlServer2019Express",
@@ -1242,27 +1161,6 @@
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/products/player/",
 		"WingetId": "VMware.WorkstationPlayer"
-	},
-	{
-		"Name": "VS2019Community",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/1b6e9bcd-b9f0-45ec-848d-b91d7ac62659/f63d5e9540570c877020913190317949/vs_community.exe",
-		"InstallerArguments": "--nocache"
-	},
-	{
-		"Name": "VS2019Professional",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/3a9c2ebf-b52a-4fd8-80db-eec4746d95fc/584fcd523c84a9174f6e40f208241d26/vs_professional.exe",
-		"InstallerArguments": "--nocache"
-	},
-	{
-		"Name": "VS2019Enterprise",
-		"Version": "0.0.0.0",
-		"Type": "exe",
-		"UrlFor32Bit": "https://download.visualstudio.microsoft.com/download/pr/89d9f9d5-12ff-4e95-a075-4ff8a0941672/c1b61a91aa8495730036e13582d17cb7/vs_enterprise.exe",
-		"InstallerArguments": "--nocache"
 	},
 	{
 		"Name": "VS2022Community",
