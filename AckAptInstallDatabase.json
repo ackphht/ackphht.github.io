@@ -1004,7 +1004,8 @@
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
 		"PreferWinget": true,
 		"WingetId": "SumatraPDF.SumatraPDF",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"GitHubId": "sumatrapdfreader/sumatrapdf"
 	},
 	{
 		"Name": "SyncBackPro",
