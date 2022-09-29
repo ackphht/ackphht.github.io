@@ -641,11 +641,12 @@
 	},
 	{
 		"Name": "MariaDB",
-		"Version": "10.3.15.0",
+		"Version": "10.9.3",
 		"Type": "msi",
-		"UrlFor64Bit": "http://ftp.utexas.edu/mariadb/mariadb-10.3.15/winx64-packages/mariadb-10.3.15-winx64.msi",
-		"HashFor64Bit": "167557a22d14a9fd8fa780a305599cadb3629759ea5e6d6734b45abded25eaed",
-		"AppPage": "https://downloads.mariadb.org/"
+		"UrlFor64Bit": "https://archive.mariadb.org/mariadb-10.9.3/winx64-packages/mariadb-10.9.3-winx64.msi",
+		"HashFor64Bit": "25ad4b6d9cf977c13a714734f36fd2610ec2b5bf88b4579ec5496a5e91d831af",
+		"AppPage": "https://downloads.mariadb.org/",
+		"WingetId": "MariaDB.Server"
 	},
 	{
 		"Name": "Mercurial",
@@ -721,10 +722,10 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.17",
+		"Version": "3.18",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv317setup.exe",
-		"UrlFor64Bit": "https://download.mp3tag.de/mp3tagv317-x64-setup.exe",
+		"UrlFor32Bit": "https://download.mp3tag.de/mp3tagv318setup.exe",
+		"UrlFor64Bit": "https://download.mp3tag.de/mp3tagv318-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
@@ -742,10 +743,12 @@
 	},
 	{
 		"Name": "MySqlCommunity",
-		"Version": "8.0.16.0",
+		"Version": "8.0.30",
 		"Type": "msi",
-		"UrlFor32Bit": "https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.16.0.msi",
-		"AppPage": "https://dev.mysql.com/downloads/mysql/"
+		"UrlFor32Bit": "https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.30.0.msi",
+		"HashFor32Bit": "c095cf221e8023fd8391f81eadce65fb",
+		"AppPage": "https://dev.mysql.com/downloads/mysql/",
+		"WingetId": "Oracle.MySQL"
 	},
 	{
 		"Name": "nodejs",
@@ -760,12 +763,12 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.4.5",
+		"Version": "8.4.6",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.5/npp.8.4.5.Installer.exe",
-		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.5/npp.8.4.5.Installer.x64.exe",
-		"HashFor32Bit": "71c8beb31074c53a59927f1874f0cce19bed8fd3be9edd93164511eb717c581c",
-		"HashFor64Bit": "69c679d75bd877e0a66697d6d04f24a7e9f136a117b7b5022be8536a2734924d",
+		"UrlFor32Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.6/npp.8.4.6.Installer.exe",
+		"UrlFor64Bit": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.6/npp.8.4.6.Installer.x64.exe",
+		"HashFor32Bit": "ff55ce7631e87c2b3b666519b610cc96a6a1738e0c5ae71a9ca7d66117daf849",
+		"HashFor64Bit": "7e33c60a78c48d0f899d9d8c3980deecf5c7ae8bbff742c77d5bc35794728594",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/",
 		"PreferWinget": true,
@@ -957,19 +960,20 @@
 	},
 	{
 		"Name": "SqlServer2019Express",
-		"Version": "15.1911.4567.1",
+		"Version": "15.2204.5490.2",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=866658",
 		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
-		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads"
+		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
+		"WingetId": "Microsoft.SQLServer.2019.Express"
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4249.2",
-		"Notes": "Cumulative Update 17 [KB 5016394]",
+		"Version": "15.0.4261.1",
+		"Notes": "Cumulative Update 18 [KB5017593]",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5016394-x64.exe",
-		"HashFor32Bit": "Q0Z/tAQ8RdO64cS/2T2H1g==",
+		"UrlFor32Bit": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5017593-x64.exe",
+		"HashFor32Bit": "Pj7qWhqdzvOIGZB37nMTEQ==",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
