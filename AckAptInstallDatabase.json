@@ -990,10 +990,10 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "0.22.2",
+		"Version": "1.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v0.22.2/stellarium-0.22.2-win64.exe",
-		"HashFor64Bit": "1e14810e7d4eb90e60b842cadb32cb26a9e67ced75aa987bddb2c3bb280b3084",
+		"UrlFor64Bit": "https://github.com/Stellarium/stellarium/releases/download/v1.0/stellarium-1.22.3-win64.exe",
+		"HashFor64Bit": "f26a6a0b046877180ae0826e8095652d76d27ae369c5d0372ed001346034d459",
 		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
 		"PreferWinget": true,
