@@ -471,8 +471,8 @@
 	},
 	{
 		"Name": "ImageMagick",
-		"Version": "7.1.0.49",
-		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-49-Q16-HDRI-x64-dll.exe",
+		"Version": "7.1.0.50",
+		"UrlFor64Bit": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.0-50-Q16-HDRI-x64-dll.exe",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
 		"PreferWinget": true,
