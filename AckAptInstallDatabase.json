@@ -161,13 +161,13 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.3.47",
-		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.3.47/clink.1.3.47.d5796b_setup.exe",
-		"HashFor32Bit": "hSxzNue6oFLyhHF+3CvHLw==",
+		"Version": "1.3.48",
+		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.3.48/clink.1.3.48.4dadd8_setup.exe",
+		"HashFor32Bit": "5ZTcrrcbg8WzrdjMvcJSgw==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
-		"WingetVersion": "1.3.47.d5796b",
+		"WingetVersion": "1.3.48.4dadd8",
 		"GitHubId": "chrisant996/clink"
 	},
 	{
@@ -386,10 +386,10 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.38.0",
+		"Version": "2.38.1",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.38.0.windows.1/Git-2.38.0-64-bit.exe",
-		"HashFor64Bit": "49fa8d1f151e83b89c84e0cb9e400ee0d543d238960f506e487b5a39889fa2c8",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe",
+		"HashFor64Bit": "f3fe05e65cd7e9a9126784d4ad57fdf979d30d5987fe849af4348dbe3e284df6",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"PreferWinget": true,
@@ -700,11 +700,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.15.2525.0",
+		"Version": "1.15.2875.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.15.2524.0/Microsoft.WindowsTerminal_Win11_1.15.2525.0_8wekyb3d8bbwe.msixbundle",
-		"HashFor32Bit": "qGAoNVWfURir693EKLd2kw==",
+		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.15.2874.0/Microsoft.WindowsTerminal_Win11_1.15.2875.0_8wekyb3d8bbwe.msixbundle",
+		"HashFor32Bit": "N7YlMd5VDekSjd3Dwfe3dw==",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
