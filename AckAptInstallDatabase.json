@@ -453,10 +453,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.28",
+		"Version": "6.7.4.29",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/091622/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/102722/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -1199,10 +1199,10 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.22",
+		"Version": "2.16.24",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.22/WinMerge-2.16.22-x64-Setup.exe",
-		"HashFor64Bit": "c56739866703c81c5d23715857007fd9a1023c46f30fe124eac83191ae78d93d",
+		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-x64-Setup.exe",
+		"HashFor64Bit": "f34f76da6a8559082b136925d53e4c5c3998dd79851889d1b8df0c6a9c02dc07",
 		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
 		"AppPage": "http://winmerge.org/downloads/",
 		"PreferWinget": true,
