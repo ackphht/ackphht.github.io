@@ -1202,7 +1202,7 @@
 		"Version": "2.16.24",
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/WinMerge/winmerge/releases/download/v2.16.24/WinMerge-2.16.24-x64-Setup.exe",
-		"HashFor64Bit": "f34f76da6a8559082b136925d53e4c5c3998dd79851889d1b8df0c6a9c02dc07",
+		"HashFor64Bit": "dd90278f884c6fd632a704265e049634299da6c34a43bfe14a8be98b24cd308a",
 		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
 		"AppPage": "http://winmerge.org/downloads/",
 		"PreferWinget": true,
