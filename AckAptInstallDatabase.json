@@ -873,10 +873,10 @@
 	},
 	{
 		"Name": "python3",
-		"Version": "3.10.7",
+		"Version": "3.10.8",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe",
-		"HashFor64Bit": "bfbe8467c7e3504f3800b0fe94d9a3e6",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe",
+		"HashFor64Bit": "308a3d095311fbc82e5c696ab4036251",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
 		"WingetId": "Python.Python.3",
@@ -904,11 +904,21 @@
 	},
 	{
 		"Name": "python310",
-		"Version": "3.10.7",
+		"Version": "3.10.8",
 		"Type": "exe",
-		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe",
-		"HashFor64Bit": "bfbe8467c7e3504f3800b0fe94d9a3e6",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe",
+		"HashFor64Bit": "308a3d095311fbc82e5c696ab4036251",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python310\" PrependPath=0 CompileAll=1",
+		"AppPage": "https://www.python.org/downloads/",
+		"GitHubId": "python/cpython"
+	},
+	{
+		"Name": "python311",
+		"Version": "3.11.0",
+		"Type": "exe",
+		"UrlFor64Bit": "https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe",
+		"HashFor64Bit": "4fe11b2b0bb0c744cf74aff537f7cd7f",
+		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python311\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
 		"GitHubId": "python/cpython"
 	},
