@@ -343,9 +343,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "12.0.1.12430",
+		"Version": "12.0.2.12465",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.1",
+		"UrlFor32Bit": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.2",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
 		"WingetId": "Foxit.FoxitReader"
 	},
@@ -826,10 +826,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.2.7",
+		"Version": "7.3.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.2.7/PowerShell-7.2.7-win-x64.msi",
-		"HashFor64Bit": "7445F2F711759FE7167FAE2329911F9800D087265D1BA720A8801FF775AC1B31",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/PowerShell-7.3.0-win-x64.msi",
+		"HashFor64Bit": "5DBBFA10FD37A032414F36B9D6A8DE99E042081075DAB320C10F1F67B93E2C4E",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreferWinget": true,
@@ -1100,7 +1100,7 @@
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.32.31332",
+		"Version": "14.32.31931",
 		"Notes": "supports VC 2015 thru 2022",
 		"Type": "exe",
 		"InstallBoth": true,
