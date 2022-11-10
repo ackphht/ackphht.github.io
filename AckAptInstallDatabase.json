@@ -628,7 +628,7 @@
 	},
 	{
 		"Name": "LINQPad7",
-		"Version": "7.4.9",
+		"Version": "7.5.14",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
 		"HashFor32Bit": "oSkeDUysz2Z0zBE/TIqWMQ==",
@@ -1187,11 +1187,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.73.0",
+		"Version": "1.73.1",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json: https://code.visualstudio.com/sha?build=stable",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/VSCodeUserSetup-x64-1.73.0.exe",
-		"HashFor64Bit": "1504b15c57dc308cc04c5475eb7fa6fa4356b41e0df96f84f21a9eeee204bd82",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/6261075646f055b99068d3688932416f2346dd3b/VSCodeUserSetup-x64-1.73.0.exe",
+		"HashFor64Bit": "b970a7e561ba812be006d4890251a8985e56e9910859e636aa9cc2fda2d5d203",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
