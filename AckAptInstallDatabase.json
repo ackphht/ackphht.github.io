@@ -878,7 +878,7 @@
 		"HashFor64Bit": "308a3d095311fbc82e5c696ab4036251",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
-		"WingetId": "Python.Python.3",
+		"WingetId": "Python.Python.3.10",
 		"GitHubId": "python/cpython"
 	},
 	{
@@ -909,6 +909,7 @@
 		"HashFor64Bit": "308a3d095311fbc82e5c696ab4036251",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python310\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
+		"WingetId": "Python.Python.3.10",
 		"GitHubId": "python/cpython"
 	},
 	{
@@ -919,6 +920,7 @@
 		"HashFor64Bit": "4fe11b2b0bb0c744cf74aff537f7cd7f",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python311\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
+		"WingetId": "Python.Python.3.11",
 		"GitHubId": "python/cpython"
 	},
 	{
