@@ -273,14 +273,52 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481"
 	},
 	{
-		"Name": "DotNetCoreSdk",
-		"Version": "2.2.107.0",
-		"Notes": "go to page above, then click on Release Notes to get to the actual links",
-		"Type": "exe",
-		"UrlFor64Bit": "https://download.visualstudio.microsoft.com/download/pr/fb931b49-7f40-44ba-a347-f0b9fe655864/c99d8ab0402d4b8e6831e1ee74aa945b/dotnet-sdk-2.2.107-win-x64.exe",
-		"HashFor64Bit": "VqGy97M08S3xs7ul53HGWHJwKlliSd38fc4kSQKMxl+Wi29cp4XmfuIMNDChlGP/ciMFfJWRqEdEzNPvXVrCxg==",
-		"InstallerArguments": "/passive",
-		"AppPage": "https://www.microsoft.com/net/download"
+		"Name": "DotNetCoreSdk6",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.SDK.6"
+	},
+	{
+		"Name": "DotNetCoreSdk7",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.SDK.7"
+	},
+	{
+		"Name": "DotNetCoreDesktopRuntime6",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.6"
+	},
+	{
+		"Name": "DotNetCoreDesktopRuntime7",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.7"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle6",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.6"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle7",
+		"Version": "0.0.0",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.7"
 	},
 	{
 		"Name": "Fiddler4",
