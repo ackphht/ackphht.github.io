@@ -667,6 +667,7 @@
 	{
 		"Name": "LINQPad7",
 		"Version": "7.5.15",
+		"Notes": "https://www.linqpad.net/GetFile.aspx?updates7+releaseversion.txt\nhttps://www.linqpad.net/GetFile.aspx?updates7+optionalversion.txt",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
 		"HashFor32Bit": "OEtcn+SBh/FZwM4WwI3r4Q==",
