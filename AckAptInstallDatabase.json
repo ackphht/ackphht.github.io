@@ -181,10 +181,10 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.14.0",
+		"Version": "4.14.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/91374/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/91661/Docker%20Desktop%20Installer.exe",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
@@ -678,10 +678,10 @@
 	},
 	{
 		"Name": "MariaDB",
-		"Version": "10.9.3",
+		"Version": "10.10.2",
 		"Type": "msi",
-		"UrlFor64Bit": "https://archive.mariadb.org/mariadb-10.9.3/winx64-packages/mariadb-10.9.3-winx64.msi",
-		"HashFor64Bit": "25ad4b6d9cf977c13a714734f36fd2610ec2b5bf88b4579ec5496a5e91d831af",
+		"UrlFor64Bit": "https://archive.mariadb.org/mariadb-10.10.2/winx64-packages/mariadb-10.10.2-winx64.msi",
+		"HashFor64Bit": "3ff89af05e1b1d125e037d208feef9425bb38e8e4389384cf1ac78cc2b47c5b5",
 		"AppPage": "https://downloads.mariadb.org/",
 		"WingetId": "MariaDB.Server"
 	},
@@ -1012,9 +1012,19 @@
 		"Version": "15.2204.5490.2",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=866658",
-		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /MediaType=Expr",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTANCEID=SQLEXPRESS /INSTANCENAME=SQLEXPRESS /INSTANCENAME=SQLEXPRESS19 /INSTANCEID=SQLEXPRESS19",
 		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
 		"WingetId": "Microsoft.SQLServer.2019.Express"
+	},
+	{
+		"Name": "SqlServer2022Express",
+		"Version": "16.2211.5693.3",
+		"Notes": "https://www.microsoft.com/sql-server/sql-server-2022",
+		"Type": "exe",
+		"UrlFor32Bit": "https://go.microsoft.com/fwlink/p/?linkid=2216019",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\" /INSTANCENAME=SQLEXPRESS22 /INSTANCEID=SQLEXPRESS22",
+		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
+		"WingetId": "Microsoft.SQLServer.2022.Express"
 	},
 	{
 		"Name": "SqlServer2019CU",
@@ -1207,10 +1217,10 @@
 	},
 	{
 		"Name": "VMWarePlayer",
-		"Version": "16.2.4",
+		"Version": "17.0.0",
 		"Type": "exe",
-		"UrlFor64Bit": "https://download3.vmware.com/software/WKST-PLAYER-1624/VMware-player-full-16.2.4-20089737.exe",
-		"HashFor64Bit": "38e5f6e8633e54559ddbc63c7af6097269b7ec37fbaf4fb7bc903a0b001b4af7",
+		"UrlFor64Bit": "https://download3.vmware.com/software/WKST-PLAYER-1700/VMware-player-full-17.0.0-20800274.exe",
+		"HashFor64Bit": "ae238c457a100f15a6d009bfeee4ff277dce181e96a279d486f07f30da433183",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
 		"AppPage": "https://www.vmware.com/products/player/",
