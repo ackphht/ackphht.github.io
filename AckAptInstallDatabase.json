@@ -1012,7 +1012,7 @@
 		"Version": "15.2204.5490.2",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=866658",
-		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTANCEID=SQLEXPRESS /INSTANCENAME=SQLEXPRESS /INSTANCENAME=SQLEXPRESS19 /INSTANCEID=SQLEXPRESS19",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\"",
 		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
 		"WingetId": "Microsoft.SQLServer.2019.Express"
 	},
@@ -1022,7 +1022,7 @@
 		"Notes": "https://www.microsoft.com/sql-server/sql-server-2022",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/p/?linkid=2216019",
-		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\" /INSTANCENAME=SQLEXPRESS22 /INSTANCEID=SQLEXPRESS22",
+		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\"",
 		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
 		"WingetId": "Microsoft.SQLServer.2022.Express"
 	},
