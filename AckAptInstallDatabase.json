@@ -159,13 +159,13 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.4.2",
-		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.4.2/clink.1.4.2.e8df54_setup.exe",
-		"HashFor32Bit": "x6/INMzHzFQba+EeAl63iw==",
+		"Version": "1.4.3",
+		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.4.3/clink.1.4.3.67deea_setup.exe",
+		"HashFor32Bit": "rUniex9ll6qw+4hVtpPOpA==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
-		"WingetVersion": "1.4.2.e8df54",
+		"WingetVersion": "1.4.3.67deea",
 		"GitHubId": "chrisant996/clink"
 	},
 	{
