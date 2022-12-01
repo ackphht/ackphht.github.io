@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.35.00",
+		"Version": "1.1.36.00",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.35.00/AutoHotkey_1.1.35.00_setup.exe",
-		"HashFor32Bit": "h3gA3GYiKh7ZIw4age7u0g==",
+		"UrlFor32Bit": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.36.00/AutoHotkey_1.1.36.00_setup.exe",
+		"HashFor32Bit": "nLrYXFUbpAkqKh6VX6u6wA==",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
