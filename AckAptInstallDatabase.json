@@ -116,11 +116,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.26.1",
+		"Version": "1.27.0",
 		"Notes": "https://storageexplorer.com/\nfor getting the hash: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.26.1/Windows_StorageExplorer.exe",
-		"HashFor32Bit": "tHgaA8a61OQRV0SACf1v9w==",
+		"UrlFor32Bit": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.27.0/Windows_StorageExplorer.exe",
+		"HashFor32Bit": "R/lRYY8q+28l2WBtrPKoEA==",
 		"InstallerArguments": "/SILENT /NORESTART /CURRENTUSER",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"PreferWinget": true,
@@ -489,10 +489,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.31",
+		"Version": "6.7.4.32",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/111622/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/120222/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
