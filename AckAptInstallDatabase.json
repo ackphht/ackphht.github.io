@@ -968,8 +968,8 @@
 		"Version": "2022.3.0",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.3/JetBrains.dotUltimate.2022.3.exe",
-		"HashFor32Bit": "8445d74989def9da785d705b5afc14c1027d7a9e4b5a286edd3deb6ae83abfde",
+		"UrlFor32Bit": "https://download.jetbrains.com/resharper/dotUltimate.2022.3/JetBrains.dotUltimate.2022.3.web.exe",
+		"HashFor32Bit": "8788bc9b7a56808388bf139020f68df6d9183c302955ff597965bc56ecf17dbb",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
