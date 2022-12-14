@@ -159,13 +159,13 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.4.3",
-		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.4.3/clink.1.4.3.67deea_setup.exe",
-		"HashFor32Bit": "rUniex9ll6qw+4hVtpPOpA==",
+		"Version": "1.4.4",
+		"UrlFor32Bit": "https://github.com/chrisant996/clink/releases/download/v1.4.4/clink.1.4.4.7fe1ca_setup.exe",
+		"HashFor32Bit": "0uk7UsJSCtsxgR8F7N+Xig==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
-		"WingetVersion": "1.4.3.67deea",
+		"WingetVersion": "1.4.4.7fe1ca",
 		"GitHubId": "chrisant996/clink"
 	},
 	{
@@ -865,10 +865,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.3.0",
+		"Version": "7.3.1",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/PowerShell-7.3.0-win-x64.msi",
-		"HashFor64Bit": "5DBBFA10FD37A032414F36B9D6A8DE99E042081075DAB320C10F1F67B93E2C4E",
+		"UrlFor64Bit": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win-x64.msi",
+		"HashFor64Bit": "CAD0026DF877F1B195B87AAE1858E8BC8BA759C19B7440CD62E1F5432665519F",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreferWinget": true,
