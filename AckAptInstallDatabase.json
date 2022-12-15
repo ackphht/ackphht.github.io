@@ -489,10 +489,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.33",
+		"Version": "6.7.4.34",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/120822/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/121422/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -737,11 +737,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.15.2875.0",
+		"Version": "1.15.3466",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.15.2874.0/Microsoft.WindowsTerminal_Win11_1.15.2875.0_8wekyb3d8bbwe.msixbundle",
-		"HashFor32Bit": "N7YlMd5VDekSjd3Dwfe3dw==",
+		"UrlFor32Bit": "https://github.com/microsoft/terminal/releases/download/v1.15.3465.0/Microsoft.WindowsTerminal_Win11_1.15.3466.0_8wekyb3d8bbwe.msixbundle",
+		"HashFor32Bit": "X8Rqc5hPktZboJkNGsD7VA==",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
@@ -1228,11 +1228,11 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.74.0",
+		"Version": "1.74.1",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json: https://code.visualstudio.com/sha?build=stable",
 		"Type": "exe",
-		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/5235c6bb189b60b01b1f49062f4ffa42384f8c91/VSCodeUserSetup-x64-1.74.0.exe",
-		"HashFor64Bit": "031980a8032ca65c33dec2e62855957c7cccfbb5933a18ef12437b866c066a47",
+		"UrlFor64Bit": "https://az764295.vo.msecnd.net/stable/1ad8d514439d5077d2b0b7ee64d2ce82a9308e5a/VSCodeUserSetup-x64-1.74.1.exe",
+		"HashFor64Bit": "cb968f338d08b18d1864f16b57e7f0b59f79481432dbc2a68ace09d731b51236",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"PreferWinget": true,
