@@ -137,10 +137,10 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "6.9.0",
+		"Version": "6.10.0",
 		"Type": "msi",
-		"UrlFor64Bit": "https://github.com/kovidgoyal/calibre/releases/download/v6.9.0/calibre-64bit-6.9.0.msi",
-		"HashFor64Bit": "MrTOApXo9lmHvvuwJXnNfw==",
+		"UrlFor64Bit": "https://github.com/kovidgoyal/calibre/releases/download/v6.10.0/calibre-64bit-6.10.0.msi",
+		"HashFor64Bit": "ZDDogYcuZRJHisJ6y/Rv0w==",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
