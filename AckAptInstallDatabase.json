@@ -619,6 +619,16 @@
 		"AppPage": "https://www.amazon.com/kindle-dbs/fd/kcp"
 	},
 	{
+		"Name": "KMyMoney",
+		"Version": "0.0.0.0",
+		"Notes": "gitlab repo: https://invent.kde.org/office/kmymoney\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
+		"Type": "exe",
+		"IndirectUrlFor64Bit": "https://binary-factory.kde.org/job/KMyMoney_Release_win64/lastSuccessfulBuild/artifact/\n(?s).+<a\\s+.*?href=\"(kmymoney-[\\d\\.\\-]+-windows-cl-msvc2019-x86_64\\.exe)\"[^>]*>kmymoney-[\\d\\.\\-]+-windows-cl-msvc2019-x86_64\\.exe</a>.+\nhttps://binary-factory.kde.org/job/KMyMoney_Release_win64/lastSuccessfulBuild/artifact/$1",
+		"InstallerArguments": "/CURRENTUSER",
+		"AppPage": "https://kmymoney.org/",
+		"WingetId": "KDE.kmymoney"
+	},
+	{
 		"Name": "Lens",
 		"Version": "5.4.5",
 		"Notes": "The Kubernetes IDE",
