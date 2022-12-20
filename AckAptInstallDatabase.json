@@ -65,17 +65,17 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "1.1.36.02",
+		"Version": "2.0.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.36.02/AutoHotkey_1.1.36.02_setup.exe",
-		"HashFor32Bit": "qLsp7a2W/z3QI0kqVpWBqA==",
+		"UrlFor32Bit": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.0/AutoHotkey_2.0.0_setup.exe",
+		"HashFor32Bit": "8DC4871AC544D2CD0FF7CCD84B8862EAF9BA0AF18BD5B71E29146B17E4B13783",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
 		"PreferWinget": true,
 		"WingetId": "Lexikos.AutoHotkey",
 		"WingetNoUpgrade": true,
-		"GitHubId": "Lexikos/AutoHotkey_L"
+		"GitHubId": "AutoHotkey/AutoHotkey"
 	},
 	{
 		"Name": "AWSCLI",
@@ -467,11 +467,11 @@
 	},
 	{
 		"Name": "Gpg4win",
-		"Version": "4.0.4",
+		"Version": "4.1.0",
 		"Notes": "https://www.gpg4win.org/change-history.html (has direct download link)",
 		"Type": "exe",
-		"UrlFor32Bit": "https://files.gpg4win.org/gpg4win-4.0.4.exe",
-		"HashFor32Bit": "a750608969a075f132da31f538231ac3a2d3538e3eec8e8603d1573284745d0e",
+		"UrlFor32Bit": "https://files.gpg4win.org/gpg4win-4.1.0.exe",
+		"HashFor32Bit": "e0fddc840808eef9531f14a515f8b3b6c46511977f00569161129c1dee413b38",
 		"AppPage": "https://www.gpg4win.org/download.html",
 		"PreferWinget": true,
 		"WingetId": "GnuPG.Gpg4win"
