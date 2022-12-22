@@ -422,10 +422,10 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.39.0",
+		"Version": "2.39.0.2",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.1/Git-2.39.0-64-bit.exe",
-		"HashFor64Bit": "2eaba567e17784654be77ba997329742d87845c6f15e33c9620f9a331c69a976",
+		"UrlFor64Bit": "https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe",
+		"HashFor64Bit": "8cf0ee3efaabe8a9b9b6b6889ae0ed369d9f1c85696ad637e715959921ed71c3",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"PreferWinget": true,
