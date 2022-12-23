@@ -22,13 +22,13 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.10.2417",
+		"Version": "5.10.2418",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.10.2417_w32.exe",
-		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.10.2417_w64.exe",
-		"HashFor32Bit": "102a4bd3d1b45f4029ef7168d5eb5ff1b61a6ed46520667a2cdccbdcf5d740ca",
-		"HashFor64Bit": "cf439ab339a0e38dd80caa0419c74e4a13a5b4073a29bc01dfbe96cb97e836d9",
+		"UrlFor32Bit": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w32.exe",
+		"UrlFor64Bit": "https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe",
+		"HashFor32Bit": "21a1df4b36e29327694a627a54d8e47167c781db2e6bf560319be45ca4fc761f",
+		"HashFor64Bit": "beec5cd3d3e61b314c4505b79edb93c2f0ed85ca08fd70393724fe80cca70420",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
