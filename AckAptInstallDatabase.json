@@ -456,6 +456,17 @@
 		"WingetScope": "user"
 	},
 	{
+		"Name": "golang",
+		"Version": "1.19.4",
+		"Type": "msi",
+		"UrlFor64Bit": "https://go.dev/dl/go1.19.4.windows-amd64.msi",
+		"HashFor64Bit": "cffae9219ee1e8285aecf7038054be25c6a6460c79813d5658bee26640600233",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%LocalAppData%\\Programs\\go\"",
+		"AppPage": "https://go.dev/dl/",
+		"PreferWinget": true,
+		"WingetId": "GoLang.Go.1.19"
+	},
+	{
 		"Name": "GoogleChrome",
 		"Version": "0.0.0.0",
 		"Type": "exe",
@@ -727,7 +738,7 @@
 		"Type": "msi",
 		"UrlFor64Bit": "https://aka.ms/download-jdk/microsoft-jdk-17.0.5-windows-x64.msi",
 		"HashFor64Bit": "639172d890b3ac805ca81e54a9f0464ec4680b052f1a287183b1024fe7786fc1",
-		"InstallerArguments": "-passive -norestart INSTALLDIR=\"C:\\Program Files\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.OpenJDK.17",
