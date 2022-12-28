@@ -43,11 +43,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.2.2",
+		"Version": "3.2.3",
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
 		"Type": "exe",
-		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.2.2/audacity-win-3.2.2-64bit.exe",
-		"HashFor64Bit": "c4d947e7563ab88a675bd31803286f4b9521f98b2792870b78e08b295f89cfaf",
+		"UrlFor64Bit": "https://github.com/audacity/audacity/releases/download/Audacity-3.2.3/audacity-win-3.2.3-x64.exe",
+		"HashFor64Bit": "d0a925c8fe0589a8f0a0d0fe9b1f14f380ad0522d1ff33653f499ae389e7951a",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"PreferWinget": true,
@@ -103,10 +103,10 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.40.1",
+		"Version": "1.40.2",
 		"Type": "exe",
 		"UrlFor32Bit": "https://go.microsoft.com/fwlink/?linkid=2215273",
-		"HashFor32Bit": "mRiUZrPLvAPw44m6EQfb1A==",
+		"HashFor32Bit": "D+BrH8xZ5r0TtFmVT8A5ww==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"PreferWinget": true,
@@ -458,13 +458,15 @@
 	{
 		"Name": "golang",
 		"Version": "1.19.4",
+		"Notes": "github is just a mirror, but it has a wiki with lots of info\nreal repo is at https://go.googlesource.com/go",
 		"Type": "msi",
 		"UrlFor64Bit": "https://go.dev/dl/go1.19.4.windows-amd64.msi",
 		"HashFor64Bit": "cffae9219ee1e8285aecf7038054be25c6a6460c79813d5658bee26640600233",
 		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%LocalAppData%\\Programs\\go\"",
 		"AppPage": "https://go.dev/dl/",
 		"PreferWinget": true,
-		"WingetId": "GoLang.Go.1.19"
+		"WingetId": "GoLang.Go.1.19",
+		"GitHubId": "golang/go"
 	},
 	{
 		"Name": "GoogleChrome",
