@@ -491,7 +491,7 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.5.1",
+		"Version": "1.6.0",
 		"Type": "exe",
 		"UrlFor64Bit": "https://github.com/HandBrake/HandBrake/releases/download/1.6.0/HandBrake-1.6.0-x86_64-Win_GUI.exe",
 		"HashFor64Bit": "7d9ff68493ce4fbe22d8c153ac35a996f7a18ce635f262dcb4c8a8e6bf4dad7d",
