@@ -65,10 +65,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.0",
+		"Version": "2.0.2",
 		"Type": "exe",
-		"UrlFor32Bit": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.0/AutoHotkey_2.0.0_setup.exe",
-		"HashFor32Bit": "8DC4871AC544D2CD0FF7CCD84B8862EAF9BA0AF18BD5B71E29146B17E4B13783",
+		"UrlFor32Bit": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.2/AutoHotkey_2.0.2_setup.exe",
+		"HashFor32Bit": "9C8B1AECAF1BDDED80BEC98EC5AB5B9B9754CBCE9439DD9EACC7D1774D1438F8",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
