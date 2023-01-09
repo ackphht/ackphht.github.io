@@ -609,10 +609,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.52.0",
+		"Version": "2.53.0",
 		"Type": "exe",
-		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.52/KeePass-2.52-Setup.exe/download",
-		"HashFor32Bit": "DA403BC2E91132D1C1E0C49F585441E4CD430C8195CA8AF38ADC2EA300DE52CB",
+		"UrlFor32Bit": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.53/KeePass-2.53-Setup.exe/download",
+		"HashFor32Bit": "BBE39EB55F720A0549B4457B73991F3C42F6610DDE86A00D94F5CFB87472DF07",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
