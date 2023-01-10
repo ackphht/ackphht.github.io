@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2022.003.20263",
+		"Version": "2022.003.20310",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200320263/AcroRdrDCx642200320263_en_US.exe",
+		"UrlFor64Bit": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200320310/AcroRdrDCx642200320310_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -91,11 +91,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.43.0",
+		"Version": "2.44.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.43.0.msi",
-		"HashFor32Bit": "j6+eTwUMT4d7+mtpL6uY3g==",
+		"UrlFor32Bit": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.44.0.msi",
+		"HashFor32Bit": "tSZRel2x0GIQjXbLS4qu8A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"PreferWinget": true,
@@ -502,10 +502,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.34",
+		"Version": "6.7.4.35",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/121422/IDriveWinSetup.exe",
+		"UrlFor32Bit": "https://static.idriveonlinebackup.com/downloads/010923/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
