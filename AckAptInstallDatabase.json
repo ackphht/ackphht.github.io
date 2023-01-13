@@ -181,10 +181,11 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.15.0",
+		"Version": "4.16.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/93002/Docker%20Desktop%20Installer.exe",
+		"UrlFor64Bit": "https://desktop.docker.com/win/main/amd64/95567/Docker%20Desktop%20Installer.exe",
+		"HashFor64Bit": "8260a2fbd3cf7e9050ed7348e5c528314df82f1c460c70919afd0e5f95913f14",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
