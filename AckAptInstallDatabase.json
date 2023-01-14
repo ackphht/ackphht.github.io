@@ -372,9 +372,9 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "1.6.14",
+		"Version": "1.6.16",
 		"Type": "exe",
-		"UrlFor32Bit": "https://www.foobar2000.org/files/foobar2000_v1.6.14.exe",
+		"UrlFor32Bit": "https://www.foobar2000.org/files/foobar2000_v1.6.16.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"PreferWinget": true,
 		"WingetId": "PeterPawlowski.foobar2000",
