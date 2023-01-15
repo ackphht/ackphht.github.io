@@ -332,10 +332,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.0.0",
+		"Version": "8.0.1",
 		"Type": "exe",
 		"UrlFor32Bit": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashFor32Bit": "e29b8053859f397bf7b689fc028f0d503f93c9ad",
+		"HashFor32Bit": "bc71de8ec800ebf1251809b61b4ae4d2ca746524",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
