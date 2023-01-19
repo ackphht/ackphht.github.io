@@ -852,12 +852,15 @@
 	},
 	{
 		"Name": "notepad3",
-		"Version": "5.21.1129.1",
+		"Version": "6.23.118.1",
 		"Type": "zip",
 		"ZipContentToRun": "Notepad3_*_Setup.exe",
-		"UrlForX86": "https://www.rizonesoft.com/download/8108/",
-		"UrlForX64": "https://www.rizonesoft.com/download/3939/",
+		"UrlForX86": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x86_Setup.exe",
+		"UrlForX64": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x64_Setup.exe",
+		"HashForX86": "W4LTcKcUUqjPniB0nuLu6g==",
+		"HashForX64": "RuzmYIr1/RCxDkLWlF21sQ==",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/",
+		"WingetId": "Rizonesoft.Notepad3",
 		"GitHubId": "rizonesoft/Notepad3"
 	},
 	{
@@ -1318,11 +1321,11 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.0.2",
+		"Version": "4.0.3",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "exe",
-		"UrlForX64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-4.0.2.exe",
-		"HashForX64": "bafc2b00ce557cc531dfbb0e87cda6277c052a32411e10da8005c4001438d8fc",
+		"UrlForX64": "https://1.na.dl.wireshark.org/win64/Wireshark-win64-4.0.3.exe",
+		"HashForX64": "26feddeb71571e63851c10c16325bd1d19e0175088c0e2732ef25f586b560fe7",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark"
