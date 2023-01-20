@@ -853,7 +853,7 @@
 	{
 		"Name": "notepad3",
 		"Version": "6.23.118.1",
-		"Type": "zip",
+		"Type": "exe",
 		"ZipContentToRun": "Notepad3_*_Setup.exe",
 		"UrlForX86": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x86_Setup.exe",
 		"UrlForX64": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x64_Setup.exe",
