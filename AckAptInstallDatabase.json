@@ -160,13 +160,13 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.4.11",
-		"UrlForX86": "https://github.com/chrisant996/clink/releases/download/v1.4.11/clink.1.4.11.088f68_setup.exe",
-		"HashForX86": "N6ps3unrlGcYk/Xn8hdy9A==",
+		"Version": "1.4.12",
+		"UrlForX86": "https://github.com/chrisant996/clink/releases/download/v1.4.12/clink.1.4.12.9ce7e8_setup.exe",
+		"HashForX86": "x34BxcpFS7Uh7sgw2HkMrg==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
-		"WingetVersion": "1.4.11.088f68",
+		"WingetVersion": "1.4.12.9ce7e8",
 		"GitHubId": "chrisant996/clink"
 	},
 	{
@@ -182,11 +182,11 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.16.1",
+		"Version": "4.16.2",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlForX64": "https://desktop.docker.com/win/main/amd64/95567/Docker%20Desktop%20Installer.exe",
-		"HashForX64": "8260a2fbd3cf7e9050ed7348e5c528314df82f1c460c70919afd0e5f95913f14",
+		"UrlForX64": "https://desktop.docker.com/win/main/amd64/95914/Docker%20Desktop%20Installer.exe",
+		"HashForX64": "20e4ba05b573610506b57a7f216115458019d2c002f18ef6d50a2419b7db545b",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
