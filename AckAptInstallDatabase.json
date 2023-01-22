@@ -333,10 +333,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.0.1",
+		"Version": "8.0.2",
 		"Type": "exe",
 		"UrlForX86": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashForX86": "bc71de8ec800ebf1251809b61b4ae4d2ca746524",
+		"HashForX86": "154ddc3f8bd34bc6f4fcb277f9a86b4056e285bd29c159aafe39407c8e0b6cf5",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -887,12 +887,14 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.0.0",
+		"Version": "5.0.1",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlForX64": "https://github.com/paintdotnet/release/releases/download/v5.0/paint.net.5.0.install.x64.zip",
-		"HashForX64": "KvO3vkfwlseN/uXB7eY3uA==",
+		"UrlForX64": "https://github.com/paintdotnet/release/releases/download/v5.0.1/paint.net.5.0.1.install.x64.zip",
+		"UrlForArm64": "https://github.com/paintdotnet/release/releases/download/v5.0.1/paint.net.5.0.1.install.arm64.zip",
+		"HashForX64": "NXOvW9QzoTvnJUboFG/wwg==",
+		"HashForArm64": "A8KCm3/Z4Sc2fG8pb5DVRg==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html",
 		"GitHubId": "paintdotnet/release"
