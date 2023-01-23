@@ -1314,10 +1314,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.1.1.0",
+		"Version": "6.20.0",
 		"Type": "exe",
-		"UrlForX86": "https://www.rarlab.com/rar/wrar611.exe",
-		"UrlForX64": "https://www.rarlab.com/rar/winrar-x64-611.exe",
+		"UrlForX86": "https://www.rarlab.com/rar/winrar-x32-620.exe",
+		"UrlForX64": "https://www.rarlab.com/rar/winrar-x64-620.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR"
 	},
