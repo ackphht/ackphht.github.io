@@ -14,10 +14,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2022.003.20310",
+		"Version": "2022.003.20314",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlForX64": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200320310/AcroRdrDCx642200320310_en_US.exe",
+		"UrlForX64": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2200320314/AcroRdrDCx642200320314_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -341,12 +341,12 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.62.2",
+		"Version": "3.63.0",
 		"Type": "exe",
 		"IndirectUrlForX86": "https://filezilla-project.org/download.php?show_all=1\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win32-setup\\.exe\\??.*?)\\\"[^>]*>FileZilla_[\\d\\.]+_win32-setup\\.exe</a>.+\n$1",
 		"IndirectUrlForX64": "https://filezilla-project.org/download.php?show_all=1\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\\\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\n$1",
-		"HashForX86": "b6ef5ee5a840dcb6e6063f52dc72973456c72cc9064ccd074f4aef79757fd1022d744ae169f481188e18a421c3e6f34699e96e0b6c709d1e5620906796c82d20",
-		"HashForX64": "9596496e8200bb8d314503ddad973304a48461b8dcb052912d5d068d3877172ee1d57f53556b3807cd6df4c875babf1393f9a2b2bd1c8e6a9d9b37ba971ee656",
+		"HashForX86": "db17d81ca21c3cb5339b5df524fe73753c20c840a6e6a697ca5cd5b68582604a23215fd245c560e0090e7158338490f1d3e2a4e30971e2a9e054ff059435358a",
+		"HashForX64": "63a2ac8b310214c71ddfb2c9a79086fae6a0b16dc17f3cec991acdeb60d0ae9d4323208edd560e29cdb53da84e5a1390b5840fa7fdf213248658181fef3968be",
 		"InstallerArguments": "/S",
 		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
