@@ -495,10 +495,12 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.6.0",
+		"Version": "1.6.1",
 		"Type": "exe",
-		"UrlForX64": "https://github.com/HandBrake/HandBrake/releases/download/1.6.0/HandBrake-1.6.0-x86_64-Win_GUI.exe",
-		"HashForX64": "7d9ff68493ce4fbe22d8c153ac35a996f7a18ce635f262dcb4c8a8e6bf4dad7d",
+		"UrlForX64": "https://github.com/HandBrake/HandBrake/releases/download/1.6.1/HandBrake-1.6.1-x86_64-Win_GUI.exe",
+		"UrlForArm64": "https://github.com/HandBrake/HandBrake/releases/download/1.6.1/HandBrake-1.6.1-arm64-Win_GUI.exe",
+		"HashForX64": "7b3ab4a232913174b365eb918d7978852a7a36fd38d20d4bb42aa184f113a130",
+		"HashForArm64": "e8bce5985c532fb5df0833c38678591aa7ccb40d5a5e44ca5b831a504fb3bcca",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"PreferWinget": true,
 		"WingetId": "HandBrake.HandBrake",
@@ -506,10 +508,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.35",
+		"Version": "6.7.4.36",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/010923/IDriveWinSetup.exe",
+		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/012323/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
