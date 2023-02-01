@@ -601,20 +601,20 @@
 	},
 	{
 		"Name": "jre8",
-		"Version": "8.0.351",
+		"Version": "8.0.361",
 		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
 		"Type": "exe",
-		"UrlForX86": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=247134_10e8cce67c7843478f41411b7003171c",
-		"UrlForX64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=247136_10e8cce67c7843478f41411b7003171c",
-		"HashForX86": "1b3fa73455f2c3620833d63cf5af43c66e47b515926089ac5e0e7a520485ee49",
-		"HashForX64": "188ca8ecc44de1b7f602e883c3054dc392792c3631bf362b1bc4f3e1dba323e6",
+		"UrlForX86": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=247945_0ae14417abb444ebb02b9815e2103550",
+		"UrlForX64": "https://javadl.oracle.com/webapps/download/AutoDL?BundleId=247947_0ae14417abb444ebb02b9815e2103550",
+		"HashForX86": "n4lMobdsbVBKX2LnGWPxhlJxEMYXIVr6n+Bh/HeTGV8=",
+		"HashForX64": "QZMo86IyWx3Cf3EKvXPiMunerEeRW026YaaXuSW1uD0=",
 		"PreInstallMessage": "about to install JRE; disable the network now. . .",
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
 		"AppPage": "https://www.java.com/en/download/manual.jsp",
 		"PreferWinget": true,
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
-		"WingetVersion": "8.0.3510.10"
+		"WingetVersion": "8.0.3610.9"
 	},
 	{
 		"Name": "KeePass2",
