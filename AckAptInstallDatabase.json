@@ -28,8 +28,8 @@
 		"Type": "exe",
 		"UrlForX86": "https://aimp.ru/files/windows/builds/aimp_5.11.2421_w32.exe",
 		"UrlForX64": "https://aimp.ru/files/windows/builds/aimp_5.11.2421_w64.exe",
-		"HashForX86": "IaHfSzbikydpSmJ6VNjkcWfHgdsua/VgMZvkXKT8dh8=",
-		"HashForX64": "vuxc09PmGzFMRQW3ntuTwvDthcoI/XA5NyT+gMynBCA=",
+		"HashForX86": "7e45f0f21e7fcdae9ee86bf9c777bfc51e14b3d6d00fb7492b3b482132c4cdae",
+		"HashForX64": "2ddff13dd6dc7901596f59d239dd892bbac7aec0c6199fb8e0ce1fa02ea559b2",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
