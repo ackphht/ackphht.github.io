@@ -616,7 +616,8 @@
 		"AppPage": "https://www.java.com/en/download/manual.jsp",
 		"PreferWinget": true,
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
-		"WingetVersion": "8.0.3610.9"
+		"WingetVersion": "8.0.3610.9",
+		"WingetNoUpgrade": true
 	},
 	{
 		"Name": "KeePass2",
