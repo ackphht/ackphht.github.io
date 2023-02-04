@@ -512,10 +512,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.36",
+		"Version": "6.7.4.37",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/012323/IDriveWinSetup.exe",
+		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/020423/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -857,13 +857,13 @@
 	},
 	{
 		"Name": "notepad3",
-		"Version": "6.23.118.1",
+		"Version": "6.23.203.2",
 		"Type": "exe",
 		"ZipContentToRun": "Notepad3_*_Setup.exe",
-		"UrlForX86": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x86_Setup.exe",
-		"UrlForX64": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.118.1/Notepad3_6.23.118.1_x64_Setup.exe",
-		"HashForX86": "W4LTcKcUUqjPniB0nuLu6g==",
-		"HashForX64": "RuzmYIr1/RCxDkLWlF21sQ==",
+		"UrlForX86": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.203.2/Notepad3_6.23.203.2_x86_Setup.exe",
+		"UrlForX64": "https://github.com/rizonesoft/Notepad3/releases/download/RELEASE_6.23.203.2/Notepad3_6.23.203.2_x64_Setup.exe",
+		"HashForX86": "NvZvbDWB4W0mYYjYdn3bfw==",
+		"HashForX64": "0y0yR2gl1eK3JhbU9+ZADA==",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/",
 		"WingetId": "Rizonesoft.Notepad3",
 		"GitHubId": "rizonesoft/Notepad3"
