@@ -1283,7 +1283,7 @@
 	{
 		"Name": "VSCode",
 		"Version": "1.75.1",
-		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json:",
+		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json: https://code.visualstudio.com/sha?build=stable",
 		"Type": "exe",
 		"UrlForX64": "https://az764295.vo.msecnd.net/stable/441438abd1ac652551dbe4d408dfcec8a499b8bf/VSCodeUserSetup-x64-1.75.1.exe",
 		"UrlForArm64": "https://az764295.vo.msecnd.net/stable/441438abd1ac652551dbe4d408dfcec8a499b8bf/VSCodeUserSetup-arm64-1.75.1.exe",
