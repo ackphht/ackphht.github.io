@@ -329,6 +329,7 @@
 		"Version": "5.0.20211.51073",
 		"Type": "exe",
 		"UrlForX86": "https://www.telerik.com/docs/default-source/fiddler/fiddlersetup.exe",
+		"PreInstallMessage": "might want to disable network to block web page launch",
 		"InstallerArguments": "/S",
 		"AppPage": "https://www.telerik.com/download/fiddler",
 		"WingetId": "Telerik.Fiddler"
@@ -1081,7 +1082,7 @@
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
-		"Name": "SqlServerMngmtStudio",
+		"Name": "SqlServerMngmtStudio18",
 		"Version": "18.12.1",
 		"Notes": "Build number: 15.0.18424.0\nhttps://aka.ms/ssmsfullsetup",
 		"Type": "exe",
