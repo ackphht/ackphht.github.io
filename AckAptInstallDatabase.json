@@ -1084,10 +1084,21 @@
 	{
 		"Name": "SqlServerMngmtStudio18",
 		"Version": "18.12.1",
-		"Notes": "Build number: 15.0.18424.0\nhttps://aka.ms/ssmsfullsetup",
+		"Notes": "Build number: 15.0.18424.0\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2021100",
 		"Type": "exe",
 		"UrlForX86": "https://go.microsoft.com/fwlink/?linkid=2199013",
 		"HashForX86": "QGWM0hp2wrsiWBXMrIb/FA==",
+		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
+		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+		"WingetId": "Microsoft.SQLServerManagementStudio"
+	},
+	{
+		"Name": "SqlServerMngmtStudio19",
+		"Version": "19.0.1",
+		"Notes": "Build number: 19.0.20200.0\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
+		"Type": "exe",
+		"UrlForX86": "https://go.microsoft.com/fwlink/?linkid=2223741",
+		"HashForX86": "RWYeQQdL+BmKYJ+c/e3VHQ==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio"
