@@ -1206,7 +1206,7 @@
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.32.31931",
+		"Version": "14.34.31938",
 		"Notes": "supports VC 2015 thru 2022",
 		"Type": "exe",
 		"InstallX86AndX64": true,
