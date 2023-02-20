@@ -540,6 +540,18 @@
 		"WingetId": "ImageMagick.ImageMagick"
 	},
 	{
+		"Name": "Inkscape",
+		"Version": "1.2.2",
+		"Notes": "annoying site; redirectors, no direct download links",
+		"Type": "msi",
+		"UrlForX64": "https://inkscape.org/gallery/item/37366/inkscape-1.2.2_2022-12-09_732a01da63-x64.msi",
+		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
+		"AppPage": "https://inkscape.org/release/",
+		"PreferWinget": true,
+		"WingetId": "Inkscape.Inkscape",
+		"WingetNoUpgrade": true
+	},
+	{
 		"Name": "IntelliJIdeaCommunity",
 		"Version": "2022.1.3",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
@@ -893,14 +905,14 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.0.1",
+		"Version": "5.0.2",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlForX64": "https://github.com/paintdotnet/release/releases/download/v5.0.1/paint.net.5.0.1.install.x64.zip",
-		"UrlForArm64": "https://github.com/paintdotnet/release/releases/download/v5.0.1/paint.net.5.0.1.install.arm64.zip",
-		"HashForX64": "NXOvW9QzoTvnJUboFG/wwg==",
-		"HashForArm64": "A8KCm3/Z4Sc2fG8pb5DVRg==",
+		"UrlForX64": "https://github.com/paintdotnet/release/releases/download/v5.0.2/paint.net.5.0.2.install.x64.zip",
+		"UrlForArm64": "https://github.com/paintdotnet/release/releases/download/v5.0.2/paint.net.5.0.2.install.arm64.zip",
+		"HashForX64": "3ICgzNeh79IEFGuVB8WnRA==",
+		"HashForArm64": "XT8dT5H8Q3+YP6xL8cvyVA==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html",
 		"GitHubId": "paintdotnet/release"
@@ -1341,10 +1353,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.20.0",
+		"Version": "6.21.0",
 		"Type": "exe",
-		"UrlForX86": "https://www.rarlab.com/rar/winrar-x32-620.exe",
-		"UrlForX64": "https://www.rarlab.com/rar/winrar-x64-620.exe",
+		"UrlForX86": "https://www.rarlab.com/rar/winrar-x32-621.exe",
+		"UrlForX64": "https://www.rarlab.com/rar/winrar-x64-621.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR"
 	},
