@@ -842,7 +842,7 @@
 		"WingetId": "Oracle.MySQL"
 	},
 	{
-		"Name": "nodejs",
+		"Name": "NodejsLTS",
 		"Version": "18.14.2",
 		"Type": "msi",
 		"UrlForX64": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-x64.msi",
