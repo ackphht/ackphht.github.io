@@ -388,9 +388,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "12.0.2.12465",
+		"Version": "12.1.1.15289",
 		"Type": "exe",
-		"UrlForX86": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.0.2",
+		"UrlForX86": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=12.1.1",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
 		"WingetId": "Foxit.FoxitReader"
 	},
@@ -843,10 +843,10 @@
 	},
 	{
 		"Name": "nodejs",
-		"Version": "18.14.1",
+		"Version": "18.14.2",
 		"Type": "msi",
-		"UrlForX64": "https://nodejs.org/dist/v18.14.1/node-v18.14.1-x64.msi",
-		"HashForX64": "4a42e49e5c6e2340be14b5e3d72d9a75abf8fc8894d816d46321c28ea0ed4baa",
+		"UrlForX64": "https://nodejs.org/dist/v18.14.2/node-v18.14.2-x64.msi",
+		"HashForX64": "1152f8163882faf8c6c33dcaaeebb3a03468bdcbe4e33d722d063c1da8f1fc57",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
