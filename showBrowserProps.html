@@ -16,6 +16,7 @@
 		/* div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; } */
 		table#data { /* position:relative; */ /* not sure this is really necessary... */ }
 		/* table#data thead th { position: sticky; top: 0; z-index: 99; } */
+		table.dataTbl td ul { margin: 0;; padding-left: 1em; }
 	</style>
 </head>
 <body>
@@ -57,6 +58,7 @@
 
 		addNavigatorInfo(tbody, totalColumns);
 		addVisualViewportInfo(tbody, totalColumns);
+		addUserAgentData(tbody, totalColumns);
 	}
 
 	/*
@@ -105,14 +107,14 @@
 
 		makeSectionHeader(tbody, 'Display', desiredColumnCnt);
 
-		row = make('tr', tbody);
+		let row = make('tr', tbody);
 		makeNameValueCells(row, 'ScreenWidth', window.screen.width);
 		makeNameValueCells(row, 'ScreenHeight', window.screen.height);
 		row = make('tr', tbody);
 		makeNameValueCells(row, 'AvailWidth', window.screen.availWidth);
 		makeNameValueCells(row, 'AvailHeight', window.screen.availHeight);
 		row = make('tr', tbody);
-		makeNameValueCells(row, 'PixelRatio', window.devicePixelRatio);
+		makeNameValueCells(row, 'PixelRatio', round(window.devicePixelRatio, 3));
 		makeNameValueCells(row, 'Orientation', window.screen.orientation.type);
 		row = make('tr', tbody);
 		makeNameValueCells(row, 'ColorDepth', window.screen.colorDepth);
@@ -124,11 +126,45 @@
 		makeNameValueCells(row, 'InnerWidth', window.innerWidth);
 		makeNameValueCells(row, 'InnerHeight', window.innerHeight);
 		row = make('tr', tbody);
-		makeNameValueCells(row, 'ViewportWidth', Math.round(viewport.width * 100.0) / 100.0);
-		makeNameValueCells(row, 'ViewportHeight', Math.round(viewport.height * 100.0) / 100.0);
+		makeNameValueCells(row, 'ViewportWidth', round(viewport.width, 2));
+		makeNameValueCells(row, 'ViewportHeight', round(viewport.height, 2));
 		row = make('tr', tbody);
-		makeNameValueCells(row, 'ViewportScale', Math.round(viewport.scale * 100.0) / 100.0);
+		makeNameValueCells(row, 'ViewportScale', round(viewport.scale, 2));
 		makeNameValueCells(row, '', '');
+	}
+
+	function addUserAgentData(tbody, desiredColumnCnt) {
+		makeSectionHeader(tbody, 'UserAgentData [experimental]', desiredColumnCnt);
+		if (!navigator.userAgentData) {
+			let row = make('tr', tbody);
+			makeNameValueCells(row, 'UserAgentData', 'N/A', desiredColumnCnt - 1);
+			return;
+		}
+		let data = navigator.userAgentData;
+		let row = make('tr', tbody);
+		let ul = make('ul', null);
+		data.brands.forEach(b => { let li = make('li', ul); makeText(li, (b.brand + ';v=' + b.version)); });
+		makeNameValueCells(row, 'Brands', ul, desiredColumnCnt - 1);
+		row = make('tr', tbody);
+		makeNameValueCells(row, 'Platform', data.platform);
+		makeNameValueCells(row, 'Mobile', data.mobile);
+
+		data.getHighEntropyValues(['architecture', 'bitness', 'model', 'platformVersion', 'fullVersionList', 'uaFullVersion'])
+			.then(values => {
+				row = make('tr', tbody);
+				makeNameValueCells(row, 'PlatformVersion', values.platformVersion);
+				makeNameValueCells(row, 'Model', values.model);
+				row = make('tr', tbody);
+				makeNameValueCells(row, 'Architecture', values.architecture);
+				makeNameValueCells(row, 'Bitness', values.bitness);
+				row = make('tr', tbody);
+				ul = make('ul', null);
+				values.fullVersionList.forEach(b => { let li = make('li', ul); makeText(li, (b.brand + ';v=' + b.version)); });
+				makeNameValueCells(row, 'FullVersionList', ul, desiredColumnCnt - 1);
+				row = make('tr', tbody);
+				makeNameValueCells(row, 'UAFullVersion [deprecated]', values.uaFullVersion);
+				makeNameValueCells(row, '', '');
+			});
 	}
 
 	function make(name, parent) {
@@ -156,7 +192,20 @@
 		let td = make('td', trow);
 		if (valueColSpan && valueColSpan > 1)
 			td.colSpan = valueColSpan;
-		makeText(td, value);
+		if (typeof(value) == "string") {
+			makeText(td, value);
+		} else if (value instanceof HTMLElement) {
+			td.append(value);
+		} else {
+			makeText(td, value.toString());
+		}
+	}
+
+	function round(value, maxDecimalPlaces) {
+		if (maxDecimalPlaces <= 0)
+			return Math.round(value);
+		let mult = Math.pow(10, maxDecimalPlaces) * 1.0;
+		return (Math.round(value * mult) / mult);
 	}
 </script>
 </body>
