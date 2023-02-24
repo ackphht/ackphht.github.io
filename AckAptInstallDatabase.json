@@ -513,10 +513,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.39",
+		"Version": "6.7.4.40",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/021323/IDriveWinSetup.exe",
+		"UrlForX86": "https://static.idriveonlinebackup.com/downloads/022323/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -928,10 +928,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.3.2",
+		"Version": "7.3.3",
 		"Type": "msi",
-		"UrlForX64": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.2/PowerShell-7.3.2-win-x64.msi",
-		"HashForX64": "A4F7D081C5F74BC8D6C75F1DFEE382B7FD9335361181748FEE590ECDBC96CB26",
+		"UrlForX64": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.3/PowerShell-7.3.3-win-x64.msi",
+		"HashForX64": "E3C58761D9D0863CB7EE23170108EB47B675DA7B0FFEE3412D3630F7B249452E",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreferWinget": true,
