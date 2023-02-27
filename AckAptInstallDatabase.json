@@ -162,13 +162,13 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.4.19",
-		"UrlForX86": "https://github.com/chrisant996/clink/releases/download/v1.4.19/clink.1.4.19.57e404_setup.exe",
-		"HashForX86": "BvDiDy0mS+2XuTrB6JgZbA==",
+		"Version": "1.4.20",
+		"UrlForX86": "https://github.com/chrisant996/clink/releases/download/v1.4.20/clink.1.4.20.236aba_setup.exe",
+		"HashForX86": "Dyp1OlF6bs1c10ItJOgGCw==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
-		"WingetVersion": "1.4.19.57e404",
+		"WingetVersion": "1.4.20.236aba",
 		"GitHubId": "chrisant996/clink"
 	},
 	{
@@ -941,7 +941,7 @@
 	{
 		"Name": "PrivateInternetAccess",
 		"Version": "3.3.0.0",
-		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)",
+		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)\r\nhttps://github.com/pia-foss/desktop",
 		"Type": "exe",
 		"UrlForX64": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3-06906.exe",
 		"HashForX64": "1fdc61f2283d117bc707b55ce3cca172826e7e924020f85b6ffc512d3d525872",
