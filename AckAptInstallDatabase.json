@@ -1055,10 +1055,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.11",
+		"Version": "3.4.12",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlForX86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.11.exe",
+		"UrlForX86": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.12.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"PreferWinget": true,
 		"WingetId": "Atlassian.Sourcetree",
