@@ -336,10 +336,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.0.3",
+		"Version": "8.1.0",
 		"Type": "exe",
 		"UrlForX64": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashForX64": "22e7bf85d04cd613822073b2d9a2c91ee35135f74d64a420e88ff935e6855f48",
+		"HashForX64": "5eadcb607000f8d619fd021b4136867c0268cb563452c62430f6ddb217484af3",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
