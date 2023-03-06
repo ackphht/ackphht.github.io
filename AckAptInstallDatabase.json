@@ -423,9 +423,11 @@
 	},
 	{
 		"Name": "gimp-help",
-		"Version": "2.10.0.0",
+		"Version": "2.10.34",
+		"Notes": "they recommend just using the online help; it will always be more up to date: https://docs.gimp.org/2.10/en/",
 		"Type": "exe",
-		"UrlForX86": "https://download.gimp.org/mirror/pub/gimp/help/windows/2.10/gimp-help-2.10.0-en-setup.exe"
+		"UrlForX86": "https://download.gimp.org/mirror/pub/gimp/help/windows/2.10/gimp-help-2.10.34-en-setup.exe",
+		"AppPage": "https://docs.gimp.org/download.html"
 	},
 	{
 		"Name": "git",
@@ -854,17 +856,16 @@
 	},
 	{
 		"Name": "Notepad++",
-		"Version": "8.4.9",
+		"Version": "8.5.0",
 		"Type": "exe",
-		"UrlForX86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.9/npp.8.4.9.Installer.exe",
-		"UrlForX64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.9/npp.8.4.9.Installer.x64.exe",
-		"UrlForArm64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.9/npp.8.4.9.Installer.arm64.exe",
-		"HashForX86": "7Lfw+6K282LSABgi5NI6fnNJgOcIn3wTn91vXQj470s=",
-		"HashForX64": "axcBJwYf6wgv/RsUMJ721KeD3zwP1RmZ4XhgZ3MaSfM=",
-		"HashForArm64": "8oce/0IUxtXC7GkHuKD/lJz1c+sbLuvDy1wzc9Y0NDY=",
+		"UrlForX86": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5/npp.8.5.Installer.exe",
+		"UrlForX64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5/npp.8.5.Installer.x64.exe",
+		"UrlForArm64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5/npp.8.5.Installer.arm64.exe",
+		"HashForX86": "561394830b56322d0d3abe09d191a5df6028ff6938b9b997233cb59c23e1da15",
+		"HashForX64": "2591bf0259e5aa4f5278ceef7a0c9648bafced886ee28a75434a0d38c86627ee",
+		"HashForArm64": "e8dd7a5f05b318b89cc1a66a575f0f3289ab3fec3fa0e9f98dfae3a228df9dba",
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/",
-		"PreferWinget": true,
 		"WingetId": "Notepad++.Notepad++",
 		"GitHubId": "notepad-plus-plus/notepad-plus-plus"
 	},
