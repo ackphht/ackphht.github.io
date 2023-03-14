@@ -430,10 +430,10 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.39.2",
+		"Version": "2.40.0",
 		"Type": "exe",
-		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.39.2.windows.1/Git-2.39.2-64-bit.exe",
-		"HashX8664": "d7608fbd854b3689102ff48b03c8cc77b35138f9f7350d134306da0ba5751464",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe",
+		"HashX8664": "ff8954afb29814821e9e3759a761bdac49186085e916fa354bf8706e3c7fe7a2",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"PreferWinget": true,
