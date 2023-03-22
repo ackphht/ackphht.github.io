@@ -14,10 +14,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.001.20064",
+		"Version": "2023.001.20093",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300120064/AcroRdrDCx642300120064_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300120093/AcroRdrDCx642300120093_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -1120,11 +1120,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio19",
-		"Version": "19.0.1",
-		"Notes": "Build number: 19.0.20200.0\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
+		"Version": "19.0.2",
+		"Notes": "Build number: 19.0.20209.0\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
 		"Type": "exe",
-		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2223741",
-		"HashX8632": "RWYeQQdL+BmKYJ+c/e3VHQ==",
+		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2226343",
+		"HashX8632": "tq7qy2qGXFooFmdTYOudog==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio"
