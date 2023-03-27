@@ -807,13 +807,12 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "74.0.0",
+		"Version": "75.0.0",
 		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "exe",
-		"UrlX8664": "https://mkvtoolnix.download/windows/releases/74.0.0/mkvtoolnix-64-bit-74.0.0-setup.exe",
-		"HashX8664": "a81595d836a677572e61b9b054733952ef2889747a64f4e6e58b54072a6c9b43",
+		"UrlX8664": "https://mkvtoolnix.download/windows/releases/75.0.0/mkvtoolnix-64-bit-75.0.0-setup.exe",
+		"HashX8664": "4adb212018b466e0863dbba34badf52339a6b95edcb84408e1c910b53ee3e852",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
-		"PreferWinget": true,
 		"WingetId": "MKVToolNix.MKVToolNix"
 	},
 	{
@@ -1131,10 +1130,10 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "1.2.0",
+		"Version": "23.1.0",
 		"Type": "exe",
-		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v1.2/stellarium-1.2-qt6-win64.exe",
-		"HashX8664": "2c4c1d56ced46c17a3163fa3fed5f42ec0a57a3c7c6bbd0e25cb922221491291",
+		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v23.1/stellarium-23.1-qt6-win64.exe",
+		"HashX8664": "24f17311aacd464ce6cc600f873f870d73dd5b68c4e5b84573e69b80a57278d9",
 		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
 		"WingetId": "Stellarium.Stellarium",
