@@ -139,6 +139,19 @@
 		"AppPage": "https://www.microsoft.com/bing/bing-wallpaper"
 	},
 	{
+		"Name": "Bitwarden",
+		"Version": "2023.3.1",
+		"Notes": "installer has switches \"/currentuser\" and \"/allusers\" but the installer doesn't work at all for the currentuser one (at least as of v2023.3.1)",
+		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v2023.3.1/Bitwarden-Installer-2023.3.1.exe",
+		"HashX8632": "0522c9134b05a3e30d59b2b2a10b24a08e8387687ae607f1418a9294aced26fb",
+		"UseX86OnArm": true,
+		"AppPage": "https://bitwarden.com/download/",
+		"WingetId": "Bitwarden.Bitwarden",
+		"WingetScope": "user",
+		"WingetNoUpgrade": true,
+		"GitHubId": "bitwarden/clients"
+	},
+	{
 		"Name": "calibre",
 		"Version": "6.14.1",
 		"Type": "msi",
@@ -532,12 +545,13 @@
 	},
 	{
 		"Name": "ImageMagick",
-		"Version": "7.1.1.2",
+		"Version": "7.1.1.5",
 		"Notes": "github repo only seems to include release files for dbagOS\r\nhashes: https://imagemagick.org/archive/binaries/digest.rdf",
-		"UrlX8664": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-2-Q16-HDRI-x64-dll.exe",
-		"UrlArm64": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-2-Q16-HDRI-arm64-dll.exe",
-		"HashX8664": "caaf9406cbebef2a49ad8f0cd118500a97ffddda27c7d1034f55287a74c6ec2b",
-		"HashArm64": "54c00175c064bd415c6c779620c6f0a122f3aa945880e0f29c098b5bf07c2d1c",
+		"Type": "inno",
+		"UrlX8664": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-5-Q16-HDRI-x64-dll.exe",
+		"UrlArm64": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-5-Q16-HDRI-arm64-dll.exe",
+		"HashX8664": "b5d4e61bc789d4ffdff55bf1c8c90dcb5730eb2e8a8ee3e21f81dd91b9fb8760",
+		"HashArm64": "52654f026099052f84d4c3650d2126c3e36029ee4c0e0e7a06be2192105ede56",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
 		"PreferWinget": true,
@@ -859,7 +873,7 @@
 	{
 		"Name": "Notepad++",
 		"Version": "8.5.1",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8632": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.1/npp.8.5.1.Installer.exe",
 		"UrlX8664": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.1/npp.8.5.1.Installer.x64.exe",
 		"UrlArm64": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.1/npp.8.5.1.Installer.arm64.exe",
