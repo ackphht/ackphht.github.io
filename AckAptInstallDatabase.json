@@ -475,6 +475,19 @@
 		"WingetScope": "user"
 	},
 	{
+		"Name": "GnuCash",
+		"Version": "5.0",
+		"Type": "inno",
+		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.0/gnucash-5.0.setup.exe",
+		"HashX8632": "e9d30e36163a7f047daf2523ac35bf2218d2e661bcfc7f279d57d4d396caa33d",
+		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\gnucash\" /TYPE=custom /COMPONENTS=main,templates /TASKS=-desktopicon,menuicon",
+		"AppPage": "https://gnucash.org/download",
+		"PreferWinget": true,
+		"WingetId": "GnuCash.GnuCash",
+		"WingetScope": "user",
+		"GitHubId": "Gnucash/gnucash"
+	},
+	{
 		"Name": "golang",
 		"Version": "1.20.2",
 		"Notes": "github is just a mirror, but it has a wiki with lots of info\nreal repo is at https://go.googlesource.com/go",
