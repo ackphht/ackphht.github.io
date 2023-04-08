@@ -152,10 +152,10 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "6.15.0",
+		"Version": "6.15.1",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v6.15.0/calibre-64bit-6.15.0.msi",
-		"HashX8664": "lcpUa/mQmb+9i0xWUyODLw==",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v6.15.1/calibre-64bit-6.15.1.msi",
+		"HashX8664": "APJG4UA+nCZrQQ6dakOCmg==",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"PreferWinget": true,
@@ -546,10 +546,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.42",
+		"Version": "6.7.4.43",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
 		"Type": "exe",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/031623/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/040723/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -1177,6 +1177,7 @@
 	{
 		"Name": "SumatraPDF",
 		"Version": "3.4.6",
+		"Type": "exe",
 		"UrlX8664": "https://www.sumatrapdfreader.org/dl/rel/3.4.6/SumatraPDF-3.4.6-64-install.exe",
 		"InstallerArguments": "-s -install -d \"%LocalAppData%\\Programs\\SumatraPDF\"",
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
