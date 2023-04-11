@@ -548,7 +548,7 @@
 		"Name": "iDrive",
 		"Version": "6.7.4.43",
 		"Notes": "https://www.idrive.com/downloads/version_win.js",
-		"Type": "exe",
+		"Type": "inno",
 		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/040723/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
@@ -1133,11 +1133,11 @@
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4003.1",
-		"Notes": "Cumulative Update 1 [KB5022375]",
+		"Version": "16.0.4015.1",
+		"Notes": "Cumulative Update 2 [KB5023127]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5022375-x64.exe",
-		"HashX8632": "PIWWKC9C8g/P2Lc21SCKjA==",
+		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5023127-x64.exe",
+		"HashX8632": "076E99DF447AC3F977F6ABB3D94874F5D75EE8C6EB1AD772FB1C874F5D17CA35",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
