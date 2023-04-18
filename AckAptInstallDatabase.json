@@ -1188,15 +1188,16 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.99",
+		"Version": "10.2.112",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
-		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBackProV10_Setup.exe",
-		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashX8632": "ccc786c1f60440e3a093364f7a9c81268eec33e59aa390e66f53d59f6ef57ba3",
-		"HashX8664": "ff20ed5a1e6343ac155364a1d4e1c90a78e6c66d12913ef09ac96630e20356f2",
+		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro_Setup.10.2.112.0.exe",
+		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.10.2.112.0.exe",
+		"HashX8632": "0b6ebc91626712fa40823c9021269443052d51f21a7a2521e7aa472b7255d5ef",
+		"HashX8664": "7cd3aaa25a27960fd679db2056791376814efa87311f146e4ab823c44a77eeaa",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
-		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html"
+		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html",
+		"WingetId": "2BrightSparks.SyncBackPro"
 	},
 	{
 		"Name": "TeraCopy",
