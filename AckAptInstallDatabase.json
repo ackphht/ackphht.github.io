@@ -174,10 +174,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.4.23",
+		"Version": "1.4.24",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.4.23/clink.1.4.23.5fc3fc_setup.exe",
-		"HashX8632": "gPbfwvJZfv+RamaRfWd7JQ==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.4.24/clink.1.4.24.688975_setup.exe",
+		"HashX8632": "ndw+1kGuwmyrjnVRDMHE6g==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
@@ -1292,21 +1292,21 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.6",
+		"Version": "7.0.8",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.6/VirtualBox-7.0.6-155176-Win.exe",
-		"HashX8664": "a4142ecf52657bd6e06b66573919ac342ef460a61f4ee7d35c235c54640c3a39",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-Win.exe",
+		"HashX8664": "8a2da26ca69c1ddfc50fb65ee4fa8f269e692302046df4e2f48948775ba6339a",
 		"InstallerArguments": "VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.6",
+		"Version": "7.0.8",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.6/Oracle_VM_VirtualBox_Extension_Pack-7.0.6.vbox-extpack",
-		"HashX8664": "21c3595361bb2365efe6139f1da724d362daa63fb92c38f686a01aa9200628b2",
-		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.8/Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack",
+		"HashX8664": "452320f3b1da42b30c32ea5ab5887983b575638ceb4e3beacfefbbb3b0510a48",
+		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 # > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
 		"Name": "Vivaldi",
