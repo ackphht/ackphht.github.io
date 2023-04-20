@@ -1211,6 +1211,16 @@
 		"WingetId": "CodeSector.TeraCopy"
 	},
 	{
+		"Name": "TortoiseGit",
+		"Version": "2.14.0.1",
+		"Notes": "GitLab Repo: https://gitlab.com/tortoisegit/tortoisegit/\r\nGitHub Mirror: https://github.com/tortoisegit/tortoisegit/ (no releases though)",
+		"Type": "msi",
+		"UrlX8664": "https://download.tortoisegit.org/tgit/2.14.0.0/TortoiseGit-2.14.0.1-64bit.msi",
+		"UrlArm64": "https://download.tortoisegit.org/tgit/2.14.0.0/TortoiseGit-2.14.0.1-arm64.msi",
+		"AppPage": "https://tortoisegit.org/download/",
+		"WingetId": "TortoiseGit.TortoiseGit"
+	},
+	{
 		"Name": "URLRewrite2",
 		"Version": "2.1.1980.0",
 		"Type": "msi",
