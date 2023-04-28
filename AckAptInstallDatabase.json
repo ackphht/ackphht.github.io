@@ -397,9 +397,9 @@
 		"Name": "foobar2000",
 		"Version": "2.0.0",
 		"Type": "nsis",
-		"UrlX8632": "https://www.foobar2000.org/getfile/foobar2000_v2.0.exe",
-		"UrlX8664": "https://www.foobar2000.org/getfile/foobar2000-x64_v2.0.exe",
-		"UrlArm64": "https://www.foobar2000.org/getfile/foobar2000-arm64ec_v2.0.exe",
+		"UrlX8632": "https://www.foobar2000.org/files/foobar2000_v2.0.exe",
+		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.0.exe",
+		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.0.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
