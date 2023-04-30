@@ -840,13 +840,13 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "75.0.0",
+		"Version": "76.0.0",
 		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
-		"UrlX8664": "https://mkvtoolnix.download/windows/releases/75.0.0/mkvtoolnix-64-bit-75.0.0-setup.exe",
-		"HashX8664": "4adb212018b466e0863dbba34badf52339a6b95edcb84408e1c910b53ee3e852",
+		"UrlX8664": "https://mkvtoolnix.download/windows/releases/76.0/mkvtoolnix-64-bit-76.0-setup.exe",
+		"HashX8664": "499e4845071c14c3103c509825793a76e063b1dd3df13372ad0fbdf52386f682",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
-		"WingetId": "MKVToolNix.MKVToolNix"
+		"WingetId": "MoritzBunkus.MKVToolNix ??"
 	},
 	{
 		"Name": "Mp3tag",
