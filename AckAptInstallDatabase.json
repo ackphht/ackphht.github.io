@@ -483,10 +483,10 @@
 	},
 	{
 		"Name": "GnuCash",
-		"Version": "5.0",
+		"Version": "5.1",
 		"Type": "inno",
-		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.0/gnucash-5.0.setup.exe",
-		"HashX8632": "e9d30e36163a7f047daf2523ac35bf2218d2e661bcfc7f279d57d4d396caa33d",
+		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.1/gnucash-5.1.setup.exe",
+		"HashX8632": "3ddc5547b5694a11a33e21e4110d1adb908f04995637a54bfa930df68c7df014",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\gnucash\" /TYPE=custom /COMPONENTS=main,templates /TASKS=-desktopicon,menuicon",
 		"AppPage": "https://gnucash.org/download",
 		"PreferWinget": true,
@@ -802,15 +802,17 @@
 	{
 		"Name": "MicrosoftOpenJDK17",
 		"Version": "17.0.7",
+		"Notes": "above repo is main one, but no source, and sorta has release info ??\r\nthis github repo is just source, no releases; but tags might have some info: https://github.com/microsoft/openjdk-jdk17u",
 		"Type": "msi",
 		"UrlX8664": "https://aka.ms/download-jdk/microsoft-jdk-17.0.7-windows-x64.msi",
 		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-17.0.7-windows-aarch64.msi",
 		"HashX8664": "fd9c482bb3d9ddf17c754183a9dcf042ad1cc0ff522b48d6a5e5c15bea459a46",
 		"HashArm64": "99a19658726d4981ceafe922a0f8394bda0622eb6ab3fd2a7bab592628c3848f",
-		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureMain,FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"WingetId": "Microsoft.OpenJDK.17",
-		"WingetNoUpgrade": true
+		"WingetNoUpgrade": true,
+		"GitHubId": "microsoft/openjdk"
 	},
 	{
 		"Name": "MicrosoftPowerToys",
