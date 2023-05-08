@@ -1,11 +1,11 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "22.0.1",
+		"Version": "23.0.0",
 		"Type": "nsis",
-		"UrlX8632": "https://7-zip.org/a/7z2201.exe",
-		"UrlX8664": "https://7-zip.org/a/7z2201-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2201-arm64.exe",
+		"UrlX8632": "https://7-zip.org/a/7z2300.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2300-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2300-arm64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
