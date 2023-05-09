@@ -14,10 +14,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.001.20093",
+		"Version": "2023.001.20174",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300120093/AcroRdrDCx642300120093_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300120174/AcroRdrDCx642300120174_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -1188,13 +1188,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.112",
+		"Version": "10.2.116",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
-		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro_Setup.10.2.112.0.exe",
-		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.10.2.112.0.exe",
-		"HashX8632": "0b6ebc91626712fa40823c9021269443052d51f21a7a2521e7aa472b7255d5ef",
-		"HashX8664": "7cd3aaa25a27960fd679db2056791376814efa87311f146e4ab823c44a77eeaa",
+		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro_Setup.10.2.116.0.exe",
+		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.10.2.116.0.exe",
+		"HashX8632": "263c3fdadb65ac1d45d9dd130fee5923c176a0e615582abcd467056059416d06",
+		"HashX8664": "fb53b87ee028329fd67c00a6aed8570f920884912daeb1a1add547975bd9b89d",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html",
 		"WingetId": "2BrightSparks.SyncBackPro"
