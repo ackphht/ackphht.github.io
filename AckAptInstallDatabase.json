@@ -1070,11 +1070,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2023.1.1",
+		"Version": "2023.1.2",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.1/JetBrains.dotUltimate.2023.1.1.web.exe",
-		"HashX8632": "297e6a110a3328a9de446e1c0414247aeeb8d7a2f9f43e1e6a6704b8d9701288",
+		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.2/JetBrains.dotUltimate.2023.1.2.web.exe",
+		"HashX8632": "f73b56f6e2b68381e16964f29b0a35182d73864345d28305ee434300f0e8309c",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
