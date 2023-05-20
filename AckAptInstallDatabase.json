@@ -413,7 +413,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.19.0.5156",
+		"Version": "6.19.1.5263",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8632": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
@@ -943,14 +943,14 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.0.3",
+		"Version": "5.0.5",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
-		"UrlX8664": "https://github.com/paintdotnet/release/releases/download/v5.0.3/paint.net.5.0.3.install.x64.zip",
-		"UrlArm64": "https://github.com/paintdotnet/release/releases/download/v5.0.3/paint.net.5.0.3.install.arm64.zip",
-		"HashX8664": "2RCTw2RR2qE1KgyMogjIGg==",
-		"HashArm64": "zYUIbvEiYefBTd+9ZOgIXg==",
+		"UrlX8664": "https://github.com/paintdotnet/release/releases/download/v5.0.5/paint.net.5.0.5.install.x64.zip",
+		"UrlArm64": "https://github.com/paintdotnet/release/releases/download/v5.0.5/paint.net.5.0.5.install.arm64.zip",
+		"HashX8664": "FNGj/+4m2tBtIQUyhzAauQ==",
+		"HashArm64": "BqoG6PR2hIDZf7e46pK6cQ==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html",
 		"GitHubId": "paintdotnet/release"
