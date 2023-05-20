@@ -978,12 +978,12 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.3.0.0",
+		"Version": "3.3.1",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)\r\nhttps://github.com/pia-foss/desktop",
 		"Type": "exe",
-		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3-06906.exe",
-		"HashX8664": "1fdc61f2283d117bc707b55ce3cca172826e7e924020f85b6ffc512d3d525872",
-		"AppPage": "https://www.privateinternetaccess.com/pages/download",
+		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3.1-06924.exe",
+		"HashX8664": "5a9d98995f8c388eee2b92d5fb15c8d346c2cb1ef9b9c12922d2bd5bfc57b175",
+		"AppPage": "https://www.privateinternetaccess.com/download/windows-vpn#download-windows",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
 	},
 	{
