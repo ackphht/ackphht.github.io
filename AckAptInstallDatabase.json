@@ -831,11 +831,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.17.11391",
+		"Version": "1.17.11461",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.17.11391.0/Microsoft.WindowsTerminal_1.17.11391.0_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "2C46A63C764C37DD602250F9173E30603F708780CB3D55C7381EE8126311B828",
+		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.17.11461.0/Microsoft.WindowsTerminal_1.17.11461.0_8wekyb3d8bbwe.msixbundle",
+		"HashX8632": "E3A5A581F2A404D9D97F6826890BE9FD7BFC827498035D6C45E1C12F9D2D4E8F",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
