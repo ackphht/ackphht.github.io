@@ -671,10 +671,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.53.1",
+		"Version": "2.54.0",
 		"Type": "inno",
-		"UrlX8632": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.53.1/KeePass-2.53.1-Setup.exe/download",
-		"HashX8632": "BncnyqeC9T9iMvj1m8lFOE/OmIF7AUMAA5soSHwGpc0=",
+		"UrlX8632": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.54/KeePass-2.54-Setup.exe/download",
+		"HashX8632": "vehAZhuwjhDhLt/Un3fiYgxhKb1hYEbk2lCHJCnHcf0=",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
