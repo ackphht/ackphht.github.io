@@ -71,7 +71,6 @@
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"AppPage": "https://autohotkey.com/download/",
-		"PreferWinget": true,
 		"WingetId": "AutoHotkey.AutoHotkey",
 		"WingetNoUpgrade": true,
 		"GitHubId": "AutoHotkey/AutoHotkey"
