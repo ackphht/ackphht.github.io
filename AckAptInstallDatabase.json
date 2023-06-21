@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.003.20201",
+		"Version": "2023.003.20215",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320201/AcroRdrDCx642300320201_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320215/AcroRdrDCx642300320215_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -880,10 +880,10 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "18.16.0",
+		"Version": "18.16.1",
 		"Type": "msi",
-		"UrlX8664": "https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi",
-		"HashX8664": "5bfb6f3ab89e198539408f7e0e8ec0b0bd5efe8898573ec05b381228efb45a5d",
+		"UrlX8664": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-x64.msi",
+		"HashX8664": "e1902d304867a9bf650c36073c25765a0d8dde00165f83f7e4229c598f3a5476",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
