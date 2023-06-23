@@ -1074,7 +1074,7 @@
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
 		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.3/JetBrains.dotUltimate.2023.1.3.web.exe",
-		"HashX8632": "b542b989bbcefe276723baeb34294f7ad5b7978339573d6a9e23417dab25c92f",
+		"HashX8632": "415c7c3a88588265160ca56f2f2cc6be93784fe7bbc323fc5c859fcac7bffe68",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
