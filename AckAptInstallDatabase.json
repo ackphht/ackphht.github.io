@@ -482,13 +482,12 @@
 	},
 	{
 		"Name": "GnuCash",
-		"Version": "5.1",
+		"Version": "5.2",
 		"Type": "inno",
-		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.1/gnucash-5.1.setup.exe",
-		"HashX8632": "3ddc5547b5694a11a33e21e4110d1adb908f04995637a54bfa930df68c7df014",
+		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.2/gnucash-5.2.setup.exe",
+		"HashX8632": "8299701f54d9b19743cbe90f1f369a4c998fd87436571d1b8fc630e7c71ffc13",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\gnucash\" /TYPE=custom /COMPONENTS=main,templates /TASKS=-desktopicon,menuicon",
 		"AppPage": "https://gnucash.org/download",
-		"PreferWinget": true,
 		"WingetId": "GnuCash.GnuCash",
 		"WingetScope": "user",
 		"GitHubId": "Gnucash/gnucash"
