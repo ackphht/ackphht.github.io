@@ -962,10 +962,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.3.4",
+		"Version": "7.3.5",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.4/PowerShell-7.3.4-win-x64.msi",
-		"HashX8664": "61B31EC847D4FDC4D39050F4F650968C55ACF6F16CB66B1F00BF05DB4E946559",
+		"UrlX8664": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-x64.msi",
+		"HashX8664": "CF0C8BD757EEC6434A5830352EA6F15ACE237296BB7E4AE778F7707583023AC3",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreferWinget": true,
@@ -1091,12 +1091,11 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.13",
+		"Version": "3.4.14",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.13.exe",
+		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.14.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
-		"PreferWinget": true,
 		"WingetId": "Atlassian.Sourcetree",
 		"WingetScope": "user"
 	},
