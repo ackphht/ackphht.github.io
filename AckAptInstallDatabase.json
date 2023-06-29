@@ -968,7 +968,6 @@
 		"HashX8664": "CF0C8BD757EEC6434A5830352EA6F15ACE237296BB7E4AE778F7707583023AC3",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.PowerShell",
 		"GitHubId": "PowerShell/PowerShell"
 	},
