@@ -1161,10 +1161,10 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "23.1.0",
+		"Version": "23.2.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v23.1/stellarium-23.1-qt6-win64.exe",
-		"HashX8664": "24f17311aacd464ce6cc600f873f870d73dd5b68c4e5b84573e69b80a57278d9",
+		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v23.2/stellarium-23.2-qt6-win64.exe",
+		"HashX8664": "faf7913c9ff87d5844d2fbe61f97f56da8161b4e2d6932fadc52d0da318222a2",
 		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
 		"WingetId": "Stellarium.Stellarium",
