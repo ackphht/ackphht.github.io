@@ -839,13 +839,13 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "77.0.0",
+		"Version": "78.0.0",
 		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
-		"UrlX8664": "https://mkvtoolnix.download/windows/releases/77.0/mkvtoolnix-64-bit-77.0-setup.exe",
-		"HashX8664": "13ffa56fe85fbe9fc15ef421a410d77617610063da280c8fb9df72661d6f72fa",
+		"UrlX8664": "https://mkvtoolnix.download/windows/releases/78.0/mkvtoolnix-64-bit-78.0-setup.exe",
+		"HashX8664": "c82913525b18e6c44a25fce3f97e6453b989178a1c0a3b6fb2f1999011f80c40",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
-		"WingetId": "MoritzBunkus.MKVToolNix ??"
+		"WingetId": "MoritzBunkus.MKVToolNix"
 	},
 	{
 		"Name": "Mp3tag",
@@ -1184,13 +1184,13 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.122",
+		"Version": "10.2.129",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
 		"Type": "exe",
-		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro_Setup.10.2.122.0.exe",
-		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.10.2.122.0.exe",
-		"HashX8632": "1290c8b46c4d3a9c45f53a94a64751809ff83ac4ced063d239ad3fcebea2f727",
-		"HashX8664": "a7e1695babc6879715848389b6eeb4cc330863c55c5db3bdc1edb6492d3373af",
+		"UrlX8632": "https://www.2brightsparks.com/assets/software/SyncBackPro_Setup.exe",
+		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
+		"HashX8632": "da261307e358f7666e4e780493f134a6e6a689d559d9b3a363f5d2fb7dcdd04f",
+		"HashX8664": "42df11246aaa7563999e6ea072b85f19d24651201f2c8d1f4fff2f5a2a87922e",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html",
 		"WingetId": "2BrightSparks.SyncBackPro"
