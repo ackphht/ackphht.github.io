@@ -89,14 +89,13 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.49.0",
+		"Version": "2.50.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.49.0.msi",
-		"HashX8632": "f7pI3Y9+ak/ECEcT+gfacQ==",
+		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.50.0.msi",
+		"HashX8632": "P0QogT9gjeKrHto6DkSgCg==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureCLI"
 	},
 	{
@@ -171,10 +170,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.0",
+		"Version": "1.5.1",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.0/clink.1.5.0.b4f287_setup.exe",
-		"HashX8632": "fxpNkRR+jlbZjoJIOhB0tw==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.1/clink.1.5.1.1e9e51_setup.exe",
+		"HashX8632": "vaRKAUvG7mWxPAjexI28JA==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -192,11 +191,11 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.21.0",
+		"Version": "4.21.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.docker.com/win/main/amd64/113844/Docker%20Desktop%20Installer.exe",
-		"HashX8664": "ce52efa6d862befd79d9b46e2e1a1d7b0534ba367f90d5d90bd885b033eed53b",
+		"UrlX8664": "https://desktop.docker.com/win/main/amd64/114176/Docker%20Desktop%20Installer.exe",
+		"HashX8664": "7d7e81a9f8273b1c404201eccf04ef67a26bbad85805d246007e9e7bc80ddd74",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
