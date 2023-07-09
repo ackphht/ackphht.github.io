@@ -526,6 +526,19 @@
 		"WingetId": "GnuPG.Gpg4win"
 	},
 	{
+		"Name": "gsudo",
+		"Version": "2.1.0",
+		"Type": "msi",
+		"UrlX8664": "https://github.com/gerardog/gsudo/releases/download/v2.1.0/gsudo.setup.x64.msi",
+		"UrlArm64": "https://github.com/gerardog/gsudo/releases/download/v2.1.0/gsudo.setup.arm64.msi",
+		"HashX8664": "3ba8a3f79aa5408944797038ee57d93d1e331a77b960a2b0f3bb2e0b7a18d9e3",
+		"HashArm64": "af00f648042db2331ecd6dd67c8e4cb996700ce872ce251609306e68b45f3e10",
+		"InstallerArguments": "/passive /norestart",
+		"AppPage": "https://gerardog.github.io/gsudo",
+		"WingetId": "gerardog.gsudo",
+		"GitHubId": "gerardog/gsudo"
+	},
+	{
 		"Name": "Handbrake",
 		"Version": "1.6.1",
 		"Type": "nsis",
