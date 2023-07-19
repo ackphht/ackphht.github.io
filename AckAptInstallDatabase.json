@@ -48,7 +48,6 @@
 		"HashX8664": "379a03b37fba8d4b71e10cb0034e303e43cb2fbffb9af423a7b87be3b32bf94d",
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
-		"PreferWinget": true,
 		"WingetId": "Audacity.Audacity",
 		"GitHubId": "audacity/audacity"
 	},
@@ -108,7 +107,6 @@
 		"HashArm64": "h7RykH4+giDSrMsjTwIC4w==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureDataStudio",
 		"WingetScope": "user",
 		"GitHubId": "Microsoft/azuredatastudio"
@@ -417,7 +415,6 @@
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\Free Download Manager\"",
 		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
-		"PreferWinget": true,
 		"WingetId": "SoftDeluxe.FreeDownloadManager",
 		"WingetScope": "user"
 	},
@@ -429,7 +426,6 @@
 		"HashX8632": "1cf2f422e4ab887415222d736313a38372012c5f3f46a2d2cff18245b22d04cd",
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
-		"PreferWinget": true,
 		"WingetId": "GIMP.GIMP",
 		"WingetScope": "user"
 	},
@@ -471,7 +467,6 @@
 		"HashX8664": "lR4B8wA/QcreBPtPtby0uQ==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
-		"PreferWinget": true,
 		"WingetId": "GitHub.GitHubDesktop",
 		"WingetScope": "user"
 	},
@@ -543,7 +538,6 @@
 		"HashX8664": "7b3ab4a232913174b365eb918d7978852a7a36fd38d20d4bb42aa184f113a130",
 		"HashArm64": "e8bce5985c532fb5df0833c38678591aa7ccb40d5a5e44ca5b831a504fb3bcca",
 		"AppPage": "https://handbrake.fr/downloads.php",
-		"PreferWinget": true,
 		"WingetId": "HandBrake.HandBrake",
 		"GitHubId": "HandBrake/HandBrake"
 	},
@@ -576,7 +570,6 @@
 		"HashArm64": "d3b647d0f678d7c8c5ce5c99bce889951d93c298b8e11c79f4d2cc16c996829a",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
-		"PreferWinget": true,
 		"WingetId": "ImageMagick.ImageMagick",
 		"GitHubId": "ImageMagick/ImageMagick"
 	},
@@ -588,7 +581,6 @@
 		"UrlX8664": "https://inkscape.org/gallery/item/37366/inkscape-1.2.2_2022-12-09_732a01da63-x64.msi",
 		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
 		"AppPage": "https://inkscape.org/release/",
-		"PreferWinget": true,
 		"WingetId": "Inkscape.Inkscape",
 		"WingetNoUpgrade": true
 	},
@@ -601,7 +593,6 @@
 		"HashX8632": "aec284eb30738b6be26fcc0bcfeda0517258caa90c638fb6f8fc642fbf71a396",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
-		"PreferWinget": true,
 		"WingetId": "JetBrains.IntelliJIDEA.Community",
 		"WingetVersion": "221.5921.22"
 	},
@@ -668,7 +659,6 @@
 		"PostInstallMessage": "done installing JRE; you can re-enable to network now. . .",
 		"InstallerArguments": "REBOOT=0 SPONSORS=0 AUTO_UPDATE=0 REMOVEOUTOFDATEJRES=1",
 		"AppPage": "https://www.java.com/en/download/manual.jsp",
-		"PreferWinget": true,
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
 		"WingetVersion": "8.0.3610.9",
 		"WingetNoUpgrade": true
@@ -714,7 +704,6 @@
 		"Type": "nsis",
 		"UrlX8664": "https://api.k8slens.dev/binaries/Lens%20Setup%205.4.5-latest.20220405.1.exe",
 		"AppPage": "https://k8slens.dev#download",
-		"PreferWinget": true,
 		"WingetId": "Mirantis.Lens",
 		"WingetVersion": "5.4.5-latest.20220405",
 		"WingetScope": "user",
@@ -739,7 +728,6 @@
 		"HashX8632": "e/6pF79ck0ShbID9nrzMEA==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx",
-		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.5"
 	},
 	{
@@ -750,7 +738,6 @@
 		"HashX8632": "pOI+UksiTuq5exXFR2Py3g==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/Download.aspx",
-		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.6"
 	},
 	{
@@ -763,7 +750,6 @@
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
-		"PreferWinget": true,
 		"WingetId": "LINQPad.LINQPad.7"
 	},
 	{
@@ -800,7 +786,6 @@
 		"UrlArm64": "https://go.microsoft.com/fwlink/p/?LinkId=2124703",
 		"InstallerArguments": "/install",
 		"AppPage": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.EdgeWebView2Runtime"
 	},
 	{
@@ -859,7 +844,6 @@
 		"Type": "nsis",
 		"UrlX8664": "https://download.mp3tag.de/mp3tagv321-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
-		"PreferWinget": true,
 		"WingetId": "Mp3tag.Mp3tag"
 	},
 	{
@@ -869,7 +853,6 @@
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.0.0/MPC-HC.2.0.0.x64.exe",
 		"HashX8664": "gcuCtVL6ePQkCB5vigiEBw==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
-		"PreferWinget": true,
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
 	},
@@ -890,7 +873,6 @@
 		"HashX8664": "dabdc4e683f0d0a835952ea5df61139fa6b679e25121d1941a2ae77d29e989f4",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
-		"PreferWinget": true,
 		"WingetId": "OpenJS.NodeJS.LTS"
 	},
 	{
@@ -996,7 +978,6 @@
 		"HashX8632": "7dbf14bf070fffa24045b349807ac54504b029172e05a469f71e1761146a8c80",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
-		"PreferWinget": true,
 		"WingetId": "JetBrains.PyCharm.Community",
 		"WingetVersion": "221.5921.27"
 	},
@@ -1089,7 +1070,6 @@
 		"HashX8664": "9dd6bf318de813a0e2120dde81c4d17a7f6b7c3c1c25312f3adf68f23176713a",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
-		"PreferWinget": true,
 		"WingetId": "Sigil-Ebook.Sigil",
 		"WingetScope": "user",
 		"GitHubId": "Sigil-Ebook/Sigil"
@@ -1183,7 +1163,6 @@
 		"UrlX8664": "https://www.sumatrapdfreader.org/dl/rel/3.4.6/SumatraPDF-3.4.6-64-install.exe",
 		"InstallerArguments": "-s -install -d \"%LocalAppData%\\Programs\\SumatraPDF\"",
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
-		"PreferWinget": true,
 		"WingetId": "SumatraPDF.SumatraPDF",
 		"WingetScope": "user",
 		"GitHubId": "sumatrapdfreader/sumatrapdf"
@@ -1340,7 +1319,6 @@
 		"HashX8632": "f4baaa8135e0f9a993f0258a4d095db475096896bd3adb48369f1f70c1f0d9d4",
 		"HashX8664": "ba575f153d357eaf3fdbf446b9b93a12ced87c35887cdd83ad4281733eb86602",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
-		"PreferWinget": true,
 		"WingetId": "VideoLAN.VLC"
 	},
 	{
@@ -1361,7 +1339,6 @@
 		"UrlX8632": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/14fe35fa35c305b03032a885ff3ebefaf88fce5051ee84183d4c5de75783339e/vs_Community.exe",
 		"InstallerArguments": "--nocache --wait",
 		"AppPage": "https://visualstudio.microsoft.com/",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudio.2022.Community"
 	},
 	{
@@ -1395,7 +1372,6 @@
 		"HashArm64": "2fe7bd7e456674a73fe56b84fc6532214878c007b5574739a70fbda23ffb6013",
 		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
 		"AppPage": "http://winmerge.org/downloads/",
-		"PreferWinget": true,
 		"WingetId": "WinMerge.WinMerge",
 		"WingetScope": "machine",
 		"GitHubId": "WinMerge/winmerge"
