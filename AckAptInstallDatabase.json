@@ -884,10 +884,10 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "18.16.1",
+		"Version": "18.17.0",
 		"Type": "msi",
-		"UrlX8664": "https://nodejs.org/dist/v18.16.1/node-v18.16.1-x64.msi",
-		"HashX8664": "e1902d304867a9bf650c36073c25765a0d8dde00165f83f7e4229c598f3a5476",
+		"UrlX8664": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-x64.msi",
+		"HashX8664": "dabdc4e683f0d0a835952ea5df61139fa6b679e25121d1941a2ae77d29e989f4",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"PreferWinget": true,
@@ -1073,11 +1073,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2023.1.3",
+		"Version": "2023.1.4",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.3/JetBrains.dotUltimate.2023.1.3.web.exe",
-		"HashX8632": "415c7c3a88588265160ca56f2f2cc6be93784fe7bbc323fc5c859fcac7bffe68",
+		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.1.4/JetBrains.dotUltimate.2023.1.4.web.exe",
+		"HashX8632": "325c34f7aa8c7e9787b851a158f6717daa4c4e79165e439475682b17dc9fc21b",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
@@ -1302,20 +1302,20 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.8",
+		"Version": "7.0.10",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.8/VirtualBox-7.0.8-156879-Win.exe",
-		"HashX8664": "8a2da26ca69c1ddfc50fb65ee4fa8f269e692302046df4e2f48948775ba6339a",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.10/VirtualBox-7.0.10-158379-Win.exe",
+		"HashX8664": "62545b8eb17ddf27d5954ac5f8904814e12c5790d73daf545ef60bd97f4f2e12",
 		"InstallerArguments": "VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.8",
+		"Version": "7.0.10",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.8/Oracle_VM_VirtualBox_Extension_Pack-7.0.8.vbox-extpack",
-		"HashX8664": "452320f3b1da42b30c32ea5ab5887983b575638ceb4e3beacfefbbb3b0510a48",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.10/Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack",
+		"HashX8664": "af84dccac488df72bfaeb1eb8c922ba466668561a6ac05c64a7f8b6ebdddbaeb",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1 # > $null\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
