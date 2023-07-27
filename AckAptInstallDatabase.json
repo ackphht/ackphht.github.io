@@ -99,12 +99,12 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.44.1",
+		"Version": "1.45.0",
 		"Type": "inno",
-		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2237020",
-		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2237126",
-		"HashX8664": "EpiiS8tF78O8707xnORj1g==",
-		"HashArm64": "h7RykH4+giDSrMsjTwIC4w==",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2243234",
+		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2243236",
+		"HashX8664": "oQtPFuuA0XNwh+Q98FIXpg==",
+		"HashArm64": "D45gpTU6QU5RvV+UZUP7ZA==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"WingetId": "Microsoft.AzureDataStudio",
@@ -985,15 +985,14 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2022.1.3",
+		"Version": "2023.2.0",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2022.1.3.exe",
-		"HashX8632": "7dbf14bf070fffa24045b349807ac54504b029172e05a469f71e1761146a8c80",
+		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.exe",
+		"HashX8632": "b76c7a5b9ffb618350e24c53579141db3e17e1c9f26b268bf90a5264a61497e9",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
-		"WingetId": "JetBrains.PyCharm.Community",
-		"WingetVersion": "221.5921.27"
+		"WingetId": "JetBrains.PyCharm.Community"
 	},
 	{
 		"Name": "python2.7",
