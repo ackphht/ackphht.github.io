@@ -188,6 +188,20 @@
 		"GitHubId": "Maximus5/ConEmu"
 	},
 	{
+		"Name": "curl",
+		"Version": "8.2.1",
+		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\r\nhttps://curl.se/",
+		"Type": "script",
+		"UrlX8664": "https://curl.se/windows/dl-8.2.1_1/curl-8.2.1_1-win64-mingw.zip",
+		"UrlArm64": "https://curl.se/windows/dl-8.2.1_1/curl-8.2.1_1-win64a-mingw.zip",
+		"HashX8664": "62b45d14f79b18c4b85da3fe87afc4eb9e44cde0364ce31613cc1007fb1cb01b",
+		"HashArm64": "7656eb82107553de45da2362654ca367a471f0bf6a86851477700dc2c521606c",
+		"AppPage": "https://curl.se/windows/",
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\n# just open folder so we can copy the file whereever we want it:\nexplorer.exe $context.DownloadFolder",
+		"WingetId": "cURL.cURL",
+		"GitHubId": "curl/curl"
+	},
+	{
 		"Name": "DockerDesktop",
 		"Version": "4.21.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
