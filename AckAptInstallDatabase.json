@@ -22,11 +22,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.11.2432",
+		"Version": "5.11.2434",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.11.2432_w64.exe",
-		"HashX8664": "bbf47f42ac328fc016bf4b114d34547b84aa7228bdd590db069318e29c17c814",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.11.2434_w64.exe",
+		"HashX8664": "486375cc5480143ef1e6262c79a79ce179a5bbdb5d82465bd40841ed38c2ed43",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
@@ -88,11 +88,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.50.0",
+		"Version": "2.51.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.50.0.msi",
-		"HashX8632": "P0QogT9gjeKrHto6DkSgCg==",
+		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.51.0.msi",
+		"HashX8632": "4/Q8sYI1DWc26V+LfuFYgQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"WingetId": "Microsoft.AzureCLI"
