@@ -566,9 +566,12 @@
 	},
 	{
 		"Name": "ILSpy",
-		"Version": "8.0.0",
+		"Version": "8.1.0",
 		"Type": "msi",
-		"UrlX8632": "https://github.com/icsharpcode/ILSpy/releases/download/v8.0/ILSpy_Installer_8.0.0.7345.msi",
+		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v8.1/ILSpy_Installer_8.1.0.7455-x64.msi",
+		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v8.1/ILSpy_Installer_8.1.0.7455-arm64.msi",
+		"HashX8664": "hmUBaai5i8kBtoeeoKU29Q==",
+		"HashArm64": "jWuYgPHcyxZJONn5Ue2tdA==",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
 		"WingetId": "icsharpcode.ILSpy",
 		"GitHubId": "icsharpcode/ILSpy"
