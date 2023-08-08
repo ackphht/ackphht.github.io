@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.003.20215",
+		"Version": "2023.003.20269",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320215/AcroRdrDCx642300320215_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320269/AcroRdrDCx642300320269_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -99,12 +99,12 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.45.0",
+		"Version": "1.45.1",
 		"Type": "inno",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2243234",
 		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2243236",
-		"HashX8664": "oQtPFuuA0XNwh+Q98FIXpg==",
-		"HashArm64": "D45gpTU6QU5RvV+UZUP7ZA==",
+		"HashX8664": "nJ3fxjLWj/yXI53weDTsZw==",
+		"HashArm64": "77yNjqvAA3r4NxzGP6vJIw==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"WingetId": "Microsoft.AzureDataStudio",
