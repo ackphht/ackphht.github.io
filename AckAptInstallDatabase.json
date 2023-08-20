@@ -848,11 +848,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "78.0.0",
+		"Version": "79.0.0",
 		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
-		"UrlX8664": "https://mkvtoolnix.download/windows/releases/78.0/mkvtoolnix-64-bit-78.0-setup.exe",
-		"HashX8664": "c82913525b18e6c44a25fce3f97e6453b989178a1c0a3b6fb2f1999011f80c40",
+		"UrlX8664": "https://mkvtoolnix.download/windows/releases/79.0/mkvtoolnix-64-bit-79.0-setup.exe",
+		"HashX8664": "f864b9c5cf4659c2b32b8838414f0214026a64075b327f2e23f1358979f4ca3b",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix"
 	},
@@ -1081,10 +1081,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "1.9.30",
+		"Version": "2.0.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/1.9.30/Sigil-1.9.30-Windows-x64-Setup.exe",
-		"HashX8664": "9dd6bf318de813a0e2120dde81c4d17a7f6b7c3c1c25312f3adf68f23176713a",
+		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.0.0/Sigil-2.0.0-Windows-x64-Setup.exe",
+		"HashX8664": "e37f48f285501481195992fd44f48fe6bb2b292ca709f3e38300b99e6eadcae5",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
