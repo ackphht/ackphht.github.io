@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.003.20269",
+		"Version": "2023.003.20284",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320269/AcroRdrDCx642300320269_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300320284/AcroRdrDCx642300320284_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -454,10 +454,10 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.41.0.3",
+		"Version": "2.42.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe",
-		"HashX8664": "d7059a66b4598384ccd7df4556ad59a516ee99a722c0d38e5de75c1bad39ba6c",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.1/Git-2.42.0-64-bit.exe",
+		"HashX8664": "ce95be32ae58fee3ada7b997c519b60d60c6fb1bda7a305336103881de724902",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"WingetId": "Git.Git",
