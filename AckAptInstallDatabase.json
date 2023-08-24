@@ -858,9 +858,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.21",
+		"Version": "3.22",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv321-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv322-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag"
 	},
@@ -1071,11 +1071,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2023.2.0",
+		"Version": "2023.2.1",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.2/JetBrains.dotUltimate.2023.2.web.exe",
-		"HashX8632": "f0906d8ab23beb5263774724eb14d4ae97aff7fd8f9ee03db9cfba004dfe71b3",
+		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.2.1/JetBrains.dotUltimate.2023.2.1.web.exe",
+		"HashX8632": "0bcddda63524ceccdb271fb98a845a35414d0c047389d8bd202b4e38fdcea4b8",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
@@ -1404,11 +1404,11 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.0.7",
+		"Version": "4.0.8",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "nsis",
-		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-win64-4.0.7.exe",
-		"HashX8664": "7e05d013f33b21366b6d3663acdb2143549e83704ca646737fe65298f244a381",
+		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-win64-4.0.8.exe",
+		"HashX8664": "8243e019d2bd73c81de53c67ddb23d877ecec2fc1699c9aa074ccaa2d7d9b267",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark"
 	}
