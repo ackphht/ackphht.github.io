@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.5",
+		"Version": "2.0.6",
 		"Type": "exe",
-		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.5/AutoHotkey_2.0.5_setup.exe",
-		"HashX8632": "f815e34b79e1357b7defc86d467077293f56b4cac373394c01a66adabacf3350",
+		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.6/AutoHotkey_2.0.6_setup.exe",
+		"HashX8632": "2df6d9782b8656772c842c22b6582ee91782bde800f345491a71eb72c294e6fc",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
