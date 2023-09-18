@@ -1380,6 +1380,14 @@
 		"UrlX8632": "http://go.microsoft.com/fwlink/?LinkId=255386"
 	},
 	{
+		"Name": "WinDbg",
+		"Version": "0.0.0",
+		"Notes": "not on store anymore; downloads an \"appinstaller\" which in turn downloads an msix\r\nit autoupdates; can turn off in Windows Settings->Apps->Installed Apps->WinDbg, but meh",
+		"Type": "msix",
+		"UrlX8632": "https://aka.ms/windbg/download",
+		"AppPage": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/"
+	},
+	{
 		"Name": "WinMerge",
 		"Version": "2.16.32",
 		"Type": "inno",
