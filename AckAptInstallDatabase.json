@@ -968,10 +968,10 @@
 	},
 	{
 		"Name": "PowerShellCore",
-		"Version": "7.3.6",
+		"Version": "7.3.7",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.6/PowerShell-7.3.6-win-x64.msi",
-		"HashX8664": "758e130dc13708a72cee29db0b8efd987376a4a4a22114c3b00d50cf7295d35e",
+		"UrlX8664": "https://github.com/PowerShell/PowerShell/releases/download/v7.3.7/PowerShell-7.3.7-win-x64.msi",
+		"HashX8664": "9168BB9F166FF41A3E6A580DCB4189174F0563EE9DC438408C090A92FF1DCBFC",
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"WingetId": "Microsoft.PowerShell",
