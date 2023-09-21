@@ -99,12 +99,12 @@
 	},
 	{
 		"Name": "AzureDataStudio",
-		"Version": "1.45.1",
+		"Version": "1.46.0",
 		"Type": "inno",
-		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2243234",
-		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2243236",
-		"HashX8664": "nJ3fxjLWj/yXI53weDTsZw==",
-		"HashArm64": "77yNjqvAA3r4NxzGP6vJIw==",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2247827",
+		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2247733",
+		"HashX8664": "4jtqXSoSUBqhhzGG5tJVAA==",
+		"HashArm64": "qcGthzFvpQiNeDxATGQcLA==",
 		"InstallerArguments": "/SP- /SILENT /MERGETASKS=!runCode,!addtopath,!desktopicon,!associatewithfiles",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"WingetId": "Microsoft.AzureDataStudio",
@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.5",
+		"Version": "1.5.6",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.5/clink.1.5.5.d4594d_setup.exe",
-		"HashX8632": "aSlbVuWAY2hacPn9QtN0jw==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.6/clink.1.5.6.fc63d3_setup.exe",
+		"HashX8632": "hS1aUv62FLqviiD/c1YdiA==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -858,9 +858,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.22",
+		"Version": "3.22.2",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv322-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv322b-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag"
 	},
@@ -979,11 +979,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.3.1",
+		"Version": "3.5.0",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)\r\nhttps://github.com/pia-foss/desktop",
 		"Type": "exe",
-		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.3.1-06924.exe",
-		"HashX8664": "5a9d98995f8c388eee2b92d5fb15c8d346c2cb1ef9b9c12922d2bd5bfc57b175",
+		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5-07703.exe",
+		"HashX8664": "ed451dba735086a2e35c9f5366e1f9d8a916709261db5eb2c9b92a1de49b81f8",
 		"AppPage": "https://www.privateinternetaccess.com/download/windows-vpn#download-windows",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
 	},
