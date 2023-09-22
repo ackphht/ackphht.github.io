@@ -147,10 +147,10 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "6.26.0",
+		"Version": "6.27.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v6.26.0/calibre-64bit-6.26.0.msi",
-		"HashX8664": "QwNjAVdISTQTzesfMFkEUw==",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v6.27.0/calibre-64bit-6.27.0.msi",
+		"HashX8664": "2b4wewg7m2XIIqlaCQ3oOQ==",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -558,10 +558,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.46",
+		"Version": "6.7.4.47",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/061623/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/092123/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
