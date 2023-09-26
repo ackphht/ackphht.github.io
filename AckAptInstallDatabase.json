@@ -88,11 +88,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.52.0",
+		"Version": "2.53.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.52.0.msi",
-		"HashX8632": "yyh4A63TJ1JAaB0wWzX77g==",
+		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.53.0.msi",
+		"HashX8632": "VhoZD8phE1YSgmEeR/1dvQ==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"WingetId": "Microsoft.AzureCLI"
@@ -1071,11 +1071,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2023.2.1",
+		"Version": "2023.2.2",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.2.1/JetBrains.dotUltimate.2023.2.1.web.exe",
-		"HashX8632": "0bcddda63524ceccdb271fb98a845a35414d0c047389d8bd202b4e38fdcea4b8",
+		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.2.2/JetBrains.dotUltimate.2023.2.2.web.exe",
+		"HashX8632": "68f95b4ad4d75a7e3720c9ce87de2127b8a82f3e79c9db3e6deee0a11677ab8c",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/"
 	},
@@ -1093,10 +1093,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.14",
+		"Version": "3.4.15",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.14.exe",
+		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.15.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"WingetId": "Atlassian.Sourcetree",
 		"WingetScope": "user"
