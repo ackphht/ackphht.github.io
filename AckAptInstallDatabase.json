@@ -958,6 +958,18 @@
 		"GitHubId": "paintdotnet/release"
 	},
 	{
+		"Name": "PlexMediaPlayer",
+		"Version": "1.79.1",
+		"Notes": "https://plex.tv/api/downloads/6.json",
+		"Type": "exe",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.79.1.3984-879339ed/windows/Plex-1.79.1.3984-879339ed-x86_64.exe",
+		"HashX8664": "ed605071b6208ab9a1842b2c2f75bc9a13e2be0f",
+		"ValidExitCodes": "0,1223",
+		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
+		"PreferWinget": true,
+		"WingetId": "Plex.Plex"
+	},
+	{
 		"Name": "Postman",
 		"Version": "8.12.5.0",
 		"Notes": "https://www.postman.com/downloads/release-notes#changelog-windows-app",
