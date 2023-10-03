@@ -22,11 +22,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.11.2434",
+		"Version": "5.11.2436",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.11.2434_w64.exe",
-		"HashX8664": "486375cc5480143ef1e6262c79a79ce179a5bbdb5d82465bd40841ed38c2ed43",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.11.2436_w64.exe",
+		"HashX8664": "b08cf421934286246af405a281cebf7c486117403816a01c4e9428d7b074e2a7",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
@@ -966,7 +966,6 @@
 		"HashX8664": "ed605071b6208ab9a1842b2c2f75bc9a13e2be0f",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
-		"PreferWinget": true,
 		"WingetId": "Plex.Plex"
 	},
 	{
@@ -1001,11 +1000,11 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2023.2.1",
+		"Version": "2023.2.2",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.1.exe",
-		"HashX8632": "d54949d4f495738d51bdf993bde46fced41902df845b6e7aceb021d6837cb25c",
+		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.2.exe",
+		"HashX8632": "053b5b6a25384ca081a2e3cfe112fa42e09fb73944d5df7030c5d6a687480d99",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"WingetId": "JetBrains.PyCharm.Community"
@@ -1362,13 +1361,13 @@
 	},
 	{
 		"Name": "VSCode",
-		"Version": "1.82.2",
+		"Version": "1.82.3",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json: https://code.visualstudio.com/sha?build=stable",
 		"Type": "inno",
-		"UrlX8664": "https://az764295.vo.msecnd.net/stable/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/VSCodeUserSetup-x64-1.82.2.exe",
-		"UrlArm64": "https://az764295.vo.msecnd.net/stable/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/VSCodeUserSetup-arm64-1.82.2.exe",
-		"HashX8664": "7730e2c2b79480ebd3487e20b1242448768c4605ae0ac427ad210fe09296d7b9",
-		"HashArm64": "32b53864b92ddfa0312b8274e241fa3031187de3520119746fdea21b5b0b0203",
+		"UrlX8664": "https://az764295.vo.msecnd.net/stable/fdb98833154679dbaa7af67a5a29fe19e55c2b73/VSCodeUserSetup-x64-1.82.3.exe",
+		"UrlArm64": "https://az764295.vo.msecnd.net/stable/fdb98833154679dbaa7af67a5a29fe19e55c2b73/VSCodeUserSetup-arm64-1.82.3.exe",
+		"HashX8664": "811dc91817a5e8e47d23d67254bd6ea96c682f46ea28e9629c566ee39e7fbc64",
+		"HashArm64": "bb9f379cd4653d5db8e84a62f14f9a262248cd4f4a6cf6258b98a17e35d61a9b",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"WingetId": "Microsoft.VisualStudioCode",
