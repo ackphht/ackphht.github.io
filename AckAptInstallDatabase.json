@@ -203,11 +203,11 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.24.0",
+		"Version": "4.24.1",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.docker.com/win/main/amd64/122432/Docker%20Desktop%20Installer.exe",
-		"HashX8664": "596616cd8d8a11503aa7eedbd561ffef1c2c65187059931aaff6ca28e5d06d29",
+		"UrlX8664": "https://desktop.docker.com/win/main/amd64/123237/Docker%20Desktop%20Installer.exe",
+		"HashX8664": "1b74f859abb896b63952060bcc7d16086bfbaaee86aedd845f0639884cb78c4f",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --quiet --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
@@ -1404,20 +1404,20 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.23.0",
+		"Version": "6.24.0",
 		"Type": "exe",
-		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-623.exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-623.exe",
+		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-624.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-624.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR"
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.0.8",
+		"Version": "4.0.10",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "nsis",
-		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-win64-4.0.8.exe",
-		"HashX8664": "8243e019d2bd73c81de53c67ddb23d877ecec2fc1699c9aa074ccaa2d7d9b267",
+		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-win64-4.0.10.exe",
+		"HashX8664": "085d9aa4f6614730f132fb5c28ec5fa445dea79687e4c648d586de569ffcc5e2",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark"
 	}
