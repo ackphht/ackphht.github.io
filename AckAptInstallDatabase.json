@@ -1329,13 +1329,11 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.18",
+		"Version": "3.0.19",
 		"Notes": "update check calls: http://update.videolan.org/vlc/status-win-x64\nhave their own git server: git://git.videolan.org/vlc.git",
 		"Type": "nsis",
-		"UrlX8632": "http://download.videolan.org/pub/videolan/vlc/3.0.18/win32/vlc-3.0.18-win32.exe",
-		"UrlX8664": "http://download.videolan.org/pub/videolan/vlc/3.0.18/win64/vlc-3.0.18-win64.exe",
-		"HashX8632": "f4baaa8135e0f9a993f0258a4d095db475096896bd3adb48369f1f70c1f0d9d4",
-		"HashX8664": "ba575f153d357eaf3fdbf446b9b93a12ced87c35887cdd83ad4281733eb86602",
+		"UrlX8664": "http://download.videolan.org/pub/videolan/vlc/3.0.19/win64/vlc-3.0.19-win64.exe",
+		"HashX8664": "409e0cb6f80c840aefa6f7f48d168b3cce63eb1bb1a67b44929f6d6dd1bc8fe5",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
 		"WingetId": "VideoLAN.VLC"
 	},
