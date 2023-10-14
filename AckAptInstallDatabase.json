@@ -885,10 +885,10 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "18.17.0",
+		"Version": "18.18.2",
 		"Type": "msi",
-		"UrlX8664": "https://nodejs.org/dist/v18.17.0/node-v18.17.0-x64.msi",
-		"HashX8664": "dabdc4e683f0d0a835952ea5df61139fa6b679e25121d1941a2ae77d29e989f4",
+		"UrlX8664": "https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi",
+		"HashX8664": "221f2a904f13105122a108fb735a8f89615864c7bcba3842fa1ef684f136abe3",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"WingetId": "OpenJS.NodeJS.LTS"
@@ -1123,21 +1123,21 @@
 	},
 	{
 		"Name": "SqlServer2019CU",
-		"Version": "15.0.4322.2",
-		"Notes": "Cumulative Update 22 [KB5027702]",
+		"Version": "15.0.4335.1",
+		"Notes": "Cumulative Update 23 [KB5030333]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5027702-x64.exe",
-		"HashX8632": "485CA89F201C3E9E3990D43FDACF9AA70A1DDA589814E395F082C4B4E7C910D6",
+		"UrlX8632": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5030333-x64.exe",
+		"HashX8632": "C79367EF48F653A31F98BB8A0CACF382B1C59D290F48E2A6F19D0F6171B31421",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4075.1",
-		"Notes": "Cumulative Update 8 [KB5029666]",
+		"Version": "16.0.4085.2",
+		"Notes": "Cumulative Update 9 [KB5030731]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5029666-x64.exe",
-		"HashX8632": "505FF05430527FF1549DA0778C1710D433915D25C510CA261C850BF58C3EC2D2",
+		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5030731-x64.exe",
+		"HashX8632": "FB55DACF5D956F05BFFB7CA583C30D68A412621C316D1A24C8A828F86A473884",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
