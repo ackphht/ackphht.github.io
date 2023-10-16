@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.9",
+		"Version": "1.5.10",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.9/clink.1.5.9.411d0f_setup.exe",
-		"HashX8632": "H/BRcOvBGg8QsVsxR5A2xQ==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.10/clink.1.5.10.faf29d_setup.exe",
+		"HashX8632": "wjWDRXdFQ11A7wJQ/49DEw==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
