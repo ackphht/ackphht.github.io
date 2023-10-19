@@ -815,7 +815,7 @@
 		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-aarch64.msi",
 		"HashX8664": "dde134cc2aa99cfd46e6f0c44f00be131011a3ef0af6f99932c5e325d413691c",
 		"HashArm64": "47875427607d91acab67a9dd29d4ecab8b1ba9e0e00e7f2bffd032bd76b2916a",
-		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureMain,FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-hotspot\" ADDLOCAL=FeatureMain,FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
