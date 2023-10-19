@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.10",
+		"Version": "1.5.11",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.10/clink.1.5.10.faf29d_setup.exe",
-		"HashX8632": "wjWDRXdFQ11A7wJQ/49DEw==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.11/clink.1.5.11.08c7e3_setup.exe",
+		"HashX8632": "loCNqk5sGefp6SDxxUeOjg==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -807,17 +807,17 @@
 		"WingetId": "Microsoft.EdgeWebView2Runtime"
 	},
 	{
-		"Name": "MicrosoftOpenJDK17",
-		"Version": "17.0.8.1",
+		"Name": "MicrosoftOpenJDK",
+		"Version": "21.0.0",
 		"Notes": "above repo is main one, but no source, and sorta has release info ??\r\nthis github repo is just source, no releases; but tags might have some info: https://github.com/microsoft/openjdk-jdk17u",
 		"Type": "msi",
-		"UrlX8664": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8.1-windows-x64.msi",
-		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-17.0.8.1-windows-aarch64.msi",
-		"HashX8664": "0e6f0b19e4e75a250555e30c01a9e9b5807044ff07c5eed6e0c833b61071cf2f",
-		"HashArm64": "2716c066721cc63a129d4f197d26c56d6eb156db67ad39c1ea303f2b44325a64",
+		"UrlX8664": "https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-x64.msi",
+		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-21.0.0-windows-aarch64.msi",
+		"HashX8664": "dde134cc2aa99cfd46e6f0c44f00be131011a3ef0af6f99932c5e325d413691c",
+		"HashArm64": "47875427607d91acab67a9dd29d4ecab8b1ba9e0e00e7f2bffd032bd76b2916a",
 		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureMain,FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
-		"WingetId": "Microsoft.OpenJDK.17",
+		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
 		"GitHubId": "microsoft/openjdk"
 	},
