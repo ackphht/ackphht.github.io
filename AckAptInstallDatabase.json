@@ -848,11 +848,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "79.0.0",
+		"Version": "80.0.0",
 		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
-		"UrlX8664": "https://mkvtoolnix.download/windows/releases/79.0/mkvtoolnix-64-bit-79.0-setup.exe",
-		"HashX8664": "f864b9c5cf4659c2b32b8838414f0214026a64075b327f2e23f1358979f4ca3b",
+		"UrlX8664": "https://mkvtoolnix.download/windows/releases/80.0/mkvtoolnix-64-bit-80.0-setup.exe",
+		"HashX8664": "1f9b87d90a9fb27d37eda8961859ffe0541713287244422d488622fbde831352",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix"
 	},
@@ -866,10 +866,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.0.0",
+		"Version": "2.1.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.0.0/MPC-HC.2.0.0.x64.exe",
-		"HashX8664": "gcuCtVL6ePQkCB5vigiEBw==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.0/MPC-HC.2.1.0.x64.exe",
+		"HashX8664": "TezbNLzcCQ/moqBJU9XgRg==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
