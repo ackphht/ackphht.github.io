@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.12",
+		"Version": "1.5.13",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.12/clink.1.5.12.c7156f_setup.exe",
-		"HashX8632": "dbEZaRK3g/nsPiIWPChHcA==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.13/clink.1.5.13.290610_setup.exe",
+		"HashX8632": "4ME8nwXdYOeASKY7cvhDMA==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -567,12 +567,12 @@
 	},
 	{
 		"Name": "ILSpy",
-		"Version": "8.1.1",
+		"Version": "8.2.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v8.1.1/ILSpy_Installer_8.1.1.7464-x64.msi",
-		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v8.1.1/ILSpy_Installer_8.1.1.7464-arm64.msi",
-		"HashX8664": "lXvbxX3M/ymDkP+khX0DgA==",
-		"HashArm64": "gYPWrYxdMtM8/h/eaQd0vg==",
+		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v8.2/ILSpy_Installer_8.2.0.7535-x64.msi",
+		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v8.2/ILSpy_Installer_8.2.0.7535-arm64.msi",
+		"HashX8664": "3j9lfW5mchsGD/RrXqjQaw==",
+		"HashArm64": "17Sw8FIpO+ugVTHc05tPkw==",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
 		"WingetId": "icsharpcode.ILSpy",
 		"GitHubId": "icsharpcode/ILSpy"
