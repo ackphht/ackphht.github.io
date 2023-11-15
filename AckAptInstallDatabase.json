@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.5.13",
+		"Version": "1.5.14",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.13/clink.1.5.13.290610_setup.exe",
-		"HashX8632": "4ME8nwXdYOeASKY7cvhDMA==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.5.14/clink.1.5.14.430a69_setup.exe",
+		"HashX8632": "hg8USphLrxRlbLClReju3A==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -314,6 +314,15 @@
 		"WingetId": "Microsoft.DotNet.SDK.7"
 	},
 	{
+		"Name": "DotNetCoreSdk8",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.SDK.8"
+	},
+	{
 		"Name": "DotNetCoreDesktopRuntime6",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -332,6 +341,15 @@
 		"WingetId": "Microsoft.DotNet.DesktopRuntime.7"
 	},
 	{
+		"Name": "DotNetCoreDesktopRuntime8",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.8"
+	},
+	{
 		"Name": "DotNetCoreAspNetHostingBundle6",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -348,6 +366,15 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.HostingBundle.7"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle8",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.8"
 	},
 	{
 		"Name": "Fiddler4",
@@ -741,22 +768,13 @@
 	{
 		"Name": "LINQPad5",
 		"Version": "5.48.0",
+		"Notes": "for .NET Framework",
 		"Type": "exe",
 		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad5Setup-AnyCPU.exe",
 		"HashX8632": "GWXLwLDqIYr3s2ED0YrY6w==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
-		"AppPage": "https://www.linqpad.net/Download.aspx",
+		"AppPage": "https://www.linqpad.net/LINQPad5.aspx",
 		"WingetId": "LINQPad.LINQPad.5"
-	},
-	{
-		"Name": "LINQPad6",
-		"Version": "6.15.12",
-		"Type": "exe",
-		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
-		"HashX8632": "pOI+UksiTuq5exXFR2Py3g==",
-		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon,-lprunpath /SILENT",
-		"AppPage": "https://www.linqpad.net/Download.aspx",
-		"WingetId": "LINQPad.LINQPad.6"
 	},
 	{
 		"Name": "LINQPad7",
@@ -769,6 +787,18 @@
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
 		"WingetId": "LINQPad.LINQPad.7"
+	},
+	{
+		"Name": "LINQPad8",
+		"Version": "8.0.10",
+		"Notes": "https://www.linqpad.net/GetFile.aspx?updates8+releaseversion.txt\nhttps://www.linqpad.net/GetFile.aspx?updates8+optionalversion.txt",
+		"Type": "inno",
+		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad8Setup.exe",
+		"HashX8632": "kgMQts0Yk0DSK2atgLfMsA==",
+		"UseX86OnArm": true,
+		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
+		"AppPage": "https://www.linqpad.net/LINQPad8.aspx",
+		"WingetId": "LINQPad.LINQPad.8"
 	},
 	{
 		"Name": "MariaDB",
@@ -1002,11 +1032,11 @@
 	},
 	{
 		"Name": "PyCharmCommunity",
-		"Version": "2023.2.2",
+		"Version": "2023.2.5",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.2.exe",
-		"HashX8632": "053b5b6a25384ca081a2e3cfe112fa42e09fb73944d5df7030c5d6a687480d99",
+		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.5.exe",
+		"HashX8632": "c9ba939d9dc9a12f98017defe1a007c889a1c12f475a741cb68c09126eb2afb5",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/pycharm/download/",
 		"WingetId": "JetBrains.PyCharm.Community"
@@ -1156,11 +1186,11 @@
 	},
 	{
 		"Name": "SqlServerMngmtStudio19",
-		"Version": "19.1.56",
-		"Notes": "Build number: 19.1.56.0\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
+		"Version": "19.2.56",
+		"Notes": "Build number: 19.2.56.2\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
 		"Type": "exe",
-		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2237215",
-		"HashX8632": "fjoH0JKaZdJJ1/DkCjX+tg==",
+		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2252307",
+		"HashX8632": "OPddfCe7teMs2ZyAgylIEQ==",
 		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio"
@@ -1276,7 +1306,7 @@
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.36.32532",
+		"Version": "14.38.33130",
 		"Notes": "supports VC 2015 thru 2022",
 		"Type": "exe",
 		"InstallBothX86": true,
