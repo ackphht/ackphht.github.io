@@ -1165,11 +1165,11 @@
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4085.2",
-		"Notes": "Cumulative Update 9 [KB5030731]",
+		"Version": "16.0.4095.4",
+		"Notes": "Cumulative Update 10 [KB5031778]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5030731-x64.exe",
-		"HashX8632": "FB55DACF5D956F05BFFB7CA583C30D68A412621C316D1A24C8A828F86A473884",
+		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5031778-x64.exe",
+		"HashX8632": "CFB5CFDF000D9F2FFA40FD373FB99FF970353495D1BF8F572509AA26187F9B5E",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
@@ -1362,7 +1362,7 @@
 	{
 		"Name": "vlc",
 		"Version": "3.0.20",
-		"Notes": "update check calls: http://update.videolan.org/vlc/status-win-x64\nhave their own git server: git://git.videolan.org/vlc.git",
+		"Notes": "update check calls: http://update.videolan.org/vlc/status-win-x64\nhave their own git server: git://git.videolan.org/vlc.git or https://code.videolan.org/videolan/vlc.git (??)",
 		"Type": "nsis",
 		"UrlX8664": "http://download.videolan.org/pub/videolan/vlc/3.0.20/win64/vlc-3.0.20-win64.exe",
 		"HashX8664": "d8055b6643651ca5b9ad58c438692a481483657f3f31624cdfa68b92e8394a57",
