@@ -790,11 +790,11 @@
 	},
 	{
 		"Name": "LINQPad8",
-		"Version": "8.0.16",
+		"Version": "8.0.17",
 		"Notes": "https://www.linqpad.net/GetFile.aspx?updates8+releaseversion.txt\nhttps://www.linqpad.net/GetFile.aspx?updates8+optionalversion.txt\r\ndownload url redirects to what looks like a more specifc version, but that doesn't actually do anything; still always gets the latest",
 		"Type": "inno",
 		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad8Setup.exe",
-		"HashX8632": "i2bcRmKBE3Z81B65VuQsug==",
+		"HashX8632": "bNFnJNgHiBhzcIXzDfa4/A==",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad8.aspx",
