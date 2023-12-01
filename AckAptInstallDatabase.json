@@ -22,22 +22,22 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.11.2436",
+		"Version": "5.30.2530",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.11.2436_w64.exe",
-		"HashX8664": "b08cf421934286246af405a281cebf7c486117403816a01c4e9428d7b074e2a7",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2530_w64.exe",
+		"HashX8664": "e5496709f94f014075a5cb45c16c0f6045d30c7c2c958f71dce4953a574103d1",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "3.6.3.0",
+		"Version": "2023.1.1",
 		"Type": "exe",
-		"UrlX8664": "https://redirector.gvt1.com/edgedl/android/studio/install/3.6.3.0/android-studio-ide-192.6392135-windows.exe",
-		"HashX8664": "07b6df807fda59e69f05b85ff6f6bd0c70d09e57fb151197155ef5f115f96e59",
+		"UrlX8664": "https://redirector.gvt1.com/edgedl/android/studio/install/2023.1.1.26/android-studio-2023.1.1.26-windows.exe",
+		"HashX8664": "0a33a3d65c24df4d637ea929eed4d562743e96852aac55376f43051b1a39804e",
 		"ValidExitCodes": "0,1223",
-		"AppPage": "https://developer.android.com/studio/index.html#downloads"
+		"AppPage": "https://developer.android.com/studio/#android-studio-downloads"
 	},
 	{
 		"Name": "Audacity",
