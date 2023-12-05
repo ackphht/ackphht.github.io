@@ -22,11 +22,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.30.2530",
+		"Version": "5.30.2531",
 		"Notes": "redirector url: https://www.aimp.ru/?do=download.file&id=4",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2530_w64.exe",
-		"HashX8664": "e5496709f94f014075a5cb45c16c0f6045d30c7c2c958f71dce4953a574103d1",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2531_w64.exe",
+		"HashX8664": "4b37347c3ac4d0c9dbc58d14d3cf8922f19fdbf18ec34b3fe55050fc99bd217f",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
@@ -874,7 +874,7 @@
 		"UrlArm64": "https://github.com/microsoft/PowerToys/releases/download/v0.76.0/PowerToysUserSetup-0.76.0-arm64.exe",
 		"HashX8664": "627F60BF3F04583A2ECE7ACE7E6F09ABDE92493E1FFFAC5705CC83009781CD8D",
 		"HashArm64": "79D11CDDBDD87DF8A69A5B2FC28869B3085392E5F45FEE6560D278E48F8B0673",
-		"InstallerArguments": "--passive --skip_dotnet_install --no_full_ui InstallFolder=\"%LocalAppData%\\Programs\\PowerToys\"",
+		"InstallerArguments": "-passive -norestart --skip_dotnet_install --no_full_ui InstallFolder=\"%LocalAppData%\\Programs\\PowerToys\"",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"WingetId": "Microsoft.PowerToys",
 		"WingetScope": "user",
