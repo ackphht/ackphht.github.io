@@ -837,7 +837,22 @@
 		"WingetId": "Microsoft.EdgeWebView2Runtime"
 	},
 	{
-		"Name": "MicrosoftOpenJDK",
+		"Name": "MicrosoftOpenJDK17",
+		"Version": "17.0.9",
+		"Notes": "above repo is main one, but no source, and sorta has release info ??\r\nthis github repo is just source, no releases; but tags might have some info: https://github.com/microsoft/openjdk-jdk17u",
+		"Type": "msi",
+		"UrlX8664": "https://aka.ms/download-jdk/microsoft-jdk-17.0.9-windows-x64.msi",
+		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-17.0.9-windows-aarch64.msi",
+		"HashX8664": "ef9d9f4e0f48c74cb10dfd663c73c65a1211dcdb8b5d8d361dc0f9902cb6c7de",
+		"HashArm64": "88adb0c2caaab49d955fc33e64cc7fc53ea93b7320070b10994a8d8eafab8403",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-17-hotspot\" ADDLOCAL=FeatureMain REMOVE=FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome",
+		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
+		"WingetId": "Microsoft.OpenJDK.17",
+		"WingetNoUpgrade": true,
+		"GitHubId": "microsoft/openjdk"
+	},
+	{
+		"Name": "MicrosoftOpenJDK21",
 		"Version": "21.0.1",
 		"Notes": "above repo is main one, but no source, and sorta has release info ??\r\nthis github repo is just source, no releases; but tags might have some info: https://github.com/microsoft/openjdk-jdk17u",
 		"Type": "msi",
@@ -845,7 +860,7 @@
 		"UrlArm64": "https://aka.ms/download-jdk/microsoft-jdk-21.0.1-windows-aarch64.msi",
 		"HashX8664": "cd43d6a9ea87d3026a2dfacd0e970447ab027df121f2afa0e0e06d7724406866",
 		"HashArm64": "2367db0503f7c7417200efe97988c236c6bcb9ad199148db2003470f9ea11e25",
-		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-hotspot\" ADDLOCAL=FeatureMain,FeatureJavaHome,FeatureJarFileRunWith REMOVE=FeatureEnvironment",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-21-hotspot\" ADDLOCAL=FeatureMain REMOVE=FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome",
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
