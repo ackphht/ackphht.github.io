@@ -1053,30 +1053,6 @@
 		"WingetId": "JetBrains.PyCharm.Community"
 	},
 	{
-		"Name": "python2.7",
-		"Version": "2.7.18.0",
-		"Type": "msi",
-		"UrlX8632": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.msi",
-		"UrlX8664": "https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi",
-		"HashX8632": "db6ad9195b3086c6b4cefb9493d738d2",
-		"HashX8664": "a425c758d38f8e28b56f4724b499239a",
-		"InstallerArguments": "/passive ALLUSERS=1 TARGETDIR=\"%ProgramFiles%\\python27\" ADDLOCAL=DefaultFeature,Tools,TclTk,Documentation,pip_feature,Testsuite REMOVE=Extensions,PrependPath",
-		"AppPage": "https://www.python.org/downloads/"
-	},
-	{
-		"Name": "python3",
-		"Version": "3.12.1",
-		"Type": "burn",
-		"UrlX8664": "https://www.python.org/ftp/python/3.12.1/python-3.12.1-amd64.exe",
-		"UrlArm64": "https://www.python.org/ftp/python/3.12.1/python-3.12.1-arm64.exe",
-		"HashX8664": "3e3b6550e58772d324f7519bfa8066dc",
-		"HashArm64": "25fb741f175dc98d5630520f2df931ec",
-		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python3\" PrependPath=0 CompileAll=1",
-		"AppPage": "https://www.python.org/downloads/",
-		"WingetId": "Python.Python.3.11",
-		"GitHubId": "python/cpython"
-	},
-	{
 		"Name": "python3.11",
 		"Version": "3.11.7",
 		"Type": "burn",
