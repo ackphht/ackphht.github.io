@@ -642,11 +642,11 @@
 	},
 	{
 		"Name": "IrfanView",
-		"Version": "4.65.0",
+		"Version": "4.66.0",
 		"Notes": "installer options: https://www.irfanview.com/faq.htm#PAGE12",
 		"Type": "exe",
-		"UrlX8664": "http://irfanview.info/files/iview465_x64_setup.exe",
-		"HashX8664": "77d812bbfb937ca8449a0a0946589002d012fb4c4d6008f0a809286398250a4c",
+		"UrlX8664": "http://irfanview.info/files/iview466_x64_setup.exe",
+		"HashX8664": "4335d6dc500456a3c4554e04143b332885b5939321f4aab5bed5e6b70c746f16",
 		"InstallerArguments": "/silent /desktop=0 /thumbs=0 /group=1 /ini=\"%APPDATA%\\IrfanView\"",
 		"HeadersToAdd": "Referer: http://irfanview.info/files/",
 		"AppPage": "http://www.irfanview.com/",
@@ -655,10 +655,10 @@
 	},
 	{
 		"Name": "IrfanViewPlugins",
-		"Version": "4.65.0",
+		"Version": "4.66.0",
 		"Type": "exe",
-		"UrlX8664": "http://www.irfanview.info/files/iview465_plugins_x64_setup.exe",
-		"HashX8664": "7c7de41678758e13357424881800776d0bceb02ea7845a1a6edae23069001ff7",
+		"UrlX8664": "http://www.irfanview.info/files/iview466_plugins_x64_setup.exe",
+		"HashX8664": "080fd4e30f5cde44b52e85425e3e406f1bbbd9ff0226dcec7d97be813aac84ab",
 		"InstallerArguments": "/silent",
 		"HeadersToAdd": "Referer: http://www.irfanview.info/files/"
 	},
@@ -1001,11 +1001,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.83.1",
+		"Version": "1.84.1",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.83.1.4061-d3f45728/windows/Plex-1.83.1.4061-d3f45728-x86_64.exe",
-		"HashX8664": "0cb6376fcfb7be7940f031833bae6a299ba1d2a2",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.84.1.4069-ff740b6d/windows/Plex-1.84.1.4069-ff740b6d-x86_64.exe",
+		"HashX8664": "657ff6caf3f3e16c5c61dbba58d22b770d02db37",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
