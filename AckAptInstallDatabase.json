@@ -447,10 +447,9 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.19.1.5263",
+		"Version": "6.20.0.5510",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
-		"UrlX8632": "https://dn3.freedownloadmanager.org/6/latest/fdm_x86_setup.exe",
 		"UrlX8664": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
 		"PreInstallMessage": "about to install FreeDownloadManager; disable the network now to prevent a phone home browser launch...",
 		"PostInstallMessage": "done installing FreeDownloadManager; re-enable to network now...",
