@@ -1431,13 +1431,13 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.2.0",
+		"Version": "4.2.1",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "nsis",
-		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.0-x64.exe",
-		"UrlArm64": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.0-arm64.exe",
-		"HashX8664": "a68a8298662af5cc4bb4a454c66f49d0bcc0bacfd16e00e818b4c77ae8281c26",
-		"HashArm64": "a010a996ed7122eef5df784ec72de4168fbad6aac5b09081862fa74696d70ca3",
+		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.1-x64.exe",
+		"UrlArm64": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.1-arm64.exe",
+		"HashX8664": "c9e89dd241b7e0bdc86eb23be60ff6039a3cc69e8abd1a029112dcc642c98e86",
+		"HashArm64": "8bbc0827c1ab410dbca6b6026790c2ba03a58ea864a56056ff9208dae6bcd1aa",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark"
 	}
