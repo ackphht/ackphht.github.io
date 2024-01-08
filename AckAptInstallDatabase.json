@@ -1208,11 +1208,11 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "10.2.147",
-		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt",
+		"Version": "10.2.152",
+		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro10-v-check.txt\r\nhttps://www.2brightsparks.com/syncback/changes-old.html",
 		"Type": "exe",
 		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBackProV1064_Setup.exe",
-		"HashX8664": "3b88bc55430b1717a0b265679be768150955d5ff64a73737de89d557f717b9db",
+		"HashX8664": "e9555e1435a0a1257629d5c7e6c6fe1e860527593c4bd8bd2e4a02d05f0705fc",
 		"InstallerArguments": "/Silent /SP- /Counter=1 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/syncback/sbpro10x64-new.html",
 		"WingetId": "2BrightSparks.SyncBackPro"
