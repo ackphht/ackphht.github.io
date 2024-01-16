@@ -13,10 +13,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2023.008.20421",
+		"Version": "2023.008.20470",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300820421/AcroRdrDCx642300820421_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2300820470/AcroRdrDCx642300820470_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit"
 	},
@@ -906,10 +906,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.1.3",
+		"Version": "2.1.4",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.3/MPC-HC.2.1.3.x64.exe",
-		"HashX8664": "TUagCkgYTNrku77IhV1BIw==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.4/MPC-HC.2.1.4.x64.exe",
+		"HashX8664": "EavZbhAiDmXZnIUE9aQY/A==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
@@ -1001,11 +1001,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.84.1",
+		"Version": "1.85.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.84.1.4069-ff740b6d/windows/Plex-1.84.1.4069-ff740b6d-x86_64.exe",
-		"HashX8664": "657ff6caf3f3e16c5c61dbba58d22b770d02db37",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.85.0.4071-21128b56/windows/Plex-1.85.0.4071-21128b56-x86_64.exe",
+		"HashX8664": "f3b514e087f044a663654bb88ab6c5d0afbe4e76",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
