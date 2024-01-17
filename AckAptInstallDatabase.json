@@ -428,11 +428,11 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.1.0",
+		"Version": "2.1.1",
 		"Type": "nsis",
-		"UrlX8632": "https://www.foobar2000.org/files/foobar2000_v2.1.exe",
-		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.exe",
-		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.exe",
+		"UrlX8632": "https://www.foobar2000.org/files/foobar2000_v2.1.1.exe",
+		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.1.exe",
+		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.1.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
@@ -1318,21 +1318,21 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.12",
+		"Version": "7.0.14",
 		"Notes": "installer now checks for some python package and complains if it's not found\r\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\r\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.12/VirtualBox-7.0.12-159484-Win.exe",
-		"HashX8664": "9769bae970244249e043bde9c74d704d25a80773acced5c59a04df64a10a5db7",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe",
+		"HashX8664": "4719b38e7a276b43099ce4d6349e6bfc80edf644ee59d9dafd264bc7ed7691f4",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.12",
+		"Version": "7.0.14",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.12/Oracle_VM_VirtualBox_Extension_Pack-7.0.12.vbox-extpack",
-		"HashX8664": "dbf7ce39e5c021d420fc6b2045b084a68fc5172937192bd70c3207efa786278d",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.14/Oracle_VM_VirtualBox_Extension_Pack-7.0.14.vbox-extpack",
+		"HashX8664": "42cb36fbf439a9ed28c95d2bbc718a0eac902225eb579c884c549af2e94be633",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
