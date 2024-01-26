@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.1",
+		"Version": "1.6.2",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.1/clink.1.6.1.c7c448_setup.exe",
-		"HashX8632": "OoA0A+vxxZu6CYL+5IRI7Q==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.2/clink.1.6.2.864f24_setup.exe",
+		"HashX8632": "iwrCS1a3S8CHX5MV+tNYdw==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -203,11 +203,11 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.26.1",
+		"Version": "4.27.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml\r\nhttps://desktop.docker.com/win/main/amd64/checksums.txt",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.docker.com/win/main/amd64/131620/Docker%20Desktop%20Installer.exe",
-		"HashX8664": "9f4ba791ecdaf645a73870d279fb2f2c8bd55bcb9c5d3667c7a41c586d12a094",
+		"UrlX8664": "https://desktop.docker.com/win/main/amd64/135262/Docker%20Desktop%20Installer.exe",
+		"HashX8664": "ad710b12e36d80edaa48ad5a2a6a1aa891e5c2b98cc2fe56115222c33c82063f",
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --quiet --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
@@ -549,11 +549,11 @@
 	},
 	{
 		"Name": "Gpg4win",
-		"Version": "4.2.0",
+		"Version": "4.3.0",
 		"Notes": "https://www.gpg4win.org/change-history.html (has direct download link)",
 		"Type": "nsis",
-		"UrlX8632": "https://files.gpg4win.org/gpg4win-4.2.0.exe",
-		"HashX8632": "829b5c8eb913fa383abdd4cf129a42e0f72d4e9924b2610134f593851f0ab119",
+		"UrlX8632": "https://files.gpg4win.org/gpg4win-4.3.0.exe",
+		"HashX8632": "af4f67b43e6785393bf0aadbd8fd29053ae8024d2ebba5562dc617f521b20703",
 		"AppPage": "https://www.gpg4win.org/download.html",
 		"WingetId": "GnuPG.Gpg4win"
 	},
@@ -898,9 +898,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.23.0",
+		"Version": "3.24.0",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv323-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv324-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag"
 	},
