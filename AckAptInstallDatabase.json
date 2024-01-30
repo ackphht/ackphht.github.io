@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "23.0.1",
+		"Version": "24.0.0",
 		"Type": "nsis",
-		"UrlX8664": "https://7-zip.org/a/7z2301-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2301-arm64.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2400-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2400-arm64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -428,11 +428,10 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.1.1",
+		"Version": "2.1.2",
 		"Type": "nsis",
-		"UrlX8632": "https://www.foobar2000.org/files/foobar2000_v2.1.1.exe",
-		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.1.exe",
-		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.1.exe",
+		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.2.exe",
+		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.2.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
