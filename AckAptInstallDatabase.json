@@ -772,11 +772,11 @@
 	},
 	{
 		"Name": "LINQPad7",
-		"Version": "7.8.7",
+		"Version": "7.8.10",
 		"Notes": "https://www.linqpad.net/GetFile.aspx?updates7+releaseversion.txt\nhttps://www.linqpad.net/GetFile.aspx?updates7+optionalversion.txt",
 		"Type": "inno",
 		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
-		"HashX8632": "EkhqHvOvkGkqVjZ71ZtkVg==",
+		"HashX8632": "/+rFTwct5Kl1fSYNIReewg==",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
@@ -1293,7 +1293,7 @@
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.38.33130",
+		"Version": "14.38.33135",
 		"Notes": "supports VC 2015 thru 2022",
 		"Type": "exe",
 		"InstallBothX86": true,
