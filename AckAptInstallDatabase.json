@@ -707,7 +707,7 @@
 		"Version": "2.56.0",
 		"Type": "inno",
 		"UrlX8632": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.56/KeePass-2.56-Setup.exe/download",
-		"HashX8632": "92529DC0E6449ECA21688601020455505462819217B8E8D51F6E7B1DD05A69E",
+		"HashX8632": "92529DC0E6449ECA21688601020455505462819217B8E8D51F6E7B1DD05A69EF",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
