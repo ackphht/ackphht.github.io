@@ -571,12 +571,12 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.7.2",
+		"Version": "1.7.3",
 		"Type": "nsis",
-		"UrlX8664": "https://github.com/HandBrake/HandBrake/releases/download/1.7.2/HandBrake-1.7.2-x86_64-Win_GUI.exe",
-		"UrlArm64": "https://github.com/HandBrake/HandBrake/releases/download/1.7.2/HandBrake-1.7.2-arm64-Win_GUI.exe",
-		"HashX8664": "6de8e290e4585039078421fb121bb2a0e36bf362ed85c0429c7354de06ff9cb9",
-		"HashArm64": "d4316622deb970c138a99881d18e9f3e9d1baf8dd405153799cebc74c247a68d",
+		"UrlX8664": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-x86_64-Win_GUI.exe",
+		"UrlArm64": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-arm64-Win_GUI.exe",
+		"HashX8664": "f80829d30029ba255675929587f2b6665de2790e52b24845b92d1427c8893264",
+		"HashArm64": "78e5e2e7061136eb0066bbfa3759a27a45a20cd3280fa30e5fa369bd06a8d22e",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"WingetId": "HandBrake.HandBrake",
 		"GitHubId": "HandBrake/HandBrake"
