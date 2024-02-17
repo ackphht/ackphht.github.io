@@ -1000,11 +1000,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.87.1",
+		"Version": "1.87.2",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.87.1.75-e23570d9/windows/Plex-1.87.1.75-e23570d9-x86_64.exe",
-		"HashX8664": "5731cf2c12dc3262f468c225ec76fc0f00e4b4ec",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.87.2.87-87488d5a/windows/Plex-1.87.2.87-87488d5a-x86_64.exe",
+		"HashX8664": "138e160f6e216b018babce7f5d382e9b3e9bf9a0",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
