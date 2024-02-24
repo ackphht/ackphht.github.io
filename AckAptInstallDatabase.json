@@ -388,10 +388,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.3.0",
+		"Version": "8.4.0",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashX8632": "231e2f131b7a7b448d0968ab6d16e2e90f8f370dd2e921bd6b9ce12cfb42c5e7",
+		"HashX8632": "ca56621e57456ca2b4d948c004b567871294953ec8b518d0b1b28517aecd9c8e",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -479,10 +479,10 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.43.0",
+		"Version": "2.44.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.43.0.windows.1/Git-2.43.0-64-bit.exe",
-		"HashX8664": "a6058d7c4c16bfa5bcd6fde051a92de8c68535fd7ebade55fc0ab1c41be3c8d5",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
+		"HashX8664": "914ffc96cee0631d09049b9d87d4cd8ac9c98ead9a9f9a094d3341348324a9ec",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"WingetId": "Git.Git",
