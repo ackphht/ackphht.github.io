@@ -876,11 +876,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.19.10302.0",
+		"Version": "1.19.10573.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.19.10302.0/Microsoft.WindowsTerminal_1.19.10302.0_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "29F780BD04AE5F01D3EBDB63CC98A917C676AC7810DAC00D635B78F8ACD47E14",
+		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.19.10573.0/Microsoft.WindowsTerminal_1.19.10573.0_8wekyb3d8bbwe.msixbundle",
+		"HashX8632": "59396AF53C987B3385FDB26A97CA026C8F1FA892FB23E9F3AA7DEC53E7F7DB0A",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
@@ -1421,10 +1421,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "6.24.0",
+		"Version": "7.0",
 		"Type": "exe",
-		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-624.exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-624.exe",
+		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-700.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-700.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR"
 	},
