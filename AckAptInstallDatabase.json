@@ -177,17 +177,6 @@
 		"GitHubId": "chrisant996/clink"
 	},
 	{
-		"Name": "ConEmu",
-		"Version": "23.07.24",
-		"Type": "exe",
-		"UrlX8632": "https://github.com/Maximus5/ConEmu/releases/download/v23.07.24/ConEmuSetup.230724.exe",
-		"HashX8632": "4lIlN1Z0tYr74Xgn+m4DUg==",
-		"InstallerArguments": "/p:x64 /qr",
-		"AppPage": "https://conemu.github.io/",
-		"WingetId": "Maximus5.ConEmu",
-		"GitHubId": "Maximus5/ConEmu"
-	},
-	{
 		"Name": "curl",
 		"Version": "8.6.0",
 		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\r\nhttps://curl.se/",
@@ -671,21 +660,6 @@
 		"AppPage": "http://www.ispyconnect.com/download.aspx"
 	},
 	{
-		"Name": "jdk8",
-		"Version": "8.0.201.0",
-		"Notes": "make sure download url is from edelivery.oracle.com, for the headers stuff to work / looks like you have to have an account to download it now; a-holes",
-		"Type": "exe",
-		"InstallBothX86": true,
-		"UrlX8632": "https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-i586.exe",
-		"UrlX8664": "https://edelivery.oracle.com/otn-pub/java/jdk/8u201-b09/42970487e3af4f5aa5bca3f542482c60/jdk-8u201-windows-x64.exe",
-		"HashX8632": "c95830b3e78f5abae26d693d6fb0c16a229f14597f8216b919810b59ad7f752c",
-		"HashX8664": "bf43f92ab22419a10878638c4fcd559085398233bce6427a89309cab850aab78",
-		"PreInstallMessage": "about to install JDK; disable the network now. . .",
-		"PostInstallMessage": "done installing JDK; you can re-enable to network now. . .",
-		"HeadersToAdd": "Cookie: oraclelicense=accept-securebackup-cookie",
-		"AppPage": "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
-	},
-	{
 		"Name": "jre8",
 		"Version": "8.0.401",
 		"Notes": "https://www.oracle.com/java/technologies/javase-jre8-downloads.html (link to hashes is here)",
@@ -769,18 +743,6 @@
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad5.aspx",
 		"WingetId": "LINQPad.LINQPad.5"
-	},
-	{
-		"Name": "LINQPad7",
-		"Version": "7.8.10",
-		"Notes": "https://www.linqpad.net/GetFile.aspx?updates7+releaseversion.txt\nhttps://www.linqpad.net/GetFile.aspx?updates7+optionalversion.txt",
-		"Type": "inno",
-		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad7Setup.exe",
-		"HashX8632": "/+rFTwct5Kl1fSYNIReewg==",
-		"UseX86OnArm": true,
-		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
-		"AppPage": "https://www.linqpad.net/LINQPad7.aspx",
-		"WingetId": "LINQPad.LINQPad.7"
 	},
 	{
 		"Name": "LINQPad8",
@@ -1040,17 +1002,6 @@
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
 	},
 	{
-		"Name": "PyCharmCommunity",
-		"Version": "2023.2.5",
-		"Notes": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
-		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/python/pycharm-community-2023.2.5.exe",
-		"HashX8632": "c9ba939d9dc9a12f98017defe1a007c889a1c12f475a741cb68c09126eb2afb5",
-		"ValidExitCodes": "0,1223",
-		"AppPage": "https://www.jetbrains.com/pycharm/download/",
-		"WingetId": "JetBrains.PyCharm.Community"
-	},
-	{
 		"Name": "python3.11",
 		"Version": "3.11.8",
 		"Type": "burn",
@@ -1075,17 +1026,6 @@
 		"AppPage": "https://www.python.org/downloads/",
 		"WingetId": "Python.Python.3.12",
 		"GitHubId": "python/cpython"
-	},
-	{
-		"Name": "QTTabBar",
-		"Version": "0.1043.0",
-		"Type": "zip",
-		"ZipContentToRun": "QTTabBar*.exe",
-		"UrlX8632": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1043_32bit.zip",
-		"UrlX8664": "http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1043.zip",
-		"PreInstallMessage": "installing QTTabBar: should kill explorer.exe to help the install",
-		"PostInstallMessage": "done installing QTTabBar: you can restart explorer.exe now",
-		"AppPage": "http://qttabbar.wikidot.com/"
 	},
 	{
 		"Name": "Resharper",
@@ -1159,17 +1099,6 @@
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
 	{
-		"Name": "SqlServerMngmtStudio18",
-		"Version": "18.12.1",
-		"Notes": "Build number: 15.0.18424.0\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2021100",
-		"Type": "exe",
-		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2199013",
-		"HashX8632": "QGWM0hp2wrsiWBXMrIb/FA==",
-		"InstallerArguments": "DoNotInstallAzureDataStudio=1",
-		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
-		"WingetId": "Microsoft.SQLServerManagementStudio"
-	},
-	{
 		"Name": "SqlServerMngmtStudio19",
 		"Version": "19.3.4",
 		"Notes": "Build number: 19.3.4.0\nhttps://aka.ms/ssmsfullsetup\r\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
@@ -1234,14 +1163,6 @@
 		"UrlArm64": "https://download.tortoisegit.org/tgit/2.15.0.0/TortoiseGit-2.15.0.0-arm64.msi",
 		"AppPage": "https://tortoisegit.org/download/",
 		"WingetId": "TortoiseGit.TortoiseGit"
-	},
-	{
-		"Name": "URLRewrite2",
-		"Version": "2.1.1980.0",
-		"Type": "msi",
-		"UrlX8632": "http://download.microsoft.com/download/6/8/F/68F82751-0644-49CD-934C-B52DF91765D1/rewrite_x86_en-US.msi",
-		"UrlX8664": "http://download.microsoft.com/download/D/D/E/DDE57C26-C62C-4C59-A1BB-31D58B36ADA2/rewrite_amd64_en-US.msi",
-		"AppPage": "https://www.iis.net/downloads/microsoft/url-rewrite"
 	},
 	{
 		"Name": "VCRedist2005",
@@ -1357,17 +1278,6 @@
 		"WingetId": "VideoLAN.VLC"
 	},
 	{
-		"Name": "VMWarePlayer",
-		"Version": "17.0.0",
-		"Type": "exe",
-		"UrlX8664": "https://download3.vmware.com/software/WKST-PLAYER-1700/VMware-player-full-17.0.0-20800274.exe",
-		"HashX8664": "ae238c457a100f15a6d009bfeee4ff277dce181e96a279d486f07f30da433183",
-		"ValidExitCodes": "0,3010",
-		"InstallerArguments": "/s EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
-		"AppPage": "https://www.vmware.com/products/player/",
-		"WingetId": "VMware.WorkstationPlayer"
-	},
-	{
 		"Name": "VS2022Community",
 		"Version": "0.0.0.0",
 		"Type": "exe",
@@ -1390,12 +1300,6 @@
 		"WingetId": "Microsoft.VisualStudioCode",
 		"WingetScope": "user",
 		"GitHubId": "microsoft/vscode"
-	},
-	{
-		"Name": "WebPI",
-		"Version": "5.0.50430.0",
-		"Type": "exe",
-		"UrlX8632": "http://go.microsoft.com/fwlink/?LinkId=255386"
 	},
 	{
 		"Name": "WinDbg",
