@@ -133,11 +133,11 @@
 	},
 	{
 		"Name": "Bitwarden",
-		"Version": "2023.10.10",
+		"Version": "2024.2.1",
 		"Notes": "installer has switches \"/currentuser\" and \"/allusers\" but the installer doesn't work at all for the currentuser one (at least as of v2023.3.1)",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v2023.10.0/Bitwarden-Installer-2023.10.0.exe",
-		"HashX8632": "88e01aa4b33e08bc7a905af8cc0e60a404a7fb7a9388267e1c2126dac99d4fdf",
+		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v2024.2.1/Bitwarden-Installer-2024.2.1.exe",
+		"HashX8632": "e8cb59ed7d8ea379fdd7fd02b2a85def3c66eaa4b5b0d88a3013fbd9c63ad4e6",
 		"UseX86OnArm": true,
 		"AppPage": "https://bitwarden.com/download/",
 		"WingetId": "Bitwarden.Bitwarden",
@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.6",
+		"Version": "1.6.8",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.6/clink.1.6.6.87eebc_setup.exe",
-		"HashX8632": "9xU/ts6XNl29LQ5vegYatQ==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.8/clink.1.6.8.d61056_setup.exe",
+		"HashX8632": "UG/JMo0Dq/V/Qcockmma/Q==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -993,11 +993,11 @@
 	},
 	{
 		"Name": "PrivateInternetAccess",
-		"Version": "3.5.3",
+		"Version": "3.5.5",
 		"Notes": "https://www.privateinternetaccess.com/pages/changelog (and hashes and direct download links)\r\nhttps://github.com/pia-foss/desktop",
 		"Type": "exe",
-		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.3-07926.exe",
-		"HashX8664": "8badccee046799335b6d7583b627a8d18116c67c412db9901f760436891a6384",
+		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.5-08091.exe",
+		"HashX8664": "0a0edc1eef7d3cfe74994d14435f47eb4500aa3199a29a6dec838236bd50cbbf",
 		"AppPage": "https://www.privateinternetaccess.com/download/windows-vpn#download-windows",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
 	},
