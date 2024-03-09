@@ -377,10 +377,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.4.0",
+		"Version": "8.4.1",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashX8632": "ca56621e57456ca2b4d948c004b567871294953ec8b518d0b1b28517aecd9c8e",
+		"HashX8632": "5495c36a838bb25e3342081bb4f6db5e910b48b849d7db82110ffed86a1d253b",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -489,11 +489,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.3.9",
+		"Version": "3.3.11",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.3.9-051b78a0/GitHubDesktopSetup-x64.exe",
-		"HashX8664": "zEfhb8i7/6OpJmWrXL0g9w==",
+		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.3.11-d0de25f5/GitHubDesktopSetup-x64.exe",
+		"HashX8664": "KtN7y0dQT4F9MrxMeC7OkA==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
