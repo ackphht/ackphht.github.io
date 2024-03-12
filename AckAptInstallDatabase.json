@@ -537,11 +537,11 @@
 	},
 	{
 		"Name": "Gpg4win",
-		"Version": "4.3.0",
+		"Version": "4.3.1",
 		"Notes": "https://www.gpg4win.org/change-history.html (has direct download link)",
 		"Type": "nsis",
-		"UrlX8632": "https://files.gpg4win.org/gpg4win-4.3.0.exe",
-		"HashX8632": "af4f67b43e6785393bf0aadbd8fd29053ae8024d2ebba5562dc617f521b20703",
+		"UrlX8632": "https://files.gpg4win.org/gpg4win-4.3.1.exe",
+		"HashX8632": "2db44b086d860c51a4f45f43a739cd20fb0822189deb1c1cf13e4b5a3b05bc3b",
 		"AppPage": "https://www.gpg4win.org/download.html",
 		"WingetId": "GnuPG.Gpg4win"
 	},
@@ -867,10 +867,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.1.6",
+		"Version": "2.1.7",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.6/MPC-HC.2.1.6.x64.exe",
-		"HashX8664": "4M7qf9RWZz4hx6fajyAD1w==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.7/MPC-HC.2.1.7.x64.exe",
+		"HashX8664": "gpboKKrx8cEMmVpbsl3M3A==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
