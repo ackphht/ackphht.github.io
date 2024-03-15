@@ -435,7 +435,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.20.0.5510",
+		"Version": "6.21.0.5629",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://dn3.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -572,10 +572,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.48",
+		"Version": "6.7.4.49",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/030824/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/031424/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -962,11 +962,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.88.1",
+		"Version": "1.89.1",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.88.1.96-c1c59fc1/windows/Plex-1.88.1.96-c1c59fc1-x86_64.exe",
-		"HashX8664": "840b298d54219611efd41177389526c115c909c9",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.89.1.107-20abacd1/windows/Plex-1.89.1.107-20abacd1-x86_64.exe",
+		"HashX8664": "81dfb6b71bb4c135dc21d3f204e05300b16ee2c2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
@@ -1090,11 +1090,11 @@
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4105.2",
-		"Notes": "Cumulative Update 11 [KB5032679]",
+		"Version": "16.0.4115.5",
+		"Notes": "Cumulative Update 12 [KB5033663]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5032679-x64.exe",
-		"HashX8632": "A7C447E35606C4B64817CD1C4CB6FB18DAAECC13D5998C052E81BC2AC574CB5D",
+		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5033663-x64.exe",
+		"HashX8632": "A9FC6D06BAA5EAEC40A8426F8562E060E4402E86713781AE2826EC2DBB0810B0",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
