@@ -867,10 +867,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.1.7",
+		"Version": "2.1.7.2",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.7/MPC-HC.2.1.7.x64.exe",
-		"HashX8664": "gpboKKrx8cEMmVpbsl3M3A==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.7/MPC-HC.2.1.7.2.x64.exe",
+		"HashX8664": "RuSMbdWiaSRTOTEZbMrOoA==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
