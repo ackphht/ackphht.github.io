@@ -131,6 +131,41 @@
 		return sect;
 	}
 
+	function addMediaQueryInfo() {
+		let sect = new nameValueSection('Media Queries');
+
+		if (!window.matchMedia('(prefers-color-scheme)').matches) {
+			sect.addRow(nameValueRow.fromNameValues([ new nameValue('prefers-color-scheme', 'N/A') ]));
+		} else {
+			sect.addRow(nameValueRow.fromNameValues([
+				new nameValue('prefers-color-scheme', 'true'),
+				new nameValue('prefers-color-scheme: light', window.matchMedia('(prefers-color-scheme: light)').matches),
+				new nameValue('prefers-color-scheme: dark', window.matchMedia('(prefers-color-scheme: dark)').matches),
+			]));
+			;
+		}
+
+		if (!window.matchMedia('(orientation)').matches) {
+			sect.addRow(nameValueRow.fromNameValues([ new nameValue('orientation', 'N/A') ]));
+		} else {
+			sect.addRow(nameValueRow.fromNameValues([
+				new nameValue('orientation', 'true'),
+				new nameValue('orientation: portrait', window.matchMedia('(orientation: portrait)').matches),
+				new nameValue('orientation: landscape', window.matchMedia('(orientation: landscape)').matches),
+			]));
+			;
+		}
+
+		// TODO:
+		//	width, min-width, height, min-height
+		//	resolution (dpi)
+		//	display-mode
+		//	inverted-colors
+		//	pointer, hover, any-pointer(?), any-hover(?)
+
+		return sect;
+	}
+
 	function make(name, parent) {
 		let e = document.createElement(name);
 		if (parent) { parent.append(e); }
