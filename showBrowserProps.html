@@ -36,14 +36,13 @@
 		const dataTable = document.getElementById('data');
 		const thead = dataTable.querySelector('thead');
 		const tbody = dataTable.querySelector('tbody');
-		const totalColumns = 4;
 
 		// remove any existing data:
 		while (tbody.rows.length) { tbody.deleteRow(-1); }
 
-		addNavigatorInfo(tbody, totalColumns).render(tbody);
-		addVisualViewportInfo(tbody, totalColumns).render(tbody);
-		(await addUserAgentData(tbody, totalColumns)).render(tbody);
+		addNavigatorInfo(tbody).render(tbody);
+		addVisualViewportInfo(tbody).render(tbody);
+		(await addUserAgentData(tbody)).render(tbody);
 	}
 
 	class nameValue {
@@ -82,7 +81,7 @@
 		}
 	}
 
-	function addNavigatorInfo(tbody, desiredColumnCnt) {
+	function addNavigatorInfo(tbody) {
 		let sect = new nameValueSection('Browser');
 		sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgent', navigator.userAgent) ]));
 		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Location', window.location.href) ]));
@@ -96,7 +95,7 @@
 		return sect;
 	}
 
-	function addVisualViewportInfo(tbody, desiredColumnCnt) {
+	function addVisualViewportInfo(tbody) {
 		let viewport = window.visualViewport;
 
 		let sect = new nameValueSection('Display');
@@ -111,7 +110,7 @@
 		return sect;
 	}
 
-	async function addUserAgentData(tbody, desiredColumnCnt) {
+	async function addUserAgentData(tbody) {
 		let sect = new nameValueSection('UserAgentData [experimental]');
 		if (!navigator.userAgentData) {
 			sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgentData', 'N/A') ]));
