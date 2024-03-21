@@ -45,7 +45,7 @@
 	document.addEventListener('DOMContentLoaded', setBrowserInfo);	// or window.addEventListener('load', ...), not sure which is better or if it matters
 	window.addEventListener('resize', setBrowserInfo);
 
-	function setBrowserInfo() {
+	async function setBrowserInfo() {
 		//initResizeViewport();
 
 		const dataTable = document.getElementById('data');
@@ -56,9 +56,9 @@
 		// remove any existing data:
 		while (tbody.rows.length) { tbody.deleteRow(-1); }
 
-		addNavigatorInfo(tbody, totalColumns);
-		addVisualViewportInfo(tbody, totalColumns);
-		addUserAgentData(tbody, totalColumns);
+		addNavigatorInfo(tbody, totalColumns).render(tbody);
+		addVisualViewportInfo(tbody, totalColumns).render(tbody);
+		(await addUserAgentData(tbody, totalColumns)).render(tbody);
 	}
 
 	/*
@@ -81,90 +81,92 @@
 	}
 	*/
 
+	class nameValue {
+		constructor(n, v) { this.name = n; this.value = v; }
+	}
+
+	class nameValueRow {
+		constructor() { this.nameValues = []; }
+		addNameValue(nv) { this.nameValues.push(nv); }
+		static fromNameValues(nvArray) {
+			const result = new nameValueRow();
+			if (nvArray) { for (const nv of nvArray) { result.addNameValue(nv); } }
+			return result;
+		}
+	}
+
+	class nameValueSection {
+		constructor(sectionTitle) { this.sectionTitle = sectionTitle; this.rows = []; }
+		addRow(nvRow) { this.rows.push(nvRow); }
+		render(tbody) {
+			makeSectionHeader(tbody, this.sectionTitle, 6);
+			for (const row of this.rows) {
+				let valColSpan = -1;
+				switch (row.nameValues.length) {
+					case 3: valColSpan = 1; break;
+					case 2: valColSpan = 2; break;
+					case 1: valColSpan = 5; break;
+				}
+				if (valColSpan > 0) {
+					const tr = make('tr', tbody);
+					for (const nv of row.nameValues) {
+						makeNameValueCells(tr, nv.name, nv.value, valColSpan);
+					}
+				}
+			}
+		}
+	}
+
 	function addNavigatorInfo(tbody, desiredColumnCnt) {
-		makeSectionHeader(tbody, 'Browser', desiredColumnCnt);
-		let row = make('tr', tbody);
-		makeNameValueCells(row, 'UserAgent', navigator.userAgent, desiredColumnCnt - 1);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'Location', window.location.href, desiredColumnCnt - 1);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'Languages', navigator.languages, desiredColumnCnt - 1);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'ProcCores', navigator.hardwareConcurrency, desiredColumnCnt - 1);
-		// not sure what this one is showing:
-		//row = make('tr', tbody);
-		//makeNameValueCells(row, 'Memory', navigator.deviceMemory, desiredColumnCnt - 1);
+		let sect = new nameValueSection('Browser');
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgent', navigator.userAgent) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Location', window.location.href) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Languages', navigator.languages) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('ProcCores', navigator.hardwareConcurrency) ]));
+		// not sure what this one is actualy showing:
+		//sect.addRow(nameValueRow.fromNameValues([ new nameValue('Memory', navigator.deviceMemory) ]));
 		// this one's not really supported:
-		//row = make('tr', tbody);
-		//makeNameValueCells(row, 'NetworkType', navigator.connection.type);
-		//makeNameValueCells(row, 'Speed', navigator.connection.downlinkMax);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'Online', navigator.onLine, desiredColumnCnt - 1);
+		//sect.addRow(nameValueRow.fromNameValues([ new nameValue('NetworkType', navigator.connection.type), new nameValue('Speed', navigator.connection.downlinkMax) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Online', navigator.onLine) ]));
+		return sect;
 	}
 
 	function addVisualViewportInfo(tbody, desiredColumnCnt) {
 		let viewport = window.visualViewport;
 
-		makeSectionHeader(tbody, 'Display', desiredColumnCnt);
-
-		let row = make('tr', tbody);
-		makeNameValueCells(row, 'ScreenWidth', window.screen.width);
-		makeNameValueCells(row, 'ScreenHeight', window.screen.height);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'AvailWidth', window.screen.availWidth);
-		makeNameValueCells(row, 'AvailHeight', window.screen.availHeight);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'PixelRatio', round(window.devicePixelRatio, 3));
-		makeNameValueCells(row, 'Orientation', window.screen.orientation.type);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'ColorDepth', window.screen.colorDepth);
-		makeNameValueCells(row, 'PixelDepth', window.screen.pixelDepth);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'OuterWidth', window.outerWidth);
-		makeNameValueCells(row, 'OuterHeight', window.outerHeight);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'InnerWidth', window.innerWidth);
-		makeNameValueCells(row, 'InnerHeight', window.innerHeight);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'ViewportWidth', round(viewport.width, 2));
-		makeNameValueCells(row, 'ViewportHeight', round(viewport.height, 2));
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'ViewportScale', round(viewport.scale, 2));
-		makeNameValueCells(row, '', '');
+		let sect = new nameValueSection('Display');
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('ScreenWidth', window.screen.width), new nameValue('ScreenHeight', window.screen.height) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('AvailWidth', window.screen.availWidth), new nameValue('AvailHeight', window.screen.availHeight) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('PixelRatio', round(window.devicePixelRatio, 3)), new nameValue('Orientation', window.screen.orientation.type) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('ColorDepth', window.screen.colorDepth), new nameValue('PixelDepth', window.screen.pixelDepth) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('OuterWidth', window.outerWidth), new nameValue('OuterHeight', window.outerHeight) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('InnerWidth', window.innerWidth), new nameValue('InnerHeight', window.innerHeight) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('ViewportWidth', round(viewport.width, 2)), new nameValue('ViewportHeight', round(viewport.height, 2)) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('ViewportScale', round(viewport.scale, 2)), new nameValue('', '') ]));
+		return sect;
 	}
 
-	function addUserAgentData(tbody, desiredColumnCnt) {
-		makeSectionHeader(tbody, 'UserAgentData [experimental]', desiredColumnCnt);
+	async function addUserAgentData(tbody, desiredColumnCnt) {
+		let sect = new nameValueSection('UserAgentData [experimental]');
 		if (!navigator.userAgentData) {
-			let row = make('tr', tbody);
-			makeNameValueCells(row, 'UserAgentData', 'N/A', desiredColumnCnt - 1);
-			return;
+			sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgentData', 'N/A') ]));
+			return sect;
 		}
 		let data = navigator.userAgentData;
-		let row = make('tr', tbody);
 		let ul = make('ul', null);
 		data.brands.forEach(b => { let li = make('li', ul); makeText(li, (b.brand + ';v=' + b.version)); });
-		makeNameValueCells(row, 'Brands', ul, desiredColumnCnt - 1);
-		row = make('tr', tbody);
-		makeNameValueCells(row, 'Platform', data.platform);
-		makeNameValueCells(row, 'Mobile', data.mobile);
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Brands', ul) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Platform', data.platform), new nameValue('Mobile', data.mobile) ]));
 
-		data.getHighEntropyValues(['architecture', 'bitness', 'model', 'platformVersion', 'fullVersionList', 'uaFullVersion'])
-			.then(values => {
-				row = make('tr', tbody);
-				makeNameValueCells(row, 'PlatformVersion', values.platformVersion);
-				makeNameValueCells(row, 'Model', values.model);
-				row = make('tr', tbody);
-				makeNameValueCells(row, 'Architecture', values.architecture);
-				makeNameValueCells(row, 'Bitness', values.bitness);
-				row = make('tr', tbody);
-				ul = make('ul', null);
-				values.fullVersionList.forEach(b => { let li = make('li', ul); makeText(li, (b.brand + ';v=' + b.version)); });
-				makeNameValueCells(row, 'FullVersionList', ul, desiredColumnCnt - 1);
-				row = make('tr', tbody);
-				makeNameValueCells(row, 'UAFullVersion [deprecated]', values.uaFullVersion);
-				makeNameValueCells(row, '', '');
-			});
+		const values = await data.getHighEntropyValues(['architecture', 'bitness', 'model', 'platformVersion', 'fullVersionList', 'uaFullVersion']);
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('PlatformVersion', values.platformVersion), new nameValue('Model', values.model) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Architecture', values.architecture), new nameValue('Bitness', values.bitness) ]));
+		ul = make('ul', null);
+		values.fullVersionList.forEach(b => { let li = make('li', ul); makeText(li, (b.brand + ';v=' + b.version)); });
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('FullVersionList', ul) ]));
+		sect.addRow(nameValueRow.fromNameValues([ new nameValue('UAFullVersion [deprecated]', values.uaFullVersion), new nameValue('', '') ]));
+
+		return sect;
 	}
 
 	function make(name, parent) {
