@@ -5,26 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<title>Show Default Styles</title>
 	<style type="text/css">
-		table.dataTbl { font-size:15px; font-family:Tahoma,sans-serif; border-collapse: collapse; /* max-width:100%; margin:1rem auto; */ margin:1rem 0; }
-		table.dataTbl td, table.dataTbl th { border: 1px solid darkgray; padding:6px; white-space: nowrap; }
-		table.dataTbl th { width: 30%; }
-		table.dataTbl td { width: 20%; }
+		table.dataTbl { border-collapse: collapse; width: 100%; margin: 0; }
+		@media (min-width:768px) { table.dataTbl { max-width: 60%; } }
+		table.dataTbl td, table.dataTbl th { font-size:15px; font-family:Tahoma,sans-serif; border: 1px solid darkgray; padding:6px; /*white-space: nowrap;*/ }
 		/* table.dataTbl thead th { background-color: lightsteelblue; text-align: center; } */
 		table.dataTbl tbody th { background-color: lavender; text-align: right; }
-		table.dataTbl tbody th.section { background-color: darkslateblue; color:white; text-align: center; }
+		table.dataTbl thead th.section { background-color: darkslateblue; color:white; text-align: center; }
 		/* make main table header always visible: */
 		/* div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; } */
-		table#data { /* position:relative; */ /* not sure this is really necessary... */ }
 		/* table#data thead th { position: sticky; top: 0; z-index: 99; } */
 		table.dataTbl td ul { margin: 0;; padding-left: 1em; }
 	</style>
 </head>
 <body>
 <div id="wrapper">
-	<table class="dataTbl" id="data">
-		<thead></thead>
-		<tbody></tbody>
-	</table>
+	<div id="tblWrapper"></div>
 	<div><button onclick="setBrowserInfo();">Refresh</button></div>
 </div>
 
@@ -33,16 +28,15 @@
 	window.addEventListener('resize', setBrowserInfo);
 
 	async function setBrowserInfo() {
-		const dataTable = document.getElementById('data');
-		const thead = dataTable.querySelector('thead');
-		const tbody = dataTable.querySelector('tbody');
+		const dataDiv = document.getElementById('tblWrapper');
 
 		// remove any existing data:
-		while (tbody.rows.length) { tbody.deleteRow(-1); }
+		while (dataDiv.firstChild) { dataDiv.removeChild(dataDiv.firstChild); }
 
-		addNavigatorInfo(tbody).render(tbody);
-		addVisualViewportInfo(tbody).render(tbody);
-		(await addUserAgentData(tbody)).render(tbody);
+		addNavigatorInfo().render(dataDiv);
+		addVisualViewportInfo().render(dataDiv);
+		(await addUserAgentData()).render(dataDiv);
+		addMediaQueryInfo().render(dataDiv);
 	}
 
 	class nameValue {
@@ -62,8 +56,12 @@
 	class nameValueSection {
 		constructor(sectionTitle) { this.sectionTitle = sectionTitle; this.rows = []; }
 		addRow(nvRow) { this.rows.push(nvRow); }
-		render(tbody) {
-			makeSectionHeader(tbody, this.sectionTitle, 6);
+		render(parent) {
+			let tbl = make('table', parent);
+			tbl.classList.add('dataTbl');
+			let thead = make('thead', tbl);
+			let tbody = make('tbody', tbl);
+			makeSectionHeader(thead, this.sectionTitle, 6);
 			for (const row of this.rows) {
 				let valColSpan = -1;
 				switch (row.nameValues.length) {
@@ -81,7 +79,7 @@
 		}
 	}
 
-	function addNavigatorInfo(tbody) {
+	function addNavigatorInfo() {
 		let sect = new nameValueSection('Browser');
 		sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgent', navigator.userAgent) ]));
 		sect.addRow(nameValueRow.fromNameValues([ new nameValue('Location', window.location.href) ]));
@@ -95,7 +93,7 @@
 		return sect;
 	}
 
-	function addVisualViewportInfo(tbody) {
+	function addVisualViewportInfo() {
 		let viewport = window.visualViewport;
 
 		let sect = new nameValueSection('Display');
@@ -110,7 +108,7 @@
 		return sect;
 	}
 
-	async function addUserAgentData(tbody) {
+	async function addUserAgentData() {
 		let sect = new nameValueSection('UserAgentData [experimental]');
 		if (!navigator.userAgentData) {
 			sect.addRow(nameValueRow.fromNameValues([ new nameValue('UserAgentData', 'N/A') ]));
