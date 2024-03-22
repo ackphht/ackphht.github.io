@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "24.0.1",
+		"Version": "24.0.2",
 		"Type": "nsis",
-		"UrlX8664": "https://7-zip.org/a/7z2401-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2401-arm64.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2402-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2402-arm64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -1106,6 +1106,16 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2257624&clcid=0x409",
 		"HashX8632": "iYkF2n94m7zi6GSYFI73Gg==",
 		"InstallerArguments": "/Passive DoNotInstallAzureDataStudio=1",
+		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+		"WingetId": "Microsoft.SQLServerManagementStudio"
+	},
+	{
+		"Name": "SqlServerMngmtStudio20",
+		"Version": "20.0.70.0",
+		"Notes": "https://aka.ms/ssmsfullsetup\nupdate check: https://go.microsoft.com/fwlink/?linkid=2155334",
+		"Type": "exe",
+		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2264204&clcid=0x409",
+		"InstallerArguments": "/install /passive",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio"
 	},
