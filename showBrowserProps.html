@@ -5,9 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<title>Show Default Styles</title>
 	<style type="text/css">
+		div#wrapper { width: 100%; }
+		@media (min-width:1200px) { div#wrapper { max-width: 75%; margin-inline: auto; } }
 		table.dataTbl { border-collapse: collapse; width: 100%; margin: 0; }
-		@media (min-width:768px) { table.dataTbl { max-width: 60%; } }
-		table.dataTbl td, table.dataTbl th { font-size:15px; font-family:Tahoma,sans-serif; border: 1px solid darkgray; padding:6px; /*white-space: nowrap;*/ }
+		table.dataTbl td, table.dataTbl th { font-size:14px; font-family:Tahoma,sans-serif; border: 1px solid darkgray; padding:6px; /*white-space: nowrap;*/ }
 		/* table.dataTbl thead th { background-color: lightsteelblue; text-align: center; } */
 		table.dataTbl tbody tr th { background-color: lavender; text-align: right; }
 		table.dataTbl thead th.section { background-color: darkslateblue; color:white; text-align: center; }
@@ -20,7 +21,7 @@
 <body>
 <div id="wrapper">
 	<div id="tblWrapper"></div>
-	<div><button onclick="setBrowserInfo();">Refresh</button></div>
+	<div style="margin-top: 1em;"><button onclick="setBrowserInfo();">Refresh</button></div>
 </div>
 
 <script>
@@ -147,36 +148,38 @@
 	function addMediaQueryInfo() {
 		let sect = new nameValueSection('Media Queries');
 
-		if (!window.matchMedia('(prefers-color-scheme)').matches) {
-			sect.addRow(nameValueRow.fromNameValues([ new nameValue('prefers-color-scheme', 'N/A') ]));
-		} else {
-			sect.addRow(nameValueRow.fromNameValues([
-				new nameValue('prefers-color-scheme', 'true'),
-				new nameValue('prefers-color-scheme: light', window.matchMedia('(prefers-color-scheme: light)').matches),
-				new nameValue('prefers-color-scheme: dark', window.matchMedia('(prefers-color-scheme: dark)').matches),
-			]));
-			;
-		}
-
-		if (!window.matchMedia('(orientation)').matches) {
-			sect.addRow(nameValueRow.fromNameValues([ new nameValue('orientation', 'N/A') ]));
-		} else {
-			sect.addRow(nameValueRow.fromNameValues([
-				new nameValue('orientation', 'true'),
-				new nameValue('orientation: portrait', window.matchMedia('(orientation: portrait)').matches),
-				new nameValue('orientation: landscape', window.matchMedia('(orientation: landscape)').matches),
-			]));
-			;
-		}
+		const prefersColrScheme = checkMediaQuery('prefers-color-scheme', ['light', 'dark']);
+		const orientation = checkMediaQuery('orientation', ['portrait', 'landscape']);
+		const displayMode = checkMediaQuery('display-mode', ['fullscreen', 'minimal-ui', 'picture-in-picture', 'standalone', 'window-controls-overlay', 'browser']);
+		const invertedColors = checkMediaQuery('inverted-colors', ['inverted', 'none']);
+		sect.addRow(nameValueRow.fromNameValues([
+			new nameValue('prefers-color-scheme', prefersColrScheme),
+			new nameValue('orientation', orientation),
+		]));
+		sect.addRow(nameValueRow.fromNameValues([
+			new nameValue('display-mode', displayMode),
+			new nameValue('inverted-colors', invertedColors),
+		]));
 
 		// TODO:
 		//	width, min-width, height, min-height
 		//	resolution (dpi)
-		//	display-mode
-		//	inverted-colors
 		//	pointer, hover, any-pointer(?), any-hover(?)
 
 		return sect;
+
+		function checkMediaQuery(name, possibleValues) {
+			if (window.matchMedia(`(${name})`).matches) {
+				for (v of possibleValues) {
+					if (window.matchMedia(`(${name}: ${v})`).matches) {
+						return v;
+					}
+				}
+				return '[unknown value]';
+			} else {
+				return 'N/A';
+			}
+		}
 	}
 
 	function make(name, parent) {
