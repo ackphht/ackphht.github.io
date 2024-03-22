@@ -54,6 +54,14 @@
 	}
 
 	class nameValueSection {
+		static columnSpreads = {
+			// main index is max number of nameValues for table; subindex is number in current row; array is colspan for given member
+			1: { 1: [1], },
+			2: { 1: [3], 2: [1,1], },
+			3: { 1: [5], 2: [2,2], 3: [1,1,1], },
+			4: { 1: [7], 2: [3,3], 3: [2,2,1], 4: [1,1,1,1], },
+			5: { 1: [9], 2: [4,4], 3: [2,2,2,1], 4: [2,2,1,1], 5: [1,1,1,1,1] },
+		}
 		constructor(sectionTitle) { this.sectionTitle = sectionTitle; this.rows = []; }
 		addRow(nvRow) { this.rows.push(nvRow); }
 		render(parent) {
@@ -61,19 +69,18 @@
 			tbl.classList.add('dataTbl');
 			let thead = make('thead', tbl);
 			let tbody = make('tbody', tbl);
-			makeSectionHeader(thead, this.sectionTitle, 6);
+
+			let maxNvCount = 0;
+			for (const r of this.rows) {
+				if (r.nameValues.length > maxNvCount) { maxNvCount = r.nameValues.length; }
+			}
+			makeSectionHeader(thead, this.sectionTitle, maxNvCount * 2);
+			const colSpread = nameValueSection.columnSpreads[maxNvCount];
 			for (const row of this.rows) {
-				let valColSpan = -1;
-				switch (row.nameValues.length) {
-					case 3: valColSpan = 1; break;
-					case 2: valColSpan = 2; break;
-					case 1: valColSpan = 5; break;
-				}
-				if (valColSpan > 0) {
-					const tr = make('tr', tbody);
-					for (const nv of row.nameValues) {
-						makeNameValueCells(tr, nv.name, nv.value, valColSpan);
-					}
+				let valColSpan = colSpread[row.nameValues.length];
+				const tr = make('tr', tbody);
+				for (const nv of row.nameValues) {
+					makeNameValueCells(tr, nv.name, nv.value, valColSpan);
 				}
 			}
 		}
