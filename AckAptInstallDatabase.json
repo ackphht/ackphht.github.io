@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.11",
+		"Version": "2.0.12",
 		"Type": "exe",
-		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.11/AutoHotkey_2.0.11_setup.exe",
-		"HashX8632": "510A833BDD0F896CC398EAAE4FF475F5B7CFE37649EFBF647B50D21E442394B9",
+		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.12/AutoHotkey_2.0.12_setup.exe",
+		"HashX8632": "4E1E3123DD85D3AC65A0803B08DD89B9B12B5A00B9F566782855332D03E5FE26",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.9",
+		"Version": "1.6.10",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.9/clink.1.6.9.242b68_setup.exe",
-		"HashX8632": "DM1Iw2eZSveFZR7hVBUDxA==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.10/clink.1.6.10.d5dce0_setup.exe",
+		"HashX8632": "9BmdyT9goULH1qWdvposbA==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
