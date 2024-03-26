@@ -572,10 +572,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.49",
+		"Version": "6.7.4.50",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/031424/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/032524/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -618,15 +618,14 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2022.1.3",
+		"Version": "2023.3.6",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/idea/ideaIC-2022.1.3.exe",
-		"HashX8632": "aec284eb30738b6be26fcc0bcfeda0517258caa90c638fb6f8fc642fbf71a396",
+		"UrlX8632": "https://download.jetbrains.com/idea/ideaIC-2023.3.6.exe",
+		"HashX8632": "f91c2cf0bd762c3d656ccd8d2118b2425a1139801c8bef6fa0c1022a7d3d2df0",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
-		"WingetId": "JetBrains.IntelliJIDEA.Community",
-		"WingetVersion": "221.5921.22"
+		"WingetId": "JetBrains.IntelliJIDEA.Community"
 	},
 	{
 		"Name": "IrfanView",
@@ -838,11 +837,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.19.10573.0",
+		"Version": "1.19.10821.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.19.10573.0/Microsoft.WindowsTerminal_1.19.10573.0_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "59396AF53C987B3385FDB26A97CA026C8F1FA892FB23E9F3AA7DEC53E7F7DB0A",
+		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.19.10821.0/Microsoft.WindowsTerminal_1.19.10821.0_8wekyb3d8bbwe.msixbundle",
+		"HashX8632": "EE0D267D20BF2F48C998DB258E83215F74FE69D9D08A50B9A2DBD008CAE52196",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
