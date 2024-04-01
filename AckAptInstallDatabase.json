@@ -501,10 +501,10 @@
 	},
 	{
 		"Name": "GnuCash",
-		"Version": "5.5",
+		"Version": "5.6",
 		"Type": "inno",
-		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.5/gnucash-5.5.setup.exe",
-		"HashX8632": "JzfYBs3YANjif9nbc63nwQ==",
+		"UrlX8632": "https://github.com/Gnucash/gnucash/releases/download/5.6/gnucash-5.6.setup.exe",
+		"HashX8632": "T29ktj5bb8kFOjxlBV+CFQ==",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\gnucash\" /TYPE=custom /COMPONENTS=main,templates /TASKS=-desktopicon,menuicon",
 		"AppPage": "https://gnucash.org/download",
 		"WingetId": "GnuCash.GnuCash",
@@ -866,10 +866,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.1.7.2",
+		"Version": "2.2.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.1.7/MPC-HC.2.1.7.2.x64.exe",
-		"HashX8664": "RuSMbdWiaSRTOTEZbMrOoA==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.2.0/MPC-HC.2.2.0.x64.exe",
+		"HashX8664": "1drNfI/510Faoam8MAMqzg==",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
