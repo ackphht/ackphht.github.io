@@ -88,11 +88,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.58.0",
+		"Version": "2.59.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.58.0.msi",
-		"HashX8632": "izDGmyoGZniljCtsaxxrrA==",
+		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.59.0.msi",
+		"HashX8632": "QfsFX90Xw3YVPBOfMj3C3Q==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"WingetId": "Microsoft.AzureCLI"
@@ -1038,10 +1038,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.0.2",
+		"Version": "2.1.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.0.2/Sigil-2.0.2-Windows-x64-Setup.exe",
-		"HashX8664": "585be931caf286352a9c4e1f51f81967fbb3b981d28a7d9b674be0222c0f9805",
+		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.1.0/Sigil-2.1.0-Windows-x64-Setup.exe",
+		"HashX8664": "1048e93afbb64d7dbfa61be80cfb677f1c6b6bf72efd4b89c891a358e34094bd",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
@@ -1145,11 +1145,11 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "11.3.7.0",
+		"Version": "11.3.16.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro11-v-check.txt\r\nhttps://www.2brightsparks.com/syncback/changes-old.html",
 		"Type": "exe",
-		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.11.3.7.0.exe",
-		"HashX8664": "799aba951459d2f36a37f7eb3e80ef2aec64367467889253d48f84c7ccea8fc8",
+		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.11.3.16.0.exe",
+		"HashX8664": "31e3aa5275eb76f7e4a37ed732fdb70179cbcfd5cea0decf1018e95506aeb0b7",
 		"InstallerArguments": "/Silent /SP- /Counter=5 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/syncback/sbpro10x64-new.html",
 		"WingetId": "2BrightSparks.SyncBackPro"
