@@ -885,12 +885,12 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "20.12.1",
+		"Version": "20.12.2",
 		"Type": "msi",
-		"UrlX8664": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-x64.msi",
-		"UrlArm64": "https://nodejs.org/dist/v20.12.1/node-v20.12.1-arm64.msi",
-		"HashX8664": "d0a6cfef17f54ceb4cff874cae03725259c2ac62999a97add026bb0e65271065",
-		"HashArm64": "70f9921efbebd58dbcc77ee40d1e64fb6d27bb48a5befdcad9ad172287315df4",
+		"UrlX8664": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi",
+		"UrlArm64": "https://nodejs.org/dist/v20.12.2/node-v20.12.2-arm64.msi",
+		"HashX8664": "20c578361911d7b0cf153b293b025970eca383a2c802e0df438ac254aaca165d",
+		"HashArm64": "2d05b1cc83d3ecfd52624b3d2a99909f1219510ce63cc0967f8c9bfa9284044f",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"WingetId": "OpenJS.NodeJS.LTS"
