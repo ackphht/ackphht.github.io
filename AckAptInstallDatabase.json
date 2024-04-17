@@ -385,10 +385,10 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.66.5",
+		"Version": "3.67.0",
 		"Type": "exe",
 		"IndirectX8664": "https://filezilla-project.org/download.php?show_all=1\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\\\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\n$1",
-		"HashX8664": "959f0c48831b53407787d4dab2efa4ce43101b5dc6b6ad08379e6dd4ab3e272598f11867a3e08d89f06fed3e29212b088a94b99be7d20acbdc1cccc449bd2214",
+		"HashX8664": "3437a7cb6f256fdb74344b257ff44c3e4ee713c5fb4368f54a3ae2816148d0bd2a2aa1cab3572fd044c9ee05774515776774668ad64f41b70d9dc33c26de754f",
 		"InstallerArguments": "/S",
 		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
@@ -961,11 +961,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.90.1",
+		"Version": "1.91.0",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.90.1.118-a4bc1429/windows/Plex-1.90.1.118-a4bc1429-x86_64.exe",
-		"HashX8664": "e09c4eb0aa1ea1b39ab8b58f095ca2978feb3591",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.91.0.129-1cd63c1d/windows/Plex-1.91.0.129-1cd63c1d-x86_64.exe",
+		"HashX8664": "9df24881db64b12d22660237314d623da8baeb68",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
@@ -1050,10 +1050,10 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.17",
+		"Version": "3.4.18",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
-		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.17.exe",
+		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.18.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"WingetId": "Atlassian.Sourcetree",
 		"WingetScope": "user"
@@ -1247,21 +1247,21 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.14",
+		"Version": "7.0.16",
 		"Notes": "installer now checks for some python package and complains if it's not found\r\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\r\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-Win.exe",
-		"HashX8664": "4719b38e7a276b43099ce4d6349e6bfc80edf644ee59d9dafd264bc7ed7691f4",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.16/VirtualBox-7.0.16-162802-Win.exe",
+		"HashX8664": "2fb44977d3329e55e8b61408ab4af5239ecd3d80c5990fb5cd6bd0c91a854d62",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.14",
+		"Version": "7.0.16",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.14/Oracle_VM_VirtualBox_Extension_Pack-7.0.14.vbox-extpack",
-		"HashX8664": "42cb36fbf439a9ed28c95d2bbc718a0eac902225eb579c884c549af2e94be633",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.16/Oracle_VM_VirtualBox_Extension_Pack-7.0.16.vbox-extpack",
+		"HashX8664": "f92bd4d5a6a522897914c7df21bfd3262ffeaffa740d648738f335a867a18b16",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
