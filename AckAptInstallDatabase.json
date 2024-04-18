@@ -168,10 +168,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.11",
+		"Version": "1.6.12",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.11/clink.1.6.11.5e960c_setup.exe",
-		"HashX8632": "Wy3tgwZWhHHklA2lUnTu2Q==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.12/clink.1.6.12.5cd618_setup.exe",
+		"HashX8632": "2wFLa/shPjHz8aG/bLxIJQ==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -572,10 +572,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.50",
+		"Version": "6.7.4.51",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/032524/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/041824/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
