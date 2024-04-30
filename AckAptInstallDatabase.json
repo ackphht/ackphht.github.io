@@ -470,7 +470,7 @@
 		"Name": "git",
 		"Version": "2.45.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-64-bit.exe",
 		"HashX8664": "7694a2118ac80146636be1ee751ee81d2aea7e9106d29dd8fed06c32cff0c59f",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
