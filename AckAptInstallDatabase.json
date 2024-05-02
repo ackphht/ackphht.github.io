@@ -377,10 +377,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.4.1",
+		"Version": "8.4.2",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashX8632": "5495c36a838bb25e3342081bb4f6db5e910b48b849d7db82110ffed86a1d253b",
+		"HashX8632": "b7bf85176d16fff9d7160afb7ee0e9672926d2012b4c057e49345012774ce7f1",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
 	},
 	{
@@ -417,10 +417,10 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.1.4",
+		"Version": "2.1.5",
 		"Type": "nsis",
-		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.4.exe",
-		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.4.exe",
+		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.5.exe",
+		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.5.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
@@ -573,10 +573,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.52",
+		"Version": "6.7.4.53",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/042524/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/050224/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
