@@ -22,11 +22,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.30.2541",
+		"Version": "5.30.2549",
 		"Notes": "x64 redirector url: https://www.aimp.ru/?do=download.file&id=3",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2541_w64-release.exe",
-		"HashX8664": "a14baf45ccad5bb6dfe402878e93c3384d7443d3f796d62182541775ebb527aa",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2549_w64.exe",
+		"HashX8664": "c404ba2b83b86e36d3dc3bf5755b4ccdc0c1573850d9958fd00d788d15fe278d",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP"
 	},
@@ -147,10 +147,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "7.9.0",
+		"Version": "7.10.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.9.0/calibre-64bit-7.9.0.msi",
-		"HashX8664": "xfXArPDLuBaTpFNVeeFRLg==",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.10.0/calibre-64bit-7.10.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -1248,21 +1247,21 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.16",
+		"Version": "7.0.18",
 		"Notes": "installer now checks for some python package and complains if it's not found\r\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\r\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.16/VirtualBox-7.0.16-162802-Win.exe",
-		"HashX8664": "2fb44977d3329e55e8b61408ab4af5239ecd3d80c5990fb5cd6bd0c91a854d62",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe",
+		"HashX8664": "4c83894c00aa9f55f7e0f70807210896ba32e1222d4ff1d0b9487af81f328f36",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox"
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.16",
+		"Version": "7.0.18",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.16/Oracle_VM_VirtualBox_Extension_Pack-7.0.16.vbox-extpack",
-		"HashX8664": "f92bd4d5a6a522897914c7df21bfd3262ffeaffa740d648738f335a867a18b16",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.18/Oracle_VM_VirtualBox_Extension_Pack-7.0.18.vbox-extpack",
+		"HashX8664": "cab1abad478679fc34a0c5cb4a6d3566edc20e3c54cbed39c8e895d8cfad3ee2",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
