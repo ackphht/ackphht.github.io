@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.13",
+		"Version": "2.0.14",
 		"Type": "exe",
-		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.13/AutoHotkey_2.0.13_setup.exe",
-		"HashX8632": "D7646CA3A26760FE5633288D79D7B6A44CFC19A85C5315F94E0861963F1C601E",
+		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.14/AutoHotkey_2.0.14_setup.exe",
+		"HashX8632": "20D41F5FCFA4F3D61C533A9E21A019F0BCA0BD8012A6528CCDF2621749A122AB",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
@@ -617,11 +617,11 @@
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
-		"Version": "2023.3.6",
+		"Version": "2024.1.1",
 		"Notes": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/idea/ideaIC-2023.3.6.exe",
-		"HashX8632": "f91c2cf0bd762c3d656ccd8d2118b2425a1139801c8bef6fa0c1022a7d3d2df0",
+		"UrlX8632": "https://download.jetbrains.com/idea/ideaIC-2024.1.1.exe",
+		"HashX8632": "897a61dfed615b357381780017ec16679003600391549fe382ba02e634eaa7aa",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
 		"WingetId": "JetBrains.IntelliJIDEA.Community"
