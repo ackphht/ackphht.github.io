@@ -167,10 +167,9 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.12",
+		"Version": "1.6.13",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.12/clink.1.6.12.5cd618_setup.exe",
-		"HashX8632": "2wFLa/shPjHz8aG/bLxIJQ==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.13/clink.1.6.13.eb61b2_setup.exe",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink"
@@ -447,10 +446,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "2.10.36",
+		"Version": "2.10.38",
 		"Type": "inno",
-		"UrlX8632": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.36-setup.exe",
-		"HashX8632": "947efa2397f7a17b8e4f4c9689e4ab67f00ca220ac1aa0ae0c1e179ccfc4fc10",
+		"UrlX8632": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.38-setup.exe",
+		"HashX8632": "e3515980c9012eed67cf78f1151d216725529e95676c16f5ff7478d46230ddab",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
