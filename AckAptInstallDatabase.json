@@ -571,10 +571,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.53",
+		"Version": "6.7.4.54",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/050224/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/050824/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -846,11 +846,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.19.11213.0",
+		"Version": "1.20.11271.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.19.11213.0/Microsoft.WindowsTerminal_1.19.11213.0_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "396441548B00948FBA360F6CA7033B554B429A023FA00FC01330FB1D39923FE1",
+		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.20.11271.0/Microsoft.WindowsTerminal_1.20.11271.0_8wekyb3d8bbwe.msixbundle",
+		"HashX8632": "67216C17DDAB0BAF93E1BE16A851C8D904351DA497FB3C1CD2B71DF849B37931",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal"
@@ -970,11 +970,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.91.0",
+		"Version": "1.92.1",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.91.0.129-1cd63c1d/windows/Plex-1.91.0.129-1cd63c1d-x86_64.exe",
-		"HashX8664": "9df24881db64b12d22660237314d623da8baeb68",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.92.1.140-8e1f68f5/windows/Plex-1.92.1.140-8e1f68f5-x86_64.exe",
+		"HashX8664": "4cea18465fa4e74e30a3b8f3029026a1dce98e2b",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex"
