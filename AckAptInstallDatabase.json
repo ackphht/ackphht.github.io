@@ -375,11 +375,12 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.4.2",
+		"Version": "8.4.2.1",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashX8632": "b7bf85176d16fff9d7160afb7ee0e9672926d2012b4c057e49345012774ce7f1",
-		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools"
+		"HashX8632": "735c04be67eab98355613b6f41282cf6d4b1c560687bd2d5a5c95e9464f1ea54",
+		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools",
+		"WingetId": "LopeSoft.FileMenuTools"
 	},
 	{
 		"Name": "FileZilla",
