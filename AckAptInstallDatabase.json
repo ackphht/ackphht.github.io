@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "24.0.4",
+		"Version": "24.0.5",
 		"Type": "nsis",
-		"UrlX8664": "https://7-zip.org/a/7z2404-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2404-arm64.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2405-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2405-arm64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
@@ -467,11 +467,11 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.45.0",
+		"Version": "2.45.1",
 		"Notes": "installer options: https://github.com/git-for-windows/git/wiki/Silent-or-Unattended-Installation",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.45.0.windows.1/Git-2.45.0-64-bit.exe",
-		"HashX8664": "7694a2118ac80146636be1ee751ee81d2aea7e9106d29dd8fed06c32cff0c59f",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.45.1.windows.1/Git-2.45.1-64-bit.exe",
+		"HashX8664": "1b2b58fb516495feb70353aa91da230be0a2b4aa01acc3bc047ee1fe4846bc4e",
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"WingetId": "Git.Git",
@@ -1344,10 +1344,10 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "7.0",
+		"Version": "7.0.1",
 		"Type": "exe",
-		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-700.exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-700.exe",
+		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-701.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-701.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR"
 	},
