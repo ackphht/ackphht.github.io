@@ -5,17 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<title>Show Default Styles</title>
 	<style type="text/css">
+		:root {
+			--ackTextColor:rgb(33, 37, 41); --ackBgColor:white;
+			--ackTableBorderColor:darkgray; --ackTableSectBgColor:darkslateblue; --ackTableSectTextColor:white;
+				--ackTableThBgColor:lavender; --ackTableTdBgColor:white;
+			--ackButtonBgColor:ButtonFace; --ackButtonTextColor:ButtonText; --ackButtonBorderColor:ButtonBorder;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--ackTextColor:rgb(204,204,204); --ackBgColor:rgb(48, 44, 51);
+				--ackTableBorderColor:rgb(75, 67, 82); --ackTableSectBgColor:rgb(30, 25, 45); --ackTableSectTextColor:gainsboro;
+					--ackTableThBgColor:rgb(50, 42, 78); --ackTableTdBgColor:rgb(55, 51, 58);
+				--ackButtonBgColor:rgb(43, 42, 51); --ackButtonTextColor:var(--ackTextColor); --ackButtonBorderColor:rgb(117, 116, 122);
+			}
+		}
+		body { background-color: var(--ackBgColor); color: var(--ackTextColor); }
 		div#wrapper { width: 100%; }
 		@media (min-width:1200px) { div#wrapper { max-width: 75%; margin-inline: auto; } }
 		table.dataTbl { border-collapse: collapse; width: 100%; margin: 0; }
-		table.dataTbl td, table.dataTbl th { font-size:14px; font-family:Tahoma,sans-serif; border: 1px solid darkgray; padding:6px; /*white-space: nowrap;*/ }
+		table.dataTbl td, table.dataTbl th { font-size:14px; font-family:Tahoma,sans-serif; border: 1px solid var(--ackTableBorderColor); padding:6px; /*white-space: nowrap;*/ }
+		table.dataTbl td { background-color: var(--ackTableTdBgColor); }
 		/* table.dataTbl thead th { background-color: lightsteelblue; text-align: center; } */
-		table.dataTbl tbody tr th { background-color: lavender; text-align: right; }
-		table.dataTbl thead th.section { background-color: darkslateblue; color:white; text-align: center; }
+		table.dataTbl tbody tr th { background-color: var(--ackTableThBgColor); text-align: right; }
+		table.dataTbl thead th.section { background-color: var(--ackTableSectBgColor); color: var(--ackTableSectTextColor); text-align: center; }
 		/* make main table header always visible: */
 		/* div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; } */
 		/* table#data thead th { position: sticky; top: 0; z-index: 99; } */
-		table.dataTbl td ul { margin: 0;; padding-left: 1em; }
+		table.dataTbl td ul { margin: 0; padding-left: 1em; }
+		button { background-color: var(--ackButtonBgColor); color: var(--ackButtonTextColor); border-color: var(--ackButtonBorderColor); }
 	</style>
 </head>
 <body>
