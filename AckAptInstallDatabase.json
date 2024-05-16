@@ -62,10 +62,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.14",
+		"Version": "2.0.15",
 		"Type": "exe",
-		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.14/AutoHotkey_2.0.14_setup.exe",
-		"HashX8632": "20D41F5FCFA4F3D61C533A9E21A019F0BCA0BD8012A6528CCDF2621749A122AB",
+		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.15/AutoHotkey_2.0.15_setup.exe",
+		"HashX8632": "207FEA03708F1BA8C8E61F30170D799495736726D1853D7D4150A5FFFFA14013",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
@@ -572,10 +572,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.54",
+		"Version": "6.7.4.55",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/050824/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/051624/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download"
 	},
@@ -1353,13 +1353,13 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.2.4",
+		"Version": "4.2.5",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "nsis",
-		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.4-x64.exe",
-		"UrlArm64": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.4-arm64.exe",
-		"HashX8664": "b621718ffe64748590ea9568fbbed0f3d86b0939906dc9f7fe064e20ce385492",
-		"HashArm64": "f6f94f8628d1d4f830c79ee4a9962c36b4497a6219c7ca9e3527c48a0f424eac",
+		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.5-x64.exe",
+		"UrlArm64": "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.5-arm64.exe",
+		"HashX8664": "3d921ee584d0984f694f60a771a6581a6f32a9de995a5cd4bca1931185a4e618",
+		"HashArm64": "331a0925ee1e4d6d1b16af6982972631335fc238afe626903ed122e146830c5a",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark"
 	}
