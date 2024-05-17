@@ -1099,11 +1099,11 @@
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4115.5",
-		"Notes": "Cumulative Update 12 [KB5033663]",
+		"Version": "16.0.4125.3",
+		"Notes": "Cumulative Update 13 [KB5036432]",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5033663-x64.exe",
-		"HashX8632": "A9FC6D06BAA5EAEC40A8426F8562E060E4402E86713781AE2826EC2DBB0810B0",
+		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5036432-x64.exe",
+		"HashX8632": "E78D2CF147BB596017615D50A5AB8CF3812A718AAB85CAB6C08C34A50D5935FB",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
 	},
