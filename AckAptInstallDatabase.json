@@ -426,9 +426,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "2024.1.0",
+		"Version": "2024.2.1",
 		"Type": "inno",
-		"UrlX8632": "https://www.foxit.com/downloads/latest.html?product=Foxit-Reader&platform=Windows&package_type=exe&version=2024.1.0",
+		"UrlX8632": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2024.2.1/FoxitPDFReader202421_enu_Setup_Prom.exe",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
 		"WingetId": "Foxit.FoxitReader"
 	},
@@ -489,11 +489,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.3.14",
+		"Version": "3.3.18",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.3.14-b6c1402e/GitHubDesktopSetup-x64.exe",
-		"HashX8664": "lV38n/Ngt+jIIgl3QiggLQ==",
+		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.3.18-e85f51b7/GitHubDesktopSetup-x64.exe",
+		"HashX8664": "uB3u5tPoSWSXho0aC7nTLw==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
