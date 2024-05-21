@@ -88,11 +88,11 @@
 	},
 	{
 		"Name": "AzureCLI",
-		"Version": "2.60.0",
+		"Version": "2.61.0",
 		"Notes": "https://aka.ms/installazurecliwindows",
 		"Type": "msi",
-		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.60.0.msi",
-		"HashX8632": "TNW3k9nJ5Mr1m5suvVE3HQ==",
+		"UrlX8632": "https://azcliprod.blob.core.windows.net/msi/azure-cli-2.61.0.msi",
+		"HashX8632": "wfJoX5DaZqdNQmxhkNk/7A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
 		"WingetId": "Microsoft.AzureCLI"
@@ -560,12 +560,12 @@
 	},
 	{
 		"Name": "Handbrake",
-		"Version": "1.7.3",
+		"Version": "1.8.0",
 		"Type": "nsis",
-		"UrlX8664": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-x86_64-Win_GUI.exe",
-		"UrlArm64": "https://github.com/HandBrake/HandBrake/releases/download/1.7.3/HandBrake-1.7.3-arm64-Win_GUI.exe",
-		"HashX8664": "f80829d30029ba255675929587f2b6665de2790e52b24845b92d1427c8893264",
-		"HashArm64": "78e5e2e7061136eb0066bbfa3759a27a45a20cd3280fa30e5fa369bd06a8d22e",
+		"UrlX8664": "https://github.com/HandBrake/HandBrake/releases/download/1.8.0/HandBrake-1.8.0-x86_64-Win_GUI.exe",
+		"UrlArm64": "https://github.com/HandBrake/HandBrake/releases/download/1.8.0/HandBrake-1.8.0-arm64-Win_GUI.exe",
+		"HashX8664": "a75c643d7260bd49401c1d45e0a326cc3bfab3a03467d210169f086ebaad1c18",
+		"HashArm64": "06ea7478842aa310319707894f79b50293fc89d96716298ccfd10dcca002e2fe",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"WingetId": "HandBrake.HandBrake",
 		"GitHubId": "HandBrake/HandBrake"
