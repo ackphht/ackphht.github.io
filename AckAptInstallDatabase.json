@@ -9,7 +9,8 @@
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
 		"AppPage": "http://www.7-zip.org/",
-		"WingetId": "7zip.7zip"
+		"WingetId": "7zip.7zip",
+		"GitHubId": "ip7z/7zip"
 	},
 	{
 		"Name": "AdobeReaderDC",
@@ -146,13 +147,15 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "7.11.0",
+		"Version": "7.12.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.11.0/calibre-64bit-7.11.0.msi",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.12.0/calibre-64bit-7.12.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
-		"GitHubId": "kovidgoyal/calibre"
+		"GitHubId": "kovidgoyal/calibre",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Kovid Goyal"
 	},
 	{
 		"Name": "CascadiaCodeFont",
@@ -546,12 +549,12 @@
 	},
 	{
 		"Name": "gsudo",
-		"Version": "2.5.0",
+		"Version": "2.5.1",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/gerardog/gsudo/releases/download/v2.5.0/gsudo.setup.x64.msi",
-		"UrlArm64": "https://github.com/gerardog/gsudo/releases/download/v2.5.0/gsudo.setup.arm64.msi",
-		"HashX8664": "5E2645B218D5D5FB533D868A007EEB2E49674B7B0AA36EBD1B9153B4097F6FF2",
-		"HashArm64": "0A967BDF7F6A19A526CF92982D27991EEB538CAA7591A4DC826F276BFE3B117F",
+		"UrlX8664": "https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.setup.x64.msi",
+		"UrlArm64": "https://github.com/gerardog/gsudo/releases/download/v2.5.1/gsudo.setup.arm64.msi",
+		"HashX8664": "E7C13E323A04B568ECFEAB707A84279625C70036FBD9CE1AB41D0387990606C1",
+		"HashArm64": "BF58ED4E72007CB37D30FE91658D28826D0D4AC2712DEBC545C8F82A2412BEE3",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://gerardog.github.io/gsudo",
 		"WingetId": "gerardog.gsudo",
