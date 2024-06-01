@@ -29,7 +29,9 @@
 		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2549_w64.exe",
 		"HashX8664": "c404ba2b83b86e36d3dc3bf5755b4ccdc0c1573850d9958fd00d788d15fe278d",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
-		"WingetId": "AIMP.AIMP"
+		"WingetId": "AIMP.AIMP",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "IP Izmaylov Artem Andreevich"
 	},
 	{
 		"Name": "AndroidStudio",
@@ -50,7 +52,9 @@
 		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"WingetId": "Audacity.Audacity",
-		"GitHubId": "audacity/audacity"
+		"GitHubId": "audacity/audacity",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Musecy SM Ltd."
 	},
 	{
 		"Name": "AudioShell",
@@ -85,7 +89,9 @@
 		"AppPage": "https://aws.amazon.com/cli/",
 		"PreferWinget": true,
 		"WingetId": "Amazon.AWSCLI",
-		"GitHubId": "aws/aws-cli"
+		"GitHubId": "aws/aws-cli",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Amazon Web Services, Inc."
 	},
 	{
 		"Name": "AzureCLI",
@@ -96,7 +102,9 @@
 		"HashX8632": "wfJoX5DaZqdNQmxhkNk/7A==",
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows",
-		"WingetId": "Microsoft.AzureCLI"
+		"WingetId": "Microsoft.AzureCLI",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "AzureDataStudio",
@@ -110,7 +118,9 @@
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"WingetId": "Microsoft.AzureDataStudio",
 		"WingetScope": "user",
-		"GitHubId": "Microsoft/azuredatastudio"
+		"GitHubId": "Microsoft/azuredatastudio",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "AzureStorageExplorer",
@@ -122,7 +132,9 @@
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"WingetId": "Microsoft.Azure.StorageExplorer",
 		"WingetScope": "user",
-		"GitHubId": "microsoft/AzureStorageExplorer"
+		"GitHubId": "microsoft/AzureStorageExplorer",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "BingWallpaper",
@@ -143,7 +155,9 @@
 		"WingetId": "Bitwarden.Bitwarden",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
-		"GitHubId": "bitwarden/clients"
+		"GitHubId": "bitwarden/clients",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "8bit Solutions LLC"
 	},
 	{
 		"Name": "calibre",
@@ -174,7 +188,9 @@
 		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.14/clink.1.6.14.93b83f_setup.exe",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
-		"GitHubId": "chrisant996/clink"
+		"GitHubId": "chrisant996/clink",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Christopher Antos"
 	},
 	{
 		"Name": "curl",
@@ -200,7 +216,9 @@
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --quiet --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
-		"WingetId": "Docker.DockerDesktop"
+		"WingetId": "Docker.DockerDesktop",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Docker Inc"
 	},
 	{
 		"Name": "DotNet48",
@@ -208,28 +226,36 @@
 		"Notes": "https://dotnet.microsoft.com/download/dotnet-framework\r\nhttps://docs.microsoft.com/en-us/dotnet/framework/install/guide-for-developers",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=2203304",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet451DevPack",
 		"Version": "4.5.1.20181016",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=321335",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net451"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net451",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet452DevPack",
 		"Version": "4.5.2.20181013",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=397673",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net452"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net452",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet46DevPack",
 		"Version": "4.6.0.20150708",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2099469",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net46"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net46",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet461DevPack",
@@ -237,7 +263,9 @@
 		"Notes": "installs the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=690706",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=690705",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net461"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net461",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet462DevPack",
@@ -245,7 +273,9 @@
 		"Notes": "installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=780617",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=780616",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net462"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net462",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet47DevPack",
@@ -253,36 +283,46 @@
 		"Notes": "installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=825319",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=825318",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net47"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net47",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet471DevPack",
 		"Version": "4.7.1.20210812",
-		"Notes": " installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=852105",
+		"Notes": "installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=852105",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2099382",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net471"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net471",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet472DevPack",
 		"Version": "4.7.2.20210812",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=874338",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net472"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net472",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet48DevPack",
 		"Version": "4.8.0",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2088517",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNet481DevPack",
 		"Version": "4.8.1",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2203306",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481"
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "DotNetCoreSdk6",
@@ -373,7 +413,9 @@
 		"PreInstallMessage": "might want to disable network to block web page launch",
 		"InstallerArguments": "/S",
 		"AppPage": "https://www.telerik.com/download/fiddler",
-		"WingetId": "Telerik.Fiddler"
+		"WingetId": "Telerik.Fiddler",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Progress Software Corporation"
 	},
 	{
 		"Name": "FileMenuTools",
@@ -382,7 +424,9 @@
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
 		"HashX8632": "735c04be67eab98355613b6f41282cf6d4b1c560687bd2d5a5c95e9464f1ea54",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools",
-		"WingetId": "LopeSoft.FileMenuTools"
+		"WingetId": "LopeSoft.FileMenuTools",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "RUBEN LOPEZ HERNANDEZ"
 	},
 	{
 		"Name": "FileZilla",
@@ -414,7 +458,9 @@
 		"UrlX8664": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US",
 		"UrlArm64": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64-aarch64&lang=en-US",
 		"AppPage": "https://www.firefox.com",
-		"WingetId": "Mozilla.Firefox"
+		"WingetId": "Mozilla.Firefox",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Mozilla Corporation"
 	},
 	{
 		"Name": "foobar2000",
@@ -445,7 +491,9 @@
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\Free Download Manager\"",
 		"AppPage": "https://www.freedownloadmanager.org/board/viewtopic.php?f=1&t=17900",
 		"WingetId": "SoftDeluxe.FreeDownloadManager",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Softdeluxe LLC"
 	},
 	{
 		"Name": "gimp",
@@ -457,7 +505,9 @@
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
 		"WingetId": "GIMP.GIMP",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Jernej Simončič"
 	},
 	{
 		"Name": "gimp-help",
@@ -465,7 +515,9 @@
 		"Notes": "they recommend just using the online help; it will always be more up to date: https://docs.gimp.org/2.10/en/",
 		"Type": "exe",
 		"UrlX8632": "https://download.gimp.org/mirror/pub/gimp/help/windows/2.10/gimp-help-2.10.34-en-setup.exe",
-		"AppPage": "https://docs.gimp.org/download.html"
+		"AppPage": "https://docs.gimp.org/download.html",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Jernej Simončič"
 	},
 	{
 		"Name": "git",
@@ -477,7 +529,9 @@
 		"InstallerArguments": "/SP-",
 		"AppPage": "https://gitforwindows.org/",
 		"WingetId": "Git.Git",
-		"GitHubId": "git-for-windows/git"
+		"GitHubId": "git-for-windows/git",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Johannes Schindelin"
 	},
 	{
 		"Name": "GitAhead",
@@ -499,7 +553,9 @@
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "GitHub, Inc."
 	},
 	{
 		"Name": "GnuCash",
@@ -525,7 +581,9 @@
 		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%LocalAppData%\\Programs\\go\"",
 		"AppPage": "https://go.dev/dl/",
 		"WingetId": "GoLang.Go",
-		"GitHubId": "golang/go"
+		"GitHubId": "golang/go",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Google LLC"
 	},
 	{
 		"Name": "GoogleChrome",
@@ -535,7 +593,9 @@
 		"UrlX8664": "https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B83023B8A-F9D1-AFCA-E731-6194458ABA7F%7D%26lang%3Den%26browser%3D4%26usagestats%3D0%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable/update2/installers/ChromeSetup.exe",
 		"AppPage": "https://enterprise.google.com/intl/en_version/chrome/chrome-browser/",
 		"PreferWinget": true,
-		"WingetId": "Google.Chrome"
+		"WingetId": "Google.Chrome",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Google LLC"
 	},
 	{
 		"Name": "Gpg4win",
@@ -545,7 +605,9 @@
 		"UrlX8632": "https://files.gpg4win.org/gpg4win-4.3.1.exe",
 		"HashX8632": "2db44b086d860c51a4f45f43a739cd20fb0822189deb1c1cf13e4b5a3b05bc3b",
 		"AppPage": "https://www.gpg4win.org/download.html",
-		"WingetId": "GnuPG.Gpg4win"
+		"WingetId": "GnuPG.Gpg4win",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "g10 Code GmbH"
 	},
 	{
 		"Name": "gsudo",
@@ -558,7 +620,9 @@
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://gerardog.github.io/gsudo",
 		"WingetId": "gerardog.gsudo",
-		"GitHubId": "gerardog/gsudo"
+		"GitHubId": "gerardog/gsudo",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Gerardo Grignoli"
 	},
 	{
 		"Name": "Handbrake",
@@ -570,7 +634,9 @@
 		"HashArm64": "06ea7478842aa310319707894f79b50293fc89d96716298ccfd10dcca002e2fe",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"WingetId": "HandBrake.HandBrake",
-		"GitHubId": "HandBrake/HandBrake"
+		"GitHubId": "HandBrake/HandBrake",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Scott Rae"
 	},
 	{
 		"Name": "iDrive",
@@ -579,7 +645,9 @@
 		"Type": "inno",
 		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/052824/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
-		"AppPage": "https://www.idrive.com/online-backup-download"
+		"AppPage": "https://www.idrive.com/online-backup-download",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "IDrive, Inc."
 	},
 	{
 		"Name": "ILSpy",
@@ -591,7 +659,9 @@
 		"HashArm64": "17Sw8FIpO+ugVTHc05tPkw==",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
 		"WingetId": "icsharpcode.ILSpy",
-		"GitHubId": "icsharpcode/ILSpy"
+		"GitHubId": "icsharpcode/ILSpy",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Christoph Wille"
 	},
 	{
 		"Name": "ImageMagick",
@@ -627,7 +697,9 @@
 		"HashX8632": "897a61dfed615b357381780017ec16679003600391549fe382ba02e634eaa7aa",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.jetbrains.com/idea/download/",
-		"WingetId": "JetBrains.IntelliJIDEA.Community"
+		"WingetId": "JetBrains.IntelliJIDEA.Community",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
 	{
 		"Name": "IrfanView",
@@ -640,7 +712,9 @@
 		"HeadersToAdd": "Referer: http://irfanview.info/files/",
 		"AppPage": "http://www.irfanview.com/",
 		"WingetId": "IrfanSkiljan.IrfanView",
-		"WingetVersion": "4.67"
+		"WingetVersion": "4.67",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Irfan Skiljan"
 	},
 	{
 		"Name": "IrfanViewPlugins",
@@ -649,7 +723,9 @@
 		"UrlX8664": "http://www.irfanview.info/files/iview467_plugins_x64_setup.exe",
 		"HashX8664": "57344b9da73db8bffa4436b34af146bd781cdd8768cb5535d484e2704bedd7f3",
 		"InstallerArguments": "/silent",
-		"HeadersToAdd": "Referer: http://www.irfanview.info/files/"
+		"HeadersToAdd": "Referer: http://www.irfanview.info/files/",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Irfan Skiljan"
 	},
 	{
 		"Name": "iSpy",
@@ -675,7 +751,9 @@
 		"AppPage": "https://www.java.com/en/download/manual.jsp",
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
 		"WingetVersion": "8.0.xxxx.xx",
-		"WingetNoUpgrade": true
+		"WingetNoUpgrade": true,
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Oracle America, Inc."
 	},
 	{
 		"Name": "KeePass2",
@@ -688,7 +766,9 @@
 		"InstallerArguments": "/SILENT",
 		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://keepass.info/download.html",
-		"WingetId": "DominikReichl.KeePass"
+		"WingetId": "DominikReichl.KeePass",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Dominik Reichl"
 	},
 	{
 		"Name": "Kindle",
@@ -710,7 +790,9 @@
 		"HashX8664": "7864ba92d72970a7d688051e6525a32a2ff7c8a068348a3e40cf6ff5c5f63159",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
-		"WingetId": "KDE.kmymoney"
+		"WingetId": "KDE.kmymoney",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "K Desktop Environment e. V."
 	},
 	{
 		"Name": "Lens",
@@ -733,7 +815,9 @@
 		"PreInstallMessage": "installing LinkShellExtension: should kill explorer now",
 		"PostInstallMessage": "done installing LinkShellExtension: can restart explorer now",
 		"InstallerArguments": "/S /Language=English",
-		"AppPage": "https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html"
+		"AppPage": "https://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "schinagl.priv.at"
 	},
 	{
 		"Name": "LINQPad5",
@@ -744,7 +828,9 @@
 		"HashX8632": "GWXLwLDqIYr3s2ED0YrY6w==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad5.aspx",
-		"WingetId": "LINQPad.LINQPad.5"
+		"WingetId": "LINQPad.LINQPad.5",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Joseph Albahari"
 	},
 	{
 		"Name": "LINQPad8",
@@ -756,7 +842,9 @@
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad8.aspx",
-		"WingetId": "LINQPad.LINQPad.8"
+		"WingetId": "LINQPad.LINQPad.8",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Joseph Albahari"
 	},
 	{
 		"Name": "MariaDB",
@@ -782,7 +870,9 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en",
 		"AppPage": "https://www.microsoftedge.com",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.Edge"
+		"WingetId": "Microsoft.Edge",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftEdgeWebView2",
@@ -792,7 +882,9 @@
 		"UrlArm64": "https://go.microsoft.com/fwlink/p/?LinkId=2124703",
 		"InstallerArguments": "/install",
 		"AppPage": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section",
-		"WingetId": "Microsoft.EdgeWebView2Runtime"
+		"WingetId": "Microsoft.EdgeWebView2Runtime",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftOffice365",
@@ -801,7 +893,9 @@
 		"Type": "exe",
 		"UrlX8632": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=O365HomePremRetail&platform=X86&language=en-US",
 		"UrlX8664": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=O365HomePremRetail&platform=X64&language=en-US",
-		"AppPage": "https://www.office.com"
+		"AppPage": "https://www.office.com",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftOpenJDK17",
@@ -816,7 +910,9 @@
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"WingetId": "Microsoft.OpenJDK.17",
 		"WingetNoUpgrade": true,
-		"GitHubId": "microsoft/openjdk"
+		"GitHubId": "microsoft/openjdk",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftOpenJDK21",
@@ -831,7 +927,9 @@
 		"AppPage": "https://docs.microsoft.com/en-us/java/openjdk/download",
 		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
-		"GitHubId": "microsoft/openjdk"
+		"GitHubId": "microsoft/openjdk",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftPowerToys",
@@ -845,7 +943,9 @@
 		"AppPage": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"WingetId": "Microsoft.PowerToys",
 		"WingetScope": "user",
-		"GitHubId": "microsoft/PowerToys"
+		"GitHubId": "microsoft/PowerToys",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "MicrosoftTerminal",
@@ -856,7 +956,9 @@
 		"HashX8632": "67216C17DDAB0BAF93E1BE16A851C8D904351DA497FB3C1CD2B71DF849B37931",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
-		"GitHubId": "microsoft/terminal"
+		"GitHubId": "microsoft/terminal",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "mkvtoolnix",
@@ -866,7 +968,9 @@
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/84.0/mkvtoolnix-64-bit-84.0-setup.exe",
 		"HashX8664": "c126db665feb65bb050a1bc506a47141e1f2f66a87f1314e916282e00c5188ca",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
-		"WingetId": "MoritzBunkus.MKVToolNix"
+		"WingetId": "MoritzBunkus.MKVToolNix",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "LINET Services GmbH"
 	},
 	{
 		"Name": "Mp3tag",
@@ -874,7 +978,9 @@
 		"Type": "nsis",
 		"UrlX8664": "https://download.mp3tag.de/mp3tagv326-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
-		"WingetId": "Mp3tag.Mp3tag"
+		"WingetId": "Mp3tag.Mp3tag",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Florian Heidenreich"
 	},
 	{
 		"Name": "MPC-HC",
@@ -905,7 +1011,9 @@
 		"HashArm64": "7aa32a400a8d10bac35dcc22ff09ca2eccf2842dd3a762f94c77db096d6a8220",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
-		"WingetId": "OpenJS.NodeJS.LTS"
+		"WingetId": "OpenJS.NodeJS.LTS",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "OpenJS Foundation"
 	},
 	{
 		"Name": "Notepad++",
@@ -920,7 +1028,9 @@
 		"InstallerArguments": "/S",
 		"AppPage": "https://notepad-plus-plus.org/download/",
 		"WingetId": "Notepad++.Notepad++",
-		"GitHubId": "notepad-plus-plus/notepad-plus-plus"
+		"GitHubId": "notepad-plus-plus/notepad-plus-plus",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Notepad++"
 	},
 	{
 		"Name": "notepad3",
@@ -933,7 +1043,9 @@
 		"HashX8664": "0y0yR2gl1eK3JhbU9+ZADA==",
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/",
 		"WingetId": "Rizonesoft.Notepad3",
-		"GitHubId": "rizonesoft/Notepad3"
+		"GitHubId": "rizonesoft/Notepad3",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Derick Payne"
 	},
 	{
 		"Name": "OhMyPosh",
@@ -955,7 +1067,9 @@
 		"Type": "exe",
 		"UrlX8632": "https://www.onenote.com/download/win32/x86/en-US",
 		"UrlX8664": "https://www.onenote.com/download/win32/x64/en-US",
-		"AppPage": "https://www.onenote.com/download"
+		"AppPage": "https://www.onenote.com/download",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "Paint.net",
@@ -969,7 +1083,9 @@
 		"HashArm64": "/0hanLoGq2BNpCF0AG59SQ==",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html",
-		"GitHubId": "paintdotnet/release"
+		"GitHubId": "paintdotnet/release",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "DOTPDN LLC"
 	},
 	{
 		"Name": "PlexMediaPlayer",
@@ -980,7 +1096,9 @@
 		"HashX8664": "f7e39d56f598395b11ef16c70a1966cc4a6727b2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
-		"WingetId": "Plex.Plex"
+		"WingetId": "Plex.Plex",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Plex, Inc."
 	},
 	{
 		"Name": "Postman",
@@ -1000,7 +1118,9 @@
 		"InstallerArguments": "ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 USE_MU=0 ENABLE_MU=0 DISABLE_TELEMETRY=1",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"WingetId": "Microsoft.PowerShell",
-		"GitHubId": "PowerShell/PowerShell"
+		"GitHubId": "PowerShell/PowerShell",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "PrivateInternetAccess",
@@ -1010,7 +1130,9 @@
 		"UrlX8664": "https://installers.privateinternetaccess.com/download/pia-windows-x64-3.5.7-08120.exe",
 		"HashX8664": "013a8235cb3126ea004c16a48671cb3045f81031864f2af56bb9e50a6737ea28",
 		"AppPage": "https://www.privateinternetaccess.com/download/windows-vpn#download-windows",
-		"WingetId": "PrivateInternetAccess.PrivateInternetAccess"
+		"WingetId": "PrivateInternetAccess.PrivateInternetAccess",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Private Internet Access, Inc."
 	},
 	{
 		"Name": "python3.11",
@@ -1023,7 +1145,9 @@
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python311\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
 		"WingetId": "Python.Python.3.11",
-		"GitHubId": "python/cpython"
+		"GitHubId": "python/cpython",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Python Software Foundation"
 	},
 	{
 		"Name": "python3.12",
@@ -1036,7 +1160,9 @@
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python312\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
 		"WingetId": "Python.Python.3.12",
-		"GitHubId": "python/cpython"
+		"GitHubId": "python/cpython",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Python Software Foundation"
 	},
 	{
 		"Name": "Resharper",
@@ -1046,7 +1172,9 @@
 		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2023.2.3/JetBrains.dotUltimate.2023.2.3.web.exe",
 		"HashX8632": "77aca4eefb09803fceedbe9341efc273a72880d67b6fca1ba765229caa36fbbb",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
-		"AppPage": "https://www.jetbrains.com/resharper/download/"
+		"AppPage": "https://www.jetbrains.com/resharper/download/",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
 	{
 		"Name": "Sigil",
@@ -1068,7 +1196,9 @@
 		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-3.4.18.exe",
 		"AppPage": "https://www.sourcetreeapp.com/",
 		"WingetId": "Atlassian.Sourcetree",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Atlassian Pty Ltd"
 	},
 	{
 		"Name": "SqlServer2019Express",
@@ -1077,7 +1207,9 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=866658",
 		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\"",
 		"AppPage": "https://www.microsoft.com/en-us/sql-server/sql-server-downloads",
-		"WingetId": "Microsoft.SQLServer.2019.Express"
+		"WingetId": "Microsoft.SQLServer.2019.Express",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServer2022Express",
@@ -1087,7 +1219,9 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/p/?linkid=2216019",
 		"InstallerArguments": "/IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\"",
 		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
-		"WingetId": "Microsoft.SQLServer.2022.Express"
+		"WingetId": "Microsoft.SQLServer.2022.Express",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServer2019CU",
@@ -1097,7 +1231,9 @@
 		"UrlX8632": "https://download.microsoft.com/download/6/e/7/6e72dddf-dfa4-4889-bc3d-e5d3a0fd11ce/SQLServer2019-KB5035123-x64.exe",
 		"HashX8632": "284A8582369D896F0229E8639BF21A3EB0FA354367BC9E92330B4178408EBF5C",
 		"ValidExitCodes": "0,3010",
-		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
+		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServer2022CU",
@@ -1107,7 +1243,9 @@
 		"UrlX8632": "https://download.microsoft.com/download/9/6/8/96819b0c-c8fb-4b44-91b5-c97015bbda9f/SQLServer2022-KB5036432-x64.exe",
 		"HashX8632": "E78D2CF147BB596017615D50A5AB8CF3812A718AAB85CAB6C08C34A50D5935FB",
 		"ValidExitCodes": "0,3010",
-		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server"
+		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServerMngmtStudio19",
@@ -1118,7 +1256,9 @@
 		"HashX8632": "iYkF2n94m7zi6GSYFI73Gg==",
 		"InstallerArguments": "/Passive DoNotInstallAzureDataStudio=1",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
-		"WingetId": "Microsoft.SQLServerManagementStudio"
+		"WingetId": "Microsoft.SQLServerManagementStudio",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServerMngmtStudio20",
@@ -1128,7 +1268,9 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2267019&clcid=0x409",
 		"InstallerArguments": "/install /passive",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
-		"WingetId": "Microsoft.SQLServerManagementStudio"
+		"WingetId": "Microsoft.SQLServerManagementStudio",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "stellarium",
@@ -1141,7 +1283,9 @@
 		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
 		"WingetId": "Stellarium.Stellarium",
-		"GitHubId": "Stellarium/stellarium"
+		"GitHubId": "Stellarium/stellarium",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "SignPath Foundation"
 	},
 	{
 		"Name": "SumatraPDF",
@@ -1153,7 +1297,9 @@
 		"AppPage": "https://www.sumatrapdfreader.org/download-free-pdf-viewer",
 		"WingetId": "SumatraPDF.SumatraPDF",
 		"WingetScope": "user",
-		"GitHubId": "sumatrapdfreader/sumatrapdf"
+		"GitHubId": "sumatrapdfreader/sumatrapdf",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Krzysztof Kowalczyk"
 	},
 	{
 		"Name": "SyncBackPro",
@@ -1164,7 +1310,9 @@
 		"HashX8664": "fe9d99dca4b85f51cccce050977eda8444e51d39586f69c9a3392ce9071fd753",
 		"InstallerArguments": "/Silent /SP- /Counter=5 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/syncback/sbpro10x64-new.html",
-		"WingetId": "2BrightSparks.SyncBackPro"
+		"WingetId": "2BrightSparks.SyncBackPro",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "2BrightSparks Pte. Ltd."
 	},
 	{
 		"Name": "TeraCopy",
@@ -1173,7 +1321,9 @@
 		"Type": "exe",
 		"UrlX8632": "https://codesector.com/files/teracopy3.17.exe",
 		"AppPage": "https://blog.codesector.com/category/teracopy/",
-		"WingetId": "CodeSector.TeraCopy"
+		"WingetId": "CodeSector.TeraCopy",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "CODE SECTOR PTY LTD"
 	},
 	{
 		"Name": "TortoiseGit",
@@ -1183,7 +1333,9 @@
 		"UrlX8664": "https://download.tortoisegit.org/tgit/2.16.0.0/TortoiseGit-2.16.0.0-64bit.msi",
 		"UrlArm64": "https://download.tortoisegit.org/tgit/2.16.0.0/TortoiseGit-2.16.0.0-arm64.msi",
 		"AppPage": "https://tortoisegit.org/download/",
-		"WingetId": "TortoiseGit.TortoiseGit"
+		"WingetId": "TortoiseGit.TortoiseGit",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Open Source Developer, Sven Strickroth"
 	},
 	{
 		"Name": "VCRedist2005",
@@ -1192,7 +1344,9 @@
 		"InstallBothX86": true,
 		"UrlX8632": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE",
 		"UrlX8664": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE",
-		"InstallerArguments": "/Q"
+		"InstallerArguments": "/Q",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2008",
@@ -1201,7 +1355,9 @@
 		"InstallBothX86": true,
 		"UrlX8632": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe",
 		"UrlX8664": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe",
-		"InstallerArguments": "/Q"
+		"InstallerArguments": "/Q",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2010",
@@ -1210,7 +1366,9 @@
 		"InstallBothX86": true,
 		"UrlX8632": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe",
 		"UrlX8664": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
-		"InstallerArguments": "/q /norestart"
+		"InstallerArguments": "/q /norestart",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2012",
@@ -1220,7 +1378,9 @@
 		"UrlX8632": "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x86.exe",
 		"UrlX8664": "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
 		"ValidExitCodes": "0,3010",
-		"InstallerArguments": "/quiet /norestart"
+		"InstallerArguments": "/quiet /norestart",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2013",
@@ -1231,7 +1391,9 @@
 		"UrlX8664": "https://aka.ms/highdpimfc2013x64enu",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/quiet /norestart",
-		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
+		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2015+",
@@ -1244,7 +1406,9 @@
 		"UrlArm64": "https://aka.ms/vs/17/release/vc_redist.arm64.exe",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/q /norestart",
-		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads"
+		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VeraCrypt",
@@ -1255,7 +1419,9 @@
 		"HashX8632": "5efb272a566b3e58e296741d81d13a3dbf135e8466ebbdee266175f7e04f23b4",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"WingetId": "IDRIX.VeraCrypt",
-		"GitHubId": "veracrypt/VeraCrypt"
+		"GitHubId": "veracrypt/VeraCrypt",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "IDRIX SARL"
 	},
 	{
 		"Name": "VirtualBox",
@@ -1266,7 +1432,9 @@
 		"HashX8664": "4c83894c00aa9f55f7e0f70807210896ba32e1222d4ff1d0b9487af81f328f36",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
-		"WingetId": "Oracle.VirtualBox"
+		"WingetId": "Oracle.VirtualBox",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Oracle America, Inc."
 	},
 	{
 		"Name": "VirtualBoxExtensions",
@@ -1286,7 +1454,9 @@
 		"InstallerArguments": "--do-not-launch-chrome --vivaldi-silent",
 		"AppPage": "https://vivaldi.com/download/",
 		"WingetId": "VivaldiTechnologies.Vivaldi",
-		"WingetScope": "user"
+		"WingetScope": "user",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Vivaldi Technologies AS"
 	},
 	{
 		"Name": "vlc",
@@ -1296,7 +1466,9 @@
 		"UrlX8664": "http://download.videolan.org/pub/videolan/vlc/3.0.20/win64/vlc-3.0.20-win64.exe",
 		"HashX8664": "d8055b6643651ca5b9ad58c438692a481483657f3f31624cdfa68b92e8394a57",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
-		"WingetId": "VideoLAN.VLC"
+		"WingetId": "VideoLAN.VLC",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "VideoLAN"
 	},
 	{
 		"Name": "VS2022Community",
@@ -1305,7 +1477,9 @@
 		"UrlX8632": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/14fe35fa35c305b03032a885ff3ebefaf88fce5051ee84183d4c5de75783339e/vs_Community.exe",
 		"InstallerArguments": "--nocache --wait",
 		"AppPage": "https://visualstudio.microsoft.com/",
-		"WingetId": "Microsoft.VisualStudio.2022.Community"
+		"WingetId": "Microsoft.VisualStudio.2022.Community",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VSCode",
@@ -1320,7 +1494,9 @@
 		"AppPage": "https://code.visualstudio.com/Download",
 		"WingetId": "Microsoft.VisualStudioCode",
 		"WingetScope": "user",
-		"GitHubId": "microsoft/vscode"
+		"GitHubId": "microsoft/vscode",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "WinDbg",
@@ -1342,7 +1518,9 @@
 		"AppPage": "http://winmerge.org/downloads/",
 		"WingetId": "WinMerge.WinMerge",
 		"WingetScope": "machine",
-		"GitHubId": "WinMerge/winmerge"
+		"GitHubId": "WinMerge/winmerge",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Takashi Sawanaka"
 	},
 	{
 		"Name": "WinRAR",
@@ -1351,7 +1529,9 @@
 		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-701.exe",
 		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-701.exe",
 		"AppPage": "https://www.rarlab.com",
-		"WingetId": "RARLab.WinRAR"
+		"WingetId": "RARLab.WinRAR",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "win.rar GmbH"
 	},
 	{
 		"Name": "WireShark",
@@ -1363,6 +1543,8 @@
 		"HashX8664": "3d921ee584d0984f694f60a771a6581a6f32a9de995a5cd4bca1931185a4e618",
 		"HashArm64": "331a0925ee1e4d6d1b16af6982972631335fc238afe626903ed122e146830c5a",
 		"AppPage": "https://www.wireshark.org/download.html",
-		"WingetId": "WiresharkFoundation.Wireshark"
+		"WingetId": "WiresharkFoundation.Wireshark",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Wireshark Foundation"
 	}
 ]
