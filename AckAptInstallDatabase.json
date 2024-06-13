@@ -23,11 +23,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.30.2549",
+		"Version": "5.30.2554",
 		"Notes": "x64 redirector url: https://www.aimp.ru/?do=download.file&id=3",
 		"Type": "exe",
-		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2549_w64.exe",
-		"HashX8664": "c404ba2b83b86e36d3dc3bf5755b4ccdc0c1573850d9958fd00d788d15fe278d",
+		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_5.30.2554_w64.exe",
+		"HashX8664": "a23e74e541b1bdbf9f712f007835f67ce22e3d1cba2738aa79272817a05a9eb5",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
 		"AuthenticodeRequired": true,
@@ -984,10 +984,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.2.1",
+		"Version": "2.3.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.2.1/MPC-HC.2.2.1.x64.exe",
-		"HashX8664": "moJrqb//3qmTjXS+eE9z/Q==",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.0/MPC-HC.2.3.0.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
