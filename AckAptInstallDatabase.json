@@ -14,12 +14,14 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2024.001.20629",
+		"Version": "2024.002.20854",
 		"Notes": "ugh",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2400120629/AcroRdrDCx642400120629_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2400220854/AcroRdrDCx642400220854_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
-		"WingetId": "Adobe.Acrobat.Reader.64-bit"
+		"WingetId": "Adobe.Acrobat.Reader.64-bit",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Adobe Inc."
 	},
 	{
 		"Name": "AIMP",
@@ -545,11 +547,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.4.0",
+		"Version": "3.4.1",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32\r\nrelease notes: https://desktop.github.com/release-notes/",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.4.0-bd8f79d7/GitHubDesktopSetup-x64.exe",
-		"HashX8664": "BM3FDJaaNkQLfjV4GqnCIQ==",
+		"UrlX8664": "https://desktop.githubusercontent.com/github-desktop/releases/3.4.1-cb739340/GitHubDesktopSetup-x64.exe",
+		"HashX8664": "ZSM7J1ssWZ7k8erDtAEz0A==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
@@ -1177,10 +1179,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.1.0",
+		"Version": "2.2.0",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.1.0/Sigil-2.1.0-Windows-x64-Setup.exe",
-		"HashX8664": "1048e93afbb64d7dbfa61be80cfb677f1c6b6bf72efd4b89c891a358e34094bd",
+		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/2.2.0/Sigil-2.2.0-Windows-x64-Setup.exe",
+		"HashX8664": "04befe38b9e923d1a1578027392cdb34968b473efdf5105a553ee84c354c9607",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
