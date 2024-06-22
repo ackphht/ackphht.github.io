@@ -984,9 +984,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.3.0",
+		"Version": "2.3.1",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.0/MPC-HC.2.3.0.x64.exe",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.1/MPC-HC.2.3.1.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
@@ -1088,11 +1088,11 @@
 	},
 	{
 		"Name": "PlexMediaPlayer",
-		"Version": "1.95.2",
+		"Version": "1.95.3",
 		"Notes": "https://plex.tv/api/downloads/6.json",
 		"Type": "nsis",
-		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.95.2.166-92c7babe/windows/Plex-1.95.2.166-92c7babe-x86_64.exe",
-		"HashX8664": "a744938c95b67da21cd2c74ea31264a8afe616cb",
+		"UrlX8664": "https://downloads.plex.tv/plex-desktop/1.95.3.175-dd94cbd1/windows/Plex-1.95.3.175-dd94cbd1-x86_64.exe",
+		"HashX8664": "8ffb6ffdd3fdcc261961476743d10698949577e2",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://www.plex.tv/media-server-downloads/#plex-app",
 		"WingetId": "Plex.Plex",
