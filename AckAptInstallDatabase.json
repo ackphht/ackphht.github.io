@@ -430,10 +430,10 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.67.0",
+		"Version": "3.67.1",
 		"Type": "exe",
 		"IndirectX8664": "https://filezilla-project.org/download.php?show_all=1\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\\\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\n$1",
-		"HashX8664": "3437a7cb6f256fdb74344b257ff44c3e4ee713c5fb4368f54a3ae2816148d0bd2a2aa1cab3572fd044c9ee05774515776774668ad64f41b70d9dc33c26de754f",
+		"HashX8664": "003b8eea875c0d21e281a35ee6806f6b16a615e0639a511a5331f7c433c4a4dccd204c7e94657cf71c9a111587f9345748c3a151658d9cf64a0c14a01d5dfd33",
 		"InstallerArguments": "/S",
 		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
