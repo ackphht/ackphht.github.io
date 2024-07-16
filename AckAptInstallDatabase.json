@@ -1426,11 +1426,11 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.0.18",
+		"Version": "7.0.20",
 		"Notes": "installer now checks for some python package and complains if it's not found\r\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\r\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe",
-		"HashX8664": "4c83894c00aa9f55f7e0f70807210896ba32e1222d4ff1d0b9487af81f328f36",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.20/VirtualBox-7.0.20-163906-Win.exe",
+		"HashX8664": "fa3544162eee87b660999bd913f76ccb2e5a706928ef2c2e29811e4ac76fb166",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox",
@@ -1439,10 +1439,10 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.0.18",
+		"Version": "7.0.20",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.18/Oracle_VM_VirtualBox_Extension_Pack-7.0.18.vbox-extpack",
-		"HashX8664": "cab1abad478679fc34a0c5cb4a6d3566edc20e3c54cbed39c8e895d8cfad3ee2",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.0.20/Oracle_VM_VirtualBox_Extension_Pack-7.0.20.vbox-extpack",
+		"HashX8664": "d750fb17688d70e0cb2d7b06f1ad3a661303793f4d1ac39cfa9a54806b89da25",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
