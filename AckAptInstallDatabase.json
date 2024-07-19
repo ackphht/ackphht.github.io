@@ -161,9 +161,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "7.14.0",
+		"Version": "7.15.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.14.0/calibre-64bit-7.14.0.msi",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.15.0/calibre-64bit-7.15.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -640,10 +640,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "6.7.4.59",
+		"Version": "6.7.4.60",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/070824/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/071924/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
@@ -984,9 +984,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.3.2",
+		"Version": "2.3.3",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.2/MPC-HC.2.3.2.1.x64.exe",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.3/MPC-HC.2.3.3.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
