@@ -5,18 +5,35 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<title>Show Default Styles</title>
 	<style type="text/css">
+		:root {
+			--ackTextColor:rgb(33, 37, 41); --ackBgColor:white;
+			--ackTheadThBgColor:lightsteelblue; --ackTbodyThBgColor:ghostwhite;
+			--ackTheadThAltBgColor:steelblue; --ackTheadThAltColor:white;
+			--ackSizeBorderColor:blue;
+		}
+
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--ackTextColor:rgb(204,204,204); --ackBgColor:rgb(48, 44, 51);
+				--ackTheadThBgColor:darkslateblue; --ackTbodyThBgColor:rgb(50, 42, 78);
+				--ackTheadThAltBgColor:indigo; --ackTheadThAltColor:darkgray;
+				--ackSizeBorderColor:lightskyblue;
+			}
+		}
+		body { background-color: var(--ackBgColor); color: var(--ackTextColor); }
 		table.dataTbl { font-size:11px; font-family:Tahoma,sans-serif; border-collapse: collapse; /* max-width:100%; margin:1rem auto; */ margin:1rem 0; }
 		table.dataTbl td, table.dataTbl th { border: 1px solid darkgray; padding:2px; white-space: nowrap; }
-		table.dataTbl thead th { background-color: lightsteelblue; text-align: center; }
-		table.dataTbl tbody th { background-color: ghostwhite; text-align: right; }
-		table#text thead tr:first-child th { background-color:steelblue; color: white; }
+		table.dataTbl thead th { background-color: var(--ackTheadThBgColor); text-align: center; }
+		table.dataTbl tbody th { background-color: var(--ackTbodyThBgColor); text-align: right; }
+		table#text thead tr:first-child th { background-color: var(--ackTheadThAltBgColor); color: var(--ackTheadThAltColor); }
 		/* make main table header always visible: */
 		div#wrapper { overflow-x: scroll;  overflow-y: scroll; max-height: 97vh; }
 		table#data { position:relative; /* not sure this is really necessary... */ }
 		table#data thead th { position: sticky; top: 0; z-index: 99; }
-		table#sizes td { padding: 0.4em 0; }
-		table#sizes td div.cont { border: 1px solid blue; text-align: center; padding:3px 0; }
-		table#sizes thead th { background-color:steelblue; color: white; }
+		table#sizes { min-width: 4cm; }
+		table#sizes td { padding: 0.5em; }
+		table#sizes td div.cont { border: 1px solid var(--ackSizeBorderColor); text-align: center; padding:3px 0; }
+		table#sizes thead th { background-color: var(--ackTheadThAltBgColor); color: var(--ackTheadThAltColor); }
 	</style>
 </head>
 <body>
