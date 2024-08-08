@@ -183,9 +183,9 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.6.18",
+		"Version": "1.6.19",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.18/clink.1.6.18.80e2a3_setup.exe",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.6.19/clink.1.6.19.0369d2_setup.exe",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink",
@@ -975,9 +975,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.26.0",
+		"Version": "3.27.0",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv326-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv327-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag",
 		"AuthenticodeRequired": true,
