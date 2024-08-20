@@ -124,10 +124,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.34.0",
+		"Version": "1.35.0",
 		"Notes": "https://storageexplorer.com/\nalt redirecting url: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.34.0/StorageExplorer-windows-x64.exe",
+		"UrlX8664": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.35.0/StorageExplorer-windows-x64.exe",
+		"UrlArm64": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.35.0/StorageExplorer-windows-arm64.exe",
 		"InstallerArguments": "/SILENT /NORESTART /CURRENTUSER",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"WingetId": "Microsoft.Azure.StorageExplorer",
