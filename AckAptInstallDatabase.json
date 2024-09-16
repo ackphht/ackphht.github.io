@@ -486,7 +486,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.24.1.5847",
+		"Version": "6.24.2.5857",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -549,11 +549,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.4.3",
+		"Version": "3.4.5",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32\r\nrelease notes: https://desktop.github.com/release-notes/",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.githubusercontent.com/releases/3.4.3-2170ce9b/GitHubDesktopSetup-x64.exe",
-		"HashX8664": "/okJalkxp/ua9tp1Kird5g==",
+		"UrlX8664": "https://desktop.githubusercontent.com/releases/3.4.5-0b64c23c/GitHubDesktopSetup-x64.exe",
+		"HashX8664": "BbrrBtMu51S1NfV5aw+ymw==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
