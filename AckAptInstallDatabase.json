@@ -468,10 +468,10 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.1.5",
+		"Version": "2.1.6",
 		"Type": "nsis",
-		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.5.exe",
-		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.5.exe",
+		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v2.1.6.exe",
+		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v2.1.6.exe",
 		"AppPage": "http://www.foobar2000.org/download",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
