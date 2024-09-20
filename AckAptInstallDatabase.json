@@ -51,7 +51,7 @@
 		"Type": "inno",
 		"UrlX8664": "https://github.com/audacity/audacity/releases/download/Audacity-3.6.4/audacity-win-3.6.4-64bit.exe",
 		"HashX8664": "b11b3a96639d78ed295ca8a426da628dea951a965bfbce170708de5d4a93a75d",
-		"InstallerArguments": "/sp- /tasks=-desktopicon,-resetprefs",
+		"InstallerArguments": "/sp- /silent /norestart /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"WingetId": "Audacity.Audacity",
 		"GitHubId": "audacity/audacity",
