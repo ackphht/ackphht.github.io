@@ -162,9 +162,9 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "7.18.0",
+		"Version": "7.19.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.18.0/calibre-64bit-7.18.0.msi",
+		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v7.19.0/calibre-64bit-7.19.0.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -644,10 +644,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.8",
+		"Version": "7.0.0.9",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/091924/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/092724/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
@@ -1432,11 +1432,11 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.1.0",
+		"Version": "7.1.2",
 		"Notes": "hashes: https://www.virtualbox.org/download/hashes/___VERSION___/SHA256SUMS\r\ninstaller now checks for some python package and complains if it's not found\r\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\r\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"Type": "exe",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.1.0/VirtualBox-7.1.0-164728-Win.exe",
-		"HashX8664": "bc22f01478b51d4852d6a83318ed682cee4d89fc9d8eb51b41988a67b04e7de1",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.1.2/VirtualBox-7.1.2-164945-Win.exe",
+		"HashX8664": "95be216f865155f64cf461b712462405e25c600bd92b873d89ac43e8b564c15c",
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox",
@@ -1445,10 +1445,10 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.1.0",
+		"Version": "7.1.2",
 		"Type": "script",
-		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.1.0/Oracle_VirtualBox_Extension_Pack-7.1.0.vbox-extpack",
-		"HashX8664": "14f384053368ce5e806a808a07e66a38c6cbb141033e21de4768e670ff0df3ce",
+		"UrlX8664": "https://download.virtualbox.org/virtualbox/7.1.2/Oracle_VirtualBox_Extension_Pack-7.1.2.vbox-extpack",
+		"HashX8664": "afd7a79ce2bd0142a890ac01f580534f1a96f1ffbaa1ad17d7512751cde19f08",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
 	},
 	{
