@@ -478,9 +478,9 @@
 	},
 	{
 		"Name": "FoxitReader",
-		"Version": "2024.2.3",
+		"Version": "2024.3.0",
 		"Type": "inno",
-		"UrlX8632": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2024.2.3/FoxitPDFReader202423_enu_Setup_Prom.exe",
+		"UrlX8632": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/2024.3.0/FoxitPDFReader20243_enu_Setup_Prom.exe",
 		"AppPage": "https://www.foxitsoftware.com/pdf-reader/",
 		"WingetId": "Foxit.FoxitReader"
 	},
@@ -953,11 +953,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.21.2361.0",
+		"Version": "1.21.2701.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
-		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.21.2361.0/Microsoft.WindowsTerminal_1.21.2361.0_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "19CBE2E77CC814A5AB68E346B0D3D928F44F1EC5A78FB9B53A793D46B1CE3D27",
+		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v1.21.2701.0/Microsoft.WindowsTerminal_1.21.2701.0_8wekyb3d8bbwe.msixbundle",
+		"HashX8632": "ED7538F84002AE0C9C2B8D201FE4DE0CD6C3BAC56BF4D6CA9301B75DC4450A0F",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal",
