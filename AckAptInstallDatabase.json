@@ -937,12 +937,12 @@
 	},
 	{
 		"Name": "MicrosoftPowerToys",
-		"Version": "0.84.1",
+		"Version": "0.85.0",
 		"Type": "burn",
-		"UrlX8664": "https://github.com/microsoft/PowerToys/releases/download/v0.84.1/PowerToysUserSetup-0.84.1-x64.exe",
-		"UrlArm64": "https://github.com/microsoft/PowerToys/releases/download/v0.84.1/PowerToysSetup-0.84.1-arm64.exe",
-		"HashX8664": "1CDAF3482B031D84DAE15188DE292FB44C5D211698089921040D94B256EBD3CA",
-		"HashArm64": "E0207EF5147EE281D4F438E87A30586D8CAA24DE948950FF1B12E05454622CD9",
+		"UrlX8664": "https://github.com/microsoft/PowerToys/releases/download/v0.85.0/PowerToysUserSetup-0.85.0-x64.exe",
+		"UrlArm64": "https://github.com/microsoft/PowerToys/releases/download/v0.85.0/PowerToysUserSetup-0.85.0-arm64.exe",
+		"HashX8664": "28A8BEA61040751287FF47C9BAC627A53A4670CFEA0C17B96EE947219E9A6EA9",
+		"HashArm64": "2CA077E842B7C53BAFC75A25DBD16C1A4FCE20924C36FDA5AD8CF23CD836B855",
 		"InstallerArguments": "-passive -norestart --skip_dotnet_install --no_full_ui InstallFolder=\"%LocalAppData%\\Programs\\PowerToys\"",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/powertoys/",
 		"WingetId": "Microsoft.PowerToys",
@@ -1158,12 +1158,12 @@
 	},
 	{
 		"Name": "python3.12",
-		"Version": "3.12.6",
+		"Version": "3.12.7",
 		"Type": "burn",
-		"UrlX8664": "https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe",
-		"UrlArm64": "https://www.python.org/ftp/python/3.12.6/python-3.12.6-arm64.exe",
-		"HashX8664": "d8548aa7609a762ba66f62eeb2ca862d",
-		"HashArm64": "4ae3dfd4a32963ec6e6578890d97b19c",
+		"UrlX8664": "https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe",
+		"UrlArm64": "https://www.python.org/ftp/python/3.12.7/python-3.12.7-arm64.exe",
+		"HashX8664": "b51e0889be50c55fbdd809f4ad587120",
+		"HashArm64": "19bdd2de8a7ccb6f1115f85bc54c1764",
 		"InstallerArguments": "/passive InstallAllUsers=0 TargetDir=\"%LocalAppData%\\Programs\\python312\" PrependPath=0 CompileAll=1",
 		"AppPage": "https://www.python.org/downloads/",
 		"WingetId": "Python.Python.3.12",
@@ -1552,4 +1552,5 @@
 		"WingetId": "WiresharkFoundation.Wireshark",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Wireshark Foundation"
-	}]
+	}
+]
