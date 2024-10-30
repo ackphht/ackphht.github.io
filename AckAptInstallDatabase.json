@@ -124,11 +124,11 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.36.1",
+		"Version": "1.36.2",
 		"Notes": "https://storageexplorer.com/\nalt redirecting url: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.36.1/StorageExplorer-windows-x64.exe",
-		"UrlArm64": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.36.1/StorageExplorer-windows-arm64.exe",
+		"UrlX8664": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.36.2/StorageExplorer-windows-x64.exe",
+		"UrlArm64": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.36.2/StorageExplorer-windows-arm64.exe",
 		"InstallerArguments": "/SILENT /NORESTART /CURRENTUSER",
 		"AppPage": "https://github.com/microsoft/AzureStorageExplorer/releases",
 		"WingetId": "Microsoft.Azure.StorageExplorer",
@@ -999,9 +999,9 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.3.6",
+		"Version": "2.3.7",
 		"Type": "inno",
-		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.6/MPC-HC.2.3.6.x64.exe",
+		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/2.3.7/MPC-HC.2.3.7.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
