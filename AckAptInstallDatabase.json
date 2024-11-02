@@ -836,11 +836,11 @@
 	},
 	{
 		"Name": "LINQPad5",
-		"Version": "5.48.0",
+		"Version": "5.52.1",
 		"Notes": "for .NET Framework",
 		"Type": "exe",
 		"UrlX8632": "https://www.linqpad.net/GetFile.aspx?LINQPad5Setup-AnyCPU.exe",
-		"HashX8632": "GWXLwLDqIYr3s2ED0YrY6w==",
+		"HashX8632": "Nt9VAjviVRJ7C0F2oVHDvQ==",
 		"InstallerArguments": "/SP- /TASKS=-associate,-desktopicon /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad5.aspx",
 		"WingetId": "LINQPad.LINQPad.5",
