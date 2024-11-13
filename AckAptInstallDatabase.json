@@ -1232,6 +1232,16 @@
 		"AuthenticodeSignedBy": "Atlassian Pty Ltd"
 	},
 	{
+		"Name": "sqlcmd",
+		"Version": "15.0.4298.1",
+		"Type": "msi",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2230791",
+		"InstallerArguments": "-passive -norestart IAcceptMSSqlCMdLnUtilsLicenseTerms=YES",
+		"AppPage": "https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility?tabs=odbc,windows#download-and-install-sqlcmd",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
 		"Name": "SqlServer2019Express",
 		"Version": "15.2204.5490.2",
 		"Type": "exe",
@@ -1300,6 +1310,29 @@
 		"InstallerArguments": "/install /passive",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
+		"Name": "SqlServerODBCDriver17",
+		"Version": "17.10.6.1",
+		"Type": "msi",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2266337",
+		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
+		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#version-17",
+		"WingetId": "Microsoft.msodbcsql.17",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
+		"Name": "SqlServerODBCDriver18",
+		"Version": "18.4.1.1",
+		"Type": "msi",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2280794",
+		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2281322",
+		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
+		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#download-for-windows",
+		"WingetId": "Microsoft.msodbcsql.18",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
