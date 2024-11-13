@@ -1232,7 +1232,7 @@
 		"AuthenticodeSignedBy": "Atlassian Pty Ltd"
 	},
 	{
-		"Name": "sqlcmd",
+		"Name": "sqlcmdODBC",
 		"Version": "15.0.4298.1",
 		"Type": "msi",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2230791",
