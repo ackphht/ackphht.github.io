@@ -337,15 +337,6 @@
 		"WingetId": "Microsoft.DotNet.SDK.6"
 	},
 	{
-		"Name": "DotNetCoreSdk7",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.7"
-	},
-	{
 		"Name": "DotNetCoreSdk8",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -353,6 +344,15 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.SDK.8"
+	},
+	{
+		"Name": "DotNetCoreSdk9",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.SDK.9"
 	},
 	{
 		"Name": "DotNetCoreDesktopRuntime6",
@@ -364,15 +364,6 @@
 		"WingetId": "Microsoft.DotNet.DesktopRuntime.6"
 	},
 	{
-		"Name": "DotNetCoreDesktopRuntime7",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.7"
-	},
-	{
 		"Name": "DotNetCoreDesktopRuntime8",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -380,6 +371,15 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.DesktopRuntime.8"
+	},
+	{
+		"Name": "DotNetCoreDesktopRuntime9",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.9"
 	},
 	{
 		"Name": "DotNetCoreAspNetHostingBundle6",
@@ -391,15 +391,6 @@
 		"WingetId": "Microsoft.DotNet.HostingBundle.6"
 	},
 	{
-		"Name": "DotNetCoreAspNetHostingBundle7",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/7.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.7"
-	},
-	{
 		"Name": "DotNetCoreAspNetHostingBundle8",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -407,6 +398,15 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.HostingBundle.8"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle9",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.9"
 	},
 	{
 		"Name": "Everything",
