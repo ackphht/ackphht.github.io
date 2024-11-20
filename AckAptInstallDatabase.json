@@ -412,12 +412,25 @@
 		"Name": "Everything",
 		"Version": "1.4.1.1026",
 		"Notes": "hashes: https://www.voidtools.com/Everything-<version>.sha256",
+		"Type": "nsis",
 		"UrlX8664": "https://www.voidtools.com/Everything-1.4.1.1026.x64.en-US-Setup.exe",
 		"HashX8664": "c05145779c3c22843a801e48433de3d4de9ea8c8f5b9e6f80f3b206b67547d2e",
 		"AppPage": "https://www.voidtools.com/downloads/",
 		"WingetId": "voidtools.Everything",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "voidtools"
+	},
+	{
+		"Name": "ExactAudioCopy",
+		"Version": "1.8.0",
+		"Type": "nsis",
+		"UrlX8632": "https://www.exactaudiocopy.de/eac-1.8.exe",
+		"HashX8632": "CADB6987808DFA4F54CCD41205D7EF5236F29362",
+		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\Exact Audio Copy",
+		"AppPage": "https://www.exactaudiocopy.de/en/index.php/resources/download/",
+		"WingetId": "AndreWiethoff.ExactAudioCopy",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "wiethoff, Andre wulf"
 	},
 	{
 		"Name": "Fiddler4",
