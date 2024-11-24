@@ -991,10 +991,11 @@
 	{
 		"Name": "mkvtoolnix",
 		"Version": "88.0.0",
-		"Notes": "is a NSIS installer; have not been able to get it change install dir\nhttps://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
+		"Notes": "https://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/88.0/mkvtoolnix-64-bit-88.0-setup.exe",
 		"HashX8664": "1b685cbeb4b05e7cc342c92914486bd71a7ab0bfeb577106db94abfb9771da5a",
+		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix",
 		"AuthenticodeRequired": true,
