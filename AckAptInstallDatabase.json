@@ -1,10 +1,10 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "24.8.0",
+		"Version": "24.9.0",
 		"Type": "nsis",
-		"UrlX8664": "https://7-zip.org/a/7z2408-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2408-arm64.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2409-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2409-arm64.exe",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
