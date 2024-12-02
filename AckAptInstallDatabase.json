@@ -179,7 +179,7 @@
 		"Type": "script",
 		"UrlX8632": "https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip",
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
-		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem 'ttf\\*.ttf' -ErrorAction Ignore))) { return 0 } else { return 1 }",
+		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\n$fldr = (Get-Item -LiteralPath $context.DownloadedFile).BaseName\nif ($context.InstallFonts(@(Get-ChildItem \"${fldr}\\ttf\\*.ttf\" -ErrorAction Ignore))) { return 0 } else { return 1 }",
 		"GitHubId": "microsoft/cascadia-code"
 	},
 	{
