@@ -511,7 +511,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.25.1.6042",
+		"Version": "6.25.2.6046",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
