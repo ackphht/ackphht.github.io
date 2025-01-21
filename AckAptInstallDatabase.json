@@ -692,7 +692,7 @@
 		"WingetId": "icsharpcode.ILSpy",
 		"GitHubId": "icsharpcode/ILSpy",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Open Source Developer, Christoph Wille"
+		"AuthenticodeSignedBy": "Open Source Developer, Wille Christoph"
 	},
 	{
 		"Name": "ImageMagick",
