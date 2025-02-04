@@ -195,6 +195,14 @@
 		"AuthenticodeSignedBy": "Open Source Developer, Christopher Antos"
 	},
 	{
+		"Name": "cpu-z",
+		"Version": "2.13",
+		"Type": "zip",
+		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_2.13-en.zip",
+		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
+		"WingetId": "CPUID.CPU-Z"
+	},
+	{
 		"Name": "curl",
 		"Version": "8.11.1",
 		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\r\nhttps://curl.se/",
