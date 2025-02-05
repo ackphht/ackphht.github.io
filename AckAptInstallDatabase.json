@@ -203,6 +203,26 @@
 		"WingetId": "CPUID.CPU-Z"
 	},
 	{
+		"Name": "CrystalDiskInfo",
+		"Version": "9.5.0",
+		"Notes": "github doesn't have any releases/downloads...",
+		"Type": "zip",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/9.5.0/CrystalDiskInfo9_5_0.zip/download",
+		"HeadersToAdd": "User-Agent: winget-cli",
+		"AppPage": "https://crystalmark.info/en/software/crystaldiskinfo/",
+		"GitHubId": "hiyohiyo/CrystalDiskInfo"
+	},
+	{
+		"Name": "CrystalDiskMark",
+		"Version": "8.0.6",
+		"Notes": "github doesn't have any downloads or releases...",
+		"Type": "zip",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskmark/files/8.0.6/CrystalDiskMark8_0_6.zip/download",
+		"HeadersToAdd": "User-Agent: winget-cli",
+		"AppPage": "https://crystalmark.info/en/software/crystaldiskmark/",
+		"GitHubId": "hiyohiyo/CrystalDiskMark"
+	},
+	{
 		"Name": "curl",
 		"Version": "8.11.1",
 		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\r\nhttps://curl.se/",
@@ -646,6 +666,19 @@
 		"WingetId": "GnuPG.Gpg4win",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "g10 Code GmbH"
+	},
+	{
+		"Name": "gpu-z",
+		"Version": "2.62.0",
+		"Notes": "direct URL like below only works with package manager looking UserAgents",
+		"Type": "download",
+		"UrlX8664": "https://us1-dl.techpowerup.com/files/GPU-Z.{{version}}.exe",
+		"HashX8664": "DD45C3EE8D92A511E5D167A7D57C8DEE80EB8B8A272A897636F744C905A7879E",
+		"HeadersToAdd": "User-Agent: winget-cli",
+		"AppPage": "https://www.techpowerup.com/gpuz/",
+		"WingetId": "TechPowerUp.GPU-Z",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "TechPowerUp LLC"
 	},
 	{
 		"Name": "gsudo",
