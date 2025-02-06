@@ -1301,6 +1301,14 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "SQLiteTools",
+		"Version": "3.49.0",
+		"Type": "zip",
+		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3490000.zip",
+		"AppPage": "https://sqlite.org/download.html#win32",
+		"WingetId": "SQLite.SQLite"
+	},
+	{
 		"Name": "SqlServer2019Express",
 		"Version": "15.2204.5490.2",
 		"Type": "exe",
