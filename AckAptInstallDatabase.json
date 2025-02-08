@@ -1033,11 +1033,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "89.0",
+		"Version": "90.0",
 		"Notes": "https://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/{{version}}/mkvtoolnix-64-bit-{{version}}-setup.exe",
-		"HashX8664": "ae168d6bebaed2131f05f122b8302c0323917f514d2e1b19ed07851ad015e4bf",
+		"HashX8664": "9d44e5640a1478eeb921817e87a4acf0cd9a73df4edbba8abdc8987e4f2bb1e1",
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix",
@@ -1056,7 +1056,7 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.3.9",
+		"Version": "2.4.0",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
