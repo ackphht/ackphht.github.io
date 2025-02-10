@@ -1542,6 +1542,15 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "Ventoy",
+		"Version": "1.1.01",
+		"Type": "zip",
+		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
+		"HashX8632": "c088ba56b2d7e05546825380288faa6ee20600652b4fd1d8f78424deb76d76ad",
+		"AppPage": "https://www.ventoy.net/en/download.html",
+		"GitHubId": "ventoy/Ventoy"
+	},
+	{
 		"Name": "VeraCrypt",
 		"Version": "1.26.20",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
