@@ -710,6 +710,14 @@
 		"AuthenticodeSignedBy": "Open Source Developer, Scott Rae"
 	},
 	{
+		"Name": "HWInfo",
+		"Version": "8.20",
+		"Type": "zip",
+		"UrlX8632": "https://www.hwinfo.com/files/hwi_820.zip",
+		"UseX86OnArm": true,
+		"AppPage": "https://www.hwinfo.com/download/"
+	},
+	{
 		"Name": "iDrive",
 		"Version": "7.0.0.27",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
