@@ -715,6 +715,7 @@
 		"Type": "zip",
 		"UrlX8632": "https://www.hwinfo.com/files/hwi_820.zip",
 		"UseX86OnArm": true,
+		"HeadersToAdd": "Referer: https://www.hwinfo.com/download/",
 		"AppPage": "https://www.hwinfo.com/download/"
 	},
 	{
