@@ -1154,7 +1154,7 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.1.3",
+		"Version": "5.1.4",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
