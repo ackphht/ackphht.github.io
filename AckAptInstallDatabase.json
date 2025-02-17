@@ -1672,10 +1672,9 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "7.0.1",
+		"Version": "7.10",
 		"Type": "exe",
-		"UrlX8632": "https://www.rarlab.com/rar/winrar-x32-701.exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-701.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-710.exe",
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR",
 		"AuthenticodeRequired": true,
