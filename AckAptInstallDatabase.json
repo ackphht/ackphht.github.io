@@ -520,7 +520,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.24.1",
+		"Version": "2.24.2",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
