@@ -1311,9 +1311,9 @@
 	},
 	{
 		"Name": "SQLiteTools",
-		"Version": "3.49.0",
+		"Version": "3.49.1",
 		"Type": "zip",
-		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3490000.zip",
+		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3490100.zip",
 		"AppPage": "https://sqlite.org/download.html#win32",
 		"WingetId": "SQLite.SQLite"
 	},
