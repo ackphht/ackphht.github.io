@@ -263,7 +263,7 @@
 	},
 	{
 		"Name": "DotNet451DevPack",
-		"Version": "4.5.1.20181016",
+		"Version": "4.5.1.20250213",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=321335",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net451",
@@ -272,7 +272,7 @@
 	},
 	{
 		"Name": "DotNet452DevPack",
-		"Version": "4.5.2.20181013",
+		"Version": "4.5.2.20250213",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=397673",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net452",
@@ -281,7 +281,7 @@
 	},
 	{
 		"Name": "DotNet46DevPack",
-		"Version": "4.6.0.20150708",
+		"Version": "4.6.0.20190722",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2099469",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net46",
@@ -300,7 +300,7 @@
 	},
 	{
 		"Name": "DotNet462DevPack",
-		"Version": "4.6.2.20210812",
+		"Version": "4.6.2.20250206",
 		"Notes": "installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=780617",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=780616",
@@ -310,7 +310,7 @@
 	},
 	{
 		"Name": "DotNet47DevPack",
-		"Version": "4.7.0.20210812",
+		"Version": "4.7.0.20250206",
 		"Notes": "installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=825319",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=825318",
@@ -320,7 +320,7 @@
 	},
 	{
 		"Name": "DotNet471DevPack",
-		"Version": "4.7.1.20210812",
+		"Version": "4.7.1.20250206",
 		"Notes": "installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=852105",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2099382",
@@ -330,7 +330,7 @@
 	},
 	{
 		"Name": "DotNet472DevPack",
-		"Version": "4.7.2.20210812",
+		"Version": "4.7.2.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=874338",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net472",
@@ -339,7 +339,7 @@
 	},
 	{
 		"Name": "DotNet48DevPack",
-		"Version": "4.8.0",
+		"Version": "4.8.0.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2088517",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net48",
@@ -348,7 +348,7 @@
 	},
 	{
 		"Name": "DotNet481DevPack",
-		"Version": "4.8.1",
+		"Version": "4.8.1.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2203306",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet-framework/net481",
