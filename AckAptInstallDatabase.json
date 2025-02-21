@@ -669,11 +669,11 @@
 	},
 	{
 		"Name": "gpu-z",
-		"Version": "2.62.0",
+		"Version": "2.63.0",
 		"Notes": "direct URL like below only works with package manager looking UserAgents",
 		"Type": "download",
 		"UrlX8664": "https://us1-dl.techpowerup.com/files/GPU-Z.{{version}}.exe",
-		"HashX8664": "DD45C3EE8D92A511E5D167A7D57C8DEE80EB8B8A272A897636F744C905A7879E",
+		"HashX8664": "F6C21756B55EE1E224F185CD251F49B8A4A02D64072A50E46EC7C6D6F558F58D",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.techpowerup.com/gpuz/",
 		"WingetId": "TechPowerUp.GPU-Z",
@@ -1552,10 +1552,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.02",
+		"Version": "1.1.03",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "f992fb0569a2f9ec057c7d97800a13ead7acc57a758953800d8d958d0ae471dc",
+		"HashX8632": "9d32c10ae8f2b662061ed90e5c0bf28538b304441f778ec13e4fe56838e6619a",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"GitHubId": "ventoy/Ventoy"
 	},
