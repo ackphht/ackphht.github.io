@@ -262,7 +262,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet451DevPack",
+		"Name": "DotNetDevPack451",
 		"Version": "4.5.1.20250213",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=321335",
@@ -271,7 +271,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet452DevPack",
+		"Name": "DotNetDevPack452",
 		"Version": "4.5.2.20250213",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=397673",
@@ -280,7 +280,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet46DevPack",
+		"Name": "DotNetDevPack46",
 		"Version": "4.6.0.20190722",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2099469",
@@ -289,7 +289,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet461DevPack",
+		"Name": "DotNetDevPack461",
 		"Version": "4.6.1.20190327",
 		"Notes": "installs the .NET Framework 4.6.1, the .NET 4.6.1 Targeting Pack and the .NET 4.6.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=690706",
 		"Type": "exe",
@@ -299,7 +299,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet462DevPack",
+		"Name": "DotNetDevPack462",
 		"Version": "4.6.2.20250206",
 		"Notes": "installs the .NET Framework 4.6.2, the .NET 4.6.2 Targeting Pack and the .NET 4.6.2 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=780617",
 		"Type": "exe",
@@ -309,7 +309,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet47DevPack",
+		"Name": "DotNetDevPack47",
 		"Version": "4.7.0.20250206",
 		"Notes": "installs the .NET Framework 4.7, the .NET 4.7 Targeting Pack and the .NET 4.7 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=825319",
 		"Type": "exe",
@@ -319,7 +319,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet471DevPack",
+		"Name": "DotNetDevPack471",
 		"Version": "4.7.1.20250206",
 		"Notes": "installs the .NET Framework 4.7.1, the .NET 4.7.1 Targeting Pack and the .NET 4.7.1 SDK\r\nhttp://go.microsoft.com/fwlink/?LinkId=852105",
 		"Type": "exe",
@@ -329,7 +329,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet472DevPack",
+		"Name": "DotNetDevPack472",
 		"Version": "4.7.2.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?LinkId=874338",
@@ -338,7 +338,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet48DevPack",
+		"Name": "DotNetDevPack48",
 		"Version": "4.8.0.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2088517",
@@ -347,7 +347,7 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNet481DevPack",
+		"Name": "DotNetDevPack481",
 		"Version": "4.8.1.20250206",
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2203306",
