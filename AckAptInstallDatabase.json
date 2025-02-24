@@ -14,10 +14,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2024.005.20399",
+		"Version": "2024.005.20421",
 		"Notes": "ugh; installer is now > 500MB; for a pdf reader...",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2400520399/AcroRdrDCx642400520399_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2400520421/AcroRdrDCx642400520421_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit",
 		"AuthenticodeRequired": true,
@@ -204,10 +204,10 @@
 	},
 	{
 		"Name": "CrystalDiskInfo",
-		"Version": "9.5.0",
+		"Version": "9.6.0",
 		"Notes": "github doesn't have any releases/downloads...",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/9.5.0/CrystalDiskInfo9_5_0.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/9.6.0/CrystalDiskInfo9_6_0.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskinfo/",
 		"GitHubId": "hiyohiyo/CrystalDiskInfo"
@@ -1552,10 +1552,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.04",
+		"Version": "1.1.05",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "b2e71dff6796f9ebb6867b6fccb1f9fdf27ef6e5f6893952d8046bd17b6a51fa",
+		"HashX8632": "3dc1f0a5209c6fa260af9f08951bc4421127b56d4efa3edd2c979af74b1941e5",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"GitHubId": "ventoy/Ventoy"
 	},
