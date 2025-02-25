@@ -1657,6 +1657,16 @@
 		"AppPage": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/"
 	},
 	{
+		"Name": "WinDirStat",
+		"Version": "2.2.2",
+		"Type": "zip",
+		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release%2Fv{{version}}/WinDirStat.7z",
+		"HashX8632": "D9AE3CB4892ECABD30A0D1B0C6674C1E695B3CCA498F7BC59EB4CB20CE430A8C",
+		"UseX86OnArm": true,
+		"AppPage": "https://windirstat.net/",
+		"GitHubId": "windirstat/windirstat"
+	},
+	{
 		"Name": "WinMerge",
 		"Version": "2.16.46",
 		"Type": "inno",
