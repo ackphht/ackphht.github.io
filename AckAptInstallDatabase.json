@@ -758,6 +758,15 @@
 		"GitHubId": "ImageMagick/ImageMagick"
 	},
 	{
+		"Name": "ImHex",
+		"Version": "1.37.3",
+		"Type": "msi",
+		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
+		"AppPage": "https://imhex.werwolv.net/",
+		"WingetId": "WerWolv.ImHex",
+		"GitHubId": "WerWolv/ImHex"
+	},
+	{
 		"Name": "Inkscape",
 		"Version": "1.4.0",
 		"Notes": "really annoying site; redirectors, no easy direct download links\r\nrepo: https://gitlab.com/inkscape/inkscape",
@@ -1692,13 +1701,13 @@
 	},
 	{
 		"Name": "WireShark",
-		"Version": "4.4.4",
+		"Version": "4.4.5",
 		"Notes": "https://gitlab.com/wireshark/wireshark/",
 		"Type": "nsis",
 		"UrlX8664": "https://2.na.dl.wireshark.org/win64/Wireshark-{{version}}-x64.exe",
 		"UrlArm64": "https://2.na.dl.wireshark.org/win64/Wireshark-{{version}}-arm64.exe",
-		"HashX8664": "7511107872088965cc781fe877f79371fee441bdcfeae28ab78faa591f780a51",
-		"HashArm64": "68c6d3ab4656e8d8d0f4e63a9000aeaf6d7f0a61493f4031e891618a189298b0",
+		"HashX8664": "2dfdd1116d1f2c5a916a223b3e421f43fd15a6d2fdb7e2be23ce280d2062e19f",
+		"HashArm64": "3757a95f945239e927fcc8226e3f7b12ecbe1a3bae4905a152c3f6d4f9e856a4",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark",
 		"AuthenticodeRequired": true,
