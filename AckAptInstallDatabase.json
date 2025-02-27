@@ -603,11 +603,11 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.4.16",
+		"Version": "3.4.17",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32\r\nrelease notes: https://desktop.github.com/release-notes/",
 		"Type": "exe",
-		"UrlX8664": "https://desktop.githubusercontent.com/releases/3.4.16-ba997388/GitHubDesktopSetup-x64.exe",
-		"HashX8664": "p1ol+mcBcgi2LlD0vi/Kmg==",
+		"UrlX8664": "https://desktop.githubusercontent.com/releases/3.4.17-dd36e2aa/GitHubDesktopSetup-x64.exe",
+		"HashX8664": "6eEb/ssa5d+/seLynO4sUw==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
 		"WingetId": "GitHub.GitHubDesktop",
@@ -759,7 +759,7 @@
 	},
 	{
 		"Name": "ImHex",
-		"Version": "1.37.3",
+		"Version": "1.37.4",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
 		"AppPage": "https://imhex.werwolv.net/",
