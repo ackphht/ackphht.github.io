@@ -762,6 +762,7 @@
 		"Version": "1.37.4",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
+		"InstallerArguments": "-passive -norestart",
 		"AppPage": "https://imhex.werwolv.net/",
 		"WingetId": "WerWolv.ImHex",
 		"GitHubId": "WerWolv/ImHex"
@@ -1089,6 +1090,15 @@
 		"HashX8632": "c095cf221e8023fd8391f81eadce65fb",
 		"AppPage": "https://dev.mysql.com/downloads/mysql/",
 		"WingetId": "Oracle.MySQL"
+	},
+	{
+		"Name": "NirLauncher",
+		"Version": "1.30.17",
+		"Type": "download",
+		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
+		"HashX8632": "929453a74cecf8586bec95faabf67abc8a39725c1535c722414310c28d95f942",
+		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\"",
+		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
 	},
 	{
 		"Name": "NodejsLTS",
