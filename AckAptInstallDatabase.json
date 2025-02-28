@@ -1098,6 +1098,7 @@
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
 		"HashX8632": "929453a74cecf8586bec95faabf67abc8a39725c1535c722414310c28d95f942",
 		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\"",
+		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
 	},
 	{
