@@ -204,10 +204,10 @@
 	},
 	{
 		"Name": "CrystalDiskInfo",
-		"Version": "9.6.2",
+		"Version": "9.6.3",
 		"Notes": "github doesn't have any releases/downloads...",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/9.6.2/CrystalDiskInfo9_6_2.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/{{version}}/CrystalDiskInfo9_6_3.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskinfo/",
 		"GitHubId": "hiyohiyo/CrystalDiskInfo"
