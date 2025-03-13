@@ -25,11 +25,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.40.2655",
+		"Version": "5.40.2667",
 		"Notes": "x64 redirector url: https://www.aimp.ru/?do=download.file&id=3",
 		"Type": "exe",
 		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_{{version}}_w64.exe",
-		"HashX8664": "57eb6568286d59daee9ce3fdfc90db4278f709e27990b19704c7b2507aacc1cc",
+		"HashX8664": "01aa07ccd9473a716e35416aadc13547d19b80a509df1398edfc310371023838",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
 		"AuthenticodeRequired": true,
@@ -459,6 +459,15 @@
 		"WingetId": "AndreWiethoff.ExactAudioCopy",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "wiethoff, Andre wulf"
+	},
+	{
+		"Name": "ffmpeg",
+		"Version": "7.1.1",
+		"Notes": "https://www.gyan.dev/ffmpeg/",
+		"Type": "zip",
+		"UrlX8664": "https://github.com/GyanD/codexffmpeg/releases/download/{{version}}/ffmpeg-{{version}}-full_build-shared.7z",
+		"AppPage": "https://www.ffmpeg.org/",
+		"GitHubId": "GyanD/codexffmpeg"
 	},
 	{
 		"Name": "Fiddler4",
@@ -1463,11 +1472,11 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "11.3.79.0",
+		"Version": "11.3.87.0",
 		"Notes": "https://www.2brightsparks.com/syncback/syncbackpro11-v-check.txt\r\nhttps://www.2brightsparks.com/syncback/changes-old.html",
 		"Type": "exe",
 		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBack/SyncBackPro64_Setup.{{version}}.exe",
-		"HashX8664": "03c55136ba569537744cc38585064771651a78e7038f27676be10d50b36a35dd",
+		"HashX8664": "cd2eed055625879d14f4617219ce1b36eb2021637444978f3091cf4d5b15a1fe",
 		"InstallerArguments": "/Silent /SP- /Counter=5 /UpdCheckDays=0 /NoRestart",
 		"AppPage": "https://www.2brightsparks.com/syncback/sbpro10x64-new.html",
 		"WingetId": "2BrightSparks.SyncBackPro",
