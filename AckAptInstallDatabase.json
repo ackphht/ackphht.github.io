@@ -46,11 +46,11 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "3.7.2",
+		"Version": "3.7.3",
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/audacity/audacity/releases/download/Audacity-{{version}}/audacity-win-{{version}}-64bit.exe",
-		"HashX8664": "9d0d914b8826099709fbe4b37107aee7cba8b3181242d0da8fe29c70bbece9de",
+		"HashX8664": "82abda13ca234b9c11361501a4cb2191a2c10cb28c181e42952b3ff0d8f6d41a",
 		"InstallerArguments": "/sp- /silent /norestart /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"WingetId": "Audacity.Audacity",
@@ -1183,7 +1183,7 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.1.5",
+		"Version": "5.1.6",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
