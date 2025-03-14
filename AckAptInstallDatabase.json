@@ -138,6 +138,15 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "BabelMap",
+		"Version": "16.0.0.6",
+		"Notes": "release notes: https://www.babelstone.co.uk/Software/BabelMap_16.html",
+		"Type": "zip",
+		"UrlX8632": "https://www.babelstone.co.uk/Software/Download/BabelMap.zip",
+		"UseX86OnArm": true,
+		"AppPage": "https://www.babelstone.co.uk/Software/BabelMap.html"
+	},
+	{
 		"Name": "BingWallpaper",
 		"Version": "0.0.0.0",
 		"Type": "exe",
