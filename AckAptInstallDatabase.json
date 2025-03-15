@@ -25,11 +25,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.40.2667",
+		"Version": "5.40.2668",
 		"Notes": "x64 redirector url: https://www.aimp.ru/?do=download.file&id=3",
 		"Type": "exe",
 		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_{{version}}_w64.exe",
-		"HashX8664": "01aa07ccd9473a716e35416aadc13547d19b80a509df1398edfc310371023838",
+		"HashX8664": "f59e1081629667876dad18702cbb8a78b7902ddff47aa7e453114317a45bffe2",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
 		"AuthenticodeRequired": true,
