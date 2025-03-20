@@ -14,10 +14,10 @@
 	},
 	{
 		"Name": "AdobeReaderDC",
-		"Version": "2024.005.20421",
-		"Notes": "ugh; installer is now > 500MB; for a pdf reader...",
+		"Version": "2025.001.20435",
+		"Notes": "ugh; installer is now > 600MB; for a pdf reader...",
 		"Type": "exe",
-		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2400520421/AcroRdrDCx642400520421_en_US.exe",
+		"UrlX8664": "http://ardownload.adobe.com/pub/adobe/acrobat/win/AcrobatDC/2500120435/AcroRdrDCx642500120435_en_US.exe",
 		"AppPage": "https://get.adobe.com/reader/otherversions/",
 		"WingetId": "Adobe.Acrobat.Reader.64-bit",
 		"AuthenticodeRequired": true,
@@ -25,11 +25,11 @@
 	},
 	{
 		"Name": "AIMP",
-		"Version": "5.40.2668",
+		"Version": "5.40.2669",
 		"Notes": "x64 redirector url: https://www.aimp.ru/?do=download.file&id=3",
 		"Type": "exe",
 		"UrlX8664": "https://aimp.ru/files/windows/builds/aimp_{{version}}_w64.exe",
-		"HashX8664": "f59e1081629667876dad18702cbb8a78b7902ddff47aa7e453114317a45bffe2",
+		"HashX8664": "46d62b1c53e416699aa88d0d65bb0bac017b291a87d3ee5b31fc8b82263cd108",
 		"AppPage": "https://www.aimp.ru/?do=download&os=windows",
 		"WingetId": "AIMP.AIMP",
 		"AuthenticodeRequired": true,
@@ -1191,6 +1191,18 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "OpenHashTab",
+		"Version": "3.0.5",
+		"Type": "inno",
+		"UrlX8632": "https://github.com/namazso/OpenHashTab/releases/download/v{{version}}/OpenHashTab_setup.exe",
+		"UseX86OnArm": true,
+		"InstallerArguments": "/SP- /SILENT /NORESTART /CURRENTUSER /TASKS=-myassociation,mycontextmenu",
+		"WingetId": "namazso.OpenHashTab",
+		"GitHubId": "namazso/OpenHashTab",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "namazso.eu"
+	},
+	{
 		"Name": "Paint.net",
 		"Version": "5.1.6",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
@@ -1327,7 +1339,7 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.22",
+		"Version": "3.4.23",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
 		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{version}}.exe",
