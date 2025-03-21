@@ -171,7 +171,7 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "7.26.0",
+		"Version": "8.0.1",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
@@ -193,10 +193,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.7.12",
+		"Version": "1.7.13",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.7.12/clink.1.7.12.625e8b_setup.exe",
-		"HashX8632": "B6uHLNEoOs/BKMamOmW1gQ==",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.7.13/clink.1.7.13.ac5d42_setup.exe",
+		"HashX8632": "/bOujWKJEE9lFQZwPiN+Yg==",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
 		"GitHubId": "chrisant996/clink",
@@ -585,10 +585,10 @@
 	},
 	{
 		"Name": "gimp-help",
-		"Version": "2.10.34",
+		"Version": "3.0.0",
 		"Notes": "they recommend just using the online help; it will always be more up to date: https://docs.gimp.org/2.10/en/",
 		"Type": "exe",
-		"UrlX8632": "https://download.gimp.org/mirror/pub/gimp/help/windows/2.10/gimp-help-{{version}}-en-setup.exe",
+		"UrlX8632": "https://download.gimp.org/mirror/pub/gimp/help/windows/3.0/gimp-help-{{version}}-en-setup.exe",
 		"AppPage": "https://docs.gimp.org/download.html",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Jernej Simončič"
@@ -738,10 +738,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.28",
+		"Version": "7.0.0.29",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/022125/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads//032125/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
