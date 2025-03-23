@@ -1093,7 +1093,7 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.4.0",
+		"Version": "2.4.1",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
@@ -1204,7 +1204,7 @@
 	},
 	{
 		"Name": "Paint.net",
-		"Version": "5.1.6",
+		"Version": "5.1.7",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"Type": "zip",
 		"ZipContentToRun": "paint.net.*.install.*.exe",
@@ -1212,6 +1212,7 @@
 		"UrlArm64": "https://github.com/paintdotnet/release/releases/download/v{{version}}/paint.net.{{version}}.install.arm64.zip",
 		"InstallerArguments": "/auto CHECKFORUPDATES=0 CHECKFORBETAS=0 DESKTOPSHORTCUT=0",
 		"AppPage": "https://www.getpaint.net/download.html",
+		"WingetId": "dotPDN.PaintDotNet",
 		"GitHubId": "paintdotnet/release",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "DOTPDN LLC"
@@ -1464,11 +1465,11 @@
 	},
 	{
 		"Name": "stellarium",
-		"Version": "24.4",
+		"Version": "25.1",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v{{version}}/stellarium-{{version}}-qt6-win64.exe",
 		"UrlArm64": "https://github.com/Stellarium/stellarium/releases/download/v{{version}}/stellarium-{{version}}-qt6-arm64.exe",
-		"HashX8664": "c52a7a2da4e0639457d1c4a2010d4bdbf47594710fac179fdfa69718d83bc36b",
+		"HashX8664": "04cbbeccedee44b561521a12466dde630d636f9d5da04f7acd4028dd80f8dd84",
 		"HashArm64": "8219feea683696b2fe36ea02c68581cc02d4e5aa8b5a1593676b05888a0f5a87",
 		"InstallerArguments": "/SP- /SILENT /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
