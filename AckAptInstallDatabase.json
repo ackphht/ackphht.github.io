@@ -171,7 +171,7 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "8.0.1",
+		"Version": "8.1.1",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
@@ -556,7 +556,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.26.0.6142",
+		"Version": "6.26.1.6177",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -1083,9 +1083,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.28.0",
+		"Version": "3.29.0",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv328-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv329-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag",
 		"AuthenticodeRequired": true,
