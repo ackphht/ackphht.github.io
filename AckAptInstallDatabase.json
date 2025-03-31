@@ -45,6 +45,18 @@
 		"AppPage": "https://developer.android.com/studio/#android-studio-downloads"
 	},
 	{
+		"Name": "AttributeChanger",
+		"Version": "11.40",
+		"Notes": "https://www.petges.lu/changelog",
+		"Type": "inno",
+		"UrlX8632": "https://www.petges.lu/pubfiles/ac-11_40.exe",
+		"HashX8632": "75F8B294762FD0C7C439C1D5AF627A9C",
+		"UseX86OnArm": true,
+		"InstallerArguments": "/SP- /SILENT /NORESTART",
+		"HeadersToAdd": "Referer: https://www.petges.lu/download/",
+		"AppPage": "https://www.petges.lu/download/"
+	},
+	{
 		"Name": "Audacity",
 		"Version": "3.7.3",
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
