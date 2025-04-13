@@ -1187,6 +1187,21 @@
 		"AuthenticodeSignedBy": "Open Source Developer, Derick Payne"
 	},
 	{
+		"Name": "Obsidian",
+		"Version": "1.8.9",
+		"Notes": "github is just releases and plugins",
+		"Type": "nsis",
+		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
+		"UseX86OnArm": true,
+		"InstallerArguments": "/S /currentuser",
+		"AppPage": "https://obsidian.md/",
+		"WingetId": "Obsidian.Obsidian",
+		"WingetScope": "user",
+		"GitHubId": "obsidianmd/obsidian-releases",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Dynalist Inc"
+	},
+	{
 		"Name": "OhMyPosh",
 		"Version": "0.0",
 		"Notes": "version 24.9.0 switched to msi installers: installs per-user by default, installer just runs, no options",
@@ -1237,6 +1252,18 @@
 		"GitHubId": "paintdotnet/release",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "DOTPDN LLC"
+	},
+	{
+		"Name": "Pandoc",
+		"Version": "3.6.4",
+		"Notes": "if we switch to MSI installer, the args could be: ALLUSERS=2 APPLICATIONFOLDER=%LocalAppData%\\Programs\\Pandoc",
+		"Type": "zip",
+		"UrlX8664": "https://github.com/jgm/pandoc/releases/download/{{version}}/pandoc-{{version}}-windows-x86_64.zip",
+		"AppPage": "https://pandoc.org/",
+		"WingetId": "JohnMacFarlane.Pandoc",
+		"WingetScope": "user",
+		"GitHubId": "jgm/pandoc",
+		"AuthenticodeSignedBy": "John MacFarlane"
 	},
 	{
 		"Name": "PlexMediaPlayer",
