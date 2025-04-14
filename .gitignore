@@ -1,6 +1,7 @@
 # ignore everything
 *
 # except these:
+!.editorconfig
 !.gitattributes
 !.gitignore
 !*.sln

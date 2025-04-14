@@ -1,0 +1,43 @@
+# https://editorconfig.org/
+# https://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options
+
+# Remove the line below if you want to inherit .editorconfig settings from higher directories
+root = true
+
+[*]
+charset = utf-8
+#end_of_line = crlf		# leave unset so platform defaults get used
+insert_final_newline = false
+trim_trailing_whitespace = true
+# Indentation and spacing
+# two space indenting can eat a duck:
+indent_size = 4
+# space indenting can, too:
+indent_style = tab
+tab_width = 4
+
+
+[.editorconfig]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{xml,config,csproj,xhtml,xhtm,razor}]
+resharper_xml_space_before_self_closing = false
+
+[*.{htm,html}]
+#resharper_xml_space_before_self_closing = true
+
+# Markdown Files
+[*.{md,markdown}]
+end_of_line = lf
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+[*.{json,py,sh,xml,htm,html,xhtml,xhtm,js,css,rs,go,toml}]
+end_of_line = lf
+#insert_final_newline = false
+
+[*.{yaml,yml}]
+end_of_line = lf
+indent_style = space			# ugh
+insert_final_newline = true
