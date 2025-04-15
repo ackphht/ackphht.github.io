@@ -631,6 +631,19 @@
 		"AuthenticodeSignedBy": "Johannes Schindelin"
 	},
 	{
+		"Name": "git.MinGit",
+		"Version": "2.49.0",
+		"Notes": "https://gitforwindows.org/mingit.html",
+		"Type": "zip",
+		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/MinGit-2.49.0-64-bit.zip",
+		"UrlArm64": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/MinGit-2.49.0-arm64.zip",
+		"HashX8664": "971cdee7c0feaa1e41369c46da88d1000a24e79a6f50191c820100338fb7eca5",
+		"HashArm64": "847bbe519443cd24c716f490a769056a35f42474cafb757663e1dceca159e911",
+		"AppPage": "https://gitforwindows.org/",
+		"WingetId": "Git.MinGit",
+		"GitHubId": "git-for-windows/git"
+	},
+	{
 		"Name": "GitAhead",
 		"Version": "2.6.3",
 		"Notes": "project is officially dead",
