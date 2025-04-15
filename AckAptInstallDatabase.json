@@ -136,7 +136,7 @@
 	},
 	{
 		"Name": "AzureStorageExplorer",
-		"Version": "1.37.0",
+		"Version": "1.38.0",
 		"Notes": "https://storageexplorer.com/\nalt redirecting url: https://go.microsoft.com/fwlink/?LinkId=708343",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/microsoft/AzureStorageExplorer/releases/download/v{{version}}/StorageExplorer-windows-x64.exe",
@@ -525,10 +525,10 @@
 	},
 	{
 		"Name": "FileZilla",
-		"Version": "3.68.1",
+		"Version": "3.69.0",
 		"Type": "exe",
 		"IndirectX8664": "https://filezilla-project.org/download.php?show_all=1\n(?s).+<a\\s+.*?href=\"(https://.+?\\.cdn\\.filezilla-project\\.org/client/FileZilla_[\\d\\.]+_win64-setup\\.exe\\??.*?)\\\"[^>]*>FileZilla_[\\d\\.]+_win64-setup\\.exe</a>.+\n$1",
-		"HashX8664": "6588c86da07f0f48641b6707438f9c73226318507b94e579f3ecb4f0735cea147eb42cb048b4d18f9fb85aea297dcd0ead4789f507367d4e566b1bba9f5ecfbf",
+		"HashX8664": "7499904cd95d0641d58fe52222f4838bdd9072a22b65aa7e7e1a5aefde040eca0254862337118e2f2402edb22c41d2475ab0fdb6f34f12f4c73ddc1a502898cc",
 		"InstallerArguments": "/S",
 		"HeadersToAdd": "User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
 		"AppPage": "https://filezilla-project.org/download.php?show_all=1",
