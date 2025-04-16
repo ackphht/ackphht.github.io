@@ -39,6 +39,7 @@ nav div.nav-tabs button.nav-link { color:var(--ack-link-color); background-color
 nav div.nav-tabs button.nav-link:not(.active):hover { border-color: var(--ack-tab-border-color); }
 nav div.nav-tabs button.nav-link.active { color: var(--ack-active-tab-text-color); background-color: var(--ack-tab-background-color); border-color:var(--ack-tab-border-color) var(--ack-tab-border-color) transparent; }
 div.tab-pane { background-color: var(--ack-tab-background-color); padding:1em; border:solid 1px var(--ack-tab-border-color); border-top-width:0; }
+div.tab-pane div.container-fluid div.row div.col { margin-block: 1em; }
 h1 { font-size:1.5rem; }
 h2 { font-size:1.2rem; }
 h3 { font-size:1.05rem; }
