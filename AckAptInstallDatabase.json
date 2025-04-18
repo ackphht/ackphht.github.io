@@ -192,7 +192,7 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "8.2.1",
+		"Version": "8.3.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
