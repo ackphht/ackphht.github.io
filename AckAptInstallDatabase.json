@@ -1373,6 +1373,14 @@
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
 	{
+		"Name": "ServiceBusExplorer",
+		"Version": "6.1.0",
+		"Type": "zip",
+		"UrlX8632": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{{version}}/ServiceBusExplorer-{{version}}.zip",
+		"HashX8632": "ue/af6H/RNZEAuC6YamA3w==",
+		"GitHubId": "paolosalvatori/ServiceBusExplorer"
+	},
+	{
 		"Name": "Sigil",
 		"Version": "2.4.2",
 		"Type": "inno",
