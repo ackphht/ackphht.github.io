@@ -783,12 +783,12 @@
 	},
 	{
 		"Name": "ILSpy",
-		"Version": "9.0.0",
+		"Version": "9.1.0",
 		"Type": "msi",
-		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v9.0/ILSpy_Installer_9.0.0.7889-x64.msi",
-		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v9.0/ILSpy_Installer_9.0.0.7889-arm64.msi",
-		"HashX8664": "PVnkK5zKwaluFokhrkg1Cw==",
-		"HashArm64": "Tht/ICER+W7lTps4dPbEbg==",
+		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v9.1/ILSpy_Installer_9.1.0.7988-x64.msi",
+		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v9.1/ILSpy_Installer_9.1.0.7988-arm64.msi",
+		"HashX8664": "hsBM2HEFY8FNyDeILCEUhw==",
+		"HashArm64": "pobUeFABtUwebrxT2L/g1g==",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
 		"WingetId": "icsharpcode.ILSpy",
 		"GitHubId": "icsharpcode/ILSpy",
@@ -1374,10 +1374,10 @@
 	},
 	{
 		"Name": "ServiceBusExplorer",
-		"Version": "6.1.0",
+		"Version": "6.1.1",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{{version}}/ServiceBusExplorer-{{version}}.zip",
-		"HashX8632": "ue/af6H/RNZEAuC6YamA3w==",
+		"HashX8632": "6sSxrhGhZSzusnWPfmlqAg==",
 		"GitHubId": "paolosalvatori/ServiceBusExplorer"
 	},
 	{
