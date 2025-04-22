@@ -1201,7 +1201,7 @@
 	},
 	{
 		"Name": "Obsidian",
-		"Version": "1.8.9",
+		"Version": "1.8.10",
 		"Notes": "github is just releases and plugins",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
