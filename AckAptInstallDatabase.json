@@ -1773,7 +1773,7 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.46",
+		"Version": "2.16.48",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/WinMerge/winmerge/releases/download/v{{version}}/WinMerge-{{version}}-x64-Setup.exe",
 		"UrlArm64": "https://github.com/WinMerge/winmerge/releases/download/v{{version}}/WinMerge-{{version}}-ARM64-Setup.exe",
