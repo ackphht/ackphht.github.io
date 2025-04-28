@@ -191,6 +191,19 @@
 		"AuthenticodeSignedBy": "Bitwarden Inc."
 	},
 	{
+		"Name": "Brave",
+		"Version": "0.0",
+		"Type": "exe",
+		"UrlX8632": "https://laptop-updates.brave.com/latest/winx86",
+		"UrlX8664": "https://laptop-updates.brave.com/latest/winx64",
+		"UrlArm64": "https://laptop-updates.brave.com/latest/winarm64",
+		"AppPage": "https://brave.com/",
+		"WingetId": "Brave.Brave",
+		"GitHubId": "brave/brave-browser",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Brave Software, Inc."
+	},
+	{
 		"Name": "calibre",
 		"Version": "8.3.0",
 		"Type": "msi",
