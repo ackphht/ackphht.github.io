@@ -167,19 +167,19 @@
 	},
 	{
 		"Name": "BitwardenCLI",
-		"Version": "2025.3.0",
+		"Version": "2025.4.2",
 		"Type": "zip",
-		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/cli-v2025.3.0/bw-windows-{{version}}.zip",
+		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/cli-v{{version}}/bw-windows-{{version}}.zip",
 		"AppPage": "https://bitwarden.com/download/",
 		"WingetId": "Bitwarden.CLI",
 		"GitHubId": "Bitwarden/clients"
 	},
 	{
 		"Name": "BitwardenDesktop",
-		"Version": "2025.3.1",
+		"Version": "2025.4.2",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v{{version}}/Bitwarden-Installer-{{version}}.exe",
-		"HashX8632": "9ae0f6817b8f838c7715f5ec7192a4e3cafd5192339e70ff164d496ea2e29303",
+		"HashX8632": "cc35a6b8e49d95f7197a96a9f55bb5ad4f148b84f5de9ba95b7e7eb43d05b108",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/currentuser",
 		"AppPage": "https://bitwarden.com/download/",
@@ -572,7 +572,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.24.3",
+		"Version": "2.24.4",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
