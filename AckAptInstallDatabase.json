@@ -177,9 +177,10 @@
 	{
 		"Name": "BitwardenDesktop",
 		"Version": "2025.4.2",
+		"Notes": "for getting hashes, should probably/maybe use https://artifacts.bitwarden.com/desktop/sha256-checksums.txt\r\nthe hashes in the releases sometimes don't get updated ????",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v{{version}}/Bitwarden-Installer-{{version}}.exe",
-		"HashX8632": "cc35a6b8e49d95f7197a96a9f55bb5ad4f148b84f5de9ba95b7e7eb43d05b108",
+		"HashX8632": "e5dff456e8ccecc37a2a5db79670351649562d0e5fd2da4d3fbb2751f179ea2f",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/currentuser",
 		"AppPage": "https://bitwarden.com/download/",
