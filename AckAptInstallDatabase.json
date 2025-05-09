@@ -206,7 +206,7 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "8.3.0",
+		"Version": "8.4.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
@@ -573,7 +573,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.24.4",
+		"Version": "2.24.5",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
@@ -1378,11 +1378,11 @@
 	},
 	{
 		"Name": "Resharper",
-		"Version": "2024.2.4",
+		"Version": "2025.1.2",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
 		"Type": "exe",
-		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.{{version}}/JetBrains.dotUltimate.{{version}}.web.exe",
-		"HashX8632": "7cc728001d4fa679a1bead09acebf8531744b8add7cfa387c52fdd031b075d79",
+		"UrlX8632": "https://download.jetbrains.com/resharper/dotUltimate.2025.1.2/JetBrains.dotUltimate.2025.1.2.web.exe",
+		"HashX8632": "32cc07765e9fc6ca1103ce32fcd39bb355adaa90be793ef936a7b789e4a1ab12",
 		"InstallerArguments": "/VsVersion=16.0;17.0 /SpecificProductNames=dotCover;dotMemory;dotPeek;dotTrace;ReSharperCpp;ReSharper",
 		"AppPage": "https://www.jetbrains.com/resharper/download/",
 		"AuthenticodeRequired": true,
