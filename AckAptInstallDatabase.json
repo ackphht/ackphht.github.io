@@ -777,9 +777,9 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.24",
+		"Version": "8.26",
 		"Type": "zip",
-		"UrlX8632": "https://www.hwinfo.com/files/hwi_824.zip",
+		"UrlX8632": "https://www.hwinfo.com/files/hwi_826.zip",
 		"UseX86OnArm": true,
 		"HeadersToAdd": "Referer: https://www.hwinfo.com/download/",
 		"AppPage": "https://www.hwinfo.com/download/"
@@ -835,10 +835,10 @@
 	},
 	{
 		"Name": "Inkscape",
-		"Version": "1.4.0",
+		"Version": "1.4.2",
 		"Notes": "really annoying site; redirectors, no easy direct download links\r\nrepo: https://gitlab.com/inkscape/inkscape",
 		"Type": "msi",
-		"UrlX8664": "https://inkscape.org/gallery/item/53697/inkscape-1.4_2024-10-11_86a8ad7-x64.msi",
+		"UrlX8664": "https://inkscape.org/gallery/item/56340/inkscape-1.4.2_2025-05-08_ebf0e94-x64.msi",
 		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
 		"AppPage": "https://inkscape.org/release/",
 		"WingetId": "Inkscape.Inkscape",
