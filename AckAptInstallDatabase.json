@@ -837,12 +837,10 @@
 		"Name": "Inkscape",
 		"Version": "1.4.2",
 		"Notes": "really annoying site; redirectors, no easy direct download links\r\nrepo: https://gitlab.com/inkscape/inkscape",
-		"Type": "msi",
-		"UrlX8664": "https://inkscape.org/gallery/item/56340/inkscape-1.4.2_2025-05-08_ebf0e94-x64.msi",
 		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
 		"AppPage": "https://inkscape.org/release/",
-		"WingetId": "Inkscape.Inkscape",
-		"WingetNoUpgrade": true
+		"PreferWinget": true,
+		"WingetId": "Inkscape.Inkscape"
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
