@@ -1536,6 +1536,23 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "SqlServerOLEDBDriver18",
+		"Version": "18.7.5",
+		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server",
+		"Type": "msi",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2318002",
+		"AppPage": "https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server"
+	},
+	{
+		"Name": "SqlServerOLEDBDriver19",
+		"Version": "19.4.1",
+		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server",
+		"Type": "msi",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2318101",
+		"UseX86OnArm": true,
+		"AppPage": "https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server"
+	},
+	{
 		"Name": "stellarium",
 		"Version": "25.1",
 		"Type": "inno",
