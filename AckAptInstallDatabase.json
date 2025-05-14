@@ -840,7 +840,8 @@
 		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
 		"AppPage": "https://inkscape.org/release/",
 		"PreferWinget": true,
-		"WingetId": "Inkscape.Inkscape"
+		"WingetId": "Inkscape.Inkscape",
+		"WingetInstallerType": "wix"
 	},
 	{
 		"Name": "IntelliJIdeaCommunity",
