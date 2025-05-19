@@ -606,10 +606,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "3.0.2",
+		"Version": "3.0.4",
 		"Type": "inno",
-		"UrlX8632": "https://download.gimp.org/gimp/v3.0/windows/gimp-{{version}}-setup.exe",
-		"HashX8632": "7a5eca6cc9cf6cf68b7e674eecf879afc13e657ef59fb7742093a05e9998ffa5",
+		"UrlX8632": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.4-setup.exe",
+		"HashX8632": "385e36fe577cbdbfc71ba79d6c046d6f4eaabc01effd7f067bf15fd98410b2a1",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
