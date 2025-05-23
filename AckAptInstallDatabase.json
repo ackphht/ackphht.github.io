@@ -490,7 +490,7 @@
 		"AppPage": "https://www.voidtools.com/downloads/",
 		"WingetId": "voidtools.Everything",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "voidtools"
+		"AuthenticodeSignedBy": "voidtools PTY LTD"
 	},
 	{
 		"Name": "ExactAudioCopy",
