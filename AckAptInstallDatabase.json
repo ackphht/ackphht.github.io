@@ -1492,8 +1492,9 @@
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2257624&clcid=0x409",
 		"HashX8632": "iYkF2n94m7zi6GSYFI73Gg==",
 		"InstallerArguments": "/Passive DoNotInstallAzureDataStudio=1",
-		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
+		"AppPage": "https://learn.microsoft.com/ssms/release-history#fixed-version-installers",
 		"WingetId": "Microsoft.SQLServerManagementStudio",
+		"WingetVersion": "19.3",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1504,6 +1505,18 @@
 		"Type": "exe",
 		"UrlX8632": "https://go.microsoft.com/fwlink/?linkid=2313753&clcid=0x409",
 		"InstallerArguments": "/install /passive",
+		"AppPage": "https://learn.microsoft.com/ssms/release-history#fixed-version-installers",
+		"WingetId": "Microsoft.SQLServerManagementStudio",
+		"WingetVersion": "20.2",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
+		"Name": "SqlServerMngmtStudio21",
+		"Version": "21.0.0",
+		"Type": "exe",
+		"UrlX8664": "https://aka.ms/ssms/21/release/vs_SSMS.exe",
+		"InstallerArguments": "--nocache --wait",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms",
 		"WingetId": "Microsoft.SQLServerManagementStudio",
 		"AuthenticodeRequired": true,
@@ -1622,6 +1635,7 @@
 		"UrlX8632": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x86.EXE",
 		"UrlX8664": "http://download.microsoft.com/download/8/B/4/8B42259F-5D70-43F4-AC2E-4B208FD8D66A/vcredist_x64.EXE",
 		"InstallerArguments": "/Q",
+		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1633,6 +1647,7 @@
 		"UrlX8632": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x86.exe",
 		"UrlX8664": "https://download.microsoft.com/download/5/D/8/5D8C65CB-C849-4025-8E95-C3966CAFD8AE/vcredist_x64.exe",
 		"InstallerArguments": "/Q",
+		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1644,6 +1659,7 @@
 		"UrlX8632": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe",
 		"UrlX8664": "https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x64.exe",
 		"InstallerArguments": "/q /norestart",
+		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1656,6 +1672,7 @@
 		"UrlX8664": "http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/quiet /norestart",
+		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2012-vc-110-update-4--no-longer-supported",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1668,14 +1685,14 @@
 		"UrlX8664": "https://aka.ms/highdpimfc2013x64enu",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/quiet /norestart",
-		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2013-vc-120--no-longer-supported",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.42.34438",
-		"Notes": "supports VC 2015 thru 2022",
+		"Version": "14.42.35208",
+		"Notes": "supports VC 2015 thru 2022\r\nhttps://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#latest-microsoft-visual-c-redistributable-version",
 		"Type": "exe",
 		"InstallBothX86": true,
 		"UrlX8632": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
@@ -1683,7 +1700,7 @@
 		"UrlArm64": "https://aka.ms/vs/17/release/vc_redist.arm64.exe",
 		"ValidExitCodes": "0,3010",
 		"InstallerArguments": "/q /norestart",
-		"AppPage": "https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
+		"AppPage": "https://visualstudio.microsoft.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2022",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1760,8 +1777,9 @@
 	{
 		"Name": "VS2022Community",
 		"Version": "0.0.0.0",
+		"Notes": "https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2022",
 		"Type": "exe",
-		"UrlX8632": "https://download.visualstudio.microsoft.com/download/pr/7aa16be3-9952-4bd2-8ecf-eae91faa0a06/14fe35fa35c305b03032a885ff3ebefaf88fce5051ee84183d4c5de75783339e/vs_Community.exe",
+		"UrlX8632": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022",
 		"InstallerArguments": "--nocache --wait",
 		"AppPage": "https://visualstudio.microsoft.com/",
 		"WingetId": "Microsoft.VisualStudio.2022.Community",
