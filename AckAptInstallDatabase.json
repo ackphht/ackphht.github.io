@@ -1691,7 +1691,7 @@
 	},
 	{
 		"Name": "VCRedist2015+",
-		"Version": "14.42.35208",
+		"Version": "14.44.35208",
 		"Notes": "supports VC 2015 thru 2022\r\nhttps://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#latest-microsoft-visual-c-redistributable-version",
 		"Type": "exe",
 		"InstallBothX86": true,
