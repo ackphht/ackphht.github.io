@@ -167,7 +167,7 @@
 	},
 	{
 		"Name": "BitwardenCLI",
-		"Version": "2025.4.2",
+		"Version": "2025.5.0",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/cli-v{{version}}/bw-windows-{{version}}.zip",
 		"AppPage": "https://bitwarden.com/download/",
@@ -176,11 +176,11 @@
 	},
 	{
 		"Name": "BitwardenDesktop",
-		"Version": "2025.4.2",
+		"Version": "2025.5.0",
 		"Notes": "for getting hashes, should probably/maybe use https://artifacts.bitwarden.com/desktop/sha256-checksums.txt\r\nthe hashes in the releases sometimes don't get updated ????",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/desktop-v{{version}}/Bitwarden-Installer-{{version}}.exe",
-		"HashX8632": "e5dff456e8ccecc37a2a5db79670351649562d0e5fd2da4d3fbb2751f179ea2f",
+		"HashX8632": "f50b8ef22ac329679ee5bf690c2bfa58d19436d91861b3343871bae28cd39f4e",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/currentuser",
 		"AppPage": "https://bitwarden.com/download/",
