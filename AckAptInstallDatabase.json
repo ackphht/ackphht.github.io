@@ -1715,11 +1715,11 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.26.20",
+		"Version": "1.26.24",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"Type": "exe",
 		"UrlX8664": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_{{version}}/VeraCrypt.Setup.{{version}}.exe",
-		"HashX8664": "6fe3efe246290fa802829ec8cde499677fc7eb8507f7b38ee3097b4a2c181496",
+		"HashX8664": "08b80ab6a6c4eca08e18096c9468fe0bd2e33fc23142730e59177e6fcd7c902d",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"WingetId": "IDRIX.VeraCrypt",
 		"GitHubId": "veracrypt/VeraCrypt",
