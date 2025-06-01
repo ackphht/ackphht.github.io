@@ -1397,10 +1397,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.5.0",
+		"Version": "2.5.1",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
-		"HashX8664": "8b3d5748be68cd8be256ac6ae026fa4ab2d1e1b59c7b63a80c7512827b0b5aba",
+		"HashX8664": "df617b3f09fda6e2942a6b546afa7ce67df0f9bc77d18568675bbd35a8c6a4c7",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
