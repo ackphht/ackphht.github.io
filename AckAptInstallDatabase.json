@@ -786,10 +786,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.38",
+		"Version": "7.0.0.39",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/052825/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/060325/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
