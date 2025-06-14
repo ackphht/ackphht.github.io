@@ -62,13 +62,13 @@
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/audacity/audacity/releases/download/Audacity-{{version}}/audacity-win-{{version}}-64bit.exe",
-		"HashX8664": "6572d9c35997805a596cbdf745700f0e29f56781b7edefcb23525fea53ba6b1e",
+		"HashX8664": "b3f16f4ba9c25abfb08d7a93cfcdc7086cf784b20e014ba4ebe68c38f1394f5c",
 		"InstallerArguments": "/sp- /silent /norestart /tasks=-desktopicon,-resetprefs",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"WingetId": "Audacity.Audacity",
 		"GitHubId": "audacity/audacity",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Musecy SM Ltd."
+		"AuthenticodeSignedBy": "MuseCY SM Ltd"
 	},
 	{
 		"Name": "AudioShell",
