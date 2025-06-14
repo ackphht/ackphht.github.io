@@ -1119,11 +1119,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "92.0",
+		"Version": "93.0",
 		"Notes": "https://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/{{version}}/mkvtoolnix-64-bit-{{version}}-setup.exe",
-		"HashX8664": "a28ccb536e6544569a259b827ed275b146e11ca99f26ca5766fe02e7a515fb56",
+		"HashX8664": "7ae19ef70cd44a1115f95bc25c4ff1fbaf87d42de710a7c6b30902e7e3b94c50",
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix",
