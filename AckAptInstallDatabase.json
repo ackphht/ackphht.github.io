@@ -248,20 +248,20 @@
 	},
 	{
 		"Name": "CrystalDiskInfo",
-		"Version": "9.6.3",
+		"Version": "9.7.0",
 		"Notes": "github doesn't have any releases/downloads...",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/{{version}}/CrystalDiskInfo9_6_3.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/{{version}}/CrystalDiskInfo9_7_0.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskinfo/",
 		"GitHubId": "hiyohiyo/CrystalDiskInfo"
 	},
 	{
 		"Name": "CrystalDiskMark",
-		"Version": "8.0.6",
+		"Version": "9.0.0",
 		"Notes": "github doesn't have any downloads or releases...",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/crystaldiskmark/files/8.0.6/CrystalDiskMark8_0_6.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskmark/files/{{version}}/CrystalDiskMark9_0_0.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskmark/",
 		"GitHubId": "hiyohiyo/CrystalDiskMark"
