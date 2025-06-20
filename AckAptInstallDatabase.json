@@ -482,11 +482,11 @@
 	},
 	{
 		"Name": "Everything",
-		"Version": "1.4.1.1027",
+		"Version": "1.4.1.1028",
 		"Notes": "hashes: https://www.voidtools.com/Everything-<version>.sha256",
 		"Type": "nsis",
 		"UrlX8664": "https://www.voidtools.com/Everything-{{version}}.x64.en-US-Setup.exe",
-		"HashX8664": "4525c9434fa3a5eb8249d98c375e9cd5c9652ba57960b9dd96f7510755a4708b",
+		"HashX8664": "d7f1ff2637fca51e571be2119db9dbb06f2c382bf50ae881885316f044f7fc03",
 		"AppPage": "https://www.voidtools.com/downloads/",
 		"WingetId": "voidtools.Everything",
 		"AuthenticodeRequired": true,
