@@ -957,7 +957,7 @@
 		"Type": "nsis",
 		"UrlX8664": "https://github.com/koodo-reader/koodo-reader/releases/download/v{{version}}/Koodo-Reader-{{version}}.exe",
 		"HashX8664": "c400dd7f3e8b3c155517568ae703dd3dfd6299971aee0eedd7b449fbdea4ebe4",
-		"InstallerArguments": "/currentuser",
+		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://koodoreader.com/",
 		"WingetId": "AppByTroye.KoodoReader",
 		"WingetScope": "user",
