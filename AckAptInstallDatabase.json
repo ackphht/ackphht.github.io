@@ -1157,9 +1157,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.4.3",
+		"Version": "2.5.0",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
+		"HashX8664": "bbe3a5e0be0ce67925414e864875d18186ed1b1b09187dc08b933085036f5225",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
