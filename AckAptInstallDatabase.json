@@ -1273,7 +1273,7 @@
 		"Name": "OpenHashTab",
 		"Version": "3.1.1",
 		"Type": "msi",
-		"UrlX8632": "https://github.com/namazso/OpenHashTab/releases/download/v{{version}}/OpenHashTab_User_x64.msi",
+		"UrlX8632": "https://github.com/namazso/OpenHashTab/releases/download/{{version}}/OpenHashTab_User_x64.msi",
 		"HashX8664": "bf7cf26ab12428bdf3f4b7a130f73c34d7f20e586b5673b604281c0f80ada30f",
 		"UseX86OnArm": true,
 		"InstallerArguments": "-passive -norestart",
