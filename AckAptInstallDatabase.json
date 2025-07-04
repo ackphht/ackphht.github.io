@@ -243,7 +243,7 @@
 	},
 	{
 		"Name": "cpu-z",
-		"Version": "2.15",
+		"Version": "2.16",
 		"Type": "zip",
 		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_{{version}}-en.zip",
 		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
