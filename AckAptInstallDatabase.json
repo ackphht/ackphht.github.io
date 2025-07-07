@@ -1361,7 +1361,7 @@
 		"AppPage": "https://www.privateinternetaccess.com/download/windows-vpn#download-windows",
 		"WingetId": "PrivateInternetAccess.PrivateInternetAccess",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Private Internet Access, Inc."
+		"AuthenticodeSignedBy": "PIA Private Internet Access, Inc."
 	},
 	{
 		"Name": "python3.12",
