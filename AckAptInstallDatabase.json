@@ -10,7 +10,8 @@
 		"InstallerArguments": "/S",
 		"AppPage": "http://www.7-zip.org/",
 		"WingetId": "7zip.7zip",
-		"GitHubId": "ip7z/7zip"
+		"GitHubId": "ip7z/7zip",
+		"WithElevation": true
 	},
 	{
 		"Name": "AdobeReaderDC",
@@ -952,7 +953,8 @@
 		"AppPage": "https://kmymoney.org/",
 		"WingetId": "KDE.kmymoney",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "K Desktop Environment e. V."
+		"AuthenticodeSignedBy": "K Desktop Environment e. V.",
+		"WithElevation": true
 	},
 	{
 		"Name": "KoodoReader",
