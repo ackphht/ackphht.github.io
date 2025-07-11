@@ -38,10 +38,10 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "2024.2.1.9",
+		"Version": "2025.1.1.14",
 		"Type": "exe",
 		"UrlX8664": "https://redirector.gvt1.com/edgedl/android/studio/install/{{version}}/android-studio-{{version}}-windows.exe",
-		"HashX8664": "651f5c685669851aad8c8c9dbb5f17e7e6ceb494c5364341f1b59e997d257b70",
+		"HashX8664": "2169f2672bbba952c3d94a6d2c59cebf2dc45a57a7f101843b8fe227055f5039",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/#android-studio-downloads"
 	},
@@ -210,9 +210,10 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "8.5.0",
+		"Version": "8.6.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
+		"HashX8664": "d07f230e82c94faa01997ce0e31fa2eef9ed4715456a5b9f0e0d7a108a0594ba",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -1409,10 +1410,10 @@
 	},
 	{
 		"Name": "ServiceBusExplorer",
-		"Version": "6.1.1",
+		"Version": "6.1.2",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{{version}}/ServiceBusExplorer-{{version}}.zip",
-		"HashX8632": "6sSxrhGhZSzusnWPfmlqAg==",
+		"HashX8632": "6bba08b69b5399d93464dc52637cb430f7bf252c7ef277cd3bf5620cc038e14e",
 		"GitHubId": "paolosalvatori/ServiceBusExplorer"
 	},
 	{
@@ -1505,11 +1506,11 @@
 	},
 	{
 		"Name": "SqlServer2022CU",
-		"Version": "16.0.4195.2",
-		"Notes": "Cumulative Update 19 [KB5054531]\r\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
+		"Version": "16.0.4205.1",
+		"Notes": "Cumulative Update 20 [KB5059390]\r\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
 		"Type": "exe",
-		"UrlX8632": "https://download.microsoft.com/download/a89001cb-9c99-48d3-9f14-ded054b35fe4/SQLServer2022-KB5054531-x64.exe",
-		"HashX8632": "6E58447853AF96373BB838E7E7A0B41237CC8DAC2EBDCB78E13A268BE27B2694",
+		"UrlX8632": "https://download.microsoft.com/download/a89001cb-9c99-48d3-9f14-ded054b35fe4/SQLServer2022-KB5059390-x64.exe",
+		"HashX8632": "3565C4DE8D3ADB31BCD7B11528B1287FFC7A23E118A5817FCBCF92DC88270243",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://learn.microsoft.com/en-us/troubleshoot/sql/releases/download-and-install-latest-updates?#sql-server-2022",
 		"AuthenticodeRequired": true,
