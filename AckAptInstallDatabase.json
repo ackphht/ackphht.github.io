@@ -1502,7 +1502,8 @@
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://docs.microsoft.com/en-us/sql/database-engine/install-windows/latest-updates-for-microsoft-sql-server",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Microsoft Corporation"
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
 	},
 	{
 		"Name": "SqlServer2022CU",
@@ -1514,7 +1515,8 @@
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://learn.microsoft.com/en-us/troubleshoot/sql/releases/download-and-install-latest-updates?#sql-server-2022",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Microsoft Corporation"
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
 	},
 	{
 		"Name": "SqlServerMngmtStudio19",
