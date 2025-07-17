@@ -1892,6 +1892,7 @@
 		"AppPage": "https://www.wireshark.org/download.html",
 		"WingetId": "WiresharkFoundation.Wireshark",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Wireshark Foundation"
+		"AuthenticodeSignedBy": "Wireshark Foundation",
+		"WithElevation": true
 	}
 ]
