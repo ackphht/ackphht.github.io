@@ -1772,7 +1772,8 @@
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"WingetId": "Oracle.VirtualBox",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Oracle America, Inc."
+		"AuthenticodeSignedBy": "Oracle America, Inc.",
+		"WithElevation": true
 	},
 	{
 		"Name": "VirtualBoxExtensions",
@@ -1780,7 +1781,8 @@
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
 		"HashX8664": "c7ed97f4755988ecc05ec633475e299bbc1e0418cc3d143747a45c99df53abd3",
-		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}"
+		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
+		"WithElevation": true
 	},
 	{
 		"Name": "Vivaldi",
