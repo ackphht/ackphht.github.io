@@ -1060,7 +1060,8 @@
 		"AppPage": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section",
 		"WingetId": "Microsoft.EdgeWebView2Runtime",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Microsoft Corporation"
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
 	},
 	{
 		"Name": "MicrosoftOffice365",
