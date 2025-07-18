@@ -210,10 +210,10 @@
 	},
 	{
 		"Name": "calibre",
-		"Version": "8.6.0",
+		"Version": "8.7.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/kovidgoyal/calibre/releases/download/v{{version}}/calibre-64bit-{{version}}.msi",
-		"HashX8664": "d07f230e82c94faa01997ce0e31fa2eef9ed4715456a5b9f0e0d7a108a0594ba",
+		"HashX8664": "6b51c9ddd7f6eb3ec2cbf6ea5a986db767a7fa6bfa7743ca76951d5a3a940088",
 		"InstallerArguments": "-passive -norestart ADDLOCAL=MainApplication,FSMS REMOVE=DS,FAddToPath,FcalibreProtocol",
 		"AppPage": "http://calibre-ebook.com/download_windows64",
 		"WingetId": "calibre.calibre",
@@ -1420,10 +1420,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.5.2",
+		"Version": "2.6.0",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
-		"HashX8664": "4ff32a204ac5e8c8754d9f9c6f5b39bf17e2fa0bb935d43a6384b71610274466",
+		"HashX8664": "6bf21f5d5a236ddeb179324666b0e62c69f00fff4919ff81cc115e950b85245b",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
@@ -1465,9 +1465,9 @@
 	},
 	{
 		"Name": "SQLiteTools",
-		"Version": "3.50.2",
+		"Version": "3.50.3",
 		"Type": "zip",
-		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3500200.zip",
+		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3500300.zip",
 		"AppPage": "https://sqlite.org/download.html#win32",
 		"WingetId": "SQLite.SQLite"
 	},
