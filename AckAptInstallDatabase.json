@@ -960,10 +960,10 @@
 	},
 	{
 		"Name": "KoodoReader",
-		"Version": "2.0.6",
+		"Version": "2.0.7",
 		"Type": "nsis",
 		"UrlX8664": "https://github.com/koodo-reader/koodo-reader/releases/download/v{{version}}/Koodo-Reader-{{version}}.exe",
-		"HashX8664": "0a13d26fe29edeb1f042b2efd64dd7b5865f163d063d5d20727cae2f05d935f8",
+		"HashX8664": "0cd7df8b7ba23b6173b116cc3c3be3facc6ce0dafae0d8a4804469727ba339c5",
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://koodoreader.com/",
 		"WingetId": "AppByTroye.KoodoReader",
@@ -1162,10 +1162,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.5.0",
+		"Version": "2.5.1",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
-		"HashX8664": "bbe3a5e0be0ce67925414e864875d18186ed1b1b09187dc08b933085036f5225",
+		"HashX8664": "899cc5e51532c6d8e2a57309d95c10013ff8baed5cb375a6ebf070c4fb76e56f",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
