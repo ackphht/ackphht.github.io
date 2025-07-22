@@ -23,6 +23,7 @@
 		body { background-color: var(--ackBgColor); color: var(--ackTextColor); }
 		table.dataTbl { font-size:11px; font-family:Tahoma,sans-serif; border-collapse: collapse; /* max-width:100%; margin:1rem auto; */ margin:1rem 0; }
 		table.dataTbl td, table.dataTbl th { border: 1px solid darkgray; padding:2px; white-space: nowrap; }
+		table.dataTbl td { text-align: center; }
 		table.dataTbl thead th { background-color: var(--ackTheadThBgColor); text-align: center; }
 		table.dataTbl tbody th { background-color: var(--ackTbodyThBgColor); text-align: right; }
 		table#text thead tr:first-child th { background-color: var(--ackTheadThAltBgColor); color: var(--ackTheadThAltColor); }
@@ -60,23 +61,33 @@
 			<tr><td><div class="cont" style="width:3cm;">3 cm</div></td></tr>
 		</tbody>
 	</table>
+	<table id="fake">
+		<caption>yada yada yada</caption>
+		<thead><tr><th>Aaa</th><th>Bbb</th><th>Ccc</th></tr></thead>
+		<tbody>
+			<tr><td>aaa</td><td>bbb</td><td>ccc</td></tr>
+			<tr><td>aaa</td><td>bbb</td><td>ccc</td></tr>
+		</tbody>
+		<tfoot><tr><td colspan="3">foo foo foo</td></tr></tfoot>
+	</table>
 </div>
 
 <script>
 	document.addEventListener('DOMContentLoaded', onDocumentReady);
 
 	const stylesList = [
-			'font-family', 'font-size', 'font-style', 'font-weight', 'line-height', 'text-align', 'text-decoration',
-			'text-indent', /*'text-transform',*/ 'vertical-align', 'white-space', 'color', 'background-color', 'margin', 'padding',
-			'border', /*'clear',*/ 'display', 'visibility', 'width', 'height', 'list-style-type', /*'position',*/ /*'z-index',*/ /*'overflow',*/
+			'display', 'font-family', 'font-size', 'font-style', 'font-weight', 'margin', 'padding', 'width', 'height',
+			'line-height', 'text-align', 'text-decoration', 'text-indent', /*'text-transform',*/ 'vertical-align', 'list-style-type',
+			'white-space', 'color', 'background-color', 'border', /*'clear',*/ 'visibility', /*'position',*/ /*'z-index',*/ /*'overflow',*/
 			/*'word-break', 'overflow-wrap',  <= not really helpful: they're always == 'normal' */
 			/* '', '', '', '', '', '', '', '', '', */
 		];
 		const elementsList = [
-			'html', 'body', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'b', 'strong', 'i', 'em', 'u', 'code', 'kbd', 'samp', 'var',
-			'ins', 'del', 'a', 'img', 'sup', 'sub', 'pre', 'blockquote', 'table', 'table>tr', 'table>tr>th', 'table>tr>td', 'table>caption',
-			'ul', 'ul>li', 'ol', 'ol>li', 'dl', 'dl>dt', 'dl>dd', 'main', 'section', 'article', 'header', 'hr', 'small', //'', '', '', '',
-			/* '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', */
+			'html', 'head', 'body', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'div', 'b', 'strong', 'i', 'em', 'u', 'span', 'a', 'img',
+			'sup', 'sub', 'pre', 'blockquote', 'table', 'table>tbody>tr', 'table>thead>tr>th', 'table>tbody>tr>td', 'table>caption', 'table>tbody', 'table>thead', 'table>tfoot',
+			'ul', 'ul>li', 'ol', 'ol>li', 'dl', 'dl>dt', 'dl>dd', 'form', 'main', 'section', 'article', 'aside', 'menu', 'nav',
+			'header', 'footer', 'dialog', 'figure', 'figcaption', 'picture', 'search', 'br', 'hr', 'abbr', 'address', 'cite', 'code', 'date', 'del',
+			'dfn', 'ins', 'kbd', 'mark', 's', 'samp', 'small', 'time', 'var'//, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
 		];
 	const listsList = [ 'ul', 'ol', 'li', 'dl', 'dt', 'dd', ];
 	const relFontSizes = [ 'xx-small', 'x-small', 'small', 'medium', 'large' , 'x-large', 'xx-large', 'smaller', 'larger', ];
@@ -89,6 +100,8 @@
 
 		populateElementStylesTable(elementsList, stylesList, containerDiv, bodyFontSizeRaw);
 		populateFontSizesTable(relFontSizes, containerDiv, bodyFontSizeRaw);
+
+		document.getElementById("fake").style.display = "none";
 	}
 
 	function populateElementStylesTable(elementsList, stylesList, containerDiv, bodyFontSizeTxt) {
@@ -96,6 +109,7 @@
 		const dataTable = document.getElementById('data');
 		const thead = dataTable.querySelector('thead');
 		const tbody = dataTable.querySelector('tbody');
+		const tfoot = dataTable.querySelector('tfoot');
 
 		// build header row:
 		let row = make('tr');
@@ -108,6 +122,7 @@
 		// now go thru list of elements and get our data:
 		for (let i = 0; i < elementsList.length; ++i) {
 			let elementName = elementsList[i];
+			if (!elementName) continue;
 			let row = make('tr');
 			makeText(make('th', row), elementName);
 			let element = getElementForStyles(elementName, containerDiv);
@@ -152,8 +167,12 @@
 
 	function getElementForStyles(elemName, parentDiv) {
 		let e = null;
-		if (elemName == 'html' || elemName == 'body') {
+		if (elemName == 'html' || elemName == 'body' || elemName == 'head') {
 			e = document.querySelector(elemName);
+		} else if (elemName.startsWith("table")) {
+			let tbl = document.getElementById("fake");
+			if (elemName == "table") e = tbl;
+			else e = tbl.querySelector(elemName);
 		} else if (elemName.indexOf('>') < 0) {
 			e = make(elemName, parentDiv);
 		} else {
