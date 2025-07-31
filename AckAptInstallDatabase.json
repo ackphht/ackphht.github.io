@@ -1192,12 +1192,12 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "22.17.1",
+		"Version": "22.18.0",
 		"Type": "msi",
 		"UrlX8664": "https://nodejs.org/dist/v{{version}}/node-v{{version}}-x64.msi",
 		"UrlArm64": "https://nodejs.org/dist/v{{version}}/node-v{{version}}-arm64.msi",
-		"HashX8664": "29bf63d4be9e9ba53d8974086cd9ef2403317e6c237d98d6e498205da4d48753",
-		"HashArm64": "538276e62f7428a86302bbe8908aa28b1a1f4635b75def8e308392894a0c3b6c",
+		"HashX8664": "sha256:dffd8e34d8eb1a1a2e6f5e6f129c4b1b8a34aa54e02799007adc99d73efac75c",
+		"HashArm64": "sha256:1dd46ad5edd1085da2b1a5b7e3e2a03d0266476786a7849a1207045fecc73d39",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"WingetId": "OpenJS.NodeJS.LTS",
@@ -1887,6 +1887,19 @@
 		"WingetId": "RARLab.WinRAR",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "win.rar GmbH"
+	},
+	{
+		"Name": "WinSCP",
+		"Version": "6.5.3",
+		"Type": "inno",
+		"UrlX8632": "https://sourceforge.net/projects/winscp/files/WinSCP/6.5.3/WinSCP-{{version}}-Setup.exe/download",
+		"HashX8632": "sha256:66de37a79900c3eebc8225058cae5e2db3df939308ba6b2d518b39c98e4f41da",
+		"InstallerArguments": "/SP- /silent /currentuser /type=custom /tasks=-enableupdates,-desktopicon,-sendtohook,-urlhandler /components=main,shellext,pageant,puttygen,-transl",
+		"HeadersToAdd": "User-Agent: winget-cli",
+		"AppPage": "https://winscp.net/eng/download.php",
+		"WingetId": "WinSCP.WinSCP",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Martin Prikryl"
 	},
 	{
 		"Name": "WireShark",
