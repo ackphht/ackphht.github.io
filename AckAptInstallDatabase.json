@@ -792,10 +792,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.42",
+		"Version": "7.0.0.43",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/073125/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/080125/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
@@ -946,11 +946,11 @@
 	},
 	{
 		"Name": "KMyMoney",
-		"Version": "5.2.4552",
+		"Version": "5.2.4585",
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\r\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
 		"Type": "nsis",
-		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/kmymoney-5.2-4552-windows-cl-msvc2022-x86_64.exe",
-		"HashX8664": "53f388f22130a698b0f69ca53d491c19434499978dc3d82898e93922cc9204d3",
+		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/kmymoney-5.2-4585-windows-cl-msvc2022-x86_64.exe",
+		"HashX8664": "sha256:414f4be48ac011a2dd593a903288838d97b70bf595e4bc155f1e54792a05f6aa",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
 		"WingetId": "KDE.kmymoney",
@@ -1915,5 +1915,18 @@
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Wireshark Foundation",
 		"WithElevation": true
+	},
+	{
+		"Name": "XnViewMP",
+		"Version": "1.9.2",
+		"Notes": "changelog w/ hashes: https://newsgroup.xnview.com/viewtopic.php?t=49207",
+		"Type": "inno",
+		"UrlX8664": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-{{version}}-win-x64.exe",
+		"HashX8664": "sha256:58F5CB12F7EB3F7D86E6D5961703BFB8CE69223B43F8AB64379F839930929FF6",
+		"InstallerArguments": "/sp- /silent /lang=en /components=shell /tasks=-desktopicon,-quicklaunchicon",
+		"AppPage": "http://www.xnview.com/",
+		"WingetId": "XnSoft.XnViewMP",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "GOUGELET PIERRE-EMMANUEL"
 	}
 ]
