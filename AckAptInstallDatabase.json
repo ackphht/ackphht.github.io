@@ -1304,7 +1304,8 @@
 		"WingetId": "dotPDN.PaintDotNet",
 		"GitHubId": "paintdotnet/release",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "DOTPDN LLC"
+		"AuthenticodeSignedBy": "DOTPDN LLC",
+		"WithElevation": true
 	},
 	{
 		"Name": "Pandoc",
@@ -1886,7 +1887,8 @@
 		"AppPage": "https://www.rarlab.com",
 		"WingetId": "RARLab.WinRAR",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "win.rar GmbH"
+		"AuthenticodeSignedBy": "win.rar GmbH",
+		"WithElevation": true
 	},
 	{
 		"Name": "WinSCP",
