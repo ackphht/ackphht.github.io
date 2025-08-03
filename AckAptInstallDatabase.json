@@ -1,10 +1,12 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "25.0.0",
+		"Version": "25.01",
 		"Type": "nsis",
-		"UrlX8664": "https://7-zip.org/a/7z2500-x64.exe",
-		"UrlArm64": "https://7-zip.org/a/7z2500-arm64.exe",
+		"UrlX8664": "https://7-zip.org/a/7z2501-x64.exe",
+		"UrlArm64": "https://7-zip.org/a/7z2501-arm64.exe",
+		"HashX8664": "sha256:78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f",
+		"HashArm64": "sha256:6365c7c44e217b9c1009e065daf9f9aa37454e64315b4aaa263f7f8f060755dc",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
