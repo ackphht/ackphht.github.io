@@ -599,7 +599,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.29.0.6379",
+		"Version": "6.29.1.6392",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -962,10 +962,10 @@
 	},
 	{
 		"Name": "KoodoReader",
-		"Version": "2.0.8",
+		"Version": "2.0.9",
 		"Type": "nsis",
 		"UrlX8664": "https://github.com/koodo-reader/koodo-reader/releases/download/v{{version}}/Koodo-Reader-{{version}}.exe",
-		"HashX8664": "sha256:551c4da1ec19bf16bc6a892eccac7c788a1aeafe53ebc936d546b2077477ba49",
+		"HashX8664": "sha256:43f66bf0eaf43c670b16b4aa98bafb9f27f9425198f63ba322d3cadea18de583",
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://koodoreader.com/",
 		"WingetId": "AppByTroye.KoodoReader",
@@ -1184,10 +1184,10 @@
 	},
 	{
 		"Name": "NirLauncher",
-		"Version": "1.30.19",
+		"Version": "1.30.20",
 		"Type": "download",
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
-		"HashX8632": "4431989909910dcf1c69dbe92d410399badb87a19fbe0545718ff8ed4dd59b26",
+		"HashX8632": "sha256:a4efbf228c1c59e20d3adb0b3edcea741b56ed291eef1f3786995b902a768346",
 		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\" and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
 		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
@@ -1438,12 +1438,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2025.28",
+		"Version": "2025.29",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:306621fedec368f73620b11057ba312e0b9b6577e7a61b34efba37a8dfd51eb4",
-		"HashArm64": "sha256:0d18a961f2243cb4d357c290e60109a390ef84f05479879f25d35d19c8bb54d6",
+		"HashX8664": "sha256:015765a2e0e2d75f2760ad61fcf220690def4a05866c0aca5fe85251dc32624e",
+		"HashArm64": "sha256:e90419b51b7f276ff1358de0392dce90b6bc5e2cefcb62d431154dbf9737c8da",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
 	},
