@@ -1420,10 +1420,10 @@
 	},
 	{
 		"Name": "ServiceBusExplorer",
-		"Version": "6.1.2",
+		"Version": "6.1.3",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{{version}}/ServiceBusExplorer-{{version}}.zip",
-		"HashX8632": "6bba08b69b5399d93464dc52637cb430f7bf252c7ef277cd3bf5620cc038e14e",
+		"HashX8632": "sha256:1b36ae41a8c11acf3750ac031656c8cf63d0b85b547f716667675272695bc0ac",
 		"GitHubId": "paolosalvatori/ServiceBusExplorer"
 	},
 	{
