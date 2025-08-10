@@ -965,10 +965,10 @@
 	},
 	{
 		"Name": "KoodoReader",
-		"Version": "2.0.9",
+		"Version": "2.1.0",
 		"Type": "nsis",
 		"UrlX8664": "https://github.com/koodo-reader/koodo-reader/releases/download/v{{version}}/Koodo-Reader-{{version}}.exe",
-		"HashX8664": "sha256:43f66bf0eaf43c670b16b4aa98bafb9f27f9425198f63ba322d3cadea18de583",
+		"HashX8664": "sha256:f2915d4f577485a7e9192a6d98add05afaa683a13405721ac59637ab9d67f7ca",
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://koodoreader.com/",
 		"WingetId": "AppByTroye.KoodoReader",
