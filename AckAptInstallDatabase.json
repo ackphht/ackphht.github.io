@@ -783,7 +783,8 @@
 		"WingetId": "HandBrake.HandBrake",
 		"GitHubId": "HandBrake/HandBrake",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Open Source Developer, Scott Rae"
+		"AuthenticodeSignedBy": "Open Source Developer, Scott Rae",
+		"WithElevation": true
 	},
 	{
 		"Name": "HWInfo",
