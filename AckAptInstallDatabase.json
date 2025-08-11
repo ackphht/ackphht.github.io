@@ -1441,12 +1441,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2025.29",
+		"Version": "2025.30",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:015765a2e0e2d75f2760ad61fcf220690def4a05866c0aca5fe85251dc32624e",
-		"HashArm64": "sha256:e90419b51b7f276ff1358de0392dce90b6bc5e2cefcb62d431154dbf9737c8da",
+		"HashX8664": "sha256:bb1146357119f1a0a0d54655f9e7ee750c3268442cc4698cb32777b454352f78",
+		"HashArm64": "sha256:e34eb42c21557bd0a1d9657f1961d8c29352001935e028059bdf3c307177a3fd",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
 	},
