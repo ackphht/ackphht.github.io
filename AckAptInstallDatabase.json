@@ -799,10 +799,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.44",
+		"Version": "7.0.0.45",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/080725/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/081825/IDriveWinSetup.exe",
 		"InstallerArguments": "/SILENT",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
@@ -1445,12 +1445,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2025.30",
+		"Version": "2025.31",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:bb1146357119f1a0a0d54655f9e7ee750c3268442cc4698cb32777b454352f78",
-		"HashArm64": "sha256:e34eb42c21557bd0a1d9657f1961d8c29352001935e028059bdf3c307177a3fd",
+		"HashX8664": "sha256:c049f4ba73741b21bf72e0ee109d7bebf02e48cb55b8b9799545e34fa683616b",
+		"HashArm64": "sha256:31587f77564a8e8f61cd3d9ef592e9111856dc1b3784aecc7eae7268b1332306",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
 	},
@@ -1755,10 +1755,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.05",
+		"Version": "1.1.06",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "3dc1f0a5209c6fa260af9f08951bc4421127b56d4efa3edd2c979af74b1941e5",
+		"HashX8632": "sha256:ce192b6c3bb144f3f5e850b1df3e90457503badcc959581eaa46be9fcc9fa8e6",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"GitHubId": "ventoy/Ventoy"
 	},
