@@ -1162,9 +1162,9 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.31.0",
+		"Version": "3.31.1",
 		"Type": "nsis",
-		"UrlX8664": "https://download.mp3tag.de/mp3tagv331-x64-setup.exe",
+		"UrlX8664": "https://download.mp3tag.de/mp3tagv331a-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"WingetId": "Mp3tag.Mp3tag",
 		"AuthenticodeRequired": true,
@@ -1755,10 +1755,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.06",
+		"Version": "1.1.07",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "sha256:ce192b6c3bb144f3f5e850b1df3e90457503badcc959581eaa46be9fcc9fa8e6",
+		"HashX8632": "sha256:3e7a8db199c7e791e341e6d388d078bfc6b7a77c6f10282edf9c7b82f84f3ad4",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"GitHubId": "ventoy/Ventoy"
 	},
