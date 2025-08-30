@@ -811,7 +811,7 @@
 		"Notes": "https://www.idrive.com/downloads/version_win.js\r\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
 		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/082925/IDriveWinSetup.exe",
-		"InstallerArguments": "/SILENT",
+		"InstallerArguments": "/SP- /SILENT /SUPPRESSMSGBOXES /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "IDrive, Inc."
