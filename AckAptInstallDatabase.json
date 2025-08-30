@@ -587,9 +587,17 @@
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
-		"AppPage": "http://www.foobar2000.org/download",
+		"AppPage": "https://www.foobar2000.org/windows",
 		"WingetId": "PeterPawlowski.foobar2000",
 		"WingetScope": "machine"
+	},
+	{
+		"Name": "foobar2000Encoders",
+		"Version": "2025.08.29",
+		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-2025-08-29.exe",
+		"UseX86OnArm": true,
+		"AppPage": "https://www.foobar2000.org/encoderpack",
+		"WingetId": "PeterPawlowski.foobar2000.EncoderPack"
 	},
 	{
 		"Name": "FoxitReader",
@@ -993,13 +1001,13 @@
 	},
 	{
 		"Name": "LibreOffice",
-		"Version": "25.8.0",
+		"Version": "25.8.1",
 		"Notes": "release notes: https://www.libreoffice.org/download/release-notes/\r\nx64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/x86_64/LibreOffice_{{version}}_Win_x86-64.msi.sha256\r\narm64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/aarch64/LibreOffice_{{version}}_Win_aarch64.msi.sha256",
 		"Type": "msi",
 		"UrlX8664": "https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/x86_64/LibreOffice_{{version}}_Win_x86-64.msi",
 		"UrlArm64": "https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/aarch64/LibreOffice_{{version}}_Win_aarch64.msi",
-		"HashX8664": "sha256: b4ce021bf629a38afcbe5de394372b34de010fba006a1e5232c4e4b9bd161778",
-		"HashArm64": "sha256: 39e839119af9f6b301831724e8a72ef0972f535fa01d5f84b6cf3539a1e840a9",
+		"HashX8664": "sha256:05508706b856296c76bc5b6ccdc982bf96abf10c99851cb782beaf7d59d4244c",
+		"HashArm64": "sha256:5111d56a79ec4b7086aa09539c7f1fc95d1217d62b9c2ddded73fd197978c261",
 		"AppPage": "https://www.libreoffice.org/download/download-libreoffice/",
 		"WingetId": "TheDocumentFoundation.LibreOffice",
 		"AuthenticodeRequired": true,
