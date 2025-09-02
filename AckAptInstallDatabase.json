@@ -583,7 +583,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.24.6",
+		"Version": "2.25",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
@@ -1167,6 +1167,17 @@
 		"GitHubId": "microsoft/terminal",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
+		"Name": "mitmproxy",
+		"Version": "12.1.2",
+		"Notes": "docs: https://docs.mitmproxy.org/stable/",
+		"Type": "exe",
+		"UrlX8664": "https://downloads.mitmproxy.org/{{version}}/mitmproxy-{{version}}-windows-x86_64-installer.exe",
+		"InstallerArguments": "--mode unattended --unattendedmodeui minimal",
+		"AppPage": "https://www.mitmproxy.org/downloads",
+		"WingetId": "mitmproxy.mitmproxy",
+		"GitHubId": "mitmproxy/mitmproxy"
 	},
 	{
 		"Name": "mkvtoolnix",
