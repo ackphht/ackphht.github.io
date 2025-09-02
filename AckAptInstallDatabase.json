@@ -1177,7 +1177,8 @@
 		"InstallerArguments": "--mode unattended --unattendedmodeui minimal",
 		"AppPage": "https://www.mitmproxy.org/downloads",
 		"WingetId": "mitmproxy.mitmproxy",
-		"GitHubId": "mitmproxy/mitmproxy"
+		"GitHubId": "mitmproxy/mitmproxy",
+		"WithElevation": true
 	},
 	{
 		"Name": "mkvtoolnix",
