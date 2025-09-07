@@ -1353,10 +1353,11 @@
 	},
 	{
 		"Name": "Pandoc",
-		"Version": "3.7.0.2",
+		"Version": "3.8",
 		"Notes": "if we switch to MSI installer, the args could be: ALLUSERS=2 APPLICATIONFOLDER=%LocalAppData%\\Programs\\Pandoc",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/jgm/pandoc/releases/download/{{version}}/pandoc-{{version}}-windows-x86_64.zip",
+		"HashX8664": "sha256:3c72ee9966d2a35ebb59873967e496f5fe745c15cf9e825947dc745d19b36bad",
 		"AppPage": "https://pandoc.org/",
 		"WingetId": "JohnMacFarlane.Pandoc",
 		"WingetScope": "user",
