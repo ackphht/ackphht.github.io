@@ -1481,18 +1481,18 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2025.33",
+		"Version": "2025.34",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:41d4c922dc2d89c4d0bc67c608b438ea8b53d3201221bb6c4b590a75ecc540d2",
-		"HashArm64": "sha256:2942cbc77d36da3ea20c780c7a4ecff507ae158020f9808d5cf21f288b8d410a",
+		"HashX8664": "sha256:320b3a47e08d348fa66ae555164fc8042cc60a4b0a8294ecbab90f66dd390b2d",
+		"HashArm64": "sha256:99ba55bbf90adf49918b72908f0eddfd8c0b06fce50b88aee8eb48ac515b5f1d",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.24",
+		"Version": "3.4.25",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
 		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{version}}.exe",
