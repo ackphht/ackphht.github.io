@@ -1164,6 +1164,22 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "MicrosoftOpenJDK25",
+		"Version": "25.0.0",
+		"Notes": "above repo is main one, but no source, and sorta has release info ??\r\nthis github repo is just source, no releases; but tags might have some info: https://github.com/microsoft/openjdk-jdk17u",
+		"Type": "msi",
+		"UrlX8664": "https://aka.ms/download-jdk/microsoft-jdk-{{version}}-windows-x64.msi",
+		"HashX8664": "sha256:f9a3b28ed2788b16892e11e159669bd70f100fea71bd36a15ac59bbcde344b80",
+		"HashArm64": "sha256:",
+		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%ProgramFiles%\\Microsoft\\jdk-25-hotspot\" ADDLOCAL=FeatureMain REMOVE=FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome",
+		"AppPage": "https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-25",
+		"WingetId": "Microsoft.OpenJDK.25",
+		"WingetNoUpgrade": true,
+		"GitHubId": "microsoft/openjdk",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
 		"Name": "MicrosoftPowerToys",
 		"Version": "0.94.2",
 		"Type": "burn",
