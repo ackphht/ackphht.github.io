@@ -1248,10 +1248,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.5.3",
+		"Version": "2.5.4",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
-		"HashX8664": "sha256:e0c9e8310b8ab44b68632569e6cce9e0294403efa7d3104c99f86622e054f1cd",
+		"HashX8664": "sha256:efe911c7b60427dc6ce7ac02230ca4f56ec211bf9ee5a96ed04cf2d7e1fe3872",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
@@ -1323,11 +1323,11 @@
 	},
 	{
 		"Name": "Obsidian",
-		"Version": "1.9.12",
+		"Version": "1.9.14",
 		"Notes": "github is just releases and plugins",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
-		"HashX8632": "sha256:23ba3233bc58f1dc330176ed8490936b9390b42e653a249c519c11f0e458b66f",
+		"HashX8632": "sha256:e6b8f82ccfcda4553a35efdfd17a56935b08543e82078d5aa1404d282cecf9ac",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://obsidian.md/",
