@@ -266,7 +266,7 @@
 	},
 	{
 		"Name": "cpu-z",
-		"Version": "2.16",
+		"Version": "2.17",
 		"Type": "zip",
 		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_{{version}}-en.zip",
 		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
@@ -749,13 +749,13 @@
 	},
 	{
 		"Name": "golang",
-		"Version": "1.25.2",
+		"Version": "1.25.3",
 		"Notes": "github is just a mirror, but it has a wiki with lots of info\nreal repo is at https://go.googlesource.com/go",
 		"Type": "msi",
 		"UrlX8664": "https://go.dev/dl/go{{version}}.windows-amd64.msi",
 		"UrlArm64": "https://go.dev/dl/go{{version}}.windows-arm64.msi",
-		"HashX8664": "sha256:3f54576fbbf52f8e3b3b879cc00fb9f5b048fb8ca8b51ee6defc7418d11a0056",
-		"HashArm64": "sha256:3a606c945d04c7577c44e72ae8146c5583cf985a214ba59feb69c2e8363c50f7",
+		"HashX8664": "sha256:370f08e90693eb9cdd5222351094627fd3be35a8a9230783573739f783a9482f",
+		"HashArm64": "sha256:435ede2743ff51aebf6c9c1c9f38f67372dc2ee855b831b3f9192403b429c37c",
 		"InstallerArguments": "-passive -norestart INSTALLDIR=\"%LocalAppData%\\Programs\\go\"",
 		"AppPage": "https://go.dev/dl/",
 		"WingetId": "GoLang.Go",
@@ -856,11 +856,10 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.30",
+		"Version": "8.32",
 		"Type": "zip",
-		"UrlX8632": "https://www.hwinfo.com/files/hwi_830.zip",
+		"UrlX8632": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_832.zip/download",
 		"UseX86OnArm": true,
-		"HeadersToAdd": "Referer: https://www.hwinfo.com/download/",
 		"AppPage": "https://www.hwinfo.com/download/"
 	},
 	{
@@ -1231,11 +1230,11 @@
 	},
 	{
 		"Name": "MicrosoftTerminal",
-		"Version": "1.23.12681.0",
+		"Version": "1.23.12811.0",
 		"Notes": "https://docs.microsoft.com/en-us/windows/terminal/customize-settings/startup",
 		"Type": "msix",
 		"UrlX8632": "https://github.com/microsoft/terminal/releases/download/v{{version}}/Microsoft.WindowsTerminal_{{version}}_8wekyb3d8bbwe.msixbundle",
-		"HashX8632": "sha256:ab1fd95a01a3b9236eb7088ffa8b843159e7fa825b255d0e0e031f8183f02cbe",
+		"HashX8632": "sha256:4d9c831600a16f4f85c08098dc20b927716f78b01ada01a5b0b1a9e7560f09cf",
 		"AppPage": "https://docs.microsoft.com/en-us/windows/terminal/",
 		"WingetId": "Microsoft.WindowsTerminal",
 		"GitHubId": "microsoft/terminal",
