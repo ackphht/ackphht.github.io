@@ -860,6 +860,7 @@
 		"Type": "zip",
 		"UrlX8632": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_832.zip/download",
 		"UseX86OnArm": true,
+		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.hwinfo.com/download/"
 	},
 	{
