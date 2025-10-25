@@ -571,10 +571,10 @@
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.4.2.1",
+		"Version": "8.6.0",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
-		"HashX8632": "735c04be67eab98355613b6f41282cf6d4b1c560687bd2d5a5c95e9464f1ea54",
+		"HashX8632": "sha256:c59bdbd8c19d36c0b082a367cad8c7b4f9d696673328652c80a735409495952b",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools",
 		"WingetId": "LopeSoft.FileMenuTools",
 		"AuthenticodeRequired": true,
@@ -1300,10 +1300,10 @@
 	},
 	{
 		"Name": "NirLauncher",
-		"Version": "1.30.20",
+		"Version": "1.30.21",
 		"Type": "download",
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
-		"HashX8632": "sha256:a4efbf228c1c59e20d3adb0b3edcea741b56ed291eef1f3786995b902a768346",
+		"HashX8632": "sha256:7b7618d9e987d12cee111c1778b70c2753328427f5a987e38ef03cfbd0c8b289",
 		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\" and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
 		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
