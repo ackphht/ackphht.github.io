@@ -890,13 +890,13 @@
 	},
 	{
 		"Name": "ImageMagick",
-		"Version": "7.1.2.7",
+		"Version": "7.1.2.8",
 		"Notes": "github repo only seems to include release files for bagOS and windows store version\r\nhashes: https://imagemagick.org/archive/binaries/digest.rdf",
 		"Type": "inno",
-		"UrlX8664": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.2-7-Q16-HDRI-x64-dll.exe",
-		"UrlArm64": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.2-7-Q16-HDRI-arm64-dll.exe",
-		"HashX8664": "sha256:97ec82d10169141c1edb572869af7a69458a562e19f4976fb90c8b951ace262e",
-		"HashArm64": "sha256:8ef6cd952553bd8ac68a26e0e5cc7ebcdb24762a01e2fdc2caaeb42369b27722",
+		"UrlX8664": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.2-8-Q16-HDRI-x64-dll.exe",
+		"UrlArm64": "https://imagemagick.org/archive/binaries/ImageMagick-7.1.2-8-Q16-HDRI-arm64-dll.exe",
+		"HashX8664": "sha256:a19f1af0193c7b29acd1659bbb8637bd68dccaaa2f850fc612cce16813ec8406",
+		"HashArm64": "sha256:aa7f0dcf888537a9a46a8efa3501ab55f205683bc6401521b6faea4e7d4acab6",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
 		"WingetId": "ImageMagick.ImageMagick",
@@ -1563,6 +1563,18 @@
 		"PreferWinget": true,
 		"WingetId": "9NQ7512CXL7T",
 		"GitHubId": "python/pymanager"
+	},
+	{
+		"Name": "qBittorrent",
+		"Version": "5.1.2",
+		"Notes": "github repo does not have any downloads",
+		"Type": "nsis",
+		"UrlX8664": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-5.1.2/qbittorrent_{{version}}_qt6_lt20_x64_setup.exe/download",
+		"HashX8664": "sha256:f3280964d20f27f018d01845f6e751baadfaf18f749e6b2e715e7c69e3f8b56b",
+		"HeadersToAdd": "User-Agent: winget-cli",
+		"AppPage": "https://www.qbittorrent.org/download",
+		"WingetId": "qBittorrent.qBittorrent.lt2",
+		"GitHubId": "qbittorrent/qBittorrent"
 	},
 	{
 		"Name": "Resharper",
