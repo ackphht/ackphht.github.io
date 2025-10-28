@@ -1646,7 +1646,7 @@
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:b82f1b78e0ce908973f420deb72c1135e27b0de3394e2072edeafc1eb9f1b9a4",
+		"HashX8664": "sha256:f9943b40fe871ea6c20dbc87579302f205d061479b9a195bef754c8f60e5892a",
 		"HashArm64": "sha256:44d07b30d8f1d35edcc3244db16a19eedd1522dcb3cf698d7fed0bbb6fcd99bd",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
