@@ -645,7 +645,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.30.2.6502",
+		"Version": "6.30.3.6518",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -1281,10 +1281,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.5.4",
+		"Version": "2.5.5",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.x64.exe",
-		"HashX8664": "sha256:efe911c7b60427dc6ce7ac02230ca4f56ec211bf9ee5a96ed04cf2d7e1fe3872",
+		"HashX8664": "sha256:815b219476fe183e10cea587231e674d387d4934dd4f721c35a4d0ddc1c5b090",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
@@ -1861,11 +1861,11 @@
 	},
 	{
 		"Name": "TortoiseGit",
-		"Version": "2.17.0.2",
+		"Version": "2.18.0.0",
 		"Notes": "GitLab Repo: https://gitlab.com/tortoisegit/tortoisegit/\r\nGitHub Mirror: https://github.com/tortoisegit/tortoisegit/ (no releases though)",
 		"Type": "msi",
-		"UrlX8664": "https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-64bit.msi",
-		"UrlArm64": "https://download.tortoisegit.org/tgit/2.17.0.0/TortoiseGit-2.17.0.2-arm64.msi",
+		"UrlX8664": "https://download.tortoisegit.org/tgit/2.18.0.0/TortoiseGit-2.18.0.0-64bit.msi",
+		"UrlArm64": "https://download.tortoisegit.org/tgit/2.18.0.0/TortoiseGit-2.18.0.0-arm64.msi",
 		"AppPage": "https://tortoisegit.org/download/",
 		"WingetId": "TortoiseGit.TortoiseGit",
 		"AuthenticodeRequired": true,
