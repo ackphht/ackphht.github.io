@@ -443,15 +443,6 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNetCoreSdk6",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.6"
-	},
-	{
 		"Name": "DotNetCoreSdk8",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -470,17 +461,18 @@
 		"WingetId": "Microsoft.DotNet.SDK.9"
 	},
 	{
-		"Name": "DotNetCoreDesktopRuntime6",
+		"Name": "DotNetCoreSdk10",
 		"Version": "0.0.0",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.6"
+		"WingetId": "Microsoft.DotNet.SDK.10"
 	},
 	{
 		"Name": "DotNetCoreDesktopRuntime8",
 		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
@@ -490,6 +482,7 @@
 	{
 		"Name": "DotNetCoreDesktopRuntime9",
 		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
@@ -497,17 +490,19 @@
 		"WingetId": "Microsoft.DotNet.DesktopRuntime.9"
 	},
 	{
-		"Name": "DotNetCoreAspNetHostingBundle6",
+		"Name": "DotNetCoreDesktopRuntime10",
 		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/6.0",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.6"
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.10"
 	},
 	{
 		"Name": "DotNetCoreAspNetHostingBundle8",
 		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
@@ -517,11 +512,22 @@
 	{
 		"Name": "DotNetCoreAspNetHostingBundle9",
 		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.HostingBundle.9"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle10",
+		"Version": "0.0.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.10"
 	},
 	{
 		"Name": "Everything",
@@ -857,9 +863,9 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.32",
+		"Version": "8.34",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_832.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/hwinfo/files/Windows_Portable/hwi_834.zip/download",
 		"UseX86OnArm": true,
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.hwinfo.com/download/"
@@ -1325,12 +1331,12 @@
 	},
 	{
 		"Name": "NodejsLTS",
-		"Version": "24.11.0",
+		"Version": "24.11.1",
 		"Type": "msi",
 		"UrlX8664": "https://nodejs.org/dist/v{{version}}/node-v{{version}}-x64.msi",
 		"UrlArm64": "https://nodejs.org/dist/v{{version}}/node-v{{version}}-arm64.msi",
-		"HashX8664": "sha256:2d411f63490613d51e6047752bc2fae99a8e5fabdf20d5267c9851eab4c67528",
-		"HashArm64": "sha256:00371d745402d2bf315afe3db785a30be63654529bcde455646d9d9d0cfeb88f",
+		"HashX8664": "sha256:208ba5ca1dab0b330f457909e0797de340c40b34ddf2edf40d26f382f733297e",
+		"HashArm64": "sha256:09f611f63ef40b9955c42ddcc8f32cc1f6e558ac136f7ca67f481bf669bd8bfe",
 		"InstallerArguments": "-passive -norestart NativeToolsCheckbox=0",
 		"AppPage": "https://nodejs.org/en/download/",
 		"WingetId": "OpenJS.NodeJS.LTS",
@@ -2046,6 +2052,18 @@
 		"InstallerArguments": "--nocache --wait",
 		"AppPage": "https://visualstudio.microsoft.com/",
 		"WingetId": "Microsoft.VisualStudio.2022.Community",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
+		"Name": "VS2026Community",
+		"Version": "0.0.0.0",
+		"Notes": "https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2026",
+		"Type": "exe",
+		"UrlX8632": "https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2026",
+		"InstallerArguments": "--nocache --wait",
+		"AppPage": "https://visualstudio.microsoft.com/",
+		"WingetId": "Microsoft.VisualStudio.2026.Community",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
