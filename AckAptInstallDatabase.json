@@ -962,7 +962,8 @@
 		"WingetId": "IrfanSkiljan.IrfanView",
 		"WingetVersion": "4.67",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Irfan Skiljan"
+		"AuthenticodeSignedBy": "Irfan Skiljan",
+		"WithElevation": true
 	},
 	{
 		"Name": "IrfanViewPlugins",
@@ -977,7 +978,8 @@
 		"HeadersToAdd": "Referer: https://www.irfanview.info/files/",
 		"AppPage": "http://www.irfanview.com/",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Irfan Skiljan"
+		"AuthenticodeSignedBy": "Irfan Skiljan",
+		"WithElevation": true
 	},
 	{
 		"Name": "iSpy",
