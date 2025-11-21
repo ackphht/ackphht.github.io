@@ -1803,10 +1803,10 @@
 	},
 	{
 		"Name": "SqlServerODBCDriver18",
-		"Version": "18.5.1.1",
+		"Version": "18.5.2.1",
 		"Type": "msi",
-		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2307162",
-		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2308434",
+		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2335671",
+		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2335756",
 		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
 		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#download-for-windows",
 		"WingetId": "Microsoft.msodbcsql.18",
