@@ -238,10 +238,10 @@
 	},
 	{
 		"Name": "clink",
-		"Version": "1.9.1",
+		"Version": "1.9.2",
 		"Type": "nsis",
-		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.9.1/clink.1.9.1.91b26a_setup.exe",
-		"HashX8632": "sha256:e3e84b59f51054a8b4bcbfd4270ab2b68504a4bdd0f6fb389603c57340ad6824",
+		"UrlX8632": "https://github.com/chrisant996/clink/releases/download/v1.9.2/clink.1.9.2.6aa2e0_setup.exe",
+		"HashX8632": "sha256:f7fdd365c3cca9ea1c9c13ee40fbe9c408033e39148028ecfc751de38e10c31d",
 		"InstallerArguments": "/S",
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"WingetId": "chrisant996.Clink",
@@ -730,6 +730,19 @@
 		"AppPage": "https://gitahead.github.io/gitahead.com/",
 		"WingetId": "GitAhead.GitAhead",
 		"GitHubId": "gitahead/gitahead"
+	},
+	{
+		"Name": "GitHubCli",
+		"Version": "2.83.1",
+		"Notes": "Docs: https://docs.github.com/github-cli/github-cli/\nManual: https://cli.github.com/manual/",
+		"Type": "zip",
+		"UrlX8664": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_amd64.zip",
+		"UrlArm64": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_arm64.zip",
+		"HashX8664": "sha256:1324871424cb8cb3793914565026a8da53b1a633fa05760597abef54b57ff12e",
+		"HashArm64": "sha256:874e07e89516fa064a8f9c55402bc5b6d8bfa7c625b05ce90e473b92075846e5",
+		"AppPage": "https://cli.github.com/",
+		"WingetId": "GitHub.cli",
+		"GitHubId": "cli/cli"
 	},
 	{
 		"Name": "GitHubDesktop",
