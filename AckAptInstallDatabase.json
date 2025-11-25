@@ -1291,7 +1291,7 @@
 	},
 	{
 		"Name": "mitmproxy",
-		"Version": "12.2.0",
+		"Version": "12.2.1",
 		"Notes": "docs: https://docs.mitmproxy.org/stable/",
 		"Type": "exe",
 		"UrlX8664": "https://downloads.mitmproxy.org/{{version}}/mitmproxy-{{version}}-windows-x86_64-installer.exe",
@@ -1403,11 +1403,11 @@
 	},
 	{
 		"Name": "Obsidian",
-		"Version": "1.10.3",
+		"Version": "1.10.6",
 		"Notes": "github is just releases and plugins",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
-		"HashX8632": "sha256:85ea74e960ee66b918c5a45e810f8d2aa520b09b0dec600beb79d7859ec343fd",
+		"HashX8632": "sha256:cf5ecd9e9d1b703186e41d938c1fefe4e06c075699de7d48e64d4ca1740d38ce",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://obsidian.md/",
