@@ -918,7 +918,7 @@
 		"Type": "inno",
 		"UrlX8664": "https://imagemagick.org/archive/binaries/ImageMagick-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Q16-HDRI-x64-dll.exe",
 		"UrlArm64": "https://imagemagick.org/archive/binaries/ImageMagick-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Q16-HDRI-arm64-dll.exe",
-		"HashX8664": "sha256:462273eae3ca0d55db78737b76cd4c443046684654e13f50d19a1a349bddd481",
+		"HashX8664": "sha256:b18e5d64f7f09b3c36488d7ec16bef15ddfda11cad8a57d12d7650671731d6e6",
 		"HashArm64": "sha256:6497dc7ab4acbec4f0fa02b1da098121613ff68f0b837d0b38aefbc8ab291064",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
