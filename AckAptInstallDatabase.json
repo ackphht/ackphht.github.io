@@ -2058,7 +2058,8 @@
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
 		"WingetId": "VideoLAN.VLC",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "VideoLAN"
+		"AuthenticodeSignedBy": "VideoLAN",
+		"WithElevation": true
 	},
 	{
 		"Name": "VS2022Community",
