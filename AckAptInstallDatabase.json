@@ -927,9 +927,12 @@
 	},
 	{
 		"Name": "ImHex",
-		"Version": "1.37.4",
+		"Version": "1.38.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
+		"UrlArm64": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-arm64.msi",
+		"HashX8664": "sha256:c80aab1ce26cb98afd1eab3bbea743fcc537caf186640a08e79bb5d701bcecd3",
+		"HashArm64": "sha256:4359f0a13708572fd87e500d39f972ff17e5c65e324493ae2083ad19cc5e60f2",
 		"InstallerArguments": "-passive -norestart",
 		"AppPage": "https://imhex.werwolv.net/",
 		"WingetId": "WerWolv.ImHex",
