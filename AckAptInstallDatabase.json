@@ -1761,6 +1761,18 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
+		"Name": "SqlServer2025Express",
+		"Version": "17.0.1000.7",
+		"Notes": "installation instructions; https://learn.microsoft.com/sql/database-engine/install-windows/install-sql-server?view=sql-server-ver17\nannouncement: https://techcommunity.microsoft.com/blog/sqlserver/sql-server-2025-is-now-generally-available/4470570",
+		"Type": "exe",
+		"UrlX8664": "https://go.microsoft.com/fwlink/p/?linkid=2216019",
+		"InstallerArguments": "/QS /IAcceptSqlServerLicenseTerms /Action=Install /INSTALLPATH=\"%ProgramFiles%\\Microsoft SQL Server\"",
+		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
+		"WingetId": "Microsoft.SQLServer.2025.Express",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation"
+	},
+	{
 		"Name": "SqlServer2019CU",
 		"Version": "15.0.4430.1",
 		"Notes": "Cumulative Update 32 [KB5054833]",
@@ -1782,6 +1794,17 @@
 		"HashX8632": "sha256:B06B59D7A41CC57BF0CC3EAEADB4E5FC196EA72E8FD1914C42760E31ADBF40E6",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://learn.microsoft.com/en-us/troubleshoot/sql/releases/download-and-install-latest-updates?#sql-server-2022",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
+	},
+	{
+		"Name": "SqlServer2025CU",
+		"Version": "17.0.1000.7",
+		"Notes": "Cumulative Update 00 [KB50xxxxx]\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
+		"Type": "exe",
+		"ValidExitCodes": "0,3010",
+		"AppPage": "https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates#sql-server-2025",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation",
 		"WithElevation": true
