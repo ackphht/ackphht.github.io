@@ -1758,7 +1758,8 @@
 		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
 		"WingetId": "Microsoft.SQLServer.2022.Express",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Microsoft Corporation"
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
 	},
 	{
 		"Name": "SqlServer2025Express",
@@ -1770,7 +1771,8 @@
 		"AppPage": "https://www.microsoft.com/sql-server/sql-server-downloads",
 		"WingetId": "Microsoft.SQLServer.2025.Express",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "Microsoft Corporation"
+		"AuthenticodeSignedBy": "Microsoft Corporation",
+		"WithElevation": true
 	},
 	{
 		"Name": "SqlServer2019CU",
