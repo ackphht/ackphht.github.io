@@ -2015,10 +2015,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.07",
+		"Version": "1.1.09",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "sha256:3e7a8db199c7e791e341e6d388d078bfc6b7a77c6f10282edf9c7b82f84f3ad4",
+		"HashX8632": "sha256:ff531a78d60c604cee67d56d02102a1147e647d0fb8fb8516f77712d05d5b99d",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"GitHubId": "ventoy/Ventoy"
 	},
