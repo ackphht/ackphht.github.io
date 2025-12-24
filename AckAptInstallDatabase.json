@@ -927,16 +927,18 @@
 	},
 	{
 		"Name": "ImHex",
-		"Version": "1.38.0",
+		"Version": "1.38.1",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
 		"UrlArm64": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-arm64.msi",
-		"HashX8664": "sha256:c80aab1ce26cb98afd1eab3bbea743fcc537caf186640a08e79bb5d701bcecd3",
-		"HashArm64": "sha256:4359f0a13708572fd87e500d39f972ff17e5c65e324493ae2083ad19cc5e60f2",
+		"HashX8664": "sha256:f0be16446f546ade94e55c3626a67c831cc85c03965a9c12bacf0c076214851c",
+		"HashArm64": "sha256:aa046f974408fde3ff6a698c4d524b4659f5facac3afe696891d279bd49606d0",
 		"InstallerArguments": "-passive -norestart",
 		"AppPage": "https://imhex.werwolv.net/",
 		"WingetId": "WerWolv.ImHex",
-		"GitHubId": "WerWolv/ImHex"
+		"GitHubId": "WerWolv/ImHex",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "SignPath Foundation"
 	},
 	{
 		"Name": "Inkscape",
