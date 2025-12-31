@@ -626,7 +626,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.25.3",
+		"Version": "2.25.4",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
@@ -1054,11 +1054,11 @@
 	},
 	{
 		"Name": "KMyMoney",
-		"Version": "5.2.5089",
+		"Version": "5.2.5096",
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
 		"Type": "nsis",
 		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/{{ver_maj}}.{{ver_min}}/windows/kmymoney-{{ver_maj}}.{{ver_min}}-{{ver_bld}}-windows-cl-msvc2022-x86_64.exe",
-		"HashX8664": "sha256:fb4540258e9d4d8b32cdab6a4c8f28bfc93aa482fa2182981ff327477e6daaae",
+		"HashX8664": "sha256:7397f5b051da2ffe374adbd6cde04775ea6c3370ded3c093463e6e33af2ed694",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
 		"WingetId": "KDE.kmymoney",
