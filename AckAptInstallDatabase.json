@@ -636,8 +636,8 @@
 	},
 	{
 		"Name": "foobar2000Encoders",
-		"Version": "2025.08.29",
-		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-2025-08-29.exe",
+		"Version": "2025.12.31",
+		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-2025-12-31.exe",
 		"UseX86OnArm": true,
 		"AppPage": "https://www.foobar2000.org/encoderpack",
 		"WingetId": "PeterPawlowski.foobar2000.EncoderPack"
@@ -2076,13 +2076,13 @@
 	},
 	{
 		"Name": "vlc",
-		"Version": "3.0.22",
+		"Version": "3.0.23",
 		"Notes": "update check calls: http://update.videolan.org/vlc/status-win-x64\nhave their own git server: git://git.videolan.org/vlc.git or https://code.videolan.org/videolan/vlc.git (??)",
 		"Type": "nsis",
 		"UrlX8664": "http://download.videolan.org/pub/videolan/vlc/{{version}}/win64/vlc-{{version}}-win64.exe",
 		"UrlArm64": "http://download.videolan.org/pub/videolan/vlc/{{version}}/winarm64/vlc-{{version}}-winarm64.exe",
-		"HashX8664": "sha256:01e670abde72d37062b3b0f005b0963f7fd460d2c410e39ae52e53fc74034835",
-		"HashArm64": "sha256:677cba634021ba2c24a2d5faa950b12b1ac09921c7f87779ac8d4e5dfea43a4d",
+		"HashX8664": "sha256:20ad191348684b470ddc4e05204316f3d8e39655f412b3e392a0eef97639daaf",
+		"HashArm64": "sha256:f1feeeefbe76299c9e0fe8df3d9dd7b30a96d6aef5dc842a22f5cfb577822427",
 		"AppPage": "https://www.videolan.org/vlc/download-windows.html",
 		"WingetId": "VideoLAN.VLC",
 		"AuthenticodeRequired": true,
