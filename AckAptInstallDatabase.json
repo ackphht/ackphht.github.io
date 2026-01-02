@@ -640,7 +640,8 @@
 		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-2025-12-31.exe",
 		"UseX86OnArm": true,
 		"AppPage": "https://www.foobar2000.org/encoderpack",
-		"WingetId": "PeterPawlowski.foobar2000.EncoderPack"
+		"WingetId": "PeterPawlowski.foobar2000.EncoderPack",
+		"WithElevation": true
 	},
 	{
 		"Name": "FoxitReader",
