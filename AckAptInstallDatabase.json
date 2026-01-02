@@ -626,7 +626,7 @@
 	},
 	{
 		"Name": "foobar2000",
-		"Version": "2.25.4",
+		"Version": "2.25.5",
 		"Type": "nsis",
 		"UrlX8664": "https://www.foobar2000.org/files/foobar2000-x64_v{{version}}.exe",
 		"UrlArm64": "https://www.foobar2000.org/files/foobar2000-arm64ec_v{{version}}.exe",
@@ -1305,11 +1305,11 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "96.0",
+		"Version": "97.0",
 		"Notes": "https://mkvtoolnix.download/downloads.html#windows\nhttps://gitlab.com/mbunkus/mkvtoolnix",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/{{version}}/mkvtoolnix-64-bit-{{version}}-setup.exe",
-		"HashX8664": "sha256:8f74f43ed632d99ae9cbaf1d04b9016c24f3eaf009c6678359ffa7698f26c77b",
+		"HashX8664": "sha256:23f5d8d885dc8449ecdfd1986abb59e73e832d161363b71228babcaf1382d06f",
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"WingetId": "MoritzBunkus.MKVToolNix",
