@@ -1349,10 +1349,10 @@
 	},
 	{
 		"Name": "NirLauncher",
-		"Version": "1.30.21",
+		"Version": "1.30.22",
 		"Type": "download",
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
-		"HashX8632": "sha256:7b7618d9e987d12cee111c1778b70c2753328427f5a987e38ef03cfbd0c8b289",
+		"HashX8632": "sha256:c057afcf3094b407597c86209500c2f85dc41b81404372fc28ca215fc5ba4a04",
 		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\" and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
 		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
