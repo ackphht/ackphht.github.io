@@ -1627,6 +1627,16 @@
 		"GitHubId": "qbittorrent/qBittorrent"
 	},
 	{
+		"Name": "QuickLook",
+		"Version": "0.0.0",
+		"Notes": "plugins: https://github.com/QL-Win/QuickLook/wiki/Available-Plugins\nstores config data, user installed plugins in %APPDATA%\\pooi.moe\\QuickLook\\",
+		"Type": "wix",
+		"InstallerArguments": "-passive -norestart",
+		"PreferWinget": true,
+		"WingetId": "QL-Win.QuickLook",
+		"GitHubId": "QL-Win/QuickLook"
+	},
+	{
 		"Name": "Resharper",
 		"Version": "2025.3.1",
 		"Notes": "https://www.jetbrains.com/resharper/whatsnew/",
