@@ -296,13 +296,13 @@
 	},
 	{
 		"Name": "curl",
-		"Version": "8.17.0",
-		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\r\nhttps://curl.se/",
+		"Version": "8.18.0",
+		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\nhttps://curl.se/",
 		"Type": "zip",
 		"UrlX8664": "https://curl.se/windows/dl-{{version}}_1/curl-{{version}}_1-win64-mingw.zip",
 		"UrlArm64": "https://curl.se/windows/dl-{{version}}_1/curl-{{version}}_1-win64a-mingw.zip",
-		"HashX8664": "sha256:4c6ce3ee649335c4bf317ea63a3c0d0625a0959273e357e08c04ac37ff8cbbdb",
-		"HashArm64": "sha256:d8a8fb4c51f38773d4d562b28c89479c3710622cbc3d7a8a80a0e60cd8b88adc",
+		"HashX8664": "sha256:ff5a58decb63d7ac9d76e63be216e1328fe04477975d9a001f538ddfd4ddf0b8",
+		"HashArm64": "sha256:df5548a45e63b4b5de413da916f10ee46ff1549df480aaceacf55c21d65fa034",
 		"AppPage": "https://curl.se/windows/",
 		"WingetId": "cURL.cURL",
 		"GitHubId": "curl/curl"
