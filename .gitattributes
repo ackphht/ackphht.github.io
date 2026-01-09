@@ -1,30 +1,41 @@
-###############################################################################
-# Set default behavior to automatically normalize line endings.
-###############################################################################
-* text=auto
+# Set default behavior to use LF line endings:
+*		text=auto eol=lf
 
-###############################################################################
-# Set these files to *nix line endings
-###############################################################################
-.editorconfig	text eol=lf
-*.adoc			text eol=lf
-*.asc			text eol=lf
-*.asciidoc		text eol=lf
-*.css			text eol=lf
-*.go			text eol=lf
-*.htm			text eol=lf
-*.html			text eol=lf
-*.js			text eol=lf
-*.json			text eol=lf
-*.md			text eol=lf
-*.markdown		text eol=lf
-*.py			text eol=lf
-*.rs			text eol=lf
-*.sh			text eol=lf
-*.toml			text eol=lf
-*.ts			text eol=lf
-*.xhtm			text eol=lf
-*.xhtml			text eol=lf
-*.xml			text eol=lf
-*.yaml			text eol=lf
-*.yml			text eol=lf
+# except these:
+*.bat	text eol=crlf
+*.cmd	text eol=crlf
+
+# i don't know what these diff thingies actually do or if they actually make any difference, but can't hurt ??
+#
+# web stuff:
+#
+*.css		text diff=css
+*.htm		text diff=html
+*.html		text diff=html
+# "json" doesn't exist by default ?? but there's no complaints, so ??
+*.json		text diff=json
+*.jsonc		text diff=json
+*.xhtm		text diff=html
+*.xhtml		text diff=html
+#
+# markdown:
+#
+*.markdown	text diff=markdown
+*.md		text diff=markdown
+*.mdwn		text diff=markdown
+*.mdown		text diff=markdown
+*.mkd		text diff=markdown
+*.mkdn		text diff=markdown
+#
+# .NET/C#
+#
+*.cs		text diff=csharp
+*.cshtml	text diff=html
+*.csx		text diff=csharp
+*.sln		text eol=crlf
+*.slnx		text
+*.csproj	text
+#
+# shell scripts:
+#
+.sh			text diff=sh
