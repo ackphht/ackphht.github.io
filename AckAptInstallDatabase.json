@@ -1055,11 +1055,11 @@
 	},
 	{
 		"Name": "KMyMoney",
-		"Version": "5.2.5096",
+		"Version": "5.2.5125",
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
 		"Type": "nsis",
 		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/{{ver_maj}}.{{ver_min}}/windows/kmymoney-{{ver_maj}}.{{ver_min}}-{{ver_bld}}-windows-cl-msvc2022-x86_64.exe",
-		"HashX8664": "sha256:7397f5b051da2ffe374adbd6cde04775ea6c3370ded3c093463e6e33af2ed694",
+		"HashX8664": "sha256:232d9e40d283dc4758d61c6fd74b225ef2da42b49cce8cf62024268c5d8a0dde",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
 		"WingetId": "KDE.kmymoney",
@@ -1739,10 +1739,10 @@
 	},
 	{
 		"Name": "SQLiteTools",
-		"Version": "3.51.1",
+		"Version": "3.51.2",
 		"Type": "zip",
-		"UrlX8664": "https://sqlite.org/2025/sqlite-tools-win-x64-3510100.zip",
-		"UrlArm64": "https://sqlite.org/2025/sqlite-tools-win-arm64-3510100.zip",
+		"UrlX8664": "https://sqlite.org/2026/sqlite-tools-win-x64-3510200.zip",
+		"UrlArm64": "https://sqlite.org/2026/sqlite-tools-win-arm64-3510200.zip",
 		"AppPage": "https://sqlite.org/download.html#win32",
 		"WingetId": "SQLite.SQLite"
 	},
