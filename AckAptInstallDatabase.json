@@ -2240,7 +2240,7 @@
 		"Type": "inno",
 		"UrlX8664": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-{{version}}-win-x64.exe",
 		"HashX8664": "sha256:388A724C5E7C85FFE9DDE71CF17746ADE420B6F8652950C2FDCB90CCCA91EAEE",
-		"InstallerArguments": "/sp- /silent /norestart /lang=en /components=shell /tasks=-desktopicon,-quicklaunchicon /nocloseapplications",
+		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\XnViewMP\" /NORESTART /LANG=en /COMPONENTS=-shell /TASKS=-desktopicon,-quicklaunchicon /NOCLOSEAPPLICATIONS",
 		"AppPage": "http://www.xnview.com/",
 		"WingetId": "XnSoft.XnViewMP",
 		"AuthenticodeRequired": true,
