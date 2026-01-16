@@ -833,7 +833,8 @@
 		"AppPage": "https://www.gpg4win.org/download.html",
 		"WingetId": "GnuPG.Gpg4win",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "g10 Code GmbH"
+		"AuthenticodeSignedBy": "g10 Code GmbH",
+		"WithElevation": true
 	},
 	{
 		"Name": "gpu-z",
