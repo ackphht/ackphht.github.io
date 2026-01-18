@@ -2171,10 +2171,10 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.2.2",
+		"Version": "2.5.0",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release%2Fv{{version}}/WinDirStat.7z",
-		"HashX8632": "D9AE3CB4892ECABD30A0D1B0C6674C1E695B3CCA498F7BC59EB4CB20CE430A8C",
+		"HashX8632": "sha256:1b399abe3b9f20e574f7c58b94c6530a34b6dfeec4bd89a6e2017abe62075614",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"GitHubId": "windirstat/windirstat"
