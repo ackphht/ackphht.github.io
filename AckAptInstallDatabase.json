@@ -656,7 +656,7 @@
 	},
 	{
 		"Name": "FreeDownloadManager",
-		"Version": "6.32.0.6586",
+		"Version": "6.33.0.6626",
 		"Notes": "https://www.freedownloadmanager.org/download.htm",
 		"Type": "inno",
 		"UrlX8664": "https://files2.freedownloadmanager.org/6/latest/fdm_x64_setup.exe",
@@ -1407,11 +1407,11 @@
 	},
 	{
 		"Name": "Obsidian",
-		"Version": "1.11.4",
+		"Version": "1.11.5",
 		"Notes": "github is just releases and plugins\nchangelog: https://obsidian.md/changelog/",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
-		"HashX8632": "sha256:94ea213b7fa3fe0f26e5b3c3f8c7d1a43b1fc4e7dc3948dac67b805b976312cd",
+		"HashX8632": "sha256:206941af785f78e212787faac5927d624a8a9f813f916803ecbfb8d28f2706c0",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://obsidian.md/",
