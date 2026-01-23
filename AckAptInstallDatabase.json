@@ -537,7 +537,7 @@
 		"Notes": "hashes: https://www.voidtools.com/Everything-{{version}}.sha256",
 		"Type": "nsis",
 		"UrlX8664": "https://www.voidtools.com/Everything-{{version}}.x64.en-US-Setup.exe",
-		"HashX8664": "sha256:c42efad041d4c0bb4d4ac97ae7cbe89f153ec1fe078772392e749c7f5d5282d3",
+		"HashX8664": "sha256:97b057cb3211192f0c821e0a7bf602c6b6a4173f7595a22d6174c03d2b4d301f",
 		"AppPage": "https://www.voidtools.com/downloads/",
 		"WingetId": "voidtools.Everything",
 		"AuthenticodeRequired": true,
