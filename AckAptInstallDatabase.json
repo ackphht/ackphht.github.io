@@ -2255,5 +2255,14 @@
 		"WingetId": "XnSoft.XnViewMP",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "GOUGELET PIERRE-EMMANUEL"
+	},
+	{
+		"Name": "YTDownloader",
+		"Version": "3.20.2",
+		"Type": "zip",
+		"UrlX8664": "https://github.com/aandrew-me/ytDownloader/releases/download/v{{ver}}/YTDownloader_Win.zip",
+		"HashX8664": "sha256:b2bc9f25f13781cc34a5b2bb69c69271996909578b46009025c3d465d198a183",
+		"WingetId": "aandrew-me.ytDownloader",
+		"GitHubId": "aandrew-me/ytDownloader"
 	}
 ]
