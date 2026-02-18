@@ -739,13 +739,13 @@
 	},
 	{
 		"Name": "GitHubCli",
-		"Version": "2.86.0",
+		"Version": "2.87.0",
 		"Notes": "Docs: https://docs.github.com/github-cli/github-cli/\nManual: https://cli.github.com/manual/",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_amd64.zip",
 		"UrlArm64": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_arm64.zip",
-		"HashX8664": "sha256:983c74a8c594366b198485187cd6d4d07638f0bf9a9948d51a2a81a5164d8bfd",
-		"HashArm64": "sha256:1cc4276108d4023bf0487f48401b69989222260a78910bb9f72dcb32680f725d",
+		"HashX8664": "sha256:0765688b92edca7f08a314317512deba00baa3405001ce25b69d2580f8137c36",
+		"HashArm64": "sha256:fdc9eceaaaf8b01aaf80286e19f84c778b79f94adbce0cc82dbe4d449b73680d",
 		"AppPage": "https://cli.github.com/",
 		"WingetId": "GitHub.cli",
 		"GitHubId": "cli/cli"
