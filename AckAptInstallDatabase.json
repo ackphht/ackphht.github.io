@@ -1415,11 +1415,11 @@
 	},
 	{
 		"Name": "Obsidian",
-		"Version": "1.11.7",
+		"Version": "1.12.4",
 		"Notes": "github is just releases and plugins\nchangelog: https://obsidian.md/changelog/",
 		"Type": "nsis",
 		"UrlX8632": "https://github.com/obsidianmd/obsidian-releases/releases/download/v{{version}}/Obsidian-{{version}}.exe",
-		"HashX8632": "sha256:b29fd8812282bc44e8782f3ed00c13bc54ef8a4039c1d86b2d3559311e77b895",
+		"HashX8632": "sha256:1f9e6a63a511456920db8191112a446494ab907d2834f1b779840a60ea6445df",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/S /currentuser",
 		"AppPage": "https://obsidian.md/",
