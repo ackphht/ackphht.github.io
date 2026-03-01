@@ -2246,11 +2246,11 @@
 	},
 	{
 		"Name": "XnViewMP",
-		"Version": "1.9.10",
+		"Version": "1.10.1",
 		"Notes": "forum has changelog w/ hashes: https://newsgroup.xnview.com/viewforum.php?f=115",
 		"Type": "inno",
 		"UrlX8664": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-{{version}}-win-x64.exe",
-		"HashX8664": "sha256:388A724C5E7C85FFE9DDE71CF17746ADE420B6F8652950C2FDCB90CCCA91EAEE",
+		"HashX8664": "sha256:F64A10A1681F10DF2B6878C10E36FDAE2961029B373DB388B32903560C562616",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\XnViewMP\" /NORESTART /LANG=en /COMPONENTS=-shell /TASKS=-desktopicon,-quicklaunchicon /NOCLOSEAPPLICATIONS",
 		"AppPage": "http://www.xnview.com/",
 		"WingetId": "XnSoft.XnViewMP",
