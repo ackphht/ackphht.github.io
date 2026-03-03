@@ -1726,7 +1726,7 @@
 	},
 	{
 		"Name": "SourceTree",
-		"Version": "3.4.29",
+		"Version": "3.4.30",
 		"Notes": "old: https://www.sourcetreeapp.com/update/windowsupdates.txt",
 		"Type": "exe",
 		"UrlX8632": "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTreeSetup-{{version}}.exe",
