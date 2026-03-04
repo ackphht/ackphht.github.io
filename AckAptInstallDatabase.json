@@ -887,7 +887,7 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.42",
+		"Version": "8.44",
 		"Type": "zip",
 		"UrlX8632": "https://www.sac.sk/download/utildiag/hwi_{{ver_maj}}{{ver_min}}.zip",
 		"UseX86OnArm": true,
@@ -1036,10 +1036,10 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.60",
+		"Version": "2.61",
 		"Type": "inno",
 		"UrlX8632": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/{{version}}/KeePass-{{version}}-Setup.exe/download",
-		"HashX8632": "sha256:DDBFC88ED78D2A5E23046A69B27B4C9F9989891BE9216E68D58797E8236C413C",
+		"HashX8632": "sha256:C7D1B38C6BBC953E857AC6197D01ADFD66FF50824B65D9ED470FE8DB0113C6CA",
 		"PreInstallMessage": "about to install KeePass: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing KeePass: can restart it now",
 		"InstallerArguments": "/SILENT",
@@ -1338,10 +1338,10 @@
 	},
 	{
 		"Name": "MPC-HC",
-		"Version": "2.6.2",
+		"Version": "2.6.3",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/clsid2/mpc-hc/releases/download/{{version}}/MPC-HC.{{version}}.1.x64.exe",
-		"HashX8664": "sha256:ff2fecc590fcfc7efe6931e5ea5a61be227310468d36a0179d34ff03e64b0e0b",
+		"HashX8664": "sha256:e087bbf92ea257a887bc9420a070ebe55879b7af026be6e01933161be5e2dea4",
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"WingetId": "clsid2.mpc-hc",
 		"GitHubId": "clsid2/mpc-hc"
@@ -2246,11 +2246,11 @@
 	},
 	{
 		"Name": "XnViewMP",
-		"Version": "1.10.1",
+		"Version": "1.10.3",
 		"Notes": "forum has changelog w/ hashes: https://newsgroup.xnview.com/viewforum.php?f=115",
 		"Type": "inno",
 		"UrlX8664": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-{{version}}-win-x64.exe",
-		"HashX8664": "sha256:F64A10A1681F10DF2B6878C10E36FDAE2961029B373DB388B32903560C562616",
+		"HashX8664": "sha256:055833036771A4DD8C8DA9BC127A3CBE341A87B6769EF245F6664A1F98F23A6E",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\XnViewMP\" /NORESTART /LANG=en /COMPONENTS=-shell /TASKS=-desktopicon,-quicklaunchicon /NOCLOSEAPPLICATIONS",
 		"AppPage": "http://www.xnview.com/",
 		"WingetId": "XnSoft.XnViewMP",
