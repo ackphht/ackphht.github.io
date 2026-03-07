@@ -180,6 +180,7 @@
 		"Type": "zip",
 		"UrlX8632": "https://github.com/bitwarden/clients/releases/download/cli-v{{version}}/bw-windows-{{version}}.zip",
 		"AppPage": "https://bitwarden.com/download/",
+		"PreferWinget": true,
 		"WingetId": "Bitwarden.CLI",
 		"GitHubId": "Bitwarden/clients"
 	},
@@ -1748,11 +1749,12 @@
 	},
 	{
 		"Name": "SQLiteTools",
-		"Version": "3.52.0",
+		"Version": "0.0.0",
 		"Type": "zip",
 		"UrlX8664": "https://sqlite.org/2026/sqlite-tools-win-x64-3520000.zip",
 		"UrlArm64": "https://sqlite.org/2026/sqlite-tools-win-arm64-3520000.zip",
 		"AppPage": "https://sqlite.org/download.html#win32",
+		"PreferWinget": true,
 		"WingetId": "SQLite.SQLite"
 	},
 	{
