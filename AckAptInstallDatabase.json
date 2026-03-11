@@ -297,7 +297,7 @@
 	},
 	{
 		"Name": "curl",
-		"Version": "8.19.0",
+		"Version": "0.0.0",
 		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\nhttps://curl.se/",
 		"Type": "zip",
 		"UrlX8664": "https://curl.se/windows/dl-{{version}}_1/curl-{{version}}_1-win64-mingw.zip",
@@ -305,6 +305,7 @@
 		"HashX8664": "sha256:36451cc7a226cdddfadc507b422336a31fde265e7c7eafd1870e69f4022bac91",
 		"HashArm64": "sha256:fc0e5b51dea856d2c309f76cdc45ec116cc5198c4adddaa8cba03c8c7ef4a2ae",
 		"AppPage": "https://curl.se/windows/",
+		"PreferWinget": true,
 		"WingetId": "cURL.cURL",
 		"GitHubId": "curl/curl"
 	},
@@ -327,7 +328,7 @@
 	},
 	{
 		"Name": "DockerDesktop",
-		"Version": "4.64.0.221278",
+		"Version": "0.0.0",
 		"Notes": "https://docs.docker.com/docker-for-windows/install/\nhttps://desktop.docker.com/win/main/amd64/appcast.xml\nhttps://desktop.docker.com/win/main/amd64/{{ver_rev}}/checksums.txt",
 		"Type": "exe",
 		"UrlX8664": "https://desktop.docker.com/win/main/amd64/{{ver_rev}}/Docker%20Desktop%20Installer.exe",
@@ -337,6 +338,7 @@
 		"PostInstallMessage": "don't forget to disable the autorun and the service if you don't want those...",
 		"InstallerArguments": "install --quiet --unattended --accept-license",
 		"AppPage": "https://docs.docker.com/docker-for-windows/release-notes/",
+		"PreferWinget": true,
 		"WingetId": "Docker.DockerDesktop",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Docker Inc"
@@ -702,7 +704,7 @@
 	},
 	{
 		"Name": "git",
-		"Version": "2.53.0.2",
+		"Version": "0.0.0",
 		"Notes": "installer options: https://github.com/git-for-windows/git/wiki/Silent-or-Unattended-Installation\n    https://github.com/git-for-windows/git/wiki/Mapping-between-Git-Installer-GUI-Settings-And-Command-Line-Arguments",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/git-for-windows/git/releases/download/v{{ver_maj}}.{{ver_min}}.{{ver_bld}}.windows.2/Git-{{ver_maj}}.{{ver_min}}.{{ver_bld}}.2-64-bit.exe",
@@ -711,6 +713,7 @@
 		"HashArm64": "sha256:07f74afb072a95993d58fbcc3979f7e53ce0cfc10d574f484766c54f73e21d1b",
 		"InstallerArguments": "/SP- /o:EditorOption=CustomEditor /o:CustomEditorPath=\"%ProgramFiles%\\Notepad3\\Notepad3.exe\" /o:DefaultBranchOption=master /o:EnableSymlinks=Enabled",
 		"AppPage": "https://gitforwindows.org/",
+		"PreferWinget": true,
 		"WingetId": "Git.Git",
 		"GitHubId": "git-for-windows/git",
 		"AuthenticodeRequired": true,
@@ -754,13 +757,14 @@
 	},
 	{
 		"Name": "GitHubDesktop",
-		"Version": "3.5.6",
+		"Version": "0.0.0",
 		"Notes": "https://central.github.com/deployments/desktop/desktop/latest/win32\nrelease notes: https://desktop.github.com/release-notes/",
 		"Type": "exe",
 		"UrlX8664": "https://desktop.githubusercontent.com/releases/3.5.6-a180a018/GitHubDesktopSetup-x64.exe",
 		"HashX8664": "md5:xlQRhFi0BF65KPxVVN3K/g==",
 		"InstallerArguments": "--silent",
 		"AppPage": "https://desktop.github.com/",
+		"PreferWinget": true,
 		"WingetId": "GitHub.GitHubDesktop",
 		"WingetScope": "user",
 		"AuthenticodeRequired": true,
