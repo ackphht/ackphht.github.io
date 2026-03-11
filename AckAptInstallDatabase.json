@@ -1630,13 +1630,14 @@
 	},
 	{
 		"Name": "qBittorrent",
-		"Version": "5.1.4",
+		"Version": "0.0.0",
 		"Notes": "github repo does not have any downloads",
 		"Type": "nsis",
 		"UrlX8664": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{version}}/qbittorrent_{{version}}_qt6_lt20_x64_setup.exe/download",
 		"HashX8664": "sha256:1b5a26b157fb37cdf9f414b8a260cf0ba60dc4002d449fd3584e043d43716de0",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.qbittorrent.org/download",
+		"PreferWinget": true,
 		"WingetId": "qBittorrent.qBittorrent.lt2",
 		"GitHubId": "qbittorrent/qBittorrent"
 	},
