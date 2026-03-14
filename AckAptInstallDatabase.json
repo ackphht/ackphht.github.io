@@ -271,7 +271,7 @@
 	},
 	{
 		"Name": "cpu-z",
-		"Version": "2.18",
+		"Version": "2.19",
 		"Type": "zip",
 		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_{{version}}-en.zip",
 		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
@@ -683,15 +683,15 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "3.0.8.2",
+		"Version": "3.2.0",
 		"Notes": "running list of v3.0.x hashes: https://download.gimp.org/gimp/v3.0/windows/SHA256SUMS",
 		"Type": "inno",
-		"UrlX8632": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.8-setup-2.exe",
-		"HashX8632": "sha256:3e4ff5845126a026e22302ab0aeecb0a79caff495f7675e254e1da4878cd3d72",
+		"UrlX8632": "https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.0-setup.exe",
+		"HashX8632": "sha256:6332ab8fdf9d1f229abd7aab18874d476ae31405e2fe75bf786b8fdc90b891a8",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
-		"WingetId": "GIMP.GIMP",
+		"WingetId": "GIMP.GIMP.3",
 		"WingetScope": "user",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Jernej Simončič"
