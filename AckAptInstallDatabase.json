@@ -905,10 +905,10 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.0.62",
+		"Version": "7.0.0.63",
 		"Notes": "https://www.idrive.com/downloads/version_win.js\nhttps://www.idrive.com/release-info",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/031126/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/031626/IDriveWinSetup.exe",
 		"InstallerArguments": "/SP- /SILENT /SUPPRESSMSGBOXES /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"AuthenticodeRequired": true,
@@ -1736,12 +1736,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.05",
+		"Version": "2026.06",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:2bfbea229de0202c65c4b04adf2cae6ba2790f0c894f93a88081abc36435562d",
-		"HashArm64": "sha256:1623cfae8aa44f6aaa5056aa513782eca0b02706c9a608045967e3c08f1da80c",
+		"HashX8664": "sha256:ed96918c885f25e7bdba357c7432981c268f3889d58def8a07964a8a51169b9f",
+		"HashArm64": "sha256:49708b97a2b73a78b184edf4bdd730660644e909a41c60d82fedd90189034e25",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"GitHubId": "sourcegit-scm/sourcegit"
 	},
