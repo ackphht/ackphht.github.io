@@ -2267,14 +2267,16 @@
 	},
 	{
 		"Name": "XnViewMP",
-		"Version": "1.10.4",
+		"Version": "0.0.0",
 		"Notes": "forum has changelog w/ hashes: https://newsgroup.xnview.com/viewforum.php?f=115",
 		"Type": "inno",
 		"UrlX8664": "https://download.xnview.com/old_versions/XnView_MP/XnView_MP-{{version}}-win-x64.exe",
 		"HashX8664": "sha256:01E20C8890F4A1E9F05998232E41BD2ABB97CCE0C27A3D72280DAD0C1D0303FD",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /DIR=\"%LocalAppData%\\Programs\\XnViewMP\" /NORESTART /LANG=en /COMPONENTS=-shell /TASKS=-desktopicon,-quicklaunchicon /NOCLOSEAPPLICATIONS",
 		"AppPage": "http://www.xnview.com/",
+		"PreferWinget": true,
 		"WingetId": "XnSoft.XnViewMP",
+		"WingetInstallerType": "inno",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "GOUGELET PIERRE-EMMANUEL"
 	},
