@@ -1580,10 +1580,10 @@
 	},
 	{
 		"Name": "Pandoc",
-		"Version": "3.9.0.1",
+		"Version": "3.9.0.2",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/jgm/pandoc/releases/download/{{version}}/pandoc-{{version}}-windows-x86_64.zip",
-		"HashX8664": "sha256:5877f28018af6bbc76238600b75bc0829b450e92b0daaae0ad4927696c9d2460",
+		"HashX8664": "sha256:c97542f2800f446e788d9f74237856d995421ad1bb3cc8324286840c5f272d3a",
 		"AppPage": "https://pandoc.org/",
 		"Notes": "if we switch to MSI installer, the args could be: ALLUSERS=2 APPLICATIONFOLDER=%LocalAppData%\\Programs\\Pandoc",
 		"WingetId": "JohnMacFarlane.Pandoc",
