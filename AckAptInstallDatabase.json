@@ -929,6 +929,15 @@
 		"WithElevation": true
 	},
 	{
+		"Name": "Helm",
+		"Version": "0.0.0",
+		"AppPage": "https://helm.sh/",
+		"PreferWinget": true,
+		"WingetId": "Helm.Helm",
+		"WingetInstallerType": "portable",
+		"GitHubId": "helm/helm"
+	},
+	{
 		"Name": "HWInfo",
 		"Version": "8.44",
 		"Type": "zip",
@@ -1138,6 +1147,16 @@
 		"WingetId": "AppByTroye.KoodoReader",
 		"WingetScope": "user",
 		"GitHubId": "koodo-reader/koodo-reader"
+	},
+	{
+		"Name": "kubectl",
+		"Version": "0.0.0",
+		"AppPage": "https://kubernetes.io/docs/reference/kubectl/",
+		"ReleaseNotes": "https://github.com/kubernetes/kubernetes/tree/master/CHANGELOG",
+		"PreferWinget": true,
+		"WingetId": "Kubernetes.kubectl",
+		"WingetInstallerType": "portable",
+		"GitHubId": "kubernetes/kubernetes"
 	},
 	{
 		"Name": "Lens",
