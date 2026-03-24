@@ -1810,10 +1810,13 @@
 	},
 	{
 		"Name": "ServiceBusExplorer",
-		"Version": "6.1.3",
+		"Version": "0.0.0",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/{{version}}/ServiceBusExplorer-{{version}}.zip",
 		"HashX8632": "sha256:1b36ae41a8c11acf3750ac031656c8cf63d0b85b547f716667675272695bc0ac",
+		"PreferWinget": true,
+		"WingetId": "paolosalvatori.ServiceBusExplorer",
+		"WingetInstallerType": "portable",
 		"GitHubId": "paolosalvatori/ServiceBusExplorer"
 	},
 	{
@@ -1986,12 +1989,14 @@
 	},
 	{
 		"Name": "SqlServerODBCDriver18",
-		"Version": "18.6.1.1",
+		"Version": "0.0.0",
 		"Type": "msi",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2345415",
 		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2345416",
 		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
 		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#download-for-windows",
+		"ReleaseNotes": "https://learn.microsoft.com/en-us/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows",
+		"PreferWinget": true,
 		"WingetId": "Microsoft.msodbcsql.18",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -2006,16 +2011,18 @@
 	},
 	{
 		"Name": "SqlServerOLEDBDriver19",
-		"Version": "19.4.1",
+		"Version": "0.0.0",
 		"Type": "msi",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2318101",
 		"UseX86OnArm": true,
 		"AppPage": "https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server",
-		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server"
+		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.SQLServer.OLEDBDriver"
 	},
 	{
 		"Name": "stellarium",
-		"Version": "25.4",
+		"Version": "0.0.0",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Stellarium/stellarium/releases/download/v{{version}}/stellarium-{{version}}-qt6-win64.exe",
 		"UrlArm64": "https://github.com/Stellarium/stellarium/releases/download/v{{version}}/stellarium-{{version}}-qt6-arm64.exe",
@@ -2023,7 +2030,9 @@
 		"HashArm64": "sha256:7a601ee438985ff474aceea612d52e74ac3930ec7feb15e2bfc5a7efbada60cb",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /LANG=en /TASKS=-desktopicon /DIR=\"%LocalAppData%\\Programs\\stellarium\"",
 		"AppPage": "http://stellarium.org/",
+		"PreferWinget": true,
 		"WingetId": "Stellarium.Stellarium",
+		"WingetScope": "user",
 		"GitHubId": "Stellarium/stellarium",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "SignPath Foundation"
