@@ -1227,7 +1227,7 @@
 	},
 	{
 		"Name": "LINQPad9",
-		"Version": "9.6.6.5942606",
+		"Version": "9.7.13.2777418",
 		"Type": "inno",
 		"UrlX8632": "https://cdn.linqpad.net/public/LINQPad9Setup.exe?cache={{version}}",
 		"UseX86OnArm": true,
@@ -1776,7 +1776,7 @@
 		"HashX8664": "sha256:a3afed673a4be75ad4554a56cc6ff4a866e5316aedbef566191f0a0622133da5",
 		"HashArm64": "sha256:d1fa4487381cac57a8a1a6e9f948e82d58a74b01e4147ad9097a0be479f542c5",
 		"ValidExitCodes": "0,1223",
-		"PreInstallMessage": "installer may prompt for elevation, but just decline it to install to user profile; and make sure to select options to uninstall old versions to properly clean things up",
+		"PreInstallMessage": "(1) installer may prompt for elevation, but just decline it to install to user profile; and make sure to select options to uninstall old versions to properly clean things up\n\n(2) their winget configuraiton is stupid: it may open two windows at once, one to uninstall and one to install (even though their installer already handles uninstalling previous versions better)",
 		"InstallerArguments": "/CONFIG=%ACKAPT_DOWNLOADFOLDER%\\opts.cfg /D=%LOCALAPPDATA%\\Programs\\JetBrains\\Rider",
 		"AppPage": "https://www.jetbrains.com/rider/",
 		"ReleaseNotes": "https://www.jetbrains.com/rider/whatsnew/",
@@ -1834,12 +1834,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.06",
+		"Version": "2026.07",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:ed96918c885f25e7bdba357c7432981c268f3889d58def8a07964a8a51169b9f",
-		"HashArm64": "sha256:49708b97a2b73a78b184edf4bdd730660644e909a41c60d82fedd90189034e25",
+		"HashX8664": "sha256:3f5c13526659749874c90aa20afc5a43e0768d85406135aae5f5426cb682806f",
+		"HashArm64": "sha256:6243397648561ba109fef4af0c4ec41f1f52848f9fb1eec54633139752c7d7a0",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
 		"GitHubId": "sourcegit-scm/sourcegit"
