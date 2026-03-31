@@ -5,23 +5,88 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 	<title>Bookmarks</title>
 	<meta name="robots" content="noindex, nofollow"/>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"/>
 	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<link rel="stylesheet" type="text/css" href="icons.css"/>
 	<script>
 		// set attribute to enable bootstrap v5.3's new dark/light modes:
 		(() => {
-			function setTheme() {
-				let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-				document.documentElement.setAttribute('data-bs-theme', theme);
+			// theme stuff leveraged/inspired from https://getbootstrap.com/docs/5.3/customize/color-modes/#javascript
+			'use strict'
+
+			const getStoredTheme = () => localStorage.getItem('theme');
+			const setStoredTheme = theme => localStorage.setItem('theme', theme);
+
+			const getPreferredTheme = () => {
+				const storedTheme = getStoredTheme();
+				if (storedTheme) {
+					return storedTheme;
+				}
+
+				return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 			}
 
-			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-				setTheme();
-			});
+			const setTheme = theme => {
+				if (theme === 'auto') {
+					document.documentElement.setAttribute('data-bs-theme', (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+				} else {
+					document.documentElement.setAttribute('data-bs-theme', theme);
+				}
+			};
 
-			setTheme();
+			setTheme(getPreferredTheme());
+
+			const calcNextTheme = (currTheme) => {
+				switch (currTheme) {
+					case "light":
+						return "auto";
+					case "dark":
+						return "light";
+					default:
+						return "dark";
+				}
+			};
+
+			const setToggler = (togglerElement, theme) => {
+				togglerElement.setAttribute('data-theme-value', theme);
+				const themeIcon = togglerElement.querySelector('svg use');
+				switch (theme) {
+					case "light":
+						togglerElement.title = 'Theme: Light';
+						themeIcon.setAttribute('href', '#theme-light');
+						break;
+					case "dark":
+						togglerElement.title = 'Theme: Dark';
+						themeIcon.setAttribute('href', '#theme-dark');
+						break;
+					default:
+						togglerElement.title = 'Theme: Auto';
+						themeIcon.setAttribute('href', '#theme-auto');
+						break;
+				}
+			};
+
+			window.matchMedia('(prefers-color-scheme: dark)')
+				.addEventListener('change', () => {
+					const storedTheme = getStoredTheme();
+					if (storedTheme !== 'light' && storedTheme !== 'dark') {
+						setTheme(getPreferredTheme());
+					}
+				});
+
+			window.addEventListener('DOMContentLoaded', () => {
+				const themeToggler = document.querySelector('#bd-theme-toggler');
+				setToggler(themeToggler, getStoredTheme() ?? 'auto');
+				setTheme(getPreferredTheme());
+
+				themeToggler.addEventListener('click', () => {
+					const themeToggler = document.querySelector('#bd-theme-toggler');
+					const newTheme = calcNextTheme(themeToggler.getAttribute('data-theme-value'));
+					setToggler(themeToggler, newTheme);
+					setTheme(newTheme);
+					setStoredTheme(newTheme);
+				});
+			});
 		})();
 	</script>
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -38,6 +103,24 @@
 						<div class="link"><a class="url icon icon-duckduckgo" href="https://www.duckduckgo.com" rel="noreferrer" target="_blank">DuckDuckGo</a></div>
 						<div class="link"><a class="url icon icon-google" href="https://www.google.com" rel="noreferrer" target="_blank">Google</a></div>
 						<div class="link"><a class="url icon icon-wikipedia" href="https://en.wikipedia.org/wiki/Main_Page" rel="noreferrer" target="_blank">Wikipedia</a></div>
+						<!-- leveraged/inspired from https://getbootstrap.com/docs/5.3/customize/color-modes/#javascript -->
+						<div class="link">
+							<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+								<symbol id="theme-auto" viewBox="0 0 16 16">	<!-- circle-half -->
+									<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+								</symbol>
+								<symbol id="theme-dark" viewBox="0 0 16 16">	<!-- moon-stars-fill -->
+									<path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+									<path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+								</symbol>
+								<symbol id="theme-light" viewBox="0 0 16 16">	<!-- sun-fill -->
+									<path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+								</symbol>
+							</svg>
+							<a id="bd-theme-toggler" class="url" href="#" title="Theme: Auto" data-theme-value="auto">
+								<svg class="bi my-1" style="fill: var(--ack-text-color); height: 1em; width: 1em;"><use href="#theme-auto"></use></svg>
+							</a>
+						</div>
 					</li>
 				</ul>
 			</section>
@@ -65,10 +148,10 @@
 									</li>
 									<li>
 										<div class="link"><a class="url icon icon-drudge" href="https://www.drudgereport.com" rel="noreferrer" target="_blank">Drudge Report</a></d>
-										<div class="link"><a class="url icon icon-googlenews" href="https://news.google.com" rel="noreferrer" target="_blank">Google News</a></div>
-										<div class="link"><a class="url icon icon-bing" href="https://www.bing.com/news" rel="noreferrer" target="_blank">Bing News</a></div>
-										<div class="link"><a class="url icon icon-msn" href="https://www.msn.com/" rel="noreferrer" target="_blank">MSN</a></div>
-										<!--<div class="link"><a class="url icon icon-news360" href="http://news360.com/" rel="noreferrer" target="_blank">News360</a></div>-->
+											<div class="link"><a class="url icon icon-googlenews" href="https://news.google.com" rel="noreferrer" target="_blank">Google News</a></div>
+											<div class="link"><a class="url icon icon-bing" href="https://www.bing.com/news" rel="noreferrer" target="_blank">Bing News</a></div>
+											<div class="link"><a class="url icon icon-msn" href="https://www.msn.com/" rel="noreferrer" target="_blank">MSN</a></div>
+											<!--<div class="link"><a class="url icon icon-news360" href="http://news360.com/" rel="noreferrer" target="_blank">News360</a></div>-->
 									</li>
 									<li>
 										<div class="link"><a class="url icon icon-cnn" href="https://www.cnn.com" rel="noreferrer" target="_blank">CNN</a></div>
@@ -289,14 +372,14 @@
 						</div>
 					</div>
 				</div>
-<!--
+				<!--
 				<div class="tab-pane" id="workTab" role="tabpanel" aria-labelledby="nav-workTab">
 					<ul>
 						<li>
 						</li>
 					</ul>
 				</div>
--->
+				-->
 				<div class="tab-pane" id="entertainmentTab" role="tabpanel" aria-labelledby="nav-entertainmentTab">
 					<ul>
 						<li>

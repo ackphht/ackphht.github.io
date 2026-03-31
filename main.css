@@ -1,7 +1,7 @@
 /*
 html, body { position:relative; height:100%; }
 */
-:root {
+:root, [data-bs-theme=light] {
 	--ack-link-color: #225780;
 	--ack-link-color-hover: #225780;
 	--ack-tab-border-color:#aaaaaa;
@@ -12,17 +12,16 @@ html, body { position:relative; height:100%; }
 	--ack-active-tab-text-color:#495057;
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--ack-link-color: #5395e8;
-		--ack-link-color-hover: #78b9f5;
-		--ack-text-color:rgb(204,204,204);
-		--ack-active-tab-text-color:rgb(160,160,192);
-		--ack-tab-background-color:rgb(48,44,51);
-		--ack-inactive-tab-background-color:rgb(52,48,56);
-		--ack-background-color:rgb(55,51,58);
-		--ack-tab-border-color:rgb(67,62,71);
-	}
+[data-bs-theme=dark] {
+	color-scheme: dark;
+	--ack-link-color: #5395e8;
+	--ack-link-color-hover: #78b9f5;
+	--ack-text-color:rgb(204,204,204);
+	--ack-active-tab-text-color:rgb(160,160,192);
+	--ack-tab-background-color:rgb(48,44,51);
+	--ack-inactive-tab-background-color:rgb(52,48,56);
+	--ack-background-color:rgb(55,51,58);
+	--ack-tab-border-color:rgb(67,62,71);
 }
 
 body {
