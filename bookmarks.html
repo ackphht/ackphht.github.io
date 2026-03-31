@@ -14,6 +14,12 @@
 			// theme stuff leveraged/inspired from https://getbootstrap.com/docs/5.3/customize/color-modes/#javascript
 			'use strict'
 
+			const themeMap = {
+				"light" : { title: 'Theme: Light', iconId: '#theme-light', nextTheme: 'auto', },
+				"dark" : { title: 'Theme: Dark', iconId: '#theme-dark', nextTheme: 'light', },
+				"auto" : { title: 'Theme: Auto', iconId: '#theme-auto', nextTheme: 'dark', },
+			};
+
 			const getStoredTheme = () => localStorage.getItem('theme');
 			const setStoredTheme = theme => localStorage.setItem('theme', theme);
 
@@ -36,34 +42,11 @@
 
 			setTheme(getPreferredTheme());
 
-			const calcNextTheme = (currTheme) => {
-				switch (currTheme) {
-					case "light":
-						return "auto";
-					case "dark":
-						return "light";
-					default:
-						return "dark";
-				}
-			};
-
 			const setToggler = (togglerElement, theme) => {
 				togglerElement.setAttribute('data-theme-value', theme);
 				const themeIcon = togglerElement.querySelector('svg use');
-				switch (theme) {
-					case "light":
-						togglerElement.title = 'Theme: Light';
-						themeIcon.setAttribute('href', '#theme-light');
-						break;
-					case "dark":
-						togglerElement.title = 'Theme: Dark';
-						themeIcon.setAttribute('href', '#theme-dark');
-						break;
-					default:
-						togglerElement.title = 'Theme: Auto';
-						themeIcon.setAttribute('href', '#theme-auto');
-						break;
-				}
+				togglerElement.title = themeMap[theme].title;
+				themeIcon.setAttribute('href', themeMap[theme].iconId);
 			};
 
 			window.matchMedia('(prefers-color-scheme: dark)')
@@ -81,7 +64,7 @@
 
 				themeToggler.addEventListener('click', () => {
 					const themeToggler = document.querySelector('#bd-theme-toggler');
-					const newTheme = calcNextTheme(themeToggler.getAttribute('data-theme-value'));
+					const newTheme = themeMap[themeToggler.getAttribute('data-theme-value')].nextTheme;
 					setToggler(themeToggler, newTheme);
 					setTheme(newTheme);
 					setStoredTheme(newTheme);
