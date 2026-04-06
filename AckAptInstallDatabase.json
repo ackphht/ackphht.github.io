@@ -1123,10 +1123,10 @@
 	},
 	{
 		"Name": "KMyMoney",
-		"Version": "5.2.5421",
+		"Version": "5.2.5430",
 		"Type": "nsis",
 		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/{{ver_maj}}.{{ver_min}}/windows/kmymoney-{{ver_maj}}.{{ver_min}}-{{ver_bld}}-windows-cl-msvc2022-x86_64.exe",
-		"HashX8664": "sha256:8e6309a4f7152edc56ff79d477d43d49f42d6d08c6901f05410d2d783de03339",
+		"HashX8664": "sha256:e476137f2ab119b0e9ef85832b68998c09bed60135c10cb137b3cc6e2d3bf8ef",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
@@ -2177,11 +2177,13 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.10",
+		"Version": "1.1.11",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "sha256:c65e6bff33a376bd3fd3243eb9cdd923c07f7d051c934c7b6ad72f7bf6c80049",
+		"HashX8632": "sha256:1e56e02fc424c194fc4f33357cb949867854f386d67eaf9764f1c96264561493",
 		"AppPage": "https://www.ventoy.net/en/download.html",
+		"Notes": "winget does have it and it's a portable install, but it has \"ArchiveBinariesDependOnPath: true\", so it would add another folder to path, and ugh",
+		"WingetId": "Ventoy.Ventoy",
 		"GitHubId": "ventoy/Ventoy"
 	},
 	{
