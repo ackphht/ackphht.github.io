@@ -1411,11 +1411,12 @@
 	},
 	{
 		"Name": "Mp3tag",
-		"Version": "3.33.1",
+		"Version": "0.0.0",
 		"Type": "nsis",
 		"UrlX8664": "https://download.mp3tag.de/mp3tag-v{{ver_maj}}.{{ver_min}}.{{ver_bld}}-x64-setup.exe",
 		"AppPage": "https://www.mp3tag.de/en/",
 		"ReleaseNotes": "https://www.mp3tag.de/en/changelog.html",
+		"PreferWinget": true,
 		"WingetId": "FlorianHeidenreich.Mp3tag",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Florian Heidenreich"
