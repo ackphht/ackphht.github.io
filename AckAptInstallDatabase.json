@@ -1838,12 +1838,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.07",
+		"Version": "2026.08",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:3f5c13526659749874c90aa20afc5a43e0768d85406135aae5f5426cb682806f",
-		"HashArm64": "sha256:6243397648561ba109fef4af0c4ec41f1f52848f9fb1eec54633139752c7d7a0",
+		"HashX8664": "sha256:893f01578cae7652cb81b99baccace04538b509a6d77a6f4d97d2de18464bb27",
+		"HashArm64": "sha256:1368f10b10d18ba77e93451601f91fa32dcb5d6fc9c555c15f5d5a015fdbb2b7",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
 		"GitHubId": "sourcegit-scm/sourcegit"
