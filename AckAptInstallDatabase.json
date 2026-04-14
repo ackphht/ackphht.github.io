@@ -940,13 +940,14 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.44",
+		"Version": "8.46",
 		"Type": "zip",
 		"UrlX8632": "https://www.sac.sk/download/utildiag/hwi_{{ver_maj}}{{ver_min}}.zip",
 		"UseX86OnArm": true,
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.hwinfo.com/download/",
-		"ReleaseNotes": "https://www.hwinfo.com/version-history/"
+		"ReleaseNotes": "https://www.hwinfo.com/version-history/",
+		"WingetId": "REALiX.HWiNFO"
 	},
 	{
 		"Name": "iDrive",
