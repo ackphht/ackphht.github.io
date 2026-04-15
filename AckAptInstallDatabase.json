@@ -1749,11 +1749,12 @@
 	},
 	{
 		"Name": "QuickLook",
-		"Version": "0.0.0",
+		"Version": "4.5.0",
 		"Type": "wix",
+		"UrlX8632": "https://github.com/QL-Win/QuickLook/releases/download/{{ver}}/QuickLook-{{ver}}.msi",
+		"HashX8632": "sha256:130f601eab7c388025351312f949749adebc6429b1042bd2001ac32a17a2748c",
 		"InstallerArguments": "-passive -norestart",
-		"Notes": "plugins: https://github.com/QL-Win/QuickLook/wiki/Available-Plugins\nstores config data, user installed plugins in %APPDATA%\\pooi.moe\\QuickLook\\",
-		"PreferWinget": true,
+		"Notes": "is available in winget, but their configuration seems broken: no updates are ever detected (https://github.com/microsoft/winget-cli/issues/5654),\n    think in this case because QuickLook's ProductCode gets changed every time ??\nplugins: https://github.com/QL-Win/QuickLook/wiki/Available-Plugins\nstores config data, user installed plugins in %APPDATA%\\pooi.moe\\QuickLook\\",
 		"WingetId": "QL-Win.QuickLook",
 		"GitHubId": "QL-Win/QuickLook"
 	},
