@@ -2348,7 +2348,7 @@
 	},
 	{
 		"Name": "WinMerge",
-		"Version": "2.16.54.2",
+		"Version": "0.0.0",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/WinMerge/winmerge/releases/download/v{{version}}/WinMerge-{{version}}-x64-Setup.exe",
 		"UrlArm64": "https://github.com/WinMerge/winmerge/releases/download/v{{version}}/WinMerge-{{version}}-ARM64-Setup.exe",
@@ -2356,6 +2356,7 @@
 		"HashArm64": "sha256:6aa1754010fa2aceab348e934452665921864983dba5b36f93c1960af8f2ac00",
 		"InstallerArguments": "/sp- /silent /type=typical /tasks=shellextension,-modifypath,-desktopicon",
 		"AppPage": "http://winmerge.org/downloads/",
+		"PreferWinget": true,
 		"WingetId": "WinMerge.WinMerge",
 		"WingetScope": "machine",
 		"GitHubId": "WinMerge/winmerge",
