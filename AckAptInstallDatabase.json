@@ -776,7 +776,7 @@
 	},
 	{
 		"Name": "GitHubCli",
-		"Version": "2.90.0",
+		"Version": "0.0.0",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_amd64.zip",
 		"UrlArm64": "https://github.com/cli/cli/releases/download/v{{version}}/gh_{{version}}_windows_arm64.zip",
@@ -785,7 +785,9 @@
 		"AppPage": "https://cli.github.com/",
 		"ReleaseNotes": "https://github.com/cli/cli/releases/latest",
 		"Notes": "Docs: https://docs.github.com/github-cli/github-cli/\nManual: https://cli.github.com/manual/",
+		"PreferWinget": true,
 		"WingetId": "GitHub.cli",
+		"WingetInstallerType": "portable",
 		"GitHubId": "cli/cli"
 	},
 	{
