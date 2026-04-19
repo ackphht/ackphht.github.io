@@ -41,13 +41,15 @@
 	},
 	{
 		"Name": "AndroidStudio",
-		"Version": "2025.2.3.9",
+		"Version": "0.0.0",
 		"Type": "exe",
 		"UrlX8664": "https://redirector.gvt1.com/edgedl/android/studio/install/{{version}}/android-studio-{{version}}-windows.exe",
 		"HashX8664": "sha256:7ed9bf16ad849b478d13df3630a2010f29e7b01f64f6fd188a67f2820abe5fd7",
 		"ValidExitCodes": "0,1223",
 		"AppPage": "https://developer.android.com/studio/#android-studio-downloads",
-		"ReleaseNotes": "https://developer.android.com/studio/releases"
+		"ReleaseNotes": "https://developer.android.com/studio/releases",
+		"PreferWinget": true,
+		"WingetId": "Google.AndroidStudio"
 	},
 	{
 		"Name": "AttributeChanger",
@@ -595,7 +597,7 @@
 	},
 	{
 		"Name": "Fiddler4",
-		"Version": "5.0.20253.3311",
+		"Version": "0.0.0",
 		"Type": "nsis",
 		"UrlX8632": "https://downloads.getfiddler.com/fiddler-classic/FiddlerSetup.{{version}}-latest.exe",
 		"PreInstallMessage": "might want to disable network to block web page launch",
@@ -603,18 +605,20 @@
 		"AppPage": "https://www.telerik.com/fiddler/fiddler-classic",
 		"ReleaseNotes": "https://www.telerik.com/support/whats-new/fiddler/release-history",
 		"Notes": "redirector: https://api.getfiddler.com/fc/latest",
-		"WingetId": "Telerik.Fiddler",
+		"PreferWinget": true,
+		"WingetId": "Telerik.Fiddler.Classic",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Progress Software Corporation"
 	},
 	{
 		"Name": "FileMenuTools",
-		"Version": "8.6.0",
+		"Version": "0.0.0",
 		"Type": "exe",
 		"UrlX8632": "https://www.lopesoft.com/fmtools/FileMenuTools-setup.exe",
 		"HashX8632": "sha256:c59bdbd8c19d36c0b082a367cad8c7b4f9d696673328652c80a735409495952b",
 		"AppPage": "https://www.lopesoft.com/index.php/en/download/filemenu-tools",
 		"ReleaseNotes": "https://www.lopesoft.com/index.php/en/filemenutools-en/changelog",
+		"PreferWinget": true,
 		"WingetId": "LopeSoft.FileMenuTools",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "RUBEN LOPEZ HERNANDEZ"
@@ -730,6 +734,7 @@
 		"UrlX8632": "https://download.gimp.org/mirror/pub/gimp/help/windows/3.0/gimp-help-{{version}}-en-setup.exe",
 		"AppPage": "https://docs.gimp.org/download.html",
 		"Notes": "they recommend just using the online help; it will always be more up to date: https://docs.gimp.org/2.10/en/",
+		"WingetId": "GIMP.Help.3",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Jernej Simončič"
 	},
@@ -1066,6 +1071,7 @@
 		"HeadersToAdd": "Referer: https://www.irfanview.info/files/",
 		"AppPage": "https://www.irfanview.com/plugins.htm",
 		"Notes": "x64 page: https://www.irfanview.com/64bit.htm\narm64 page: https://www.irfanview.com/arm64.htm",
+		"WingetId": "IrfanSkiljan.IrfanView.PlugIns",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Irfan Skiljan",
 		"WithElevation": true
@@ -1100,7 +1106,7 @@
 	},
 	{
 		"Name": "KeePass2",
-		"Version": "2.61",
+		"Version": "0.0.0",
 		"Type": "inno",
 		"UrlX8632": "https://sourceforge.net/projects/keepass/files/KeePass%202.x/{{version}}/KeePass-{{version}}-Setup.exe/download",
 		"HashX8632": "sha256:0CAD96C498017546065B5885E501B4A104EE8304506126310FD825D01DCAB284",
@@ -1109,7 +1115,9 @@
 		"InstallerArguments": "/SILENT",
 		"HeadersToAdd": "User-Agent: WindowsPowerShell",
 		"AppPage": "http://keepass.info/download.html",
+		"PreferWinget": true,
 		"WingetId": "DominikReichl.KeePass",
+		"WingetInstallerType": "inno",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Dominik Reichl"
 	},
