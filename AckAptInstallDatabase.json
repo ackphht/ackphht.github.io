@@ -92,10 +92,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.23",
+		"Version": "2.0.24",
 		"Type": "exe",
 		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v{{version}}/AutoHotkey_{{version}}_setup.exe",
-		"HashX8632": "sha256:d7038e9ba08e9c63edcdb2e63552b434b87491b449d7082cf28a40cd4ece91af",
+		"HashX8632": "sha256:a945f745506cf93e41c1fca2006d1f2fe39e07355f37ca357f90f74cca8a61d4",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
@@ -2220,10 +2220,10 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.2.6.172322",
+		"Version": "7.2.8.173730",
 		"Type": "exe",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/VirtualBox-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Win.exe",
-		"HashX8664": "sha256:5194a1695d1b4c07d129e2b1e2088adc3dd2f1f0f73699004375d6dfdfa60fd7",
+		"HashX8664": "sha256:ae5415cc968c0e8acddd99358c21d267a2c31ac4ff5182861aab9e6931001606",
 		"UseX86OnArm": true,
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
@@ -2236,10 +2236,10 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.2.6",
+		"Version": "7.2.8",
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
-		"HashX8664": "sha256:d46449366b23417a626439785f23f7eaf06bfbfd2cb030713e1abfa5b03d4205",
+		"HashX8664": "sha256:d7301435ee207ff96c5ad372939dc46d39e0f9db2bcce487cf1e8f739a2e845b",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
 		"WithElevation": true
 	},
