@@ -2421,6 +2421,14 @@
 		"WithElevation": true
 	},
 	{
+		"Name": "wsl",
+		"Version": "0.0.0",
+		"AppPage": "https://aka.ms/wsldocs",
+		"Notes": "dev docs: https://wsl.dev/",
+		"WingetId": "Microsoft.WSL",
+		"GitHubId": "Microsoft/WSL"
+	},
+	{
 		"Name": "XnViewMP",
 		"Version": "0.0.0",
 		"Type": "inno",
