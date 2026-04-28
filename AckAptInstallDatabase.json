@@ -992,7 +992,6 @@
 		"HashX8664": "sha256:758c7abfa56324d7e732d478da9ae5ad08929e18849775fd842b2d6ea8a989c4",
 		"HashArm64": "sha256:5a3f719f8052459c3b8e77e1f5e4be41555f6b741573d6f84267debc228b2c2f",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
-		"PreferWinget": true,
 		"WingetId": "icsharpcode.ILSpy",
 		"GitHubId": "icsharpcode/ILSpy",
 		"AuthenticodeRequired": true,
