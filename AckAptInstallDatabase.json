@@ -2391,9 +2391,9 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "7.20",
+		"Version": "7.21",
 		"Type": "exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-720.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-721.exe",
 		"AppPage": "https://www.rarlab.com",
 		"ReleaseNotes": "https://www.rarlab.com/rarnew.htm",
 		"WingetId": "RARLab.WinRAR",
