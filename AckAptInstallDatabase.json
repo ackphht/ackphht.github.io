@@ -985,7 +985,7 @@
 	},
 	{
 		"Name": "ILSpy",
-		"Version": "10.0.1.8346",
+		"Version": "0.0.0",
 		"Type": "msi",
 		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v{{ver_maj}}.{{ver_min}}.{{ver_bld}}/ILSpy_Installer_{{ver}}-x64.msi",
 		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v{{ver_maj}}.{{ver_min}}.{{ver_bld}}/ILSpy_Installer_{{ver}}-arm64.msi",
@@ -993,7 +993,9 @@
 		"HashArm64": "sha256:5a3f719f8052459c3b8e77e1f5e4be41555f6b741573d6f84267debc228b2c2f",
 		"AppPage": "https://github.com/icsharpcode/ILSpy",
 		"Notes": "the winget configuration has a requirement for the .NET runtime, so it wants to install that, but i don't want to install that because i've already got it (with the SDKs)",
+		"PreferWinget": true,
 		"WingetId": "icsharpcode.ILSpy",
+		"WingetSkipDependencies": true,
 		"GitHubId": "icsharpcode/ILSpy",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Wille Christoph"
@@ -1821,6 +1823,7 @@
 		"PreferWinget": true,
 		"WingetId": "JetBrains.Rider",
 		"WingetScope": "user",
+		"WingetNoUpgrade": true,
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
