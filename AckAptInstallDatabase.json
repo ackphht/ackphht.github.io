@@ -2018,11 +2018,12 @@
 	},
 	{
 		"Name": "SqlServerODBCDriver17",
-		"Version": "17.10.6.1",
+		"Version": "0.0.0",
 		"Type": "msi",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2266337",
 		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
 		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#version-17",
+		"PreferWinget": true,
 		"WingetId": "Microsoft.msodbcsql.17",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
