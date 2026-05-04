@@ -92,10 +92,10 @@
 	},
 	{
 		"Name": "AutoHotkey",
-		"Version": "2.0.24",
+		"Version": "2.0.26",
 		"Type": "exe",
 		"UrlX8632": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v{{version}}/AutoHotkey_{{version}}_setup.exe",
-		"HashX8632": "sha256:a945f745506cf93e41c1fca2006d1f2fe39e07355f37ca357f90f74cca8a61d4",
+		"HashX8632": "sha256:2bf1b89b1047136490fc321d2fdc988b42dd86f693eea7872746ac6adf722bc3",
 		"PreInstallMessage": "about to install AutoHotkey: if it's running already, you'll need to stop it",
 		"PostInstallMessage": "done installing AutoHotkey: can restart it now",
 		"InstallerArguments": "/installto \"%LocalAppData%\\Programs\\AutoHotkey\" /silent",
@@ -1873,12 +1873,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.09",
+		"Version": "2026.10",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:2a9566a075faf5bc160ac3616ea8250bc99bc4ce8c2a34a0078ff61d48836b4b",
-		"HashArm64": "sha256:67f16e31dc3ced0829fcbb111fb9e57b357f9342b19750e45442d261db0c16b2",
+		"HashX8664": "sha256:8fc0e3b365a8e930aa561ffa11b7ac7416090106e1974119b9b22a945f0058d8",
+		"HashArm64": "sha256:059784f15996ba534ebfa4137b4a57f57889b9b78463086bd54da669c9bf19dd",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
 		"GitHubId": "sourcegit-scm/sourcegit"
