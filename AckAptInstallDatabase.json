@@ -1123,6 +1123,15 @@
 		"AuthenticodeSignedBy": "Oracle America, Inc."
 	},
 	{
+		"Name": "Kate",
+		"Version": "0.0.0",
+		"Type": "msix",
+		"AppPage": "https://kate-editor.org/",
+		"Notes": "source: https://invent.kde.org/utilities/kate",
+		"PreferWinget": true,
+		"WingetId": "KDE.Kate.Appx"
+	},
+	{
 		"Name": "KeePass2",
 		"Version": "0.0.0",
 		"Type": "inno",
