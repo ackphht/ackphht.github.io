@@ -1036,6 +1036,7 @@
 		"Notes": "really annoying site; redirectors, no easy direct download links\nrepo: https://gitlab.com/inkscape/inkscape",
 		"PreferWinget": true,
 		"WingetId": "Inkscape.Inkscape",
+		"WingetNoUpgrade": true,
 		"WingetInstallerType": "wix"
 	},
 	{
