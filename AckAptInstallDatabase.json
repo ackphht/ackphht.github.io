@@ -1031,12 +1031,12 @@
 	{
 		"Name": "Inkscape",
 		"Version": "0.0.0",
+		"PreInstallMessage": "Inkscape's installer requires an uninstall of previous versions for some stupid reason, so it may ask...",
 		"InstallerArguments": "-passive -norestart INSTALL_ROOT=\"%LocalAppData%\\Programs\\Inkscape\"",
 		"AppPage": "https://inkscape.org/release/",
 		"Notes": "really annoying site; redirectors, no easy direct download links\nrepo: https://gitlab.com/inkscape/inkscape",
 		"PreferWinget": true,
 		"WingetId": "Inkscape.Inkscape",
-		"WingetNoUpgrade": true,
 		"WingetInstallerType": "wix"
 	},
 	{
