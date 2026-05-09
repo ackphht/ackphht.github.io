@@ -2454,8 +2454,14 @@
 	{
 		"Name": "wsl",
 		"Version": "0.0.0",
+		"Type": "wix",
+		"UrlX8664": "https://github.com/microsoft/WSL/releases/download/{{ver}}/wsl.{{ver}}.0.x64.msi",
+		"UrlArm64": "https://github.com/microsoft/WSL/releases/download/2.7.3/wsl.{{ver}}.0.arm64.msi",
+		"HashX8664": "sha256:64d8c096738ab72e74e11c4d4afb1ae425627f71cc651734db1f887c82c07dfe",
+		"HashArm64": "sha256:4742f5639bdd112e9d55807fbc945ff846404844440f12a4d6dd1f15681b8ec2",
 		"AppPage": "https://aka.ms/wsldocs",
 		"Notes": "dev docs: https://wsl.dev/",
+		"PreferWinget": true,
 		"WingetId": "Microsoft.WSL",
 		"GitHubId": "Microsoft/WSL"
 	},
