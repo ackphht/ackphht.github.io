@@ -1130,7 +1130,7 @@
 		"AppPage": "https://kate-editor.org/",
 		"Notes": "source: https://invent.kde.org/utilities/kate",
 		"PreferWinget": true,
-		"WingetId": "KDE.Kate.Appx"
+		"WingetId": "KDE.Kate.AppX"
 	},
 	{
 		"Name": "KeePass2",
