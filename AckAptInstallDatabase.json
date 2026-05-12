@@ -1269,7 +1269,7 @@
 	},
 	{
 		"Name": "LINQPad9",
-		"Version": "9.7.13.2777418",
+		"Version": "9.8.11.6582054",
 		"Type": "inno",
 		"UrlX8632": "https://cdn.linqpad.net/public/LINQPad9Setup.exe?cache={{version}}",
 		"UseX86OnArm": true,
