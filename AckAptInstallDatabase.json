@@ -1771,7 +1771,8 @@
 		"AppPage": "https://www.python.org/downloads/windows/",
 		"Notes": "documentation: https://docs.python.org/dev/using/windows.html#python-install-manager\nconfiguration: https://docs.python.org/dev/using/windows.html#configuration\nthere's also a winget id for \"Python.PythonInstallManager\", but that directly downloads the MSIX but using the store one is what's recommended (??)",
 		"PreferWinget": true,
-		"WingetId": "9NQ7512CXL7T",
+		"WingetId": "Python.PythonInstallManager",
+		"WingetInstallerType": "msix",
 		"GitHubId": "python/pymanager"
 	},
 	{
