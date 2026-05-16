@@ -1779,7 +1779,7 @@
 		"Name": "qBittorrent",
 		"Version": "5.2.0",
 		"Type": "nsis",
-		"UrlX8664": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{version}}/qbittorrent_{{version}}_qt6_lt20_x64_setup.exe/download",
+		"UrlX8664": "https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{{version}}/qbittorrent_{{version}}_lt20_x64_setup.exe/download",
 		"HashX8664": "sha256:84693c1adf622195f40ec5689e68be1961cdaf32587abefd15ecbaf4877b71e5",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.qbittorrent.org/download",
