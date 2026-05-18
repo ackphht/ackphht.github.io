@@ -294,7 +294,7 @@
 	},
 	{
 		"Name": "CrystalDiskInfo",
-		"Version": "9.8.0",
+		"Version": "9.9.0",
 		"Type": "zip",
 		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/{{version}}/CrystalDiskInfo{{ver_maj}}_{{ver_min}}_{{ver_bld}}.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
@@ -305,9 +305,9 @@
 	},
 	{
 		"Name": "CrystalDiskMark",
-		"Version": "9.0.1",
+		"Version": "9.0.2",
 		"Type": "zip",
-		"UrlX8632": "https://sourceforge.net/projects/crystaldiskmark/files/{{version}}/CrystalDiskMark9_0_1.zip/download",
+		"UrlX8632": "https://sourceforge.net/projects/crystaldiskmark/files/{{version}}/CrystalDiskMark{{ver_maj}}_{{ver_min}}_{{ver_bld}}.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskmark/",
 		"ReleaseNotes": "https://crystalmark.info/en/software/crystaldiskmark/crystaldiskmark-history/",
@@ -1883,12 +1883,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.10",
+		"Version": "2026.11",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:8fc0e3b365a8e930aa561ffa11b7ac7416090106e1974119b9b22a945f0058d8",
-		"HashArm64": "sha256:059784f15996ba534ebfa4137b4a57f57889b9b78463086bd54da669c9bf19dd",
+		"HashX8664": "sha256:538e097a2e526a4de5981b037f1748bd9dffc82986d31ed54d47b4df941a5d6f",
+		"HashArm64": "sha256:2cb96842f74d37ae8ca25651c3d416e960e839debea12c854f337d115f8d8e33",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
 		"GitHubId": "sourcegit-scm/sourcegit"
