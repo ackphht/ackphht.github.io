@@ -1641,6 +1641,13 @@
 		"AuthenticodeSignedBy": "John MacFarlane"
 	},
 	{
+		"Name": "PerfView",
+		"Version": "0.0.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.PerfView",
+		"GitHubId": "microsoft/perfview"
+	},
+	{
 		"Name": "PlexMediaPlayer",
 		"Version": "0.0.0",
 		"Type": "nsis",
