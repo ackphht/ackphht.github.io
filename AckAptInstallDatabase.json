@@ -2452,13 +2452,14 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.6.0",
+		"Version": "2.6.1",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release/v{{version}}/WinDirStat.7z",
-		"HashX8632": "sha256:97f6e6edf6a1d6da72d703b601851ee2bbfa8bc9d53d8ecaf2b232e73260b5ea",
+		"HashX8632": "sha256:14b6f19c3026e36418345fe78f70485e40e5099159f428cab732b69ceb509576",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
+		"Notes": "winget only has the msi installer, no portable (yet?)",
 		"WingetId": "WinDirStat.WinDirStat",
 		"GitHubId": "windirstat/windirstat"
 	},
