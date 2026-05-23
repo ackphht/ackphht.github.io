@@ -295,7 +295,7 @@
 	},
 	{
 		"Name": "CrystalDiskInfo",
-		"Version": "9.9.0",
+		"Version": "9.9.1",
 		"Type": "zip",
 		"UrlX8632": "https://sourceforge.net/projects/crystaldiskinfo/files/{{version}}/CrystalDiskInfo{{ver_maj}}_{{ver_min}}_{{ver_bld}}.zip/download",
 		"HeadersToAdd": "User-Agent: winget-cli",
@@ -1678,6 +1678,7 @@
 		"Type": "msix",
 		"UrlX8632": "https://github.com/PowerShell/PowerShell/releases/download/v{{ver}}/PowerShell-{{ver}}.msixbundle",
 		"HashX8632": "sha256:03822d8f406ba1dc01c44e43012a5c3d472678a4ecff5283dc94d9a382517569",
+		"PreInstallMessage": "make sure you close all the running instances of pwsh.exe that apps might have started: Terminal, VS Code, PowerToys, etc",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreInstallScript": "if ([bool](Get-Process -Name pwsh -ErrorAction Ignore)) {\n\t$context.WriteErrorMessage(\"You need to close all running instances of PowerShellCore before installation can continue.\")\n\treturn -100 # magic value that means we already showed the error\n}\nreturn 0",
 		"PreferWinget": true,
