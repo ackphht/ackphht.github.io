@@ -1443,10 +1443,10 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "98.0",
+		"Version": "99.0",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/{{version}}/mkvtoolnix-64-bit-{{version}}-setup.exe",
-		"HashX8664": "sha256:58eb4ef4d6f265bd5c3884f3fca317b833187c5f3703550a38899ba831ba5325",
+		"HashX8664": "sha256:30c450bea7e4d5fffd303dccdfe2df40dd13ead89ee909add19c01008d17f273",
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"ReleaseNotes": "https://mkvtoolnix.download/doc/NEWS.md",
