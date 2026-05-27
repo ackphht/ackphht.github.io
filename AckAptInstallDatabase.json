@@ -964,7 +964,7 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.46",
+		"Version": "8.48",
 		"Type": "zip",
 		"UrlX8632": "https://www.sac.sk/download/utildiag/hwi_{{ver_maj}}{{ver_min}}.zip",
 		"UseX86OnArm": true,
