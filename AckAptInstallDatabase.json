@@ -1894,12 +1894,12 @@
 	},
 	{
 		"Name": "SourceGit",
-		"Version": "2026.11",
+		"Version": "2026.12",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-x64.zip",
 		"UrlArm64": "https://github.com/sourcegit-scm/sourcegit/releases/download/v{{version}}/sourcegit_{{version}}.win-arm64.zip",
-		"HashX8664": "sha256:538e097a2e526a4de5981b037f1748bd9dffc82986d31ed54d47b4df941a5d6f",
-		"HashArm64": "sha256:2cb96842f74d37ae8ca25651c3d416e960e839debea12c854f337d115f8d8e33",
+		"HashX8664": "sha256:ad14c57ba4e0c2fea35865e330bd00d18e8d1b7b673d549a9f1b63e2da69ac3e",
+		"HashArm64": "sha256:82627b1ffff9902fba5abc949a81ffdd223db26d0676dafccccf6066d41d6821",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
 		"GitHubId": "sourcegit-scm/sourcegit"
@@ -2453,10 +2453,10 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.6.1",
+		"Version": "2.6.2",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release/v{{version}}/WinDirStat.7z",
-		"HashX8632": "sha256:14b6f19c3026e36418345fe78f70485e40e5099159f428cab732b69ceb509576",
+		"HashX8632": "sha256:1a1d45a821d5fec29e974585b48b650840bb012631e8e95cdcf57642b5aac357",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
