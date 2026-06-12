@@ -2315,7 +2315,8 @@
 		"WingetId": "IDRIX.VeraCrypt",
 		"GitHubId": "veracrypt/VeraCrypt",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "IDRIX SARL"
+		"AuthenticodeSignedBy": "IDRIX SARL",
+		"WithElevation": true
 	},
 	{
 		"Name": "VirtualBox",
