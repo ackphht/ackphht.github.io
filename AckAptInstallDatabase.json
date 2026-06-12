@@ -2306,10 +2306,10 @@
 	},
 	{
 		"Name": "VeraCrypt",
-		"Version": "1.26.24",
+		"Version": "1.26.29",
 		"Type": "exe",
 		"UrlX8664": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_{{version}}/VeraCrypt.Setup.{{version}}.exe",
-		"HashX8664": "08b80ab6a6c4eca08e18096c9468fe0bd2e33fc23142730e59177e6fcd7c902d",
+		"HashX8664": "sha256:dca9ddec7934fc0b1c25ac8984db7d504bfe9f37c21861ac91c67a98ecd3964b",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"WingetId": "IDRIX.VeraCrypt",
