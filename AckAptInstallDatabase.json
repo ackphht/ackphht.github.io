@@ -1492,7 +1492,7 @@
 		"Type": "download",
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
 		"HashX8632": "sha256:847ea35296dc7811ddd18878ab9a9f297b25177077abb61286aaafaa6a4f1189",
-		"PostInstallMessage": "pw for zip file is \"nirsoft9876$\" and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
+		"PostInstallMessage": "1) DO NOT copy the NirLauncher.cfg\n2) pw for the zip file is \"nirsoft9876$\"\n3) and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
 		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
 	},
