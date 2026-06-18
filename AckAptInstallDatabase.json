@@ -1998,13 +1998,13 @@
 	},
 	{
 		"Name": "SqlServer2025CU",
-		"Version": "17.0.4045.5",
+		"Version": "17.0.4055.5",
 		"Type": "exe",
-		"UrlX8664": "https://download.microsoft.com/download/69e0b8fc-1c50-41bd-a576-b9c66b2f302a/SQLServer2025-KB5084896-x64.exe",
-		"HashX8664": "sha256:1CD6A4CCBCEABFAE58377079ADD3BE96EBD1051B095FD1C02A9C270BC9A718DA",
+		"UrlX8664": "https://download.microsoft.com/download/69e0b8fc-1c50-41bd-a576-b9c66b2f302a/SQLServer2025-KB5093421-x64.exe",
+		"HashX8664": "sha256:1D91082726FD4331F7D48FF992BA3C7511599F881FBE3ABE431148AA9CE74441",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates#sql-server-2025",
-		"Notes": "Cumulative Update 5 [KB5084896]\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
+		"Notes": "Cumulative Update 6 [KB5093421]\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation",
 		"WithElevation": true
