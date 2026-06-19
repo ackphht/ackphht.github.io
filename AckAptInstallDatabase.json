@@ -2133,7 +2133,7 @@
 		"Notes": "https://codesector.com/teracopy",
 		"WingetId": "CodeSector.TeraCopy",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "CODE SECTOR PTY LTD"
+		"AuthenticodeSignedBy": "Code Sector Pty Ltd."
 	},
 	{
 		"Name": "TortoiseGit",
