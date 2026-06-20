@@ -617,7 +617,6 @@
 		"Version": "0.0.0",
 		"Type": "nsis",
 		"UrlX8632": "https://downloads.getfiddler.com/fiddler-classic/FiddlerSetup.{{version}}-latest.exe",
-		"PreInstallMessage": "might want to disable network to block web page launch",
 		"InstallerArguments": "/S",
 		"AppPage": "https://www.telerik.com/fiddler/fiddler-classic",
 		"ReleaseNotes": "https://www.telerik.com/support/whats-new/fiddler/release-history",
