@@ -2295,10 +2295,10 @@
 	},
 	{
 		"Name": "Ventoy",
-		"Version": "1.1.14",
+		"Version": "1.1.15",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/ventoy/Ventoy/releases/download/v{{version}}/ventoy-{{version}}-windows.zip",
-		"HashX8632": "sha256:3dc0baf85a183bb8fc72b49ea0646d259984c37b6a6dc61ce7087fe8ce187075",
+		"HashX8632": "sha256:d5af29281ba8b57d7c398f452d31a5d031f6dcb460bdb0a67b2115dfef372b76",
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"Notes": "winget does have it and it's a portable install, but it has \"ArchiveBinariesDependOnPath: true\", so it would add another folder to path, and ugh",
 		"WingetId": "Ventoy.Ventoy",
