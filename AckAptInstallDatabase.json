@@ -1842,6 +1842,16 @@
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
 	{
+		"Name": "Rufus",
+		"Version": "0.0.0",
+		"AppPage": "https://rufus.ie/en/",
+		"PreferWinget": true,
+		"WingetId": "Rufus.Rufus",
+		"GitHubId": "pbatard/rufus",
+		"AuthenticodeRequired": true,
+		"AuthenticodeSignedBy": "Akeo Consulting"
+	},
+	{
 		"Name": "RustRover",
 		"Version": "0.0.0",
 		"Type": "exe",
@@ -2131,9 +2141,10 @@
 		"Type": "exe",
 		"UrlX8632": "https://codesector.nyc3.cdn.digitaloceanspaces.com/teracopy{{ver}}.exe",
 		"HashX8632": "sha256:7C46F86AFE55C6AE81C92A079B7DF2C632CA7B46C914A84E7BDF39B5F5774BF9",
+		"InstallerArguments": "/exenoupdates /norestart",
 		"AppPage": "https://codesector.com/teracopy",
 		"ReleaseNotes": "https://blog.codesector.com/category/teracopy/",
-		"Notes": "update checks (also has hash): https://codesector.com/updates/teracopy.txt",
+		"Notes": "update checks (also has hash): https://codesector.com/updates/teracopy.txt\ninstaller can also use /passive but exe returns immediately without waiting for it to complete ???",
 		"WingetId": "CodeSector.TeraCopy",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Code Sector Pty Ltd."
@@ -2481,9 +2492,9 @@
 	},
 	{
 		"Name": "WinRAR",
-		"Version": "7.22",
+		"Version": "7.23",
 		"Type": "exe",
-		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-722.exe",
+		"UrlX8664": "https://www.rarlab.com/rar/winrar-x64-{{ver_maj}}{{ver_min}}.exe",
 		"AppPage": "https://www.rarlab.com",
 		"ReleaseNotes": "https://www.rarlab.com/rarnew.htm",
 		"WingetId": "RARLab.WinRAR",
