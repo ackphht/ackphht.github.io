@@ -2334,10 +2334,10 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.2.10.174163",
+		"Version": "7.2.12.174389",
 		"Type": "exe",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/VirtualBox-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Win.exe",
-		"HashX8664": "sha256:f4750f6f64c44df03ee2921de77e63c30e84e03a3aad07fd00f292265ff164c7",
+		"HashX8664": "sha256:5094f3d573fe2a511bfc7ae8982c2f6544ae9b5051048dc7a0e9985c74dcac4c",
 		"UseX86OnArm": true,
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
@@ -2350,10 +2350,10 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.2.10",
+		"Version": "7.2.12",
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
-		"HashX8664": "sha256:87f03161e5b6b1ecfa0024f795eefdb68abc46aa9689f67bb69e7db4ef9033dd",
+		"HashX8664": "sha256:ac461d67462e06a9e16e8b96623c1b1a8c692c7f78e3566584b47e2d2e533f76",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
 		"WithElevation": true
 	},
@@ -2462,10 +2462,10 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.6.2",
+		"Version": "2.7.0",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release/v{{version}}/WinDirStat.7z",
-		"HashX8632": "sha256:1a1d45a821d5fec29e974585b48b650840bb012631e8e95cdcf57642b5aac357",
+		"HashX8632": "sha256:08bc6b6e5ad4080e7648ea06c78826a68fbb3289f709803c19b177fb23e3e025",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
