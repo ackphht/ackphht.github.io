@@ -115,6 +115,7 @@
 		"Notes": "https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-windows.html\nspecific version installer download: https://awscli.amazonaws.com/AWSCLIV2-<version.number>.msi",
 		"PreferWinget": true,
 		"WingetId": "Amazon.AWSCLI",
+		"WingetInstallerType": "wix",
 		"GitHubId": "aws/aws-cli",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Amazon Web Services, Inc."
@@ -130,6 +131,7 @@
 		"ReleaseNotes": "https://learn.microsoft.com/en-us/cli/azure/release-notes-azure-cli",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.AzureCLI",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -161,6 +163,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.Azure.StorageExplorer",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"GitHubId": "microsoft/AzureStorageExplorer",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -190,6 +193,7 @@
 		"AppPage": "https://bitwarden.com/download/",
 		"PreferWinget": true,
 		"WingetId": "Bitwarden.CLI",
+		"WingetInstallerType": "portable",
 		"GitHubId": "Bitwarden/clients"
 	},
 	{
@@ -235,6 +239,7 @@
 		"ReleaseNotes": "https://calibre-ebook.com/whats-new",
 		"PreferWinget": true,
 		"WingetId": "calibre.calibre",
+		"WingetInstallerType": "wix",
 		"GitHubId": "kovidgoyal/calibre",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Kovid Goyal"
@@ -259,6 +264,7 @@
 		"AppPage": "https://chrisant996.github.io/clink/",
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
+		"WingetInstallerType": "nullsoft",
 		"GitHubId": "chrisant996/clink",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Christopher Antos",
@@ -267,7 +273,7 @@
 	{
 		"Name": "CLion",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/cpp/CLion-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/cpp/CLion-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:b5fd172c7bc5c74ca9d08a02b66f730b46b8ff6673ecc66377c2dac0564c4166",
@@ -281,6 +287,7 @@
 		"WingetId": "JetBrains.CLion",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -328,12 +335,13 @@
 		"Notes": "github release page doesn't seem to have windows downloads, so still need to go to real page\nhttps://curl.se/",
 		"PreferWinget": true,
 		"WingetId": "cURL.cURL",
+		"WingetInstallerType": "portable",
 		"GitHubId": "curl/curl"
 	},
 	{
 		"Name": "DataGrip",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/datagrip/datagrip-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/datagrip/datagrip-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:0508212fa3d6f3e13c45b1e994b4fbe76c6f017506aa61fba672c2974194d5e0",
@@ -348,6 +356,7 @@
 		"WingetId": "JetBrains.DataGrip",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -366,6 +375,7 @@
 		"Notes": "https://desktop.docker.com/win/main/amd64/appcast.xml\nhttps://desktop.docker.com/win/main/amd64/{{ver_rev}}/checksums.txt",
 		"PreferWinget": true,
 		"WingetId": "Docker.DockerDesktop",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Docker Inc"
 	},
@@ -480,7 +490,8 @@
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.8"
+		"WingetId": "Microsoft.DotNet.SDK.8",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreSdk9",
@@ -489,7 +500,8 @@
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.9"
+		"WingetId": "Microsoft.DotNet.SDK.9",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreSdk10",
@@ -498,7 +510,8 @@
 		"InstallerArguments": "-passive",
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.10"
+		"WingetId": "Microsoft.DotNet.SDK.10",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreDesktopRuntime8",
@@ -508,7 +521,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.8"
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.8",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreDesktopRuntime9",
@@ -518,7 +532,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.9"
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.9",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreDesktopRuntime10",
@@ -528,7 +543,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.10"
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.10",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreAspNetHostingBundle8",
@@ -538,7 +554,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.8"
+		"WingetId": "Microsoft.DotNet.HostingBundle.8",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreAspNetHostingBundle9",
@@ -548,7 +565,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.9"
+		"WingetId": "Microsoft.DotNet.HostingBundle.9",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "DotNetCoreAspNetHostingBundle10",
@@ -558,7 +576,8 @@
 		"AppPage": "https://dotnet.microsoft.com/download/dotnet/10.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.10"
+		"WingetId": "Microsoft.DotNet.HostingBundle.10",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "dotUltimate",
@@ -572,6 +591,7 @@
 		"PreferWinget": true,
 		"WingetId": "JetBrains.dotUltimate",
 		"WingetScope": "user",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -623,6 +643,7 @@
 		"Notes": "redirector: https://api.getfiddler.com/fc/latest",
 		"PreferWinget": true,
 		"WingetId": "Telerik.Fiddler.Classic",
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Progress Software Corporation"
 	},
@@ -636,6 +657,7 @@
 		"ReleaseNotes": "https://www.lopesoft.com/index.php/en/filemenutools-en/changelog",
 		"PreferWinget": true,
 		"WingetId": "LopeSoft.FileMenuTools",
+		"WingetInstallerType": "inno",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "RUBEN LOPEZ HERNANDEZ"
 	},
@@ -707,6 +729,7 @@
 		"ReleaseNotes": "https://www.foxit.com/pdf-reader/version-history.html",
 		"PreferWinget": true,
 		"WingetId": "Foxit.FoxitReader",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "FOXIT SOFTWARE INC."
 	},
@@ -722,6 +745,7 @@
 		"PreferWinget": true,
 		"WingetId": "SoftDeluxe.FreeDownloadManager",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Softdeluxe LLC"
 	},
@@ -765,6 +789,7 @@
 		"Notes": "installer options: https://github.com/git-for-windows/git/wiki/Silent-or-Unattended-Installation\n    https://github.com/git-for-windows/git/wiki/Mapping-between-Git-Installer-GUI-Settings-And-Command-Line-Arguments",
 		"PreferWinget": true,
 		"WingetId": "Git.Git",
+		"WingetInstallerType": "inno",
 		"GitHubId": "git-for-windows/git",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Johannes Schindelin"
@@ -781,6 +806,7 @@
 		"Notes": "https://gitforwindows.org/mingit.html",
 		"PreferWinget": true,
 		"WingetId": "Git.MinGit",
+		"WingetInstallerType": "portable",
 		"GitHubId": "git-for-windows/git"
 	},
 	{
@@ -822,6 +848,7 @@
 		"PreferWinget": true,
 		"WingetId": "GitHub.GitHubDesktop",
 		"WingetScope": "user",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "GitHub, Inc."
 	},
@@ -836,6 +863,7 @@
 		"PreferWinget": true,
 		"WingetId": "GnuCash.GnuCash",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"GitHubId": "Gnucash/gnucash"
 	},
 	{
@@ -852,6 +880,7 @@
 		"Notes": "github is just a mirror, but it has a wiki with lots of info\nreal repo is at https://go.googlesource.com/go",
 		"PreferWinget": true,
 		"WingetId": "GoLang.Go",
+		"WingetInstallerType": "wix",
 		"GitHubId": "golang/go",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
@@ -866,18 +895,21 @@
 		"AppPage": "https://enterprise.google.com/intl/en_version/chrome/chrome-browser/",
 		"PreferWinget": true,
 		"WingetId": "Google.Chrome",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
 	},
 	{
 		"Name": "GoogleDrive",
 		"Version": "0.0.0",
+		"Type": "exe",
 		"UrlX8664": "https://dl.google.com/drive-file-stream/GoogleDriveSetup.exe",
 		"InstallerArguments": "--silent --skip_launch_new --gsuite_shortcuts=false",
 		"AppPage": "https://www.google.com/drive",
 		"PreferWinget": true,
 		"WingetId": "Google.GoogleDrive",
 		"WingetSilent": true,
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
 	},
@@ -889,6 +921,7 @@
 		"PreferWinget": true,
 		"WingetId": "Google.QuickShare",
 		"WingetSilent": true,
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
 	},
@@ -903,6 +936,7 @@
 		"Notes": "release notes page has direct download links\nhttps://www.gpg4win.org/package-integrity.html (has signing cert info, hashes)",
 		"PreferWinget": true,
 		"WingetId": "GnuPG.Gpg4win",
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "g10 Code GmbH",
 		"WithElevation": true
@@ -985,7 +1019,7 @@
 	{
 		"Name": "ILSpy",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://github.com/icsharpcode/ILSpy/releases/download/v{{ver_maj}}.{{ver_min}}.{{ver_bld}}/ILSpy_Installer_{{ver}}-x64.msi",
 		"UrlArm64": "https://github.com/icsharpcode/ILSpy/releases/download/v{{ver_maj}}.{{ver_min}}.{{ver_bld}}/ILSpy_Installer_{{ver}}-arm64.msi",
 		"HashX8664": "sha256:758c7abfa56324d7e732d478da9ae5ad08929e18849775fd842b2d6ea8a989c4",
@@ -995,6 +1029,7 @@
 		"PreferWinget": true,
 		"WingetId": "icsharpcode.ILSpy",
 		"WingetSkipDependencies": true,
+		"WingetInstallerType": "wix",
 		"GitHubId": "icsharpcode/ILSpy",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Wille Christoph"
@@ -1009,12 +1044,13 @@
 		"Notes": "hashes: https://imagemagick.org/archive/binaries/digest.rdf",
 		"PreferWinget": true,
 		"WingetId": "ImageMagick.ImageMagick",
+		"WingetInstallerType": "inno",
 		"GitHubId": "ImageMagick/ImageMagick"
 	},
 	{
 		"Name": "ImHex",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-x86_64.msi",
 		"UrlArm64": "https://github.com/WerWolv/ImHex/releases/download/v{{version}}/imhex-{{version}}-Windows-arm64.msi",
 		"HashX8664": "sha256:f0be16446f546ade94e55c3626a67c831cc85c03965a9c12bacf0c076214851c",
@@ -1023,6 +1059,7 @@
 		"AppPage": "https://imhex.werwolv.net/",
 		"PreferWinget": true,
 		"WingetId": "WerWolv.ImHex",
+		"WingetInstallerType": "wix",
 		"GitHubId": "WerWolv/ImHex",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "SignPath Foundation"
@@ -1041,7 +1078,7 @@
 	{
 		"Name": "IntelliJIdea",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/idea/idea-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/idea/idea-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:5831b2f4450aa5ed4c363cd4bbd4d9fc31ae10e46503b3c553dbe8ebdf726888",
@@ -1056,6 +1093,7 @@
 		"WingetId": "JetBrains.IntelliJIDEA",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -1119,6 +1157,7 @@
 		"PreferWinget": true,
 		"WingetId": "Oracle.JavaRuntimeEnvironment",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Oracle America, Inc."
 	},
@@ -1129,7 +1168,8 @@
 		"AppPage": "https://kate-editor.org/",
 		"Notes": "source: https://invent.kde.org/utilities/kate",
 		"PreferWinget": true,
-		"WingetId": "KDE.Kate.AppX"
+		"WingetId": "KDE.Kate.AppX",
+		"WingetInstallerType": "msix"
 	},
 	{
 		"Name": "KeePass2",
@@ -1187,6 +1227,7 @@
 		"PreferWinget": true,
 		"WingetId": "AppByTroye.KoodoReader",
 		"WingetScope": "user",
+		"WingetInstallerType": "nullsoft",
 		"GitHubId": "koodo-reader/koodo-reader"
 	},
 	{
@@ -1223,6 +1264,7 @@
 		"Notes": "release notes: https://www.libreoffice.org/download/release-notes/\nx64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/x86_64/LibreOffice_{{version}}_Win_x86-64.msi.sha256\narm64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/aarch64/LibreOffice_{{version}}_Win_aarch64.msi.sha256",
 		"PreferWinget": true,
 		"WingetId": "TheDocumentFoundation.LibreOffice",
+		"WingetInstallerType": "msi",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "The Document Foundation"
 	},
@@ -1283,17 +1325,18 @@
 	{
 		"Name": "MariaDB",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://archive.mariadb.org/mariadb-{{version}}/winx64-packages/mariadb-{{version}}-winx64.msi",
 		"HashX8664": "sha256:54fd0114c13b6850cd1fcee6763b9d6c69c5653c187c23ed449281526377a308",
 		"AppPage": "https://downloads.mariadb.org/",
 		"PreferWinget": true,
-		"WingetId": "MariaDB.Server"
+		"WingetId": "MariaDB.Server",
+		"WingetInstallerType": "wix"
 	},
 	{
 		"Name": "Mercurial",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "inno",
 		"UrlX8664": "https://www.mercurial-scm.org/release/windows/Mercurial-{{version}}-x64.exe",
 		"AppPage": "https://www.mercurial-scm.org/downloads",
 		"PreferWinget": true,
@@ -1308,6 +1351,7 @@
 		"AppPage": "https://www.microsoftedge.com",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.Edge",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1350,6 +1394,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.OpenJDK.17",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "wix",
 		"GitHubId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -1368,6 +1413,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "wix",
 		"GitHubId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -1386,6 +1432,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.OpenJDK.25",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "wix",
 		"GitHubId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -1435,6 +1482,7 @@
 		"Notes": "docs: https://docs.mitmproxy.org/stable/",
 		"PreferWinget": true,
 		"WingetId": "mitmproxy.mitmproxy",
+		"WingetInstallerType": "exe",
 		"GitHubId": "mitmproxy/mitmproxy",
 		"WithElevation": true
 	},
@@ -1462,6 +1510,7 @@
 		"ReleaseNotes": "https://www.mp3tag.de/en/changelog.html",
 		"PreferWinget": true,
 		"WingetId": "FlorianHeidenreich.Mp3tag",
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Florian Heidenreich"
 	},
@@ -1474,6 +1523,7 @@
 		"InstallerArguments": "/SP- /SILENT /NORESTART /TYPE=custom /COMPONENTS=main,mpciconlib /TASKS=-desktopicon",
 		"PreferWinget": true,
 		"WingetId": "clsid2.mpc-hc",
+		"WingetInstallerType": "inno",
 		"GitHubId": "clsid2/mpc-hc"
 	},
 	{
@@ -1484,7 +1534,8 @@
 		"HashX8632": "c095cf221e8023fd8391f81eadce65fb",
 		"AppPage": "https://dev.mysql.com/downloads/mysql/",
 		"PreferWinget": true,
-		"WingetId": "Oracle.MySQL"
+		"WingetId": "Oracle.MySQL",
+		"WingetInstallerType": "wix"
 	},
 	{
 		"Name": "NirLauncher",
@@ -1558,6 +1609,7 @@
 		"PreferWinget": true,
 		"WingetId": "Obsidian.Obsidian",
 		"WingetScope": "user",
+		"WingetInstallerType": "nullsoft",
 		"GitHubId": "obsidianmd/obsidian-releases",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Dynalist Inc"
@@ -1575,6 +1627,7 @@
 		"PreferWinget": true,
 		"WingetId": "JanDeDobbeleer.OhMyPosh",
 		"WingetScope": "user",
+		"WingetInstallerType": "msi",
 		"GitHubId": "JanDeDobbeleer/oh-my-posh"
 	},
 	{
@@ -1637,6 +1690,7 @@
 		"Version": "0.0.0",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.PerfView",
+		"WingetInstallerType": "portable",
 		"GitHubId": "microsoft/perfview"
 	},
 	{
@@ -1652,6 +1706,7 @@
 		"Notes": "release notes: go to release notes page above, then scroll to the bottom, ffs\nhttps://plex.tv/api/downloads/6.json\ntheir stupid installer still autolaunches at the end even with the /S switch, so not using that for now until i find out how to kill that",
 		"PreferWinget": true,
 		"WingetId": "Plex.Plex",
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Plex, Inc."
 	},
@@ -1699,7 +1754,7 @@
 	{
 		"Name": "PyCharm",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/python/pycharm-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/python/pycharm-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:ba686ded9e1c64687e962ff2f452ffb256835660933bf2332f82106d363c610d",
@@ -1714,6 +1769,7 @@
 		"WingetId": "JetBrains.PyCharm",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -1730,6 +1786,7 @@
 		"PreferWinget": true,
 		"WingetId": "Python.Python.3.12",
 		"WingetScope": "user",
+		"WingetInstallerType": "burn",
 		"GitHubId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
@@ -1747,6 +1804,7 @@
 		"PreferWinget": true,
 		"WingetId": "Python.Python.3.13",
 		"WingetScope": "user",
+		"WingetInstallerType": "burn",
 		"GitHubId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
@@ -1764,6 +1822,7 @@
 		"PreferWinget": true,
 		"WingetId": "Python.Python.3.14",
 		"WingetScope": "user",
+		"WingetInstallerType": "burn",
 		"GitHubId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
@@ -1816,13 +1875,14 @@
 		"PreferWinget": true,
 		"WingetId": "JetBrains.ReSharper",
 		"WingetScope": "user",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
 	{
 		"Name": "Rider",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/rider/JetBrains.Rider-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/rider/JetBrains.Rider-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:a3afed673a4be75ad4554a56cc6ff4a866e5316aedbef566191f0a0622133da5",
@@ -1838,6 +1898,7 @@
 		"WingetId": "JetBrains.Rider",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -1847,6 +1908,7 @@
 		"AppPage": "https://rufus.ie/en/",
 		"PreferWinget": true,
 		"WingetId": "Rufus.Rufus",
+		"WingetInstallerType": "portable",
 		"GitHubId": "pbatard/rufus",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Akeo Consulting"
@@ -1854,7 +1916,7 @@
 	{
 		"Name": "RustRover",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/rustrover/RustRover-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/rustrover/RustRover-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:1cb255da0278bcc5d05831a21e37d3ae05ee89e450c518118088c85688949c8a",
@@ -1869,6 +1931,7 @@
 		"WingetId": "JetBrains.RustRover",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -1942,7 +2005,8 @@
 		"AppPage": "https://sqlite.org/download.html#win32",
 		"ReleaseNotes": "https://sqlite.org/news.html",
 		"PreferWinget": true,
-		"WingetId": "SQLite.SQLite"
+		"WingetId": "SQLite.SQLite",
+		"WingetInstallerType": "portable"
 	},
 	{
 		"Name": "SqlServer2019Express",
@@ -2045,19 +2109,20 @@
 	{
 		"Name": "SqlServerODBCDriver17",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2266337",
 		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
 		"AppPage": "https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server#version-17",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.msodbcsql.17",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
 		"Name": "SqlServerODBCDriver18",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2345415",
 		"UrlArm64": "https://go.microsoft.com/fwlink/?linkid=2345416",
 		"InstallerArguments": "-passive -norestart IAcceptMSODBCSQLLicenseTerms=YES",
@@ -2065,6 +2130,7 @@
 		"ReleaseNotes": "https://learn.microsoft.com/en-us/sql/connect/odbc/windows/release-notes-odbc-sql-server-windows",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.msodbcsql.18",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2079,13 +2145,14 @@
 	{
 		"Name": "SqlServerOLEDBDriver19",
 		"Version": "0.0.0",
-		"Type": "msi",
+		"Type": "wix",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2318101",
 		"UseX86OnArm": true,
 		"AppPage": "https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server",
 		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.SQLServer.OLEDBDriver"
+		"WingetId": "Microsoft.SQLServer.OLEDBDriver",
+		"WingetInstallerType": "wix"
 	},
 	{
 		"Name": "stellarium",
@@ -2100,6 +2167,7 @@
 		"PreferWinget": true,
 		"WingetId": "Stellarium.Stellarium",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"GitHubId": "Stellarium/stellarium",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "SignPath Foundation"
@@ -2160,6 +2228,7 @@
 		"Notes": "GitLab Repo: https://gitlab.com/tortoisegit/tortoisegit/\nGitHub Mirror: https://github.com/tortoisegit/tortoisegit/ (no releases though)",
 		"PreferWinget": true,
 		"WingetId": "TortoiseGit.TortoiseGit",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Sven Strickroth"
 	},
@@ -2169,7 +2238,8 @@
 		"InstallerArguments": "/Q",
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2005-vc-80-sp1-no-longer-supported",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2005.x86"
+		"WingetId": "Microsoft.VCRedist.2005.x86",
+		"WingetInstallerType": "exe"
 	},
 	{
 		"Name": "VCRedist2005_x64",
@@ -2182,6 +2252,7 @@
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2005-vc-80-sp1-no-longer-supported",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2005.x64",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2191,7 +2262,8 @@
 		"InstallerArguments": "/Q",
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2008-vc-90-sp1-no-longer-supported",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2008.x86"
+		"WingetId": "Microsoft.VCRedist.2008.x86",
+		"WingetInstallerType": "exe"
 	},
 	{
 		"Name": "VCRedist2008_x64",
@@ -2204,6 +2276,7 @@
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2008-vc-90-sp1-no-longer-supported",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2008.x64",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2213,7 +2286,8 @@
 		"InstallerArguments": "/q /norestart",
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2010-vc-100-sp1-no-longer-supported",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2010.x86"
+		"WingetId": "Microsoft.VCRedist.2010.x86",
+		"WingetInstallerType": "exe"
 	},
 	{
 		"Name": "VCRedist2010_x64",
@@ -2226,6 +2300,7 @@
 		"AppPage": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist#visual-studio-2010-vc-100-sp1-no-longer-supported",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2010.x64",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2235,7 +2310,8 @@
 		"InstallerArguments": "/quiet /norestart",
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2012-vc-110-update-4--no-longer-supported",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2012.x86"
+		"WingetId": "Microsoft.VCRedist.2012.x86",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "VCRedist2012_x64",
@@ -2249,6 +2325,7 @@
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2012-vc-110-update-4--no-longer-supported",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2012.x64",
+		"WingetInstallerType": "burn",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2258,7 +2335,8 @@
 		"InstallerArguments": "/quiet /norestart",
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2013-vc-120--no-longer-supported",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2013.x86"
+		"WingetId": "Microsoft.VCRedist.2013.x86",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "VCRedist2013_x64",
@@ -2272,6 +2350,7 @@
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#visual-studio-2013-vc-120--no-longer-supported",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2013.x64",
+		"WingetInstallerType": "burn",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2281,7 +2360,8 @@
 		"InstallerArguments": "/q /norestart",
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#latest-microsoft-visual-c-redistributable-version",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2015+.x86"
+		"WingetId": "Microsoft.VCRedist.2015+.x86",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "VCRedist2015+_x64",
@@ -2296,6 +2376,7 @@
 		"Notes": "supports VC 2015 thru 2026\nalt page: https://visualstudio.microsoft.com/downloads/#microsoft-visual-c-redistributable-for-visual-studio-2022\n=> according to the docs above, the x64 installer also includes the arm64, so if on arm64 system, that's probably the only needed ???",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VCRedist.2015+.x64",
+		"WingetInstallerType": "burn",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2305,7 +2386,8 @@
 		"InstallerArguments": "/q /norestart",
 		"AppPage": "https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist#latest-microsoft-visual-c-redistributable-version",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.VCRedist.2015+.arm64"
+		"WingetId": "Microsoft.VCRedist.2015+.arm64",
+		"WingetInstallerType": "burn"
 	},
 	{
 		"Name": "Ventoy",
@@ -2398,6 +2480,7 @@
 		"Notes": "https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2022",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudio.2022.Community",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2411,6 +2494,7 @@
 		"Notes": "https://learn.microsoft.com/visualstudio/install/install-visual-studio?view=vs-2026",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudio.Community",
+		"WingetInstallerType": "exe",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2425,6 +2509,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudioCode",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"GitHubId": "microsoft/vscode",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
@@ -2432,7 +2517,7 @@
 	{
 		"Name": "WebStorm",
 		"Version": "0.0.0",
-		"Type": "exe",
+		"Type": "nsis",
 		"UrlX8664": "https://download.jetbrains.com/webstorm/WebStorm-{{version}}.exe",
 		"UrlArm64": "https://download.jetbrains.com/webstorm/WebStorm-{{version}}-aarch64.exe",
 		"HashX8664": "sha256:9426798b80f8ba960ee96cc846bbcc54b593ea62563fdb503eb509548204f10a",
@@ -2447,6 +2532,7 @@
 		"WingetId": "JetBrains.WebStorm",
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
 	},
@@ -2458,7 +2544,8 @@
 		"AppPage": "https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/",
 		"Notes": "not on store anymore; downloads an \"appinstaller\" which in turn downloads an msix\nit autoupdates; can turn off in Windows Settings->Apps->Installed Apps->WinDbg, but meh",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.WinDbg"
+		"WingetId": "Microsoft.WinDbg",
+		"WingetInstallerType": "msix"
 	},
 	{
 		"Name": "WinDirStat",
@@ -2486,6 +2573,7 @@
 		"PreferWinget": true,
 		"WingetId": "WinMerge.WinMerge",
 		"WingetScope": "machine",
+		"WingetInstallerType": "inno",
 		"GitHubId": "WinMerge/winmerge",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Takashi Sawanaka"
@@ -2534,6 +2622,7 @@
 		"Notes": "https://gitlab.com/wireshark/wireshark/\nhttps://github.com/wireshark/wireshark/ [readonly mirror]\nhashes: https://www.wireshark.org/download/SIGNATURES-{{version}}.txt",
 		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark",
+		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Wireshark Foundation",
 		"WithElevation": true
@@ -2550,6 +2639,7 @@
 		"Notes": "dev docs: https://wsl.dev/",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.WSL",
+		"WingetInstallerType": "wix",
 		"GitHubId": "Microsoft/WSL"
 	},
 	{
