@@ -995,7 +995,7 @@
 	},
 	{
 		"Name": "HWInfo",
-		"Version": "8.48",
+		"Version": "8.50",
 		"Type": "zip",
 		"UrlX8632": "https://www.sac.sk/download/utildiag/hwi_{{ver_maj}}{{ver_min}}.zip",
 		"UseX86OnArm": true,
@@ -1840,10 +1840,10 @@
 	},
 	{
 		"Name": "qBittorrent",
-		"Version": "5.2.2",
+		"Version": "5.2.3",
 		"Type": "nsis",
 		"UrlX8664": "https://github.com/qbittorrent/qBittorrent/releases/download/release-{{ver}}/qbittorrent_{{ver}}_lt20_x64_setup.exe",
-		"HashX8664": "sha256:99e0168207514f2a0afe91262229e8348f511b5be50bd27e06601781f11c1e26",
+		"HashX8664": "sha256:b7e925cbb26581b9f2bfbcb469e899020917e01fb2f3982ec969c5a551befeec",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.qbittorrent.org/download",
 		"ReleaseNotes": "https://www.qbittorrent.org/news",
