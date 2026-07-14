@@ -45,8 +45,8 @@
 	</table>
 	<table class="dataTbl" id="text">
 		<thead>
-			<tr><th colspan="3">Relative Font Sizes</th></tr>
-			<tr><th></th><th>font-size</th><th>percent</th></tr>
+			<tr><th colspan="4">Relative Font Sizes</th></tr>
+			<tr><th></th><th>font-size</th><th>percent</th><th></th></tr>
 		</thead>
 		<tbody></tbody>
 	</table>
@@ -149,6 +149,7 @@
 		makeText(make('th', row), 'base');
 		makeText(make('td', row), bodyFontSizeTxt);
 		makeText(make('td', row), '—');
+		makeText(make('td', row), 'Lorem ipsum');
 		tbody.append(row);
 
 		let aDiv = make('div', containerDiv);
@@ -161,6 +162,9 @@
 			makeText(make('th', row), sz);
 			makeText(make('td', row), compVal);
 			makeText(make('td', row), getFontPercent(parseFloat(compVal), bodyFontSize) + '%');
+			let sampleSpan = make('span', make('td', row));
+			sampleSpan.style.fontSize = sz;
+			makeText(sampleSpan, 'Lorem ipsum');
 			tbody.append(row);
 		}
 	}
