@@ -2205,10 +2205,10 @@
 	},
 	{
 		"Name": "TeraCopy",
-		"Version": "4.0.0.37",
+		"Version": "4.0.3.2",
 		"Type": "exe",
 		"UrlX8632": "https://codesector.nyc3.cdn.digitaloceanspaces.com/teracopy{{ver}}.exe",
-		"HashX8632": "sha256:C908D86999C11E731BF07C7A715A35DCBA0893487D8DEAF86B38842C00942F09",
+		"HashX8632": "sha256:C1A7D43F85F109C663EB57B9A3BFD03F12F27F70D3472C52B5F6D77C537C9547",
 		"InstallerArguments": "/exenoupdates /norestart",
 		"AppPage": "https://codesector.com/teracopy",
 		"ReleaseNotes": "https://blog.codesector.com/category/teracopy/",
