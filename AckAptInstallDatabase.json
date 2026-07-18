@@ -1948,10 +1948,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.8.0",
+		"Version": "2.8.1",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
-		"HashX8664": "sha256:389a43bba319e355788a25936fb9b3f0ea190c4607a60f753fda254c7d07dd69",
+		"HashX8664": "sha256:9370ffd21c2c650201019ab6b8b8bc2c28e142689cb62cfe77344d82e62a03d7",
 		"PostInstallMessage": "don't forget to tweak the elements.py...",
 		"InstallerArguments": "/CURRENTUSER /NORESTART",
 		"AppPage": "http://sigil-ebook.com/",
@@ -2660,10 +2660,10 @@
 	},
 	{
 		"Name": "YTDownloader",
-		"Version": "3.20.3",
+		"Version": "3.22.0",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/aandrew-me/ytDownloader/releases/download/v{{ver}}/YTDownloader_Win.zip",
-		"HashX8664": "sha256:3ca90bbad3157cdeb61883a94617f1d683e284c9d08ffbdf3b98054fda1adeaf",
+		"HashX8664": "sha256:00347b522916c84f89e0cd558aba2dcf3836094a2a72632763779d6ef2942557",
 		"WingetId": "aandrew-me.ytDownloader",
 		"GitHubId": "aandrew-me/ytDownloader"
 	}
