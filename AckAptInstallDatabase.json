@@ -1953,7 +1953,7 @@
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
 		"HashX8664": "sha256:9370ffd21c2c650201019ab6b8b8bc2c28e142689cb62cfe77344d82e62a03d7",
 		"PostInstallMessage": "don't forget to tweak the elements.py...",
-		"InstallerArguments": "/CURRENTUSER /NORESTART",
+		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /NORESTART /COMPONENTS=-dicon",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
 		"WingetScope": "user",
