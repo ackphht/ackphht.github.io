@@ -1956,6 +1956,7 @@
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
 		"WingetScope": "user",
+		"WingetInstallerType": "inno",
 		"GitHubId": "Sigil-Ebook/Sigil"
 	},
 	{
@@ -2501,6 +2502,10 @@
 		"Name": "VSCode",
 		"Version": "0.0.0",
 		"Type": "inno",
+		"UrlX8664": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/VSCodeUserSetup-x64-{{version}}.exe",
+		"UrlArm64": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/VSCodeUserSetup-arm64-{{version}}.exe",
+		"HashX8664": "sha256:17658a1e714cd70e1bd7b3928938d9135b237a9c3456e7341d08efbcfe7fc0aa",
+		"HashArm64": "sha256:b94cfc31b07f9f3395079af38e64853182fdbb1b2f6566f383931705e5b88325",
 		"InstallerArguments": "/SILENT /TASKS=addcontextmenufiles,addcontextmenufolders,addtopath,associatewithfiles,-desktopicon",
 		"AppPage": "https://code.visualstudio.com/Download",
 		"ReleaseNotes": "https://code.visualstudio.com/updates",
