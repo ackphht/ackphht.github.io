@@ -1202,10 +1202,10 @@
 	},
 	{
 		"Name": "KMyMoney",
-		"Version": "5.2.5871",
+		"Version": "5.2.5910",
 		"Type": "nsis",
 		"UrlX8664": "https://cdn.kde.org/ci-builds/office/kmymoney/{{ver_maj}}.{{ver_min}}/windows/kmymoney-{{ver_maj}}.{{ver_min}}-{{ver_bld}}-windows-cl-msvc2022-x86_64.exe",
-		"HashX8664": "sha256:a0b1253bf33153c656791a96d61ad86b161248a780a1b466be2404ba153fa04f",
+		"HashX8664": "sha256:149646e54f8dcd255a6aa70e8d8b8dbedaa9cf31520ca160dc45d03d2dc55860",
 		"InstallerArguments": "/CURRENTUSER",
 		"AppPage": "https://kmymoney.org/",
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/ [https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/]\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
