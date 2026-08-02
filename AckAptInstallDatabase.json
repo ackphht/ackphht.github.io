@@ -2553,14 +2553,14 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.7.0",
+		"Version": "2.8.0",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release/v{{version}}/WinDirStat.7z",
-		"HashX8632": "sha256:08bc6b6e5ad4080e7648ea06c78826a68fbb3289f709803c19b177fb23e3e025",
+		"HashX8632": "sha256:59eca6f14bff69f12b90a2dac26ac7a57c245097e7e4b2e08db88b41cdc4bc81",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
-		"Notes": "winget only has the msi installer, no portable (yet?)",
+		"Notes": "they have an msix installer now, but ?? don't think we'd be able to use runass anymore ??\nwinget only has the msi installer, no portable or msix (yet?)",
 		"WingetId": "WinDirStat.WinDirStat",
 		"GitHubId": "windirstat/windirstat"
 	},
