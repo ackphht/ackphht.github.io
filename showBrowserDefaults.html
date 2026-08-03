@@ -149,7 +149,9 @@
 		makeText(make('th', row), 'base');
 		makeText(make('td', row), bodyFontSizeTxt);
 		makeText(make('td', row), '—');
-		makeText(make('td', row), 'Lorem ipsum');
+		let sampleSpan = make('span', make('td', row));
+		sampleSpan.style.fontSize = bodyFontSizeTxt;
+		makeText(sampleSpan, 'Lorem ipsum');
 		tbody.append(row);
 
 		let aDiv = make('div', containerDiv);
