@@ -1006,9 +1006,9 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.1.10",
+		"Version": "7.0.1.11",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/072826/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/081226/IDriveWinSetup.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"ReleaseNotes": "https://www.idrive.com/release-info",
@@ -1310,9 +1310,10 @@
 	},
 	{
 		"Name": "LINQPad9",
-		"Version": "9.9.10.5610943",
+		"Version": "9.10.18.2107430",
 		"Type": "inno",
 		"UrlX8632": "https://cdn.linqpad.net/public/LINQPad9Setup.exe?cache={{version}}",
+		"HashX8632": "sha256:214B5C1D57E59ABB1C9EB8AB585F4576EBF995CDECEE382485D1448FB2BA9380",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad9.aspx",
