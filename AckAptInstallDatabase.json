@@ -623,10 +623,10 @@
 	},
 	{
 		"Name": "ffmpeg",
-		"Version": "8.1.2",
+		"Version": "9.0.1",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/GyanD/codexffmpeg/releases/download/{{version}}/ffmpeg-{{version}}-full_build-shared.7z",
-		"HashX8664": "sha256:cba748035c21ce1431d0823c7a3a711f38616f89f87a265dceddf9b7f6749d2d",
+		"HashX8664": "sha256:cb4d5e8db6a3353bffdb2100d3eb4b76733457fa443215e236f57c99f9ffdca4",
 		"AppPage": "https://www.ffmpeg.org/",
 		"Notes": "https://www.gyan.dev/ffmpeg/\nwinget's is portable, but (1) i'm also using a symlink for Audacity so how would we do that? and (2) winget's has ArchiveBinariesDependOnPath so ugh",
 		"WingetId": "Gyan.FFmpeg.Shared",
