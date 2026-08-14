@@ -121,6 +121,14 @@
 		"AuthenticodeSignedBy": "Amazon Web Services, Inc."
 	},
 	{
+		"Name": "AZCopy",
+		"Version": "0.0.0",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.Azure.AZCopy.10",
+		"WingetInstallerType": "portable",
+		"GitHubId": "Azure/azure-storage-azcopy"
+	},
+	{
 		"Name": "AzureCLI",
 		"Version": "0.0.0",
 		"Type": "msi",
@@ -2074,13 +2082,13 @@
 	},
 	{
 		"Name": "SqlServer2025CU",
-		"Version": "17.0.4065.4",
+		"Version": "17.0.4075.5",
 		"Type": "exe",
-		"UrlX8664": "https://download.microsoft.com/download/69e0b8fc-1c50-41bd-a576-b9c66b2f302a/SQLServer2025-KB5096981-x64.exe",
-		"HashX8664": "sha256:5FB70451BEF95B4A392B718B90C7A05EA389B2C0B29E07A3DE9768F7F3B736B5",
+		"UrlX8664": "https://download.microsoft.com/download/10a21237-8b59-4fcd-b878-bfe8fcabdc7a/SQLServer2025-KB5104822-x64.exe",
+		"HashX8664": "sha256:0730D5A44A0B51454B635CA08C4174BB49BD6406CE8D154B3351B2A01D833932",
 		"ValidExitCodes": "0,3010",
 		"AppPage": "https://learn.microsoft.com/troubleshoot/sql/releases/download-and-install-latest-updates#sql-server-2025",
-		"Notes": "Cumulative Update 7 [KB5096981]\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
+		"Notes": "Cumulative Update 8 [KB5104822]\ncumulative updates vs GDRs: https://sqlblog.org/2022/06/24/cu-vs-gdr",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation",
 		"WithElevation": true
