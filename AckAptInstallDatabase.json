@@ -301,7 +301,7 @@
 	},
 	{
 		"Name": "cpu-z",
-		"Version": "2.20.1",
+		"Version": "2.21",
 		"Type": "zip",
 		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_{{version}}-en.zip",
 		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
@@ -367,6 +367,16 @@
 		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
+	},
+	{
+		"Name": "DesktopPlus",
+		"Version": "0.0.0",
+		"AppPage": "https://desktop-plus.org/",
+		"Notes": "fork of GitHubDesktop",
+		"PreferWinget": true,
+		"WingetId": "DesktopPlus.DesktopPlus",
+		"WingetInstallerType": "exe",
+		"GitHubId": "desktop-plus/desktop-plus"
 	},
 	{
 		"Name": "DockerDesktop",
@@ -1014,9 +1024,9 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.1.11",
+		"Version": "7.0.1.12",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/081226/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/081726/IDriveWinSetup.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"ReleaseNotes": "https://www.idrive.com/release-info",
@@ -2425,26 +2435,27 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.2.14.174565",
+		"Version": "7.2.16.174877",
 		"Type": "exe",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/VirtualBox-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Win.exe",
-		"HashX8664": "sha256:5fb111f32a15763d519bf9ef23e0111153521f641cde7460e5b8e895ca27a1d2",
+		"HashX8664": "sha256:9383a42bffa5c0ac4bc5f1c7d820478d84380d3a17b65aa9b43e6778cbdb615a",
 		"UseX86OnArm": true,
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
 		"ReleaseNotes": "https://www.virtualbox.org/wiki/Changelog",
 		"Notes": "hashes: https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/SHA256SUMS\n    or: https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/SHA256SUMS\ninstaller now checks for some python package and complains if it's not found\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"WingetId": "Oracle.VirtualBox",
+		"GitHubId": "VirtualBox/virtualbox",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Oracle America, Inc.",
 		"WithElevation": true
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.2.14",
+		"Version": "7.2.16",
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
-		"HashX8664": "sha256:ce4461de974f041435660751b382f987fece831028a8c98572d668eda2eee96d",
+		"HashX8664": "sha256:d1e268cfa05223fd651703043af09f39dfb90da259ce9ec093d9d9b022f19689",
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
 		"WithElevation": true
 	},
