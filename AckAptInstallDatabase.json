@@ -1328,10 +1328,10 @@
 	},
 	{
 		"Name": "LINQPad9",
-		"Version": "9.10.19.7331683",
+		"Version": "9.10.20.2555936",
 		"Type": "inno",
 		"UrlX8632": "https://cdn.linqpad.net/public/LINQPad9Setup.exe?cache={{version}}",
-		"HashX8632": "sha256:5E9B0F830EECB41CC686D1E00D77D64AFB935C863803B43E9E518E2A829A0DDD",
+		"HashX8632": "sha256:BDDBEAC9C780ECA4C6850ADDB8AC0B0409ABE11B7891565CF51A73839FF81559",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /TASKS=associate,-desktopicon,-lprunpath /SILENT",
 		"AppPage": "https://www.linqpad.net/LINQPad9.aspx",
