@@ -1693,10 +1693,10 @@
 	},
 	{
 		"Name": "Pandoc",
-		"Version": "3.10.2",
+		"Version": "3.11",
 		"Type": "zip",
 		"UrlX8664": "https://github.com/jgm/pandoc/releases/download/{{version}}/pandoc-{{version}}-windows-x86_64.zip",
-		"HashX8664": "sha256:52487faaa63f8cef5363d5a771097da001228d61c6f44f32ed41b27a98c0278c",
+		"HashX8664": "sha256:2ab72baf2399450e148ddf7a2a8689806c42e1bba71862b57e220fd9b8456d3d",
 		"AppPage": "https://pandoc.org/",
 		"Notes": "if we switch to MSI installer, the args could be: ALLUSERS=2 APPLICATIONFOLDER=%LocalAppData%\\Programs\\Pandoc\nand the winget package has a portable install, but for some reason, it wants to add it's folder to the path, even though it's just a single exe...",
 		"WingetId": "JohnMacFarlane.Pandoc",
