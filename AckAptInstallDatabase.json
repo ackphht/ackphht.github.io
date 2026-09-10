@@ -1278,6 +1278,7 @@
 		"UrlArm64": "https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/aarch64/LibreOffice_{{version}}_Win_aarch64.msi",
 		"HashX8664": "sha256:045e03473c5cc2f07bce9fe7709394d84236e744fe08c58407dd18d8eb002e10",
 		"HashArm64": "sha256:cd4ce87f791f16c7159ecc5d9087d2c02b0824ccb2bbae4aec8aafb1ce41da39",
+		"InstallerArguments": "-passive -norestart CREATEDESKTOPLINK=0 ISCHECKFORPRODUCTUPDATES=0 QUICKSTART=0",
 		"AppPage": "https://www.libreoffice.org/download/download-libreoffice/",
 		"Notes": "release notes: https://www.libreoffice.org/download/release-notes/\nx64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/x86_64/LibreOffice_{{version}}_Win_x86-64.msi.sha256\narm64 hash: https://download.documentfoundation.org/libreoffice/stable/{{version}}/win/aarch64/LibreOffice_{{version}}_Win_aarch64.msi.sha256",
 		"PreferWinget": true,
