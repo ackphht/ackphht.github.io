@@ -1024,9 +1024,9 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.1.14",
+		"Version": "7.0.1.15",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/090226/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/091126/IDriveWinSetup.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"ReleaseNotes": "https://www.idrive.com/release-info",
