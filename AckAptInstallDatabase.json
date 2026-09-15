@@ -2438,10 +2438,10 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.2.16.174877",
+		"Version": "7.2.18.175117",
 		"Type": "exe",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/VirtualBox-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Win.exe",
-		"HashX8664": "sha256:9383a42bffa5c0ac4bc5f1c7d820478d84380d3a17b65aa9b43e6778cbdb615a",
+		"HashX8664": "sha256:aae27200546a21b9b7dc11cfc42bd04802329a29f69ae0ada55682715a389d8d",
 		"UseX86OnArm": true,
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
@@ -2455,10 +2455,11 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.2.16",
+		"Version": "7.2.18",
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
-		"HashX8664": "sha256:d1e268cfa05223fd651703043af09f39dfb90da259ce9ec093d9d9b022f19689",
+		"HashX8664": "sha256:e06834239947db06cc077d464bbb15d6441917ca03573e518506344dc28b64b9",
+		"UseX86OnArm": true,
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
 		"WithElevation": true
 	},
