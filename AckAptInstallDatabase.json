@@ -1225,7 +1225,7 @@
 		"Notes": "gitlab(?) repo: https://invent.kde.org/office/kmymoney\nstable-ish downloads: https://cdn.kde.org/ci-builds/office/kmymoney/ [https://cdn.kde.org/ci-builds/office/kmymoney/5.2/windows/]\nstable release download: https://download.kde.org/stable/kmymoney/latest/",
 		"WingetId": "KDE.kmymoney",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "K Desktop Environment e. V.",
+		"AuthenticodeSignedBy": "K Desktop Environment e.V.",
 		"WithElevation": true
 	},
 	{
