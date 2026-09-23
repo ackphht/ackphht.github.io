@@ -1024,9 +1024,9 @@
 	},
 	{
 		"Name": "iDrive",
-		"Version": "7.0.1.16",
+		"Version": "7.0.1.17",
 		"Type": "inno",
-		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/091826/IDriveWinSetup.exe",
+		"UrlX8632": "https://static.idriveonlinebackup.com/downloads/092326/IDriveWinSetup.exe",
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
 		"AppPage": "https://www.idrive.com/online-backup-download",
 		"ReleaseNotes": "https://www.idrive.com/release-info",
@@ -2434,10 +2434,10 @@
 	},
 	{
 		"Name": "VirtualBox",
-		"Version": "7.2.18.175117",
+		"Version": "7.2.20.175154",
 		"Type": "exe",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/VirtualBox-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-{{ver_rev}}-Win.exe",
-		"HashX8664": "sha256:aae27200546a21b9b7dc11cfc42bd04802329a29f69ae0ada55682715a389d8d",
+		"HashX8664": "sha256:a81777d2b36380ce042a29e9c554cf032eb46a793f62e3cc82e7411e535c2c26",
 		"UseX86OnArm": true,
 		"InstallerArguments": "--msiparams VBOX_INSTALLDESKTOPSHORTCUT=0 VBOX_INSTALLQUICKLAUNCHSHORTCUT=0 VBOX_START=0",
 		"AppPage": "https://www.virtualbox.org/wiki/Downloads",
@@ -2451,10 +2451,10 @@
 	},
 	{
 		"Name": "VirtualBoxExtensions",
-		"Version": "7.2.18",
+		"Version": "7.2.20",
 		"Type": "script",
 		"UrlX8664": "https://download.virtualbox.org/virtualbox/{{version}}/Oracle_VirtualBox_Extension_Pack-{{version}}.vbox-extpack",
-		"HashX8664": "sha256:e06834239947db06cc077d464bbb15d6441917ca03573e518506344dc28b64b9",
+		"HashX8664": "sha256:0a050da993f2e3cf2e4e9cda2fa8667e44a2b25479b27abd41af6812c1e43591",
 		"UseX86OnArm": true,
 		"InstallScript": "$f = Join-Path $context.DownloadFolder (Split-Path $context.DownloadUrl -Leaf)\nCopy-Item -LiteralPath $context.DownloadedFile -Destination $f -Force\nif (Test-Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\') {\n    $vboxDir = (Get-ItemProperty -Path 'HKLM:\\SOFTWARE\\Oracle\\VirtualBox\\' -ErrorAction SilentlyContinue).InstallDir\n    $cmd = Join-Path $vboxDir 'VBoxManage.exe'\n}\nif ($cmd -and (Test-Path $cmd)) {\n    $context.WriteVerboseMessage(\"installing extensions: command `\"$cmd`\", file = `\"$f`\"\")\n    $blurb = 'y' | & \"$cmd\" extpack install --replace \"$f\" 2>&1\n    if ($LastExitCode -ne 0) { $context.WriteWarningMessage(\"Extension pack installation failed with exit code ${LastExitCode}:\\n${blurb}\") }\n    return $LastExitCode\n} else {\n    $context.WriteErrorMessage('could not find VBoxManage.exe; make sure VirtualBox is installed first')\n    return 2\n}",
 		"WithElevation": true
