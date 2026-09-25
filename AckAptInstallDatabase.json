@@ -961,10 +961,10 @@
 	},
 	{
 		"Name": "gpu-z",
-		"Version": "2.70.0",
+		"Version": "2.71.0",
 		"Type": "download",
 		"UrlX8664": "https://us1-dl.techpowerup.com/files/GPU-Z.{{version}}.exe",
-		"HashX8664": "sha256:6CB0EF29682452DE81A9576808881685161411A1FAD00938BA04131159979C29",
+		"HashX8664": "sha256:A2412D6720E091F65925622561C3F274A25ECD0B9FB0F50AB3B910918F01DEE9",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.techpowerup.com/download/techpowerup-gpu-z/",
 		"Notes": "direct URL like below only works with package manager looking UserAgents",
