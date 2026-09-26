@@ -53,10 +53,10 @@
 	},
 	{
 		"Name": "AttributeChanger",
-		"Version": "11.50.0",
+		"Version": "11.50.1",
 		"Type": "inno",
 		"UrlX8664": "https://pubfiles.petges.lu/ac-11_50.exe",
-		"HashX8664": "md5:02EB26A32166F8B351D30F3E0909B931",
+		"HashX8664": "md5:CC180CA4A6204B1BAD8562C79C805F4B",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
 		"HeadersToAdd": "Referer: https://www.petges.lu/download/",
