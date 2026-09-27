@@ -55,7 +55,7 @@
 		"Name": "AttributeChanger",
 		"Version": "11.50.1",
 		"Type": "inno",
-		"UrlX8664": "https://pubfiles.petges.lu/ac-11_50.exe",
+		"UrlX8664": "https://pubfiles.petges.lu/ac-11_50a.exe",
 		"HashX8664": "md5:CC180CA4A6204B1BAD8562C79C805F4B",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /SILENT /NORESTART",
