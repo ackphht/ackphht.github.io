@@ -71,7 +71,7 @@
 		"UrlArm64": "https://github.com/audacity/audacity/releases/download/Audacity-{{version}}/audacity-win-{{version}}-arm64.msi",
 		"HashX8664": "sha256:efb652bf04168f5d4893f28b7cefaaf5ef385d9251544540ac774e3bf54793a3",
 		"HashArm64": "sha256:b6606d9bcb1a49254f1966c7edc68d78f7eadd04eebe7d4676350f32ca675f49",
-		"InstallerArguments": "-norestart",
+		"InstallerArguments": "-passive -norestart",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"ReleaseNotes": "https://support.audacityteam.org/additional-resources/changelog",
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
