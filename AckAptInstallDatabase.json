@@ -1710,6 +1710,17 @@
 		"GitHubId": "microsoft/perfview"
 	},
 	{
+		"Name": "Picard",
+		"Version": "3.0",
+		"Type": "msix",
+		"UrlX8664": "https://github.com/metabrainz/picard/releases/download/release-{{ver}}/MusicBrainz-Picard-{{ver}}.msix",
+		"HashX8664": "sha256:7d5a091b7a2fe8a90c16d51599c09b97efb7546837ba3b2adcdf9278720f717c",
+		"AppPage": "https://picard.musicbrainz.org/",
+		"ReleaseNotes": "https://blog.metabrainz.org/tag/release/",
+		"WingetId": "MusicBrainz.Picard",
+		"GitHubId": "metabrainz/picard"
+	},
+	{
 		"Name": "PlexMediaPlayer",
 		"Version": "0.0.0",
 		"Type": "nsis",
