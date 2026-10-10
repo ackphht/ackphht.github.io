@@ -2235,7 +2235,7 @@
 		"Name": "TeraCopy",
 		"Version": "4.0.5",
 		"Type": "exe",
-		"UrlX8632": "https://codesector.nyc3.cdn.digitaloceanspaces.com/teracopy{{ver}}.exe",
+		"UrlX8632": "https://codesector.com/files/teracopy{{ver}}.exe",
 		"HashX8632": "sha256:22F050B51C80A344CBDAF368C7F6A9266EFCA4D95B5109D606466906A421FF7E",
 		"InstallerArguments": "/exenoupdates /norestart",
 		"AppPage": "https://codesector.com/teracopy",
