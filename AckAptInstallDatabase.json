@@ -2175,6 +2175,7 @@
 		"Type": "wix",
 		"UrlX8664": "https://go.microsoft.com/fwlink/?linkid=2318101",
 		"UseX86OnArm": true,
+		"InstallerArguments": "-passive -norestart IACCEPTMSOLEDBSQLLICENSETERMS=YES",
 		"AppPage": "https://learn.microsoft.com/sql/connect/oledb/download-oledb-driver-for-sql-server",
 		"Notes": "release notes: https://learn.microsoft.com/sql/connect/oledb/release-notes-for-oledb-driver-for-sql-server",
 		"PreferWinget": true,
