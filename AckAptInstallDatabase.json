@@ -1058,7 +1058,7 @@
 		"Type": "inno",
 		"InstallerArguments": "/SP- /SILENT /DIR=\"%LocalAppData%\\Programs\\ImageMagick\" /GROUP=\"ImageMagick\" /TASKS=install_ffmpeg,-desktop_icon,-modifypath,-associate_extensions,-legacy_support",
 		"AppPage": "https://imagemagick.org/script/download.php#windows",
-		"ReleaseNotes": "https://github.com/ImageMagick/Website/blob/main/ChangeLog.md",
+		"ReleaseNotes": "https://imagemagick.org/changelog",
 		"Notes": "hashes: https://imagemagick.org/archive/binaries/digest.rdf",
 		"PreferWinget": true,
 		"WingetId": "ImageMagick.ImageMagick",
@@ -1504,10 +1504,10 @@
 	},
 	{
 		"Name": "mkvtoolnix",
-		"Version": "102.0",
+		"Version": "103.0",
 		"Type": "nsis",
 		"UrlX8664": "https://mkvtoolnix.download/windows/releases/{{version}}/mkvtoolnix-64-bit-{{version}}-setup.exe",
-		"HashX8664": "sha256:aebd61c359457a05629362e46567d75a04ea0ae2797d1ea5af719e94f8fdfbd5",
+		"HashX8664": "sha256:3bb4b6efe464c8b852a9813f6be4093fa61bb79229ea755b3a70c5fa42489421",
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/windows/releases/",
 		"ReleaseNotes": "https://mkvtoolnix.download/doc/NEWS.md",
@@ -1938,6 +1938,16 @@
 		"GitHubId": "pbatard/rufus",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Akeo Consulting"
+	},
+	{
+		"Name": "Rust",
+		"Version": "0.0.0",
+		"Type": "exe",
+		"UrlX8664": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+		"UrlArm64": "https://static.rust-lang.org/rustup/dist/aarch64-pc-windows-msvc/rustup-init.exe",
+		"PreInstallMessage": "1) did you set the environment variables RUST_HOME and CARGO_HOME? If not, you probably want to, otherwise it installs everything to ~/, which ... ugh\n2) if you're ready, just hit enter and follow the instructions",
+		"AppPage": "https://rust-lang.org/tools/install/",
+		"WingetId": "Rustlang.Rustup"
 	},
 	{
 		"Name": "RustRover",
