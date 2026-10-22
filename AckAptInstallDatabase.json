@@ -12,7 +12,7 @@
 		"InstallerArguments": "/S",
 		"AppPage": "http://www.7-zip.org/",
 		"WingetId": "7zip.7zip",
-		"GitHubId": "ip7z/7zip",
+		"RepoId": "gh:ip7z/7zip",
 		"WithElevation": true
 	},
 	{
@@ -76,7 +76,7 @@
 		"ReleaseNotes": "https://support.audacityteam.org/additional-resources/changelog",
 		"Notes": "the page https://www.audacityteam.org/download/windows autodownloads latest version from github, but has the hash\nor this is probably better: https://www.audacityteam.org/download/online-safety-when-downloading/#validate",
 		"WingetId": "Audacity.Audacity",
-		"GitHubId": "audacity/audacity",
+		"RepoId": "gh:audacity/audacity",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "MuseCY SM Ltd"
 	},
@@ -102,7 +102,7 @@
 		"AppPage": "https://autohotkey.com/download/",
 		"WingetId": "AutoHotkey.AutoHotkey",
 		"WingetNoUpgrade": true,
-		"GitHubId": "AutoHotkey/AutoHotkey"
+		"RepoId": "gh:AutoHotkey/AutoHotkey"
 	},
 	{
 		"Name": "AWSCLI",
@@ -116,7 +116,7 @@
 		"PreferWinget": true,
 		"WingetId": "Amazon.AWSCLI",
 		"WingetInstallerType": "wix",
-		"GitHubId": "aws/aws-cli",
+		"RepoId": "gh:aws/aws-cli",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Amazon Web Services, Inc."
 	},
@@ -126,7 +126,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.Azure.AZCopy.10",
 		"WingetInstallerType": "portable",
-		"GitHubId": "Azure/azure-storage-azcopy"
+		"RepoId": "gh:Azure/azure-storage-azcopy"
 	},
 	{
 		"Name": "AzureCLI",
@@ -153,7 +153,7 @@
 		"AppPage": "https://docs.microsoft.com/en-us/sql/azure-data-studio/download",
 		"WingetId": "Microsoft.AzureDataStudio",
 		"WingetScope": "user",
-		"GitHubId": "Microsoft/azuredatastudio",
+		"RepoId": "gh:Microsoft/azuredatastudio",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -172,7 +172,7 @@
 		"WingetId": "Microsoft.Azure.StorageExplorer",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "microsoft/AzureStorageExplorer",
+		"RepoId": "gh:microsoft/AzureStorageExplorer",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -202,7 +202,7 @@
 		"PreferWinget": true,
 		"WingetId": "Bitwarden.CLI",
 		"WingetInstallerType": "portable",
-		"GitHubId": "Bitwarden/clients"
+		"RepoId": "gh:Bitwarden/clients"
 	},
 	{
 		"Name": "BitwardenDesktop",
@@ -219,7 +219,7 @@
 		"WingetScope": "user",
 		"WingetNoUpgrade": true,
 		"WingetInstallerType": "nullsoft",
-		"GitHubId": "bitwarden/clients",
+		"RepoId": "gh:bitwarden/clients",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Bitwarden Inc."
 	},
@@ -232,7 +232,7 @@
 		"UrlArm64": "https://laptop-updates.brave.com/latest/winarm64",
 		"AppPage": "https://brave.com/",
 		"WingetId": "Brave.Brave",
-		"GitHubId": "brave/brave-browser",
+		"RepoId": "gh:brave/brave-browser",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Brave Software, Inc."
 	},
@@ -248,7 +248,7 @@
 		"PreferWinget": true,
 		"WingetId": "calibre.calibre",
 		"WingetInstallerType": "wix",
-		"GitHubId": "kovidgoyal/calibre",
+		"RepoId": "gh:kovidgoyal/calibre",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Kovid Goyal"
 	},
@@ -260,7 +260,7 @@
 		"PreInstallMessage": "about to install CascadiaCode font; should probably close as many apps that might be using it as possible",
 		"Notes": "they recommend using the Variable fonts, i.e. the ones directly under the ttf folder, and not the 'static' or the .otf ones",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\n$fldr = (Get-Item -LiteralPath $context.DownloadedFile).BaseName\nif ($context.InstallFonts(@(Get-ChildItem \"${fldr}\\ttf\\*.ttf\" -ErrorAction Ignore))) { return 0 } else { return 1 }",
-		"GitHubId": "microsoft/cascadia-code"
+		"RepoId": "gh:microsoft/cascadia-code"
 	},
 	{
 		"Name": "clink",
@@ -273,7 +273,7 @@
 		"PreferWinget": true,
 		"WingetId": "chrisant996.Clink",
 		"WingetInstallerType": "nullsoft",
-		"GitHubId": "chrisant996/clink",
+		"RepoId": "gh:chrisant996/clink",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Christopher Antos",
 		"WithElevation": true
@@ -317,7 +317,7 @@
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskinfo/",
 		"ReleaseNotes": "https://crystalmark.info/en/software/crystaldiskinfo/crystaldiskinfo-history/",
 		"Notes": "github doesn't have any releases/downloads...",
-		"GitHubId": "hiyohiyo/CrystalDiskInfo"
+		"RepoId": "gh:hiyohiyo/CrystalDiskInfo"
 	},
 	{
 		"Name": "CrystalDiskMark",
@@ -328,7 +328,7 @@
 		"AppPage": "https://crystalmark.info/en/software/crystaldiskmark/",
 		"ReleaseNotes": "https://crystalmark.info/en/software/crystaldiskmark/crystaldiskmark-history/",
 		"Notes": "github doesn't have any downloads or releases...",
-		"GitHubId": "hiyohiyo/CrystalDiskMark"
+		"RepoId": "gh:hiyohiyo/CrystalDiskMark"
 	},
 	{
 		"Name": "curl",
@@ -344,7 +344,7 @@
 		"PreferWinget": true,
 		"WingetId": "cURL.cURL",
 		"WingetInstallerType": "portable",
-		"GitHubId": "curl/curl"
+		"RepoId": "gh:curl/curl"
 	},
 	{
 		"Name": "DataGrip",
@@ -376,7 +376,7 @@
 		"PreferWinget": true,
 		"WingetId": "DesktopPlus.DesktopPlus",
 		"WingetInstallerType": "exe",
-		"GitHubId": "desktop-plus/desktop-plus"
+		"RepoId": "gh:desktop-plus/desktop-plus"
 	},
 	{
 		"Name": "DockerDesktop",
@@ -648,7 +648,7 @@
 		"AppPage": "https://www.ffmpeg.org/",
 		"Notes": "https://www.gyan.dev/ffmpeg/\nwinget's is portable, but (1) i'm also using a symlink for Audacity so how would we do that? and (2) winget's has ArchiveBinariesDependOnPath so ugh",
 		"WingetId": "Gyan.FFmpeg.Shared",
-		"GitHubId": "GyanD/codexffmpeg"
+		"RepoId": "GyanD/codexffmpeg"
 	},
 	{
 		"Name": "Fiddler4",
@@ -698,7 +698,7 @@
 		"PreInstallMessage": "about to install FiraCode font; should probably close as many apps that might be using it as possible",
 		"Notes": "apparently we're supposed to use TTF now instead of OTF...",
 		"InstallScript": "$result = $context.ExtractArchive()\nif ($result -ne 0) { return $result }\nif ($context.InstallFonts(@(Get-ChildItem *.ttf -Recurse -ErrorAction Ignore))) { return 0 } else { return 1 }",
-		"GitHubId": "tonsky/FiraCode"
+		"RepoId": "tonsky/FiraCode"
 	},
 	{
 		"Name": "Firefox",
@@ -808,7 +808,7 @@
 		"PreferWinget": true,
 		"WingetId": "Git.Git",
 		"WingetInstallerType": "inno",
-		"GitHubId": "git-for-windows/git",
+		"RepoId": "git-for-windows/git",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Johannes Schindelin"
 	},
@@ -825,7 +825,7 @@
 		"PreferWinget": true,
 		"WingetId": "Git.MinGit",
 		"WingetInstallerType": "portable",
-		"GitHubId": "git-for-windows/git"
+		"RepoId": "git-for-windows/git"
 	},
 	{
 		"Name": "GitAhead",
@@ -835,7 +835,7 @@
 		"AppPage": "https://gitahead.github.io/gitahead.com/",
 		"Notes": "project is officially dead",
 		"WingetId": "GitAhead.GitAhead",
-		"GitHubId": "gitahead/gitahead"
+		"RepoId": "gitahead/gitahead"
 	},
 	{
 		"Name": "GitHubCli",
@@ -851,7 +851,7 @@
 		"PreferWinget": true,
 		"WingetId": "GitHub.cli",
 		"WingetInstallerType": "portable",
-		"GitHubId": "cli/cli"
+		"RepoId": "cli/cli"
 	},
 	{
 		"Name": "GitHubDesktop",
@@ -882,7 +882,7 @@
 		"WingetId": "GnuCash.GnuCash",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "Gnucash/gnucash"
+		"RepoId": "Gnucash/gnucash"
 	},
 	{
 		"Name": "golang",
@@ -899,7 +899,7 @@
 		"PreferWinget": true,
 		"WingetId": "GoLang.Go",
 		"WingetInstallerType": "wix",
-		"GitHubId": "golang/go",
+		"RepoId": "golang/go",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
 	},
@@ -983,7 +983,7 @@
 		"InstallerArguments": "/passive /norestart",
 		"AppPage": "https://gerardog.github.io/gsudo",
 		"WingetId": "gerardog.gsudo",
-		"GitHubId": "gerardog/gsudo",
+		"RepoId": "gerardog/gsudo",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Gerardo Grignoli"
 	},
@@ -997,7 +997,7 @@
 		"HashArm64": "sha256:fb69bafceb4e0ec208e3a7ea08eb1d119c49eb42e9954ad665cc75aa94d020b8",
 		"AppPage": "https://handbrake.fr/downloads.php",
 		"WingetId": "HandBrake.HandBrake",
-		"GitHubId": "HandBrake/HandBrake",
+		"RepoId": "HandBrake/HandBrake",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Scott Rae",
 		"WithElevation": true
@@ -1009,7 +1009,7 @@
 		"PreferWinget": true,
 		"WingetId": "Helm.Helm",
 		"WingetInstallerType": "portable",
-		"GitHubId": "helm/helm"
+		"RepoId": "helm/helm"
 	},
 	{
 		"Name": "HWInfo",
@@ -1048,7 +1048,7 @@
 		"WingetId": "icsharpcode.ILSpy",
 		"WingetSkipDependencies": true,
 		"WingetInstallerType": "wix",
-		"GitHubId": "icsharpcode/ILSpy",
+		"RepoId": "icsharpcode/ILSpy",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Wille Christoph"
 	},
@@ -1063,7 +1063,7 @@
 		"PreferWinget": true,
 		"WingetId": "ImageMagick.ImageMagick",
 		"WingetInstallerType": "inno",
-		"GitHubId": "ImageMagick/ImageMagick"
+		"RepoId": "ImageMagick/ImageMagick"
 	},
 	{
 		"Name": "ImHex",
@@ -1078,7 +1078,7 @@
 		"PreferWinget": true,
 		"WingetId": "WerWolv.ImHex",
 		"WingetInstallerType": "wix",
-		"GitHubId": "WerWolv/ImHex",
+		"RepoId": "WerWolv/ImHex",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "SignPath Foundation"
 	},
@@ -1091,7 +1091,8 @@
 		"Notes": "really annoying site; redirectors, no easy direct download links\nrepo: https://gitlab.com/inkscape/inkscape",
 		"PreferWinget": true,
 		"WingetId": "Inkscape.Inkscape",
-		"WingetInstallerType": "wix"
+		"WingetInstallerType": "wix",
+		"RepoId": "gl:inkscape/inkscape"
 	},
 	{
 		"Name": "IntelliJIdea",
@@ -1242,7 +1243,7 @@
 		"WingetId": "AppByTroye.KoodoReader",
 		"WingetScope": "user",
 		"WingetInstallerType": "nullsoft",
-		"GitHubId": "koodo-reader/koodo-reader"
+		"RepoId": "koodo-reader/koodo-reader"
 	},
 	{
 		"Name": "kubectl",
@@ -1252,7 +1253,7 @@
 		"PreferWinget": true,
 		"WingetId": "Kubernetes.kubectl",
 		"WingetInstallerType": "portable",
-		"GitHubId": "kubernetes/kubernetes"
+		"RepoId": "kubernetes/kubernetes"
 	},
 	{
 		"Name": "Lens",
@@ -1264,7 +1265,7 @@
 		"WingetId": "Mirantis.Lens",
 		"WingetVersion": "5.4.5-latest.20220405",
 		"WingetScope": "user",
-		"GitHubId": "lensapp/lens"
+		"RepoId": "lensapp/lens"
 	},
 	{
 		"Name": "LibreOffice",
@@ -1411,7 +1412,7 @@
 		"WingetId": "Microsoft.OpenJDK.17",
 		"WingetNoUpgrade": true,
 		"WingetInstallerType": "wix",
-		"GitHubId": "microsoft/openjdk",
+		"RepoId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1430,7 +1431,7 @@
 		"WingetId": "Microsoft.OpenJDK.21",
 		"WingetNoUpgrade": true,
 		"WingetInstallerType": "wix",
-		"GitHubId": "microsoft/openjdk",
+		"RepoId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1449,7 +1450,7 @@
 		"WingetId": "Microsoft.OpenJDK.25",
 		"WingetNoUpgrade": true,
 		"WingetInstallerType": "wix",
-		"GitHubId": "microsoft/openjdk",
+		"RepoId": "microsoft/openjdk",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1467,7 +1468,7 @@
 		"WingetId": "Microsoft.PowerToys",
 		"WingetScope": "user",
 		"WingetInstallerType": "burn",
-		"GitHubId": "microsoft/PowerToys",
+		"RepoId": "microsoft/PowerToys",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1483,7 +1484,7 @@
 		"WingetId": "Microsoft.WindowsTerminal",
 		"WingetSilent": true,
 		"WingetInstallerType": "msix",
-		"GitHubId": "microsoft/terminal",
+		"RepoId": "microsoft/terminal",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1499,7 +1500,7 @@
 		"PreferWinget": true,
 		"WingetId": "mitmproxy.mitmproxy",
 		"WingetInstallerType": "exe",
-		"GitHubId": "mitmproxy/mitmproxy",
+		"RepoId": "gh:mitmproxy/mitmproxy",
 		"WithElevation": true
 	},
 	{
@@ -1511,8 +1512,9 @@
 		"InstallerArguments": "/S /D=%LocalAppData%\\Programs\\mkvtoolnix",
 		"AppPage": "https://mkvtoolnix.download/downloads.html#windows",
 		"ReleaseNotes": "https://mkvtoolnix.download/doc/NEWS.md",
-		"Notes": "https://mkvtoolnix.download/windows/releases/\n~~https://gitlab.com/mbunkus/mkvtoolnix~~ https://codeberg.org/mbunkus/mkvtoolnix\nwinget has portable version, but it has ArchiveBinariesDependOnPath so it will add to path, ugh",
+		"Notes": "ftp-like downloads: https://mkvtoolnix.download/windows/releases/\n~~https://gitlab.com/mbunkus/mkvtoolnix~~\nwinget has portable version, but it has ArchiveBinariesDependOnPath so it will add to path, ugh",
 		"WingetId": "MoritzBunkus.MKVToolNix",
+		"RepoId": "cb:mbunkus/mkvtoolnix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "LINET Services GmbH",
 		"WithElevation": true
@@ -1540,7 +1542,7 @@
 		"PreferWinget": true,
 		"WingetId": "clsid2.mpc-hc",
 		"WingetInstallerType": "inno",
-		"GitHubId": "clsid2/mpc-hc"
+		"RepoId": "gh:clsid2/mpc-hc"
 	},
 	{
 		"Name": "MySqlCommunity",
@@ -1593,7 +1595,7 @@
 		"PreferWinget": true,
 		"WingetId": "Notepad++.Notepad++",
 		"WingetInstallerType": "nullsoft",
-		"GitHubId": "notepad-plus-plus/notepad-plus-plus",
+		"RepoId": "gh:notepad-plus-plus/notepad-plus-plus",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Notepad++",
 		"WithElevation": true
@@ -1608,7 +1610,7 @@
 		"AppPage": "https://www.rizonesoft.com/downloads/notepad3/",
 		"ReleaseNotes": "https://raw.githubusercontent.com/rizonesoft/Notepad3/master/Build/Changes.txt",
 		"WingetId": "Rizonesoft.Notepad3",
-		"GitHubId": "rizonesoft/Notepad3",
+		"RepoId": "gh:rizonesoft/Notepad3",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Derick Payne"
 	},
@@ -1627,7 +1629,7 @@
 		"WingetId": "Obsidian.Obsidian",
 		"WingetScope": "user",
 		"WingetInstallerType": "nullsoft",
-		"GitHubId": "obsidianmd/obsidian-releases",
+		"RepoId": "obsidianmd/obsidian-releases",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Dynalist Inc"
 	},
@@ -1644,7 +1646,7 @@
 		"WingetId": "JanDeDobbeleer.OhMyPosh",
 		"WingetScope": "user",
 		"WingetInstallerType": "msix",
-		"GitHubId": "JanDeDobbeleer/oh-my-posh"
+		"RepoId": "JanDeDobbeleer/oh-my-posh"
 	},
 	{
 		"Name": "OneNote",
@@ -1665,7 +1667,7 @@
 		"UseX86OnArm": true,
 		"InstallerArguments": "-passive -norestart",
 		"WingetId": "namazso.OpenHashTab",
-		"GitHubId": "namazso/OpenHashTab",
+		"RepoId": "namazso/OpenHashTab",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "namazso.eu"
 	},
@@ -1683,7 +1685,7 @@
 		"ReleaseNotes": "https://www.getpaint.net/roadmap.html",
 		"Notes": "https://www.getpaint.net/doc/latest/UnattendedInstallation.html",
 		"WingetId": "dotPDN.PaintDotNet",
-		"GitHubId": "paintdotnet/release",
+		"RepoId": "paintdotnet/release",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "DOTPDN LLC",
 		"WithElevation": true
@@ -1698,7 +1700,7 @@
 		"Notes": "if we switch to MSI installer, the args could be: ALLUSERS=2 APPLICATIONFOLDER=%LocalAppData%\\Programs\\Pandoc\nand the winget package has a portable install, but for some reason, it wants to add it's folder to the path, even though it's just a single exe...",
 		"WingetId": "JohnMacFarlane.Pandoc",
 		"WingetInstallerType": "portable",
-		"GitHubId": "jgm/pandoc",
+		"RepoId": "jgm/pandoc",
 		"AuthenticodeSignedBy": "John MacFarlane"
 	},
 	{
@@ -1707,7 +1709,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.PerfView",
 		"WingetInstallerType": "portable",
-		"GitHubId": "microsoft/perfview"
+		"RepoId": "microsoft/perfview"
 	},
 	{
 		"Name": "Picard",
@@ -1718,7 +1720,7 @@
 		"AppPage": "https://picard.musicbrainz.org/",
 		"ReleaseNotes": "https://blog.metabrainz.org/tag/release/",
 		"WingetId": "MusicBrainz.Picard",
-		"GitHubId": "metabrainz/picard"
+		"RepoId": "metabrainz/picard"
 	},
 	{
 		"Name": "PlexMediaPlayer",
@@ -1758,7 +1760,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.PowerShell",
 		"WingetInstallerType": "msix",
-		"GitHubId": "PowerShell/PowerShell",
+		"RepoId": "PowerShell/PowerShell",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -1814,7 +1816,7 @@
 		"WingetId": "Python.Python.3.12",
 		"WingetScope": "user",
 		"WingetInstallerType": "burn",
-		"GitHubId": "python/cpython",
+		"RepoId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
 	},
@@ -1832,7 +1834,7 @@
 		"WingetId": "Python.Python.3.13",
 		"WingetScope": "user",
 		"WingetInstallerType": "burn",
-		"GitHubId": "python/cpython",
+		"RepoId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
 	},
@@ -1850,7 +1852,7 @@
 		"WingetId": "Python.Python.3.14",
 		"WingetScope": "user",
 		"WingetInstallerType": "burn",
-		"GitHubId": "python/cpython",
+		"RepoId": "python/cpython",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Python Software Foundation"
 	},
@@ -1863,7 +1865,7 @@
 		"PreferWinget": true,
 		"WingetId": "Python.PythonInstallManager",
 		"WingetInstallerType": "msix",
-		"GitHubId": "python/pymanager"
+		"RepoId": "python/pymanager"
 	},
 	{
 		"Name": "qBittorrent",
@@ -1876,7 +1878,7 @@
 		"ReleaseNotes": "https://www.qbittorrent.org/news",
 		"Notes": "it is available in winget, but someone has a forked one as well (c0re100.qBittorrent-Enhanced-Edition), and\n    winget keeps detecting this install as that one and if that ever gets updated again, that's not the one i want",
 		"WingetId": "qBittorrent.qBittorrent.lt2",
-		"GitHubId": "qbittorrent/qBittorrent"
+		"RepoId": "qbittorrent/qBittorrent"
 	},
 	{
 		"Name": "QuickLook",
@@ -1887,7 +1889,7 @@
 		"InstallerArguments": "-passive -norestart",
 		"Notes": "is available in winget, but their configuration seems broken: no updates are ever detected (https://github.com/microsoft/winget-cli/issues/5654),\n    think in this case because QuickLook's ProductCode gets changed every time ??\nplugins: https://github.com/QL-Win/QuickLook/wiki/Available-Plugins\nstores config data, user installed plugins in %APPDATA%\\pooi.moe\\QuickLook\\",
 		"WingetId": "QL-Win.QuickLook",
-		"GitHubId": "QL-Win/QuickLook"
+		"RepoId": "QL-Win/QuickLook"
 	},
 	{
 		"Name": "Resharper",
@@ -1935,7 +1937,7 @@
 		"PreferWinget": true,
 		"WingetId": "Rufus.Rufus",
 		"WingetInstallerType": "portable",
-		"GitHubId": "pbatard/rufus",
+		"RepoId": "pbatard/rufus",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Akeo Consulting"
 	},
@@ -1980,7 +1982,7 @@
 		"PreferWinget": true,
 		"WingetId": "paolosalvatori.ServiceBusExplorer",
 		"WingetInstallerType": "portable",
-		"GitHubId": "paolosalvatori/ServiceBusExplorer"
+		"RepoId": "paolosalvatori/ServiceBusExplorer"
 	},
 	{
 		"Name": "Sigil",
@@ -1994,7 +1996,7 @@
 		"WingetId": "Sigil-Ebook.Sigil",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "Sigil-Ebook/Sigil"
+		"RepoId": "Sigil-Ebook/Sigil"
 	},
 	{
 		"Name": "SourceGit",
@@ -2007,7 +2009,7 @@
 		"Notes": "winget has portable install, but it adds new folder to path, ugh",
 		"WingetId": "sourcegit-scm.SourceGit",
 		"WingetInstallerType": "portable",
-		"GitHubId": "sourcegit-scm/sourcegit"
+		"RepoId": "sourcegit-scm/sourcegit"
 	},
 	{
 		"Name": "SourceTree",
@@ -2206,7 +2208,7 @@
 		"WingetId": "Stellarium.Stellarium",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "Stellarium/stellarium",
+		"RepoId": "Stellarium/stellarium",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "SignPath Foundation"
 	},
@@ -2223,7 +2225,7 @@
 		"WingetId": "SumatraPDF.SumatraPDF",
 		"WingetScope": "user",
 		"WingetInstallerType": "exe",
-		"GitHubId": "sumatrapdfreader/sumatrapdf",
+		"RepoId": "sumatrapdfreader/sumatrapdf",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Krzysztof Kowalczyk"
 	},
@@ -2264,10 +2266,11 @@
 		"UrlArm64": "https://download.tortoisegit.org/tgit/2.18.0.0/TortoiseGit-2.18.0.0-arm64.msi",
 		"AppPage": "https://tortoisegit.org/download/",
 		"ReleaseNotes": "https://tortoisegit.org/docs/releasenotes/",
-		"Notes": "GitLab Repo: https://gitlab.com/tortoisegit/tortoisegit/\nGitHub Mirror: https://github.com/tortoisegit/tortoisegit/ (no releases though)",
+		"Notes": "GitHub Mirror: https://github.com/tortoisegit/tortoisegit/ (no releases though)",
 		"PreferWinget": true,
 		"WingetId": "TortoiseGit.TortoiseGit",
 		"WingetInstallerType": "wix",
+		"RepoId": "gl:tortoisegit/tortoisegit",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Open Source Developer, Sven Strickroth"
 	},
@@ -2437,7 +2440,7 @@
 		"AppPage": "https://www.ventoy.net/en/download.html",
 		"Notes": "winget does have it and it's a portable install, but it has \"ArchiveBinariesDependOnPath: true\", so it would add another folder to path, and ugh",
 		"WingetId": "Ventoy.Ventoy",
-		"GitHubId": "ventoy/Ventoy"
+		"RepoId": "ventoy/Ventoy"
 	},
 	{
 		"Name": "VeraCrypt",
@@ -2448,7 +2451,7 @@
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"WingetId": "IDRIX.VeraCrypt",
-		"GitHubId": "veracrypt/VeraCrypt",
+		"RepoId": "veracrypt/VeraCrypt",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "IDRIX SARL",
 		"WithElevation": true
@@ -2465,7 +2468,7 @@
 		"ReleaseNotes": "https://www.virtualbox.org/wiki/Changelog",
 		"Notes": "hashes: https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/SHA256SUMS\n    or: https://download.virtualbox.org/virtualbox/{{ver_maj}}.{{ver_min}}.{{ver_bld}}/SHA256SUMS\ninstaller now checks for some python package and complains if it's not found\nso first need to install python (if haven't already), and install the pip package \"pywin32\"\nand it doesn't work with the MS store version of python, have to use the non-store version",
 		"WingetId": "Oracle.VirtualBox",
-		"GitHubId": "VirtualBox/virtualbox",
+		"RepoId": "VirtualBox/virtualbox",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Oracle America, Inc.",
 		"WithElevation": true
@@ -2555,7 +2558,7 @@
 		"WingetId": "Microsoft.VisualStudioCode",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "microsoft/vscode",
+		"RepoId": "microsoft/vscode",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
@@ -2603,7 +2606,7 @@
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
 		"Notes": "they have an msix installer now, but ?? don't think we'd be able to use runass anymore ??\nwinget only has the msi installer, no portable or msix (yet?)",
 		"WingetId": "WinDirStat.WinDirStat",
-		"GitHubId": "windirstat/windirstat"
+		"RepoId": "windirstat/windirstat"
 	},
 	{
 		"Name": "WinMerge",
@@ -2619,7 +2622,7 @@
 		"WingetId": "WinMerge.WinMerge",
 		"WingetScope": "machine",
 		"WingetInstallerType": "inno",
-		"GitHubId": "WinMerge/winmerge",
+		"RepoId": "WinMerge/winmerge",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Takashi Sawanaka"
 	},
@@ -2650,7 +2653,7 @@
 		"WingetId": "WinSCP.WinSCP",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
-		"GitHubId": "winscp/winscp",
+		"RepoId": "winscp/winscp",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Martin Prikryl"
 	},
@@ -2664,10 +2667,11 @@
 		"HashArm64": "sha256:62a0d34efb4418fe373b8f56a13457ff488c827d8c7d7f48e3037e52752bee6f",
 		"AppPage": "https://www.wireshark.org/download.html",
 		"ReleaseNotes": "https://www.wireshark.org/docs/relnotes/",
-		"Notes": "https://gitlab.com/wireshark/wireshark/\nhttps://github.com/wireshark/wireshark/ [readonly mirror]\nhashes: https://www.wireshark.org/download/SIGNATURES-{{version}}.txt",
+		"Notes": "https://github.com/wireshark/wireshark/ [readonly mirror]\nhashes: https://www.wireshark.org/download/SIGNATURES-{{version}}.txt",
 		"PreferWinget": true,
 		"WingetId": "WiresharkFoundation.Wireshark",
 		"WingetInstallerType": "nullsoft",
+		"RepoId": "gl:wireshark/wireshark",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Wireshark Foundation",
 		"WithElevation": true
@@ -2685,7 +2689,7 @@
 		"PreferWinget": true,
 		"WingetId": "Microsoft.WSL",
 		"WingetInstallerType": "wix",
-		"GitHubId": "Microsoft/WSL"
+		"RepoId": "Microsoft/WSL"
 	},
 	{
 		"Name": "XnViewMP",
@@ -2713,6 +2717,6 @@
 		"Notes": "the msi installer just installs to %LocalAppData%/Programs without asking, and that's what winget uses, so just use that",
 		"PreferWinget": true,
 		"WingetId": "aandrew-me.ytDownloader",
-		"GitHubId": "aandrew-me/ytDownloader"
+		"RepoId": "aandrew-me/ytDownloader"
 	}
 ]
