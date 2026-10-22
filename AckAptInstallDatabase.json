@@ -2231,10 +2231,10 @@
 	},
 	{
 		"Name": "SyncBackPro",
-		"Version": "12.1.22.0",
+		"Version": "12.1.34.0",
 		"Type": "exe",
 		"UrlX8664": "https://www.2brightsparks.com/assets/software/SyncBackProV1264_Setup.exe",
-		"HashX8664": "sha256:db827a5c4e2b042b61b72609d6a33d241c19b9ffd8e4832bc0623216d9970a70",
+		"HashX8664": "sha256:b72c9dbe4acb155bde91073dcc8c658249cf6abce198124030f35647975f569b",
 		"InstallerArguments": "/Silent /SP- /Counter=5 /UpdCheckDays=0 /NoRestart",
 		"HeadersToAdd": "User-Agent: winget-cli",
 		"AppPage": "https://www.2brightsparks.com/download-syncbackpro.html",
