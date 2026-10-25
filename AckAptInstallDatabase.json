@@ -2595,10 +2595,10 @@
 	},
 	{
 		"Name": "WinDirStat",
-		"Version": "2.8.0",
+		"Version": "2.9.3",
 		"Type": "zip",
 		"UrlX8632": "https://github.com/windirstat/windirstat/releases/download/release/v{{version}}/WinDirStat.7z",
-		"HashX8632": "sha256:59eca6f14bff69f12b90a2dac26ac7a57c245097e7e4b2e08db88b41cdc4bc81",
+		"HashX8632": "sha256:e0509718e588ffae76e93f3db6bebaba48b93fa1b9972275de85876229806977",
 		"UseX86OnArm": true,
 		"AppPage": "https://windirstat.net/",
 		"ReleaseNotes": "https://github.com/windirstat/windirstat/blob/master/CHANGELOG.md",
