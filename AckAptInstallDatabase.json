@@ -1752,7 +1752,7 @@
 		"Version": "7.6.9",
 		"Type": "msix",
 		"UrlX8632": "https://github.com/PowerShell/PowerShell/releases/download/v{{ver}}/PowerShell-{{ver}}.msixbundle",
-		"HashX8632": "sha256:93C82DD33B98331ED1DF91E3F857C2371B716F9B46B431F7A0155416AA395A98",
+		"HashX8632": "sha256:da75c8aa23edda52e888fb586a46b923ab37a7c243719c2e8914b00130c5917a",
 		"PreInstallMessage": "make sure you close all the running instances of pwsh.exe that apps might have started: Terminal, VS Code, PowerToys, etc",
 		"AppPage": "https://microsoft.com/PowerShell",
 		"PreInstallScript": "if ([bool](Get-Process -Name pwsh -ErrorAction Ignore)) {\n\t$context.WriteErrorMessage(\"You need to close all running instances of PowerShellCore before installation can continue.\")\n\treturn -100 # magic value that means we already showed the error\n}\nreturn 0",
