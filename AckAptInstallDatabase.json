@@ -2552,7 +2552,6 @@
 		"AppPage": "https://code.visualstudio.com/Download",
 		"ReleaseNotes": "https://code.visualstudio.com/updates",
 		"Notes": "https://go.microsoft.com/fwlink/?Linkid=852157 | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64 [system]\nhttps://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user [user]\nlinks and hashes json: https://code.visualstudio.com/sha?build=stable",
-		"PreferWinget": true,
 		"WingetId": "Microsoft.VisualStudioCode",
 		"WingetScope": "user",
 		"WingetInstallerType": "inno",
