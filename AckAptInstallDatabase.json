@@ -65,12 +65,12 @@
 	},
 	{
 		"Name": "Audacity",
-		"Version": "4.0.1",
+		"Version": "4.0.2",
 		"Type": "wix",
 		"UrlX8664": "https://github.com/audacity/audacity/releases/download/Audacity-{{version}}/audacity-win-{{version}}-x86_64.msi",
 		"UrlArm64": "https://github.com/audacity/audacity/releases/download/Audacity-{{version}}/audacity-win-{{version}}-arm64.msi",
-		"HashX8664": "sha256:efb652bf04168f5d4893f28b7cefaaf5ef385d9251544540ac774e3bf54793a3",
-		"HashArm64": "sha256:b6606d9bcb1a49254f1966c7edc68d78f7eadd04eebe7d4676350f32ca675f49",
+		"HashX8664": "sha256:ff6cad670befee96fee563056965fa5e17bfa8c7ea3aba10c461c18799409e22",
+		"HashArm64": "sha256:78a11f84f3f28be7dee932f99a2da2f6a8ecb60ac1ee8fe2ff3c85f0f6a5a9d8",
 		"InstallerArguments": "-passive -norestart",
 		"AppPage": "http://www.audacityteam.org/download/",
 		"ReleaseNotes": "https://support.audacityteam.org/additional-resources/changelog",
@@ -1556,10 +1556,10 @@
 	},
 	{
 		"Name": "NirLauncher",
-		"Version": "1.30.26",
+		"Version": "1.30.27",
 		"Type": "download",
 		"UrlX8632": "https://download.nirsoft.net/nirsoft_package_enc_{{version}}.zip",
-		"HashX8632": "sha256:6cfd973d0f2d34ec2fe5c7cfdcc0bdbcb56a8fad329fb4683f6446602769f1b2",
+		"HashX8632": "sha256:cd1c69778f3503b799c3ac68ab5f88f6aa38bf52944c4e5401a435b4b4e8ad06",
 		"PostInstallMessage": "1) DO NOT copy the NirLauncher.cfg\n2) pw for the zip file is \"nirsoft9876$\"\n3) and don't forget to copy the files carefully so AntiVirus doesn't stupidly freak out",
 		"HeadersToAdd": "Referer: https://launcher.nirsoft.net/downloads/index.html",
 		"AppPage": "https://launcher.nirsoft.net/downloads/index.html"
