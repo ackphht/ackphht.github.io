@@ -301,7 +301,7 @@
 	},
 	{
 		"Name": "cpu-z",
-		"Version": "2.21",
+		"Version": "3.02",
 		"Type": "zip",
 		"UrlX8632": "https://download.cpuid.com/cpu-z/cpu-z_{{version}}-en.zip",
 		"AppPage": "https://www.cpuid.com/softwares/cpu-z.html",
@@ -769,10 +769,10 @@
 	},
 	{
 		"Name": "gimp",
-		"Version": "3.2.6",
+		"Version": "3.2.8",
 		"Type": "inno",
 		"UrlX8632": "https://download.gimp.org/gimp/v{{ver_maj}}.{{ver_min}}/windows/gimp-{{ver_maj}}.{{ver_min}}.{{ver_bld}}-setup.exe",
-		"HashX8632": "sha256:9337cccbc01d4098ee7a3dab215b3afbe6ece99c5287c92441d6f12cf541ebca",
+		"HashX8632": "sha256:1d78874295661d791eaf149982e9b3564888631ea29186da5ff99e8114020a5b",
 		"UseX86OnArm": true,
 		"InstallerArguments": "/SP- /CURRENTUSER",
 		"AppPage": "https://www.gimp.org/downloads/",
