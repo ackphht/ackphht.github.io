@@ -2445,7 +2445,7 @@
 		"Version": "1.26.31",
 		"Type": "exe",
 		"UrlX8664": "https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_{{version}}/VeraCrypt.Setup.{{version}}.exe",
-		"HashX8664": "sha256:43d18ba3b106c99928fd1b95d01907fc35af4a5b93ec332d77f09e165e561a6b",
+		"HashX8664": "sha256:9d7b4c294a353efd45855205133286c04f07308218877f29ee881f686268a615",
 		"AppPage": "https://www.veracrypt.fr/en/Downloads.html",
 		"Notes": "old codeplex site: https://veracrypt.codeplex.com/releases",
 		"WingetId": "IDRIX.VeraCrypt",
