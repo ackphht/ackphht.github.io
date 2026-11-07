@@ -939,7 +939,7 @@
 		"PreferWinget": true,
 		"WingetId": "Google.QuickShare",
 		"WingetSilent": true,
-		"WingetInstallerType": "exe",
+		"WingetInstallerType": "wix",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "Google LLC"
 	},
