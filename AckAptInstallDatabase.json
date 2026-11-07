@@ -729,7 +729,7 @@
 	{
 		"Name": "foobar2000Encoders",
 		"Version": "2026.03.13",
-		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-2026-03-13.exe",
+		"UrlX8632": "https://www.foobar2000.org/downloads/Free_Encoder_Pack-{{ver_maj}}-{{ver_min:00}}-{{ver_bld:00}}.exe",
 		"UseX86OnArm": true,
 		"AppPage": "https://www.foobar2000.org/encoderpack",
 		"ReleaseNotes": "https://www.foobar2000.org/changelog-encoderpack",
