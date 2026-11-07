@@ -1,12 +1,12 @@
 [
 	{
 		"Name": "7zip",
-		"Version": "26.05",
+		"Version": "26.06",
 		"Type": "nsis",
-		"UrlX8664": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-x64.exe",
-		"UrlArm64": "https://github.com/ip7z/7zip/releases/download/26.05/7z2605-arm64.exe",
-		"HashX8664": "sha256:fd99e86f57d8f429ef5ed045bf98315af962e2309b0f1ba87a147a44c71647d0",
-		"HashArm64": "sha256:86d5790d5dd84cab4636c3bb7fab10d3ed7cd3e57e6119401bd2769e28165268",
+		"UrlX8664": "https://github.com/ip7z/7zip/releases/download/{{ver}}/7z{{ver_maj}}{{ver_min:00}}-x64.exe",
+		"UrlArm64": "https://github.com/ip7z/7zip/releases/download/{{ver}}/7z{{ver_maj}}{{ver_min:00}}-arm64.exe",
+		"HashX8664": "sha256:9b697f65ecc2d9b0152f5ee96d72dde522a7827690349d9307935dacf40f42ec",
+		"HashArm64": "sha256:036a00d478ef81f4b4b85fb37b0f934d558341f3f51aa7d36d2a26454740e625",
 		"PreInstallMessage": "installing 7Zip: should probably kill explorer.exe now",
 		"PostInstallMessage": "done installing 7Zip: can restart explorer.exe now, if necessary",
 		"InstallerArguments": "/S",
