@@ -1984,10 +1984,10 @@
 	},
 	{
 		"Name": "Sigil",
-		"Version": "2.8.5",
+		"Version": "2.8.6",
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
-		"HashX8664": "sha256:be1138caa41e49b6a4aca564bd858a90454d640ae94c061878a33b3e8d90f1d6",
+		"HashX8664": "sha256:95cf12e2611f5cbf38ba079281f7806f696c6e7c81ba5c52112508be2a482d6b",
 		"PostInstallMessage": "don't forget to tweak the elements.py...",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /NORESTART /COMPONENTS=-dicon",
 		"AppPage": "http://sigil-ebook.com/",
