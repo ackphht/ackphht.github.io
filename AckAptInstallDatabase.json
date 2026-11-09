@@ -854,6 +854,15 @@
 		"RepoId": "cli/cli"
 	},
 	{
+		"Name": "GitHubCopilotCli",
+		"Version": "0.0.0",
+		"AppPage": "https://docs.github.com/copilot/concepts/agents/about-copilot-cli",
+		"PreferWinget": true,
+		"WingetId": "GitHub.Copilot",
+		"WingetInstallerType": "portable",
+		"RepoId": "github/copilot-cli"
+	},
+	{
 		"Name": "GitHubDesktop",
 		"Version": "0.0.0",
 		"Type": "exe",
@@ -1988,7 +1997,7 @@
 		"Type": "inno",
 		"UrlX8664": "https://github.com/Sigil-Ebook/Sigil/releases/download/{{version}}/Sigil-{{version}}-Windows-x64-Setup.exe",
 		"HashX8664": "sha256:95cf12e2611f5cbf38ba079281f7806f696c6e7c81ba5c52112508be2a482d6b",
-		"PostInstallMessage": "don't forget to tweak the elements.py...",
+		"PostInstallMessage": "don't forget to tweak the element.py...",
 		"InstallerArguments": "/SP- /SILENT /CURRENTUSER /NORESTART /COMPONENTS=-dicon",
 		"AppPage": "http://sigil-ebook.com/",
 		"WingetId": "Sigil-Ebook.Sigil",
@@ -2584,6 +2593,17 @@
 		"WingetInstallerType": "nullsoft",
 		"AuthenticodeRequired": true,
 		"AuthenticodeSignedBy": "JetBrains s.r.o."
+	},
+	{
+		"Name": "WinAppCli",
+		"Version": "0.0.0",
+		"Type": "msix",
+		"AppPage": "https://learn.microsoft.com/en-us/windows/apps/dev-tools/winapp-cli/",
+		"Notes": "agent plugin: https://learn.microsoft.com/en-us/windows/apps/develop/ai-assisted/winui-agent-plugin",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.WinAppCli",
+		"WingetInstallerType": "msix",
+		"RepoId": "microsoft/WinAppCli"
 	},
 	{
 		"Name": "WinDbg",
