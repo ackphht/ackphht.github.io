@@ -502,26 +502,6 @@
 		"AuthenticodeSignedBy": "Microsoft Corporation"
 	},
 	{
-		"Name": "DotNetCoreSdk8",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.8",
-		"WingetInstallerType": "burn"
-	},
-	{
-		"Name": "DotNetCoreSdk9",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.SDK.9",
-		"WingetInstallerType": "burn"
-	},
-	{
 		"Name": "DotNetCoreSdk10",
 		"Version": "0.0.0",
 		"Type": "burn",
@@ -532,25 +512,13 @@
 		"WingetInstallerType": "burn"
 	},
 	{
-		"Name": "DotNetCoreDesktopRuntime8",
+		"Name": "DotNetCoreSdk11",
 		"Version": "0.0.0",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
-		"Notes": "includes the .NET Runtime, so don't need to install it separately",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/11.0",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.8",
-		"WingetInstallerType": "burn"
-	},
-	{
-		"Name": "DotNetCoreDesktopRuntime9",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
-		"Notes": "includes the .NET Runtime, so don't need to install it separately",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.DesktopRuntime.9",
+		"WingetId": "Microsoft.DotNet.SDK.11",
 		"WingetInstallerType": "burn"
 	},
 	{
@@ -565,25 +533,14 @@
 		"WingetInstallerType": "burn"
 	},
 	{
-		"Name": "DotNetCoreAspNetHostingBundle8",
+		"Name": "DotNetCoreDesktopRuntime11",
 		"Version": "0.0.0",
 		"Type": "burn",
 		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/8.0",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/11.0",
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.8",
-		"WingetInstallerType": "burn"
-	},
-	{
-		"Name": "DotNetCoreAspNetHostingBundle9",
-		"Version": "0.0.0",
-		"Type": "burn",
-		"InstallerArguments": "-passive",
-		"AppPage": "https://dotnet.microsoft.com/download/dotnet/9.0",
-		"Notes": "includes the .NET Runtime, so don't need to install it separately",
-		"PreferWinget": true,
-		"WingetId": "Microsoft.DotNet.HostingBundle.9",
+		"WingetId": "Microsoft.DotNet.DesktopRuntime.11",
 		"WingetInstallerType": "burn"
 	},
 	{
@@ -595,6 +552,17 @@
 		"Notes": "includes the .NET Runtime, so don't need to install it separately",
 		"PreferWinget": true,
 		"WingetId": "Microsoft.DotNet.HostingBundle.10",
+		"WingetInstallerType": "burn"
+	},
+	{
+		"Name": "DotNetCoreAspNetHostingBundle11",
+		"Version": "0.0.0",
+		"Type": "burn",
+		"InstallerArguments": "-passive",
+		"AppPage": "https://dotnet.microsoft.com/download/dotnet/11.0",
+		"Notes": "includes the .NET Runtime, so don't need to install it separately",
+		"PreferWinget": true,
+		"WingetId": "Microsoft.DotNet.HostingBundle.11",
 		"WingetInstallerType": "burn"
 	},
 	{
