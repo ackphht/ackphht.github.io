@@ -40,6 +40,16 @@
 		"AuthenticodeSignedBy": "IP Izmaylov Artem Andreevich"
 	},
 	{
+		"Name": "AndroidPlatformTools",
+		"Version": "37.0.3",
+		"Type": "zip",
+		"UrlX8664": "https://dl.google.com/android/repository/platform-tools_r{{ver}}-win.zip",
+		"AppPage": "https://developer.android.com/tools#tools-platform",
+		"ReleaseNotes": "https://developer.android.com/tools/releases/platform-tools#revisions",
+		"Notes": "winget has a portable install, but it has ArchiveBinariesDependOnPath, so yuck",
+		"WingetId": "Google.PlatformTools"
+	},
+	{
 		"Name": "AndroidStudio",
 		"Version": "0.0.0",
 		"Type": "exe",
