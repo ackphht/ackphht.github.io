@@ -760,7 +760,8 @@
 		"WingetInstallerType": "nullsoft",
 		"RepoId": "frostwire/frostwire",
 		"AuthenticodeRequired": true,
-		"AuthenticodeSignedBy": "FrostWire LLC"
+		"AuthenticodeSignedBy": "FrostWire LLC",
+		"WithElevation": true
 	},
 	{
 		"Name": "gimp",
